@@ -1,0 +1,80 @@
+---
+title: Personalizar a configuração inicial pelo usuário para implantações do Surface
+description: Este artigo o orientará durante o processo de personalizar a configuração inicial pelo usuário do Surface para usuários finais em sua organização.
+ms.assetid: F6910315-9FA9-4297-8FA8-2C284A4B1D87
+ms.reviewer: ''
+manager: laurawi
+keywords: implantar, personalizar, automatizar, rede, Caneta, emparelhar, inicialização
+ms.localizationpriority: medium
+ms.prod: w10
+ms.mktglfcycl: deploy
+ms.pagetype: surface, devices
+ms.sitesec: library
+author: coveminer
+ms.author: greglin
+ms.topic: article
+ms.audience: itpro
+ms.openlocfilehash: 97cc262d803875a76427d04c8f9b70547152f895
+ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "10830519"
+---
+# <span data-ttu-id="340dc-104">Personalizar a configuração inicial pelo usuário para implantações do Surface</span><span class="sxs-lookup"><span data-stu-id="340dc-104">Customize the OOBE for Surface deployments</span></span>
+
+<span data-ttu-id="340dc-105">Este artigo descreve a personalização da experiência inicial pelo usuário da superfície para os usuários finais de sua organização.</span><span class="sxs-lookup"><span data-stu-id="340dc-105">This article describes customizing the Surface out-of-box experience for end users in your organization.</span></span>
+
+<span data-ttu-id="340dc-106">Em uma implantação do Windows, é prática comum personalizar a experiência do usuário para a primeira inicialização dos computadores implantados — a configuração inicial pelo usuário, ou tela de apresentação.</span><span class="sxs-lookup"><span data-stu-id="340dc-106">It is common practice in a Windows deployment to customize the user experience for the first startup of deployed computers — the out-of-box experience, or OOBE.</span></span>
+
+>[!NOTE]
+><span data-ttu-id="340dc-107">A configuração inicial pelo usuário muitas vezes também é usada para descrever a fase ou o passo de configuração da instalação do Windows durante o qual a experiência do usuário é exibida.</span><span class="sxs-lookup"><span data-stu-id="340dc-107">OOBE is also often used to describe the phase, or configuration pass, of Windows setup during which the user experience is displayed.</span></span> <span data-ttu-id="340dc-108">Para obter mais informações sobre a fase da configuração inicial pelo usuário da instalação, confira [Como os passos de configuração funcionam](https://msdn.microsoft.com/library/windows/hardware/dn898581.aspx).</span><span class="sxs-lookup"><span data-stu-id="340dc-108">For more information about the OOBE phase of setup, see [How Configuration Passes Work](https://msdn.microsoft.com/library/windows/hardware/dn898581.aspx).</span></span>
+
+<span data-ttu-id="340dc-109">Em alguns cenários, convém fornecer automação completa para garantir que, no fim de uma implantação, os computadores estejam prontos para uso sem interação do usuário.</span><span class="sxs-lookup"><span data-stu-id="340dc-109">In some scenarios, you may want to provide complete automation to ensure that at the end of a deployment, computers are ready for use without any interaction from the user.</span></span> <span data-ttu-id="340dc-110">Em outros cenários, convém deixar elementos-chave da experiência para que os usuários executem ações necessárias ou selecionem dentre opções importantes.</span><span class="sxs-lookup"><span data-stu-id="340dc-110">In other scenarios, you may want to leave key elements of the experience for users to perform necessary actions or select between important choices.</span></span> <span data-ttu-id="340dc-111">Para administradores que implantam em dispositivos Surface, cada um desses cenários apresenta um desafio exclusivo a ser superado.</span><span class="sxs-lookup"><span data-stu-id="340dc-111">For administrators deploying to Surface devices, each of these scenarios presents a unique challenge to overcome.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="340dc-112">Este artigo não se aplica ao Surface Pro X. Para obter mais informações, consulte [implantação, gerenciamento e manutenção do Surface Pro X](surface-pro-arm-app-management.md)</span><span class="sxs-lookup"><span data-stu-id="340dc-112">This article does not apply to Surface Pro X. For more information, refer to [Deploying, managing, and servicing Surface Pro X](surface-pro-arm-app-management.md)</span></span>
+
+<span data-ttu-id="340dc-113">Este artigo fornece um resumo dos cenários em que uma implantação pode exigir etapas adicionais.</span><span class="sxs-lookup"><span data-stu-id="340dc-113">This article provides a summary of the scenarios where a deployment might require additional steps.</span></span> <span data-ttu-id="340dc-114">Ele também fornece as informações necessárias para garantir que a experiência desejada seja atingida em qualquer dispositivo Surface recém-implantado.</span><span class="sxs-lookup"><span data-stu-id="340dc-114">It also provides the required information to ensure that the desired experience is achieved on any newly deployed Surface device.</span></span> <span data-ttu-id="340dc-115">Este artigo se destina a administradores que estão familiarizados com o processo de implantação e com conceitos como arquivos de resposta e [imagens de referência](https://technet.microsoft.com/itpro/windows/deploy/create-a-windows-10-reference-image).</span><span class="sxs-lookup"><span data-stu-id="340dc-115">This article is intended for administrators who are familiar with the deployment process, as well as concepts such as answer files and [reference images](https://technet.microsoft.com/itpro/windows/deploy/create-a-windows-10-reference-image).</span></span>
+
+>[!NOTE]
+><span data-ttu-id="340dc-116">Embora a fase OOBE da instalação ainda seja executada durante uma implantação com uma solução de implantação automatizada, como o kit de ferramentas de implantação da [Microsoft (MDT)](https://go.microsoft.com/fwlink/p/?LinkId=618117) ou implantação do sistema operacional Microsoft Endpoint Configuration Manager (OSD), ela é automatizada pelas configurações fornecidas no assistente de implantação e na sequência de tarefas.</span><span class="sxs-lookup"><span data-stu-id="340dc-116">Although the OOBE phase of setup is still run during a deployment with an automated deployment solution such as the [Microsoft Deployment Toolkit (MDT)](https://go.microsoft.com/fwlink/p/?LinkId=618117) or Microsoft Endpoint Configuration Manager Operating System Deployment (OSD), it is automated by the settings supplied in the Deployment Wizard and task sequence.</span></span> <span data-ttu-id="340dc-117">Para saber mais, confira:</span><span class="sxs-lookup"><span data-stu-id="340dc-117">For more information see:</span></span><br/>
+>- [<span data-ttu-id="340dc-118">Implantar o Windows 10 com o Microsoft Deployment Toolkit</span><span class="sxs-lookup"><span data-stu-id="340dc-118">Deploy Windows 10 with the Microsoft Deployment Toolkit</span></span>](https://technet.microsoft.com/itpro/windows/deploy/deploy-windows-10-with-the-microsoft-deployment-toolkit)
+>- [<span data-ttu-id="340dc-119">Implantar o Windows 10 com o System Center 2012 R2 Configuration Manager</span><span class="sxs-lookup"><span data-stu-id="340dc-119">Deploy Windows 10 with System Center 2012 R2 Configuration Manager</span></span>](https://technet.microsoft.com/itpro/windows/deploy/deploy-windows-10-with-system-center-2012-r2-configuration-manager)
+
+ 
+
+## <span data-ttu-id="340dc-120">Cenário 1: rede sem fio na configuração inicial pelo usuário com MDT 2013</span><span class="sxs-lookup"><span data-stu-id="340dc-120">Scenario 1: Wireless networking in OOBE with MDT 2013</span></span>
+
+
+<span data-ttu-id="340dc-121">Quando um adaptador de rede sem fio está presente na tela de apresentação, a página **Ingressar em uma rede sem fio** é exibida, solicitando que um usuário se conecte a uma rede sem fio.</span><span class="sxs-lookup"><span data-stu-id="340dc-121">When a wireless network adapter is present during OOBE, the **Join a wireless network** page is displayed, which prompts a user to connect to a wireless network.</span></span> <span data-ttu-id="340dc-122">Essa página não é ocultada automaticamente pelas tecnologias de implantação, incluindo o MDT 2013. Portanto, ela será exibida mesmo quando uma implantação estiver configurada para automação completa.</span><span class="sxs-lookup"><span data-stu-id="340dc-122">This page is not automatically hidden by deployment technologies, including MDT 2013, and therefore will be displayed even when a deployment is configured for complete automation.</span></span>
+
+<span data-ttu-id="340dc-123">Para garantir que uma implantação automatizada não seja interrompida por essa página, a página deve ser ocultada definindo-se uma configuração adicional no arquivo de resposta, **HideWirelessSetupInOOBE**.</span><span class="sxs-lookup"><span data-stu-id="340dc-123">To ensure that an automated deployment is not stopped by this page, the page must be hidden by configuring an additional setting in the answer file, **HideWirelessSetupInOOBE**.</span></span> <span data-ttu-id="340dc-124">Você pode encontrar informações adicionais sobre a configuração **HideWirelessSetupInOOBE** na [Referência de instalação autônoma do Windows](https://technet.microsoft.com/library/ff716213.aspx).</span><span class="sxs-lookup"><span data-stu-id="340dc-124">You can find additional information about the **HideWirelessSetupInOOBE** setting in [Unattended Windows Setup Reference](https://technet.microsoft.com/library/ff716213.aspx).</span></span>
+
+## <span data-ttu-id="340dc-125">Cenário 2: emparelhamento da Caneta Surface na tela de apresentação</span><span class="sxs-lookup"><span data-stu-id="340dc-125">Scenario 2: Surface Pen pairing in OOBE</span></span>
+
+
+<span data-ttu-id="340dc-126">Quando você retira da embalagem um Surface Pro 3, um Surface Pro 4, um Surface Book ou um Surface Studio e o inicia, a tela de apresentação da imagem de fábrica inclui um prompt que o solicita a emparelhar com o dispositivo a Caneta Surface incluída.</span><span class="sxs-lookup"><span data-stu-id="340dc-126">When you first take a Surface Pro 3, Surface Pro 4, Surface Book, or Surface Studio out of the package and start it up, the first-run experience of the factory image includes a prompt that asks you to pair the included Surface Pen to the device.</span></span> <span data-ttu-id="340dc-127">Esse prompt é fornecido apenas pela imagem de fábrica que acompanha o dispositivo e não é incluído em outras imagens usadas para implantação, como a mídia de instalação do Windows Enterprise baixada do Centro de Serviços de Licenciamento por Volume.</span><span class="sxs-lookup"><span data-stu-id="340dc-127">This prompt is only provided by the factory image that ships with the device and is not included in other images used for deployment, such as the Windows Enterprise installation media downloaded from the Volume Licensing Service Center.</span></span> <span data-ttu-id="340dc-128">Como o emparelhamento da Caneta Surface Bluetooth fora dessa experiência requer que você entre no Painel de Controle ou nas Configurações do computador e emparelhe manualmente um dispositivo Bluetooth, convém deixar que os usuários ou um técnico usem esse prompt para executar a operação de emparelhamento.</span><span class="sxs-lookup"><span data-stu-id="340dc-128">Because pairing the Bluetooth Surface Pen outside of this experience requires that you enter the Control Panel or PC Settings and manually pair a Bluetooth device, you may want to have users or a technician use this prompt to perform the pairing operation.</span></span>
+
+<span data-ttu-id="340dc-129">Para fornecer a experiência de emparelhamento da Caneta Surface de fábrica na configuração inicial pelo usuário, primeiro você deve copiar quatro arquivos da imagem do Surface de fábrica para a imagem de referência.</span><span class="sxs-lookup"><span data-stu-id="340dc-129">To provide the factory Surface Pen pairing experience in OOBE, you must copy four files from the factory Surface image into the reference image.</span></span> <span data-ttu-id="340dc-130">Você pode copiar esses arquivos para o ambiente de referência antes de capturar a imagem de referência ou pode adicioná-los mais tarde usando o DISM (Gerenciamento e Manutenção de Imagens de Implantação) para montar a imagem.</span><span class="sxs-lookup"><span data-stu-id="340dc-130">You can copy these files into the reference environment before you capture the reference image, or you can add them later by using Deployment Image Servicing and Management (DISM) to mount the image.</span></span> <span data-ttu-id="340dc-131">Os quatro arquivos necessários são:</span><span class="sxs-lookup"><span data-stu-id="340dc-131">The four required files are:</span></span>
+
+-   <span data-ttu-id="340dc-132">%windir%\\system32\\oobe\\info\\default\\1033\\oobe.xml</span><span class="sxs-lookup"><span data-stu-id="340dc-132">%windir%\\system32\\oobe\\info\\default\\1033\\oobe.xml</span></span>
+-   <span data-ttu-id="340dc-133">%windir%\\system32\\oobe\\info\\default\\1033\\PenPairing\_en-US.png</span><span class="sxs-lookup"><span data-stu-id="340dc-133">%windir%\\system32\\oobe\\info\\default\\1033\\PenPairing\_en-US.png</span></span>
+-   <span data-ttu-id="340dc-134">%windir%\\system32\\oobe\\info\\default\\1033\\PenError\_en-US.png</span><span class="sxs-lookup"><span data-stu-id="340dc-134">%windir%\\system32\\oobe\\info\\default\\1033\\PenError\_en-US.png</span></span>
+-   <span data-ttu-id="340dc-135">%windir%\\system32\\oobe\\info\\default\\1033\\PenSuccess\_en-US.png</span><span class="sxs-lookup"><span data-stu-id="340dc-135">%windir%\\system32\\oobe\\info\\default\\1033\\PenSuccess\_en-US.png</span></span>
+
+>[!NOTE]
+><span data-ttu-id="340dc-136">Você deve copiar os arquivos de uma imagem de fábrica para o mesmo modelo do dispositivo Surface no qual pretende implantar.</span><span class="sxs-lookup"><span data-stu-id="340dc-136">You should copy the files from a factory image for the same model Surface device that you intend to deploy to.</span></span> <span data-ttu-id="340dc-137">Por exemplo, você deve usar os arquivos de um Surface Pro 7 para implantar na Surface Pro 7 e os arquivos do catálogo de superfície 2 para implantar o catálogo de superfície 2, mas não deve usar os arquivos de um Surface Pro 7 para implantar o Surface Book ou o Surface pro 6.</span><span class="sxs-lookup"><span data-stu-id="340dc-137">For example, you should use the files from a Surface Pro 7 to deploy to Surface Pro 7, and the files from Surface Book 2 to deploy Surface Book 2, but you should not use the files from a Surface Pro 7 to deploy Surface Book or Surface Pro 6.</span></span>
+
+ 
+
+<span data-ttu-id="340dc-138">O processo passo a passo para adicionar esses arquivos necessários a uma imagem é descrito em [Dicas de implantação da Caneta Surface Pro 3 e do OneNote](https://blogs.technet.microsoft.com/askcore/2014/07/15/deploying-surface-pro-3-pen-and-onenote-tips/).</span><span class="sxs-lookup"><span data-stu-id="340dc-138">The step-by-step process for adding these required files to an image is described in [Deploying Surface Pro 3 Pen and OneNote Tips](https://blogs.technet.microsoft.com/askcore/2014/07/15/deploying-surface-pro-3-pen-and-onenote-tips/).</span></span> <span data-ttu-id="340dc-139">Essa postagem de blog também inclui dicas para garantir que as atualizações necessárias para a Experiência de Anotações Rápidas da Caneta Surface sejam instaladas, o que permite aos usuários enviar anotações ao OneNote com um único clique.</span><span class="sxs-lookup"><span data-stu-id="340dc-139">This blog post also includes tips to ensure that the necessary updates for the Surface Pen Quick Note-Taking Experience are installed, which allows users to send notes to OneNote with a single click.</span></span>
+
+ 
+
+ 
+
+
+
+
+
