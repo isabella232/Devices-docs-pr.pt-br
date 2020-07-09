@@ -1,5 +1,5 @@
 ### YamlMime:Hub
-title: Microsoft Surface
+title: Microsoft Surface para profissionais de TI
 summary: Saiba como planejar, implantar e gerenciar dispositivos .Microsoft Surface e Surface Hub.
 brand: windows
 metadata:
@@ -12,43 +12,59 @@ metadata:
   ms.author: samanro
   ms.date: 07/03/2019
   localization_priority: Priority
-  ms.openlocfilehash: 7c723733836ee00e43571714c7df2ca11d3a8a49
-  ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+  ms.openlocfilehash: d751e7a08f492ed3b5799da08b5d0014123a758f
+  ms.sourcegitcommit: a292b4843d5808745b8320b721829a91d2b1a5d0
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 06/27/2020
-  ms.locfileid: "10837072"
+  ms.lasthandoff: 07/09/2020
+  ms.locfileid: "10861178"
+highlightedContent:
+  items:
+  - title: Documentação de dispositivos Surface
+    itemType: learn
+    url: https://docs.microsoft.com/surface/get-started
+  - title: Documentação do Surface Hub
+    itemType: learn
+    url: https://docs.microsoft.com/surface-hub/index
 additionalContent:
   sections:
-  - title: Para profissionais de TI
+  - title: Recursos do Surface
+    summary: Encontre recursos para seus dispositivos Microsoft Surface.
     items:
-    - title: Documentação de dispositivos Surface
-      summary: Aproveite o poder do Surface, do Windows e do Office conectados por meio da nuvem. Encontre ferramentas, guias passo a passo e outros recursos para ajudá-lo a planejar, implantar e gerenciar dispositivos Surface na sua organização.
-      url: https://docs.microsoft.com/en-us/surface/get-started
-    - title: Documentação do Surface Hub
-      summary: Saiba como implantar e gerenciar o Surface Hub 2S, o quadro de comunicações interativo digital, a plataforma de reuniões e o dispositivo de computação colaborativa.
-      url: https://docs.microsoft.com/surface-hub/index
-  - title: Outros recursos
-    items:
-    - title: Comunidades
+    - title: Visão geral do Surface
+      links:
+      - text: Surface Go 2 para Empresas
+        url: https://www.microsoft.com/surface/business/surface-go-2
+      - text: Surface Book 3 para Empresas
+        url: https://www.microsoft.com/surface/business/surface-book-3
+      - text: Explorar todos os produtos da família Surface
+        url: https://www.microsoft.com/surface/business
+    - title: Comunidade Surface
       links:
       - text: Blog Surface para profissionais de TI
         url: https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/bg-p/SurfaceITPro
       - text: Comunidade técnica de dispositivos Surface
         url: https://techcommunity.microsoft.com/t5/Surface-Devices/ct-p/SurfaceDevices
-    - title: Aprender
+    - title: Ajuda Surface
       links:
-      - text: Treinamento sobre o Surface no Microsoft Learn
-        url: https://docs.microsoft.com/learn/browse/?term=Surface
-      - text: Diretrizes de adoção do Surface Hub 2S
-        url: https://docs.microsoft.com/surface-hub/surface-hub-2s-adoption-kit
-      - text: Vídeos do Microsoft Mechanics Surface
-        url: https://www.youtube.com/watch?v=Uk2kJ5FUZxY&list=PLXtHYVsvn_b__1Baibdu4elN4SoF3JTBZ
-    - title: Precisa de ajuda?
+      - text: Contate o suporte para Surface
+        url: contact-surface-support.md
+  - title: Recursos do Surface Hub
+    summary: Encontre recursos para o seu Microsoft Surface Hub.
+    items:
+    - title: Visão geral do Surface Hub
       links:
-      - text: Dispositivos Surface
-        url: https://support.microsoft.com/products/surface-devices
-      - text: Surface Hub
-        url: https://support.microsoft.com/hub/4343507/surface-hub-help
+      - text: Novidades no Surface Hub 2S
+        url: /surface-hub/surface-hub-2s-whats-new.md
+      - text: Especificações técnicas do Surface Hub 2S
+        url: /surface-hub/surface-hub-2s-techspecs.md
+      - text: Noções básicas do sistema operacional
+        url: /surface-hub/differences-between-surface-hub-and-windows-10-enterprise.md
+    - title: Comunidade do Surface Hub
+      links:
+      - text: Comunidade Técnica do Surface Hub
+        url: https://techcommunity.microsoft.com/t5/surface-hub/bd-p/SurfaceHub
+    - title: Ajuda Surface Hub
+      links:
       - text: Contate o suporte para Surface Hub
         url: https://support.microsoft.com/supportforbusiness/productselection?sapId=bb7066fb-e329-c1c0-9c13-8e9949c6a64e
