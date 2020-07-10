@@ -1,5 +1,5 @@
 ---
-title: Suporte à superfície de contato
+title: Contate o suporte para Surface
 ms.author: v-todmc
 author: todmccoy
 manager: laurawi
@@ -19,12 +19,12 @@ ms.custom:
 - CSSTroubleshoot
 ms.reviewer: mablaik
 description: Informações de suporte para produtos de Surface Hub e Surface Hub da Microsoft.
-ms.openlocfilehash: 770c0c90762b2b6de7de66a06e04f1dcf4b231a2
-ms.sourcegitcommit: a292b4843d5808745b8320b721829a91d2b1a5d0
+ms.openlocfilehash: e36139b48e77907e0a2bc044e82cbc67c8bb6503
+ms.sourcegitcommit: ef49c3356fdce856b51239eb9c070df7b869e110
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 07/09/2020
-ms.locfileid: "10861188"
+ms.locfileid: "10861243"
 ---
 # Suporte do Surface
 
@@ -38,8 +38,6 @@ Se você ainda estiver tendo problemas após executar o kit de ferramentas, use 
 
 > [!NOTE]
 > Você será solicitado a entrar no portal de envio online usando sua conta da Microsoft ou a conta do Azure Active Directory.  
-
-Você pode acelerar sua solicitação fornecendo informações importantes, juntamente com sua solicitação de incidente online. Baixe uma cópia deste arquivo, adicione as informações necessárias e carregue após criar o seu caso. 
 
 Para clientes empresariais: [Envie sua solicitação de serviço](https://support.microsoft.com/supportforbusiness/productselection?sapid=d383b26c-f150-6220-8f1b-e8aa325d9727). 
 
