@@ -15,17 +15,17 @@ ms.topic: article
 ms.date: 09/26/2019
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 88c7029c99d69818e9f0b8fddef5fc193581963a
-ms.sourcegitcommit: 608226b64ef92743b1a3361877d4c49228e3ea5d
+ms.openlocfilehash: 661d84adbff40ff6cd89fb0c71c60fa795f4236c
+ms.sourcegitcommit: 8738f44f2f4c86e3a45e9fbcbe6469388fc15924
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "10868745"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "10893073"
 ---
 # Principais soluções de suporte para dispositivos Surface
 
 > [!Note]
-> **Usuários domésticos**: Este artigo destina-se apenas ao uso por profissionais de ti e agentes de suporte técnico e aplica-se somente a dispositivos de superfície. Se você estiver procurando ajuda com um problema com seu dispositivo doméstico, consulte suporte de [superfície](contact-surface-support.md?tabs=online).
+> **Usuários domésticos**: Este artigo destina-se apenas ao uso por profissionais de ti e agentes de suporte técnico e aplica-se somente a dispositivos de superfície. Se você estiver procurando ajuda com um problema com seu dispositivo doméstico, consulte ajuda de [dispositivos Surface](https://support.microsoft.com/products/surface-devices).
 
 Estas são as soluções de suporte da Microsoft para problemas comuns que você pode ter ao usar dispositivos de superfície em uma empresa. Se o problema não estiver listado aqui, [entre em contato com o suporte da superfície](contact-surface-support.md?tabs=online).
 
@@ -43,9 +43,7 @@ A Microsoft lança regularmente atualizações e soluções para dispositivos Su
 ## Problemas de encaixe de superfície
 
 - [Solucionar problemas de bases de encaixe e do Surface Dock](https://support.microsoft.com/help/4023468/surface-troubleshoot-surface-dock-and-docking-stations)
-
 - [Solucionar problemas de superfície de conexão a uma segunda tela](https://support.microsoft.com/help/4023496)
-
 - [Atualização do firmware do Dock Surface da Microsoft](https://docs.microsoft.com/surface/surface-dock-updater)
 
 ## Problemas de capa ou teclado de dispositivo
@@ -59,25 +57,19 @@ A Microsoft lança regularmente atualizações e soluções para dispositivos Su
 ## Problemas de energia ou bateria do Surface
 
 - [Como cobrar da superfície (informações da Surface PSU)](https://support.microsoft.com/help/4023496)
-
 - [A bateria Surface não cobra ou Surface não será executada na bateria](https://support.microsoft.com/help/4023536)
-
 - [O Surface não ativa ou o desperta do estado de suspensão](https://support.microsoft.com/help/4023537)
-
 - [Maximizar a duração da bateria do Surface](https://support.microsoft.com/help/4483194)
 
 ## Redefinir dispositivo
 
 - [Criando e usando uma unidade de recuperação USB para Surface](https://support.microsoft.com/help/4023512)
-
 - [Perguntas frequentes: proteger seus dados se você enviar sua superfície para serviço](https://support.microsoft.com/help/4023508)
-
 - [Microsoft Surface Data Eraser](https://docs.microsoft.com/surface/microsoft-surface-data-eraser)
 
 ## Problemas de implantação
 
 - [DISK0 não encontrado ao implantar o Windows no Surface Pro Model 1796 ou Surface laptop](https://support.microsoft.com/help/4046108)
-
 - [O Surface Pro Model 1796 e o Surface laptop 1TB exibem duas unidades](https://support.microsoft.com/help/4046105)
-
 - [Referência de SKU do sistema](https://docs.microsoft.com/surface/surface-system-sku-reference)
+

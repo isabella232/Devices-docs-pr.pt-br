@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 02/28/2020
+ms.date: 07/23/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 1d1b836c18a41982497bb28c57f379408c04f8a5
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 05279a54b51113ca96c4c939e8d64e51c4eca543
+ms.sourcegitcommit: 8738f44f2f4c86e3a45e9fbcbe6469388fc15924
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10831093"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "10893103"
 ---
 # Gerenciar o Surface Hub 2S com o Intune
 
@@ -35,17 +35,27 @@ O Surface Hub 2S permite que os administradores de TI gerenciem as configuraçõ
 
 Durante o processo de instalação inicial, ao afiliar um Surface Hub com um locatário do Azure AD com o registro automático do Intune habilitado, o dispositivo será registrado automaticamente com o Intune. Para obter mais informações, confira [Métodos de registro para dispositivos Windows](https://docs.microsoft.com/intune/enrollment/windows-enrollment-methods).  A afiliação do Azure AD e o registro automático do Intune são necessários para que o Surface Hub seja um “dispositivo compatível” no Intune. 
 
-## Configurações do Windows 10 Team Edition
+## Gerenciar as configurações do Windows 10 Team Edition com o Intune
 
-Selecione o Windows 10 Team para configurações predefinidas de restrição de dispositivos para o Surface Hub e o Surface Hub 2S.
+1. Conecte-se ao **Microsoft Endpoint Manager**, selecione perfis de configuração de **dispositivos**  >  **Configuration profiles**  >  **Criar perfil**. 
+2. Em **plataforma**, selecione **Windows 10 e restrições de dispositivo mais recentes**  >  **(equipe do Windows 10)** e, em seguida, selecione **criar**. 
+3. Agora você pode navegar e selecionar as configurações de restrição de dispositivo predefinidas para o Surface Hub e o Surface Hub 2S.
 
  ![Definir restrições de dispositivos para o Surface Hub 2S.](images/sh2-set-intune3.png) <br>
 
-Essas configurações incluem experiência do usuário e comportamento do aplicativo, registro do Azure Log Analytics, configuração de manutenção do Windows, configurações de sessão e configurações do Miracast. Para obter uma lista completa das configurações disponíveis do Windows 10 Team, confira [CPS do SurfaceHub](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp).
+Essas configurações abrangem as seguintes categorias: aplicativos e experiência, insights operacionais do Azure, manutenção, sessão e projeção sem fio.  
 
-## Provedores adicionais de serviço de configuração compatíveis (CSPs)
+## Provedores de serviços de configuração com suporte (CSPs)
 
-Para obter mais CSPs compatíveis, confira [CSPs do Surface Hub no Windows 10](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport).
+Além das políticas disponíveis diretamente pelo console do Intune, há vários provedores de serviços de configuração (CSPs) que são mapeados para arquivos ou chaves do registro. 
+
+Geralmente, a Microsoft fornece novos CSPs com cada nova versão do sistema operacional Windows 10. A [atualização 2020 do Windows 10 Team](surface-hub-install-2020preview.md), disponível em versão prévia por meio do programa Windows Insider, inclui mais de 20 políticas de gerenciamento de dispositivos novas e atualizadas para Surface Hub e Surface Hub 2s. Essas políticas de MDM dão aos administradores de ti maior controle sobre atualizações de aplicativos da Microsoft Store, configurações de projeção sem fio, como Miracast sobre infraestrutura, configurações de rede, como qualidade de serviço e autenticação com fio 802.1 x e novas configurações relacionadas a privacidade/RGPD.
+
+Para obter mais informações, consulte os seguintes recursos: 
+
+- [Referência de provedor de serviços de configuração](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference) 
+- [CSP SurfaceHub](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
+- [CSPs de políticas suportados pelo Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/policy-csps-supported-by-surface-hub)
 
 ## Configurações da Qualidade de Serviço (QoS)
 
