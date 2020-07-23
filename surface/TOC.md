@@ -67,6 +67,7 @@
 ### [Proteção DMA do Surface](dma-protect.md)
 
 ## Solução de problemas
+### [Contate o suporte para Surface](contact-surface-support.md)
 ### [Principais soluções de suporte para dispositivos Surface](support-solutions-surface.md)
 ### [Corrigir problemas comuns do Surface usando o Kit de Ferramentas de Diagnóstico Surface para Empresas](surface-diagnostic-toolkit-for-business-intro.md)
 #### [Implantar o Kit de Ferramentas de Diagnóstico Surface para Empresas](surface-diagnostic-toolkit-business.md)
