@@ -1,6 +1,6 @@
 ---
 title: Usar o Kit de Ferramentas de Diagnóstico Surface para Empresas no modo de área de trabalho
-description: Como usar o SDT para ajudar os usuários em sua organização a executar a ferramenta para identificar e diagnosticar problemas com o dispositivo Surface.
+description: Como usar o SDT para ajudar os usuários em sua organização a executar a ferramenta para identificar e diagnosticar problemas com o dispositivo Surface e enviar solicitações de suporte diretamente da ferramenta.
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -11,16 +11,19 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 9e6b34a8d34081fc12cab4851104f0b67c3dfea4
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.date: 7/31/2020
+ms.openlocfilehash: ec4a90d0d72956eaa4f98e928d128dca70d49c59
+ms.sourcegitcommit: f875a45961ff5f3c04006afc8690b5e5965e4d80
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830169"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "10902934"
 ---
 # Usar o Kit de Ferramentas de Diagnóstico Surface para Empresas no modo de área de trabalho
 
-Este tópico explica como usar o SDT (Kit de ferramentas de diagnóstico de superfície) para ajudar os usuários em sua organização a executar a ferramenta para identificar e diagnosticar problemas com o dispositivo Surface. A execução bem-sucedida do SDT pode determinar rapidamente se um problema relatado é causado por um erro de hardware ou usuário com falha. Para obter uma lista de dispositivos de superfície com suporte no SDT, consulte [implantar o kit de ferramentas de diagnóstico de superfície para empresas](surface-diagnostic-toolkit-business.md).
+Este tópico explica como usar o SDT (Kit de ferramentas de diagnóstico de superfície) para ajudar os usuários em sua organização a executarem a ferramenta para identificar e diagnosticar problemas com o dispositivo de superfície e enviar solicitações de suporte diretamente da ferramenta. 
+
+A execução bem-sucedida do SDT pode determinar rapidamente se um problema relatado é causado por um erro de hardware ou usuário com falha. Para obter uma lista de dispositivos de superfície com suporte no SDT, consulte [implantar o kit de ferramentas de diagnóstico de superfície para empresas](surface-diagnostic-toolkit-business.md).
 
 
 1. Instrua o usuário a instalar [o pacote SDT a](surface-diagnostic-toolkit-business.md#create-custom-sdt) partir de um ponto de distribuição de software ou compartilhamento de rede. Depois de instalado, você está pronto para orientar o usuário em uma série de testes. 
@@ -32,12 +35,12 @@ Este tópico explica como usar o SDT (Kit de ferramentas de diagnóstico de supe
 
 3. Quando o SDT indicar que o dispositivo tem as atualizações mais recentes, clique em **continuar** para avançar para o catálogo de testes disponíveis, conforme mostrado na Figura 2.
 
-    ![Selecione entre as opções do SDT ](images/sdt-desk-2.png)
+    ![Selecione entre as opções do SDT ](images/sdt1.png)
  *Figura 2. Selecionar a partir de opções do SDT*
 
 4. Você pode optar por executar todos os testes de diagnóstico. Ou, se você já suspeitar de um problema específico, como uma exibição defeituosa ou um problema de fonte de alimentação, clique em **selecionar** para escolher um dos testes disponíveis e clique em **executar selecionado**, conforme mostrado na Figura 3. Consulte a tabela a seguir para obter detalhes de cada teste. 
 
-    ![Selecione testes de hardware ](images/sdt-desk-3.png)
+    ![Selecione testes de hardware ](images/sdt2.png)
  *Figura 3. Selecionar testes de hardware*
 
     Teste de hardware | Descrição
@@ -52,9 +55,15 @@ Este tópico explica como usar o SDT (Kit de ferramentas de diagnóstico de supe
     Sensores | Verifica o funcionamento de sensores diferentes no dispositivo
     Hardware |  Verifica problemas com diferentes componentes de hardware, como placa gráfica e câmera
 
+5. Quando todos os testes terminarem, a ferramenta solicitará que você confirme se o problema foi corrigido. 
 
+ ![Seu problema foi resolvido? ](images/sdt3.png)
+ *Figura 3a. Seu problema foi resolvido?*
 
-
+6. Se o problema não for resolvido ou você não souber, poderá enviar um tíquete de suporte selecionando **entre em contato conosco** para **obter ajuda agora.**
+ 
+ ![Envie um tíquete de suporte para o ](images/sdt4.png)
+ *número 3B. Enviar um tíquete de suporte*
 
 <span id="multiple" />
 

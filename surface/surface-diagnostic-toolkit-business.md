@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 05/11/2020
+ms.date: 07/31/2020
 ms.reviewer: hachidan
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 9233ca1f7e32e2017424e9fb6ceb0556de9d37bd
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 9c250cef63b760f3faab9172aa950c305e4e47e5
+ms.sourcegitcommit: f875a45961ff5f3c04006afc8690b5e5965e4d80
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830177"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "10902979"
 ---
 # Implantar o Kit de Ferramentas de Diagnóstico Surface para Empresas
 
@@ -179,6 +179,14 @@ Você pode optar por executar uma ampla variedade de logs entre aplicativos, Dri
 - [Usar o kit de ferramentas de diagnóstico de superfície para empresas usando comandos](surface-diagnostic-toolkit-command-line.md)
 
 ## Alterações e atualizações
+
+
+### Versão 2.121.139
+*Data do lançamento: 31 2020 de julho*<br>
+Esta versão do Surface Diagnostic Toolkit para empresas adiciona suporte para o seguinte:
+
+- Experiência de suporte contínua
+- Correções de bugs
 
 ### Versão 2.94.139.0
 *Data do lançamento: 11 de maio de 2020*<br>

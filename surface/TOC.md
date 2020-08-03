@@ -52,6 +52,7 @@
 ### [Configuração de limite da bateria](battery-limit.md)
 ### [Controle de brilho do Surface](microsoft-surface-brightness-control.md)
 ### [Marca de ativo do Surface](assettag.md)
+### [Wake on Power para dispositivos Surface](wake-on-power-for-surface.md)
 
 ## Proteja
 
