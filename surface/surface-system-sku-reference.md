@@ -9,23 +9,23 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 03/09/2020
+ms.date: 08/04/2020
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 1fa192902b17ca811d4ecc8eac65abe1655ce370
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 3eb177e976bd99ec245996db8cb22eab639f63cc
+ms.sourcegitcommit: c0676329f894135388b6d52f85ee8ac9507a836e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830493"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "10905668"
 ---
 # Referência de SKU do sistema
 
 Este documento fornece uma referência do modelo do sistema e nomes de SKU do sistema que você pode usar para determinar rapidamente o estado do computador de um dispositivo específico usando o PowerShell ou WMI.
 
-O modelo do sistema e o SKU do sistema são variáveis armazenadas nas tabelas do SMBIOS (System Management BIOS) na camada UEFI de dispositivos Surface. O nome do SKU do sistema é necessário para diferenciar entre dispositivos que têm o mesmo nome de modelo do sistema, como Surface pro e Surface pro com LTE Advanced. 
+O modelo do sistema e o SKU do sistema são variáveis armazenadas nas tabelas do SMBIOS (System Management BIOS) na camada UEFI de dispositivos Surface. Use o nome SKU do sistema sempre que precisar diferenciar os dispositivos com o mesmo nome de modelo do sistema, como Surface pro e Surface pro com LTE Advanced.
 
 | Dispositivo   | Modelo do sistema | SKU do sistema       |
 | ---------- | ----------- | -------------- |
@@ -38,10 +38,12 @@ O modelo do sistema e o SKU do sistema são variáveis armazenadas nas tabelas d
 | Surface Pro com LTE Avançado                                | Surface Pro      | Surface_Pro_1807                 |
 | Surface Book 2 13 "                                        | Surface Book 2   | Surface_Book_1832                |
 | Surface Book 2 15 "                                        | Surface Book 2   | Surface_Book_1793                |
-| Consumidor da Surface go LTE  | Surface Go | Surface_Go_1825_Consumer |
+| Surface Book 3 13 "                                        | Catálogo de superfície 3   | Surface_Book_3_1900                |
+| Surface Book 3 15 "                                        | Catálogo de superfície 3   | Surface_Book_3_1899
 | Surface go LTE comercial | Sistema go | Surface_Go_1825_Commercial |
 | Consumidor do Surface go                                          | Surface Go       | Surface_Go_1824_Consumer         |
 | Surface go comercial                                        | Surface Go       | Surface_Go_1824_Commercial       |
+| Ir para a superfície 2                                                 | Ir para a superfície 2     | Surface_Go_2_1927                |
 | Cliente Surface pro 6                                       | Surface Pro 6    | Surface_Pro_6_1796_Consumer      |
 | Surface pro 6 Commercial                                     | Surface Pro 6    | Surface_Pro_6_1796_Commercial    |
 | Surface Laptop                                               | Surface Laptop   | Surface_Laptop                   |
@@ -63,7 +65,7 @@ gwmi -namespace root\wmi -class MS_SystemInformation | select SystemSKU
 ```
 
 **Recuperando o SKU usando as informações do sistema**  
-Você também pode encontrar a SKU do sistema e o modelo do sistema para um dispositivo em **informações do sistema**. Para fazer isso, execute estas etapas:
+Você também pode encontrar a SKU do sistema e o modelo do sistema para um dispositivo em **informações do sistema**. Para fazer isso, siga estas etapas:
 
 1. Selecione **Iniciar**e, em seguida, digite **msinfo32** na caixa de pesquisa.  
 1. Selecione **informações do sistema**.
