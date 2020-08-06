@@ -13,13 +13,13 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 audience: itpro
-ms.date: 05/26/2020
-ms.openlocfilehash: 116aeb6d1d92f387efa34319f7852febda729207
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.date: 08/05/2020
+ms.openlocfilehash: 4af917ca583dac504bc61bdfb36c8b8485473db9
+ms.sourcegitcommit: 97e19fdcd074647bedec9efdfd3ce28e900ae2ea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830504"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "10916513"
 ---
 # Modo de gerenciamento do Microsoft Surface Enterprise
 
@@ -226,6 +226,16 @@ Os exemplos do PowerShell que criam um pacote de configuração para um tipo de 
 
 ## Histórico de versões
 
+
+### Versão 2.73.136.0
+
+Esta versão do SEMM inclui:
+
+- Agora o áudio pode ser desabilitado no Surface Hub2S usando o SEMM
+- Suporte para Surface Pro X para Dock 2
+- Suporte ao Gerenciador UEFI para operações relacionadas ao Dock 2
+- Surface go redefinir pacote reparar correção de bug
+
 ### Versão 2.71.139.0
 
 Esta versão do SEMM adiciona suporte para recursos de gerenciamento do Surface Dock 2 para o catálogo de Surface 3, Surface laptop 3 e Surface Pro 7, incluindo:
@@ -282,4 +292,4 @@ Esta versão do SEMM inclui:
 
 - [Registrar e configurar dispositivos Surface com o SEMM](enroll-and-configure-surface-devices-with-semm.md)
 - [Cancelar o registro de dispositivos Surface no SEMM](unenroll-surface-devices-from-semm.md)
-- [Proteger as portas do Dock Surface 2 com SEMM](secure-surface-dock-ports-semm.md)
+- [Portas do Secure Surface Dock 2 com SEMM](secure-surface-dock-ports-semm.md)

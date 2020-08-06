@@ -11,12 +11,13 @@ ms.topic: article
 ms.reviewer: scottmca
 manager: laurawi
 ms.audience: itpro
-ms.openlocfilehash: aab4c67a6a262b11cd5982ebe145afbddfeaa1c9
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.date: 8/05/2020
+ms.openlocfilehash: 331d5122c6c64a99dad48ff6e5a90f38ce3d4ed4
+ms.sourcegitcommit: 603bcb41dc1b7dd92d3bab1601fa6336480e1218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830260"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "10916022"
 ---
 # Atualização do firmware do Dock Surface da Microsoft: informações técnicas para administradores de ti
 
@@ -122,7 +123,7 @@ A conclusão bem-sucedida da atualização do firmware do Surface Dock resulta e
 
 **Tabela 1. Arquivos de log para atualização do firmware do Surface Dock**
 
-| Log                              | Localização                               | Observações                                                                                                                                                                                                         |
+| Log                              | Location                               | Observações                                                                                                                                                                                                         |
 | -------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Log de atualização do firmware do Surface Dock | O caminho deve ser especificado (veja a observação) | Versões anteriores dessa ferramenta escreveram eventos para aplicativos e serviços que o Logs\Microsoft Surface Dock para o Updater.                                                                                                  |
 | Log de instalação do dispositivo do Windows       | %windir%\inf\setupapi.dev.log           | Para obter mais informações sobre como usar o log de instalação do dispositivo, consulte documentação de [log setupapi](https://docs.microsoft.com/windows-hardware/drivers/install/setupapi-logging--windows-vista-and-later-) . |
@@ -155,6 +156,16 @@ Os eventos são registrados no log de eventos do aplicativo.  Observação: as v
 
 >[!NOTE]
 >O arquivo de instalação é lançado com o seguinte formato de nomenclatura: **Surface_Dock_FwUpdate_X.XX.XXX_Win10_XXXXX_XX.XXX.XXXXX_X.MSI** (ex: Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.31680_0.msi) e é instalado por padrão para C:\Program Files\SurfaceUpdate.
+
+### Versão 1.53.139.0
+*Data do lançamento: 4 de agosto de 2020*
+
+Esta versão da atualização do firmware do Surface Dock inclui correções de bugs e suporte para:
+- Atualização do Surface Dock 1 usando Surface Pro X. 
+   > [!NOTE]
+   > Se você estiver executando o Surface Pro X, baixe o. Compilação ARM64. Para todos os outros dispositivos, use a compilação AMD64. 
+ 
+
 
 ### Versão 1.42.139 
 *Data do lançamento: setembro de 18 2019*

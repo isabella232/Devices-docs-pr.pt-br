@@ -9,12 +9,12 @@ author: greg-lindsay
 ms.author: greglin
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: f523fcfb29a2a7141dcc13183d7b0bc2801fc796
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 74b48d6fb7501d8c17d17604b5b2dbc9eff308c9
+ms.sourcegitcommit: 603bcb41dc1b7dd92d3bab1601fa6336480e1218
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830394"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "10916012"
 ---
 # Guia de preparação do local do Surface Hub 
 
@@ -115,6 +115,7 @@ A conexão permite que as pessoas entrem em contato com laptop, Tablet ou telefo
 Como a conexão sem fio se baseia no Miracast, você não precisa de cabos ou de planejamento de configuração adicional para usá-lo. Seus usuários podem carregar Miracast na maioria dos dispositivos Windows 8,1 e Windows 10 habilitados para Miracast. Em seguida, eles podem projetar a exibição do computador ou telefone para a tela do Surface Hub.
 
 <span id="wired" />
+
 #### Conexão com fio
 
 Com conexão com fio, um cabo transmite informações de computadores, tablets ou telefones para o Surface Hub. Há três opções de cabo de vídeo e todas usam o mesmo cabo USB 2,0. O conjunto de cabos pode incluir uma ou todas essas opções de conexão.
@@ -137,6 +138,6 @@ Para obter detalhes sobre o touchback e o Inkback, consulte o guia do usuário e
 
 
 
-## Ver também
+## Consulte também
 
 [Assista ao vídeo (abre em um media player pop-up)](https://compass.xbox.com/assets/27/aa/27aa7dd7-7cb7-40ea-9bd6-c7de0795f68c.mov?n=04.07.16_installation_video_01_site_readiness.mov)  
