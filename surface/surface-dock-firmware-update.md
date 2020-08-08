@@ -11,13 +11,13 @@ ms.topic: article
 ms.reviewer: scottmca
 manager: laurawi
 ms.audience: itpro
-ms.date: 8/05/2020
-ms.openlocfilehash: 331d5122c6c64a99dad48ff6e5a90f38ce3d4ed4
-ms.sourcegitcommit: 603bcb41dc1b7dd92d3bab1601fa6336480e1218
+ms.date: 8/07/2020
+ms.openlocfilehash: 159eb4ca27bb867623020936276470ba9897f3b8
+ms.sourcegitcommit: 83530906c7e34c92bbee90b723321acd61e77669
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "10916022"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "10918931"
 ---
 # Atualização do firmware do Dock Surface da Microsoft: informações técnicas para administradores de ti
 
@@ -39,7 +39,7 @@ Esta seção descreve como instalar manualmente a atualização de firmware.
     - A atualização requer um dispositivo de superfície executando o Windows 10, versão 1803 ou posterior.
     - Instalar o arquivo MSI pode solicitar que você reinicie a superfície. No entanto, não é necessário reiniciar para executar a atualização.
 
-2. Desconecte o dispositivo Surface do Dock Dock (usando o adaptador de energia), aguarde cerca de 5 segundos e, em seguida, reconecte-se. A atualização do firmware do Surface Dock atualizará o encaixe em modo silencioso em segundo plano. O processo pode levar alguns minutos para ser concluído e continuará mesmo que seja interrompido. 
+2. Desconecte o dispositivo Surface do Dock Dock, aguarde cerca de 5 segundos e, em seguida, reconecte-se. A atualização do firmware do Surface Dock atualizará o encaixe em modo silencioso em segundo plano. O processo pode levar alguns minutos para ser concluído e continuará mesmo que seja interrompido. 
 
 ## Monitorar a atualização do firmware do Surface Dock
 
