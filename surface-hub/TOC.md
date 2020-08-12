@@ -112,7 +112,7 @@
 ### [Instalar aplicativos no Surface Hub](install-apps-on-surface-hub.md)
 ### [Configurar o menu Iniciar do Surface Hub](surface-hub-start-menu.md)
 ### [Configurar e usar o Microsoft Whiteboard](whiteboard-collaboration.md) 
-### [Encerrar uma reunião do Surface Hub com a opção Encerrar a sessão](i-am-done-finishing-your-surface-hub-meeting.md)
+### [Encerrar uma reunião do Surface Hub com a opção Encerrar a sessão](finishing-your-surface-hub-meeting.md)
 ### [Conectar outros dispositivos e exibir seu conteúdo com o Surface Hub](connect-and-display-with-surface-hub.md)
 ### [Miracast em rede sem fio existente ou LAN](miracast-over-infrastructure.md)
 ### [Habilitar autenticação com fio 802.1x](enable-8021x-wired-authentication.md)
