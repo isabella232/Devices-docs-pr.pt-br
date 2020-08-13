@@ -1,5 +1,5 @@
 ---
-title: Área de trabalho virtual do Windows no Surface
+title: Área de Trabalho Virtual do Windows no Surface
 description: Este artigo explica como os dispositivos Surface fornecem um nó final ideal para as soluções de área de trabalho virtual do Windows, fornecendo aos clientes fatores forma flexíveis, a segurança e o gerenciamento do dispositivo moderno do Windows 10 e o suporte a cenários de trabalho just-in-time persistentes e sob demanda &.
 ms.prod: w10
 ms.mktglfcycl: manage
@@ -8,22 +8,22 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 5/20/2020
+ms.date: 8/12/2020
 ms.reviewer: rohenr
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 7db54b7bf8d08a10707753738e40c358a8723cf4
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: a3dfb5e4b2e5dc87dd4ae1dbced943e6be0772df
+ms.sourcegitcommit: 16845b3289a035b4e6ab5e7536307ef66651db28
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830372"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "10926303"
 ---
-# Área de trabalho virtual do Windows no Surface
+# Área de Trabalho Virtual do Windows no Surface
 
 ## Introdução
 
-A área de trabalho virtual do Windows no Surface permite que você execute a VDI (Virtual Desktop Infrastructure) em um dispositivo de superfície que desfocasse as linhas entre a experiência da área de trabalho local e a área de trabalho virtual onde o toque, a caneta, a tinta e a autenticação biométrica englobam ambientes físicos e virtuais. Representando outro marco na evolução da computação, a área de trabalho virtual do Windows no Surface <a href="#1"><sup> 1 </sup></a> combina o Microsoft 365-virtualizado na nuvem do Azure-com as proteções de segurança avançada, a capacidade de gerenciamento de nível empresarial e as ferramentas de produtividade aprimorada do Windows 10 no Surface.  Esta fusão de fator forma Premium e infraestrutura de área de trabalho virtual no Azure oferece um valor excepcional ao cliente nas experiências do usuário, portabilidade, segurança, continuidade de negócios e gerenciamento moderno.
+A área de trabalho virtual do Windows no Surface permite que você execute a VDI (Virtual Desktop Infrastructure) em um dispositivo de superfície que desfocasse as linhas entre a experiência da área de trabalho local e a área de trabalho virtual onde o toque, a caneta, a tinta e a autenticação biométrica englobam ambientes físicos e virtuais. Representando outro marco na evolução da computação, a área de trabalho virtual do Windows no Surface <a href="#1"><sup> 1 </sup></a> combina o Microsoft 365-virtualizado na nuvem do Azure-com as proteções de segurança avançada, a capacidade de gerenciamento de nível empresarial e as ferramentas de produtividade aprimorada do Windows 10 no Surface.  Esta fusão de fatores forma Premium e infraestrutura de área de trabalho virtual no Azure oferece um valor excepcional ao cliente nas experiências do usuário, portabilidade, segurança, continuidade de negócios e gerenciamento moderno.
 
 ### Área de Trabalho Virtual do Windows
 
@@ -37,7 +37,7 @@ Para obter uma lista de provedores de parceiros aprovados e fornecedores de soft
 
 A engenharia Surface tem um grande número de novos padrões de inovação, indo além do teclado e do mouse para imaginar maneiras mais naturais de interagir com dispositivos, seja por toque, voz, Ink ou Surface dial. E com a integração de chip-to-Cloud do Microsoft 365 e a segurança e a capacidade de gerenciamento do Windows 10 pro, Surface fornece hardware, software, aplicativos e serviços conectados da maneira que eles pretendiam. Embora seja possível executar o WVD a partir de dispositivos Windows de volta ao Windows 7, os dispositivos de superfície da Microsoft fornecem vantagens exclusivas, incluindo suporte para:
 
-- **Fatores forma flexíveis** – como dispositivos 2 em 1, como Surface go 2, Surface Pro 7 e Surface Pro X com caneta, toque e teclado removível.
+- **Fatores forma flexíveis** – como dispositivos 2 em 1, como Surface go 2, Surface Pro 7 e Surface Pro X com caneta, toque e teclado removível. Você pode até mesmo usar o novo Surface Duo para se conectar ao WVD.
 - **Cenários de trabalho persistente, sob demanda e Just-in-time** -com acesso offline e no dispositivo para experiências mais produtivas.
 - **Segurança e gerenciamento de dispositivos modernos do Windows 10** -oferecendo a flexibilidade para ser produtiva em qualquer lugar.
 
@@ -159,5 +159,5 @@ Para obter mais informações, consulte os seguintes recursos:
 <a id="4">4. </a> Forrester Consulting, "um estudo econômico de economia de™: maximizar o ROI da microsoft 365 Enterprise with Microsoft Surface," com Microsoft, 2018.<br>
 <a id="5">5. </a> Surface Go e Surface go 2 usam uma UEFI de terceiros e não dão suporte a DFCI. O DFCI está disponível atualmente para o catálogo de superfície 3, Surface laptop 3, Surface Pro 7 e Surface Pro X. saiba mais sobre como gerenciar as configurações de Surface UEFI.<br>
 <a id="6">6. o </a> SSD removível está disponível no Surface laptop 3 e na Surface Pro X. Observe que o disco rígido não é removível do usuário. O disco rígido só é removível para um técnico experiente seguindo as instruções da Microsoft.<br>
-<a id="7">7. </a> DFCI está disponível no momento para o catálogo de superfície 3, Surface laptop 3, Surface Pro 7 e Surface Pro X. [saiba mais](https://docs.microsoft.com/surface/manage-surface-uefi-settings) sobre como gerenciar as configurações de Surface UEFI.
+<a id="7">7. </a>  DFCI está disponível no momento para o catálogo de superfície 3, Surface laptop 3, Surface Pro 7 e Surface Pro X. [saiba mais](https://docs.microsoft.com/surface/manage-surface-uefi-settings) sobre como gerenciar as configurações de Surface UEFI.
 
