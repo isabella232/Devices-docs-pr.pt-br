@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 11/21/2019
 ms.localizationpriority: Medium
-ms.openlocfilehash: 38f02b885a0ac2789ffc82f1ab38dc57fea5e841
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: dddab2adce1bec9ff722a3324b9c4b1be609ae89
+ms.sourcegitcommit: ac34f0ec1a9df74ea688bf0da2a51fadf5139a41
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830438"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "10934841"
 ---
 # Preparar o ambiente para o Surface Hub 2S
 
@@ -31,7 +31,7 @@ A Microsoft atualiza regularmente o serviço do Office 365 com novos recursos e 
 ## Afiliação de dispositivo
 
 Use a afiliação de dispositivo para gerenciar o acesso do usuário ao aplicativo configurações no Surface Hub 2S.
-Com o sistema operacional Windows 10 Team Edition (executado no Surface Hub 2S), somente os usuários autorizados podem ajustar as configurações usando o aplicativo configurações. Como a escolha da afiliação pode afetar a disponibilidade do recurso, planeje apropriadamente para garantir que os usuários possam acessar os recursos como pretendidos.
+Com o sistema operacional da equipe do Windows 10 (executado no Surface Hub 2S), somente os usuários autorizados podem ajustar as configurações usando o aplicativo configurações. Como a escolha da afiliação pode afetar a disponibilidade do recurso, planeje apropriadamente para garantir que os usuários possam acessar os recursos como pretendidos.
 
 > [!NOTE]
 > Você só pode definir a afiliação de dispositivo durante a configuração inicial do OOBE (configuração inicial pelo quadro). Se você precisar redefinir a afiliação de dispositivo, será necessário repetir a configuração do OOBE.

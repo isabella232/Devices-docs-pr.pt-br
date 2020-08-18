@@ -11,16 +11,16 @@ audience: Admin
 ms.topic: article
 ms.date: 03/27/2020
 ms.localizationpriority: High
-ms.openlocfilehash: 880aca8d59269d198c4b36a05f2a38ceaaeaab16
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: f6022c4fd16cd8afbbea892e73ad831f12b10eaa
+ms.sourcegitcommit: ac34f0ec1a9df74ea688bf0da2a51fadf5139a41
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830401"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "10934851"
 ---
 # Visão geral da segurança do Surface Hub
 
-O Surface Hub fornece um utilitário de computação bloqueada com firmware de plataforma personalizada executando o sistema operacional Windows 10 Team Edition. O dispositivo resultante tem o único Kiosk (quiosque seguro) tradicional, só executa o que é necessário, além de fornecer uma moderna aparência. Desenvolvido para dar suporte a uma experiência de usuário colaborativo avançada, o Surface Hub está protegido contra ameaças à segurança em constante evolução.
+O Surface Hub fornece um aparelho de computação bloqueado com firmware de plataforma personalizado executando o sistema operacional de equipe do Windows 10. O dispositivo resultante tem o único Kiosk (quiosque seguro) tradicional, só executa o que é necessário, além de fornecer uma moderna aparência. Desenvolvido para dar suporte a uma experiência de usuário colaborativo avançada, o Surface Hub está protegido contra ameaças à segurança em constante evolução.
 
 Desenvolvido no Windows 10, o Surface Hub oferece segurança moderna de nível empresarial, permitindo que os administradores de TI imponham a proteção de dados com BitLocker, módulo de plataforma confiável 2,0 (TPM), além da segurança de nuvem com o Windows Defender (também conhecido como Microsoft Defender).
 
@@ -28,7 +28,7 @@ Desenvolvido no Windows 10, o Surface Hub oferece segurança moderna de nível e
 
 Os protocolos de segurança serão iniciados assim que o Surface Hub estiver ativado. A partir do nível do firmware, o Surface Hub carregará apenas o sistema operacional e seus componentes em resposta a várias verificações de segurança. O Surface Hub emprega uma estratégia chamada Defense em profundidade que envolve a camada de subcomponentes de defesa independente para proteger todo o sistema no caso de falha parcial. Essa prática setorial tem sido comprovadamente muito eficaz para reduzir explorações unilaterais potencias e desvantagens dos subcomponentes.
 
-A interface de firmware extensível (UEFI) moderna é estaticamente e configurada de forma segura pela Microsoft para inicializar apenas um sistema operacional autenticado do Windows 10 Team Edition a partir do armazenamento interno.  Cada linha de código que é executada no Surface Hub tem sua assinatura verificada antes da execução. Somente os aplicativos assinados pela Microsoft, como parte do sistema operacional ou instalado pela Microsoft Store, podem ser executados no Surface Hub. Os aplicativos que não atenderem a esses requisitos serão bloqueados.
+A interface de firmware Extensible Unified (UEFI) moderna é configurada estaticamente e com segurança pela Microsoft para inicializar apenas um sistema operacional de equipe do Windows 10 autenticado do armazenamento interno.  Cada linha de código que é executada no Surface Hub tem sua assinatura verificada antes da execução. Somente os aplicativos assinados pela Microsoft, como parte do sistema operacional ou instalado pela Microsoft Store, podem ser executados no Surface Hub. Os aplicativos que não atenderem a esses requisitos serão bloqueados.
 
 Os sistemas de segurança do Surface Hub incluem os seguintes:
 

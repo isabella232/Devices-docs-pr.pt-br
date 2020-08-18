@@ -12,12 +12,12 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 03/16/2019
 ms.localizationpriority: medium
-ms.openlocfilehash: 0ce77122aecfc9a30ac9dc52dfea7e0b0ccf7e1f
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 9158bec3d2285e5e8d4f9f56e582ff2320a34024
+ms.sourcegitcommit: ac34f0ec1a9df74ea688bf0da2a51fadf5139a41
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10831061"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "10934871"
 ---
 # Criar pacotes de provisionamento (Surface Hub)
 
@@ -81,7 +81,7 @@ Depois de [Instalar o Designer de Configuração do Windows](https://technet.mic
     
      ou
     
-   - Se você instalou o Designer de Configuração do Windows do ADK, navegue até `C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Imaging and Configuration Designer\x86` (em um computador x64) ou até `C:\Program Files\Windows Kits\10\Assessment and Deployment Kit\Imaging and Configuration Designer\x86\ICD.exe` (em um computador x86) e clique duas vezes em **ICD.exe**.
+   - Se você instalou o Designer de Configuração do Windows do ADK, navegue até `C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Imaging and Configuration Designer\x86` (em um computador x64) ou `C:\Program Files\Windows Kits\10\Assessment and Deployment Kit\Imaging and Configuration Designer\x86\ICD.exe` (em um computador x86) e clique duas vezes em **ICD.exe**.
 
 2. Clique em **Dispositivos de provisionamento do Surface Hub**.
 
@@ -107,7 +107,7 @@ Um arquivo de configuração do Surface Hub contém uma lista de contas de dispo
 
 Use o Microsoft Excel ou outro editor de CSV para criar um arquivo CSV chamado `SurfaceHubConfiguration.csv`. No arquivo, insira uma lista de contas de dispositivo e nomes amigáveis neste formato:
 
-```
+```console
 <DeviceAccountName>,<DeviceAccountPassword>,<FriendlyName>
 ```
 >[!IMPORTANT]
@@ -116,7 +116,7 @@ Use o Microsoft Excel ou outro editor de CSV para criar um arquivo CSV chamado `
 
 Veja este exemplo de `SurfaceHubConfiguration.csv`: 
 
-```
+```console
 Rainier@contoso.com,password,Rainier Surface Hub
 Adams@contoso.com,password,Adams Surface Hub
 Baker@contoso.com,password,Baker Surface Hub
@@ -156,11 +156,11 @@ Depois de [Instalar o Designer de Configuração do Windows](https://technet.mic
    
 3. Dê um nome ao projeto e clique em **Avançar**.
 
-4. Selecione **Comum na edição Windows 10 Team**, clique em **Avançar** e em **Concluir**.
+4. Selecione **comum à equipe do Windows 10**, clique em **Avançar**e, em seguida, clique em **concluir**.
 
     ![Novo projeto do ICD](images/icd-new-project.png)
 
-5. No projeto, em **Personalizações disponíveis**, selecione **Configurações Comuns do Team Edition**.
+5. No projeto, em **personalizações disponíveis**, selecione **configurações comuns da equipe**.
 
     ![Configurações comuns do ICD](images/icd-common-settings.png)
 

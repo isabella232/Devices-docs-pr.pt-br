@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 07/23/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 05279a54b51113ca96c4c939e8d64e51c4eca543
-ms.sourcegitcommit: 8738f44f2f4c86e3a45e9fbcbe6469388fc15924
+ms.openlocfilehash: 389db218d06f9f8d3f510e711b03487daf4e06f9
+ms.sourcegitcommit: ac34f0ec1a9df74ea688bf0da2a51fadf5139a41
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "10893103"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "10934861"
 ---
 # Gerenciar o Surface Hub 2S com o Intune
 
@@ -35,7 +35,7 @@ O Surface Hub 2S permite que os administradores de TI gerenciem as configuraçõ
 
 Durante o processo de instalação inicial, ao afiliar um Surface Hub com um locatário do Azure AD com o registro automático do Intune habilitado, o dispositivo será registrado automaticamente com o Intune. Para obter mais informações, confira [Métodos de registro para dispositivos Windows](https://docs.microsoft.com/intune/enrollment/windows-enrollment-methods).  A afiliação do Azure AD e o registro automático do Intune são necessários para que o Surface Hub seja um “dispositivo compatível” no Intune. 
 
-## Gerenciar as configurações do Windows 10 Team Edition com o Intune
+## Gerenciando configurações de equipe do Windows 10 com o Intune
 
 1. Conecte-se ao **Microsoft Endpoint Manager**, selecione perfis de configuração de **dispositivos**  >  **Configuration profiles**  >  **Criar perfil**. 
 2. Em **plataforma**, selecione **Windows 10 e restrições de dispositivo mais recentes**  >  **(equipe do Windows 10)** e, em seguida, selecione **criar**. 
@@ -63,7 +63,7 @@ Para garantir a qualidade ideal de vídeo e áudio no Surface Hub 2S, adicione a
 
 ### Configurações de QoS do Microsoft Teams 
 
-|**Nome**|**Descrição**|**OMA-URI**|**Tipo**|**Valor**|
+| Nome | Descrição | OMA-URI | Tipo | Valor |
 |:------ |:------------- |:--------- |:------ |:------- |
 |**Portas de áudio**| Intervalo de porta de áudio | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/DestinationPortMatchCondition | String  | 3478-3479 |
 |**DSCP de Áudio**| Marcação de portas de áudio | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/DSCPAction | Inteiro | 46 |
@@ -101,7 +101,7 @@ Você pode definir o modo de aplicativo Microsoft Teams usando o Intune. O Surfa
 
 Para definir modos, adicione as seguintes configurações a um Perfil de Configuração de Dispositivo personalizado.
 
-|**Nome**|**Descrição**|**OMA-URI**|**Tipo**|**Valor**|
+| Nome | Descrição | OMA-URI | Tipo | Valor |
 |:--- |:--- |:--- |:--- |:--- |
 |**ID do aplicativo Teams**|Nome do aplicativo|./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId|String| Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe!Teams|
 |**Modo do aplicativo Teams**|Modo do Teams|./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode|Inteiro| 0, 1 ou 2|
