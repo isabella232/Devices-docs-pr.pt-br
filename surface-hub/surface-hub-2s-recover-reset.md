@@ -11,68 +11,68 @@ audience: Admin
 ms.topic: article
 ms.date: 12/05/2019
 ms.localizationpriority: Medium
-ms.openlocfilehash: 7d79fab22b62e6ef29832be6241c484e9caf72e0
-ms.sourcegitcommit: 537fa38bdd21fcd679af0764e734f4b8efb6a03f
+ms.openlocfilehash: e3b1e380f9776fc56e99b8d4e35f708aa952759c
+ms.sourcegitcommit: e075b46f14b730464d66246b0280ef2cfa16b3fe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "10959943"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "10963582"
 ---
-# <span data-ttu-id="be1c7-104">Redefinição e recuperação para Surface Hub 2S</span><span class="sxs-lookup"><span data-stu-id="be1c7-104">Reset and recovery for Surface Hub 2S</span></span>
+# <span data-ttu-id="ffc2e-104">Redefinição e recuperação para Surface Hub 2S</span><span class="sxs-lookup"><span data-stu-id="ffc2e-104">Reset and recovery for Surface Hub 2S</span></span>
 
-<span data-ttu-id="be1c7-105">Se você encontrar problemas com o Surface Hub 2S, pode redefinir o dispositivo para configurações de fábrica ou restaurar usando uma unidade USB.</span><span class="sxs-lookup"><span data-stu-id="be1c7-105">If you encounter problems with Surface Hub 2S, you can reset the device to factory settings or restore by using a USB drive.</span></span>
+<span data-ttu-id="ffc2e-105">Se você encontrar problemas com o Surface Hub 2S, pode redefinir o dispositivo para configurações de fábrica ou restaurar usando uma unidade USB.</span><span class="sxs-lookup"><span data-stu-id="ffc2e-105">If you encounter problems with Surface Hub 2S, you can reset the device to factory settings or restore by using a USB drive.</span></span>
 
-<span data-ttu-id="be1c7-106">Para começar, entre no Surface Hub 2S com as credenciais de administrador, abra o aplicativo **configurações** , selecione **Atualizar & segurança**e, em seguida, selecione **recuperação**.</span><span class="sxs-lookup"><span data-stu-id="be1c7-106">To begin, sign in to Surface Hub 2S with admin credentials, open the **Settings** app, select **Update & security**, and then select **Recovery**.</span></span>
+<span data-ttu-id="ffc2e-106">Para começar, entre no Surface Hub 2S com as credenciais de administrador, abra o aplicativo **configurações** , selecione **Atualizar & segurança**e, em seguida, selecione **recuperação**.</span><span class="sxs-lookup"><span data-stu-id="ffc2e-106">To begin, sign in to Surface Hub 2S with admin credentials, open the **Settings** app, select **Update & security**, and then select **Recovery**.</span></span>
 
-## <span data-ttu-id="be1c7-107">Redefina o dispositivo</span><span class="sxs-lookup"><span data-stu-id="be1c7-107">Reset the device</span></span>
+## <span data-ttu-id="ffc2e-107">Redefina o dispositivo</span><span class="sxs-lookup"><span data-stu-id="ffc2e-107">Reset the device</span></span>
 
-1. <span data-ttu-id="be1c7-108">Para redefinir o dispositivo **, selecione começar**.</span><span class="sxs-lookup"><span data-stu-id="be1c7-108">To reset the device, select **Get Started**.</span></span>
+1. <span data-ttu-id="ffc2e-108">Para redefinir o dispositivo **, selecione começar**.</span><span class="sxs-lookup"><span data-stu-id="ffc2e-108">To reset the device, select **Get Started**.</span></span>
 
-2. <span data-ttu-id="be1c7-109">Quando a janela **pronto para redefinir este dispositivo** for exibida, selecione **Redefinir**.</span><span class="sxs-lookup"><span data-stu-id="be1c7-109">When the **Ready to reset this device** window appears, select **Reset**.</span></span> 
+2. <span data-ttu-id="ffc2e-109">Quando a janela **pronto para redefinir este dispositivo** for exibida, selecione **Redefinir**.</span><span class="sxs-lookup"><span data-stu-id="ffc2e-109">When the **Ready to reset this device** window appears, select **Reset**.</span></span> 
   
    > [!NOTE]
-   > <span data-ttu-id="be1c7-110">Surface Hub 2S reinstala o sistema operacional da partição de recuperação.</span><span class="sxs-lookup"><span data-stu-id="be1c7-110">Surface Hub 2S reinstalls the operating system from the recovery partition.</span></span> <span data-ttu-id="be1c7-111">Isso pode levar até uma hora para ser concluído.</span><span class="sxs-lookup"><span data-stu-id="be1c7-111">This may take up to one hour to complete.</span></span>
+   > <span data-ttu-id="ffc2e-110">Surface Hub 2S reinstala o sistema operacional da partição de recuperação.</span><span class="sxs-lookup"><span data-stu-id="ffc2e-110">Surface Hub 2S reinstalls the operating system from the recovery partition.</span></span> <span data-ttu-id="ffc2e-111">Isso pode levar até uma hora para ser concluído.</span><span class="sxs-lookup"><span data-stu-id="ffc2e-111">This may take up to one hour to complete.</span></span>
   
-3. <span data-ttu-id="be1c7-112">Para reconfigurar o dispositivo, execute o programa de instalação pela primeira vez.</span><span class="sxs-lookup"><span data-stu-id="be1c7-112">To reconfigure the device, run the first-time Setup program.</span></span>
+3. <span data-ttu-id="ffc2e-112">Para reconfigurar o dispositivo, execute o programa de instalação pela primeira vez.</span><span class="sxs-lookup"><span data-stu-id="ffc2e-112">To reconfigure the device, run the first-time Setup program.</span></span>
 
-4. <span data-ttu-id="be1c7-113">Se você gerenciar o dispositivo usando o Microsoft Intune ou outra solução de gerenciamento de dispositivo móvel, desative e exclua o registro anterior e, em seguida, registre novamente o novo dispositivo.</span><span class="sxs-lookup"><span data-stu-id="be1c7-113">If you manage the device using Microsoft Intune or another mobile device management solution, retire and delete the previous record, and then re-enroll the new device.</span></span> <span data-ttu-id="be1c7-114">Para obter mais informações, consulte [remover dispositivos usando apagar, desativar ou cancelar o registro manual do dispositivo](https://docs.microsoft.com/intune/devices-wipe).</span><span class="sxs-lookup"><span data-stu-id="be1c7-114">For more information, see [Remove devices by using wipe, retire, or manually unenrolling the device](https://docs.microsoft.com/intune/devices-wipe).</span></span>
+4. <span data-ttu-id="ffc2e-113">Se você gerenciar o dispositivo usando o Microsoft Intune ou outra solução de gerenciamento de dispositivo móvel, desative e exclua o registro anterior e, em seguida, registre novamente o novo dispositivo.</span><span class="sxs-lookup"><span data-stu-id="ffc2e-113">If you manage the device using Microsoft Intune or another mobile device management solution, retire and delete the previous record, and then re-enroll the new device.</span></span> <span data-ttu-id="ffc2e-114">Para obter mais informações, consulte [remover dispositivos usando apagar, desativar ou cancelar o registro manual do dispositivo](https://docs.microsoft.com/intune/devices-wipe).</span><span class="sxs-lookup"><span data-stu-id="ffc2e-114">For more information, see [Remove devices by using wipe, retire, or manually unenrolling the device](https://docs.microsoft.com/intune/devices-wipe).</span></span>
 
 > [!div class="mx-imgBorder"]
 > ![\* Redefinição e recuperação para Surface Hub 2S \*](images/sh2-reset.png)
-<br/>*<span data-ttu-id="be1c7-116">Figura 1.</span><span class="sxs-lookup"><span data-stu-id="be1c7-116">Figure 1.</span></span> <span data-ttu-id="be1c7-117">Redefinição e recuperação para Surface Hub 2S</span><span class="sxs-lookup"><span data-stu-id="be1c7-117">Reset and recovery for Surface Hub 2S</span></span>* 
+<br/>*<span data-ttu-id="ffc2e-116">Figura 1.</span><span class="sxs-lookup"><span data-stu-id="ffc2e-116">Figure 1.</span></span> <span data-ttu-id="ffc2e-117">Redefinição e recuperação para Surface Hub 2S</span><span class="sxs-lookup"><span data-stu-id="ffc2e-117">Reset and recovery for Surface Hub 2S</span></span>* 
 
-## <span data-ttu-id="be1c7-118">Recuperar o Surface Hub 2S usando uma unidade de recuperação USB</span><span class="sxs-lookup"><span data-stu-id="be1c7-118">Recover Surface Hub 2S by using a USB recovery drive</span></span>
+## <span data-ttu-id="ffc2e-118">Recuperar o Surface Hub 2S usando uma unidade de recuperação USB</span><span class="sxs-lookup"><span data-stu-id="ffc2e-118">Recover Surface Hub 2S by using a USB recovery drive</span></span>
 
-<span data-ttu-id="be1c7-119">Novo no Surface Hub 2S, agora você pode reinstalar o dispositivo usando uma imagem de recuperação.</span><span class="sxs-lookup"><span data-stu-id="be1c7-119">New in Surface Hub 2S, you can now reinstall the device by using a recovery image.</span></span>
+<span data-ttu-id="ffc2e-119">Novo no Surface Hub 2S, agora você pode reinstalar o dispositivo usando uma imagem de recuperação.</span><span class="sxs-lookup"><span data-stu-id="ffc2e-119">New in Surface Hub 2S, you can now reinstall the device by using a recovery image.</span></span>
 
-### <span data-ttu-id="be1c7-120">Recuperação de uma unidade USB</span><span class="sxs-lookup"><span data-stu-id="be1c7-120">Recovery from a USB drive</span></span>
+### <span data-ttu-id="ffc2e-120">Recuperação de uma unidade USB</span><span class="sxs-lookup"><span data-stu-id="ffc2e-120">Recovery from a USB drive</span></span>
 
-<span data-ttu-id="be1c7-121">Usando o Surface Hub 2S, você pode reinstalar o dispositivo usando uma imagem de recuperação.</span><span class="sxs-lookup"><span data-stu-id="be1c7-121">Using Surface Hub 2S, you can reinstall the device by using a recovery image.</span></span> <span data-ttu-id="be1c7-122">Ao fazer isso, você pode reinstalar o dispositivo nas configurações de fábrica se perdeu a chave do BitLocker ou se não tiver mais as credenciais de administrador para o aplicativo configurações.</span><span class="sxs-lookup"><span data-stu-id="be1c7-122">By doing this, you can reinstall the device to the factory settings if you lost the BitLocker key, or if you no longer have admin credentials to the Settings app.</span></span>
+<span data-ttu-id="ffc2e-121">Usando o Surface Hub 2S, você pode reinstalar o dispositivo usando uma imagem de recuperação.</span><span class="sxs-lookup"><span data-stu-id="ffc2e-121">Using Surface Hub 2S, you can reinstall the device by using a recovery image.</span></span> <span data-ttu-id="ffc2e-122">Ao fazer isso, você pode reinstalar o dispositivo nas configurações de fábrica se perdeu a chave do BitLocker ou se não tiver mais as credenciais de administrador para o aplicativo configurações.</span><span class="sxs-lookup"><span data-stu-id="ffc2e-122">By doing this, you can reinstall the device to the factory settings if you lost the BitLocker key, or if you no longer have admin credentials to the Settings app.</span></span>
 
 >[!NOTE]
-><span data-ttu-id="be1c7-123">Use uma unidade USB 3,0 com 8 GB ou 16 GB de armazenamento, formatada como FAT32.</span><span class="sxs-lookup"><span data-stu-id="be1c7-123">Use a USB 3.0 drive with 8 GB or 16 GB of storage, formatted as FAT32.</span></span>
+><span data-ttu-id="ffc2e-123">Use uma unidade USB 3,0 com 8 GB ou 16 GB de armazenamento, formatada como FAT32.</span><span class="sxs-lookup"><span data-stu-id="ffc2e-123">Use a USB 3.0 drive with 8 GB or 16 GB of storage, formatted as FAT32.</span></span>
 
-1. <span data-ttu-id="be1c7-124">Em um computador separado, baixe a imagem de recuperação de arquivo. zip do [site de recuperação de superfície](https://support.microsoft.com/surfacerecoveryimage?devicetype=surfacehub2s) e, em seguida, retorne a estas instruções.</span><span class="sxs-lookup"><span data-stu-id="be1c7-124">From a separate PC, download the .zip file recovery image from the [Surface Recovery website](https://support.microsoft.com/surfacerecoveryimage?devicetype=surfacehub2s) and then return to these instructions.</span></span> 
+1. <span data-ttu-id="ffc2e-124">Em um computador separado, baixe a imagem de recuperação de arquivo. zip do [site de recuperação de superfície](https://support.microsoft.com/surfacerecoveryimage?devicetype=surfacehub2s) e, em seguida, retorne a estas instruções.</span><span class="sxs-lookup"><span data-stu-id="ffc2e-124">From a separate PC, download the .zip file recovery image from the [Surface Recovery website](https://support.microsoft.com/surfacerecoveryimage?devicetype=surfacehub2s) and then return to these instructions.</span></span> 
 
-1. <span data-ttu-id="be1c7-125">Descompacte o arquivo baixado na raiz da unidade USB.</span><span class="sxs-lookup"><span data-stu-id="be1c7-125">Unzip the downloaded file onto the root of the USB drive.</span></span>  
+1. <span data-ttu-id="ffc2e-125">Descompacte o arquivo baixado na raiz da unidade USB.</span><span class="sxs-lookup"><span data-stu-id="ffc2e-125">Unzip the downloaded file onto the root of the USB drive.</span></span>  
 
-1. <span data-ttu-id="be1c7-126">Conecte a unidade USB a qualquer porta USB-C ou USB-A no Surface Hub 2S.</span><span class="sxs-lookup"><span data-stu-id="be1c7-126">Connect the USB drive to any USB-C or USB-A port on Surface Hub 2S.</span></span>
+1. <span data-ttu-id="ffc2e-126">Conecte a unidade USB a qualquer porta USB-C ou USB-A no Surface Hub 2S.</span><span class="sxs-lookup"><span data-stu-id="ffc2e-126">Connect the USB drive to any USB-C or USB-A port on Surface Hub 2S.</span></span>
 
-1. <span data-ttu-id="be1c7-127">Desative o dispositivo:</span><span class="sxs-lookup"><span data-stu-id="be1c7-127">Turn off the device:</span></span>
+1. <span data-ttu-id="ffc2e-127">Desative o dispositivo:</span><span class="sxs-lookup"><span data-stu-id="ffc2e-127">Turn off the device:</span></span>
 
-   1. <span data-ttu-id="be1c7-128">Ao pressionar o botão volume up, pressione o botão de energia.</span><span class="sxs-lookup"><span data-stu-id="be1c7-128">While pressing the Volume up button, press the Power button.</span></span>
-   1. <span data-ttu-id="be1c7-129">Continue pressionando ambos os botões até ver o logotipo do Windows.</span><span class="sxs-lookup"><span data-stu-id="be1c7-129">Keep pressing both buttons until you see the Windows logo.</span></span>
-   1. <span data-ttu-id="be1c7-130">Solte o botão de energia, mas continue a manter o botão aumentar volume até que a interface do usuário de instalação comece.</span><span class="sxs-lookup"><span data-stu-id="be1c7-130">Release the Power button but continue to hold the Volume up button until the Install UI begins.</span></span>
+   1. <span data-ttu-id="ffc2e-128">Ao pressionar o botão baixo volume, pressione o botão de energia.</span><span class="sxs-lookup"><span data-stu-id="ffc2e-128">While pressing the Volume down button, press the Power button.</span></span>
+   1. <span data-ttu-id="ffc2e-129">Continue pressionando ambos os botões até ver o logotipo do Windows.</span><span class="sxs-lookup"><span data-stu-id="ffc2e-129">Keep pressing both buttons until you see the Windows logo.</span></span>
+   1. <span data-ttu-id="ffc2e-130">Solte o botão de energia, mas continue a manter o botão abaixar o volume até que a interface do usuário de instalação comece.</span><span class="sxs-lookup"><span data-stu-id="ffc2e-130">Release the Power button but continue to hold the Volume down button until the Install UI begins.</span></span>
 
    ![\* Use os botões baixo de volume e energia para iniciar a recuperação \*](images/sh2-keypad.png) <br>
-   **<span data-ttu-id="be1c7-132">Figura 2.</span><span class="sxs-lookup"><span data-stu-id="be1c7-132">Figure 2.</span></span> <span data-ttu-id="be1c7-133">Botões de volume e energia</span><span class="sxs-lookup"><span data-stu-id="be1c7-133">Volume and Power buttons</span></span>**
+   **<span data-ttu-id="ffc2e-132">Figura 2.</span><span class="sxs-lookup"><span data-stu-id="ffc2e-132">Figure 2.</span></span> <span data-ttu-id="ffc2e-133">Botões de volume e energia</span><span class="sxs-lookup"><span data-stu-id="ffc2e-133">Volume and Power buttons</span></span>**
 
-1. <span data-ttu-id="be1c7-134">Na tela seleção de idioma, selecione o idioma de exibição do Surface Hub 2S.</span><span class="sxs-lookup"><span data-stu-id="be1c7-134">On the language selection screen, select the display language for your Surface Hub 2S.</span></span>
+1. <span data-ttu-id="ffc2e-134">Na tela seleção de idioma, selecione o idioma de exibição do Surface Hub 2S.</span><span class="sxs-lookup"><span data-stu-id="ffc2e-134">On the language selection screen, select the display language for your Surface Hub 2S.</span></span>
 
-1. <span data-ttu-id="be1c7-135">Selecione **recuperar de uma unidade** e **limpe completamente a unidade**e, em seguida, selecione **recuperar**.</span><span class="sxs-lookup"><span data-stu-id="be1c7-135">Select **Recover from a drive** and **Fully clean the drive**, and then select **Recover**.</span></span> <span data-ttu-id="be1c7-136">Se você for solicitado a fornecer uma chave BitLocker, selecione **ignorar esta unidade**.</span><span class="sxs-lookup"><span data-stu-id="be1c7-136">If you're prompted for a BitLocker key, select **Skip this drive**.</span></span> <span data-ttu-id="be1c7-137">O Surface Hub 2S é reinicializado várias vezes e leva aproximadamente 30 minutos para concluir o processo de recuperação.</span><span class="sxs-lookup"><span data-stu-id="be1c7-137">Surface Hub 2S reboots several times and takes approximately 30 minutes to complete the recovery process.</span></span>
+1. <span data-ttu-id="ffc2e-135">Selecione **recuperar de uma unidade** e **limpe completamente a unidade**e, em seguida, selecione **recuperar**.</span><span class="sxs-lookup"><span data-stu-id="ffc2e-135">Select **Recover from a drive** and **Fully clean the drive**, and then select **Recover**.</span></span> <span data-ttu-id="ffc2e-136">Se você for solicitado a fornecer uma chave BitLocker, selecione **ignorar esta unidade**.</span><span class="sxs-lookup"><span data-stu-id="ffc2e-136">If you're prompted for a BitLocker key, select **Skip this drive**.</span></span> <span data-ttu-id="ffc2e-137">O Surface Hub 2S é reinicializado várias vezes e leva aproximadamente 30 minutos para concluir o processo de recuperação.</span><span class="sxs-lookup"><span data-stu-id="ffc2e-137">Surface Hub 2S reboots several times and takes approximately 30 minutes to complete the recovery process.</span></span>
 
-<span data-ttu-id="be1c7-138">Quando a tela instalação inicial for exibida, remova a unidade USB.</span><span class="sxs-lookup"><span data-stu-id="be1c7-138">When the first-time setup screen appears, remove the USB drive.</span></span>
+<span data-ttu-id="ffc2e-138">Quando a tela instalação inicial for exibida, remova a unidade USB.</span><span class="sxs-lookup"><span data-stu-id="ffc2e-138">When the first-time setup screen appears, remove the USB drive.</span></span>
 
-## <span data-ttu-id="be1c7-139">Contate o Suporte</span><span class="sxs-lookup"><span data-stu-id="be1c7-139">Contact Support</span></span>
+## <span data-ttu-id="ffc2e-139">Contate o Suporte</span><span class="sxs-lookup"><span data-stu-id="ffc2e-139">Contact Support</span></span>
 
-<span data-ttu-id="be1c7-140">Se tiver dúvidas ou precisar de ajuda, você pode [criar uma solicitação de suporte](https://support.microsoft.com/supportforbusiness/productselection).</span><span class="sxs-lookup"><span data-stu-id="be1c7-140">If you have questions or need help, you can [create a support request](https://support.microsoft.com/supportforbusiness/productselection).</span></span>
+<span data-ttu-id="ffc2e-140">Se tiver dúvidas ou precisar de ajuda, você pode [criar uma solicitação de suporte](https://support.microsoft.com/supportforbusiness/productselection).</span><span class="sxs-lookup"><span data-stu-id="ffc2e-140">If you have questions or need help, you can [create a support request](https://support.microsoft.com/supportforbusiness/productselection).</span></span>
