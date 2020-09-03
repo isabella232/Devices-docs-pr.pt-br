@@ -14,12 +14,12 @@ manager: laurawi
 ms.localizationpriority: medium
 audience: itpro
 ms.date: 09/01/2020
-ms.openlocfilehash: a6ea1742ab767a99e7b4868e56d081bf0016785b
-ms.sourcegitcommit: 6618e8fe05628aa8b17654584657eff0f784dbfd
+ms.openlocfilehash: 239b5e4659ff48e6c0fd9d2fca03341eadb9a27d
+ms.sourcegitcommit: 78694f3958117a339a28d3a5854908181f1b65d7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "10986323"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "10993661"
 ---
 # Modo de gerenciamento do Microsoft Surface Enterprise
 
@@ -209,10 +209,10 @@ $TestUefiV2 | Export-PfxCertificate -Password $pw -FilePath "Demo Certificate\Te
 1.  Crie uma pasta na unidade C: onde você salvará o script; por exemplo, C:\SEMM.
 2.  Copie o script de exemplo no bloco de notas ou no editor de texto equivalente e salve o arquivo como um script do PowerShell (. ps1).
 3.  Conecte-se ao seu computador com as credenciais de administrador e abra uma sessão do PowerShell com privilégios elevados.
-4.  Verifique se as permissões estão definidas para permitir que os scripts sejam executados. Por padrão, os scripts são bloqueados a partir da execução, a menos que você modifique a política de execução. Para saber mais, consulte sobre as políticas de execução.
+4.  Verifique se as permissões estão definidas para permitir que os scripts sejam executados. Por padrão, os scripts são bloqueados a partir da execução, a menos que você modifique a política de execução. Para saber mais, consulte [sobre as políticas de execução](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies).
 5.  No prompt de comando, digite o caminho completo do script e pressione Enter. O script cria um certificado de demonstração chamado TempOwner. pfx.
 
-Você também pode criar seu próprio certificado auto-assinado usando o PowerShell. Para obter mais informações, consulte a seguinte documentação do PowerShell: [New-SelfSignedCertificate] (https://docs.microsoft.com/powershell/module/pkiclient/new-selfsignedcertificate)
+Você também pode criar seu próprio certificado auto-assinado usando o PowerShell. Para obter mais informações, consulte a seguinte documentação do PowerShell: [New-SelfSignedCertificate](https://docs.microsoft.com/powershell/module/pkiclient/new-selfsignedcertificate).
 
 
 
