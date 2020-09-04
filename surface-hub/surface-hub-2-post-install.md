@@ -1,6 +1,6 @@
 ---
-title: Windows 10 para a configuração pós-instalação do Surface Hub 2
-description: Windows 10 para a configuração pós-instalação do Surface Hub 2
+title: Configurar o Windows 10 pro ou Enterprise no Surface Hub 2
+description: Este artigo inclui recomendações para garantir a melhor experiência ao usar um computador com tela e um toque de tela grande personalizado.
 keywords: Surface Hub, Windows 10, área de trabalho, instalar, configuração
 ms.prod: surface-hub
 ms.mktglfcycl: deploy
@@ -13,14 +13,14 @@ ms.audience: itpro
 author: greg-lindsay
 ms.collection: M365-modern-desktop
 ms.topic: article
-ms.openlocfilehash: d6a1cdb2cac01b48c80e0fa4b7ccb6d3bcdb76ac
-ms.sourcegitcommit: 6618e8fe05628aa8b17654584657eff0f784dbfd
+ms.openlocfilehash: 47852284c35d213b81dd7b87ca875b400d8c713f
+ms.sourcegitcommit: c74835239cf4e304af59465fb6fc785de4a0c5cc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "10986344"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "10994587"
 ---
-# Windows 10 para a configuração pós-instalação do Surface Hub 2
+# Configurar o Windows 10 pro ou Enterprise no Surface Hub 2
 
 **Aplica-se a: Surface Hub 2S** 
 
@@ -135,14 +135,20 @@ Use um dispositivo certificado com Windows Hello para o reconhecimento de rosto.
 Para adicionar um ícone à barra de tarefas que permite o bloqueio de tela com um toque semelhante ao atalho de teclado do Windows-L: 
 
 1.  Toque e segure ou clique com o botão direito do mouse na área de trabalho, selecione **novo**  >  **atalho**  >  **navegar**na  >  **área de trabalho**  >  **OK**  >  **Avançar**.
-2.  Forneça um nome para o atalho, como **bloquear meu PC**e, em seguida, selecione **concluir**.
-3.  Clique com o botão direito do mouse ou toque e mantenha pressionado o atalho recém-criado na área de trabalho e selecione **Propriedades**. Na guia **atalho** , insira o seguinte no campo de **destino** : **Rundll32.exe User32.dll, LockWorkStation**
-4.  Selecione o botão **Alterar ícone** e navegue até **C:\Windows\System32\imageres.dll** e selecione um ícone para usar. 
-5. Veja o exemplo a seguir:
+
+1.  Forneça um nome para o atalho, como **bloquear meu PC**e, em seguida, selecione **concluir**.
+
+1.  Clique com o botão direito do mouse ou toque e mantenha pressionado o atalho recém-criado na área de trabalho e selecione **Propriedades**. Na guia **atalho** , insira o seguinte no campo de **destino** : **Rundll32.exe User32.dll, LockWorkStation**
+
+1.  Selecione o botão **Alterar ícone** e navegue até **C:\Windows\System32\imageres.dll** e selecione um ícone para usar. 
+
+    Veja o exemplo a seguir:
 
     ![Escolher um ícone](images/lock.png)
-6.  Selecione **OK** para salvar o atalho.
-7.  Clique com o botão direito do mouse ou toque e segure o atalho e selecione **fixar na barra de tarefas**.
+    
+1.  Selecione **OK** para salvar o atalho.
+
+1.  Clique com o botão direito do mouse ou toque e segure o atalho e selecione **fixar na barra de tarefas**.
 
 ## Aplicativos
 
@@ -151,14 +157,16 @@ Para adicionar um ícone à barra de tarefas que permite o bloqueio de tela com 
 Para atualizar todos os aplicativos da loja instalados:
 
 1. Abra o aplicativo da Microsoft Store e selecione **Ver mais** reticências no canto superior direito.
-2. Selecione **downloads e atualizações**.
-2. Selecione **obter atualizações**.
+2. Selecione **Downloads e atualizações**.
+2. Selecione **Obter atualizações**.
 
 ### Microsoft Whiteboard
 
 Para instalar o Microsoft whiteboard:
 
-1. Selecione o ícone do **espaço de trabalho do Windows Ink** ![ espaço de trabalho ](images/ink.png) de tinta no canto inferior direito da barra de tarefas e baixe o **quadro de comunicações**.
+ - Selecione o ícone do **espaço de trabalho do Windows Ink** no canto inferior direito da barra de tarefas e baixe o **whiteboard**.
+ 
+   ![Espaço de trabalho à tinta](images/ink.png) 
 
 Você também pode instalar o whiteboard na Microsoft Store:
 
@@ -275,9 +283,9 @@ Ative o modo tablet, se quiser, para atender às necessidades de acessibilidade.
 
 1. Procure pela **central de software** e abra-a.
 2. Selecione **Opções** no painel de navegação.
-3. Expanda a seção **Gerenciamento de energia** e marque a caixa de seleção **não aplicar configurações de energia do meu departamento de ti a este computador**.
+3. Expanda a seção **Gerenciamento de energia** e selecione **não aplicar configurações de energia do meu departamento de ti para este computador**.
 
-  ![Configurações de software](images/soft-cntr.png)
+   ![Configurações de software](images/soft-cntr.png)
 
 ### Configurações de som
 
@@ -327,4 +335,4 @@ Ative o modo tablet, se quiser, para atender às necessidades de acessibilidade.
 
 ## Tópicos relacionados
 
-[Migrar para o Windows 10 pro ou Enterprise no Surface Hub 2](surface-hub-2s-migrate-os.md)
+[Migrar para o Windows 10 Pro ou para o Enterprise no Surface Hub 2](surface-hub-2s-migrate-os.md)
