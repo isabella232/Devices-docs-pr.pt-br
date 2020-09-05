@@ -36,7 +36,7 @@
 
 ## Gerenciar
 ### [Migrar para o Windows 10 Pro ou para o Enterprise no Surface Hub 2](surface-hub-2s-migrate-os.md)
-### [Configuração de pós-instalação do Windows 10 para o Surface Hub 2](surface-hub-2-post-install.md)
+### [Configurar o Windows 10 Pro ou Enterprise no Surface Hub 2](surface-hub-2-post-install.md)
 ### [Instalar a Atualização da Versão Prévia do Windows 10 Team 2020](surface-hub-install-2020preview.md)  
 ### [Problemas conhecidos - Atualização do Windows 10 Team 2020](surface-hub-2020-team-update-known-issues.md)
 ### [Instalar e configurar o novo Microsoft Edge no Surface Hub](surface-hub-install-chromium-edge.md)        
