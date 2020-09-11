@@ -9,33 +9,33 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 07/22/2020
+ms.date: 09/10/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: cf4d909a8c06bddf2bb0b3e42259f0b69cd97109
-ms.sourcegitcommit: df1e178b724966e4cf8ff219c5e937e6c31cd9b4
+ms.openlocfilehash: fe5f76034b5b8ae4801a8fb403d6db0ed423c144
+ms.sourcegitcommit: 75940bb1ab4e08c96736923859c7dd673dcf8d79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "10894097"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "11009609"
 ---
 # Instalar e configurar o novo Microsoft Edge no Surface Hub
 
 A atualização do Windows 10 Team 2020 oferece suporte ao novo Microsoft Edge baseado no Chromium (versão 85 e posterior) que o navegador recomendado para Surface Hub. Você pode instalar o Microsoft Edge manualmente usando um pacote de provisionamento, remotamente usando o Microsoft Intune ou seu provedor de gerenciamento de dispositivos móveis (MDM) preferido.
 
- Por padrão, os dispositivos Surface Hub são pré-instalados com o Microsoft Edge Legacy (versão 44).
-
-> [!IMPORTANT]
-> O Surface Hub requer a versão 85 ou posterior do novo Microsoft Edge, com disponibilidade limitada ao "[canal de desenvolvimento](https://docs.microsoft.com/deployedge/microsoft-edge-channels)", projetado para dar aos administradores de ti uma olhada antecipada na próxima funcionalidade de borda e se preparar para a próxima versão beta.  O suporte para o canal de desenvolvimento está temporariamente habilitado para os participantes do Windows a visualizarem o Microsoft Edge. (Normalmente, o Surface Hub suporta apenas versões lançadas para o "canal estável".) Para obter mais informações, consulte [visão geral do canal Microsoft Edge.](https://docs.microsoft.com/deployedge/microsoft-edge-channels)
+Por padrão, os dispositivos Surface Hub são pré-instalados com o Microsoft Edge Legacy (versão 44).
  
-### Instalando os builds de canais de desenvolvimento do Microsoft Edge 
+Se você já instalou o recurso de desenvolvimento do Edge, conclua as seguintes etapas:
 
-- Por design, o canal de desenvolvimento do Microsoft Edge é instalado lado a lado com o Microsoft Edge Legacy, e os usuários verão ambos "desenvolvimento do Microsoft Edge" (versão 85) e "Microsoft Edge" (versão 44) no menu Iniciar do Surface Hub. Em contraste, o canal estável do Microsoft Edge substituirá o Microsoft Edge Legacy como navegador padrão.
-- Depois de instalado, o canal de desenvolvimento do Microsoft Edge não será exibido automaticamente como um aplicativo fixado. Para abrir, selecione **Iniciar**  >  **todos os aplicativos**. Em contraste, o canal estável do Microsoft Edge substitui automaticamente o Microsoft Edge Legacy como um aplicativo fixado na lista todos os aplicativos.
-- Uma vez que a versão 85 seja promovida para canal estável, o canal de desenvolvimento do Microsoft Edge desaparecerá automaticamente do menu Iniciar, e você precisará instalar o canal estável do Microsoft Edge no Surface Hub.
+1. Se você não souber qual é a sua versão ou quiser confirmar, abra o navegador do Edge e acesse edge://version.
+2. Navegue até **Surface Hub > gerenciamento de dispositivos**. Em **pacotes de provisionamento**, selecione **Adicionar ou remover um pacote de provisionamento.**
+3. Se você usou o instalador anterior para fixar o Microsoft Edge dev no menu Iniciar, clique em **menu iniciar personalizado** na lista e clique em **remover.**
+4. Se você usou uma política de layout de início personalizada, será necessário modificá-la usando o caminho de borda mais recente, conforme descrito na seção abaixo de [Exibir o Microsoft Edge no menu Iniciar do Surface Hub](#display-microsoft-edge-in-the-surface-hub-start-menu).
+5. Agora, você pode provisionar o MicrosoftEdgeDevUninstaller. ppkg.
+6. Depois que o Edge dev for removido de **todos os aplicativos**, primeiro remova "MicrosoftEdgeDevInstaller" e, em seguida, remova "MicrosoftEdgeDevUninstaller".
+7. Isso desinstala com êxito o Microsoft Edge dev. Agora você pode instalar a versão padrão.
 
-> [!NOTE]
->  Uma redefinição de dispositivo é necessária para remover o novo Microsoft Edge. Consulte [redefinir ou recuperar um Surface Hub](https://docs.microsoft.com/surface-hub/device-reset-surface-hub) para obter mais informações.
-
+ 
+ 
 ## Instalar o Microsoft Edge
 
 ### Instalar o Microsoft Edge usando um pacote de provisionamento
@@ -48,9 +48,6 @@ A atualização do Windows 10 Team 2020 oferece suporte ao novo Microsoft Edge b
 6. Escolha o pacote de provisionamento do Microsoft Edge e selecione **Adicionar**.
 7. Você verá um resumo das alterações que o pacote de aprovisionamento aplica. Selecione **Sim, adicionar**.
 8. Aguarde até que a instalação do Microsoft Edge seja concluída. Depois de instalado, navegue até o menu Iniciar do Surface Hub para acessar o novo Microsoft Edge.              
-Okey
-> [!IMPORTANT]
->  Depois de instalado, o canal de desenvolvimento do Microsoft Edge não será exibido automaticamente como um aplicativo fixado no menu Iniciar do Surface Hub. Em vez disso, os usuários vão encontrá-lo em **Iniciar**  >  **todos os aplicativos**. Se você estiver usando o layout padrão do menu Iniciar, poderá instalar o menu iniciar com o [pacote de provisionamento do Microsoft Edge](https://aka.ms/HubEdge) para adicionar o Microsoft Edge como um aplicativo fixo. Para obter mais informações, consulte a seção a seguir: [Exibir o Microsoft Edge no menu Iniciar do Microsoft Edge](#display-start).
 
 > [!NOTE]
 > Se houver uma versão mais recente do Microsoft Edge disponível, ela será atualizada automaticamente.
@@ -62,7 +59,7 @@ Okey
  
 
 1. [Baixe o Microsoft Edge Installer da Microsoft](https://www.microsoft.com/edge/business/download).
-    - Usar a versão atual do [canal de desenvolvimento](https://docs.microsoft.com/deployedge/microsoft-edge-channels) **(versão 85)**
+    - Usar a versão atual do [canal estável](https://docs.microsoft.com/deployedge/microsoft-edge-channels) **(versão 85)**
     - Escolher o **Windows 64-bit**
 2. [Adicione o instalador do Microsoft Edge como um aplicativo de linha de negócios ao Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/lob-apps-windows).
     - Se você optar por usar o Microsoft Edge Update para manipular as atualizações automáticas para o Microsoft Edge, certifique-se de definir a configuração **ignorar a versão do aplicativo** no painel informações do **aplicativo** . Quando você alterna essa configuração para **Sim**, o Microsoft Intune não impedirá a versão do aplicativo que está instalada no dispositivo do Surface Hub.
@@ -71,7 +68,7 @@ Okey
 ### Instalar o Microsoft Edge usando o gerenciamento de dispositivos móveis
 
 1. [Baixe o Microsoft Edge Installer da Microsoft](https://www.microsoft.com/edge/business/download).
-    - Usar a versão atual do [canal de desenvolvimento](https://docs.microsoft.com/deployedge/microsoft-edge-channels) **(versão 85)**
+    - Usar a versão atual do [canal estável](https://docs.microsoft.com/deployedge/microsoft-edge-channels) **(versão 85)**
     - Escolher o **Windows 64-bit**
 2. Testar o instalador do Microsoft Edge em um local hospedado, como um compartilhamento de arquivos local (\\server\share\MicrosoftEdgeEnterpriseX64.msi). O dispositivo de Surface hub deve ter permissão para acessar o local hospedado.
 3. Use o [provedor de serviços de configuração EnterpriseDesktopAppManagement (CSP)](https://docs.microsoft.com/windows/client-management/mdm/enterprisedesktopappmanagement-csp) por meio do seu provedor de MDM para instalar o Microsoft Edge.
@@ -103,8 +100,10 @@ O Microsoft Edge é pré-configurado com as políticas a seguir para oferecer um
 | [ProActiveAuthEnabled](https://docs.microsoft.com/deployedge/microsoft-edge-policies#proactiveauthenabled)             | Habilita o Microsoft Edge a autenticar proativamente usuários conectados com serviços da Microsoft. Isso simplifica a experiência de logon único (SSO).                                                                                                                         | um                 |
 | [PromptForDownloadLocation](https://docs.microsoft.com/deployedge/microsoft-edge-policies#promptfordownloadlocation)   | Salva arquivos automaticamente na pasta downloads, em vez de perguntar aos usuários onde salvar o arquivo. Isso simplifica a experiência de navegação.                                                                                                                             | 0                 |
 
- 
-### Configurar as políticas do Microsoft Edge
+> [!IMPORTANT]
+> Não há suporte para aplicativos Web progressivos (PWAs) para implantação no momento no sistema operacional de equipe do Windows 10.  Observe também que a configuração de política do Microsoft Edge [WebAppInstallForceList](https://docs.microsoft.com/deployedge/microsoft-edge-policies#webappinstallforcelist) não é suportada no Surface Hub. 
+
+### Definir configurações de política do Microsoft Edge
 
 Use [as políticas do navegador Microsoft Edge](https://docs.microsoft.com/deployedge/microsoft-edge-policies) para definir as configurações do navegador no Microsoft Edge. Essas políticas podem ser aplicadas usando:
 
@@ -124,9 +123,8 @@ Observe que o Surface Hub não é compatível com as seguintes políticas de atu
 > [!NOTE]
 >  O Microsoft Edge requer conectividade com a Internet para dar suporte aos recursos. Certifique-se de que as [URLs de domínio necessárias](https://docs.microsoft.com/deployedge/microsoft-edge-security-endpoints) sejam adicionadas à lista de permissões para garantir a comunicação por meio de firewalls e outros mecanismos de segurança.
  
-### <a name="display-start"></a> Exibir o Microsoft Edge no menu Iniciar do Surface Hub
+### Exibir o Microsoft Edge no menu Iniciar do Surface Hub
 
-Depois de instalado, o canal de desenvolvimento do Microsoft Edge não será exibido automaticamente como um aplicativo fixado no menu Iniciar do Surface Hub. Em vez disso, os usuários vão encontrá-lo em **Iniciar**  >  **todos os aplicativos**.
 Se você estiver usando o layout padrão do menu Iniciar, poderá instalar o menu iniciar com o pacote de provisionamento do Microsoft Edge para adicionar o Microsoft Edge como um aplicativo fixo.
 Se você quiser aplicar um layout personalizado do menu Iniciar, use o seguinte XML para adicionar um bloco fixado para o Microsoft Edge.
 
@@ -134,7 +132,7 @@ Se você quiser aplicar um layout personalizado do menu Iniciar, use o seguinte 
 
 <start:DesktopApplicationTile
 
-DesktopApplicationLinkPath="C:\Program Files (x86)\Microsoft\Edge Dev\Application\msedge.exe"
+DesktopApplicationLinkPath="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
 
 Size="2x2"
 

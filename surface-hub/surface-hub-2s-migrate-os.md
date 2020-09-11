@@ -1,7 +1,7 @@
 ---
 title: Migrar para o Windows 10 Pro ou para o Enterprise no Surface Hub 2
 description: Este artigo descreve o processo de migração da equipe do Windows 10 no Surface Hub 2 para o Windows 10 pro ou o Windows 10 Enterprise.
-keywords: separar os valores com vírgulas
+keywords: Área de trabalho do Surface Hub, Surface Hub
 ms.prod: surface-hub
 ms.sitesec: library
 author: greg-lindsay
@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 09/08/2020
+ms.date: 09/09/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: e47ee735c0ba1cc0782c892b64d50f7e9d09f355
-ms.sourcegitcommit: d24759da42dfe0b913fd9ebf716407a673c2b818
+ms.openlocfilehash: 5431cb9c11fbcfadf0ef517164521c237fb6b3bb
+ms.sourcegitcommit: 75940bb1ab4e08c96736923859c7dd673dcf8d79
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "11004483"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "11009619"
 ---
 # Migrar para o Windows 10 Pro ou para o Enterprise no Surface Hub 2
 
@@ -232,7 +232,7 @@ Use a unidade **BOOTME** para instalar os arquivos de pacote do Semm e atualizar
 
    ![Selecionar gerenciamento & instalar a partir do USB](images/shm-fig21.png)
    
-5. Selecione **reiniciar agora**, como mostrado a seguir. O dispositivo será desligado.
+5. Selecione **reiniciar agora**, como mostrado a seguir. O dispositivo será reiniciado e exibirá o logotipo branco de 4 quadrados no meio da tela e ele será desligado.
 
    ![Selecione reiniciar agora](images/shm-fig25.png)
    
@@ -245,7 +245,7 @@ Use a unidade **BOOTME** para instalar os arquivos de pacote do Semm e atualizar
    > [!NOTE]
    > Depois de ativar o SEMM em seu dispositivo, a nova configuração de **EnableOSMigration** de UEFI será aplicada. Você não poderá mais acessar a equipe do Windows 10 e deve passar para a próxima etapa e instalar o Windows 10 pro ou o Windows 10 Enterprise. 
 
-8. O dispositivo será reinicializado, exibirá os 4 quadrados brancos no meio da tela e, em seguida, desativada novamente.
+8. O dispositivo será reinicializado, exibirá o logotipo branco de quatro quadrados no meio da tela e, em seguida, novamente será desligado
 
 ### Instalar o Windows 10 pro ou Enterprise
 
@@ -253,7 +253,7 @@ Use a unidade **BOOTME** para instalar os arquivos de pacote do Semm e atualizar
 
 2. O dispositivo será iniciado, você verá o branco 4 quadrado no meio da tela e verá um círculo girando abaixo do logotipo branco de quatro quadrados.
 
-3. Se o dispositivo não inicializar automaticamente na unidade USB, desligue o dispositivo (desconecte o cabo de alimentação e conecte-o novamente), pressione e solte o botão de energia e, em seguida, pressione e mantenha pressionado o botão para baixo de volume até ver o círculo girando abaixo do logotipo branco de quatro quadrados.
+3. Se o dispositivo não inicializar automaticamente na unidade USB, desligue o dispositivo (desconecte o cabo de alimentação e conecte-o novamente). Após conectar o cabo de alimentação novamente, o dispositivo deve ser inicializado após alguns segundos para o logotipo branco de 4 quadrados no meio da tela, ou você pode pressionar e liberar o botão de energia para ligar o dispositivo novamente. Logo após ver o logotipo de quatro quadrados no meio da tela, pressione e mantenha pressionado o botão para baixo volume até ver o círculo girando abaixo do logotipo branco de quatro quadrados.
  
    ![Inicializar no Windows 10 a partir do USB](images/shm-fig26.png)
    
