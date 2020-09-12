@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 06/20/2019
+ms.date: 09/11/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 2da6daf2bb32e9209f33d5eb19d76221db28c0ed
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: a552434846c14a5f612b3743ea42819999aa8553
+ms.sourcegitcommit: ae0dae16e0b7bb9c906de78095634c3070a58c61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830614"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "11013411"
 ---
 # Novidades no Surface Hub 2S para administradores de IT
 
@@ -24,6 +24,7 @@ O Surface Hub 2S é uma tela de colaboração multifuncional criada para trabalh
 
 |**Funcionalidade**|**Resumo**|**Saiba mais**|
 |:-------|:------|:----|
+|**Migração para o Windows 10 pro ou Enterprise**| O Surface Hub 2S vem pré-instalado com o Windows 10 Team, uma edição personalizada do Windows 10 desenvolvida para facilitar a colaboração em ambientes de sala de reunião. Agora você tem a opção de executar o Windows 10 pro ou Enterprise para usar o Surface Hub 2S da mesma forma que qualquer outro computador.| [Lançamento da disponibilidade do Windows 10 pro e Enterprise no Surface Hub 2](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/announcing-the-availability-of-windows-10-pro-and-enterprise-on/ba-p/1624107) <br> <br> [Migrar para o Windows 10 Pro ou para o Enterprise no Surface Hub 2](surface-hub-2s-migrate-os.md) |
 |**Gerenciamento de dispositivo móvel e gerenciamento de UEFI**| Gerenciar configurações e políticas usando um provedor de gerenciamento de dispositivos móveis (MDM). <br> <br> A integração total com o modo de gerenciamento do Surface Enterprise (SEMM) permite que você gerencie componentes de hardware e firmware. | [Gerenciando o Surface Hub 2S com o Microsoft Intune](surface-hub-2s-manage-intune.md) <br> <br> [Modo de gerenciamento empresarial do Surface](https://docs.microsoft.com/surface/surface-enterprise-management-mode) |
 |**Coexistência na nuvem e no local**| Compatível com local, híbrido ou online. | [Preparar seu ambiente para o Microsoft Surface Hub 2S](surface-hub-2s-prepare-environment.md) |
 |**Redefinir e recuperar**| Restaure a partir da nuvem ou da unidade USB. | [Recuperar e restaurar o Surface Hub 2S](surface-hub-2s-recover-reset.md) |
@@ -53,12 +54,12 @@ A tabela a seguir detalha as diferenças entre o Surface Hub e o Surface Hub 2S:
 |**Taxa de proporção**| 16:9 | 16:9 | 3:2 |
 |**Armazenamento**| SSD 128 GB | SSD 128 GB | SSD 128 GB |
 |**RAM**| 8 GB DE RAM | 8 GB DE RAM | 8 GB DE RAM |
-|**Processador**| i5 Core Intel® Core de 4ª geração | 4ª geração Intel Core i7 | Processador Quad-Core Intel Core i5 para 8 gerações |
+|**Processor**| i5 Core Intel® Core de 4ª geração | 4ª geração Intel Core i7 | Processador Quad-Core Intel Core i5 para 8 gerações |
 |**Elementos gráficos**| Intel HD 4600 | NVIDIA Quadro K2200 | Elementos gráficos do Intel UHD 620 |
 |**Rede**| Wi-Fi (802,11 a/b/g/n/AC) <br> Ethernet 1 Gbps <br> Bluetooth 4,0 baixo consumo de energia <br> Miracast habilitado | Wi-Fi (802,11 a/b/g/n/AC) <br> Ethernet 1 Gbps <br> Bluetooth 4,0 baixo consumo de energia <br> Miracast habilitado | Wi-Fi 5 (IEEE 802,11 a/b/g/n/AC) <br> Ethernet 1 Gbps <br> Tecnologia sem fio Bluetooth 4,1 <br> Exibição Miracast |
 |**Portas**| (1) USB 3,0 (inferior) + (1) USB 3,0 (acesso à lateral)  <br> (2) USB 2,0 <br> Saída de vídeo DisplayPort <br> Saída de estéreo de 3,5 mm <br> Conector RJ11 para controle no nível do sistema <br> <br> Entrada de vídeo DisplayPort <br> Entrada de vídeo HDMI <br> Entrada de vídeo VGA <br> Entrada estéreo de 3,5 mm <br> (1) USB 2,0 tipo B Touchback saída | (1) USB 3,0 (inferior) + (1) USB 3,0 (acesso à lateral) <br> (4) USB 2,0 <br> Saída de vídeo DisplayPort <br> Saída de estéreo de 3,5 mm <br> Conector RJ11 para controle no nível do sistema <br> <br> Entrada de vídeo DisplayPort <br> Entrada de vídeo HDMI <br> Entrada de vídeo VGA <br> Entrada estéreo de 3,5 mm <br> (1) USB 2,0 tipo B Touchback saída | (1) USB-A <br> Saída de vídeo Mini-DisplayPort <br> Entrada de vídeo HDMI <br> USB-C com entrada DisplayPort <br> (4) USB-C (na tela) <br> Gigabit Ethernet RJ45 |
 |**Sensores**| (2) sensores de presença de infravermelho passiva, sensores de luz ambiente | (2) sensores de presença de infravermelho passiva, sensores de luz ambiente | Sensor de ocupação Doppler, <br> Acelerômetro <br> Girômetro  |
-|**NFC**| Leitor NFC | Leitor NFC | N/A |
+|**NFC**| Leitor NFC | Leitor NFC | N/D |
 |**Alto-falantes**| (2) alto-falantes estéreos de front-face | (2) alto-falantes estéreos de front-face | Alto-falantes estéreos frontais frontais de 3 vias |
 |**Microfone**| Array de 4 elementos e alto desempenho | Array de 4 elementos e alto desempenho | Matriz inteira de 8 elementos da banda MEMS do microfone |
 |**Câmera**| (2) câmeras de alta definição de HD de grande número, de 1080p a 30 fps | (2) câmeras de alta definição de HD de grande número, de 1080p a 30 fps | (1) câmera do Surface Hub 2 da Microsoft, 4K, conexão USB-C, campo horizontal de 90 graus de visão                                                           |

@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 09/09/2020
+ms.date: 09/11/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 5431cb9c11fbcfadf0ef517164521c237fb6b3bb
-ms.sourcegitcommit: 75940bb1ab4e08c96736923859c7dd673dcf8d79
+ms.openlocfilehash: 44e7ca08ca4b8c077d430cba2a8cb4b674b68631
+ms.sourcegitcommit: ae0dae16e0b7bb9c906de78095634c3070a58c61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "11009619"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "11013431"
 ---
 # Migrar para o Windows 10 Pro ou para o Enterprise no Surface Hub 2
 
@@ -25,7 +25,7 @@ ms.locfileid: "11009619"
 O Surface Hub 2S vem pré-instalado com o Windows 10 Team, uma edição personalizada do Windows 10 desenvolvida para facilitar a colaboração em ambientes de sala de reunião. Agora você tem a opção de executar o Windows 10 pro ou Enterprise para usar o Surface Hub 2S da mesma forma que qualquer outro computador. 
 
 > [!IMPORTANT]
->Ao contrário de uma atualização ou migração típica, esse processo requer que você siga um procedimento prescritiva, conforme descrito nesta página. Examine os [componentes da solução](#solution-components) e o [fluxo de trabalho de migração](#migration-workflow-summary) antes de prosseguir.
+>Ao contrário de uma atualização ou migração típica, esse processo requer que você siga um procedimento prescritiva, conforme descrito nesta página. Examine os [componentes da solução](#solution-components) e a [migração e o fluxo de trabalho de instalação](#migration-and-installation-workflow-summary) antes de prosseguir.
 
 Você inicia a migração da equipe do Windows 10 usando um computador separado e uma ferramenta para download-- **Surface configurador UEFI** --para criar um pacote contendo uma nova configuração de UEFI que você aplica ao Surface Hub 2s.  O configurador UEFI do Surface funciona como uma interface no modo de gerenciamento do Surface Enterprise (SEMM), projetado para facilitar o gerenciamento centralizado das configurações de firmware em dispositivos de superfície em um ambiente corporativo. Para saber mais sobre o SEMM, confira [documentação do modo de gerenciamento do Surface Enterprise da Microsoft](https://docs.microsoft.com/surface/surface-enterprise-management-mode).
  
@@ -42,7 +42,7 @@ Você inicia a migração da equipe do Windows 10 usando um computador separado 
 - Solução de imagem (opcional)
 
  
-## Resumo do fluxo de trabalho de migração
+## Resumo do fluxo de trabalho de migração e instalação
 
 | Etapa  | Ação                                                                                                 | Resumo                                                                                                                                                                                                                                                                                                                                                                                                  |
 | - | ------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -269,4 +269,8 @@ Para configurar completamente o Surface Hub 2S como um dispositivo de produtivid
 
 > [!NOTE]
 >Se seguir as etapas descritas neste documento não tiver êxito em migrar seu dispositivo para o Windows 10 pro ou Enterprise para Surface Hub 2, entre em contato com o [suporte do Surface Hub](https://support.microsoft.com/help/4037644/surface-contact-surface-warranty-and-software-support).
+
+### Retornando à equipe do Windows 10
+
+Se você quiser restaurar seu dispositivo para a equipe do Windows 10, consulte [redefinir e recuperar para Surface Hub 2s](surface-hub-2s-recover-reset.md)
 

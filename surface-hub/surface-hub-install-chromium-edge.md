@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 09/10/2020
+ms.date: 09/11/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: fe5f76034b5b8ae4801a8fb403d6db0ed423c144
-ms.sourcegitcommit: 75940bb1ab4e08c96736923859c7dd673dcf8d79
+ms.openlocfilehash: 6de949c7341f9d9bee60f808dab77770377acefc
+ms.sourcegitcommit: a64f5f375ebc0611e5735c63afd9540db0f807c4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "11009609"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "11013692"
 ---
 # Instalar e configurar o novo Microsoft Edge no Surface Hub
 
@@ -24,15 +24,16 @@ A atualização do Windows 10 Team 2020 oferece suporte ao novo Microsoft Edge b
 
 Por padrão, os dispositivos Surface Hub são pré-instalados com o Microsoft Edge Legacy (versão 44).
  
-Se você já instalou o recurso de desenvolvimento do Edge, conclua as seguintes etapas:
-
-1. Se você não souber qual é a sua versão ou quiser confirmar, abra o navegador do Edge e acesse edge://version.
-2. Navegue até **Surface Hub > gerenciamento de dispositivos**. Em **pacotes de provisionamento**, selecione **Adicionar ou remover um pacote de provisionamento.**
-3. Se você usou o instalador anterior para fixar o Microsoft Edge dev no menu Iniciar, clique em **menu iniciar personalizado** na lista e clique em **remover.**
-4. Se você usou uma política de layout de início personalizada, será necessário modificá-la usando o caminho de borda mais recente, conforme descrito na seção abaixo de [Exibir o Microsoft Edge no menu Iniciar do Surface Hub](#display-microsoft-edge-in-the-surface-hub-start-menu).
-5. Agora, você pode provisionar o MicrosoftEdgeDevUninstaller. ppkg.
-6. Depois que o Edge dev for removido de **todos os aplicativos**, primeiro remova "MicrosoftEdgeDevInstaller" e, em seguida, remova "MicrosoftEdgeDevUninstaller".
-7. Isso desinstala com êxito o Microsoft Edge dev. Agora você pode instalar a versão padrão.
+> [!NOTE]
+> Se você já instalou o recurso de desenvolvimento do Edge, conclua as seguintes etapas:
+>
+>1. Se você não souber qual é a sua versão ou quiser confirmar, abra o navegador do Edge e acesse edge://version.
+>2. Navegue até **Surface Hub > gerenciamento de dispositivos**. Em **pacotes de provisionamento**, selecione **Adicionar ou remover um pacote de provisionamento.**
+>3. Se você usou o instalador anterior para fixar o Microsoft Edge dev no menu Iniciar, clique em **menu iniciar personalizado** na lista e clique em **remover.**
+>4. Se você usou uma política de layout de início personalizada, será necessário modificá-la usando o caminho de borda mais recente, conforme descrito na seção abaixo de [Exibir o Microsoft Edge no menu Iniciar do Surface Hub](#display-microsoft-edge-in-the-surface-hub-start-menu).
+>5. Agora, você pode provisionar o MicrosoftEdgeDevUninstaller. ppkg.
+>6. Depois que o Edge dev for removido de **todos os aplicativos**, primeiro remova "MicrosoftEdgeDevInstaller" e, em seguida, remova "MicrosoftEdgeDevUninstaller".
+>7. Isso desinstala com êxito o Microsoft Edge dev. Agora você pode instalar a versão padrão.
 
  
  
@@ -40,7 +41,7 @@ Se você já instalou o recurso de desenvolvimento do Edge, conclua as seguintes
 
 ### Instalar o Microsoft Edge usando um pacote de provisionamento
 
-1. Em um computador, baixe o [pacote de provisionamento do Microsoft Edge](https://aka.ms/HubEdge) (MicrosoftEdgeDevInstaller. ppkg) para a pasta raiz de uma unidade USB.
+1. Em um computador, baixe o [pacote de provisionamento do Microsoft Edge](https://aka.ms/HubEdge) (MicrosoftEdgeInstaller. ppkg) para a pasta raiz de uma unidade USB.
 2. Insira a unidade USB no Surface Hub.
 3. Em Surface Hub, abra **configurações** e insira suas credenciais de administrador quando solicitado.
 4. Navegue até **Surface Hub** > **Gerenciamento de dispositivo**. Em **Pacotes de provisionamento**, selecione **Adicionar ou remover um pacote de provisionamento**.

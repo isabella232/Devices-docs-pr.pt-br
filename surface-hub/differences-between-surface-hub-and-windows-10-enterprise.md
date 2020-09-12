@@ -7,20 +7,26 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 06/20/2019
+ms.date: 09/11/2020
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 92a634e897d3e0c9163fe092aaf7992f625de991
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: cae09fa3a21fe497d021f38621085b639b15c4da
+ms.sourcegitcommit: ae0dae16e0b7bb9c906de78095634c3070a58c61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830478"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "11013401"
 ---
 # Noções básicas do sistema operacional (Surface Hub)
 
 O sistema operacional do Surface Hub, o Windows 10 Team, é baseado no Windows 10 Enterprise, fornecendo suporte avançado para gerenciamento empresarial, segurança e outros recursos. No entanto, existem diferenças importantes entre eles. Enquanto a edição Enterprise foi criada para computadores, o Windows 10 Team foi projetado desde o início para telas grandes e salas de reunião. Quando você avaliar requisitos de segurança e gerenciamento do Surface Hub, é melhor considerá-lo como um novo sistema operacional. Este artigo destina-se a ajudar a destacar as principais diferenças entre o Windows 10 Team no Surface Hub e no Windows 10 Enterprise, e o que significam as diferenças para sua organização.
+
+A partir de setembro de 2020, os clientes têm a opção de migrar para o Windows 10 pro ou Enterprise no Surface Hub 2S. Para saber mais, consulte o seguinte:
+
+- [Lançamento da disponibilidade do Windows 10 pro e Enterprise no Surface Hub 2](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/announcing-the-availability-of-windows-10-pro-and-enterprise-on/ba-p/1624107).
+
+- [Migrar para o Windows 10 Pro ou para o Enterprise no Surface Hub 2](surface-hub-2s-migrate-os.md)
 
 ## Interface do usuário
 
