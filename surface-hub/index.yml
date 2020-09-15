@@ -14,17 +14,19 @@ metadata:
   author: greg-lindsay
   ms.author: greglin
   manager: laurawi
-  ms.openlocfilehash: 16e4f74623e3dfdcd2aafd43a80950612f0029c7
-  ms.sourcegitcommit: 6618e8fe05628aa8b17654584657eff0f784dbfd
+  ms.openlocfilehash: 97f710f427c6183cb34dadb07f6aa9f6637464ed
+  ms.sourcegitcommit: ae0dae16e0b7bb9c906de78095634c3070a58c61
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 09/01/2020
-  ms.locfileid: "10986313"
+  ms.lasthandoff: 09/11/2020
+  ms.locfileid: "11013421"
 landingContent:
 - title: Prepare-se para o Surface Hub 2S
   linkLists:
   - linkListType: whats-new
     links:
+    - text: Anunciamos a disponibilidade do Windows 10 Pro e do Enterprise no Surface Hub 2
+      url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/announcing-the-availability-of-windows-10-pro-and-enterprise-on/ba-p/1624107
     - text: Migrar para o Windows 10 Pro ou para o Enterprise no Surface Hub 2
       url: surface-hub-2s-migrate-os.md
     - text: Instalar a Atualização da Versão Prévia do Windows 10 Team 2020
