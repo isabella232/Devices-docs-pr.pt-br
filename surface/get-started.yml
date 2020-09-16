@@ -11,12 +11,12 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: High
-  ms.openlocfilehash: 312da1d432abce125161febfd7bca3eb82e22074
-  ms.sourcegitcommit: 83530906c7e34c92bbee90b723321acd61e77669
+  ms.openlocfilehash: 5cbfeee6dee7dcb921b5cbecaaeca7b4461073dc
+  ms.sourcegitcommit: c2df79cab0e59e9d7ea6640e5899531b57cd383f
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 08/08/2020
-  ms.locfileid: "10918901"
+  ms.lasthandoff: 09/16/2020
+  ms.locfileid: "11016400"
 landingContent:
 - title: Dispositivos Surface
   linkLists:
@@ -42,10 +42,10 @@ landingContent:
   linkLists:
   - linkListType: deploy
     links:
-    - text: Ferramenta do Surface Deployment Accelerator
-      url: microsoft-surface-deployment-accelerator.md
     - text: Dispositivos Autopilot e Surface
       url: windows-autopilot-and-surface-devices.md
+    - text: Suporte ao registro de Surface para o piloto automático do Windows
+      url: surface-autopilot-registration-support.md
     - text: Área de Trabalho Virtual do Windows no Surface
       url: windows-virtual-desktop-surface.md
 - title: Gerenciar dispositivos Surface
@@ -76,15 +76,15 @@ landingContent:
       url: surface-diagnostic-toolkit-for-business-intro.md
     - text: SEMM e UEFI
       url: surface-enterprise-management-mode.md
-    - text: Configuração de limite da bateria
-      url: battery-limit.md
+    - text: Ferramenta do Surface Deployment Accelerator
+      url: microsoft-surface-deployment-accelerator.md
 - title: Solução de problemas
   linkLists:
   - linkListType: learn
     links:
     - text: Principais soluções de suporte
       url: support-solutions-surface.md
-    - text: Práticas recomendadas para remoção do SSD em dispositivos de superfície compatíveis
+    - text: Práticas recomendadas para a remoção de SSD em dispositivos Surface compatíveis
       url: surface-ssd-removal-guide.md
     - text: Blog Surface para profissionais de TI
       url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/bg-p/SurfaceITPro

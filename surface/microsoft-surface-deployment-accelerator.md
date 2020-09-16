@@ -15,12 +15,12 @@ ms.author: greglin
 ms.topic: article
 ms.audience: itpro
 ms.date: 5/08/2020
-ms.openlocfilehash: 32d8fded8c325766f7ab6bbc750ba7fe13e01d70
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 0e136bd0a69db7a4c4e5cea7d2c065727dcc8fcc
+ms.sourcegitcommit: c2df79cab0e59e9d7ea6640e5899531b57cd383f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830200"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "11016430"
 ---
 # Microsoft Surface Deployment Accelerator
 
@@ -32,13 +32,42 @@ A ferramenta de fonte aberta SDA orientada por script aproveita o kit de avalia�
 
 A imagem resultante corresponde à configuração de imagens de recuperação bare-metal (BMR), sem nenhum aplicativo pré-instalado, como o Microsoft Office ou o aplicativo da superfície da UWP.
 
+## Requisitos
+
+1. Uma unidade USB Thumb com pelo menos 16 GB de tamanho. A unidade USB será formatada.
+2. Um arquivo. ISO com o Windows 10 pro ou o Windows 10 Enterprise. A ferramenta de criação de mídia pode ser usada para baixar o Windows 10 e criar um arquivo. ISO. Para obter mais informações, consulte [baixar o Windows 10](https://www.microsoft.com/software-download/windows10).
+
+## Como executar o SDA
+
 **Para executar o SDA:**
 
 1. Acesse [SurfaceDeploymentAccelerator](https://github.com/microsoft/SurfaceDeploymentAccelerator) no github. 
-2. Selecione **clonar ou baixar** e revisar o arquivo readme.
-3. Edite o script com as variáveis adequadas para o seu ambiente, conforme documentado no README, e examine antes de executá-lo em seu ambiente de teste. 
+2. Examine a documentação do [Leiame](https://github.com/microsoft/SurfaceDeploymentAccelerator/blob/master/README.md) .
+3. Na página [SurfaceDeploymentAccelerator](https://github.com/microsoft/SurfaceDeploymentAccelerator) , clique no botão **código** e, em seguida, selecione **baixar CEP** para salvar os arquivos localmente em seu computador.
+4. Clique com o botão direito do mouse no arquivo. zip e, em seguida, clique em **Propriedades**.
+5. Na guia **geral** , marque a caixa de seleção **desbloquear** e clique em **OK**.
+6. Extraia o arquivo. zip para um local em seu disco rígido (por exemplo: C:\SDA).
+7. Abra um prompt do Windows PowerShell elevado e defina ExecutionPolicy para a sessão atual como Irrestrito.
 
-   ![Ferramenta de aceleração de implantação de superfície em execução](images/surface-deployment-accelerator.png)
+    ```powershell
+    Set-ExecutionPolicy -Scope Process -ExecutionPolicy Unrestricted -Force
+    ```
+8. Execute o script SDA especificando os parâmetros para o seu ambiente. Por exemplo, o comando a seguir criará uma unidade USB inicializável que pode ser usada para instalar o Windows 10 em um Surface Hub 2:
+
+    ```powershell
+    .\CreateSurfaceWindowsImage.ps1 -ISO C:\SDA\enterprise_client.iso -OSSKU Enterprise -DestinationFolder C:\Output -Device SurfaceHub2 -CreateUSB $True
+    ```
+
+   ![Ferramenta de aceleração de implantação de superfície em execução](images/sda1.png)
+
+    O script exigirá cerca de 45 minutos para ser executado, mas pode demorar mais, dependendo da CPU e dos recursos de disco disponíveis. 
+
+    Depois de criar uma imagem do Windows, o script solicitará que você confirme a letra da unidade USB. A unidade USB será formatada, configurada como inicializável, e os arquivos copiados para habilitar a instalação da imagem personalizada do Windows 10 para dispositivos Surface.
+
+9. Insira a unidade USB no dispositivo em que você deseja instalar o Windows 10 e reiniciar para começar a instalar o Windows 10. A inicialização USB deve estar habilitada no BIOS, o que pode exigir que você Desabilite temporariamente a inicialização segura.
+
+> [!IMPORTANT]
+> A inicialização a partir da unidade USB iniciará imediatamente a instalação do Windows 10. Verifique se o seu dispositivo está pronto antes de inserir o USB e reiniciar. 
 
 ## Links relacionados
 

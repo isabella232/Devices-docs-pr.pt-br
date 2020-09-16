@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 09/11/2020
+ms.date: 09/15/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 44e7ca08ca4b8c077d430cba2a8cb4b674b68631
-ms.sourcegitcommit: ae0dae16e0b7bb9c906de78095634c3070a58c61
+ms.openlocfilehash: d36f42485107dd84be08c20291b36540662503da
+ms.sourcegitcommit: c2df79cab0e59e9d7ea6640e5899531b57cd383f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/11/2020
-ms.locfileid: "11013431"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "11016450"
 ---
 # Migrar para o Windows 10 Pro ou para o Enterprise no Surface Hub 2
 
@@ -26,6 +26,11 @@ O Surface Hub 2S vem pré-instalado com o Windows 10 Team, uma edição personal
 
 > [!IMPORTANT]
 >Ao contrário de uma atualização ou migração típica, esse processo requer que você siga um procedimento prescritiva, conforme descrito nesta página. Examine os [componentes da solução](#solution-components) e a [migração e o fluxo de trabalho de instalação](#migration-and-installation-workflow-summary) antes de prosseguir.
+
+
+> [!NOTE]
+> Ao instalar o Windows 10 pro ou Enterprise, você precisará de uma nova licença separada da sua licença existente do Windows 10 Team. 
+
 
 Você inicia a migração da equipe do Windows 10 usando um computador separado e uma ferramenta para download-- **Surface configurador UEFI** --para criar um pacote contendo uma nova configuração de UEFI que você aplica ao Surface Hub 2s.  O configurador UEFI do Surface funciona como uma interface no modo de gerenciamento do Surface Enterprise (SEMM), projetado para facilitar o gerenciamento centralizado das configurações de firmware em dispositivos de superfície em um ambiente corporativo. Para saber mais sobre o SEMM, confira [documentação do modo de gerenciamento do Surface Enterprise da Microsoft](https://docs.microsoft.com/surface/surface-enterprise-management-mode).
  
@@ -93,7 +98,7 @@ Se esta for a primeira vez que você usa o configurador UEFI da Surface, você p
 
 - Empresas de médio porte e outras pessoas podem optar por obter um certificado de provedores de terceiros. Esta é a opção recomendada para organizações sem conhecimento de ti suficiente ou equipe de segurança de ti dedicada.
 
-- Você também pode gerar um certificado autoassinado com um script do PowerShell, de acordo com a documentação a seguir: [requisitos de certificado do modo de gerenciamento empresarial Surface](https://docs.microsoft.com/surface/surface-enterprise-management-mode#surface-enterprise-management-mode-certificate-requirements). Ou use o PowerShell para criar seu próprio certificado por meio da seguinte documentação: [New-SelfSignedCertificate](https://docs.microsoft.com/powershell/module/pkiclient/new-selfsignedcertificate?view=win10-ps).
+- Você também pode gerar um certificado autoassinado com um script do PowerShell, de acordo com a documentação a seguir: [requisitos de certificado do modo de gerenciamento empresarial Surface](https://docs.microsoft.com/surface/surface-enterprise-management-mode#surface-enterprise-management-mode-certificate-requirements). Ou use o PowerShell para criar seu próprio certificado por meio da seguinte documentação: [New-SelfSignedCertificate](https://docs.microsoft.com/powershell/module/pkiclient/new-selfsignedcertificate).
 
 O pacote SEMM deve ser protegido com um certificado para verificar a assinatura de arquivos de configuração antes que as configurações de UEFI possam ser aplicadas. Para saber mais, consulte documentação do [modo de gerenciamento da empresa Surface](https://docs.microsoft.com/surface/surface-enterprise-management-mode) .
  
@@ -274,3 +279,9 @@ Para configurar completamente o Surface Hub 2S como um dispositivo de produtivid
 
 Se você quiser restaurar seu dispositivo para a equipe do Windows 10, consulte [redefinir e recuperar para Surface Hub 2s](surface-hub-2s-recover-reset.md)
 
+## Histórico de versões
+
+| Versão | Data               | Descrição                                                                                           |
+| ------- | ------------------ | ----------------------------------------------------------------------------------------------------- |
+| m. 1,1  | 15 de setembro de 2020 | Anotação adicional inserida nos requisitos de licenciamento da introdução para instalar um novo sistema operacional. |
+| m. 1.0  | 1 de setembro de 2020  | Novo artigo                                                                                           |
