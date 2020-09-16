@@ -30,6 +30,7 @@
 
 ### [Implantar dispositivos Surface](deploy.md)
 ### [Windows Autopilot e dispositivos Surface](windows-autopilot-and-surface-devices.md)
+### [Suporte a Registro Surface para o Windows Autopilot](surface-autopilot-registration-support.md)
 ### [Área de Trabalho Virtual do Windows no Surface](windows-virtual-desktop-surface.md)
 ### [Implantação, gerenciamento e manutenção do Surface Pro X](surface-pro-arm-app-management.md)
 ### [Compatibilidade do aplicativo Surface Pro X](surface-pro-arm-app-performance.md)
