@@ -19,12 +19,12 @@ ms.custom:
 - CSSTroubleshoot
 ms.reviewer: mablaik
 description: Informações de suporte para produtos de Surface Hub e Surface Hub da Microsoft.
-ms.openlocfilehash: 52be75fdec27e1ccf4d68be36afab19c77db540a
-ms.sourcegitcommit: 16845b3289a035b4e6ab5e7536307ef66651db28
+ms.openlocfilehash: f423bdcc5bc4890861614e6213e9281b22925b42
+ms.sourcegitcommit: 13015036a3e5cb5909924d7e4289473a1572cf9d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "10926293"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "11030408"
 ---
 # Suporte do Surface
 
@@ -39,7 +39,7 @@ Se você ainda estiver tendo problemas após executar o kit de ferramentas, use 
 > [!NOTE]
 > Você será solicitado a entrar no portal de envio online usando sua conta da Microsoft ou a conta do Azure Active Directory.  
 
-Para clientes empresariais: [Envie sua solicitação de serviço](https://support.microsoft.com/supportforbusiness/productselection?sapid=d383b26c-f150-6220-8f1b-e8aa325d9727). 
+Para clientes empresariais: [Envie sua solicitação de serviço](https://support.microsoft.com/supportforbusiness/productselection). 
 
 Para clientes Microsoft Premier: [Envie sua solicitação de serviço no Hub de serviços](https://serviceshub.microsoft.com/support/contactsupport). 
 
