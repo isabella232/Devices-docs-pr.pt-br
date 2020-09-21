@@ -1,5 +1,5 @@
 ---
-title: Complementos essenciais para o Windows 10 pro e Enterprise no Surface Hub 2
+title: Suplementos essenciais para Windows 10 Pro e Enterprise no Surface Hub 2
 description: Este artigo fornece informações sobre os acessórios opcionais que você pode usar com o Windows 10 pro ou Enterprise no Surface Hub 2.
 keywords: Surface Hub, Windows 10, área de trabalho, leitor de impressão digital, Windows Hello
 ms.prod: surface-hub
@@ -12,17 +12,17 @@ manager: laurawi
 ms.audience: itpro
 author: greg-lindsay
 ms.author: greglin
-ms.date: 09/16/2020
+ms.date: 09/18/2020
 ms.collection: M365-modern-desktop
 ms.topic: article
-ms.openlocfilehash: d908c937c331e36f6b82f4c3c5ee213abf8a0176
-ms.sourcegitcommit: 2ac88d30b7d104d86b3bec657941457c916a116c
+ms.openlocfilehash: 24998848f16803585bc414d50e2099745943dcc7
+ms.sourcegitcommit: 13015036a3e5cb5909924d7e4289473a1572cf9d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "11026994"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "11030418"
 ---
-# Complementos essenciais para o Windows 10 pro e Enterprise no Surface Hub 2
+# Suplementos essenciais para Windows 10 Pro e Enterprise no Surface Hub 2
 
 Se você migrou da equipe do Windows 10 para o Windows 10 pro ou Enterprise no Surface Hub 2, pode escolher entre uma ampla variedade de acessórios que se conectam via USB-C, USB-A, HDMI ou Bluetooth. 
 
@@ -54,6 +54,7 @@ Para obter mais informações sobre como configurar o leitor de impressão digit
 | **Requisitos do sistema**          | Windows 10 pro, Windows 10 Enterprise.                                                                                               |
 | **Certificação do Windows**       | Windows 10                                                                                                                           |
 | **Taxa de aceitação falsa (longe)** | de 1/1,5 milhão. LONGE mostra a probabilidade de um sistema de segurança biométricas aceitar incorretamente tentativas de acesso de usuários não autorizados. |
+| **Taxa de rejeição falsa (FRR)** | 4,9%. FRR mostra a probabilidade de um sistema de segurança biométrica rejeitar incorretamente tentativas de acesso de usuários autorizados. |
 
 
 > [!NOTE]
