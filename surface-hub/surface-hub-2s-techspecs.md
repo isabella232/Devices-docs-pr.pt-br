@@ -9,16 +9,16 @@ manager: laurawi
 ms.author: greglin
 audience: Admin
 ms.topic: article
-ms.date: 11/19/2019
+ms.date: 09/22/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 4cb01b3baa65292d611a45439d57820bd21f5fb7
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: c563a518cf1e30ce6e1aa95a4e71e748acdbf906
+ms.sourcegitcommit: 4f89d9af7bd0865828d097ed4a7863d8d396d41f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830623"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "11076379"
 ---
-# Especificações técnicas do Surface Hub 2S
+# Especificações técnicas do Surface Hub 2S de 50 polegadas
 
 |**Item**|**Detalhes**|
 |:------ |:--------- |
@@ -28,7 +28,7 @@ ms.locfileid: "10830623"
 |**Peso da remessa**| 81, 8 kg. (36,77 kg) |
 |**Resolução**| 3840 x 2560 |
 |**Vídeo**| Exibição PixelSense, taxa de proporção de 3:2, cor de 10 bits, borda de 15,5 mm, anti-reflexo, LCD de IPS |
-|**Processador**| Processador Quad-Core Intel Core i5, 8 GB de RAM, 128 GB SSD <sup> 1</sup> |
+|**Processor**| Processador Quad-Core Intel Core i5, 8 GB de RAM, 128 GB SSD <sup> 1</sup> |
 |**Elementos gráficos**| Elementos gráficos do Intel UHD 620 |
 |**Sem fio**| Wi-Fi 5 (IEEE 802,11 a/b/g/n/AC Compatible) Bluetooth sem fio 4,1 tecnologia <br> Exibição Miracast |
 |**Connections**| USB-A <br> Saída de vídeo 1,2 Mini-DisplayPort <br> Gigabit Ethernet RJ45 (1000/100/10 BaseT) <br> Entrada de vídeo HDMI (HDMI 2,0, HDCP 2,2/1,4) <br> USB-C com entrada DisplayPort <br> Quatro USB-C (na tela) |

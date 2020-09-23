@@ -14,16 +14,17 @@ author: greg-lindsay
 ms.author: greglin
 ms.collection: M365-modern-desktop
 ms.topic: article
-ms.openlocfilehash: f6ea6324799981e57c36a11b33cf2e22ea80039e
-ms.sourcegitcommit: d24759da42dfe0b913fd9ebf716407a673c2b818
+ms.date: 09/22/2020
+appliesto:
+- Surface Hub 2S
+ms.openlocfilehash: dd580a3b67ffa7c46ce823765d589fec47fadb44
+ms.sourcegitcommit: d7fe059a823b7e5f1daec447d92dac60bdd2a26e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "11004473"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "11072838"
 ---
 # Configurar o Windows 10 Pro ou Enterprise no Surface Hub 2
-
-**Aplica-se a: Surface Hub 2S** 
 
 Depois de concluir o processo de instalação da migração para o Windows 10 pro ou Enterprise, você pode executar as seguintes etapas para definir aplicativos e configurações no Surface Hub 2. Essas etapas são recomendadas para garantir a melhor experiência ao usar esse computador de tela e o toque de tela grandes personalizados.
 
@@ -182,7 +183,7 @@ Você também pode instalar o whiteboard na Microsoft Store:
 3. Instale o aplicativo **Surface** . Este deve ser o primeiro aplicativo listado. Talvez seja necessário associar o MSA à loja para instalar o aplicativo.
 4. Fixar o aplicativo **Surface** à barra de tarefas.
 
-### Esboço de recorte &
+### Captura e Esboço
 
 1. Abra o aplicativo **corte & esboço** e fixe-o na barra de tarefas.
 2. Selecione as reticências no canto superior direito e selecione **configurações**.
@@ -251,9 +252,8 @@ Baixe e instale o novo [navegador Chromium do Edge](https://www.microsoft.com/en
 
 1. Selecione **Iniciar**  >  **configurações**  >  **sistema**  >  **alimentação & suspender**.
 2. Defina o controle deslizante do modo de energia para **obter o melhor desempenho**.
-3. Configure os valores de tela e de repouso para sua preferência.
-
-### Proteção de tela
+3. Configure os valores de tela e de repouso para sua preferência enquanto também faz a Doppler de detecção de presença do que ativa o dispositivo quando o movimento é detectado. Portanto, como prática recomendada, é recomendável definir a tela para desligar **após 2 horas** e o computador para **desligar após 4 horas.**
+### Proteção de tela.
 
 1. Pesquisar a **tela de bloqueio** e abrir **as configurações da tela de bloqueio**.
 2. Defina **as configurações de tempo limite de tela** e **as configurações de proteção de tela** para sua preferência.
@@ -314,7 +314,7 @@ Ative o modo tablet, se quiser, para atender às necessidades de acessibilidade.
 4. Verifique os aplicativos da barra de tarefas.
     - Conectar o aplicativo
     - Ícone de cadeado
-    - Esboço de recorte &
+    - Captura e Esboço
     - Equipes (se aplicável)
     - Aplicativos do Office (se aplicável)
     - Aplicativo Surface
@@ -324,12 +324,11 @@ Ative o modo tablet, se quiser, para atender às necessidades de acessibilidade.
 6. Verifique se a projeção neste computador está habilitada com o aplicativo conectar (o aplicativo não precisa estar em execução antes de conectar).
 7. Verifique as configurações de energia e suspensão.
     - Proteção de tela: 15 minutos, definir como (nenhum), polígonos ou ficar em branco; a caixa de seleção para exigir a senha está marcada
-    - Tela: 2 horas
-    - PC: 4 horas
+    - Tela: **desative após 2 horas.**
+    - PC:  **desative após 4 horas.**
 8. Verifique se o Windows Hello está funcionando.
-9. Verifique as configurações de energia.
-10. Verifique se a sincronização suas configurações está desabilitada.
-11. Verifique os aplicativos de inicialização.
+9. Verifique se a sincronização suas configurações está desabilitada.
+10. Verifique os aplicativos de inicialização.
 
 > [!TIP]
 > Após a instalação e a configuração do Windows 10, o Surface Hub 2S pode ser gerenciado assim como qualquer outro dispositivo com o Windows 10.
