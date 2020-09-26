@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 09/22/2020
+ms.date: 09/25/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 40c16aa783e0880a3d28178ed936a68d7dc49c1a
-ms.sourcegitcommit: d7fe059a823b7e5f1daec447d92dac60bdd2a26e
+ms.openlocfilehash: 149e3498b2d976b5ab090db1726d56eb2357ffc5
+ms.sourcegitcommit: 5fa5efefd510ce6f435d7142fb2f2cc08b520da9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "11072818"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "11078731"
 ---
 # Visão geral do Surface Hub 2S 85 "& Specs técnicas
 
@@ -35,7 +35,7 @@ A versão 85 "da família Surface Hub traz a experiência do Surface Hub 2S para
 
 | Componente    | Descrição                                                                                                                                                                                                                                         |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Dimension        | 44,5 "x 62,8" x 3,4 "<br>(1130mm x 1595mm x 85.6 mm)                                                                                                                                                                                                        |
+| Dimension        | 44,5 "x 77,1" x 3,4 "<br>(1130mm x 1959mm x 85.6 mm)                                                                                                                                                                                                        |
 | Espessura            | 185 lb. (84kg)                                                                                                                                                                                                                                            |
 | Resolução        | 3840 x 2160                                                                                                                                                                                                                                               |
 | Vídeo           | PixelSense™ exibição, taxa de proporção de 16:9, cor de 10 bits, largura de borda de 30.5 mm, anti-reflexo, LCD de IPS, toque em célula com 20 pontos de toque simultâneos                                                                                                           |

@@ -9,12 +9,12 @@ author: v-miegge
 ms.author: v-miegge
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 031a826a8868d9452e13bb1ffc6b43eeb287f181
-ms.sourcegitcommit: ac34f0ec1a9df74ea688bf0da2a51fadf5139a41
+ms.openlocfilehash: f608e18d04a0d6c48ad2990715b400c95b6d8c12
+ms.sourcegitcommit: 5fa5efefd510ce6f435d7142fb2f2cc08b520da9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "10934831"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "11078721"
 ---
 # Histórico de atualizações do Surface Hub
 
@@ -30,7 +30,20 @@ Consulte a página "[informações importantes do Surface Hub](https://support.m
 ## Atualização para criadores de equipe do Windows 10 1703
 
 <details>
-<summary>4 de maio de 2020-atualização do Surface Hub 2S</summary>
+<summary>Atualização de 1 de setembro de 2020 – para Surface Hub 2S</summary>
+
+Esta atualização é específica para o Surface Hub 2S e fornece as atualizações de driver e firmware descritas abaixo:
+
+* Atualização do firmware SMC do Surface-1.177.139.0
+  * Aprimora os cenários de reparo de campo.
+* Atualização do firmware do SSD Surface-5.14.139.0
+  * Melhora a estabilidade do sistema.
+* Driver do hub serial da superfície-9.40.139.0
+  * Melhora a estabilidade do sistema.
+</details>
+
+<details>
+<summary>4 de maio de 2020 – atualização para Surface Hub 2S</summary>
 
 Esta atualização é específica para o Surface Hub 2S e fornece as atualizações de driver e firmware descritas abaixo:
 
@@ -47,7 +60,7 @@ Esta atualização é específica para o Surface Hub 2S e fornece as atualizaç�
 </details>
 
 <details>
-<summary>28 de fevereiro de 2020-atualização do Surface Hub 2S</summary>
+<summary>28 de fevereiro de 2020 – atualização para Surface Hub 2S</summary>
 
 Esta atualização é específica para o Surface Hub 2S e fornece as atualizações de driver e firmware descritas abaixo:
 
@@ -74,7 +87,7 @@ Consulte o guia de [Administração do Surface Hub](https://docs.microsoft.com/s
 </details>
 
 <details>
-<summary>14 de janeiro de 2020-atualização para a equipe com base no KB4534296 * (Build do so 15063,2254)</summary>
+<summary>14 de janeiro de 2020 — atualização para a equipe baseada no KB4534296 * (Build do sistema operacional 15063,2254)</summary>
 
 Essa atualização para o Surface Hub inclui melhorias de qualidade e correções de segurança. As atualizações de chave do Surface Hub, ainda não descritas no [histórico de atualização do Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history), incluem:
 
@@ -85,7 +98,7 @@ Consulte o guia de [Administração do Surface Hub](https://docs.microsoft.com/s
 </details>
 
 <details>
-<summary>Atualização de setembro de 2019-atualização para a equipe baseada no KB4516059 * (so Build 15063,2078)</summary>
+<summary>Atualização de setembro de 2019 – atualização para a equipe baseada no KB4516059 * (so Build 15063,2078)</summary>
 
 Essa atualização para o Surface Hub inclui melhorias de qualidade e correções de segurança. As atualizações de chave do Surface Hub, ainda não descritas no [histórico de atualização do Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history), incluem:
 
@@ -101,7 +114,7 @@ Consulte o guia de [Administração do Surface Hub](https://docs.microsoft.com/s
 </details>
 
 <details>
-<summary>17 de agosto de 2019-atualização para a equipe com base no KB4512474 * (so Build 15063,2021)</summary>
+<summary>17 de agosto de 2019 — atualização para a equipe baseada no KB4512474 * (so Build 15063,2021)</summary>
 
 Essa atualização para o Surface Hub inclui melhorias de qualidade e correções de segurança. As atualizações de chave do Surface Hub, ainda não descritas no [histórico de atualização do Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history), incluem:
 
@@ -127,7 +140,7 @@ Consulte o guia de [Administração do Surface Hub](https://docs.microsoft.com/s
 </details>
 
 <details>
-<summary>28 de maio de 2019-atualização para a equipe baseada no KB4499162 * (so Build 15063,1835)</summary>
+<summary>Atualização de maio de 2019 – atualização para a equipe baseada no KB4499162 * (so Build 15063,1835)</summary>
 
 Essa atualização para o Surface Hub inclui melhorias de qualidade e correções de segurança. As atualizações de chave do Surface Hub, ainda não descritas no [histórico de atualização do Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history), incluem:
 
@@ -447,7 +460,7 @@ Essa atualização para o Surface Hub inclui melhorias de qualidade e correçõe
 </details>
 
 <details>
-<summary>Atualização de 4 de novembro de 2016 — atualização para a edição de aniversário do Windows 10 Team com base no KB3200970 * (Build do sistema operacional 14393,447)</summary>
+<summary>Atualização de 4 de novembro de 2016 – para a equipe baseada no KB3200970 * (so Build 14393,447)</summary>
 
 Esta atualização para a atualização de aniversário do Windows 10 Team (versão 1607) para Surface Hub inclui melhorias de qualidade e correções de segurança. As atualizações de chave do Surface Hub, ainda não descritas no [histórico de atualização do Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history), incluem:
 
@@ -516,7 +529,7 @@ Esta atualização traz a atualização de aniversário de equipe do Windows 10 
 ## Atualizações para o Windows 10 versão 1511
 
 <details>
-<summary>Atualização de 4 de novembro de 2016 — atualização para o Windows 10 Team (versão 1511) no KB3198586 * (Build do sistema operacional 10586,679)</summary>
+<summary>Atualização de 4 de novembro de 2016 – para a equipe baseada no KB3198586 * (so Build 10586,679)</summary>
 
 Esta atualização para a equipe do Windows 10 (versão 1511) para o Surface Hub inclui melhorias de qualidade e correções de segurança descritas no [histórico de atualização do Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history). Não há itens específicos do Surface Hub nesta atualização.
 
@@ -524,7 +537,7 @@ Esta atualização para a equipe do Windows 10 (versão 1511) para o Surface Hub
 </details>
 
 <details>
-<summary>12 de julho de 2016 – KB3172985 * (so Build 10586,494)</summary>
+<summary>12 de julho de 2016 — atualização para a equipe baseada no KB3172985 * (so Build 10586,494)</summary>
 
 Esta atualização inclui melhorias de qualidade e correções de segurança. Nenhum novo recurso do sistema operacional está sendo apresentado nesta atualização. As principais alterações específicas do Surface Hub (aquelas ainda não incluídas no [histórico de atualizações do Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history)) incluem:
 
@@ -546,7 +559,7 @@ Esta atualização inclui melhorias de qualidade e correções de segurança. Ne
 </details>
 
 <details>
-<summary>14 de junho de 2016 – KB3163018 * (so Build 10586,420)</summary>
+<summary>14 de junho de 2016 — atualização para a equipe baseada no KB3163018 * (so Build 10586,420)</summary>
 
 Essa atualização para o Surface Hub inclui melhorias de qualidade e correções de segurança. Nenhum novo recurso do sistema operacional está sendo apresentado nesta atualização. As atualizações de chave do Surface Hub, ainda não descritas no [histórico de atualização do Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history), incluem:
 
@@ -556,7 +569,7 @@ Essa atualização para o Surface Hub inclui melhorias de qualidade e correçõe
 </details>
 
 <details>
-<summary>10 de maio de 2016 – KB3156421 * (so Build 10586,318)</summary>
+<summary>10 de maio de 2016 — atualização para a equipe baseada no KB3156421 * (so Build 10586,318)</summary>
 
 Essa atualização para o Surface Hub inclui melhorias de qualidade e correções de segurança. Nenhum novo recurso do sistema operacional está sendo apresentado nesta atualização. As atualizações de chave do Surface Hub, ainda não descritas no [histórico de atualização do Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history), incluem:
 
@@ -567,7 +580,7 @@ Essa atualização para o Surface Hub inclui melhorias de qualidade e correçõe
 </details>
 
 <details>
-<summary>12 de abril de 2016 – KB3147458 * (so Build 10586,218)</summary>
+<summary>12 de abril de 2016 — atualização para a equipe baseada no KB3147458 * (so Build 10586,218)</summary>
 
 Essa atualização para o Surface Hub inclui melhorias de qualidade e correções de segurança. Nenhum novo recurso do sistema operacional está sendo apresentado nesta atualização. As atualizações de chave do Surface Hub, ainda não descritas no [histórico de atualização do Windows 10](https://support.microsoft.com/help/4018124/windows-10-update-history), incluem:
 

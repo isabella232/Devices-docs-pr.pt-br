@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 07/23/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 389db218d06f9f8d3f510e711b03487daf4e06f9
-ms.sourcegitcommit: ac34f0ec1a9df74ea688bf0da2a51fadf5139a41
+ms.openlocfilehash: a031fd7fd861e5d45194ec1a8c391621a2bcb71a
+ms.sourcegitcommit: 5fa5efefd510ce6f435d7142fb2f2cc08b520da9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "10934861"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "11078741"
 ---
 # Gerenciar o Surface Hub 2S com o Intune
 
@@ -26,10 +26,13 @@ O Surface Hub 2S permite que os administradores de TI gerenciem as configuraçõ
 
 ### Registro manual
 
-1. Entre como administrador local no Surface Hub 2S e abra o aplicativo **Configurações**. Selecione **Surface Hub** > **Gerenciamento de dispositivo** e, em seguida, selecione **+** para adicionar.
-2. Após a autenticação, o dispositivo será registrado automaticamente com o Intune.
+1. Abra o aplicativo **configurações** no Surface Hub 2S e entre como administrador local. Selecione **Surface Hub** > **Gerenciamento de dispositivo** e, em seguida, selecione **+** para adicionar.
+2. Você será solicitado a fazer logon com a conta a ser usada para o Intune. Após a autenticação, o dispositivo será registrado automaticamente com o Intune.
 
    ![Registrar o Surface Hub 2S com o Intune](images/sh2-set-intune1.png)<br>
+   
+> [!NOTE]
+> A conta usada para autenticação será a conta de registro do Intune e deve ser licenciada para o Intune.
 
 ### Registro automático - afiliado do Azure Active Directory 
 
