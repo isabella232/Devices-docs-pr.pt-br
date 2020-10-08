@@ -7,7 +7,7 @@ ms.date: 5/27/2020
 audience: Admin
 ms.topic: article
 ms.prod: surface
-localization_priority: Normal
+localization_priority: medium
 search.appverid:
 - SPO160
 - MET150
@@ -19,12 +19,12 @@ ms.custom:
 - CSSTroubleshoot
 ms.reviewer: mablaik
 description: Informações de suporte para produtos de Surface Hub e Surface Hub da Microsoft.
-ms.openlocfilehash: 37554183b4839b5e6825a8ac680336b12e213219
-ms.sourcegitcommit: edc92b4be50e6a86f4b942bf71339d97aaf3c5ab
+ms.openlocfilehash: fa86756c122814e7f90351782fc8f6f34227ae42
+ms.sourcegitcommit: 56526c92d84dbc2cebcb8071d995efe399f306df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "11094908"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "11105252"
 ---
 # Suporte do Surface
 
@@ -39,6 +39,8 @@ Se você ainda estiver tendo problemas após executar o kit de ferramentas, use 
 > [!NOTE]
 > Você será solicitado a entrar no portal de envio online usando sua conta da Microsoft ou a conta do Azure Active Directory.  
 
+Acelere sua garantia e solicitações de serviço usando o [formulário de solicitação de serviço e garantia](https://download.microsoft.com/download/2/e/0/2e00e1c2-3f49-4b6a-b605-74a0244cb88b/Warranty_and_Service_Claim_Submission_Form.xlsx). Para obter informações sobre como usar o formulário, consulte [instruções do formulário de solicitação de serviço e garantia](warranty-and-service-claim-form.md) e anexando o seu envio de caso.
+
 Para clientes empresariais: [Envie sua solicitação de serviço](https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=d383b26c-f150-6220-8f1b-e8aa325d9727). 
 
 Para clientes Microsoft Premier: [Envie sua solicitação de serviço no Hub de serviços](https://serviceshub.microsoft.com/support/contactsupport). 
@@ -52,11 +54,11 @@ Para clientes Microsoft Premier: [Envie sua solicitação de serviço no Hub de 
 
 ## China, Índia
 
-Faça um compromisso em um centro de treinamento de Surface para ajudar a solucionar seu problema:
+Faça um compromisso em um Surface Walk-In centro para ajudar a solucionar seu problema:
 
-1. Vá para a página [informações de contato da central de orientação de superfície](https://support.microsoft.com/help/4498593/find-surface-walk-in-center-contact-information) . 
-2. Selecione sua localização para encontrar o centro de movimentações mais próximo a você.  
-3. Escolha o centro de acompanhamento e entre em contato com ele para agendar um compromisso.
+1. Vá para a página [informações de contato do Surface Walk-In Center](https://support.microsoft.com/help/4498593/find-surface-walk-in-center-contact-information) . 
+2. Selecione sua localização para encontrar o Walk-In centro mais próximo.  
+3. Escolha sua central de Walk-In e entre em contato para agendar um compromisso.
 
 
 ---

@@ -8,7 +8,7 @@ ms.sitesec: library
 author: mccoybot
 ms.author: v-todmc
 ms.topic: article
-ms.date: 8/7/2020
+ms.date: 10/7/2020
 ms.reviewer: johnk
 manager: laurawi
 ms.audience: itpro
@@ -19,17 +19,17 @@ appliesto:
 ms.custom:
 - CI 121887
 - CSSTroubleshoot
-ms.openlocfilehash: 66860af06f4fad8f19ca26702350f19cc85ffef1
-ms.sourcegitcommit: bad416f04c6877f2200f134a69146bb633155f22
+ms.openlocfilehash: 00109e4e1bb3873fc2914b2044f58e6fa3b6c211
+ms.sourcegitcommit: d0a5c8fb2b37eb11858c7be4549e55c4b36d7471
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "10919220"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "11104803"
 ---
 # Práticas recomendadas para remoção de SSD de dispositivos de superfície compatíveis
 
 > [!IMPORTANT]
-> Este artigo destina-se a usar técnicos de ti qualificados apenas em uma organização corporativa. Ele descreve as práticas recomendadas recomendadas para uso por técnicos de ti qualificados ao remover e substituir o SSDs em dispositivos de superfície com SSDs removíveis. 
+> Este artigo destina-se a usar técnicos de ti qualificados apenas em uma organização corporativa. Ele descreve as práticas recomendadas recomendadas para uso por técnicos de ti qualificados na remoção e substituição de SSDs no laptop de Surface 3 ou Surface Pro X. 
 
 > [!WARNING]
 > Abrir dispositivos e substituir componentes de dispositivo pode apresentar choque elétrico, danos ao dispositivo, incêndios e riscos de ferimentos pessoais e outros riscos.  Use sempre um cuidado ao realizar tais atividades. Siga as precauções e os procedimentos de segurança identificados no [Guia de remoção do rSSD para empresas](https://www.microsoft.com/download/100440). Recomendamos que você receba assistência profissional se não puder seguir as precauções e os procedimentos de segurança especificados no "guia de remoção do rSSD para empresas".

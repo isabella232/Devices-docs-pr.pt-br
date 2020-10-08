@@ -12,12 +12,12 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 07/31/2019
 ms.localizationpriority: medium
-ms.openlocfilehash: c5cf643d0f4a68344bb098916a909dd66e1dac9b
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 1c8d8b6d89ec1a20550b7aa13c82c73a239c3965
+ms.sourcegitcommit: d0a5c8fb2b37eb11858c7be4549e55c4b36d7471
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830673"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "11104813"
 ---
 # Redefinir ou recuperar um Surface Hub
 
@@ -73,7 +73,7 @@ Talvez seja necessário usar esse tipo de processo de recuperação nas seguinte
 - [O Surface Hub está bloqueado](#recover-a-locked-surface-hub)
 
 >[!IMPORTANT]
->A **recuperação do** processo na nuvem requer uma conexão com a Internet aberta (sem proxy ou outras autenticação). É recomendável uma conexão Ethernet.
+>A **recuperação do** processo na nuvem requer uma conexão com fio que forneça conectividade com a Internet aberta (sem proxy ou outros prompts de autenticação).
 
 ### Recuperar um Surface Hub de um estado inválido
 
@@ -122,7 +122,7 @@ Em raras ocasiões, o Surface Hub pode encontrar um erro durante a limpeza dos d
    Quando o download terminar, o processo de recuperação restaura o Surface Hub de acordo com as opções que você selecionou.
    
 
-## Contatar o Suporte
+## Contate o Suporte
 
 Se tiver dúvidas ou precisar de ajuda, você pode [criar uma solicitação de suporte](https://support.microsoft.com/supportforbusiness/productselection).
 

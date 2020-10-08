@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 09/29/2020
+ms.date: 10/08/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 0c6a52d1023377f51ae6a63879e54b86db16cb9a
-ms.sourcegitcommit: 35f64110ce8e0c0b019b02023d746f648f554c1c
+ms.openlocfilehash: 0a74a082d1afe48c938fcc4780407d56cfdd121e
+ms.sourcegitcommit: 56526c92d84dbc2cebcb8071d995efe399f306df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "11088625"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "11105272"
 ---
 # Migrar para o Windows 10 Pro ou para o Enterprise no Surface Hub 2
 
@@ -87,7 +87,7 @@ A versão UEFI mínima exigida antes da migração do Surface Hub da equipe do W
 
 Em um computador separado:
 
-- Baixe o Microsoft [Surface UEFI configurate](https://www.microsoft.com/download/details.aspx?id=46703) de ferramentas Surface para ele. O configurador UEFI de Surface não pode ser executado no Surface Hub 2S, enquanto a equipe do Windows 10 está instalada.
+- Selecione o botão baixar na [página ferramentas de superfície para ti](https://www.microsoft.com/download/details.aspx?id=46703), selecione e baixe o configurador UEFI de Surface. MSI e instale o arquivo em um computador separado. A ferramenta de configurador UEFI de Surface não pode ser executada em um Surface Hub 2S enquanto o Windows 10 Team Edition está instalado.
 
 - Baixe [drivers Surface Hub 2 e firmware Windows Installer. Arquivo MSI](https://www.microsoft.com/download/details.aspx?id=101974) a ser aplicado ao instalar o novo sistema operacional.
 
@@ -107,6 +107,7 @@ O pacote SEMM criado usando a ferramenta do Configurador UEFI do Surface deve se
 ### Criar pacote SEMM
 
 1. Instale a ferramenta de **configurador UEFI do Surface** baixada anteriormente para um computador separado. 
+
 2. Abra o **configurador UEFI da superfície** e selecione **Iniciar**.
 
    ![Configurador UEFI do Open Surface](images/shm-fig2.png)
@@ -137,14 +138,14 @@ O pacote SEMM criado usando a ferramenta do Configurador UEFI do Surface deve se
    
 9. Defina uma **senha UEFI** e selecione **OK**.
 
- > [!IMPORTANT]
+   > [!IMPORTANT]
    > Salve a senha em um local seguro acessível para administradores de ti em sua organização responsável por gerenciar hubs de superfície. Se a senha for perdida, não haverá processo de recuperação. 
 
    ![Digite sua senha UEFI](images/shm-fig9.png)
 
-10. Selecione **Surface Hub 2s** e, em seguida, selecione **Avançar**.
+10. Selecione **Surface Hub 2s**e, em seguida, selecione **Avançar**.
 
-   ![Selecionar Surface Hub 2S](images/shm-fig10.png)
+    ![Selecionar Surface Hub 2S](images/shm-fig10.png)
    
 11. Selecione **Avançar**.
 
@@ -159,7 +160,7 @@ O pacote SEMM criado usando a ferramenta do Configurador UEFI do Surface deve se
     ![Definir habilitar migração do sistema operacional como ativado](images/shm-fig12.png)
 
 > [!NOTE]
-> Depois de aplicar um pacote SEMM, todas as configurações de UEFI serão exibidas como acinzentadas (bloqueadas) no menu UEFI do dispositivo. Isso inclui valores padrão para outras configurações, como IPv6 para inicialização PXE. Para modificar as configurações de UEFI, você precisará aplicar outro pacote SEMM ou cancelar o registro do dispositivo do SEMM.
+> Depois de aplicar um pacote SEMM, todas as configurações de UEFI serão exibidas como acinzentadas (bloqueadas) no menu UEFI do dispositivo. Isso inclui valores padrão para outras configurações, como IPv6 para inicialização PXE. Para modificar as configurações de UEFI após concluir a migração, você precisará aplicar outro pacote SEMM ou cancelar o registro do dispositivo do SEMM. Se você aplicar outro pacote SEMM para modificar as configurações de UEFI, deverá usar o certificado original ao criar o novo pacote SEMM usando a ferramenta UEFI configuradora. 
 
 #### Salvar pacote SEMM na unidade USB
 
@@ -213,10 +214,12 @@ Este procedimento descreve como criar uma unidade flash USB da mídia de instala
 6. Copie os arquivos de pacote SEMM e drivers e firmware para Windows 10 pro e Enterprise no Surface Hub 2 (. MSI file) para a raiz da unidade flash USB (**BOOTME**) que contém a imagem do Windows 10. A unidade USB BOOTME contém:
 
     - Sua imagem inicializável do Windows 10
+    
     - Arquivos de pacote SEMM (copiados para a raiz da unidade USB)
-        - DfciUpdate. DFI
-        - Arquivo de texto com a impressão digital SEMM. (Neste exemplo: SurfaceUEFI_2020Aug25_1058.txt. O carimbo de data/hora de geração automática corresponde à data em que você criou o arquivo usando o configurador UEFI da Surface.)
-    - Drivers e firmware para Windows 10 pro e Enterprise no Surface Hub 2 (SurfaceHub2S_Win10_18362_20.082.25682.0.msi)
+    
+      - DfciUpdate. DFI
+      - Arquivo de texto com a impressão digital SEMM. (Neste exemplo: SurfaceUEFI_2020Aug25_1058.txt. O carimbo de data/hora de geração automática corresponde à data em que você criou o arquivo usando o configurador UEFI da Surface.)
+      - Drivers e firmware para Windows 10 pro e Enterprise no Surface Hub 2 (SurfaceHub2S_Win10_18362_20.082.25682.0.msi)
 
 ### Atualize a UEFI no Surface Hub 2S para habilitar a migração do sistema operacional
 
