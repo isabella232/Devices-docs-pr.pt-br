@@ -8,7 +8,7 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 08/19/2020
+ms.date: 10/09/2020
 ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
@@ -17,12 +17,13 @@ appliesto:
 - Surface Pro X
 - Surface Laptop 3
 - Surface Book 3
-ms.openlocfilehash: 9d83fe9b7febf996d2cb314399505ed050a69a92
-ms.sourcegitcommit: b94832cba98e01014f7d184c85d79f8339e046c4
+- Surface Laptop Go
+ms.openlocfilehash: 20d1b187a565f210eedc632be1addeac5dd714ba
+ms.sourcegitcommit: 7d5b0a7948eb540d6849a0e2c70a1058584cc5f8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "10941659"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "11105856"
 ---
 # Gerenciamento pelo Intune das configurações de UEFI do Surface
 
@@ -54,6 +55,7 @@ O DFCI tem suporte nos seguintes dispositivos:
 - Surface Pro X
 - Laptop Surface 3
 - Catálogo de superfície 3
+- Usar o laptop Surface
 
 > [!NOTE]
 > Surface Pro X não é compatível com o gerenciamento de configurações de DFCI para câmera interna, áudio e Wi-Fi/Bluetooth.

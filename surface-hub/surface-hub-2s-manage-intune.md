@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 07/23/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: a031fd7fd861e5d45194ec1a8c391621a2bcb71a
-ms.sourcegitcommit: 5fa5efefd510ce6f435d7142fb2f2cc08b520da9
+ms.openlocfilehash: 2fafca4a8f19da72d1584c02cbebe1ce3c03adde
+ms.sourcegitcommit: a16c75f4e81c48e2d0e3ec45430af0939e4feaa2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "11078741"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "11105937"
 ---
 # Gerenciar o Surface Hub 2S com o Intune
 
@@ -92,19 +92,25 @@ Para garantir a qualidade ideal de vídeo e áudio no Surface Hub 2S, adicione a
 > [!NOTE]
 > Ambas as tabelas mostram intervalos de porta padrão. Os administradores podem alterar os intervalos de porta no painel de controle do Skype for Business e do Teams.
 
-## Configurações do modo do Microsoft Teams
+## Configurações do Microsoft Teams
 
-Você pode definir o modo de aplicativo Microsoft Teams usando o Intune. O Surface Hub 2S vem instalado com o Microsoft Teams no modo 0, que é compatível com o Microsoft Teams e com o Skype for Business. Você pode ajustar os modos conforme mostrado a seguir.
+Você pode definir várias configurações do Microsoft Teams usando o Intune.
 
-### Modos:
+### Modos
+
+O Surface Hub 2S vem instalado com o Microsoft Teams no modo 0, que é compatível com o Microsoft Teams e com o Skype for Business. Os modos funcionam conforme descrito abaixo:
 
 - Modo 0 — Skype for Business com a funcionalidade do Microsoft Teams para reuniões agendadas.
 - Modo 1 — Microsoft Teams com a funcionalidade do Skype for Business para reuniões agendadas.
 - Modo 2 — Somente Microsoft Teams.
 
-Para definir modos, adicione as seguintes configurações a um Perfil de Configuração de Dispositivo personalizado.
+Para ajustar o modo, adicione as seguintes configurações a um [perfil de configuração de dispositivo personalizado](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure).
 
 | Nome | Descrição | OMA-URI | Tipo | Valor |
 |:--- |:--- |:--- |:--- |:--- |
 |**ID do aplicativo Teams**|Nome do aplicativo|./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId|String| Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe!Teams|
 |**Modo do aplicativo Teams**|Modo do Teams|./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode|Inteiro| 0, 1 ou 2|
+
+### Reuniões coordenadas e junção à proximidade
+
+As equipes de reuniões e recursos de junção de proximidade podem ser [configurados por meio de um arquivo XML](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure) implantado por meio de um perfil do Intune
