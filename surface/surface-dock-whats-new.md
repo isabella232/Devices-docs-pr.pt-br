@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 10/01/2020
+ms.date: 10/12/2020
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 19aba3e88afd7b17de5b391d1bfe6eaf77db38e9
-ms.sourcegitcommit: f996a95af741e54536b1f3eb94d0f13f681f5d5d
+ms.openlocfilehash: e96242ab9cef127238bda3ee3ea797c943479798
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "11093134"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114679"
 ---
 # O que há de novo no Dock Surface 
 
@@ -45,6 +45,7 @@ O Surface Dock 2 foi projetado para simplificar o gerenciamento de ti, permitind
   - Laptop Surface 3
   - Catálogo de superfície 3
   - Ir para a superfície 2
+  - Usar o laptop Surface
 
 ## Componentes do Surface Dock 2
 
@@ -115,7 +116,7 @@ O Surface Dock 2 foi projetado para simplificar o gerenciamento de ti, permitind
 
 
 
-1. *Os dispositivos devem ser configurados para Wake on LAN via SEMM (Surface Enterprise Management Mode) ou DFCI (Device firmware Control interface) para ativar a hibernação ou Estados de desligamento. A ativação da hibernação ou do desligamento é aceita no Surface Pro 7, Surface laptop 3, Surface Pro X, catálogo Surface 3 e Surface go 2.  Licença de software necessária para alguns recursos. Vendido separadamente.*
+1. *Os dispositivos devem ser configurados para Wake on LAN via SEMM (Surface Enterprise Management Mode) ou DFCI (Device firmware Control interface) para ativar a hibernação ou Estados de Power-Off. Não há suporte para a ativação da hibernação ou do Power-Off no Surface Pro 7, Surface laptop 3, Surface Pro X, catálogo Surface 3 e Surface go 2.  Licença de software necessária para alguns recursos. Vendido separadamente.*
 
 2. *Licença de software necessária para alguns recursos. Vendido separadamente.*
 

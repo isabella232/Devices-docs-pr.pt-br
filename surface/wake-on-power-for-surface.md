@@ -12,9 +12,10 @@ appliesto:
 - Surface Pro 7
 - Surface Laptop 3
 - Surface Pro X
+- Surface Laptop Go
 ms.custom:
 - CI 121602
-ms.reviewer: johnk@cadencepreferred.com
+ms.reviewer: hachidan
 description: Descreve como habilitar e desabilitar o Wake on Power para dispositivos Surface.
 keywords: atualização, implantação, Driver, WOL, Wake-on-LAN
 ms.prod: w10
@@ -25,12 +26,12 @@ ms.localizationpriority: medium
 ms.topic: article
 manager: laurawi
 ms.audience: itpro
-ms.openlocfilehash: 272c19baedb295abac08e90012246e453b88f42f
-ms.sourcegitcommit: 6fd7008992503db9ae1f56654aa80110348924d3
+ms.openlocfilehash: dee2a2962cf6b70a1bf11cf597b4d41f4b5568e4
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "10903390"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114569"
 ---
 # Wake on Power para dispositivos Surface
 
@@ -41,7 +42,9 @@ O recurso Wake on Power está disponível nos seguintes dispositivos:
 - Catálogo de superfície 3
 - Surface Pro 7
 - Laptop Surface 3
+- Usar o laptop Surface
 - Surface Pro X 
+
 
 ## Visão geral e pré-requisitos
 
@@ -58,13 +61,13 @@ O configurador UEFI de Surface permite salvar configurações de UEFI individuai
     :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-1.png" alt-text="Selecione dispositivos de superfície e selecione avançar.":::
 3.  Selecione **Iniciar**e, em seguida, selecione **criar** em **pacote de configuração**.
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-2.png" alt-text="Selecione criar pacote de configuração.":::
+    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-2.png" alt-text="Selecione dispositivos de superfície e selecione avançar.":::
 4.  Selecione **proteção de certificado**e adicione seu arquivo. pfx de certificado. 
 5. Digite sua senha, selecione **Avançar**, adicionar **proteção por senha**, conforme apropriado, e, em seguida, selecione **Avançar**.
 6.  Na página **escolha qual tipo de superfície você deseja direcionar** , selecione os dispositivos de destino conforme apropriado. Por exemplo, selecione **Surface Pro 7**.
 7.  Na página **recursos avançados** , selecione **Ativar energia**, defina o recurso como **ativado**e, em seguida, selecione **Avançar**.
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-3.png" alt-text="Selecione Ativar na energia e definido como ativado."::: 
+    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-3.png" alt-text="Selecione dispositivos de superfície e selecione avançar."::: 
 8.  Na página **êxito** , selecione **finalizar**.
 
     > [!NOTE]
@@ -83,10 +86,10 @@ Você pode aplicar o pacote MSI a dispositivos na rede usando ferramentas de dis
 
 2.  Na caixa de diálogo de **aviso** , selecione **OK** ou desabilitar o BitLocker, conforme apropriado.
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-4.png" alt-text="Selecione OK ou desabilitar o BitLocker conforme apropriado.":::
+    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-4.png" alt-text="Selecione dispositivos de superfície e selecione avançar.":::
 3.  Na página de boas-vindas, selecione **Avançar** para executar o pacote e aplicar a configuração UEFI recém configurada.
 
-    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-5.png" alt-text="Uma página de boas-vindas, selecione avançar.":::
+    :::image type="content" source="images/wake-on-power-for-surface/wake-on-power-for-surface-5.png" alt-text="Selecione dispositivos de superfície e selecione avançar.":::
 4.  Reinicie o seu dispositivo. 
 
 O Wake on Power está configurado agora. Para testar as configurações, desligue o dispositivo, desconecte o cabo de alimentação e reconecte a energia. O dispositivo deve ser iniciado automaticamente. 

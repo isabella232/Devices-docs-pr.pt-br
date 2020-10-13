@@ -13,20 +13,20 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 audience: itpro
-ms.date: 09/01/2020
-ms.openlocfilehash: 239b5e4659ff48e6c0fd9d2fca03341eadb9a27d
-ms.sourcegitcommit: 78694f3958117a339a28d3a5854908181f1b65d7
+ms.date: 10/12/2020
+ms.openlocfilehash: 463759d2dd01b9333d10a66c1781055f4a5217ac
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "10993661"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114639"
 ---
 # Modo de gerenciamento do Microsoft Surface Enterprise
 
 O modo de gerenciamento do Microsoft Surface Enterprise (SEMM) é um recurso de dispositivos Surface com UEFI de superfície que permite proteger e gerenciar as configurações de firmware dentro da sua organização. Com o SEMM, os profissionais de ti podem preparar as configurações de UEFI e instalá-las em um dispositivo de superfície. Além da capacidade de configurar as configurações de UEFI, o SEMM também usa um certificado para proteger a configuração contra violação ou remoção não autorizada. SEMM é um requisito para poder migrar um Surface Hub 2S para o Windows 10 pro e Enterprise.
 
 >[!NOTE]
->O SEMM está disponível apenas em dispositivos com firmware da Surface UEFI. Isso compreende a maioria dos outros dispositivos de superfície, incluindo os SKUs do Surface Pro 7, Surface Pro X, Surface Hub 2S e Surface laptop 3 comercial com um processador Intel. Não há suporte para SEMM no 15 "Surface laptop 3 SKU com processador AMD (disponível apenas como SKU de varejo). 
+>O SEMM está disponível apenas em dispositivos com firmware da Surface UEFI. Isso compreende a maioria dos outros dispositivos de superfície, incluindo os SKUs do Surface Pro 7, Surface Pro X, Surface Hub 2S e Surface laptop 3 comercial com um processador Intel e o Surface Notebook go. Não há suporte para SEMM no 15 "Surface laptop 3 SKU com processador AMD (disponível apenas como SKU de varejo). 
 
 Quando os dispositivos Surface são configurados pelo SEMM e protegidos com o certificado SEMM, eles são considerados *registrados* no Semm. Quando o certificado SEMM é removido e o controle das configurações de UEFI é retornado ao usuário do dispositivo, o dispositivo de superfície é considerado não *cadastrado* no Semm.
 
@@ -174,7 +174,7 @@ As configurações a seguir são recomendadas para o certificado SEMM:
 * **Data de vencimento** – 15 meses a partir da criação do certificado
 * **Política de exportação de chaves** – exportável
 
-Também é recomendável que o certificado SEMM seja autenticado em uma arquitetura de infraestrutura de chave pública (PKI) de duas camadas na qual a autoridade de certificação intermediária (CA) seja dedicada ao SEMM, habilitando a revogação de certificado. Para obter mais informações sobre uma configuração de PKI de dois níveis, consulte [Guia de laboratório de teste: Implantando uma hierarquia de PKI de duas camadas do AD CS](https://technet.microsoft.com/library/hh831348).
+Também é recomendável que o certificado SEMM seja autenticado em uma arquitetura de infraestrutura de chave pública (PKI) de duas camadas na qual a autoridade de certificação intermediária (CA) seja dedicada ao SEMM, habilitando a revogação de certificado. Para obter mais informações sobre uma configuração de PKI de dois níveis, consulte [Guia de laboratório de teste: Implantando uma hierarquia de PKI do AD CS Two-Tier](https://technet.microsoft.com/library/hh831348).
 
 ### Certificado auto-assinado 
 Você pode usar o exemplo de script do PowerShell a seguir para criar um certificado auto-assinado para usar em cenários de prova de conceito.
@@ -241,6 +241,18 @@ Se você quiser que o SEMM Reset ou recuperação funcione, o certificado precis
 Os exemplos do PowerShell que criam um pacote de configuração para um tipo de dispositivo específico também podem ser usados para criar um pacote de redefinição que seja independente do número de série. Se o certificado ainda for válido, você pode criar um pacote de redefinição usando o PowerShell para redefinir o SEMM.
 
 ## Histórico de versões
+
+
+### Versão 2.78.139.0
+
+Esta versão do SEMM inclui:
+
+- Suporte para o Surface Notebook Go e Surface Pro X
+- Notificações de lançamento da nova versão
+- Capacidade de criar pacotes personalizados para alterar a propriedade
+- Correções de bugs
+
+
 
 
 ### Versão 2.73.136.0

@@ -15,12 +15,12 @@ ms.topic: article
 ms.date: 06/08/2020
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: de16d76581926a90585b2c6beb2a7bf3b7a695bc
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 641d023b59426582130dcfb7e0d86c6f3af456e8
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830188"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114689"
 ---
 # Proteger portas do Dock Surface 2 com o modo de gerenciamento do Surface Enterprise (SEMM)
 
@@ -30,7 +30,7 @@ O SEMM (Surface Enterprise Management Mode) permite que os administradores de ti
 
 ### Dispositivos com suporte
 
-O gerenciamento do Surface Dock 2 com o SEMM está disponível para cais conectados ao livro Surface 3, Surface laptop 3 e Surface Pro 7. Esses dispositivos de superfície compatíveis são comumente chamados de **dispositivos de host**. Um pacote é aplicado a dispositivos host baseados em se um dispositivo de host é **autenticado** ou não **autenticado**. As configurações definidas residem na camada UEFI em dispositivos host que permitem que você, o administrador de ti, gerencie o Surface Dock 2 como qualquer outro periférico embutido, como a câmera.
+O gerenciamento do Surface Dock 2 com o SEMM está disponível para cais conectados ao livro Surface 3, Surface laptop 3, Surface laptop Go, Surface Pro 7 e Surface Pro X. Esses dispositivos de superfície compatíveis são comumente chamados de **dispositivos de host**. Um pacote é aplicado a dispositivos host baseados em se um dispositivo de host é **autenticado** ou não **autenticado**. As configurações definidas residem na camada UEFI em dispositivos host que permitem que você, o administrador de ti, gerencie o Surface Dock 2 como qualquer outro periférico embutido, como a câmera.
 
 >[!NOTE]
 >Você só pode gerenciar portas do Dock Surface 2 quando o Dock estiver conectado a um dos seguintes dispositivos compatíveis: livro Surface 3, Surface laptop 3 e Surface Pro 7. Qualquer dispositivo que não recebe as configurações de política UEFI autenticado é inerentemente um dispositivo não autenticado.
@@ -80,7 +80,7 @@ Os valores de EKU necessários estão listados na tabela 1 e tabela 2.
 
 |Certificado|Algoritmo|Descrição|Expiração|OID EKU|
 |---|---|---|---|---|
-|Autoridade de certificação raiz|ECDSA_P384|-Certificado raiz com o algoritmo de assinatura digital de curva elíptica de 384 bits (ECDSA)<br>-Uso da chave do SHA 256:<br>CERT_DIGITAL_SIGNATURE_KEY_USAGE<br>-CERT_KEY_CERT_SIGN_KEY_USAGE<br>CERT_CRL_SIGN_KEY_USAGE|30 anos|N/A
+|Autoridade de certificação raiz|ECDSA_P384|-Certificado raiz com o algoritmo de assinatura digital de curva elíptica de 384 bits (ECDSA)<br>-Uso da chave do SHA 256:<br>CERT_DIGITAL_SIGNATURE_KEY_USAGE<br>-CERT_KEY_CERT_SIGN_KEY_USAGE<br>CERT_CRL_SIGN_KEY_USAGE|30 anos|N/D
 |Encaixar autoridade de certificação|Curva de P256 ECC|-Certificado de host com ECC (criptografia elíptica de curva de 256 bits)<br>-Uso da chave do SHA 256:<br>CERT_KEY_CERT_SIGN_KEY_USAGE<br>-Restrição de comprimento de caminho = 0|20 anos|1.3.6.1.4.1.311.76.9.21.2<br>1.3.6.1.4.1.311.76.9.21.3|
 
    >[!NOTE]

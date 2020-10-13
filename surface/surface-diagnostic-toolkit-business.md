@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 07/31/2020
+ms.date: 10/12/2020
 ms.reviewer: hachidan
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 9c250cef63b760f3faab9172aa950c305e4e47e5
-ms.sourcegitcommit: f875a45961ff5f3c04006afc8690b5e5965e4d80
+ms.openlocfilehash: 1f2661811516507abd432dba602cf8ce81e6dbb3
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "10902979"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114659"
 ---
 # Implantar o Kit de Ferramentas de Diagnóstico Surface para Empresas
 
@@ -46,6 +46,7 @@ Linha de comando |  Solucionar problemas diretamente de dispositivos Surface rem
 
 O SDT para empresas tem suporte em dispositivos Surface 3 e posteriores, incluindo:
 
+- Usar o laptop Surface
 - Catálogo de superfície 3
 - Ir para a superfície 2
 - Surface Pro X
@@ -180,6 +181,17 @@ Você pode optar por executar uma ampla variedade de logs entre aplicativos, Dri
 
 ## Alterações e atualizações
 
+### Versão 2.124.139.0
+
+Esta versão do Surface Diagnostic Toolkit para empresas adiciona suporte para o seguinte:
+
+- Suporte integrado ininterrupto
+- Salvar todos os resultados do teste
+- Verificar se a imagem é personalizada criada
+- Incluir avisos do Gerenciador de dispositivos
+- Encaixar versão do firmware
+- Sinalizar unidades como possíveis falhas no teste de armazenamento
+- Remover link da loja 
 
 ### Versão 2.121.139
 *Data do lançamento: 31 2020 de julho*<br>

@@ -12,19 +12,19 @@ ms.reviewer: scottmca
 manager: laurawi
 ms.audience: itpro
 ms.date: 8/07/2020
-ms.openlocfilehash: 159eb4ca27bb867623020936276470ba9897f3b8
-ms.sourcegitcommit: 83530906c7e34c92bbee90b723321acd61e77669
+ms.openlocfilehash: 9069903421d6e621dfbc31cd1cfaffb045fa9f19
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "10918931"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114548"
 ---
 # Atualização do firmware do Dock Surface da Microsoft: informações técnicas para administradores de ti
 
 > [!IMPORTANT]
 > Este artigo contém instruções técnicas para administradores de ti. Se você for um usuário doméstico, consulte [como atualizar o firmware do Dock Surface](https://support.microsoft.com/help/4023478/surface-update-your-surface-dock)   no site de suporte da Microsoft. As instruções no site de suporte são as mesmas etapas gerais de instalação, mas este artigo tem informações adicionais para monitorar, verificar e implantar a atualização em vários dispositivos em uma rede.
 
-Este artigo explica como usar a atualização do firmware do ensurface Dock da Microsoft para atualizar o firmware do Dock Surface. Quando instalado em seu dispositivo Surface, ele atualizará qualquer encaixe de superfície anexado ao seu dispositivo Surface. 
+Este artigo explica como usar a atualização de firmware do Dock Dock da Microsoft para atualizar o firmware no Surface Dock 1 original e não se aplica a Surface Dock 2. Quando instalado em seu dispositivo Surface, ele atualizará qualquer encaixe de superfície anexado ao seu dispositivo Surface. 
 
 Esta ferramenta substitui a ferramenta anterior do atualizador do Microsoft Surface Dock, anteriormente disponível para download como parte das ferramentas de superfície para isso. A ferramenta anterior foi nomeada Surface_Dock_Updater_vx.xx.xxx.x.msi (em que x indica o número da versão) e não está mais disponível para download e não deve ser usada.
 
@@ -109,7 +109,7 @@ A conclusão bem-sucedida da atualização do firmware do Surface Dock resulta e
 
 1. Abra o regedit e navegue até o seguinte caminho de registro:
 
-    - **HKEY_LOCAL_MACHINE \SOFTWARE\Microsoft\Windows NT\CurrentVersion\WUDF\Services\SurfaceDockFwUpdate\Parameters**
+    - **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\WUDF\Services\SurfaceDockFwUpdate\Parameters**
 
 2. Procure as chaves do registro: **Component10CurrentFwVersion e Component20CurrentFwVersion**, que se referem ao firmware que está atualmente no dispositivo.
 

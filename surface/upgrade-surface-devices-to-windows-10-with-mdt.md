@@ -13,35 +13,25 @@ ms.localizationpriority: medium
 ms.audience: itpro
 ms.reviewer: ''
 manager: laurawi
-ms.date: 04/24/2020
-ms.openlocfilehash: e1a1d34c4d32c5e6f95c985e335e405c0d9e59e4
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.date: 10/12/2020
+ms.openlocfilehash: d9bc720c846b2bb158241a55e1759c841f1d7b3a
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830486"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114519"
 ---
 # Fazer upgrade dispositivos Surface para o Windows 10 com o Microsoft Deployment Toolkit
 
 #### Aplica-se ao
-- Surface Pro 6
-- Surface Laptop 2
-- Surface Go
-- Surface Go com LTE
-- Surface Book 2
-- Surface Pro com LTE Avançado (Model 1807)
-- Surface Pro (Model 1796)
-- Surface Laptop
-- Surface Studio
-- Surface Studio 2
-- Surface Book
-- Surface Pro 4
-- Surface 3 LTE
-- Surface 3
-- Surface Pro 3
-- Surface Pro 2
-- Surface Pro
-- Windows 10
+
+- Catálogo de superfície (todas as edições)
+- Superfície Go (todas as edições)
+- Surface Pro X (todas as edições)
+- Laptop Surface (todas as edições)
+- Usar o laptop Surface
+- Surface Studio (todas as edições)
+- Surface Pro 2 e posterior
 
 Além do método de implantação tradicional de dispositivos para refazer imagens, os administradores que desejam fazer upgrade de dispositivos Surface que estejam executando o Windows 8.1 ou o Windows 10 têm a opção de implantação de upgrades. Ao executar uma implantação de upgrade, o Windows 10 pode ser aplicado a dispositivos sem remover usuários, aplicativos ou configuração. Os usuários dos dispositivos implantados podem simplesmente continuar usando os dispositivos com os mesmos aplicativos e configurações que eles usaram antes do upgrade. 
 
