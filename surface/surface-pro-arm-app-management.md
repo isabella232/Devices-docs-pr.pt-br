@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 10/09/2020
+ms.date: 10/12/2020
 ms.reviewer: jessko
 manager: laurawi
 ms.audience: itpro
-ms.openlocfilehash: 202818488f19c82ba9d08cfcbfcd091e3e8b7bf6
-ms.sourcegitcommit: 7d5b0a7948eb540d6849a0e2c70a1058584cc5f8
+ms.openlocfilehash: 7d82a24126798c20f11c51074f6099e1363c257f
+ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "11105836"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "11114619"
 ---
 # Implantação, gerenciamento e manutenção do Surface Pro X
 
@@ -96,8 +96,7 @@ A maioria dos aplicativos é executada em computadores Windows 10 baseados em AR
 
 ### Garantia de Aplicativo do FastTrack 
 
-O programa de Garantia de Aplicativo está disponível para clientes comerciais para seus aplicativos de LOB, ISV e Microsoft voltados para o Windows 10 em ARM. Se o comercial encontrar um problema de compatibilidade de aplicativo usando o Windows 10 no ARM, a Microsoft fornecerá recursos de desenvolvedor para solucionar o problema e ajudar nas correções do aplicativo, sem custo adicional. Para saber mais, acesse aka.ms/AppAssure
-
+O programa de Garantia de Aplicativo está disponível para clientes comerciais para seus aplicativos de LOB, ISV e Microsoft voltados para o Windows 10 em ARM. Se clientes comerciais encontrarem um problema de compatibilidade de aplicativo usando o Windows 10 no ARM, a Microsoft fornecerá recursos de desenvolvedor para solucionar o problema e ajudar nas correções do aplicativo, sem custo adicional. Para saber mais, acesse [aka.ms/AppAssure](https://docs.microsoft.com/fasttrack/products-and-capabilities#app-assure).
 
 Para obter mais informações sobre como executar aplicativos no Surface Pro X, consulte:
 
