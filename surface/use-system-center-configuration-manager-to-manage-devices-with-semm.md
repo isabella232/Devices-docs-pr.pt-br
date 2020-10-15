@@ -9,18 +9,19 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.reviewer: ''
+ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: bba99d202d5d0dc5085c454202ae9a95df56109c
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.date: 10/13/2020
+ms.openlocfilehash: bfd10df3bb7a7dd031c1719d4191ffc46418c4e3
+ms.sourcegitcommit: 30c1eb469610dfd2ad9169c154ca07e565240fdb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830483"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "11117847"
 ---
-# Usar o Gerenciador de configuração do Microsoft Endpoint para gerenciar dispositivos com o SEMM
+# Usar o Microsoft Endpoint Configuration Manager para gerenciar dispositivos com SEMM
 
 O recurso SEMM (Microsoft Surface Enterprise Management Mode) de dispositivos da Surface UEFI permite que os administradores gerenciem e ajudem a proteger a configuração das configurações de controle de superfície. Para a maioria das organizações, esse processo é realizado criando pacotes do Windows Installer (. msi) com a ferramenta Microsoft Surface UEFI Configuration. Esses pacotes são, em seguida, executados ou implantados nos dispositivos de superfície do cliente para registrar os dispositivos no SEMM e atualizar a configuração de configurações de UEFI da superfície.
 
@@ -391,7 +392,7 @@ A melhor maneira de exibir os nomes e as IDs de configuração mais recentes de 
 
 A configuração de nomes e IDs para todos os dispositivos pode ser vista no script ConfigureSEMM.ps1.
 
-A configuração de nomes e IDs para dispositivos específicos pode ser vista nos scripts ConfigureSEMM- <device name> . ps1. Por exemplo, a configuração de nomes e IDs para Surface Pro X pode ser encontrada no script ConfigureSEMM-ProX.ps1.
+A configuração de nomes e IDs para dispositivos específicos pode ser vista nos scripts ConfigureSEMM- <device name> . ps1. 
 
 ## Implantar scripts do SEMM Configuration Manager
 
