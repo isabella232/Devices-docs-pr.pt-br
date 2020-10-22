@@ -14,15 +14,15 @@ author: greg-lindsay
 ms.author: greglin
 ms.collection: M365-modern-desktop
 ms.topic: article
-ms.date: 10/08/2020
+ms.date: 10/21/2020
 appliesto:
 - Surface Hub 2S
-ms.openlocfilehash: 66245f84f4413df2d9ae7b683947afbd84484325
-ms.sourcegitcommit: 56526c92d84dbc2cebcb8071d995efe399f306df
+ms.openlocfilehash: 25705f889f70e3d12dfef690c34e03d98254725e
+ms.sourcegitcommit: 959d2d856b1e5b5c72cd636f576b5feb1b633048
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "11105291"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "11133176"
 ---
 # Configurar o Windows 10 Pro ou Enterprise no Surface Hub 2
 
@@ -422,11 +422,11 @@ Ative o modo tablet, se quiser, para atender às necessidades de acessibilidade.
 
    - A detecção de presença será um ícone verde na bandeja do sistema.
     
-6. Verifique se a projeção neste computador está habilitada com o aplicativo conectar (o aplicativo não precisa estar em execução antes de conectar).
+6. Verifique se a projeção neste computador está habilitada com o aplicativo conectar. Depois de configurar o  **Project para estas** configurações do computador, execute o aplicativo conectar pelo menos uma vez. (Subsequentemente, o aplicativo de conexão não precisa estar em execução para projetar para o Surface Hub.)
 
 7. Verifique as configurações de energia e suspensão.
 
-    - Proteção de tela: 15 minutos, definir como (nenhum), polígonos ou ficar em branco; a caixa de seleção para exigir a senha está marcada
+    - Proteção de tela: 15 minutos, definir como (nenhum), polígonos ou ficar em branco; Verifique se a caixa de seleção Requer senha está selecionada.
     - Tela: **desative após 2 horas**.
     - PC:  **desative após 4 horas**.
     
