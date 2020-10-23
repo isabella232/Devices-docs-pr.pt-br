@@ -11,12 +11,12 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: High
-  ms.openlocfilehash: 1a54d40faf9c3738bd07595b57a1c2d5a86373b4
-  ms.sourcegitcommit: f996a95af741e54536b1f3eb94d0f13f681f5d5d
+  ms.openlocfilehash: 01c1cc2ea75e79825c80cc6f02970a755ae35b75
+  ms.sourcegitcommit: cbf237e59c97311bd8add3aae2a17738fe271ddc
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 10/01/2020
-  ms.locfileid: "11093094"
+  ms.lasthandoff: 10/23/2020
+  ms.locfileid: "11134379"
 landingContent:
 - title: Dispositivos Surface
   linkLists:
@@ -32,10 +32,10 @@ landingContent:
   linkLists:
   - linkListType: get-started
     links:
-    - text: Visão geral técnica da GPU do Surface Book 3
-      url: surface-book-gpu-overview.md
-    - text: Visão geral técnica do Surface Book 3 Quadro RTX 3000
-      url: surface-book-quadro.md
+    - text: Maximizar o ROI com o Microsoft Surface
+      url: forrester-tei-study.md
+    - text: Área de Trabalho Virtual do Windows no Surface
+      url: windows-virtual-desktop-surface.md
     - text: Novidades no Dock Surface 2
       url: surface-dock-whats-new.md
 - title: Microsoft Ignite
@@ -56,52 +56,52 @@ landingContent:
       url: windows-autopilot-and-surface-devices.md
     - text: Suporte a Registro Surface para o Windows Autopilot
       url: surface-autopilot-registration-support.md
-    - text: Área de Trabalho Virtual do Windows no Surface
-      url: windows-virtual-desktop-surface.md
+    - text: Ferramenta do Surface Deployment Accelerator
+      url: microsoft-surface-deployment-accelerator.md
 - title: Gerenciar dispositivos Surface
   linkLists:
   - linkListType: how-to-guide
     links:
     - text: Gerenciar e implantar atualizações de driver e firmware do Surface
       url: manage-surface-driver-and-firmware-updates.md
-    - text: Práticas recomendadas de configurações de energia para dispositivos Surface
-      url: maintain-optimal-power-settings-on-Surface-devices.md
-    - text: Otimizar conectividade Wi-Fi para dispositivos Surface
-      url: surface-wireless-connect.md
+    - text: Gerenciamento pelo Intune das configurações de UEFI do Surface
+      url: surface-manage-dfci-guide.md
+    - text: Implantação, gerenciamento e manutenção do Surface Pro X
+      url: surface-pro-arm-app-management.md
+- title: Solução de problemas
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: Implantar o Kit de Ferramentas de Diagnóstico Surface para Empresas
+      url: surface-diagnostic-toolkit-business.md
+    - text: Principais soluções de suporte
+      url: support-solutions-surface.md
+    - text: Práticas recomendadas para a remoção de SSD em dispositivos Surface compatíveis
+      url: surface-ssd-removal-guide.md
+    - text: Protegendo seus dados durante o reparo ou serviço de superfície
+      url: https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service
+    - text: Solucionar problemas de bases de encaixe e do Surface Dock
+      url: https://support.microsoft.com/help/4023468/surface-troubleshoot-surface-dock-and-docking-stations
 - title: Explorar orientação de segurança
   linkLists:
   - linkListType: how-to-guide
     links:
+    - text: Proteção DMA em dispositivos Surface
+      url: dma-protect.md
     - text: Proteger portas do Dock Surface 2 com o modo de gerenciamento do Surface Enterprise (SEMM)
       url: secure-surface-dock-ports-semm.md
-    - text: Gerenciamento pelo Intune das configurações de UEFI do Surface
-      url: surface-manage-dfci-guide.md
     - text: Ferramenta Surface Data Eraser
       url: microsoft-surface-data-eraser.md
 - title: Descubra as ferramentas Surface
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Surface Diagnostic Toolkit for Business
-      url: surface-diagnostic-toolkit-for-business-intro.md
+    - text: Implantar o Kit de Ferramentas de Diagnóstico Surface para Empresas
+      url: surface-diagnostic-toolkit-business.md
     - text: SEMM e UEFI
       url: surface-enterprise-management-mode.md
-    - text: Ferramenta do Surface Deployment Accelerator
-      url: microsoft-surface-deployment-accelerator.md
-- title: Solução de problemas
-  linkLists:
-  - linkListType: learn
-    links:
-    - text: Principais soluções de suporte
-      url: support-solutions-surface.md
-    - text: Práticas recomendadas para a remoção de SSD em dispositivos Surface compatíveis
-      url: surface-ssd-removal-guide.md
-    - text: Blog Surface para profissionais de TI
-      url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/bg-p/SurfaceITPro
-    - text: Protegendo seus dados durante o reparo ou serviço de superfície
-      url: https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service
-    - text: Solucionar problemas de bases de encaixe e do Surface Dock
-      url: https://support.microsoft.com/help/4023468/surface-troubleshoot-surface-dock-and-docking-stations
+    - text: Configuração de limite da bateria
+      url: battery-limit.md
 - title: Participar da Comunidade Surface
   linkLists:
   - linkListType: learn
