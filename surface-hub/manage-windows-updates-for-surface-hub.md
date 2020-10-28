@@ -1,37 +1,36 @@
 ---
 title: Gerenciar atualizações do Windows no Surface Hub
-description: Você pode gerenciar atualizações do Windows em seu hub Microsoft Surface ou Surface Hub 2S definindo a janela de manutenção, adiando atualizações ou usando o Windows Server Update Services (WSUS).
+description: Descreve as práticas recomendadas para o gerenciamento de atualizações em Microsoft Surface Hub ou Surface Hub 2S.
 ms.assetid: A737BD50-2D36-4DE5-A604-55053D549045
 ms.reviewer: ''
 manager: laurawi
-keywords: gerenciar atualizações do Windows, Surface Hub, Windows Server Update Services, WSUS
+keywords: gerenciar atualizações do Windows, Surface Hub, Windows Server Update Services
 ms.prod: surface-hub
 ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
+ms.date: 10/27/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 72214ec9436e6ea106d9e42c957664631ee88a0a
-ms.sourcegitcommit: f74253629aaf073b35b1af69439f76e63392c5aa
+ms.openlocfilehash: d6b95ac565132c4e4f1632c2abaffa13ddb2c54c
+ms.sourcegitcommit: 19d2a78242777590bd09af3ac6552c07b032e0a1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "11103785"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "11142890"
 ---
 # Gerenciar atualizações do Windows no Surface Hub
 
-Novas versões do sistema operacional do Surface Hub são publicadas por meio do Windows Update, assim como as versões do Windows 10. Existem algumas maneiras de gerenciar quais atualizações são instaladas em seus Surface Hubs e quando as atualizações são aplicadas.
-- **Windows Update para Empresas** – Novidade no Windows 10, o Windows Update para Empresas é um conjunto de recursos desenvolvidos para proporcionar às empresas controle adicional sobre como e quando o Windows Update instala versões, além de reduzir os custos de gerenciamento de dispositivos. Usando esse método, os Surface Hubs são conectados diretamente ao serviço Windows Update da Microsoft.
-- **Windows Server Update Services (WSUS)** – Conjunto de serviços que permitem que os administradores de TI baixem as atualizações que o Windows Update determine que são aplicáveis aos dispositivos de sua empresa, façam uma avaliação e testes adicionais das atualizações e selecionem as atualizações que desejam instalar. Usando esse método, os Surface Hubs receberão atualizações do WSUS, em vez do Windows Update.
+Novas versões do sistema operacional do Surface Hub são publicadas por meio do Windows Update, assim como as versões do Windows 10. Esta página explica as práticas recomendadas para o gerenciamento de atualizações de dispositivos Surface Hub. 
 
-Você também pode configurar o Surface Hub para receber atualizações do Windows Update para Empresas e do WSUS. Consulte [Integrar o Windows Update para Empresas com o Windows Server Update Services](https://technet.microsoft.com/itpro/windows/manage/waas-integrate-wufb#integrate-windows-update-for-business-with-windows-server-update-services) para saber os detalhes.
+## Windows Update para Empresas
 
-| Funcionalidades | Windows Update para Empresas | Windows Server Update Services (WSUS) |
-| ------------ | --------------------------- | ------------------------------------- |
-| Receba atualizações diretamente do serviço Windows Update da Microsoft, nenhuma infraestrutura adicional é necessária.  | Sim  | Não  |
-| Adie atualizações para fornecer mais tempo para avaliação e testes. | Sim  | Sim  |
-| Implante atualizações em alguns grupos de dispositivos. | Sim | Sim |
-| Defina janelas de manutenção para a instalação de atualizações. | Sim  | Sim  |
+O Windows Update for Business é um conjunto de recursos projetados para fornecer às empresas controle adicional sobre como e quando o Windows Update instala versões, enquanto reduz os custos de gerenciamento de dispositivos. Usando esse método, os Surface Hubs são conectados diretamente ao serviço Windows Update da Microsoft.
+
+- Receba atualizações diretamente do serviço Windows Update da Microsoft, nenhuma infraestrutura adicional é necessária. 
+- Adie atualizações para fornecer mais tempo para avaliação e testes. 
+- Implante atualizações em alguns grupos de dispositivos. 
+- Defina janelas de manutenção para a instalação de atualizações. 
 
 > [!TIP]
 > Use o compartilhamento de conteúdo ponto a ponto para reduzir problemas de largura de banda durante atualizações. Consulte [Otimizar a entrega de atualização para atualizações do Windows 10](https://technet.microsoft.com/itpro/windows/manage/waas-optimize-windows-10-updates) para saber os detalhes.
@@ -56,6 +55,7 @@ Para obter mais informações sobre o Windows como Serviço, consulte [Visão ge
 
 
 ## Usar Windows Update para Empresas
+
 Os Surface Hubs, como todos os dispositivos Windows 10, possuem o **Windows Update para Empresas (WUfB)** para que você possa controlar como os dispositivos estão sendo atualizados. O Windows Update para Empresas ajuda a reduzir os custos de gerenciamento de dispositivo, fornece controles sobre a implantação de atualizações, oferece acesso mais rápido às atualizações de segurança, além de dar acesso às inovações mais recentes da Microsoft de forma contínua. Para obter mais informações, consulte [Gerenciar atualizações usando o Windows Update para Empresas](https://technet.microsoft.com/itpro/windows/manage/waas-manage-updates-wufb).
 
 **Para configurar o Windows Update para Empresas:**
@@ -67,9 +67,10 @@ Os Surface Hubs, como todos os dispositivos Windows 10, possuem o **Windows Upda
 
 
 ### Agrupar o Surface Hub em anéis de implantação
+
 Use anéis de implantação para controlar quando as atualizações são implantadas em seus Surface Hubs, proporcionando tempo para você validá-las. Por exemplo, você pode atualizar um pequeno pool de dispositivos primeiro para verificar a qualidade antes de uma implantação mais ampla em sua organização. Dependendo de quem gerencia o Surface Hub em sua organização, considere a possibilidade de incorporar o Surface Hub em anéis de implantação criados para outros dispositivos Windows 10. Para obter mais informações sobre os anéis de implantação, consulte [Criar anéis de implantação para atualizações do Windows 10](https://technet.microsoft.com/itpro/windows/manage/waas-deployment-rings-windows-10-updates).
 
-Esta tabela contém exemplos de anéis de implantação.
+Consulte a tabela a seguir para obter exemplos de toques de implantação.
 
 | Anel de implantação | Tamanho do anel | Branch de manutenção | Adiamento de atualizações de recursos | Adiamento de atualizações de qualidade (correções de segurança, drivers e outras atualizações) | Etapa de validação |
 | --------- | --------- | --------- | --------- | --------- | --------- |
@@ -79,10 +80,8 @@ Esta tabela contém exemplos de anéis de implantação.
 | Crítico (por exemplo, dispositivos em salas de diretoria executiva) | Pequeno | Canal semestral |  180 dias depois do lançamento (adiamento máximo para atualizações de recursos). | 30 dias depois do lançamento (adiamento máximo para atualizações de qualidade). | Monitorar o uso dos dispositivos e os comentários dos usuários. |
 
 
-
-
-
 ### Configurar quando o Surface Hub receberá atualizações
+
 Depois de determinar os anéis de implantação para seus Surface Hubs, configure as políticas de adiamento de atualização para cada anel:
 - Para adiar atualizações de recursos, defina uma política [Update/DeferFeatureUpdatesPeriodInDays](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-deferfeatureupdatesperiodindays) apropriada para cada anel.
 - Para adiar atualizações de qualidade, defina uma política [Update/DeferQualityUpdatesPeriodInDays](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-deferqualityupdatesperiodindays) apropriada para cada anel.
@@ -90,22 +89,9 @@ Depois de determinar os anéis de implantação para seus Surface Hubs, configur
 > [!NOTE]
 > Se você encontrar problemas durante a distribuição de atualizações, você pode pausar as atualizações usando [Update/PauseFeatureUpdates](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-pausefeatureupdates) e [Update/PauseQualityUpdates](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-pausequalityupdates).
 
-
-## Usar o Windows Server Update Services
-
-Você pode conectar o Surface Hub ao servidor do Windows Server Update Services (WSUS) para gerenciar as atualizações. As atualizações serão controladas por meio de aprovações ou regras de implantação automática configuradas em seu servidor WSUS. Portanto, as novas atualizações não serão implantadas até que você escolha implantá-las.
-
-**Para conectar manualmente um Surface Hub a um servidor WSUS:**
-1. Abra **Configurações** em seu Surface Hub.
-2. Insira as credenciais de administrador de dispositivo quando solicitado.
-3. Navegue até **Atualização e segurança** > **Windows Update** > **Opções avançadas** > **Configurar servidor do Windows Server Update Services (WSUS)**.
-4. Clique em **Usar o Servidor WSUS para baixar atualizações** e digite a URL do servidor WSUS.
-
-Para conectar o Surface Hub a um servidor WSUS usando o MDM, defina uma política [Update/UpdateServiceUrl](https://msdn.microsoft.com/library/windows/hardware/dn904962.aspx#Update_UpdateServiceUrl) apropriada.
-
 **Se você usa um servidor proxy ou outro método para bloquear URLs**
 
-Se você usar um método diferente do WSUS para bloquear URLs específicas e impedir atualizações, precisará adicionar as seguintes URLs de sites confiáveis de atualização do Windows à "lista de permissão":
+Adicione as seguintes URLs de site confiáveis do Windows Update à "lista de permissão":
 - `http(s)://*.update.microsoft.com`
 - `http://download.windowsupdate.com` 
 - `http://windowsupdate.microsoft.com`
@@ -114,7 +100,7 @@ Quando a Atualização de Aniversário do Windows 10 Team estiver instalada, voc
 
 ## Janela de manutenção
 
-Para garantir que o dispositivo esteja sempre disponível para uso durante o horário comercial, o Surface Hub executa suas funções administrativas durante uma janela de manutenção especificada. Durante a janela de manutenção, o Surface Hub instala atualizações automaticamente por meio do Windows Update ou do WSUS e reinicializa o dispositivo 20 minutos antes do fim da janela.
+Para garantir que o dispositivo esteja sempre disponível para uso durante o horário comercial, o Surface Hub executa suas funções administrativas durante uma janela de manutenção especificada. Durante a janela de manutenção, o Surface Hub instala atualizações automaticamente por meio do Windows Update e reinicializa o dispositivo 20 minutos antes do fim da janela.
 
 O Surface Hub segue estas diretrizes para aplicar atualizações:
 - Instale a atualização durante a próxima janela de manutenção. Se uma reunião for agendada para iniciar durante uma janela de manutenção ou se os sensores do Surface Hub detectarem que o dispositivo está sendo usado, a atualização pendente será adiada para a janela de manutenção seguinte.
