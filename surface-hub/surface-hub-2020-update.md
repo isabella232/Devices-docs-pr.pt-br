@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 10/27/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 3e376a740aa16333cbbabc812b0c0193ab90d585
-ms.sourcegitcommit: 19d2a78242777590bd09af3ac6552c07b032e0a1
+ms.openlocfilehash: 68eee89ac1b93501c73eccd3e5f9eecf514a8132
+ms.sourcegitcommit: b4cfb718274fd632661f9112e9fd086a2ad45640
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "11142920"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "11143636"
 ---
 # Instalar a atualização do Windows 10 Team 2020 
 
@@ -48,7 +48,7 @@ A atualização do Windows 10 Team 2020 traz grandes melhorias para a implantaç
  
 ## Antes de começar
 
-Antes de instalar a atualização do Windows 10 Team 2020, certifique-se de salvar a chave do BitLocker associada ao seu dispositivo.
+Antes de instalar a atualização do Windows 10 Team 2020, certifique-se de salvar a chave do BitLocker associada ao seu dispositivo. Para saber mais, confira [o que há de novo IIN atualização do Windows 10 Team 2020](surface-hub-2020-update-whats-new.md)
 
 **Para salvar manualmente a chave do seu BitLocker**
 
