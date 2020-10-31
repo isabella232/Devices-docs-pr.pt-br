@@ -12,12 +12,12 @@ ms.date: 10/12/2020
 ms.reviewer: hachidan
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 1f2661811516507abd432dba602cf8ce81e6dbb3
-ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
+ms.openlocfilehash: 97d0a3d76cf9286ca946e08be9f605084084b2ba
+ms.sourcegitcommit: 5448f775d3fe177806fce6cbaf0b2b091ed8b7d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "11114659"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "11145956"
 ---
 # <span data-ttu-id="3d971-103">Implantar o Kit de Ferramentas de Diagnóstico Surface para Empresas</span><span class="sxs-lookup"><span data-stu-id="3d971-103">Deploy Surface Diagnostic Toolkit for Business</span></span>
 
@@ -25,7 +25,7 @@ ms.locfileid: "11114659"
 
 <span data-ttu-id="3d971-106">Especificamente, o SDT para empresas permite que você:</span><span class="sxs-lookup"><span data-stu-id="3d971-106">Specifically, SDT for Business enables you to:</span></span>
 
-- [<span data-ttu-id="3d971-107">Personalize o pacote.</span><span class="sxs-lookup"><span data-stu-id="3d971-107">Customize the package.</span></span>](#create-custom-sdt)
+- [<span data-ttu-id="3d971-107">Personalize o pacote.</span><span class="sxs-lookup"><span data-stu-id="3d971-107">Customize the package.</span></span>](#preparing-the-sdt-package-for-distribution)
 - [<span data-ttu-id="3d971-108">Executar o aplicativo usando comandos.</span><span class="sxs-lookup"><span data-stu-id="3d971-108">Run the app using commands.</span></span>](surface-diagnostic-toolkit-command-line.md)
 - [<span data-ttu-id="3d971-109">Execute vários testes de hardware para solucionar problemas.</span><span class="sxs-lookup"><span data-stu-id="3d971-109">Run multiple hardware tests to troubleshoot issues.</span></span>](surface-diagnostic-toolkit-desktop-mode.md#multiple)
 - [<span data-ttu-id="3d971-110">Gere logs para analisar problemas.</span><span class="sxs-lookup"><span data-stu-id="3d971-110">Generate logs for analyzing issues.</span></span>](surface-diagnostic-toolkit-desktop-mode.md#logs)
@@ -123,8 +123,6 @@ ms.locfileid: "11114659"
 ![lista de arquivos instalados do SDT no explorador de arquivos](images/sdt-2.png)
 
 *<span data-ttu-id="3d971-191">Figura 2.</span><span class="sxs-lookup"><span data-stu-id="3d971-191">Figure 2.</span></span> <span data-ttu-id="3d971-192">Arquivos instalados pelo SDT</span><span class="sxs-lookup"><span data-stu-id="3d971-192">Files installed by SDT</span></span>*
-
-<span id="create-custom-sdt" />
 
 ## <span data-ttu-id="3d971-193">Preparando o pacote SDT para distribuição</span><span class="sxs-lookup"><span data-stu-id="3d971-193">Preparing the SDT package for distribution</span></span>
 
