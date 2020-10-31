@@ -12,12 +12,12 @@ manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
 ms.date: 7/31/2020
-ms.openlocfilehash: ec4a90d0d72956eaa4f98e928d128dca70d49c59
-ms.sourcegitcommit: f875a45961ff5f3c04006afc8690b5e5965e4d80
+ms.openlocfilehash: 8b113d16f2053fe0904518b2643f1bafeaebdf64
+ms.sourcegitcommit: 5448f775d3fe177806fce6cbaf0b2b091ed8b7d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "10902934"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "11145936"
 ---
 # Usar o Kit de Ferramentas de Diagnóstico Surface para Empresas no modo de área de trabalho
 
@@ -26,7 +26,7 @@ Este tópico explica como usar o SDT (Kit de ferramentas de diagnóstico de supe
 A execução bem-sucedida do SDT pode determinar rapidamente se um problema relatado é causado por um erro de hardware ou usuário com falha. Para obter uma lista de dispositivos de superfície com suporte no SDT, consulte [implantar o kit de ferramentas de diagnóstico de superfície para empresas](surface-diagnostic-toolkit-business.md).
 
 
-1. Instrua o usuário a instalar [o pacote SDT a](surface-diagnostic-toolkit-business.md#create-custom-sdt) partir de um ponto de distribuição de software ou compartilhamento de rede. Depois de instalado, você está pronto para orientar o usuário em uma série de testes. 
+1. Direcione o usuário para instalar [o pacote SDT](surface-diagnostic-toolkit-business.md#preparing-the-sdt-package-for-distribution)) de um ponto de distribuição de software ou compartilhamento de rede. Depois de instalado, você está pronto para orientar o usuário em uma série de testes. 
 
 2. Comece na Home Page, que permite que os usuários insiram uma descrição do problema e clique em **continuar**, conforme mostrado na Figura 1.
 
@@ -58,12 +58,12 @@ A execução bem-sucedida do SDT pode determinar rapidamente se um problema rela
 5. Quando todos os testes terminarem, a ferramenta solicitará que você confirme se o problema foi corrigido. 
 
  ![Seu problema foi resolvido? ](images/sdt3.png)
- *Figura 3a. Seu problema foi resolvido?*
+ *Figura 3a. o seu problema foi resolvido?*
 
 6. Se o problema não for resolvido ou você não souber, poderá enviar um tíquete de suporte selecionando **entre em contato conosco** para **obter ajuda agora.**
  
  ![Envie um tíquete de suporte para o ](images/sdt4.png)
- *número 3B. Enviar um tíquete de suporte*
+ *número 3B. enviar um tíquete de suporte*
 
 <span id="multiple" />
 
