@@ -12,12 +12,12 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 10/27/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: d6b95ac565132c4e4f1632c2abaffa13ddb2c54c
-ms.sourcegitcommit: 19d2a78242777590bd09af3ac6552c07b032e0a1
+ms.openlocfilehash: e5ffefa44560d01135b3ac656d9357f1115110ba
+ms.sourcegitcommit: d60f82d9d22fe118f9c8dc24458d2c144b138eb8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "11142890"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "11174721"
 ---
 # Gerenciar atualizações do Windows no Surface Hub
 
@@ -120,7 +120,7 @@ Uma janela de manutenção padrão é definida para todos os novos Surface Hubs:
 2.  Navegue até **Atualização e segurança** > **Windows Update** > **Opções avançadas**.
 3.  Em **Horário de manutenção**, selecione **Alterar**.
 
-Para alterar a janela de manutenção usando o MDM, defina o nó **MOMAgent** no [Provedor de serviços de configuração SurfaceHub](https://msdn.microsoft.com/library/windows/hardware/mt608323.aspx). Consulte [Gerenciar configurações usando um provedor de MDM](manage-settings-with-mdm-for-surface-hub.md) para saber mais detalhes.
+Para alterar a janela de manutenção usando o MDM, defina o nó **MaintenanceHoursSimple** no [provedor de serviços de configuração do SurfaceHub](https://msdn.microsoft.com/library/windows/hardware/mt608323.aspx). Consulte [Gerenciar configurações usando um provedor de MDM](manage-settings-with-mdm-for-surface-hub.md) para saber mais detalhes.
 
 
 ## Mais informações
