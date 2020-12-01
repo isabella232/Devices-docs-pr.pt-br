@@ -9,12 +9,12 @@ author: v-miegge
 ms.author: v-miegge
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 2aba835da79d40d4ae5f2786f77071ab9e210844
-ms.sourcegitcommit: e2ade2f198e4123c922c6a4fb5ab61e040e38ccb
+ms.openlocfilehash: f45a2f202cdf350c6e51bb78a2bf87019a89453a
+ms.sourcegitcommit: 7c00ca47fe81a4f5b3a3317afabb4d028ff21289
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "11190064"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "11192842"
 ---
 # Histórico de atualizações do Surface Hub
 
@@ -28,6 +28,24 @@ Atualizaremos esta página para que novas atualizações sejam lançadas, então
 Consulte a página "[informações importantes do Surface Hub](https://support.microsoft.com/products/surface-devices/surface-hub)" para obter tópicos relacionados sobre versões atuais e anteriores que podem exigir sua atenção.
 
 ## Atualização do Windows 10 Team 2020 (20H2)
+
+<details>
+<summary>30 de novembro de 2020 — atualização para a equipe baseada no KB4586853 * (so Build 19042,662)</summary>
+
+Essa atualização para o Surface Hub inclui melhorias de qualidade e correções de segurança. As atualizações de chave do Surface Hub, ainda não descritas no [histórico de atualização do Windows 10](https://support.microsoft.com/help/4581839/windows-10-update-history), incluem:
+
+* Atualize a página de configurações de privacidade para fornecer opções adicionais.
+* Correção que garante que a limpeza de sessão final remova todos os dados relacionados a Chromium de borda.
+* Resolve um problema em que as reuniões que já haviam começado não foram exibidas na tela de boas-vindas/tela inicial.
+* Resolve um problema com a recuperação da nuvem para locais que não são no en-US.
+* Skype for Business
+  * Melhora o desempenho de áudio direcional.
+  * Sons reduzidos "toque com caneta" ao usar caneta durante chamadas do Skype for Business.
+* Melhora a confiabilidade durante a inscrição no programa Windows Insider.
+* Melhora a confiabilidade do Shell da equipe do Windows.
+
+Consulte o guia de [Administração do Surface Hub](https://docs.microsoft.com/surface-hub/) para habilitar/desabilitar recursos e serviços do dispositivo. *[KB4586853](https://support.microsoft.com/help/4586853)
+</details>
 
 <details>
 <summary>Atualização de 24 de novembro de 2020 – para Surface Hub 2S</summary>
