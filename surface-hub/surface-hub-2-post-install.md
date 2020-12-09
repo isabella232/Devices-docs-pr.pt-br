@@ -14,15 +14,15 @@ author: greg-lindsay
 ms.author: greglin
 ms.collection: M365-modern-desktop
 ms.topic: article
-ms.date: 11/03/2020
+ms.date: 12/08/2020
 appliesto:
 - Surface Hub 2S
-ms.openlocfilehash: b86776b56e892c34ea8b5abbc55d5c48723a5f9e
-ms.sourcegitcommit: 3ca1d1bc77452acca914d0af03e252ee260ebf1a
+ms.openlocfilehash: 7accbe3d905af3b295f92c002eecd5d77356672d
+ms.sourcegitcommit: e126b8ac66a781ebe42cdd677af3fe6a2eb5e72c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "11154123"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "11203544"
 ---
 # Configurar o Windows 10 Pro ou Enterprise no Surface Hub 2
 
@@ -85,6 +85,29 @@ Conecte um teclado e um mouse se estiver usando o dispositivo como seu dispositi
 
 Se o dispositivo do Surface Hub estiver próximo a um computador, você pode usar <a href="https://aka.ms/mm" target="_blank"> o mouse sem bordas </a> para se mover diretamente entre o Surface Hub e o computador. Para obter mais informações, consulte <a href="https://blogs.microsoft.com/ai/microsoft-download-from-the-garage-mouse-without-borders/" target="_blank"> o download da Microsoft na garagem: mouse sem bordas. </a>
 
+## Exemplo de layout da barra de tarefas
+
+Depois de concluir as etapas abaixo para configurar/configurar o Surface Hub 2 para Windows 10 Professional ou Enterprise, recomendamos que você use a fixação dos aplicativos mais usados para a barra de tarefas para uma inicialização rápida com um só toque de cada aplicativo. Veja a seguir um exemplo de como a barra de tarefas poderia se parecer com o seguinte:
+
+ ![Layout da barra de tarefas](images/taskblyt.png)
+### Atualizar aplicativos instalados
+
+Para atualizar todos os aplicativos da loja instalados:
+
+1. Abra o aplicativo da Microsoft Store e selecione **Ver mais** reticências no canto superior direito.
+2. Selecione **downloads e atualizações.**
+3. Selecione **obter atualizações**
+
+### Procurar e instalar todas as atualizações do Windows
+Após a migração para o Windows 10 Professional ou Windows 10 Enterprise, talvez haja atualizações de serviço e manutenção disponíveis para você instalar. 
+
+- Vá para **configurações**  >  **Atualizar &** > de segurança e, em seguida, selecione **verificar se há atualizações**.
+- Se houver alguma atualização, instale-a, reinicialize e repita o processo até que você veja a seguinte notificação:
+
+> [!div class="mx-imgBorder"]
+> ![Notificação do Windows Update ' você está atualizado '](images/wustatus.png)
+
+
 ## OneDrive for Business
 
 Use <a href="https://docs.microsoft.com/onedrive/onedrive" target="_blank"> o onedrive for Business </a> para compartilhar facilmente ferramentas, logs e outros arquivos entre todos os seus dispositivos de trabalho.
@@ -134,7 +157,7 @@ Para sincronizar arquivos corporativos internos para sua unidade local com o apl
 
 **Emparelhar a caneta do Hub da superfície Bluetooth**
 
-Emparelhe a caneta para manter o firmware da caneta atualizado e obter informações sobre a carga da bateria na página de configurações do dispositivo Bluetooth ou no aplicativo Surface:
+Emparelhar a caneta para manter o firmware da caneta atualizado, definir os atalhos da caneta e obter informações sobre a carga da bateria na página de configurações do dispositivo Bluetooth ou no aplicativo Surface:
 
 1. Selecione **Iniciar**  >  **configurações**de  >  **dispositivos**.
 
@@ -200,15 +223,6 @@ Para adicionar um ícone à barra de tarefas que permite o bloqueio de tela com 
 
 ## Aplicativos
 
-### Atualizar aplicativos instalados
-
-Para atualizar todos os aplicativos da loja instalados:
-
-1. Abra o aplicativo da Microsoft Store e selecione **Ver mais** reticências no canto superior direito.
-
-2. Selecione **Downloads e atualizações**.
-
-2. Selecione **Obter atualizações**.
 
 ### Microsoft Whiteboard
 
@@ -307,9 +321,21 @@ O aplicativo de **telefone** é instalado por padrão no Windows 10. Se não est
 
 Para obter informações sobre como configurar o aplicativo, consulte <a href="https://www.windowscentral.com/how-set-your-phone-windows-10" target="_blank"> como configurar seu telefone no Windows 10 e sincronizar dados entre seu PC e telefone </a> . Veja também <a href="https://www.windowscentral.com/how-fix-common-problems-your-phone-app-windows-10" target="_blank"> como corrigir problemas comuns com o aplicativo de telefone no Windows 10 </a> .
 
-### Zonas super sofisticadas
+###  Zonas decorativas
 
-As **zonas Supersofisticadas** ajudam os usuários a organizar o Windows para maximizar o estado real da tela. Agora ele está incluído em <a href="https://github.com/microsoft/PowerToys/releases" target="_blank"> PowerToys </a> no github.
+
+As **zonas decorativas** fazem parte de uma coleção de ferramentas chamadas <a href="https://github.com/microsoft/PowerToys/releases" target="_blank"> PowerToys </a> no github. É uma ótima maneira de usar o estado real da tela em um Surface Hub 2 oferecendo a você a capacidade de definir layouts fixos em seu vídeo ("zonas") e, em seguida, selecionar qual aplicativo será executado em cada zona. 
+
+
+O [wiki do PowerToy](https://github.com/microsoft/PowerToys/wiki) tem instruções sobre como usar e personalizar cada ferramenta, incluindo o [FancyZones](https://github.com/microsoft/PowerToys/wiki/FancyZones-Overview). Em um nível alto – após a instalação do PowerToys, você pode selecionar ou criar um layout personalizado e, em seguida, manter a tecla Shift pressionada e arrastar ou usar as teclas do teclado para mover um aplicativo em execução para zonas específicas. Usar um teclado Bluetooth ou USB e um mouse ajudará com isso, ou você pode usar o teclado virtual e o touchpad.
+
+**Dicas do Power Toys**
+- Para receber notificações por email de atualizações de versão do PowerToy no GitHub, clique no botão "inscrição" na parte superior da [página](https://github.com/microsoft/PowerToys/releases).
+- Após a instalação do PowerToys, você pode receber notificações do Windows e/ou baixar e instalar as atualizações mais recentes configurando as configurações do PowerToys **baixar atualizações automaticamente** para ativado.
+- Para acessar as configurações do PowerToys, selecione a guia up Carat **executando aplicativos** na barra de tarefas e clique com o botão direito do mouse ou pressione e mantenha pressionado o ícone do PowerToys até que o menu seja exibido. Selecione "configurações".
+- Na parte inferior da página de configurações do PowerToy, ative o **download de atualizações automaticamente** para ativado.
+- Quando uma atualização for liberada, uma notificação do Windows será exibida oferecendo a opção de quando instalar a atualização.
+
 
 ### Navegador do Edge Chromium
 
@@ -415,7 +441,7 @@ Ative o modo tablet, se quiser, para atender às necessidades de acessibilidade.
 
 1. Procure e instale todas as atualizações do Windows.
 
-2. Atualizar política de grupo
+2. Atualize a política de grupo.
 
    1. Em um prompt de comando elevado, digite **gpupdate/force/boot/Wait: 0**.
    
