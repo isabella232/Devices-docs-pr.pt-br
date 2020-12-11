@@ -26,7 +26,6 @@
 ## Implantar
 ### [Adoção e treinamento do Surface Hub 2S](surface-hub-2s-adoption-kit.md)
 ### [Vídeos de adoção do Surface Hub 2S](surface-hub-2s-adoption-videos.md)
-
 ### [Primeira instalação do Surface Hub 2S](surface-hub-2s-setup.md)
 ### [Conectar outros dispositivos ao Surface Hub 2S](surface-hub-2s-connect.md)
 ### [Lista de verificação de implantação do Surface Hub 2S](surface-hub-2s-deploy-checklist.md)
@@ -40,7 +39,7 @@
 ### [Migrar para o Windows 10 Pro ou para o Enterprise no Surface Hub 2](surface-hub-2s-migrate-os.md)
 ### [Configurar o Windows 10 Pro ou Enterprise no Surface Hub 2](surface-hub-2-post-install.md)
 ### [Suplementos essenciais para Windows 10 Pro e Enterprise no Surface Hub 2](surface-hub-2-essential-add-ons.md)
-### [Instalar a Atualização da Versão Prévia do Windows 10 Team 2020](surface-hub-install-2020preview.md)  
+### [Instale a Atualização do Windows 10 Team 2020](surface-hub-2020-update.md)  
 ### [Problemas conhecidos - Atualização do Windows 10 Team 2020](surface-hub-2020-team-update-known-issues.md)
 ### [Configurar contas administrativas não globais no Surface Hub 2S](surface-hub-2s-nonglobal-admin.md)
 ### [Instalar e configurar o novo Microsoft Edge no Surface Hub](surface-hub-install-chromium-edge.md)        
@@ -99,9 +98,8 @@
 #### [Programa de primeira execução](first-run-program-surface-hub.md)
 
 ## Gerencie
-### [Gerenciar o Microsoft Surface Hub](manage-surface-hub.md)
-### [Instalar a Atualização da Versão Prévia do Windows 10 Team 2020](surface-hub-install-2020preview.md)  
-### [Instalar e configurar o novo Microsoft Edge no Surface Hub](surface-hub-install-chromium-edge.md)    
+### [Gerenciar o Microsoft Surface Hub](manage-surface-hub.md) 
+### [Instale e configure o novo Microsoft Edge no Surface Hub](surface-hub-install-chromium-edge.md)    
 ### [PowerShell para Surface Hub](appendix-a-powershell-scripts-for-surface-hub.md)
 ### [Gerenciamento remoto do Surface Hub](remote-surface-hub-management.md)
 #### [Gerenciar configurações com um provedor MDM](manage-settings-with-mdm-for-surface-hub.md)
