@@ -11,18 +11,18 @@ audience: Admin
 ms.topic: article
 ms.date: 12/04/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 324f6a0125522f8f258b1c8faa614782a20fe6c8
-ms.sourcegitcommit: 16cc2e8d9dfc5d6e061e0b5b6ddfcf35547643f2
+ms.openlocfilehash: 87eb7d193b5afb1f1b2ea6e2dc1c17143d7ef3ef
+ms.sourcegitcommit: f007f40f4b4fb49280fe6073bd857c9d7624a9cc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "11196767"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "11218872"
 ---
 # Problemas conhecidos: atualização para o Windows 10 Team 2020 
 
 Este artigo lista problemas conhecidos para a atualização do Windows 10 Team 2020, o sistema operacional atual para Surface Hub.
 
-Para garantir que o Surface Hub receba as atualizações mais recentes, entre com uma conta de administrador e selecione todas as configurações de **aplicativos**  >  **Settings**  >  **atualização e segurança**do  >  **Windows Update**e instale todas as atualizações.
+Para garantir que o Surface Hub receba as atualizações mais recentes, entre com uma conta de administrador e selecione todas as configurações de **aplicativos**  >  ****  >  **atualização e segurança**do  >  **Windows Update**e instale todas as atualizações.
 
 
 
@@ -36,5 +36,5 @@ Para garantir que o Surface Hub receba as atualizações mais recentes, entre co
 | Os dispositivos Hub 2S não conseguem receber atualizações de driver usando o WSUS.                                             | Surface Hub 2S é compatível com Windows Update e Windows Update for Business para distribuir drivers; Não há suporte para a distribuição via Windows Server Update Services (WSUS).                                                                                                                                                                                                                                                                      | Se estiver usando o WSUS, migre para o Windows Update for Business.<br> <br>**Saiba mais**: [o que é o Windows Update para empresas?](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb)                                                                                                                                                                                                                                                                                                                            |
 | O Microsoft whiteboard não é atualizado na Microsoft Store                                               | Após a atualização para a atualização do Windows 10 Team 2020, o aplicativo Microsoft whiteboard falha ao atualizar via Microsoft Store.                                                                                                                                                                                                                                                                                                                       | Desinstale o aplicativo do whiteboard e reinstale-o na Microsoft Store ou no seu provedor de MDM.                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | O logon único falha em dispositivos associados ao Azure Active Directory ao usar um telefone para entrar no Surface Hub | Se um administrador de ti configurou o locatário para usar a [autenticação sem senha](surface-hub-2s-phone-authenticate.md) para entrar no Surface Hub e o dispositivo for associado ao AAD, os usuários não poderão entrar usando um dispositivo móvel, como um telefone.                                                                                                       | Entre manualmente no Surface Hub.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-
+| A central de ações tem um link de configurações com erro de clique. | Este link não deve ser exibido na equipe do Windows 10 e pode causar confusão.                                                                                                       | A funcionalidade é a mesma de antes da atualização do 2020; a seção de aplicativos do menu iniciar deve ser usada para iniciar o aplicativo configurações.                                                                                                                                                                                                                                                                                                                                                                                                                           |
 
