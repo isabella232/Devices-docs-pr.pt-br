@@ -9,23 +9,22 @@ author: dansimp
 ms.author: dansimp
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 932e5b801c0990a080148e420db3259cdb7e2ab5
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.date: 12/21/2020
+ms.openlocfilehash: e8f01a7e6ce087f649d99c1fc13f149fa375fc8a
+ms.sourcegitcommit: e83316c8b5e3c29b0af0730ef05fd8b96b0d0cdd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830605"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "11238106"
 ---
 # Informações técnicas do 84 "Surface Hub
-
-## Medições 
 
 |
 --- | ---
 Preço | A partir de $21999 
 Size |  46,12 "x 86,7" x 4,15 "(1171.5 mm x 2202.9 mm x 105.4 mm)
 Armazenamento/RAM | SSD 128 GB com 8 GB de RAM
-Processador   | Core-i7 Intel® Core™ 
+Processor   | Core-i7 Intel® Core™ 
 Elementos gráficos |  NVIDIA Quadro K2200 
 Portas | **PC interno**<br>• (1) USB 3,0 (inferior) + (1) USB 3,0 (acesso à lateral)<br>• (4) USB 2,0<br>• Base-T Ethernet 1000<br>• Saída de vídeo DisplayPort<br>• Saída estéreo de 3,5 mm<br>• Conector RJ11 para controle no nível do sistema<br>**PC alternativo**<br>• (2) USB 2,0 tipo B de saída<br>• conexão para câmera, sensores, microfone, alto-falantes<br>• (2) entrada de vídeo DisplayPort<br>**PC convidado**<br>• Entrada de vídeo DisplayPort<br>• Entrada de vídeo HDMI<br>• Entrada de vídeo VGA<br>• Entrada estéreo de 3,5 mm<br>• (1) USB 2,0 tipo B Touchback™ output
 Sensores  | (2) sensores de presença de infravermelho passiva, sensores de luz ambiente 
@@ -54,6 +53,11 @@ Voltagem de entrada | 110/230V nominal, 90 265V máx
 Potência de entrada, operando |    900W máx.
 Potência de entrada, standby    |   5W nominal, 1-10W máx
 
+> [!NOTE]
+> O Surface Hub pode ser usado continuamente por um máximo de 18 horas por dia. Para otimizar a eficiência, o Surface Hub usa sensores inteligentes para desativar a tela de LED quando a presença não é mais detectada, o que significa que não há necessidade de desligá-la no final do dia. Se a unidade estiver instalada em um ambiente de trabalho de 24 horas, os sensores poderão ser desabilitados para atender à recomendação de uso máximo de 18 horas por dia. Observe que a exibição prolongada de um sinal de vídeo pode fazer com que a retenção de imagem ou gravação ocorra na tela. Para saber mais sobre como gerenciar as configurações de energia, consulte:
+>
+> - [Gerenciamento local de configurações do Surface Hub](local-management-surface-hub-settings.md)
+> - [CSP SurfaceHub-gerenciamento de cliente Windows](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
 
 ## Conexões de substituição de PC 
 
@@ -96,28 +100,28 @@ RJ11, e/s inferior | ![](images/rj11.png) | Conecta-se a sistemas de controle de
 
 ## Diagramas de portas e Clearances
 
-***Exibição superior do 84 "Surface Hub***
+**_Exibição superior do 84 "Surface Hub_*_
 
 ![](images/sh-84-top.png)
 
 ---
 
 
-***Visão frontal do 84 "Surface Hub***
+_*_Visão frontal do 84 "Surface Hub_*_
 
 ![](images/sh-84-front.png)
 
 
 ---
 
-***Vista inferior do 84 "Surface Hub***
+_*_Vista inferior do 84 "Surface Hub_*_
 
 ![](images/sh-84-bottom.png)
 
 
 ---
 
-***Portas de computador de substituição em Surface Hub de 84 polegadas***
+_*_Portas de computador de substituição em Surface Hub de 84 polegadas_*_
 
 ![](images/sh-84-rpc-ports.png)
 
@@ -125,21 +129,21 @@ RJ11, e/s inferior | ![](images/rj11.png) | Conecta-se a sistemas de controle de
 
 ---
 
-***Exibição traseira do 84 "Surface Hub***
+_*_Exibição traseira do 84 "Surface Hub_*_
 
 ![](images/sh-84-rear.png)
 
 
 ---
 
-***Clearances para 84 "Surface Hub***
+_*_Clearances para 84 "Surface Hub_*_
 
 ![](images/sh-84-clearance.png)
 
 ---
 
 
-***Identificadores de levantar removíveis no 84 "Surface Hub***
+_*_Identificadores de levantar removíveis no 84 "Surface Hub_*_
 
 ![](images/sh-84-hand.png)
 
@@ -147,17 +151,17 @@ RJ11, e/s inferior | ![](images/rj11.png) | Conecta-se a sistemas de controle de
 ---
 
 
-***Threads de montagem em parede na parte de trás do 84 "Surface Hub***
+_*_Threads de montagem em parede na parte de trás do 84 "Surface Hub_*_
 
 ![](images/sh-84-wall.png)
 
 ---
-***Elevando identificadores na exibição superior do 84 "Surface Hub***
+_*_Elevando identificadores na exibição superior do 84 "Surface Hub_*_
 
 ![](images/sh-84-hand-top.png)
 
 ---
-***Exibição do lado da 84 "Surface Hub***
+*_Modo de exibição _ lado do 84 "Surface Hub_**
 
 ![](images/sh-84-side.png)
 
