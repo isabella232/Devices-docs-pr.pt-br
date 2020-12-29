@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 11/21/2019
+ms.date: 12/28/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: dddab2adce1bec9ff722a3324b9c4b1be609ae89
-ms.sourcegitcommit: ac34f0ec1a9df74ea688bf0da2a51fadf5139a41
+ms.openlocfilehash: af66449806c9aa525fa3f5df84012d3daeed96ba
+ms.sourcegitcommit: dbd14649442ad039aeb265cd60ed029d483a4bb0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "10934841"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "11251448"
 ---
 # Preparar o ambiente para o Surface Hub 2S
 
@@ -27,6 +27,11 @@ Se você usa o Exchange Online, o Skype for Business Online, o Microsoft Teams o
 Os pontos de extremidade do Office 365 ajudam a otimizar sua rede enviando todas as solicitações de rede do Office 365 confiáveis diretamente por meio do firewall, ignorando a inspeção ou o processamento adicional do nível do pacote. Esse recurso reduz a latência e os requisitos de capacidade do perímetro.
 
 A Microsoft atualiza regularmente o serviço do Office 365 com novos recursos e funcionalidades, o que pode alterar portas, URLs e endereços IP necessários. Para avaliar, configurar e manter-se atualizado com as alterações, assine o [endereço IP do Office 365 e o serviço Web de URL](https://docs.microsoft.com/office365/enterprise/office-365-ip-web-service).
+
+> [!NOTE]
+> O Surface Hub funciona com o Microsoft Teams, o Skype for Business Server 2019, o Skype for Business Server 2015 ou o Skype for Business online.
+Plataformas anteriores, como o Lync Server 2013, não são compatíveis. O Surface Hub não é compatível em ambientes GCC-High ou DoD.
+
 
 ## Afiliação de dispositivo
 
@@ -44,8 +49,10 @@ Nenhuma afiliação é como ter o Surface Hub 2S em um grupo de trabalho com uma
 
 Se você afiliada o Surface Hub 2S com os serviços de domínio do Active Directory locais, será necessário gerenciar o acesso ao aplicativo configurações usando um grupo de segurança no seu domínio. Isso ajuda a garantir que todos os membros do grupo de segurança tenham permissões para alterar as configurações no Surface Hub 2S. Observe também o seguinte:
 
-- Quando o Surface Hub 2S afiliado com os serviços de domínio do Active Directory local, a chave do BitLocker pode ser salva no esquema do Active Directory. Para obter mais informações, consulte [preparar sua organização para o BitLocker: planejamento e políticas](https://docs.microsoft.com/windows/security/information-protection/bitlocker/prepare-your-organization-for-bitlocker-planning-and-policies). 
+- Quando o Surface Hub 2S afiliado com os serviços de domínio do Active Directory local, a chave do BitLocker pode ser salva no esquema do Active Directory. Para obter mais informações, consulte [preparar sua organização para o BitLocker: planejamento e políticas](https://docs.microsoft.com/windows/security/information-protection/bitlocker/prepare-your-organization-for-bitlocker-planning-and-policies).
+
 - As CAs raiz confiáveis da sua organização são empurradas para o mesmo contêiner no Surface Hub 2S, o que significa que você não precisa importá-las usando um pacote de provisionamento.
+
 - Você ainda pode registrar o dispositivo com o Intune para gerenciar as configurações de forma centralizada no seu Surface Hub 2S.
 
 ## Azure Active Directory
