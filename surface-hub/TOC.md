@@ -16,6 +16,7 @@
 #### [Planejamento do local para o Surface Hub 2S](surface-hub-2s-site-planning.md)
 #### [Início rápido do Surface Hub 2S](surface-hub-2s-quick-start.md)
 #### [Instalar e montar o Surface Hub 2S](surface-hub-2s-install-mount.md)
+#### [Instalar e montar o Surface Hub 2S 85](surface-hub-2s-85-install-mount.md)
 #### [Personalizar o suporte de parede do Surface Hub 2S](surface-hub-2s-custom-install.md)
 #### [Planilha de instalação](setup-worksheet-surface-hub.md)
 #### [Visão geral do teclado numérico e das portas do Surface Hub 2S](surface-hub-2s-port-keypad-overview.md)
