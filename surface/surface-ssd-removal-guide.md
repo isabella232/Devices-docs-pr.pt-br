@@ -1,6 +1,6 @@
 ---
-title: Remoção de SSD em dispositivos de superfície compatíveis
-description: Este artigo, destinado a técnicos de ti qualificados, descreve as práticas recomendadas para a remoção e substituição do SSDs no laptop Surface 3, Surface Pro X e Surface laptop go.
+title: Remoção de SSD em dispositivos Surface compatíveis
+description: Este artigo, destinado a técnicos de IT qualificados, descreve as práticas recomendadas para a remoção e substituição de SSDs no Surface Laptop 3, Surface Pro X e Surface Laptop Go.
 ms.prod: w10
 ms.localizationpriority: medium
 ms.mktglfcycl: manage
@@ -8,119 +8,121 @@ ms.sitesec: library
 author: mccoybot
 ms.author: v-todmc
 ms.topic: article
-ms.date: 10/21/2020
+ms.date: 01/13/2020
 ms.reviewer: ''
 manager: laurawi
 ms.audience: itpro
 audience: ITPro
 appliesto:
-- Surface Laptop 3
+- Surface Pro 7+
 - Surface Pro X
 - Surface Laptop Go
+- Surface Laptop 3
 ms.custom:
 - CI 121887
 - CSSTroubleshoot
-ms.openlocfilehash: 56c740b39d86ea3fab386e88efa6932e050bb957
-ms.sourcegitcommit: 959d2d856b1e5b5c72cd636f576b5feb1b633048
+ms.openlocfilehash: b65feb24803311aba809819cd6da273ed6934c75
+ms.sourcegitcommit: 41124d496abaa38a0d989159f2afec3542d562ca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "11133166"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "11269102"
 ---
-# Práticas recomendadas para remoção de SSD de dispositivos de superfície compatíveis
+# Práticas recomendadas para remoção de SSD de dispositivos Surface compatíveis
 
 > [!IMPORTANT]
-> Este artigo destina-se a usar técnicos de ti qualificados apenas em uma organização corporativa. Ele descreve as práticas recomendadas recomendadas para uso por técnicos de ti qualificados na remoção e substituição de SSDs nos seguintes dispositivos da superfície compatível: 
+> Este artigo destina-se somente ao uso de técnicos de IT qualificados em uma organização corporativa. Ele descreve as práticas recomendadas para uso por técnicos de IT qualificados na remoção e substituição de SSDs nos seguintes dispositivos Surface compatíveis: 
 
-- Laptop Surface 3 
-- Surface Pro X 
-- Usar o laptop Surface
+- Surface Pro 7+
+- Surface Pro X
+- Surface Laptop Go
+- Surface Laptop 3
 
 > [!WARNING]
-> Abrir dispositivos e substituir componentes de dispositivo pode apresentar choque elétrico, danos ao dispositivo, incêndios e riscos de ferimentos pessoais e outros riscos.  Use sempre um cuidado ao realizar tais atividades. Siga as precauções e os procedimentos de segurança identificados no [Guia de remoção do rSSD para empresas](https://www.microsoft.com/download/100440). Recomendamos que você receba assistência profissional se não puder seguir as precauções e os procedimentos de segurança especificados no "guia de remoção do rSSD para empresas".
+> Abrir dispositivos e substituir componentes do dispositivo pode causar danos elétricos, danos ao dispositivo, incêndio e riscos de danos pessoais e outros riscos.  Sempre seja cuidadoso ao realizar essas atividades. Siga as precauções e os procedimentos de segurança identificados no Guia de Remoção [do rSSD para Empresas.](https://www.microsoft.com/download/100440) Recomendamos que você receba assistência profissional se não puder seguir as precauções e os procedimentos de segurança especificados no "Guia de Remoção de RSSD para Empresas".
 
 ## Pré-requisitos
 
 > [!IMPORTANT]
-> Este artigo pressupõe que você compreenda as precauções gerais de segurança e as políticas de segurança e os procedimentos descritos no guia de remoção do rSSD para empresas.
+> Este artigo supõe que você compreende as políticas e procedimentos gerais de segurança e precauções de segurança descritas no "Guia de Remoção de RSSD para Empresas".
 
-## Preparar a remoção do SSD 
+## Preparar para remoção do SSD 
 
 ### Instalar as atualizações mais recentes 
 
-Antes de começar, verifique se a sua versão do Windows tem as atualizações mais recentes instaladas:
+Antes de começar, certifique-se de que sua versão do Windows tenha as atualizações mais recentes instaladas:
 
-1.  Vá para **Iniciar**  >  **configurações**  >  **Atualizar & segurança**e selecione **verificar se há atualizações**.
+1.  Vá para **Iniciar**  >  **Configurações Atualização**&  >  **Segurança**e selecione Verificar se há **atualizações.**
 2. Instale todas as atualizações disponíveis.
 3. Verifique as senhas necessárias para acessar o dispositivo.  
  
 ## Gerenciar o BitLocker 
 
 > [!NOTE]
-> Esta seção inclui recomendações para organizações que ativaram a criptografia BitLocker para discos rígidos. Para obter mais informações, consulte  [Guia de recuperação do BitLocker](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-recovery-guide-plan). 
+> Esta seção inclui recomendações para organizações que habilitaram a criptografia BitLocker para discos rígidos. Para obter mais informações, consulte [o Guia de Recuperação do BitLocker.](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-recovery-guide-plan) 
 
-### Se a criptografia do BitLocker estiver desabilitada durante a remoção e a substituição do SSD
+### Se a criptografia BitLocker estiver desabilitada durante a remoção e substituição do SSD
 
-Se o dispositivo pode ser descriptografado antes da remoção e substituição do SSD, siga estas etapas para desativar o BitLocker:
+Se o dispositivo puder ser descriptografado antes da remoção e substituição do SSD, siga estas etapas para desativar o BitLocker:
 
-1.  Em **configurações**, digite **BitLocker** e, em seguida, selecione **gerenciar o BitLocker**. 
-2.  Selecione desativar **BitLocker**. 
-3.  Desligue o dispositivo. 
+1.  Em **Configurações,** digite **BitLocker** e selecione **Gerenciar BitLocker**. 
+2.  Selecione **Desativar BitLocker.** 
+3.  Alimente o dispositivo. 
 
-### Se a criptografia do BitLocker estiver habilitada durante a remoção e a substituição do SSD
+### Se a criptografia BitLocker estiver habilitada durante a remoção e substituição do SSD
 
 Se o dispositivo for criptografado antes da remoção e substituição do SSD, siga estas etapas para gerar uma chave de recuperação do BitLocker e salvá-la no armazenamento USB:
 
-1.  Em **configurações**, digite **BitLocker**.
-2. Selecione **gerenciar o BitLocker**  > **gerar a chave de recuperação do BitLocker**.
+1.  Em **Configurações,** digite **BitLocker**.
+2. Selecione **Gerenciar BitLocker**  > **Gerar Chave de Recuperação do BitLocker.**
 2.  Insira uma unidade USB. 
-4.  Salve a chave de recuperação em armazenamento USB.  
+4.  Salve a chave de recuperação no armazenamento USB.  
 5.  Remova a unidade USB.  
-6.  Desligue o dispositivo. 
+6.  Alimente o dispositivo. 
 
-## Remover e substituir SSD 
+## Remover e substituir o SSD 
 
-1.  Remova a SSD usando as instruções no [Guia de remoção do rSSD para empresas](https://www.microsoft.com/download/100440). 
-2.  Coloque a SSD original em um novo dispositivo e conecte o novo dispositivo a uma conexão com a Internet com fio.
-3.  Ligue o novo dispositivo. O dispositivo pode passar por uma atualização de firmware durante a inicialização.  
+1.  Remova o SSD usando as instruções apropriadas para seu dispositivo incluído no Guia de Remoção [rSSD para Empresas.](https://www.microsoft.com/download/100440) 
+2.  Coloque o SSD original em um novo dispositivo e conecte o novo dispositivo a uma conexão com a Internet com fio.
+3.  A energia do novo dispositivo. O dispositivo pode passar por uma atualização de firmware durante a inicialização.  
  
-## Após remoção e substituição do SSD
+## Após a remoção e substituição do SSD
 
 ### Gerenciar SSDs não criptografados 
 
-Se a SSD não for criptografada durante a transferência, siga estas etapas: 
+Se o SSD não for criptografado durante a transferência, siga estas etapas: 
 
-1.  Acesse a senha de **Opções de entrada**  >  **Password** (representada pelo ícone de chave no lado esquerdo).  
-2.  Digite a senha e entre na conclusão pendente de autenticação de dois fatores (se aplicável).
-3.  Depois de conectar-se completamente, acesse **Iniciar**  >  **conta**sair  >  **Sign out**.  
-4.  Conecte-se novamente usando a senha e configure o Windows Hello e um PIN quando solicitado. 
-    - Se o dispositivo tiver o BitLocker desabilitado para facilitar a remoção e a substituição do SSD e você quiser habilitar o BitLocker após a substituição, vá para **BitLocker**  >  **gerenciar BitLocker**  >  **retomar BitLocker**.  
-6.  Execute o [Kit de ferramentas de diagnóstico do Surface da Microsoft para empresas](surface-diagnostic-toolkit-for-business-intro.md) (SDT) para verificar a funcionalidade completa do dispositivo.  
-7.  Verifique a ativação do Windows navegando para a ativação de **configurações**  >  **Activation**.  Se você vir mensagens de erro, selecione **solucionar problemas**. 
-8.  Verifique a conta do Office abrindo o **aplicativo do Office**, navegue até **arquivo**  >  **conta** e verifique se há mensagens de erro.  
+1.  Vá para **Senha de Opções de**  >  **Login** (representado pelo ícone de tecla no lado esquerdo).  
+2.  Insira a senha e entre com a conclusão pendente da autenticação de dois fatores (se aplicável).
+3.  Depois de entrar totalmente, vá para **Iniciar**Saída  >  ****  >  **da Conta.**  
+4.  Entre novamente usando a senha e configurar o Windows Hello e um PIN quando for solicitado. 
+    - Se o dispositivo foi desabilitado pelo BitLocker para facilitar a remoção e substituição do SSD e você deseja habilitar o BitLocker após a substituição, vá para **o BitLocker**Gerenciar o  >  **BitLocker**Retomar  >  **o BitLocker.**  
+6.  Execute o [Microsoft Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-for-business-intro.md) (SDT) para verificar a funcionalidade completa do dispositivo.  
+7.  Verifique se há ativação do Windows navegando até **a ativação de**  >  **configurações.**  Se você vir alguma mensagem de erro, selecione **Solucionar problemas.** 
+8.  Verifique a conta do Office abrindo **** o **Aplicativo do Office,** navegue até Conta de Arquivo e verifique se há mensagens  >  **** de erro.  
 
-### Gerenciando o SSDs criptografado 
+### Gerenciando SSDs criptografados 
 
 > [!NOTE]
-> Será necessário ter um segundo dispositivo para ler a chave de recuperação do BitLocker que foi salva na unidade USB. 
+> Você terá que ter um segundo dispositivo para ler a chave de Recuperação do BitLocker que foi salva na unidade USB. 
 
-Se a SSD for criptografada durante a transferência, siga estas etapas:
+Se o SSD for criptografado durante a transferência, siga estas etapas:
 
 1.  Insira a unidade USB que contém a chave de recuperação do BitLocker no segundo dispositivo. 
-2.  Abra o arquivo. txt que contém a chave de recuperação do BitLocker. 
+2.  Abra o arquivo .txt que contém a chave de recuperação do Bitlocker. 
 3.  Insira manualmente a chave de recuperação do BitLocker no novo dispositivo que contém o SSD original.  
-4.  Depois de inserir a chave de recuperação do BitLocker com êxito, acesse a senha de **Opções de entrada**  >  **Password** (representada pelo ícone de chave no lado esquerdo).  
-5.  Digite a senha e conecte-se à conclusão pendente da autenticação de dois fatores (se aplicável).
-6.  Depois de conectar-se completamente, acesse **Iniciar**  >  **conta**sair  >  **Sign out**.  
-7.  Entre novamente usando a senha e, em seguida, configure o Windows Hello e adicione um PIN. 
-8.  Se o dispositivo tiver sido desabilitado pelo BitLocker para facilitar a remoção e a substituição do SSD e se você quiser habilitar o BitLocker após a substituição, vá para **configurações**  >  **BitLocker**  >  **gerenciar**BitLocker  >  **retomar BitLocker**.  
-9.  Execute o **[SDT](surface-diagnostic-toolkit-for-business-intro.md)** para verificar a funcionalidade completa do dispositivo.  
-10. Para verificar a ativação do Windows, selecione ativação de **configurações**  >  **Activation**.  Se você vir mensagens de erro, selecione **solucionar problemas**.
-11. Para verificar o status da conta do Office, abra o **aplicativo do Office**e, em seguida, vá para a **File**  >  **conta** arquivo para verificar se há mensagens de erro.
+4.  Depois de ter inserido com êxito a chave **** de recuperação do BitLocker, vá para Senha de Opções de Entrada (representada pelo ícone de chave  >  **** no lado esquerdo).  
+5.  Insira a senha e entre, conclusão pendente da autenticação de dois fatores (se aplicável).
+6.  Depois de entrar totalmente, vá para **Iniciar**Saída  >  ****  >  **da Conta.**  
+7.  Entre novamente usando a senha e, em seguida, configurar o Windows Hello e adicionar um PIN. 
+8.  Se o dispositivo foi desabilitado pelo BitLocker para facilitar a remoção e substituição do SSD e se você quiser habilitar o BitLocker após a substituição, vá para Configurações **do**  >  **BitLocker**Gerenciar o  >  **BitLocker**Retomar  >  **o BitLocker.**  
+9.  Execute **[o SDT](surface-diagnostic-toolkit-for-business-intro.md)** para verificar a funcionalidade completa do dispositivo.  
+10. Para verificar a ativação do Windows, selecione **Ativação de**  >  **Configurações.**  Se você vir alguma mensagem de erro, selecione **Solucionar problemas.**
+11. Para verificar o status da conta do Office, **** abra o Aplicativo do **Office**e vá para a Conta de Arquivo  >  **** para verificar se há mensagens de erro.
 
 ## Saiba mais
 
 - [Guia de remoção do rSSD para empresas](https://www.microsoft.com/download/100440)
 - [Guia de recuperação do BitLocker](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-recovery-guide-plan)
 
-Ainda precisa de ajuda? Vá para [comunidade da Microsoft](https://answers.microsoft.com/).
+Ainda precisa de ajuda? Vá para [a Comunidade da Microsoft.](https://answers.microsoft.com/)
