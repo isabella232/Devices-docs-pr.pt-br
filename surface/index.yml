@@ -12,12 +12,12 @@ metadata:
   ms.author: samanro
   ms.date: 07/03/2019
   localization_priority: Priority
-  ms.openlocfilehash: eeb74e97d39c5ee02eed8c7d2544b709293092ea
-  ms.sourcegitcommit: e0047f07c42b1e3cbd074b66a4704ea72e9d7bae
+  ms.openlocfilehash: 8e97c8b1959364facbb74c6fac938fbaa279d2a1
+  ms.sourcegitcommit: 41124d496abaa38a0d989159f2afec3542d562ca
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 10/02/2020
-  ms.locfileid: "11093901"
+  ms.lasthandoff: 01/14/2021
+  ms.locfileid: "11269122"
 highlightedContent:
   items:
   - title: Documentação de dispositivos Surface
@@ -35,32 +35,32 @@ conceptualContent:
   items:
   - title: Visão geral do Surface
     links:
+    - url: https://www.microsoft.com/surface/business/surface-pro-7-plus
+      itemType: concept
+      text: Surface Laptop 7 para Empresas
     - url: https://www.microsoft.com/surface/business/surface-laptop-go
       itemType: concept
       text: Surface Laptop Go para Empresas
-    - url: https://www.microsoft.com/surface/business/surface-pro-x
-      itemType: concept
-      text: Surface Pro X para Empresas
     - url: https://www.microsoft.com/surface/business
       itemType: concept
       text: Explorar todos os produtos da família Surface
   - title: Visão geral do Surface Hub
     links:
+    - url: https://docs.microsoft.com/surface-hub/surface-hub-2s-85-install-mount
+      itemType: how-to-guide
+      text: Instalar e montar o Surface Hub 2S 85" (guia de preparação)
     - url: https://docs.microsoft.com/surface-hub/surface-hub-2s-whats-new
       itemType: concept
       text: Novidades no Surface Hub 2S
     - url: https://docs.microsoft.com/surface-hub/surface-hub-2s-techspecs
       itemType: concept
       text: Especificações técnicas do Surface Hub 2S
-    - url: https://docs.microsoft.com/surface-hub/differences-between-surface-hub-and-windows-10-enterprise
-      itemType: concept
-      text: Noções básicas do sistema operacional
   - title: Visão geral do Surface Duo
     links:
     - url: https://docs.microsoft.com/surface-duo/surface-duo-manage
       itemType: concept
       text: Visão geral do gerenciamento do Surface Duo
-    - url: https://docs.microsoft.com/en-us/surface-duo/surface-duo-secure
+    - url: https://docs.microsoft.com/surface-duo/surface-duo-secure
       itemType: concept
       text: Visão geral da segurança do Surface Duo
     - url: https://www.microsoft.com/surface/business/surface-duo
@@ -83,7 +83,7 @@ conceptualContent:
     links:
     - url: https://aka.ms/SurfaceDuoITBlog
       itemType: reference
-      text: Blog Surface Duo para profissionais de TI
+      text: Blog Surface para profissionais de TI
   - title: Ajuda Surface
     links:
     - url: contact-surface-support.md
