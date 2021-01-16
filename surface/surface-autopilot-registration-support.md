@@ -1,6 +1,6 @@
 ---
-title: Suporte ao registro de Surface para o piloto automático do Windows
-description: Este artigo descreve os requisitos para o envio de solicitações de registro de piloto automático para o suporte da Microsoft.
+title: Suporte a Registro Surface para o Windows Autopilot
+description: Este artigo descreve os requisitos para enviar solicitações de registro do Autopilot ao Suporte da Microsoft.
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.localizationpriority: medium
@@ -12,39 +12,39 @@ ms.date: 9/14/2020
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 9a308edb37cc2cfd99490acad16bd2ae6a4d458a
-ms.sourcegitcommit: c2df79cab0e59e9d7ea6640e5899531b57cd383f
+ms.openlocfilehash: 4ff3803701ffe71e1c5c0c36200c40e833a7fb25
+ms.sourcegitcommit: 1053479c191fd10651d31a466fad1769fb0cd28b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "11016461"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "11271385"
 ---
-# Suporte ao registro de Surface para o piloto automático do Windows
+# Suporte a Registro Surface para o Windows Autopilot
 
-Um processo simplificado para registrar dispositivos Surface para a implantação do piloto automático do Windows agora está disponível no suporte da Microsoft. A partir de setembro de 2020, clientes e provedores de soluções na nuvem da Microsoft (CSPs) podem registrar dispositivos de superfície enviando solicitações ao suporte da Microsoft. Esta página descreve os requisitos dos seguintes cenários de registro de piloto automático compatíveis:
+Um processo simplificado de registro de dispositivos Surface para a implantação do Windows Autopilot agora está disponível no Suporte da Microsoft. A partir de setembro de 2020, os clientes e os CSPs (Provedores de Soluções na Nuvem da Microsoft) podem registrar dispositivos Surface enviando solicitações ao Suporte da Microsoft. Esta página descreve os requisitos para os seguintes cenários de registro do Autopilot com suporte:
  
 
-- **Registro de piloto automático do dispositivo Surface**. Envia a solicitação para registrar dispositivos Surface no piloto automático do Windows.
-- **Solicitação de hash de hardware do dispositivo Surface.** Envia a solicitação para o suporte da Microsoft para fornecer a você os hashes de hardware que os clientes ou CSPs podem usar para registrar automaticamente os dispositivos via Microsoft Intune ou o Microsoft Partner Center.
-- **Cancelamento de registro do piloto automático do dispositivo Surface.** Envia a solicitação de exclusão de dispositivos do Windows AutoPilot, geralmente usada em cenários de fim da vida útil do dispositivo.
+- **Registro do Surface Device Autopilot.** Envia uma solicitação para registrar dispositivos Surface no Windows Autopilot.
+- **Solicitação de hash de hardware do dispositivo Surface.** Envia uma solicitação ao Suporte da Microsoft para fornecer hashes de hardware que os clientes ou CSPs podem usar para registrar dispositivos por meio do Microsoft Intune ou do Microsoft Partner Center.
+- **Desregistração do Surface Device Autopilot.** Envia uma solicitação para excluir dispositivos do Windows Autopilot, normalmente usado em cenários de fim de vida útil do dispositivo.
 
-Consulte a tabela a seguir para obter detalhes sobre as informações que você precisará coletar antes de enviar solicitações de registro para o suporte da Microsoft.
+Consulte a tabela a seguir para obter detalhes das informações que você precisará coletar antes de enviar solicitações de registro ao Suporte da Microsoft.
  
-**Tabela 1. Informações necessárias para solicitações de registro do AutoPilot**
+**Tabela 1. Informações necessárias para solicitações de registro do Autopilot**
  
 
-| Informações necessárias                   | Descrição                                                                                                                                                                                                                                                                                    | Registro do AutoPilot | Solicitação de hash de hardware | AutoPilot<br>Cancelamento |
+| Informações necessárias                   | Descrição                                                                                                                                                                                                                                                                                    | Registro do Autopilot | Solicitação de Hash de Hardware | Autopilot<br>Desregistration |
 | -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- | --------------------- | --------------------------- |
-| **ID de locatário do Azure Active Directory**   | Sua ID de locatário do Azure Active Directory é um identificador globalmente exclusivo (GUID) diferente do nome da sua organização ou do domínio.<br> <br>Para localizar sua ID de locatário, entre no portal do Azure [aqui](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties). | Y                      | N                     | Y                           |
+| **ID de locatário do Azure Active Directory**   | Sua ID de locatário do Azure Active Directory é um identificador global exclusivo (GUID) que é diferente do nome ou domínio da sua organização.<br> <br>Para encontrar sua ID de locatário no Portal do Azure [aqui.](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties) | Y                      | N                     | Y                           |
 | **Nome de domínio do Azure Active Directory** | Seu nome de domínio de nível superior; por exemplo, contoso.com.                                                                                                                                                                                                                                          | Y                      | N                     | Y                           |
-| **Comprovante de propriedade**                 | Verifique a prova de propriedade carregando a fatura ou fatura original no formato PDF. Capturas de tela não são aceitas.<br> <br>A fatura ou fatura deve incluir o seguinte:<br>Números de série do dispositivo.<br>Nome da empresa.                                                           | Y                      | Y                     | Y                           |
-| **Números de série do dispositivo**              | Carregue o arquivo do Excel no formato CSV com cada número de série do dispositivo em uma nova linha.                                                                                                                                                                                                                  | Y                      | Y                     | Y                           |
+| **Prova de propriedade**                 | Verifique a prova de propriedade carregando a fatura ou a fatura original em formato PDF. Capturas de tela não são aceitas.<br> <br>A fatura ou a fatura deve incluir o seguinte:<br>Números de série do dispositivo.<br>Nome da empresa.                                                           | Y                      | Y                     | Y                           |
+| **Números de série do dispositivo**              | Carregue o arquivo do Excel no formato CSV com cada número de série de dispositivo em uma nova linha.                                                                                                                                                                                                                  | Y                      | Y                     | Y                           |
 
  
 
 ## Enviar solicitações de suporte
 
-  [![Get suporte ao registro de piloto automático para Surface](images/autopilot-reg-support-surface.png)](https://support.microsoft.com/supportrequestform/0d8bf192-cab7-6d39-143d-5a17840b9f5f)
+  [![GEt Autopilot Registration Support for Surface](images/autopilot-reg-support-surface.png)](https://prod.support.services.microsoft.com/supportrequestform/0d8bf192-cab7-6d39-143d-5a17840b9f5f)
  
  
  

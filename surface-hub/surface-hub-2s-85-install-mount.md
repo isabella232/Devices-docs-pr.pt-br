@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 01/11/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: b01c9e2a98e6b8064c3fd27c1b4909174872cbcb
-ms.sourcegitcommit: 00b6b59bd110633b6ae46345a592b72d68cc5121
+ms.openlocfilehash: 65a1784fbbcea8861d6d9ed7a160cbe39d4d4d6c
+ms.sourcegitcommit: 1053479c191fd10651d31a466fad1769fb0cd28b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "11255749"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "11271585"
 ---
 # Instalar e montar o Surface Hub 2S de 85"
 
@@ -24,9 +24,9 @@ Este artigo fornece orientações de suporte para instalar fisicamente o Microso
 
 ## Unboxing video
 
-Já está disponível um vídeo que acompanha a instalação do Surface Hub 2S 85". Antes de começar, revise [Unboxing e Installing Surface Hub 2S 85"](https://aka.ms/Hub2S85Unboxing).
+Um exemplo de vídeo para mover e instalar o Surface Hub 2S 85" já está disponível. Antes de começar, revise [o Microsoft Surface Hub 2S 85" - Unboxing e Set Up](https://aka.ms/Hub2S85Unboxing). 
 
-## Siga todas as precauções de segurança 
+## Seguir todas as precauções de segurança 
 
 > [!WARNING]
 > **Manipulação e preparação do site**<br>
@@ -104,7 +104,7 @@ Materiais de faixa adicionais são fornecidos na caixa pequena localizada abaixo
 6. Remova as partes brancas em forma de branco.
 7. Remova o Kit de Boas-vindas.
 8. Remova a parte final do trabalho verticalmente.
-9. Remova as partes de extremidade de floresta pelas quatro mãos movê-los na base de floresta.
+9. Remova as partes de extremidade de floresta com as quatro mãos sobre a base de floresta.
 
    ![Colocar o Surface Hub 85" na montagem de parede ou no carrinho](images/hub85mount7a.png) <br>
 
@@ -156,7 +156,7 @@ Um conjunto adicional de materiais de faixa de empacotamento interno pode ser en
 ### Informações de segurança adicionais
 
 > [!WARNING]
-> **Trabalho pesado de objeto/ingônômico**<br>
+> **Trabalho pesado de objeto/levenômico**<br>
 > O dispositivo é muito pesado. Para reduzir o risco de problemas relacionados ao trabalho de saúde, danos ou danos ao dispositivo, recomendamos que no mínimo duas ou mais pessoas levante o dispositivo. É importante usar a postura de trabalho adequada ao levantar e/ou mover o dispositivo.
 > Use boas práticas de trabalho reagenda, incluindo, mas não se limitando a:
 > - Planeje com antecedência. Certifique-se de que a equipe de trabalho concorde com o plano.
@@ -192,13 +192,13 @@ Paredes e outras superfícies de montagem podem conter cabos elétricos, linhas 
 >- Siga todas as instruções fornecidas pelo fabricante do carrinho/suporte para mover ou realocar um dispositivo autônomo.
 >-  Não desligue ou coloque objetos pesado do dispositivo ou no carrinho/suporte.
 >-  Desconecte o cabo de alimentação e outros cabos conforme necessário antes de mover o dispositivo de carrinho/autônomo. Use cuidado e mova-se lentamente ao mover o dispositivo de carrinho/autônomo. Siga as instruções do fabricante do carrinho/suporte para mover ou realocar a posição.
->-  Use cuidado ao transportar um dispositivo de carrinho/autônomo para cima ou para baixo. Nunca deixe um dispositivo de carrinho/autônomo autônomo em uma rampa ou perto dela.
+>-  Use cuidado ao transportar um dispositivo de carrinho/autônomo para cima ou para baixo. Nunca deixe um dispositivo de carrinho/autônomo sem supervisão em uma rampa ou perto dela.
 >-  Somente os adulto devem mover o dispositivo de carrinho/autônomo.
 
 > [!CAUTION]
 > **Vidro de tela sensível ao toque**<br>
 A tela sensível ao toque no dispositivo, como a maioria das telas sensíveis ao toque, é feita de vidro. O vidro pode ser quebrado se o dispositivo for descartado ou receber um impacto significativo. Para reduzir o risco de danos pessoais, evite tocar na tela se o vidro estiver quebrado, quebrado ou quebrado e organize para que a tela seja substituída.
-Uma tela sensível ao toque quebrada ou coberta por uso indevido ou abuso do seu dispositivo não é coberta pela garantia limitada do produto.
+Uma tela sensível ao toque quebrada ou coberta por uso indevido ou abuso do dispositivo não é coberta pela garantia limitada do produto.
 
 > [!WARNING]
 >  **Instalação adequada**<br>
