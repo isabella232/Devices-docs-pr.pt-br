@@ -14,12 +14,12 @@ metadata:
   author: greg-lindsay
   ms.author: greglin
   manager: laurawi
-  ms.openlocfilehash: b950d8e0a15609312ba552df2be084257a5cd4ad
-  ms.sourcegitcommit: 1053479c191fd10651d31a466fad1769fb0cd28b
+  ms.openlocfilehash: fb4d07fb216a283a2a6d7b576e06cdfe7dc74a47
+  ms.sourcegitcommit: 880980b64bb394423280acbcb1653012a4de5642
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 01/16/2021
-  ms.locfileid: "11271545"
+  ms.lasthandoff: 01/22/2021
+  ms.locfileid: "11297064"
 landingContent:
 - title: Prepare-se para o Surface Hub 2S
   linkLists:
@@ -63,24 +63,36 @@ landingContent:
       url: https://www.youtube.com/watch?v=CH2seLS5Wb0
     - text: Microsoft Surface Hub 2S IT Pro Deep Dive
       url: https://youtu.be/fFiL60JztGk
+- title: Implantar
+  linkLists:
   - linkListType: deploy
     links:
+    - url: https://docs.microsoft.com/microsoftteams/rooms/coordinated-meetings
+      text: Configurar Reuniões Coordenadas com Salas do Microsoft Teams e o Surface Hub
     - url: surface-hub-2s-adoption-kit.md
       text: Adoção e treinamento do Surface Hub 2S
-    - url: surface-hub-2s-deploy-checklist.md
-      text: Lista de verificação de implantação do Surface Hub 2S
     - url: surface-hub-2s-account.md
       text: Criar conta do dispositivo
+- title: Gerenciar
+  linkLists:
+  - linkListType: learn
+    links:
+    - url: https://docs.microsoft.com/microsoftteams/rooms/surface-hub-manage-config
+      text: Gerenciar as configurações do Microsoft Teams no Surface Hub
+    - url: surface-hub-2s-manage-intune.md
+      text: Gerenciar o Surface Hub 2S com o Intune
+    - url: local-management-surface-hub-settings.md
+      text: Gerenciar configurações locais
 - title: Proteja
   linkLists:
   - linkListType: learn
     links:
     - url: surface-hub-security.md
       text: Visão geral da segurança do Surface Hub
-    - url: surface-hub-2s-manage-intune.md
-      text: Gerenciar com o Intune
-    - url: local-management-surface-hub-settings.md
-      text: Gerenciar configurações locais
+    - url: surface-hub-2s-phone-authenticate.md
+      text: Configurar a entrada sem senha no Surface Hub
+    - url: surface-hub-2s-secure-with-uefi-semm.md
+      text: Proteger e gerenciar o Surface Hub 2S com SEMM e UEFI
 - title: Solução de problemas
   linkLists:
   - linkListType: learn
