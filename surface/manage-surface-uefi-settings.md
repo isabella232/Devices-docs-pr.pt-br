@@ -12,17 +12,17 @@ ms.author: greglin
 ms.topic: article
 ms.reviewer: hachidan
 manager: laurawi
-ms.date: 01/15/2021
-ms.openlocfilehash: d8d47db3bd6f69783670b285a797337373e02d72
-ms.sourcegitcommit: 1053479c191fd10651d31a466fad1769fb0cd28b
+ms.date: 01/25/2021
+ms.openlocfilehash: af9eac171dea5d29ce9776766a2c5842bea9eb8c
+ms.sourcegitcommit: 1b12ea363785697ddc705b0a0cc7bb35cad6b327
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "11271425"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "11300692"
 ---
 # Gerenciar configurações de UEFI do Surface
 
-Todas as gerações atuais e futuras dos dispositivos Surface usam uma UEFI (Unified Extensible Firmware Interface) exclusiva criada pela Microsoft especificamente para esses dispositivos. As configurações de UEFI do Surface fornecem a capacidade de habilitar ou desabilitar dispositivos e componentes internos, proteger as configurações de UEFI contra alterações e ajustar as configurações de inicialização do dispositivo Surface. 
+ Os dispositivos Surface PC foram projetados para utilizar uma UEFI (Unified Extensible Firmware Interface) exclusiva criada pela Microsoft especificamente para esses dispositivos. As configurações de UEFI do Surface fornecem a capacidade de habilitar ou desabilitar dispositivos e componentes internos, proteger as configurações de UEFI contra alterações e ajustar as configurações de inicialização do dispositivo Surface. 
 
 ## Produtos com suporte
 
@@ -32,7 +32,7 @@ O gerenciamento UEFI é suportado no seguinte:
 - Surface Laptop (1ª geração), Surface Laptop 2, Surface Laptop 3, Surface Laptop Go
 - Surface Studio (1ª geração), Surface Studio 2
 - Surface Book, Surface Book 2, Surface Book 3
-- Surface Go, Surface Go 2
+- Surface Go, Surface Go 2[ <sup> 1 </sup> ](#references)
 
 ## Suporte para gerenciamento baseado em nuvem
 
@@ -158,14 +158,14 @@ Você também pode ativar e desativar o suporte a IPv6 para PXE com a opção **
 ## Menu UEFI: Gerenciamento
 A página gerenciamento permite que você gerencie o uso do Gerenciamento DE UEFI Zero Touch e outros recursos em dispositivos qualificados, incluindo Surface Pro 7, Surface Pro X e Surface Laptop 3.  
 
-![Gerenciar o acesso ao Gerenciamento DE UEFI Zero Touch e outros recursos ](images/manage-surface-uefi-fig7a.png "Manage access to Zero Touch UEFI Management and other features")
+![Gerencie o acesso ao Gerenciamento DE UEFI Zero Touch e outros recursos ](images/manage-surface-uefi-fig7a.png "Manage access to Zero Touch UEFI Management and other features")
  *Figura 8. Gerenciar o acesso ao Gerenciamento DE UEFI Zero Touch e outros recursos* 
 
 
 O Gerenciamento DE UEFI Zero Touch permite gerenciar remotamente as configurações de UEFI usando um perfil de dispositivo no Intune chamado Interface de Configuração do Firmware de Dispositivo (DFCI). Se você não definir essa configuração, a capacidade de gerenciar dispositivos qualificados com DFCI será definida como **Pronto.** Para impedir DFCI, selecione **Opt-Out**. 
 
 > [!NOTE]
-> A página de configurações de Gerenciamento UEFI e o uso de DFCI estão disponíveis atualmente para o Surface Pro 7+, Surface Laptop Go, Surface Book 3, Surface Laptop 3, Surface Pro 7 e Surface Pro X. Para saber mais, consulte [Gerenciamento do Intune de configurações UEFI do Surface.](surface-manage-dfci-guide.md)
+> A página de configurações de Gerenciamento UEFI e o uso de DFCI estão disponíveis atualmente para o Surface Pro 7+, Surface Laptop Go, Surface Book 3, Surface Laptop 3, Surface Pro 7 e Surface Pro X. Para saber mais, confira [o gerenciamento do Intune de configurações UEFI do Surface.](surface-manage-dfci-guide.md)
 
 ## Menu UEFI: Sair 
 
@@ -227,6 +227,10 @@ Quando você atualiza o firmware do dispositivo Surface, usando o Windows Update
 ![Tela de inicialização do Surface que indica que a inicialização segura foi desabilitada](images/manage-surface-uefi-fig18.png "Surface boot screen that indicates Secure Boot has been disabled")
 
 *Figura 20. Tela de inicialização do Surface que indica que a inicialização segura foi desativada nas configurações de UEFI do Surface*
+
+## Referências
+
+1. O Surface Go e o Surface Go 2 usam um UEFI de terceiros e não suportam DFCI. 
 
 ## Tópicos relacionados
 
