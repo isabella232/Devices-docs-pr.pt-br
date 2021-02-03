@@ -12,12 +12,12 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 06/20/2019
 ms.localizationpriority: medium
-ms.openlocfilehash: 6e93069c2d90bdc4c2f505bc28ba0ec1a4f08076
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: b5f828ee6757c150b1287e8210c81592e970b74a
+ms.sourcegitcommit: 5cfac94c220c8a8d4620c6a7fa75ae2fae089c7f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830552"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "11311957"
 ---
 # Aplicando políticas do ActiveSync a contas de dispositivo (Surface Hub)
 
@@ -26,22 +26,20 @@ A conta de dispositivo do Microsoft Surface Hub usa o ActiveSync para sincroniza
 
 Para que esses recursos funcionem, as políticas do ActiveSync para sua organização devem ser configuradas da seguinte maneira:
 
--   Não pode haver políticas globais que bloqueiem a sincronização de caixa de correio do recurso que está sendo usado pela conta de dispositivo do Surface Hub. Se houver tal política de bloqueio, você precisará adicionar o Surface Hub como um dispositivo permitido.
+-   Não pode haver políticas globais que bloqueiem a sincronização de caixa de correio do recurso que está sendo usado pela conta de dispositivo do Surface Hub. Se houver essa política de bloqueio, você precisará adicionar o Surface Hub como um dispositivo permitido.
 -   Você deve definir uma política de caixa de correio de dispositivo móvel onde a configuração **PasswordEnabled** seja definida como False. Outras configurações de política de caixa de correio de dispositivo móvel não são compatíveis com o Surface Hub.
 
-## Permitindo que DeviceID
+## Permitindo o DeviceID
 
-
-Sua organização pode ter uma política global que impede a sincronização de contas de dispositivo provisionadas em Surface Hubs. Para configurar essa propriedade, consulte [Permitindo IDs de dispositivo para o ActiveSync](appendix-a-powershell-scripts-for-surface-hub.md#whitelisting-device-ids-cmdlet).
+Sua organização pode ter uma política global que impede a sincronização de contas de dispositivo provisionadas em Surface Hubs. Para configurar essa propriedade, consulte [Permitindo IDs de dispositivo para o ActiveSync](appendix-a-powershell-scripts-for-surface-hub.md#allowing-device-ids-for-activesync).
 
 ## Configuração PasswordEnabled
 
-
 A conta de dispositivo deve ter uma política do ActiveSync onde o atributo **PasswordEnabled** seja definido como False ou 0. Para configurar essa propriedade, consulte [Criando uma política do Microsoft Exchange ActiveSync compatível com o Surface Hub](appendix-a-powershell-scripts-for-surface-hub.md#create-compatible-as-policy).
 
- 
+ 
 
- 
+ 
 
 
 

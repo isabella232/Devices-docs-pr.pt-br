@@ -1,6 +1,6 @@
 ---
 title: Uso da Ferramenta de Recuperação do Surface Hub
-description: Como usar a ferramenta de recuperação do Surface Hub para recriar a imagem do SSD.
+description: Como usar a Ferramenta de Recuperação do Surface Hub para fazer uma nova imagem do SSD.
 ms.assetid: FDB6182C-1211-4A92-A930-6C106BCD5DC1
 ms.reviewer: ''
 manager: laurawi
@@ -10,92 +10,92 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 12/18/2018
+ms.date: 12/18/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: a9ebab6848efa706609a39b0eb99fa42df2156bf
-ms.sourcegitcommit: ce7ad475b776a78ba215e77111ea5371afeb4f28
+ms.openlocfilehash: 9df9de731ac5c8f8acb393db3d4b16e9d1c98a9e
+ms.sourcegitcommit: 5cfac94c220c8a8d4620c6a7fa75ae2fae089c7f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "11237295"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "11312027"
 ---
 # Uso da Ferramenta de Recuperação do Surface Hub
 
-A [ferramenta de recuperação do Microsoft Surface Hub](https://www.microsoft.com/download/details.aspx?id=52210) ajuda você a recriar uma nova imagem da unidade de estado sólido (SSD) do Hub Surface usando um dispositivo de desktop do Windows 10, sem ligar para o suporte ou para substituir a SSD. Com essa ferramenta, você pode renovar uma imagem do SSD com uma senha de administrador desconhecida, erros de inicialização, não foi possível concluir uma recuperação na nuvem ou para um dispositivo que tenha uma versão mais antiga do sistema operacional. A ferramenta não corrigirá o SSDs fisicamente danificado.
+A Ferramenta de Recuperação do [Microsoft Surface Hub](https://www.microsoft.com/download/details.aspx?id=52210) ajuda você a fazer a imagem da unidade de estado sólido (SSD) do Surface Hub usando um dispositivo de área de trabalho do Windows 10, sem chamar o suporte ou substituir o SSD. Com essa ferramenta, você pode reimager um SSD que tenha uma senha de Administrador desconhecida, erros de inicialização, não foi possível concluir uma recuperação na nuvem ou para um dispositivo que tenha uma versão mais antiga do sistema operacional. A ferramenta não corrigirá SSDs fisicamente danificados.
 
-Para recriar a imagem da SSD do Surface Hub usando a ferramenta de recuperação, você precisará remover a SSD do Surface Hub, conectar a unidade ao cabo USB-para-SATA e conectar o cabo ao computador desktop no qual a ferramenta de recuperação está instalada. Para obter mais informações sobre como remover a unidade existente do Surface Hub, consulte [substituição da SSD do Surface Hub](surface-hub-ssd-replacement.md).
+Para fazer uma nova imagem do SSD do Surface Hub usando a Ferramenta de Recuperação, você precisará remover o SSD do Surface Hub, conectar a unidade ao cabo USB para SATA e conectar o cabo ao computador desktop no qual a Ferramenta de Recuperação está instalada. Para obter mais informações sobre como remover a unidade existente do Surface Hub, consulte Substituição [de SSD do Surface Hub.](surface-hub-ssd-replacement.md)
 
 > [!IMPORTANT]
-> Não deixe que o dispositivo vá para o modo de suspensão ou interrompa o download do arquivo de imagem.
+> Não deixe o dispositivo entrar em sleep ou interromper o download do arquivo de imagem.
 
-Se a ferramenta não conseguir reportar sua unidade, entre em contato com o [suporte do Surface Hub](https://support.microsoft.com/help/4037644/surface-contact-surface-warranty-and-software-support).
+Se a ferramenta não tiver êxito na imagem da unidade, entre em contato com o [Suporte do Surface Hub.](https://support.microsoft.com/help/4037644/surface-contact-surface-warranty-and-software-support)
 
 ## Pré-requisitos
 
 ### Obrigatório
 
-- PC host executando a versão de 64 bits do Windows 10, versão 1607 ou posterior.
+- Computador host executando a versão de 64 bits do Windows 10, versão 1607 ou superior.
 - Acesso à rede e à Internet
-- Abrir porta USB 2,0 ou superior
-- Cabo USB-para-SATA
+- Abrir porta USB 2.0 ou superior
+- Cabo USB para SATA
 - 10 GB de espaço livre em disco no computador host
-- O SSDs é fornecido com o Surface Hub ou um SSD fornecido pelo suporte como substituto. Não há suporte para o SSDs não fornecido pela Microsoft.
+- SSDs fornecidos com o Surface Hub ou um SSD fornecido pelo Suporte como um substituto. Não há suporte para SSDs fornecidos pela Microsoft.
 
 ### Recomendações
 
-- Conexão à Internet de alta velocidade
-- Porta USB 3,0 aberta
-- Cabo USB 3,0 ou superior USB para SATA
-- A ferramenta de imagem foi testada com a marca e o modelo de cabos a seguir:
+- Conexão com a Internet de alta velocidade
+- Abrir porta USB 3.0
+- Cabo USB 3.0 ou superior USB para SATA
+- A ferramenta de imagem foi testada com a seguinte make e modelo de cabos:
     - Startech USB312SAT3CB
-    - Rosewill RCUC16001
-    - Ugreen 20231
+    - Blackwill RCUC16001
+    - Ugrren 20231
 
-## Baixar a ferramenta de recuperação do Surface Hub
+## Baixar a Ferramenta de Recuperação do Surface Hub
 
-A ferramenta de recuperação do Surface Hub está disponível para download em [Ferramentas do Surface Hub para ele](https://www.microsoft.com/download/details.aspx?id=52210)  sob o nome do arquivo **SurfaceHub_Recovery_v2.0.139.0.msi**.
+A Ferramenta de Recuperação do Surface Hub está disponível para download das Ferramentas [do Surface Hub para IT](https://www.microsoft.com/download/details.aspx?id=52210)  sob o nome de arquivo **SurfaceHub_Recovery_v2.0.139.0.msi**.
 
-Para iniciar o download, clique em **baixar**, escolha **SurfaceHub_Recovery_v2.0.139.0.msi** na lista e clique em **Avançar**. No menu pop-up, escolha uma das seguintes opções:
+Para iniciar o download, clique em **Baixar,** **SurfaceHub_Recovery_v2.0.139.0.msi** na lista e clique em **Próximo.** No pop-up, escolha uma das seguintes:
 
-- Clique em **executar** para iniciar a instalação imediatamente.
-- Clique em **salvar** para copiar o download para o seu computador para instalação posterior.
+- Clique **em Executar** para iniciar a instalação imediatamente.
+- Clique **em Salvar** para copiar o download para o computador para instalação posterior.
 
-Instale a ferramenta de recuperação do Surface Hub no PC host.
+Instale a Ferramenta de Recuperação do Surface Hub no computador host.
 
-## Executar a ferramenta de recuperação do Surface Hub
+## Executar a Ferramenta de Recuperação do Surface Hub
 
-1. No PC host, selecione o botão **Iniciar** , Role pela lista em ordem alfabética à esquerda e selecione o atalho da ferramenta de recuperação.
+1. No computador host, selecione o **botão** Iniciar, role pela lista alfabética à esquerda e selecione o atalho da ferramenta de recuperação.
 
-    ![Atalho da ferramenta de recuperação do Microsoft Surface Hub](images/shrt-shortcut.png)
+    ![Atalho da Ferramenta de Recuperação do Microsoft Surface Hub](images/shrt-shortcut.png)
 
 2. Clique em **Iniciar**.
 
-    ![Botão Iniciar da ferramenta de recuperação](images/shrt-start.png)
+    ![Botão Iniciar da Ferramenta de Recuperação](images/shrt-start.png)
 
 
-3. Na janela **orientação** , clique em **Avançar**.
+3. Na janela **Diretrizes,** clique em **Próximo.**
 
-    ![Não deixe que sua máquina vá para a orientação de repouso](images/shrt-guidance.png)
+    ![Não deixe seu computador ir para as diretrizes de sleep](images/shrt-guidance.png)
 
-4. Na janela Selecionar imagem, clique em **RS2** ou em sua **20H2**sucessora, selecione **continuar** e, em seguida, selecione **baixar imagem.**
+4. Na janela Selecionar imagem, clique em **RS2** ou em seu sucessor **20H2,** selecione Continuar e, em **seguida,** selecione **Baixar imagem.**
 
-     ![Ferramenta de recuperação selecionar imagem de ](images/shrt-select-image.png) ![ download da ferramenta de download](images/shrt-download-image.png)
+     ![Imagem de download da Ferramenta de ](images/shrt-select-image.png) ![ Recuperação Selecionar imagem](images/shrt-download-image.png)
 
-5. O tempo para baixar a imagem de recuperação depende de velocidades de conexão à Internet. Em uma conexão corporativa média, pode levar até uma hora para baixar o arquivo de imagem 8 GB.
+5. O tempo para baixar a imagem de recuperação depende das velocidades de conexão com a Internet. Em uma conexão corporativa média, pode levar até uma hora para baixar o arquivo de imagem de 8 GB.
 
-    ![Fazendo o download da imagem](images/shrt-download.png)
-
-
-
-5. Quando o download estiver concluído, a ferramenta instruirá você a conectar uma unidade SSD. Se a ferramenta não conseguir localizar a unidade anexada, há uma boa chance de que o cabo que está sendo usado não relate o nome da SSD para Windows.  A ferramenta de geração de imagens deve encontrar o nome da unidade como "dispositivo USB LITEON L CH-128V2S" para poder continuar.  Para obter mais informações sobre como remover a unidade existente do Surface Hub, consulte [substituição da SSD do Surface Hub](surface-hub-ssd-replacement.md).
-
-    ![Conexão SSD](images/shrt-drive.png)
-
-6. Quando a unidade for reconhecida, clique em **Iniciar** para começar o processo de recriação de imagens. No aviso de que todos os dados na unidade serão apagados, clique em **OK**.
+    ![Baixando imagem](images/shrt-download.png)
 
 
 
-    Antes de aplicar a imagem do sistema à unidade, a SSD é reparticionada e formatada. Copiar os binários do sistema levará aproximadamente 30 minutos, mas poderá demorar mais dependendo da velocidade do barramento USB, do cabo que está sendo usado ou do software antivírus instalado no seu sistema.
+5. Quando o download for concluído, a ferramenta instrui você a conectar uma unidade SSD. Se a ferramenta não conseguir localizar a unidade anexada, é possível que o cabo que está sendo usado não reporte o nome do SSD para o Windows.  A ferramenta de imagem deve encontrar o nome da unidade como "LITEON L CH-128V2S USB Device" antes de continuar.  Para obter mais informações sobre como remover a unidade existente do Surface Hub, consulte Substituição [de SSD do Surface Hub.](surface-hub-ssd-replacement.md)
+
+    ![Conectar SSD](images/shrt-drive.png)
+
+6. Quando a unidade for reconhecida, clique em **Iniciar** para iniciar o processo de re-imagem. No aviso de que todos os dados na unidade serão apagados, clique em **OK.**
+
+
+
+    Antes de aplicar a imagem do sistema à unidade, o SSD é reparticionado e formatado. Copiar os binários do sistema levará aproximadamente 30 minutos, mas pode demorar mais, dependendo da velocidade do barramento USB, do cabo que está sendo usado ou do software antivírus instalado no sistema.
 
 
 
@@ -103,21 +103,21 @@ Instale a ferramenta de recuperação do Surface Hub no PC host.
 
 Problema | Observações
 --- | ---
-A ferramenta falha ao fazer a imagem do SSD | Certifique-se de que você esteja usando uma SSD fornecida na fábrica e um dos cabos testados.
-O processo de recriação de imagem parece interrompido/congelado | É seguro fechar e reiniciar a ferramenta de recuperação do Surface Hub sem nenhum efeito ineficiente na SSD.
-A unidade não é reconhecida pela ferramenta | Verifique se a SSD do Surface Hub está enumerada como uma unidade Lite-On, "dispositivo USB LITEON L CH-128V2S".  Se a unidade for reconhecida como outro dispositivo nomeado, o cabo atual não será compatível. Tente outro cabo ou um dos cabos testados listados acima.
-Erro:-2147024809 | Abra o Gerenciador de disco e remova as partições na unidade do Surface Hub.  Desconecte e reconecte a unidade ao computador host. Reinicie a ferramenta de imagem.
+A ferramenta falha ao imagem do SSD | Certifique-se de que você está usando um SSD fornecido por fábrica e um dos cabos testados.
+O processo de re-imagem aparece interrompido/congelado | É seguro fechar e reiniciar a Ferramenta de Recuperação do Surface Hub sem nenhum efeito no SSD.
+A unidade não é reconhecida pela ferramenta | Verifique se o SSD do Surface Hub está enumerado como uma unidade Lite-On, "LITEON L CH-128V2S USB Device".  Se a unidade for reconhecida como outro dispositivo nomeado, seu cabo atual não será compatível. Tente outro cabo ou um dos cabos testados listados acima.
+Erro: -2147024809 | Abra o Gerenciador de Disco e remova as partições na unidade do Surface Hub.  Desconecte e reconecte a unidade ao computador host. Reinicie a ferramenta de imagem novamente.
 
-Se a ferramenta não conseguir reportar sua unidade, entre em contato com o [suporte do Surface Hub](https://support.microsoft.com/help/4037644/surface-contact-surface-warranty-and-software-support).
+Se a ferramenta não tiver êxito na imagem da unidade, entre em contato com o [Suporte do Surface Hub.](https://support.microsoft.com/help/4037644/surface-contact-surface-warranty-and-software-support)
 
 ## Histórico de versões
 
-### Versão v 2.0.139.0
+### Versão v2.0.139.0
 
 *Data do lançamento: 18 de dezembro de 2020*<br>
-Esta versão da ferramenta de recuperação do Surface Hub adiciona suporte para o seguinte:
-- Atualização para oferecer suporte à atualização do Windows 10 Team 2020 (20H2)
+Esta versão da Ferramenta de Recuperação do Surface Hub adiciona suporte para o seguinte:
+- Atualização para dar suporte ao Windows 10 Team 2020 Update (20H2)
 - Melhorias na experiência do usuário
-- Mudanças arquitetônicas
+- Alterações de arquitetura
 - Adições de telemetria
 
