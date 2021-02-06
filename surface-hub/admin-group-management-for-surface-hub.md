@@ -12,12 +12,15 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 02/01/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 36c6010307603b36b8798a09aed26f8b337b2c1b
-ms.sourcegitcommit: 5cfac94c220c8a8d4620c6a7fa75ae2fae089c7f
+appliesto:
+- Surface Hub
+- Surface Hub 2S
+ms.openlocfilehash: c76ac577c1560020bf865a25d4a812343089013a
+ms.sourcegitcommit: 7809222a51eb184f07d6b3ffbdd04a6272b247f9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "11311947"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "11314434"
 ---
 # Gerenciamento de grupo de administração para o Surface Hub
 
@@ -51,7 +54,7 @@ Os Surface Hubs usam o ingresso no domínio para:
 - Fazer backup da chave de recuperação do BitLocker do dispositivo armazenando-a no objeto de computador no AD. Consulte [Salvar sua chave do BitLocker](save-bitlocker-key-surface-hub.md) para saber os detalhes.
 - Sincronizar o relógio do sistema com o controlador de domínio para comunicação criptografada
 
-O Surface Hub não dá suporte à aplicação de políticas de grupo ou certificados do controlador de domínio.
+O Surface Hub não dá suporte à aplicação de Política de Grupo ou certificados do controlador de domínio.
 
 > [!NOTE]
 > Se o Surface Hub perder a confiança no domínio (por exemplo, se você remover o Surface Hub do domínio depois de ingressá-lo), não será possível autenticar o dispositivo e abrir Configurações. Se você optar por remover a relação de confiança do Surface Hub com seu domínio, [redefina o dispositivo](device-reset-surface-hub.md) primeiro.
@@ -74,7 +77,7 @@ Os Surface Hubs usam ingresso no Azure AD para:
 
 #### Registro automático por meio do Azure Active Directory join
 
-O Surface Hub agora dá suporte à capacidade de registrar-se automaticamente no Intune ao ingressar o dispositivo no Azure Active Directory. 
+O Surface Hub agora dá suporte à capacidade de se inscrever automaticamente no Intune ao ingressar o dispositivo no Azure Active Directory. 
 
 Para obter mais informações, consulte [Habilitar o registro automático do Windows 10.](https://docs.microsoft.com/intune/windows-enroll#enable-windows-10-automatic-enrollment)
 

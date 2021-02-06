@@ -1,5 +1,5 @@
 ---
-title: Preparar o ambiente para o Microsoft Surface Hub
+title: Preparar seu ambiente para o Microsoft Surface Hub (v1)
 description: Esta seção contém uma visão geral das etapas necessárias para preparar o ambiente para que você possa usar todos os recursos do Microsoft Surface Hub.
 ms.assetid: 336A206C-5893-413E-A270-61BFF3DF7DA9
 ms.reviewer: ''
@@ -12,14 +12,16 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 12/04/2017
 ms.localizationpriority: medium
-ms.openlocfilehash: 0ee406df6d3022f04a80f4ce253bd76f6473f1c8
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+appliesto:
+- Surface Hub
+ms.openlocfilehash: 95b575e5213e3e11685b342cb2a7b77eb3e868a0
+ms.sourcegitcommit: 7809222a51eb184f07d6b3ffbdd04a6272b247f9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10831096"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "11314394"
 ---
-# Preparar o ambiente para o Microsoft Surface Hub
+# Preparar seu ambiente para o Microsoft Surface Hub (v1)
 
 
 Esta seção contém uma visão geral das dependências e do processo de configuração. Examine as informações nesta seção para ajudar a preparar o ambiente e coletar informações necessárias para configurar o Surface Hub.
@@ -33,7 +35,7 @@ Examine essas dependências para verificar se recursos do Surface Hub funcionar�
 | Active Directory ou Azure Active Directory (Azure AD) | <p>O Surface Hub usa uma conta do Active Directory ou do Azure AD (chamada de **conta de dispositivo**) para acessar os serviços Exchange e Skype for Business. O Surface Hub deve ser capaz de se conectar ao controlador de domínio do Active Directory ou ao locatário do Azure AD para validar as credenciais da conta de dispositivo, bem como acessar informações, como o nome de exibição da conta de dispositivo, alias, Exchange Server e endereço com protocolo SIP.</p>Você também pode adicionar o domínio ou o Azure AD ao Surface Hub para permitir que um grupo de usuários autorizados definam configurações no Surface Hub. |
 | Exchange (Exchange 2013 ou posteriores ou Exchange Online) e Exchange ActiveSync | <p>O Exchange é usado para habilitar os recursos de email e calendário e também permite que as pessoas que usam o dispositivo enviem solicitações de reunião para o Surface Hub, permitindo participar da reunião com um toque.</p>O ActiveSync é usado para sincronizar calendário e email da conta de dispositivo com o Surface Hub. Se o dispositivo não puder usar o ActiveSync, as reuniões não serão exibidas na tela de boas-vindas, e não será possível ingressar em reuniões e enviar quadros de comunicações por email. |
 | Skype for Business (Lync Server 2013 ou posteriores, ou Skype for Business Online)  | O Skype for Business é usado por vários recursos de conferência, como chamadas de vídeo, mensagens instantâneas e compartilhamento de tela.|
-| Solução de gerenciamento de dispositivos móveis (MDM) (Microsoft Intune, Microsoft Endpoint Configuration Manager ou provedor de MDM de terceiros compatível) | Se você deseja aplicar configurações e instalar aplicativos remotamente, e a vários dispositivos de cada vez, instale uma solução MDM e registre o dispositivo nessa solução. Consulte [Gerenciar configurações usando um provedor MDM](manage-settings-with-mdm-for-surface-hub.md) para saber mais detalhes. |
+| Solução de gerenciamento de dispositivo móvel (MDM) (Microsoft Intune, Microsoft Endpoint Configuration Manager ou provedor de MDM de terceiros com suporte) | Se você deseja aplicar configurações e instalar aplicativos remotamente, e a vários dispositivos de cada vez, instale uma solução MDM e registre o dispositivo nessa solução. Consulte [Gerenciar configurações usando um provedor MDM](manage-settings-with-mdm-for-surface-hub.md) para saber mais detalhes. |
 | Microsoft Operations Management Suite (OMS)   | O OMS é usado para monitorar a integridade dos dispositivos do Surface Hub. Consulte [Monitorar o Surface Hub](monitor-surface-hub.md) para saber mais detalhes. |
 | Acesso à rede e à Internet   | Para funcionar corretamente, o Surface Hub deve ter acesso a uma rede com ou sem fio. No geral, uma conexão com fio é preferencial. A autenticação 802.1X tem suporte para conexões com e sem fio.</br></br></br>**Autenticação 802.1X:** no Windows 10, versão 1703, a autenticação 802.1X para conexões com e sem fio está habilitada por padrão no Surface Hub. Se sua organização não usar autenticação 802.1 X, não há nenhuma configuração necessária e o Surface Hub continuará a funcionar normalmente. Se você usar autenticação 802.1 X, você deve garantir que a certificação de autenticação esteja instalada no Surface Hub. Você pode fornecer o certificado para o Surface Hub usando o [ClientCertificateInstall CSP](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/clientcertificateinstall-csp) no MDM, ou você pode [criar um pacote de provisionamento](provisioning-packages-for-surface-hub.md) e instalá-lo durante a primeira execução ou por meio do aplicativo Configurações. Depois que o certificado for aplicado ao Surface Hub, autenticação 802.1 X começará a funcionar automaticamente.</br>**Observação:** para obter mais informações sobre como habilitar a autenticação 802.1X com fio no Surface Hub, consulte [Habilitar a autenticação 802.1x com fio](enable-8021x-wired-authentication.md).</br></br>**IP dinâmico:** O Surface Hub não pode ser configurado para usar um IP estático. Ele deve usar DHCP para atribuir um endereço IP.</br></br>**Servidores proxy:** Se a topologia exigir uma conexão com um servidor proxy para alcançar os serviços de Internet, você pode configurá-la durante a primeira execução, ou em Configurações. As credenciais do proxy são armazenadas em sessões do Surface Hub e só precisam ser definidas uma vez. |
 
@@ -42,10 +44,10 @@ Além disso, o Surface Hub requer que as seguintes portas estejam abertas:
 - HTTP: 80
 - NTP: 123
 
-Se você estiver usando o Surface Hub com o Skype for Business, será necessário abrir portas adicionais. Siga as orientações abaixo:
-- Se você usa o Skype for Business Online, consulte [URLs e intervalos de endereços IP do Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&rs=en-US&ad=US).
-- Se você usa o Skype for Business Server, consulte [Skype for Business Server: portas e protocolos para servidores internos](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/network-requirements/ports-and-protocols). 
-- Se você usar um híbrido do Skype for Business Online e do Skype for Business Server, será necessário abrir todas as portas documentadas do [Office 365 URLs de IP e os intervalos de endereços IP do Office](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&rs=en-US&ad=US) e o [Skype for Business Server: portas e protocolos para servidores internos](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/network-requirements/ports-and-protocols?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json).
+Se você estiver usando o Surface Hub com o Skype for Business, precisará abrir portas adicionais. Siga as orientações abaixo:
+- Se você usa o Skype for Business Online, confira URLs IP e intervalos de [endereços IP do Office 365.](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&rs=en-US&ad=US)
+- Se você usar o Skype for Business Server, consulte Skype for Business Server: portas e [protocolos para servidores internos.](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/network-requirements/ports-and-protocols) 
+- Se você usar um híbrido do Skype for Business Online e do Skype for Business Server, precisará abrir todas as portas documentadas de URLs IP e intervalos de endereços IP do [Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&rs=en-US&ad=US) e do [Skype for Business Server:](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/network-requirements/ports-and-protocols?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)portas e protocolos para servidores internos.
 
 A Microsoft coleta dados de diagnóstico para ajudar a melhorar a experiência do Surface Hub. Adicione esses sites à lista de permissões:
 - Ponto de extremidade de cliente de dados de diagnóstico: `https://vortex.data.microsoft.com/`
