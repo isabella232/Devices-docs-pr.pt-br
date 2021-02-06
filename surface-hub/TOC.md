@@ -70,12 +70,12 @@
 ### [Como empacotar e enviar seu Surface Hub 2S para serviço](surface-hub-2s-pack-components.md)
 ### [Histórico de alterações](surface-hub-2s-change-history.md)
 
-# Surface Hub
+# Surface Hub (v1)
 ## Visão geral
 ### [Novidades no Windows 10, versão 1703 para o Surface Hub](surfacehub-whats-new-1703.md)
 ### [Noções básicas do sistema operacional (Surface Hub)](differences-between-surface-hub-and-windows-10-enterprise.md)
-### [Informações técnicas sobre o Microsoft Surface Hub de 55"](surface-hub-technical-55.md)
-### [Informações técnicas sobre o Microsoft Surface Hub de 84"](surface-hub-technical-84.md)
+### [Informações técnicas para 55 "Microsoft Surface Hub (v1)](surface-hub-technical-55.md)
+### [Informações técnicas para 84 "Microsoft Surface Hub (v1)](surface-hub-technical-84.md)
 ### [Usar o Microsoft Whiteboard no Surface Hub](https://support.office.com/article/use-microsoft-whiteboard-on-a-surface-hub-5c594985-129d-43f9-ace5-7dee96f7621d)
 
 ## Planeje
