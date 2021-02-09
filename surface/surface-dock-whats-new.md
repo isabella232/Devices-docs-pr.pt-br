@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 12/2/2020
+ms.date: 02/08/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 81c224cf6c5232c4cefd4e64889bd2f724d22bac
-ms.sourcegitcommit: 1b86286bd13b13749ddbf454ae78d9a24fec44ee
+ms.openlocfilehash: d1eb3a6e01d28dc5b3239396c8149c97c0e6a91e
+ms.sourcegitcommit: 7029e80d9ca1a3de5c336cf662e566ed4b6b3e7a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "11271128"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "11319195"
 ---
 # Novidades no Surface Dock 
 
@@ -96,8 +96,8 @@ O Surface Dock 2 foi projetado para simplificar o gerenciamento de IT, permitind
 | ----------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ---------------- |
 | Surflink                            | Sim                                                         | Sim                                                                                                 | Não               |
 | USB-A                               | 2 USB front-facing USB 3.1 Gen 1<br>2 USB voltados para trás 3.1 Gen 1 | 2 USB voltados para trás 3.2 Gen 2 (potência de 7,5W)                                                            | 1 USB 3.1 Gen 2  |
-| Porta mini display                   | 2 voltados para trás (DP1.2)                                       | Nenhum(a)                                                                                                | Nenhum(a)             |
-| USB-C                               | Nenhum(a)                                                        | 2 USB front-facing USB 3.2 Gen 2<br>(Potência de 15W)<br>2 USB voltados para trás 3.2 Gen 2 (DP1.4a)<br>(potência de 7,5W) | 1 USB 3.2 Gen 2  |
+| Porta mini display                   | 2 voltados para trás (DP1.2)                                       | Nenhum                                                                                                | Nenhum             |
+| USB-C                               | Nenhum                                                        | 2 USB front-facing USB 3.2 Gen 2<br>(Potência de 15W)<br>2 USB voltados para trás 3.2 Gen 2 (DP1.4a)<br>(potência de 7,5W) | 1 USB 3.2 Gen 2  |
 | Áudio de/para dentro/saída de 3,5 mm                 | Sim                                                         | Sim                                                                                                 | Sim              |
 | Ethernet                            | Sim, 1 gigabit                                              | Sim, 1 gigabit                                                                                       | Sim, 1 gigabit   |
 | Dc power in                         | Sim                                                         | Sim                                                                                                 |                  |
@@ -106,7 +106,7 @@ O Surface Dock 2 foi projetado para simplificar o gerenciamento de IT, permitind
 | Potência do host Desvinculado                 | 60W                                                         | 120W                                                                                                | N/D              |
 | Energia de carregamento USB                      | 30W                                                         | 60W                                                                                                 |                  |
 | Taxa de bits USB                        | 5 Gbps                                                      | 10 Gbps                                                                                             | 10 Gbps          |
-| Monitorar o suporte                     | 2 x 4k @30fps, ou<br>1 x 4k a 60fps                         | 2 x 4K a 60fps                                                                                      | 1 x 4K a 60fps   |
+| Monitorar o suporte                     | 2 x 4k @30fps, ou<br>1 x 4k a 60fps                         | 2 x 4K a 60fps<br> ou 1 x 4K @120fps                                                                                     | 1 x 4K a 60fps   |
 | Wake-on-LAN from Connected Standby <sup> 1</sup> | Sim                                                         | Sim                                                                                                 |                  |
 | Wake-on-LAN dos modos de sleep S4/S5  | Não                                                          | Sim                                                                                                 |          Sim        |
 | Inicialização PXE de rede                    | Sim                                                         | Sim                                                                                                 |        Sim          |

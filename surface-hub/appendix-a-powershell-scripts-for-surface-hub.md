@@ -14,17 +14,17 @@ ms.date: 02/01/2021
 ms.localizationpriority: medium
 appliesto:
 - Surface Hub
-ms.openlocfilehash: 09d600efbf07bb58de1b5ebffcb6731e4125a62d
-ms.sourcegitcommit: 7809222a51eb184f07d6b3ffbdd04a6272b247f9
+ms.openlocfilehash: 73c028357849cd660d3b8720aaaa28aade12fea1
+ms.sourcegitcommit: 32b6c25698479fa289f642c5b5761ff3be15b686
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "11314424"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "11317975"
 ---
 # PowerShell para Surface Hub (v1)
 
 > [!NOTE]
- >Esta página inclui scripts do PowerShell destinados ao Surface Hub original (v1). Para os scripts de criação de conta mais recentes para o Surface Hub 2S, confira Criar uma conta de [dispositivo do Surface Hub 2S.](surface-hub-2s-account.md)
+ >Esta página inclui scripts do PowerShell destinados ao Surface Hub original (v1). Para os scripts de criação de conta mais recentes para o Surface Hub 2S, confira Criar uma conta [de dispositivo do Surface Hub 2S.](surface-hub-2s-account.md)
 
 -   [Scripts do PowerShell para administradores do Surface Hub](#scripts-for-admins)
     -   [Criar uma conta local](#create-on-premises-ps-scripts)
@@ -68,11 +68,11 @@ Do que você precisa para executar os scripts?
 
 Os scripts de criação de conta irão:
 
--   Solicitar as credenciais de administrador
--   Criar contas de dispositivo em seu domínio/locatário
--   Criar ou atribuir uma política do ActiveSync compatível com o Surface Hub para as contas de dispositivo
+-   Solicitar credenciais de administrador.
+-   Crie contas de dispositivo em seu domínio/locatário.
+-   Criar ou atribuir uma política do ActiveSync compatível com o Surface Hub para as contas de dispositivo.
 -   Definir vários atributos para as contas criadas no Exchange e no Skype for Business.
--   Atribuir licenças e permissões às contas criadas
+-   Atribuir licenças e permissões às contas criadas.
 
 Estes são os atributos definidos pelos scripts:
 
@@ -551,7 +551,7 @@ else
 
 ### <a href="" id="create-os356-ps-scripts"></a>Criar uma conta de dispositivo usando o Office 365
 
-Cria uma conta, conforme descrito em [Criar uma conta de dispositivo usando o Office 365](create-a-device-account-using-office-365.md)
+Cria uma conta conforme descrito em [Criar uma conta de dispositivo usando o Office 365.](create-a-device-account-using-office-365.md)
 
 ```PowerShell
 # SHAccountCreateO365.ps1
@@ -998,7 +998,7 @@ else
 
 Esse script valida a conta de dispositivo criada anteriormente no Surface Hub e no Surface Hub 2S, independentemente do método usado para sua criação. Esse script indica basicamente se a conta foi aprovada/reprovada. Se ocorrer um erro de teste, será exibida uma mensagem de erro detalhada. Se todos os testes forem aprovados, o resultado final será um relatório de resumo. Por exemplo, você pode ver:
 
-``` syntax
+```console
 15 tests executed
 0 failures
 2 warnings
