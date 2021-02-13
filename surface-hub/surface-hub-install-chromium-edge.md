@@ -9,21 +9,21 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 02/08/2021
+ms.date: 02/10/2021
 ms.localizationpriority: Medium
 appliesto:
 - Surface Hub
 - Surface Hub 2S
-ms.openlocfilehash: 74ae47e80447f89753110c52a49daf649478dd50
-ms.sourcegitcommit: 7029e80d9ca1a3de5c336cf662e566ed4b6b3e7a
+ms.openlocfilehash: 2bc11fb18137ce21cba27368e0c12bbb9e73a4c2
+ms.sourcegitcommit: 7e028c1e66fb393dc0e8917dac257ce95e5e9ce7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "11319165"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "11327305"
 ---
 # Instale e configure o novo Microsoft Edge no Surface Hub
 
-A Atualização do Windows 10 Team 2020 dá suporte ao novo Microsoft Edge baseado no Chromium (versão 85 e superior) como o navegador recomendado para Surface Hub 2S e Surface Hub (v1). Este artigo explica como instalar o navegador usando um dos três métodos: um pacote de provisionamento, o Microsoft Intune ou um provedor de gerenciamento de dispositivo móvel (MDM) de terceiros.
+A Atualização do Windows 10 Team 2020 dá suporte ao novo Microsoft Edge baseado no Chromium (versão 85 e superior) como o navegador recomendado para o Surface Hub 2S e o Surface Hub (v1). Este artigo explica como instalar o navegador usando um dos três métodos: um pacote de provisionamento, o Microsoft Intune ou um provedor de gerenciamento de dispositivo móvel (MDM) de terceiros.
 
 > [!IMPORTANT]
 > Por padrão, os dispositivos Surface Hub são pré-instalados com a Versão Herdada do Microsoft Edge (versão 44). Depois de instalar a [Atualização de 2020,](surface-hub-2020-update.md)é recomendável alternar para o novo navegador Microsoft Edge; o suporte [para a Herdação do Microsoft Edge](https://support.microsoft.com/microsoft-edge/what-is-microsoft-edge-legacy-3e779e55-4c55-08e6-ecc8-2333768c0fb0) terminará em 9 de março de 2021.
@@ -76,9 +76,9 @@ O Microsoft Edge é pré-configurado com as configurações de política a segui
 | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------- |
 | [AutoImportAtFirstRun](https://docs.microsoft.com/deployedge/microsoft-edge-policies#autoimportatfirstrun)             | Não importe automaticamente tipos de dados e configurações da Herdado do Microsoft Edge. Isso evita alterar os perfis dos usuários com configurações compartilhadas do Surface Hub.                                                                                                 | 4                 |
 | [BackgroundModeEnabled](https://docs.microsoft.com/deployedge/microsoft-edge-policies#backgroundmodeenabled)           | Permita que os processos do Microsoft Edge continuem em execução em segundo plano mesmo após o fechamento da última janela do navegador, permitindo acesso mais rápido aos aplicativos Web durante uma sessão.                                                                                                      | 1                 |
-| [BrowserAddProfileEnabled](https://docs.microsoft.com/deployedge/microsoft-edge-policies#browseraddprofileenabled)     | Não permita que os usuários criem novos perfis no Microsoft Edge. Isso simplifica a navegação e a experiência de acesso.                                                                                                                                                      | 0                 |
+| [BrowserAddProfileEnabled](https://docs.microsoft.com/deployedge/microsoft-edge-policies#browseraddprofileenabled)     | Não permitir que os usuários criem novos perfis no Microsoft Edge. Isso simplifica a navegação e a experiência de acesso.                                                                                                                                                      | 0                 |
 | [BrowserGuestModeEnabled](https://docs.microsoft.com/deployedge/microsoft-edge-policies#browserguestmodeenabled)       | Permite que apenas um usuário entre no Microsoft Edge. Isso simplifica a navegação e a experiência de acesso                                                                                                                                                                | 0                 |
-| [BrowserSignin](https://docs.microsoft.com/deployedge/microsoft-edge-policies#browsersignin)                           | Permite que os usuários aproveitem o Sign-On único (SSO) no Microsoft Edge. Quando um usuário está entrando no Surface Hub, suas credenciais podem fluir para sites com suporte sem exigir que eles se autentram.  | 1                 |
+| [BrowserSignin](https://docs.microsoft.com/deployedge/microsoft-edge-policies#browsersignin)                           | Permite que os usuários aproveitem o SSO (Sign-On único) no Microsoft Edge. Quando um usuário entra no Surface Hub, suas credenciais podem fluir para sites com suporte sem exigir que eles se autentram.  | 1                 |
 | [ExtensionInstallBlockList](https://docs.microsoft.com/deployedge/microsoft-edge-policies#extensioninstallblocklist)   | Impede que usuários não administradores instalem novas extensões no Microsoft Edge. Para configurar uma lista de extensões a serem instaladas por padrão, use [ExtensionInstallForcelist](https://docs.microsoft.com/deployedge/microsoft-edge-policies#extensioninstallforcelist). | *                 |
 | [HideFirstRunExperience](https://docs.microsoft.com/deployedge/microsoft-edge-policies#hidefirstrunexperience)         | Oculta a tela inicial e a experiência de primeira vez que normalmente são mostradas quando os usuários executarem o Microsoft Edge pela primeira vez. Como o Surface Hub é um dispositivo compartilhado, isso simplifica a experiência do usuário.                                                                      | 1                 |
 | [InPrivateModeAvailability](https://docs.microsoft.com/deployedge/microsoft-edge-policies#inprivatemodeavailability)   | Desabilita o modo InPrivate. Como a Sessão Final já limpa os dados de navegação, isso simplifica a experiência de navegação e de acesso.                                                                                                                                          | 1                 |
@@ -108,33 +108,10 @@ Observe que o Surface Hub não dá suporte às seguintes políticas de atualiza�
 - **Allowsxs** – No Surface Hub, o canal estável do Microsoft Edge sempre substitui a Versão Herdada do Microsoft Edge.
 - **CreateDesktopShortcut** – o Surface Hub não usa atalhos da área de trabalho.
 
-> [!NOTE]
+> [!TIP]
 >  O Microsoft Edge requer conectividade com a Internet para dar suporte aos recursos. Certifique-se [de que as URLs de](https://docs.microsoft.com/deployedge/microsoft-edge-security-endpoints) domínio necessárias sejam adicionadas à lista de Permitir para garantir a comunicação por meio de firewalls e outros mecanismos de segurança.
- 
-### Exibir o Microsoft Edge no menu Iniciar do Surface Hub
-
-Se você estiver usando o layout do menu Iniciar padrão, poderá instalar o Menu Iniciar com o pacote de provisionamento do Microsoft Edge para adicionar o Microsoft Edge como um aplicativo fixado.
-Se você quiser aplicar um layout de menu Iniciar personalizado, use o XML a seguir para adicionar um lado fixado para o Microsoft Edge.
-
-```xml
-
-<start:DesktopApplicationTile
-
-DesktopApplicationLinkPath="C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-
-Size="2x2"
-
-Row="0"
-
-Column="0"/>
-```
-
-Para obter mais informações, consulte [o menu Configurar Iniciar do Surface Hub.](https://docs.microsoft.com/surface-hub/surface-hub-start-menu)
- 
-> [!NOTE]
-> O novo Microsoft Edge não dá suporte a sites fixados.
 
 ## Links relacionados
 
-- [Documentação do Microsoft Edge.](https://docs.microsoft.com/microsoft-edge/)
+- [Documentação do Microsoft Edge](https://docs.microsoft.com/microsoft-edge/)
 

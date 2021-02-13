@@ -1,6 +1,6 @@
 ---
 title: Executar o Kit de Ferramentas de Diagnóstico Surface para Empresas usando comandos
-description: Como executar o kit de ferramentas de diagnóstico de Surface em um console de comando
+description: Como executar o Surface Diagnostic Toolkit em um console de comando
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -11,146 +11,146 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 6a56e1231ff5d2f672305d7166bbfa46d1bc0354
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: f3856499bd769b96e22c0a47323c984eb38d8a18
+ms.sourcegitcommit: 7e028c1e66fb393dc0e8917dac257ce95e5e9ce7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830176"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "11327325"
 ---
 # Executar o Kit de Ferramentas de Diagnóstico Surface para Empresas usando comandos
 
-A execução do SDT (Kit de ferramentas de diagnóstico de Surface) em um prompt de comando requer o download do console de aplicativo padrão. Depois de instalado, você pode executar o SDT em um prompt de comando via console de comando do Windows (cmd.exe) ou usando o Windows PowerShell, incluindo o ambiente de script integrado do PowerShell (ISE), que oferece suporte à conclusão automática de comandos, copiar/colar e outros recursos.  Para obter uma lista de dispositivos de superfície com suporte no SDT, consulte [implantar o kit de ferramentas de diagnóstico de superfície para empresas](surface-diagnostic-toolkit-business.md).
+Executar o Surface Diagnostic Toolkit (SDT) em um prompt de comando requer o download do console do aplicativo SDT. Depois de instalado, você pode executar o SDT em um prompt de comando por meio do console de comando do Windows (cmd.exe) ou usando o Windows PowerShell, incluindo o IsE (Ambiente de Script Integrado) do PowerShell, que fornece suporte para a comcompleção automática de comandos, cópia/colar e outros recursos.  Para uma lista de dispositivos Surface com suporte no SDT, consulte [Implantar o Surface Diagnostic Toolkit for Business.](surface-diagnostic-toolkit-business.md)
 
 >[!NOTE]
->Para executar o SDT usando comandos, você deve estar conectado à conta de administrador ou conectado a uma conta que seja membro do grupo administrador em seu dispositivo Surface.
+>Para executar o SDT usando comandos, você deve estar conectado à conta de Administrador ou conectado a uma conta que seja membro do grupo Administrador no dispositivo Surface.
 
-## Executando o console de aplicativo SDT
+## Executando o console do aplicativo SDT
 
-Baixe e instale o console de aplicativo SDT na [página Surface Tools para download de ti](https://www.microsoft.com/download/details.aspx?id=46703). Você pode usar o prompt de comando do Windows (cmd.exe) ou o Windows PowerShell para: 
+Baixe e instale o console do aplicativo SDT na página [de download do Surface Tools for IT.](https://www.microsoft.com/download/details.aspx?id=46703) Você pode usar o prompt de comando do Windows (cmd.exe) ou o Windows PowerShell para: 
 
 - Coletar todos os arquivos de log.
-- Execute o diagnóstico de integridade usando o analisador de práticas recomendadas.
-- Verifique se há atualizações de firmware ou drivers ausentes na atualização.
+- Execute diagnósticos de saúde usando o Analisador de Práticas Práticas Melhores.
+- Verifique se há atualizações de firmware ou driver ausentes.
 
 >[!NOTE]
->Nesta versão, o console do aplicativo SDT suporta somente comandos únicos. Executar várias opções de linha de comando requer a execução do console exe separadamente para cada comando. 
+>Nesta versão, o console do aplicativo SDT dá suporte apenas a comandos únicos. A execução de várias opções de linha de comando requer a execução do exe do console separadamente para cada comando. 
 
-Por padrão, os arquivos de saída são salvos no mesmo local que o aplicativo do console. Veja a tabela a seguir para obter uma lista completa de comandos.
+Por padrão, os arquivos de saída são salvos no mesmo local do aplicativo de console. Consulte a tabela a seguir para ver uma lista completa de comandos.
 
 Comando | Observações
 --- | ---
--Datacoletor "arquivo de saída" | Coleta detalhes do sistema em um arquivo zip. "arquivo de saída" é o caminho de arquivo para criar arquivo zip de detalhes do sistema.<br><br>**Exemplo**:<br>`Microsoft.Surface.Diagnostics.App.Console.exe -DataCollector SDT_DataCollection.zip`
--BPA "arquivo de saída" | Verifica várias configurações e indicadores de integridade no dispositivo. "arquivo de saída" é o caminho de arquivo para criar o relatório HTML.<br><br>**Exemplo**:<br>`Microsoft.Surface.Diagnostics.App.Console.exe -bpa BPA.html`
--windowsupdate | Verifica se há firmware ausente e/ou atualizações de driver em servidores online do Windows Update.<br><br>**Exemplo**:<br>Microsoft.Surface.Diagnostics.App.Console.exe-windowsupdate
--garantia "arquivo de saída" | Verifica as informações de garantia no dispositivo (válidas ou inválidas). O "arquivo de saída" opcional é o caminho do arquivo para criar o arquivo XML. <br><br>**Exemplo**: <br>Microsoft.Surface.Diagnostics.App.Console.exe – garantia "warranty.xml"
+-DataCollector "output file" | Coleta detalhes do sistema em um arquivo zip. "arquivo de saída" é o caminho do arquivo para criar o arquivo zip de detalhes do sistema.<br><br>**Exemplo**:<br>`Microsoft.Surface.Diagnostics.App.Console.exe -DataCollector SDT_DataCollection.zip`
+-bpa "output file" | Verifica várias configurações e indicadores de saúde no dispositivo. "arquivo de saída" é o caminho do arquivo para criar o relatório HTML.<br><br>**Exemplo**:<br>`Microsoft.Surface.Diagnostics.App.Console.exe -bpa BPA.html`
+-windowsupdate | Verifica se há atualizações de firmware e/ou driver ausentes nos servidores online do Windows Update.<br><br>**Exemplo**:<br>Microsoft.Surface.Diagnostics.App.Console.exe -windowsupdate
+-warranty "output file" | Verifica informações de garantia no dispositivo (válidas ou inválidas). O "arquivo de saída" opcional é o caminho do arquivo para criar o arquivo xml. <br><br>**Exemplo**: <br>Microsoft.Surface.Diagnostics.App.Console.exe –warranty "warranty.xml"
 
 
 >[!NOTE]
->Para executar o console do aplicativo SDT remotamente em dispositivos de destino, você pode usar uma ferramenta de gerenciamento de configuração, como o Gerenciador de configuração do Microsoft Endpoint. Como alternativa, você pode criar um arquivo. zip que contém o aplicativo console e os comandos de console apropriados e implantar os processos de distribuição de software de sua organização de acordo com o aplicativo. 
+>Para executar o console do aplicativo SDT remotamente em dispositivos de destino, você pode usar uma ferramenta de gerenciamento de configuração, como o Microsoft Endpoint Configuration Manager. Como alternativa, você pode criar um arquivo .zip contendo o aplicativo de console e os comandos de console apropriados e implantar de acordo com os processos de distribuição de software da sua organização. 
 
-## Executando o analisador de práticas recomendadas 
+## Executando o Analisador de Práticas Práticas Melhores 
 
-Você pode executar testes de BPA em componentes essenciais como BitLocker, inicialização segura e Trusted Platform Module (TPM) e, em seguida, produzir os resultados em um arquivo compartilhável. A ferramenta gera uma série de tabelas com títulos codificados por cores e descritores de condição juntamente com orientações sobre como abordar a solução do problema. 
+Você pode executar testes BPA nos principais componentes, como BitLocker, Inicialização Segura e Trusted Platform Module (TPM) e, em seguida, a saída dos resultados para um arquivo compartilhável. A ferramenta gera uma série de tabelas com títulos codificados por cores e descritores de condição, juntamente com orientações sobre como abordar a resolução do problema. 
 
 - Verde indica que o componente está em execução em uma condição ideal (ideal).
 - Laranja indica que o componente não está em execução em uma condição ideal (não ideal).
 - Vermelho indica que o componente está em um estado anormal. 
 
-### Exemplo de saída de resultados de BPA
+### Exemplo de saída de resultados BPA
 
 <table>
 <tr><th colspan="2"><font color="00ff00">BitLocker</font></th></tr>
 <tr><td><strong>Descrição:</strong></td><td>Verifica se o BitLocker está habilitado na unidade do sistema.</td></tr>
-<tr><td><strong>Valores</strong></td><td>Proteção ativada</td></tr>
-<tr><td><strong>Problema</strong></td><td><font color="00ff00">Ideal</font></td></tr>
-<tr><td><strong>Orienta</strong></td><td>É altamente recomendável habilitar o BitLocker para proteger seus dados.</td></tr>
+<tr><td><strong>Valor:</strong></td><td>Proteção 1</td></tr>
+<tr><td><strong>Condição:</strong></td><td><font color="00ff00">Ideal</font></td></tr>
+<tr><td><strong>Diretrizes:</strong></td><td>É altamente recomendável habilitar o BitLocker para proteger seus dados.</td></tr>
 </table>
 
 <table>
 <tr><th colspan="2"><font color="00ff00">Inicialização Segura</font></th></tr>
-<tr><td><strong>Descrição:</strong></td><td>Verifica se a inicialização segura está habilitada.</td></tr>
-<tr><td><strong>Valores</strong></td><td>True</td></tr>
-<tr><td><strong>Problema</strong></td><td><font color="00ff00">Ideal</font></td></tr>
-<tr><td><strong>Orienta</strong></td><td>É altamente recomendável habilitar a inicialização segura para proteger seu computador.</td></tr>
+<tr><td><strong>Descrição:</strong></td><td>Verifica se a Inicialização Segura está habilitada.</td></tr>
+<tr><td><strong>Valor:</strong></td><td>True</td></tr>
+<tr><td><strong>Condição:</strong></td><td><font color="00ff00">Ideal</font></td></tr>
+<tr><td><strong>Diretrizes:</strong></td><td>É altamente recomendável habilitar a Inicialização Segura para proteger seu computador.</td></tr>
 </table>
 
 <table>
 <tr><th colspan="2"><font color="00ff00">Trusted Platform Module</font></th></tr>
-<tr><td><strong>Descrição:</strong></td><td>Garante que o TPM seja funcional.</td></tr>
-<tr><td><strong>Valores</strong></td><td>True</td></tr>
-<tr><td><strong>Problema</strong></td><td><font color="00ff00">Ideal</font></td></tr>
-<tr><td><strong>Orienta</strong></td><td>Sem um TPM funcional, as funções baseadas em segurança como o BitLocker podem não funcionar corretamente.</td></tr>
+<tr><td><strong>Descrição:</strong></td><td>Garante que o TPM está funcional.</td></tr>
+<tr><td><strong>Valor:</strong></td><td>True</td></tr>
+<tr><td><strong>Condição:</strong></td><td><font color="00ff00">Ideal</font></td></tr>
+<tr><td><strong>Diretrizes:</strong></td><td>Sem um TPM funcional, funções baseadas em segurança, como o BitLocker, podem não funcionar corretamente.</td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="00ff00">Conectado em espera</font></th></tr>
-<tr><td><strong>Descrição:</strong></td><td>Verifica se a conexão em espera está habilitada.</td></tr>
-<tr><td><strong>Valores</strong></td><td>True</td></tr>
-<tr><td><strong>Problema</strong></td><td><font color="00ff00">Ideal</font></td></tr>
-<tr><td><strong>Orienta</strong></td><td>Conectado em espera permite que um dispositivo de superfície Receba atualizações e notificações enquanto não está sendo usado. Para obter a melhor experiência, o standby conectado deve ser habilitado.</td></tr>
+<tr><th colspan="2"><font color="00ff00">Modo de Espera Conectado</font></th></tr>
+<tr><td><strong>Descrição:</strong></td><td>Verifica se o Modo de Espera Conectado está habilitado.</td></tr>
+<tr><td><strong>Valor:</strong></td><td>True</td></tr>
+<tr><td><strong>Condição:</strong></td><td><font color="00ff00">Ideal</font></td></tr>
+<tr><td><strong>Diretrizes:</strong></td><td>O modo de espera conectado permite que um dispositivo Surface receba atualizações e notificações enquanto não está sendo usado. Para uma melhor experiência, o Modo de Espera Conectado deve estar habilitado.</td></tr>
 </table>
 
 <table>
 <tr><th colspan="2"><font color="00ff00">Bluetooth</font></th></tr>
 <tr><td><strong>Descrição:</strong></td><td>Verifica se o Bluetooth está habilitado.</td></tr>
-<tr><td><strong>Valores</strong></td><td>Habilitado</td></tr>
-<tr><td><strong>Problema</strong></td><td><font color="00ff00">Ideal</font></td></tr>
-<tr><td><strong>Orienta</strong></td><td></td></tr>
+<tr><td><strong>Valor:</strong></td><td>Habilitado</td></tr>
+<tr><td><strong>Condição:</strong></td><td><font color="00ff00">Ideal</font></td></tr>
+<tr><td><strong>Diretrizes:</strong></td><td></td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="00ff00">Modo de depuração</font></th></tr>
+<tr><th colspan="2"><font color="00ff00">Modo de Depuração</font></th></tr>
 <tr><td><strong>Descrição:</strong></td><td>Verifica se o sistema operacional está no modo de depuração.</td></tr>
-<tr><td><strong>Valores</strong></td><td>Normal</td></tr>
-<tr><td><strong>Problema</strong></td><td><font color="00ff00">Ideal</font></td></tr>
-<tr><td><strong>Orienta</strong></td><td>A opção de inicialização de depuração habilita ou desabilita a depuração de kernel do sistema operacional Windows. Habilitar essa opção pode causar instabilidade do sistema e impedir a reprodução de mídia protegida do DRM (direitos digitais managemend).</td></tr>
+<tr><td><strong>Valor:</strong></td><td>Normal</td></tr>
+<tr><td><strong>Condição:</strong></td><td><font color="00ff00">Ideal</font></td></tr>
+<tr><td><strong>Diretrizes:</strong></td><td>A opção de inicialização de depuração habilita ou desabilita a depuração de kernel do sistema operacional Windows. A habilitação dessa opção pode causar instabilidade no sistema e impedir a reprodução de mídia protegida por DRM (gerenciamento de direitos digitais).</td></tr>
 </table>
 
 <table>
 <tr><th colspan="2"><font color="00ff00">Assinatura de teste</font></th></tr>
-<tr><td><strong>Descrição:</strong></td><td>Verifica se a assinatura de teste está habilitada.</td></tr>
-<tr><td><strong>Valores</strong></td><td>Normal</td></tr>
-<tr><td><strong>Problema</strong></td><td><font color="00ff00">Ideal</font></td></tr>
-<tr><td><strong>Orienta</strong></td><td>O teste de assinatura é uma configuração de inicialização do Windows que só deve ser usada para testar os drivers de pré-lançamento.</td></tr>
+<tr><td><strong>Descrição:</strong></td><td>Verifica se a Assinatura de Teste está habilitada.</td></tr>
+<tr><td><strong>Valor:</strong></td><td>Normal</td></tr>
+<tr><td><strong>Condição:</strong></td><td><font color="00ff00">Ideal</font></td></tr>
+<tr><td><strong>Diretrizes:</strong></td><td>Assinatura de teste é uma configuração de inicialização do Windows que só deve ser usada para testar drivers de pré-lançamento.</td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="00ff00">Plano de energia ativo</font></th></tr>
+<tr><th colspan="2"><font color="00ff00">Plano De Energia Ativo</font></th></tr>
 <tr><td><strong>Descrição:</strong></td><td>Verifica se o plano de energia correto está ativo.</td></tr>
-<tr><td><strong>Valores</strong></td><td>Equilibrada</td></tr>
-<tr><td><strong>Problema</strong></td><td><font color="00ff00">Ideal</font></td></tr>
-<tr><td><strong>Orienta</strong></td><td>É altamente recomendável usar o plano de energia "balanceado" para maximizar a produtividade e a vida útil da bateria.</td></tr>
+<tr><td><strong>Valor:</strong></td><td>Balanceado</td></tr>
+<tr><td><strong>Condição:</strong></td><td><font color="00ff00">Ideal</font></td></tr>
+<tr><td><strong>Diretrizes:</strong></td><td>É altamente recomendável usar o plano de energia "Balanceado" para maximizar a produtividade e a duração da bateria.</td></tr>
 </table>
 
 <table>
 <tr><th colspan="2"><font color="ff9500">Windows Update</font></th></tr>
 <tr><td><strong>Descrição:</strong></td><td>Verifica se o dispositivo está atualizado com as atualizações do Windows.</td></tr>
-<tr><td><strong>Valores</strong></td><td>Microsoft Silverlight (KB4023307), atualização de definição para Windows Defender Antivirus-KB2267602 (definição 1.279.1433.0)</td></tr>
-<tr><td><strong>Problema</strong></td><td><font color="ff9500">Não é ideal</font></td></tr>
-<tr><td><strong>Orienta</strong></td><td>A atualização para o Windows mais recente verifica se você está usando o firmware e os drivers mais recentes. Recomendamos sempre manter seu dispositivo atualizado</td></tr>
+<tr><td><strong>Valor:</strong></td><td>Microsoft Silverlight (KB4023307), Atualização de Definição para Windows Defender Antivírus - KB2267602 (Definição 1.279.1433.0)</td></tr>
+<tr><td><strong>Condição:</strong></td><td><font color="ff9500">Não ideal</font></td></tr>
+<tr><td><strong>Diretrizes:</strong></td><td>Atualizar para as janelas mais recentes garante que você está no firmware e nos drivers mais recentes. É recomendável sempre manter seu dispositivo atualizado</td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="00ff00">Espaço livre em disco rígido</font></th></tr>
+<tr><th colspan="2"><font color="00ff00">Espaço livre no disco rígido</font></th></tr>
 <tr><td><strong>Descrição:</strong></td><td>Verifica se há pouco espaço livre no disco rígido.</td></tr>
-<tr><td><strong>Valores</strong></td><td>66%</td></tr>
-<tr><td><strong>Problema</strong></td><td><font color="00ff00">Ideal</font></td></tr>
-<tr><td><strong>Orienta</strong></td><td>Para obter o melhor desempenho, seu disco rígido deve ter pelo menos 10% da capacidade de espaço livre.</td></tr>
+<tr><td><strong>Valor:</strong></td><td>66%</td></tr>
+<tr><td><strong>Condição:</strong></td><td><font color="00ff00">Ideal</font></td></tr>
+<tr><td><strong>Diretrizes:</strong></td><td>Para melhor desempenho, seu disco rígido deve ter pelo menos 10% de sua capacidade como espaço livre.</td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="00ff00">Dispositivos não funcionais</font></th></tr>
-<tr><td><strong>Descrição:</strong></td><td>Lista de dispositivos não funcionais no Gerenciador de dispositivos.</td></tr>
-<tr><td><strong>Valores</strong></td><td></td></tr>
-<tr><td><strong>Problema</strong></td><td><font color="00ff00">Ideal</font></td></tr>
-<tr><td><strong>Orienta</strong></td><td>Os dispositivos não funcionais no Gerenciador de dispositivos podem causar problemas imprevisíveis com dispositivos de superfície como, mas não se limitando a, sem economia de energia para o respectivo componente de hardware.</td></tr>
+<tr><th colspan="2"><font color="00ff00">Dispositivos que não estão funcionando</font></th></tr>
+<tr><td><strong>Descrição:</strong></td><td>Lista de dispositivos que não funcionam no Gerenciador de Dispositivos.</td></tr>
+<tr><td><strong>Valor:</strong></td><td></td></tr>
+<tr><td><strong>Condição:</strong></td><td><font color="00ff00">Ideal</font></td></tr>
+<tr><td><strong>Diretrizes:</strong></td><td>Dispositivos que não estão funcionando no Gerenciador de Dispositivos podem causar problemas imprevisíveis com dispositivos Surface, como, mas não limitado a, nenhuma economia de energia para o componente de hardware respectivo.</td></tr>
 </table>
 
 <table>
-<tr><th colspan="2"><font color="00ff00">Monitor externo</font></th></tr>
-<tr><td><strong>Descrição:</strong></td><td>Verifica se há um monitor externo que pode ter problemas de compatibilidade.</td></tr>
-<tr><td><strong>Valores</strong></td><td></td></tr>
-<tr><td><strong>Problema</strong></td><td><font color="00ff00">Ideal</font></td></tr>
-<tr><td><strong>Orienta</strong></td><td>Verifique se o fabricante do equipamento original tem compatibilidade com o seu dispositivo Surface.</td></tr>
+<tr><th colspan="2"><font color="00ff00">Monitor Externo</font></th></tr>
+<tr><td><strong>Descrição:</strong></td><td>Verifica se há um monitor externo que possa ter problemas de compatibilidade.</td></tr>
+<tr><td><strong>Valor:</strong></td><td></td></tr>
+<tr><td><strong>Condição:</strong></td><td><font color="00ff00">Ideal</font></td></tr>
+<tr><td><strong>Diretrizes:</strong></td><td>Verifique com o fabricante do equipamento original a compatibilidade com o dispositivo Surface.</td></tr>
 </table>
