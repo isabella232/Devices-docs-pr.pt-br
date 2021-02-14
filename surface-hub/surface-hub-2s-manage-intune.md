@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 12/10/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 6b5dac9f418207293e3b9b386d59fd26762feb72
-ms.sourcegitcommit: 4b1cfcac090910a3ea634929942063eb51fc54f9
+ms.openlocfilehash: 3b3b5ed47e3a34369c6890aac051436db1f42347
+ms.sourcegitcommit: f8f32455b1230742c58ee74004cbaaad037069b6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "11206295"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "11328205"
 ---
 # Gerenciar o Surface Hub 2S com o Intune
 
@@ -26,7 +26,7 @@ O Surface Hub 2S permite que os administradores de TI gerenciem as configuraçõ
 
 ### Registro manual
 
-1. Abra o aplicativo **configurações** no Surface Hub 2S e entre como administrador local. Selecione **Surface Hub** > **Gerenciamento de dispositivo** e, em seguida, selecione **+** para adicionar.
+1. Abra o **aplicativo Configurações** no Surface Hub 2S e entre como um administrador local. Selecione **Surface Hub** > **Gerenciamento de dispositivo** e, em seguida, selecione **+** para adicionar.
 2. Você será solicitado a fazer logon com a conta a ser usada para o Intune. Após a autenticação, o dispositivo será registrado automaticamente com o Intune.
 
    ![Registrar o Surface Hub 2S com o Intune](images/sh2-set-intune1.png)<br>
@@ -38,28 +38,28 @@ O Surface Hub 2S permite que os administradores de TI gerenciem as configuraçõ
 
 Durante o processo de instalação inicial, ao afiliar um Surface Hub com um locatário do Azure AD com o registro automático do Intune habilitado, o dispositivo será registrado automaticamente com o Intune. Para obter mais informações, confira [Métodos de registro para dispositivos Windows](https://docs.microsoft.com/intune/enrollment/windows-enrollment-methods).  A afiliação do Azure AD e o registro automático do Intune são necessários para que o Surface Hub seja um “dispositivo compatível” no Intune. 
 
-## Gerenciando configurações de equipe do Windows 10 com o Intune
+## Gerenciando as configurações do Windows 10 Team com o Intune
 
-1. Conecte-se ao **Microsoft Endpoint Manager**, selecione perfis de configuração de **dispositivos**  >  ****  >  **Criar perfil**. 
-2. Em **plataforma**, selecione **Windows 10 e restrições de dispositivo mais recentes**  >  **(equipe do Windows 10)** e, em seguida, selecione **criar**. 
-3. Agora você pode navegar e selecionar as configurações de restrição de dispositivo predefinidas para o Surface Hub e o Surface Hub 2S.
+1. Entre no **Microsoft Endpoint Manager**, selecione **Perfis de**  >  **configuração de**  >  **dispositivos Criar perfil.** 
+2. Em **Plataforma,** selecione **Restrições de dispositivo do Windows 10**e  >  **posteriores (Windows 10 Team)** e, em seguida, **selecione Criar**. 
+3. Agora você pode procurar e selecionar configurações de restrição de dispositivo predefinidas para o Surface Hub e o Surface Hub 2S.
 
  ![Definir restrições de dispositivos para o Surface Hub 2S.](images/sh2-set-intune3.png) <br>
 
-Essas configurações abrangem as seguintes categorias: aplicativos e experiência, insights operacionais do Azure, manutenção, sessão e projeção sem fio.  
+Essas configurações abrangem as seguintes categorias: Aplicativos e experiência, insights operacionais do Azure, manutenção, sessão e projeção sem fio.  
 
-## Provedores de serviços de configuração com suporte (CSPs)
+## Provedores de serviços de Configuração suportados (CSPs)
 
-Além das políticas disponíveis diretamente pelo console do Intune, há vários provedores de serviços de configuração (CSPs) que são mapeados para arquivos ou chaves do registro. 
+Além das políticas disponíveis diretamente por meio do console do Intune, há vários CSPs (provedores de serviços de configuração) que são mapeados para arquivos ou chaves do Registro. 
 
-Geralmente, a Microsoft fornece novos CSPs com cada nova versão do sistema operacional Windows 10. A [atualização do 2020 para Windows 10 Team](surface-hub-2020-update.md) inclui mais de 20 políticas de gerenciamento de dispositivos novas e atualizadas para Surface Hub e Surface Hub 2s. Essas políticas de MDM dão aos administradores de ti maior controle sobre atualizações de aplicativos da Microsoft Store, configurações de projeção sem fio, como Miracast sobre infraestrutura, configurações de rede, como qualidade de serviço e autenticação com fio 802.1 x e novas configurações relacionadas a privacidade/RGPD.
+A Microsoft normalmente fornece novos CSPs com cada nova versão do sistema operacional Windows 10. A [Atualização do Windows 10 Team 2020](surface-hub-2020-update.md) inclui mais de 20 políticas de gerenciamento de dispositivo novas e atualizadas para o Surface Hub e o Surface Hub 2S. Essas políticas MDM dão aos administradores de TI um controle aprimorado sobre as atualizações de aplicativos da Microsoft Store, configurações de projeção sem fio, como Miracast sobre infraestrutura, configurações de rede como Qualidade de Serviço e autenticação com fio 802.1x e novas configurações relacionadas à privacidade/RGPD.
 
-Para obter mais informações, consulte os seguintes recursos: 
+Para obter mais informações, veja os seguintes recursos: 
 
 - [Referência de provedor de serviços de configuração](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference) 
 - [CSP SurfaceHub](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
 - [CSPs de políticas suportados pelo Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/policy-csps-supported-by-surface-hub)
-- [O que há de novo na atualização do Surface Hub Team 2020](surface-hub-2020-update-whats-new.md)
+- [Novidades na atualização do Surface Hub Team 2020](surface-hub-2020-update-whats-new.md)
 
 ## Configurações da Qualidade de Serviço (QoS)
 
@@ -73,22 +73,29 @@ Para garantir a qualidade ideal de vídeo e áudio no Surface Hub 2S, adicione a
 |**DSCP de Áudio**| Marcação de portas de áudio | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsAudio/DSCPAction | Inteiro | 46 |
 |**Porta de vídeo**| Intervalo de porta de vídeo | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsVideo/DestinationPortMatchCondition | String  | 3480 |
 |**DSCP de vídeo**| Marcação de portas de vídeo | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsVideo/DSCPAction | Inteiro | 34 |
+|**Porta de Compartilhamento**| Intervalo de Porta de Compartilhamento | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsSharing/DestinationPortMatchCondition | String  | 3481 |
+|**Compartilhamento de DSCP**| Marcação de portas de compartilhamento | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsSharing/DSCPAction | Inteiro | 18 |
 |**Portas de áudio P2P**| Intervalo de porta de áudio | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PAudio/DestinationPortMatchCondition | String  | 50000-50019 |
 |**DSCP de Áudio P2P**| Marcação de portas de áudio | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PAudio/DSCPAction | Inteiro | 46 |
 |**Portas de vídeo P2P**| Intervalo de porta de vídeo | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PVideo/DestinationPortMatchCondition | String  | 50020-50039 |
 |**DSCP de vídeo P2P**| Marcação de portas de vídeo | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PVideo/DSCPAction | Inteiro | 34 |
+|**Portas de compartilhamento P2P**| Intervalo de Porta de Compartilhamento | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PSharing/DestinationPortMatchCondition | String  | 50040-50059 |
+|**DSCP de compartilhamento P2P**| Marcação de portas de compartilhamento | ./Device/Vendor/MSFT/NetworkQoSPolicy/TeamsP2PSharing/DSCPAction | Inteiro | 18 |
 
 
 ### Configurações da QoS do Skype for Business
 
-| Nome               | Descrição         | OMA-URI                                                                  | Tipo    | Valor                          |
-| ------------------ | ------------------- | ------------------------------------------------------------------------ | ------- | ------------------------------ |
-| Portas de áudio        | Intervalo de porta de áudio    | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBAudio/SourcePortMatchCondition  | String  | 50000-50019                    |
-| DSCP de Áudio         | Marcação de portas de áudio | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBAudio/DSCPAction                | Inteiro | 46                             |
-| Origem da mídia de áudio | Nome do aplicativo Skype      | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBAudio/AppPathNameMatchCondition | String  | Microsoft.PPISkype.Windows.exe |
-| Portas de vídeo        | Intervalo de porta de vídeo    | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBVideo/SourcePortMatchCondition  | String  | 50020-50039                    |
-| DSCP de vídeo         | Marcação de portas de vídeo | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBVideo/DSCPAction                | Inteiro | 34                             |
-| Origem de mídia de vídeo | Nome do aplicativo Skype      | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBVideo/AppPathNameMatchCondition | String  | Microsoft.PPISkype.Windows.exe |
+| Nome                 | Descrição           | OMA-URI                                                                    | Tipo    | Valor                          |
+| -------------------- | --------------------- | -------------------------------------------------------------------------- | ------- | ------------------------------ |
+| Portas de áudio          | Intervalo de porta de áudio      | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBAudio/SourcePortMatchCondition    | String  | 50000-50019                    |
+| DSCP de Áudio           | Marcação de portas de áudio   | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBAudio/DSCPAction                  | Inteiro | 46                             |
+| Origem da mídia de áudio   | Nome do aplicativo Skype        | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBAudio/AppPathNameMatchCondition   | String  | Microsoft.PPISkype.Windows.exe |
+| Portas de vídeo          | Intervalo de porta de vídeo      | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBVideo/SourcePortMatchCondition    | String  | 50020-50039                    |
+| DSCP de vídeo           | Marcação de portas de vídeo   | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBVideo/DSCPAction                  | Inteiro | 34                             |
+| Origem de mídia de vídeo   | Nome do aplicativo Skype        | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBVideo/AppPathNameMatchCondition   | String  | Microsoft.PPISkype.Windows.exe |
+| Portas de compartilhamento        | Intervalo de Porta de Compartilhamento    | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBSharing/SourcePortMatchCondition  | String  | 50040-50059                    |
+| Compartilhamento de DSCP         | Marcação de portas de compartilhamento | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBSharing/DSCPAction                | Inteiro | 18                             |
+| Compartilhamento de fonte de mídia | Nome do aplicativo Skype        | ./Device/Vendor/MSFT/NetworkQoSPolicy/SfBSharing/AppPathNameMatchCondition | String  | Microsoft.PPISkype.Windows.exe |
 
 > [!NOTE]
 > Ambas as tabelas mostram intervalos de porta padrão. Os administradores podem alterar os intervalos de porta no painel de controle do Skype for Business e do Teams.
@@ -105,13 +112,13 @@ O Surface Hub 2S vem instalado com o Microsoft Teams no modo 0, que é compatív
 - Modo 1 — Microsoft Teams com a funcionalidade do Skype for Business para reuniões agendadas.
 - Modo 2 — Somente Microsoft Teams.
 
-Para ajustar o modo, adicione as seguintes configurações a um [perfil de configuração de dispositivo personalizado](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure).
+Para ajustar o modo, adicione as seguintes configurações a um perfil [de configuração de dispositivo personalizado.](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure)
 
 | Nome | Descrição | OMA-URI | Tipo | Valor |
 |:--- |:--- |:--- |:--- |:--- |
 |**ID do aplicativo Teams**|Nome do aplicativo|./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId|String| Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe!Teams|
 |**Modo do aplicativo Teams**|Modo do Teams|./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode|Inteiro| 0, 1 ou 2|
 
-### Reuniões coordenadas e junção à proximidade
+### Reuniões coordenadas e junção de proximidade
 
-As equipes de reuniões e recursos de junção de proximidade podem ser [configurados por meio de um arquivo XML](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure) implantado por meio de um perfil do Intune
+Os recursos de reunião coordenada do Teams e de participação de proximidade podem ser [configurados](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure) por meio de um arquivo XML implantado por meio de um perfil do Intune.
