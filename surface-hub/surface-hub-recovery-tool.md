@@ -12,12 +12,12 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 02/11/2020
 ms.localizationpriority: medium
-ms.openlocfilehash: 34a05eeabd284e0ad43317577b8e7ff9348ffe21
-ms.sourcegitcommit: 7e028c1e66fb393dc0e8917dac257ce95e5e9ce7
+ms.openlocfilehash: 0cc444eab51e9c3cc0bf2f9c2f0c36ac491906b1
+ms.sourcegitcommit: 7b09b4bc757c5385c4f5560713cb03448afde9ea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "11327335"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "11339362"
 ---
 # Uso da Ferramenta de Recuperação do Surface Hub
 
@@ -26,7 +26,7 @@ A Ferramenta de Recuperação do [Microsoft Surface Hub](https://www.microsoft.c
 Para fazer uma nova imagem do SSD do Surface Hub usando a Ferramenta de Recuperação, você precisará remover o SSD do Surface Hub, conectar a unidade ao cabo USB para SATA e, em seguida, conectar o cabo ao computador desktop no qual a Ferramenta de Recuperação está instalada. Para obter mais informações sobre como remover a unidade existente do Surface Hub, consulte Substituição [de SSD do Surface Hub.](surface-hub-ssd-replacement.md)
 
 > [!IMPORTANT]
-> Não deixe o dispositivo entrar em sleep ou interromper o download do arquivo de imagem.
+> Não deixe o dispositivo entrar em compartilhamento ou interromper o download do arquivo de imagem.
 
 Se a ferramenta não tiver êxito na imagem da unidade, entre em contato com o [Suporte do Surface Hub.](https://support.microsoft.com/help/4037644/surface-contact-surface-warranty-and-software-support)
 
@@ -56,7 +56,7 @@ Se a ferramenta não tiver êxito na imagem da unidade, entre em contato com o [
 A Ferramenta de Recuperação do Surface Hub está disponível para download das Ferramentas [do Surface Hub](https://www.microsoft.com/download/details.aspx?id=52210)  para IT sob o nome de arquivo **SurfaceHub_Recovery_v2.7.139.0.msi**.
 
 > [!IMPORTANT]
-> Esta versão, lançada em 11 de fevereiro de 2021, substitui o build anterior, que não é mais funcional. Se você baixou essa ferramenta anteriormente, descarte e use a versão atual.
+> Esta versão, lançada em 11 de fevereiro de 2021, substitui o build anterior, que não é mais funcional. Se você baixou essa ferramenta anteriormente, desinstale-a e instale a versão atual.
 
 Para iniciar o download, clique em **Baixar,** **SurfaceHub_Recovery_v2.7.139.0.msi** na lista e clique em **Próximo.** No pop-up, escolha uma das seguintes:
 
@@ -94,7 +94,7 @@ Instale a Ferramenta de Recuperação do Surface Hub no computador host.
 
     ![Conectar SSD](images/shrt-drive.png)
 
-6. Quando a unidade for reconhecida, clique em **Iniciar** para iniciar o processo de re-imagem. No aviso de que todos os dados na unidade serão apagados, clique em **OK.**
+6. Quando a unidade for reconhecida, clique **em Iniciar** para iniciar o processo de re-imagem. No aviso de que todos os dados na unidade serão apagados, clique em **OK.**
 
 
 
