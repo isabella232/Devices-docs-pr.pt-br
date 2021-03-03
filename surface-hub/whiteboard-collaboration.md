@@ -1,6 +1,6 @@
 ---
 title: Configurar e usar o Microsoft Whiteboard
-description: A atualização mais recente do Microsoft whiteboard inclui a funcionalidade de dois hubs de Surface para colaborar em tempo real no mesmo quadro.
+description: A atualização mais recente do Microsoft Whiteboard inclui a capacidade de dois Surface Hubs colaborarem em tempo real na mesma placa.
 ms.prod: surface-hub
 ms.sitesec: library
 author: dansimp
@@ -10,70 +10,71 @@ ms.date: 03/18/2019
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 55db1240c13bf2bb124603717f37e0a0da154683
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 1b19aced34bdd6580836406015deec42f169e30b
+ms.sourcegitcommit: 7e1b351024e33926901ddbdc562ba12aea0b4196
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830300"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "11385179"
 ---
-# Configurar e usar o Microsoft Whiteboard
+# <a name="set-up-and-use-microsoft-whiteboard"></a>Configurar e usar o Microsoft Whiteboard
 
-O aplicativo Microsoft whiteboard inclui a funcionalidade de hubs de superfície e outros dispositivos com o aplicativo Microsoft whiteboard instalado para colaborar em tempo real no mesmo quadro.
+O aplicativo do Quadro de Branco da Microsoft inclui a funcionalidade para Surface Hubs e outros dispositivos com o aplicativo do Quadro de Branco da Microsoft instalado para colaborar em tempo real na mesma placa.
 
-## Pré-requisitos
+## <a name="prerequisites"></a>Pré-requisitos
 
-Para usar a colaboração do whiteboard, conclua as seguintes ações:
+Para usar a colaboração do quadro de trabalho, conclua as seguintes ações:
 
 - Adicione Whiteboard.ms, whiteboard.microsoft.com e wbd.ms à sua lista de sites permitidos.
-- Abrir porta: **https: 443** (normalmente configurado quando você executa o Surface Hub pela primeira vez.)
+- Porta aberta: **HTTPS: 443** (normalmente configurado quando você executar o Surface Hub pela primeira vez.)
 
-## Requisitos do Office 365
+## <a name="office-365-requirements"></a>Requisitos do Office 365
 
-- A colaboração do whiteboard só tem suporte no ambiente comercial do Office 365 e requer o Office 365 com o Azure Active Directory baseado na nuvem (Azure AD).
-- Você só pode executar sessões de colaboração entre usuários pertencentes ao mesmo locatário do Office 365.
-- Office 365 Alemanha ou o Office 365 operado pela 21Vianet não são compatíveis com a colaboração do whiteboard.
+- A colaboração do quadro de trabalho só tem suporte no ambiente comercial do Office 365 e requer o Office 365 com o Azure Active Directory (Azure AD) baseado em nuvem.
+- Você só pode executar sessões colaborativas entre usuários pertencentes ao mesmo locatário do Office 365.
+- O Office 365 Germany ou o Office 365 operado pela 21Vianet não suportam a colaboração de quadro de trabalho.
 
-## Colaborar com quadros de comunicações
+## <a name="collaborating-with-whiteboards"></a>Colaborar com whiteboards
 
 Para iniciar uma sessão de colaboração:
 
 1. No aplicativo do quadro de comunicações, toque no botão **Login**.
 2. Entre com sua ID de organização.
 3. Toque no botão **Convidar** ao lado de seu nome na parte superior do aplicativo.
-4. Escreva ou digite os nomes dos colegas com os quais deseja colaborar.
+4. Escreva ou digite os nomes dos colegas com os qual você deseja colaborar.
 
-No outro dispositivo, como um Surface Hub, quando você estiver conectado, o painel compartilhado agora aparecerá na Galeria de cartões.
+No outro dispositivo, como um Surface Hub, quando você estiver conectado, a placa compartilhada aparecerá agora na galeria de tabuleiro.
 
-### Dicas do usuário
-- Faça logon para acessar seus quadros de comunicações. À medida que você trabalha, as alterações são salvas automaticamente.
-- Nomeie seus quadros de comunicações para ajudar a organizar o conteúdo e localizá-lo rapidamente. Selecione a... para abrir o menu. Selecione o ícone de engrenagem **Opções** para acessar mais ferramentas e recursos do quadro de comunicações.
-- Use **tinta em forma** para transformar o desenho em formas reais, como círculos, quadrados e triângulos.
-- Use **tinta em uma tabela** para transformar uma grade desenhada em uma tabela com linhas e colunas.
-- Você também pode alterar a cor da tela de fundo e design de sólida para grade ou pontos. Escolha o plano de fundo e, em seguida, escolha a cor da roda ao seu lado.
-- Você pode exportar uma cópia da colaboração do quadro de comunicações por conta própria pelo botão compartilhar e deixar o quadro para que outras pessoas continuem a trabalhar.
+### <a name="user-tips"></a>Dicas de usuário
 
-Para obter mais informações, consulte [usar o Microsoft whiteboard em um Surface Hub](https://support.office.com/article/use-microsoft-whiteboard-on-a-surface-hub-5c594985-129d-43f9-ace5-7dee96f7621d).
+- Faça logoff para acessar seus whiteboards. Conforme você trabalha, as alterações são salvas automaticamente.
+- Nomee seus whiteboards para ajudar a organizar seu conteúdo e encontrá-lo rapidamente. Selecione o ... para abrir o menu. Selecione o **ícone de** engrenagem Opções para acessar mais ferramentas e recursos do Quadro de Comunicação.
+- Use **Ink para forma para** transformar o desenho em formas reais, como círculos, quadrados e triângulos.
+- Use **Tinta para tabela** para transformar uma grade desenhada em uma tabela com linhas e colunas.
+- Você também pode alterar a cor e o design do plano de fundo de sólido para grade ou pontos. Escolha o plano de fundo e escolha a cor da roda ao redor dele.
+- Você pode exportar uma cópia da colaboração do Quadro de Trabalho para si mesmo por meio do charm Compartilhar e deixar o quadro para outras pessoas continuarem trabalhando.
 
-> [!NOTE]
->  Se você estiver usando o whiteboard e não conseguir entrar, você pode colaborar ao ingressar em uma equipe ou em uma reunião do Skype for Business e, em seguida, compartilhar sua tela. Quando terminar, toque em **configurações**  >  **exportar para email** ou salvar uma cópia do quadro. Se você optar por exportar para o SVG, ele exporta gráficos vetoriais e fornece resolução mais alta do que PNG e pode ser aberto em um navegador da Web.
+Para obter mais informações, [consulte Use Microsoft Whiteboard on a Surface Hub](https://support.office.com/article/use-microsoft-whiteboard-on-a-surface-hub-5c594985-129d-43f9-ace5-7dee96f7621d).
 
-## Novos recursos no whiteboard
+> [!TIP]
+>  Se você estiver usando o Whiteboard e não puder entrar, poderá colaborar participando de uma reunião do Teams ou do Skype for Business e compartilhando sua tela. Depois de terminar, toque em **Configurações**  >  **Exportar para email** ou salve uma cópia do quadro. Se você optar por exportar para SVG, ele exportará elementos gráficos vetoriais e fornece resolução maior do que pNG e pode ser aberto em um navegador da Web.
 
-O aplicativo Microsoft whiteboard, atualizado para Surface Hub em 1º de julho de 2019 inclui um host de novos recursos, incluindo:
+## <a name="new-features-in-whiteboard"></a>Novos recursos no Quadro de Whiteboard
 
-- Os quadros de **salvamento automático** são salvos na nuvem automaticamente quando você entra e podem ser encontrados na Galeria de quadros. Não há um nome de pasta ou diretório local.
-- **Colaboração estendida entre dispositivos** -você pode colaborar usando novos aplicativos para o Windows 10 PC e Ios, além de uma versão da Web para outros dispositivos.
-- **Tela mais rica** -além da tinta e das imagens, o whiteboard agora inclui notas autoadesivas, texto e gifs, com mais objetos chegando em breve.
-- **Inteligência** – além da tinta em forma e tabela, o whiteboard agora inclui a tinta beautification para melhorar a captura de manuscrito e tinta para converter imagens em tinta.
-- **Mais opções de cores e plano de fundo** – o whiteboard agora inclui mais cores de caneta e opções de espessura juntamente com cores e designs de plano de fundo adicionais.
-- Integração com o Microsoft **Teams** – você pode iniciar automaticamente o quadro de comunicações de uma reunião do Teams e compartilhar com participantes (atualmente na visualização).
+O aplicativo Do Microsoft Whiteboard, atualizado para o Surface Hub em 1º de julho de 2019, inclui uma série de novos recursos, incluindo:
+
+- **Salvação Automática** - As placas são salvas na nuvem automaticamente quando você faz logor e podem ser encontradas na galeria do quadro. Não há nenhum nome de pasta local ou diretório.
+- **Colaboração estendida entre dispositivos** - Você pode colaborar usando novos aplicativos para pc e iOS do Windows 10 e uma versão da Web para outros dispositivos.
+- **Tela mais** rica - Além de tinta e imagens, o Quadro de Branco agora inclui anotações pegativas, texto e GIFs, com mais objetos em breve.
+- **Inteligência** – Além da tinta em forma e tabela, o Quadro de Branco agora inclui o embelezamento de tinta para melhorar a escrita e a captura de tinta para converter imagens em tinta.
+- **Mais opções de cor e plano de** fundo - o quadro de branco agora inclui mais cores de caneta e opções de espessura, juntamente com cores e designs adicionais em segundo plano.
+- **Integração do Teams** – Você pode iniciar automaticamente o Quadro de Trabalho a partir de uma reunião do Teams e compartilhar com os participantes.
 
 
-## Tópicos relacionados
+## <a name="related-topics"></a>Tópicos relacionados
 
 - [Atualização do Windows 10 para Criadores para o Surface Hub](https://www.microsoft.com/surface/support/surface-hub/windows-10-creators-update-surface-hub)
 
 - [Documentação de suporte para Microsoft Whiteboard](https://support.office.com/article/Whiteboard-Help-0c0f2aa0-b1bb-491c-b814-fd22de4d7c01)
 
-- [Usar o Microsoft whiteboard em um Surface Hub](https://support.office.com/article/use-microsoft-whiteboard-on-a-surface-hub-5c594985-129d-43f9-ace5-7dee96f7621d)
+- [Usar o Microsoft Whiteboard no Surface Hub](https://support.office.com/article/use-microsoft-whiteboard-on-a-surface-hub-5c594985-129d-43f9-ace5-7dee96f7621d)
