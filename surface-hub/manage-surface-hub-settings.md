@@ -7,20 +7,20 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 07/27/2017
+ms.date: 03/03/2021
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 9b3b7e10897aba8afe73f04d59b40d9304dce7ea
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 2d9343881f34bfad7d48b057518f2f88a3933447
+ms.sourcegitcommit: 5c904229a0257297be7f724c264e484d2c4b5168
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10831180"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "11387464"
 ---
-# Gerenciar configurações do Surface Hub
+# <a name="manage-surface-hub-settings"></a>Gerenciar configurações do Surface Hub
 
-## Nesta seção
+## <a name="in-this-section"></a>Nesta seção
 
 |Tópico | Descrição|
 | ------ | --------------- |
