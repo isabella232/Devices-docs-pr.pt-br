@@ -1,7 +1,7 @@
 ---
 title: Configurar o Windows 10 Pro ou Enterprise no Surface Hub 2
-description: Este artigo inclui recomendações para garantir a melhor experiência ao usar um computador com tela e um toque de tela grande personalizado.
-keywords: Surface Hub, Windows 10, área de trabalho, instalar, configuração
+description: Este artigo inclui recomendações para garantir a melhor experiência ao usar um computador de tela grande e caneta personalizado.
+keywords: Surface Hub, Windows 10, área de trabalho, instalação, configuração
 ms.prod: surface-hub
 ms.mktglfcycl: deploy
 ms.localizationpriority: low
@@ -17,199 +17,201 @@ ms.topic: article
 ms.date: 12/08/2020
 appliesto:
 - Surface Hub 2S
-ms.openlocfilehash: 7accbe3d905af3b295f92c002eecd5d77356672d
-ms.sourcegitcommit: e126b8ac66a781ebe42cdd677af3fe6a2eb5e72c
+ms.openlocfilehash: 076d29462ffb949492291e120bcdad538f4287ec
+ms.sourcegitcommit: e859374f90d640a5cd4be1c8dcc823bcd537ebdc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "11203544"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "11393589"
 ---
-# Configurar o Windows 10 Pro ou Enterprise no Surface Hub 2
+# <a name="configure-windows-10-pro-or-enterprise-on-surface-hub-2"></a>Configurar o Windows 10 Pro ou Enterprise no Surface Hub 2
 
-Depois de concluir o processo de instalação da migração para o Windows 10 pro ou Enterprise, você pode executar as seguintes etapas para definir aplicativos e configurações no Surface Hub 2. Essas etapas são recomendadas para garantir a melhor experiência ao usar esse computador de tela e o toque de tela grandes personalizados.
+Depois de concluir o processo de instalação de migração para o Windows 10 Pro ou Enterprise, você pode executar as etapas a seguir para configurar aplicativos e configurações em seu Surface Hub 2. Estas etapas são recomendadas para garantir a melhor experiência ao usar esse computador de toque de tela grande e caneta personalizado.
 
-Ao executar essas etapas, talvez seja útil usar um mouse e um teclado com fio ou sem fio.
+Ao executar essas etapas, você pode achar útil usar um teclado e mouse com fio ou sem fio.
 
-## Definir configurações do sistema
+## <a name="configure-system-settings"></a>Configurar configurações do sistema
 
 1. Entre com uma conta que tenha privilégios de administrador local no dispositivo.  
 
-    - Nos dispositivos associados ao Azure AD, o usuário que executa a junção do Azure AD é automaticamente adicionado ao grupo administrador local. Os administradores globais do Azure AD e os administradores de dispositivos do Azure AD <a href="https://docs.microsoft.com/azure/active-directory/devices/assign-local-admin" target="_blank"> também são administradores locais </a> . 
+    - Em dispositivos ingressados no Azure AD, o usuário que executa a junção do Azure AD é adicionado automaticamente ao grupo de administradores local. Os administradores globais do Azure AD e os administradores de dispositivos do Azure AD <a href="https://docs.microsoft.com/azure/active-directory/devices/assign-local-admin" target="_blank"> também são administradores </a> locais. 
     
-    - Você pode digitar **net localgroup Administrators** em um prompt de comando para listar as contas que têm direitos de administrador local.
+    - Você pode digitar **administradores de grupo local líquido em** um prompt de comando para listar as contas que têm direitos de administrador local.
     
-2. Renomeie o dispositivo usando um nome amigável, por exemplo: **nome_do_usuário-SHub-área de trabalho**.
+2. Renomeie o dispositivo usando um nome amigável, por exemplo: **username-SHub-Desktop**.
 
-3. Selecione **Iniciar**  >  **configurações**  >  **contas**  >  **sincronizar suas configurações** e desativar **as configurações de sincronização** . 
+3. Selecione **Iniciar**  >  **Configurações Contas**  >  ****  >  **Sincronizar suas configurações** e desativar **configurações de** sincronização. 
 
-    - As configurações usadas aqui se destinam a habilitar a melhor experiência de toque em tela grande e, portanto, talvez você não queira sincronizar outros dispositivos.
+    - As configurações usadas aqui se destinam a habilitar a melhor experiência de toque de tela grande e, portanto, talvez você não queira sincronizar outros dispositivos.
     
 4. Reinicie o dispositivo.
 
-## Habilitar o teclado virtual e o touchpad
+## <a name="enable-the-touch-keyboard-and-touchpad"></a>Habilitar o teclado touch e o touchpad
 
-1. Toque e segure ou clique com o botão direito do mouse na barra de tarefas e selecione **Mostrar botão do teclado virtual** e **botão Mostrar Touchpad**. 
+1. Selecione **Iniciar**  >  **Configurações**  >  **Dispositivos**  >  **Digitando** **** e ativar Mostrar o teclado touch quando não estiver no modo tablet e não houver teclado conectado.
 
-    - O teclado virtual é útil para entrada direta do usuário, e o touchpad virtual ajuda com seleções precisas, dicas de tela focalizadas ou como uma alternativa de tocar e segurar para clique com o botão direito do mouse. 
+2. Toque e segure ou clique com o botão direito do mouse na barra de tarefas e selecione Mostrar botão de **teclado** por toque e **Mostrar botão touchpad**. 
+
+    - O teclado touch é útil para entrada direta do usuário, e o touchpad virtual ajuda com seleções precisas, dicas de tela de foco ou como uma alternativa para tocar e segurar para clicar com o botão direito do mouse. 
     
     - Veja o exemplo a seguir.
 
       ![Configurações de toque](images/touch.png)
 
-2. Configurar o teclado de toque para QWERTY e flutuante.
+3. Configure o teclado touch como QWERTY e flutuante.
 
-    1. Selecione o ícone de **teclado** na barra de tarefas para mostrar o teclado virtual.
+    1. Selecione o **ícone Teclado** na barra de tarefas para mostrar o teclado por toque.
     
-    2. No teclado virtual, selecione o ícone de teclado no canto superior esquerdo para abrir as configurações de teclado.
+    1. No teclado touch, selecione o ícone de teclado no canto superior esquerdo para abrir as configurações do teclado.
     
-    3. Selecione o próximo ao último tipo de teclado na linha superior para habilitar a QWERTY e a última opção na segunda linha para habilitar a flutuante, o que é muito útil nesta tela grande. Consulte os exemplos a seguir.
+    1. Selecione o próximo ou último tipo de teclado na linha superior para habilitar o QWERTY e a última opção na segunda linha para habilitar o flutuante, o que é muito útil nessa tela grande. Consulte os exemplos a seguir.
 
-       ![Configurações do teclado](images/kbd.png)
+       ![Configurações de teclado](images/kbd.png)
  
-3. Defina as configurações do teclado virtual.
+4. Configure as configurações do teclado suave.
 
-    1. Selecione o ícone **configurações** no teclado virtual ou procure e abra configurações de **digitação**.
+    1. Selecione o **ícone Configurações** no teclado de toque ou procure e abra **Configurações de Digitação**.
     
-       ![configurações do teclado virtual](images/sh2-softkeyboard.png)
+       ![configurações de teclado suave](images/sh2-softkeyboard.png)
 
-    1. Habilite todas as opções em ortografia, digitação e toque do teclado.
+    1. Habilita todas as opções em Teclado ortográfico, de digitação e de toque.
 
 
-O exemplo a seguir mostra o trackpad, que é útil para navegar e selecionar opções. O teclado na tela está sendo usado para pesquisar a Microsoft Store:
+O exemplo a seguir mostra o trackpad, que é útil para navegar e selecionar opções. O teclado na tela está sendo usado para pesquisar na Microsoft Store:
 
 ![Usando o trackpad](images/store.png)
 
-## Configurar mouse e teclado Bluetooth (opcional)
+## <a name="configure-bluetooth-keyboard-and-mouse-optional"></a>Configurar Bluetooth teclado e mouse (opcional)
 
-Conecte um teclado e um mouse se estiver usando o dispositivo como seu dispositivo principal do Windows ou use-o com frequência para a digitação ou a precisão do trabalho.
+Conecte um teclado e um mouse se você estiver usando o dispositivo como seu dispositivo Windows principal ou use-o com frequência para digitar ou trabalhar com precisão.
 
-Se o dispositivo do Surface Hub estiver próximo a um computador, você pode usar <a href="https://aka.ms/mm" target="_blank"> o mouse sem bordas </a> para se mover diretamente entre o Surface Hub e o computador. Para obter mais informações, consulte <a href="https://blogs.microsoft.com/ai/microsoft-download-from-the-garage-mouse-without-borders/" target="_blank"> o download da Microsoft na garagem: mouse sem bordas. </a>
+Se o dispositivo Surface Hub estiver próximo de um computador, você poderá usar Mouse sem Bordas para se mover perfeitamente entre o <a href="https://aka.ms/mm" target="_blank"> Surface Hub e o </a> computador. Para obter mais informações, consulte <a href="https://blogs.microsoft.com/ai/microsoft-download-from-the-garage-mouse-without-borders/" target="_blank"> Download da Microsoft em O Garage: Mouse sem Bordas. </a>
 
-## Exemplo de layout da barra de tarefas
+## <a name="example-of-taskbar-layout"></a>Exemplo de layout da barra de tarefas
 
-Depois de concluir as etapas abaixo para configurar/configurar o Surface Hub 2 para Windows 10 Professional ou Enterprise, recomendamos que você use a fixação dos aplicativos mais usados para a barra de tarefas para uma inicialização rápida com um só toque de cada aplicativo. Veja a seguir um exemplo de como a barra de tarefas poderia se parecer com o seguinte:
+Depois de concluir as etapas a seguir para configurar/configurar o Surface Hub 2 para Windows 10 Professional ou Enterprise, recomendamos que você utilize fixar seus aplicativos mais usados na Barra de Tarefas para um início rápido de um toque de cada aplicativo. Veja a seguir um exemplo de como sua barra de tarefas poderia ser:
 
  ![Layout da barra de tarefas](images/taskblyt.png)
-### Atualizar aplicativos instalados
+### <a name="update-installed-apps"></a>Atualizar aplicativos instalados
 
-Para atualizar todos os aplicativos da loja instalados:
+Para atualizar todos os aplicativos da Loja instalados:
 
-1. Abra o aplicativo da Microsoft Store e selecione **Ver mais** reticências no canto superior direito.
-2. Selecione **downloads e atualizações.**
-3. Selecione **obter atualizações**
+1. Abra o aplicativo da Microsoft Store e selecione **See more** ellipsis in the top-right corner.
+2. Selecione **Downloads e atualizações.**
+3. Selecionar **Obter atualizações**
 
-### Procurar e instalar todas as atualizações do Windows
-Após a migração para o Windows 10 Professional ou Windows 10 Enterprise, talvez haja atualizações de serviço e manutenção disponíveis para você instalar. 
+### <a name="scan-for-and-install-all-windows-updates"></a>Examinar e instalar todas as Atualizações do Windows
+Depois de migrar para o Windows 10 Professional ou o Windows 10 Enterprise, pode haver atualizações de recursos e manutenção disponíveis para você instalar. 
 
-- Vá para **configurações**  >  **Atualizar &** > de segurança e, em seguida, selecione **verificar se há atualizações**.
-- Se houver alguma atualização, instale-a, reinicialize e repita o processo até que você veja a seguinte notificação:
+- Vá para **Configurações**  >  **Atualizar & Segurança** > e selecione Verificar se há **atualizações**.
+- Se houver atualizações, instale-as, reinicie e repita o processo até que você veja a seguinte notificação:
 
 > [!div class="mx-imgBorder"]
-> ![Notificação do Windows Update ' você está atualizado '](images/wustatus.png)
+> ![Notificação do Windows Update "Você está atualizado"](images/wustatus.png)
 
 
-## OneDrive for Business
+## <a name="onedrive-for-business"></a>OneDrive for Business
 
-Use <a href="https://docs.microsoft.com/onedrive/onedrive" target="_blank"> o onedrive for Business </a> para compartilhar facilmente ferramentas, logs e outros arquivos entre todos os seus dispositivos de trabalho.
+Use o OneDrive for Business para compartilhar facilmente ferramentas, logs e <a href="https://docs.microsoft.com/onedrive/onedrive" target="_blank"> outros arquivos entre todos os </a> dispositivos de trabalho.
 
-- O OneDrive permite que você compartilhe seus arquivos de trabalho entre seus laptops, a área de trabalho do Surface Hub e seus dispositivos móveis gerenciados pelo Intune. Os arquivos podem ser editados em qualquer dispositivo, e todos os dispositivos conectados à rede serão atualizados com as alterações.
+- O OneDrive permite que você compartilhe seus arquivos de trabalho entre seus laptops, Surface Hub Desktop e seus dispositivos móveis gerenciados pelo Intune. Os arquivos podem ser editados em qualquer dispositivo e todos os dispositivos conectados à rede serão atualizados com as alterações.
 
-- Considerando o tamanho da SSD do Surface Hub (128 GB), se você configurar o OneDrive em seu dispositivo de área de trabalho do Surface Hub, verifique se a configuração padrão é manter os arquivos online e baixar os arquivos conforme você os usa.
+- Considerando o tamanho do SSD do Surface Hub (128 GB), se você configurar o OneDrive em seu dispositivo Surface Hub Desktop, certifique-se de que a configuração padrão é manter os arquivos online e baixar arquivos conforme você os usa.
 
-Para configurar o OneDrive para baixar arquivos somente quando necessário, defina a configuração de **arquivos sob demanda** para **economizar espaço e baixar arquivos conforme você os usa**. Para obter mais informações, consulte <a href="https://docs.microsoft.com/onedrive/files-on-demand-windows" target="_blank"> consultar e definir os Estados de arquivos sob demanda no Windows </a> .
+Para configurar o OneDrive para baixar arquivos somente quando necessário, de definir a configuração **Arquivos Sob** Demanda como Salvar espaço e baixar arquivos conforme você **os usa**. Para obter mais informações, <a href="https://docs.microsoft.com/onedrive/files-on-demand-windows" target="_blank"> consulte Query and set Files On-Demand states in Windows </a> .
 
 ![Configurações do OneDrive](images/onedrive.png)
 
 > [!NOTE]
-> Você também pode repetir essas etapas para configurar um OneDrive pessoal, mas lembre-se de conservar o espaço da unidade e apenas baixar arquivos conforme necessário.
+> Você também pode repetir essas etapas para configurar um OneDrive pessoal, mas não deixe de economizar espaço na unidade e apenas baixar arquivos conforme precisar deles.
 
-## SharePoint e Teams
+## <a name="sharepoint-and-teams"></a>SharePoint e Teams
 
-Os arquivos de canal do SharePoint e do teams também podem ser sincronizados localmente com seus dispositivos de área de trabalho, como laptops e Surface Hub, usando o mecanismo de sincronização do OneDrive.
+Os arquivos do SharePoint e do Teams Channel também podem sincronizar localmente com seus dispositivos de área de trabalho, como laptops e Surface Hubs, usando o mecanismo de sincronização do OneDrive.
 
-Para sincronizar arquivos corporativos internos para sua unidade local com o aplicativo de sincronização do OneDrive:
+Para sincronizar arquivos corporativos internos com sua unidade local com o aplicativo de sincronização do OneDrive:
 
-1. Vá para um site do SharePoint e navegue até o diretório de documentos de nível superior dos arquivos nos quais você está interessado em exibir ou editar a partir do seu dispositivo local.
+1. Vá para um site do SharePoint e navegue até o diretório de documentos de nível superior para os arquivos que você está interessado em exibir ou editar do dispositivo local.
 
-2. Selecione o botão **sincronizar** na parte superior da faixa de opções do SharePoint.
+2. Selecione no botão **Sincronizar** na parte superior da faixa de opções do SharePoint.
 
-3. Selecionar ao **abrir** no pop-up **este site está tentando abrir o Microsoft onedrive**.
+3. Selecione em **Abrir** no pop-up **Este site está tentando abrir o Microsoft OneDrive**.
 
-4. Verifique se os arquivos do SharePoint estão sincronizando com a unidade local selecionando no ícone do OneDrive na parte inferior direita da barra de tarefas.
+4. Verifique se os arquivos do SharePoint estão sincronizando com sua unidade local selecionando no ícone do OneDrive na parte inferior direita da barra de tarefas.
 
-5. Verifique se a configuração está definida para manter os arquivos online e baixe os arquivos somente quando você os usa:
+5. Verifique se a configuração está definida para manter os arquivos online e baixar os arquivos somente conforme você os usa:
 
     1. Abra o explorador de arquivos.
     
-    2. Acesse e clique com o botão direito do mouse no seu nome do SharePoint; por exemplo, **Contoso \ \<SharePoint Document Folder Name\> **.
+    2. Navegue até e clique com o botão direito do mouse no nome do SharePoint; por exemplo, **Contoso \ \<SharePoint Document Folder Name\> **.
     
-    3. Selecione **liberar espaço**.
+    3. Selecione **Liberar espaço**.
     
-    4. A coluna status mostrará o status de arquivos e pastas. Para obter mais informações, consulte <a href="https://support.microsoft.com/office/sync-sharepoint-files-with-the-onedrive-sync-client-groove-exe-59b1de2b-519e-4d3a-8f45-51647cf291cd" target="_blank"> sincronizar arquivos do SharePoint com o cliente de sincronização do onedrive </a> .
+    4. A coluna Status exibirá o status de arquivos e pastas. Para obter mais informações, consulte <a href="https://support.microsoft.com/office/sync-sharepoint-files-with-the-onedrive-sync-client-groove-exe-59b1de2b-519e-4d3a-8f45-51647cf291cd" target="_blank"> Sincronizar arquivos do SharePoint com o cliente de sincronização do OneDrive. </a>
     
-6. Os arquivos de canal de equipe são armazenados nos sites do SharePoint, com todas as mesmas funcionalidades de documentos do SharePoint, incluindo histórico de versão e sincronização para seus dispositivos de área de trabalho locais. Para sincronizar arquivos de canais de equipe:
+6. Os arquivos do Teams Channel são armazenados em sites do SharePoint, com todas as mesmas funcionalidades de documento do SharePoint, incluindo histórico de versão e sincronização com seus dispositivos de área de trabalho locais. Para sincronizar arquivos do Teams Channel:
 
-    1. Navegue até o canal de interesse do Teams e selecione a guia **arquivos** na parte superior. Em seguida, selecione **sincronizar**. Os arquivos começarão a ser sincronizados e ficarão visíveis no explorador de arquivos **da área \<name of the Teams Channel\> de trabalho \ Contoso \ **.
+    1. Navegue até o Canal do Teams de interesse e selecione a guia **Arquivos** na parte superior. Em seguida, **selecione Sincronizar**. Os arquivos iniciarão a sincronização e estarão visíveis no Explorador de Arquivos na **Área de Trabalho \ Contoso \ \<name of the Teams Channel\> **.
     
-    2. Use o mesmo procedimento usado para sincronizar os sites do SharePoint para manter os arquivos na nuvem e apenas baixá-los quando forem usados, toque e segure ou clique com o botão direito do mouse no explorador de arquivos no nome do canal do Teams e, em seguida, selecione **liberar espaço**.
+    2. Use o mesmo procedimento que você usou para sincronizar sites do SharePoint para manter os arquivos na nuvem e apenas baixá-los quando você usá-los, tocar e segurar ou clicar com o botão direito do mouse no Explorador de Arquivos no nome do Canal do Teams e, em seguida, **selecionando Liberar**espaço .
 
-## Configurações da caneta do Surface Hub
+## <a name="surface-hub-pen-settings"></a>Configurações de caneta do Surface Hub
 
-**Emparelhar a caneta do Hub da superfície Bluetooth**
+**Emparelhar a caneta Bluetooth Surface Hub**
 
-Emparelhar a caneta para manter o firmware da caneta atualizado, definir os atalhos da caneta e obter informações sobre a carga da bateria na página de configurações do dispositivo Bluetooth ou no aplicativo Surface:
+Emparelhar a caneta para manter o firmware de caneta atualizado, definir os atalhos de caneta e obter informações sobre a carga da bateria na página de configurações do dispositivo Bluetooth ou no aplicativo Surface:
 
-1. Selecione **Iniciar**  >  **configurações**de  >  **dispositivos**.
+1. Selecione **Iniciar**  >  **Dispositivos de**  >  **Configurações**.
 
 2. Selecione **Adicionar Bluetooth ou outro dispositivo**.
 
 3. Escolha **Bluetooth**.
 
-4. Remova o botão de cauda da caneta e agite para desconectar a conexão da bateria.
+4. Remova o botão de cauda de caneta e balance para desconectar a conexão da bateria.
 
-5. Recoloque a tampa e pressione e segure a tampa até que o LED de emparelhamento pisque.
+5. Coloque a tampa novamente e pressione e segure a tampa até o LED de emparelhamento piscar.
 
-6. Nas configurações de Bluetooth do Surface Hub, escolha **Surface Hub 2 caneta**.
+6. Nas configurações do Surface Hub Bluetooth, escolha **Surface Hub 2 Pen**.
 
-7. Concluir a operação de emparelhamento. 
+7. Conclua a operação de emparelhamento. 
 
-8. Se o emparelhamento não for bem-sucedido, você pode tentar emparelhar a caneta novamente. Se isso não funcionar, você pode testar para ver se a bateria está carregada verificando se a caneta funciona no aplicativo do quadro de comunicações. Caso contrário, substitua a bateria e, em seguida, tente emparelhar a caneta novamente. Se necessário, reinicie o dispositivo e tente novamente.
+8. Se o emparelhamento não for bem-sucedido, você poderá tentar emparelhar a caneta novamente. Se isso não funcionar, você poderá testar para ver se a bateria é carregada verificando se a caneta funciona no aplicativo de Quadro de Branco. Caso não seja, substitua a bateria e tente emparelhar a caneta novamente. Se necessário, reinicie o dispositivo e tente novamente.
 
-**Definir atalhos de caneta** A caneta do Surface Hub tem um botão de atalho, às vezes chamado de "fim do clique". A configuração de atalhos requer que você primeiro Emparelhe a caneta, conforme descrito anteriormente.
+**Definir atalhos de caneta** A caneta Surface Hub tem um botão de atalho às vezes chamado de "clique na cauda". A configuração de atalhos exige que você primeiro emparelhe a caneta, conforme descrito anteriormente.
 
-1. Procure caneta e selecione **caneta & configurações de tinta do Windows**.
+1. Pesquise Caneta e **selecione Caneta & configurações do Windows Ink.**
 
-2. Próximo à parte inferior da página, selecione atalhos de caneta que abrem a caixa de diálogo, mostrada aqui:
+2. Na parte inferior da página, selecione Atalhos de caneta que abre a caixa de diálogo, mostrada aqui:
 
    ![Atalhos de caneta](images/sh2-pen-shortcuts.png)
 
-## Configuração da câmera
+## <a name="camera-configuration"></a>Configuração da câmera
 
-Você pode montar a câmera na parte superior ou em qualquer um dos lados do dispositivo. Monte a câmera em uma posição para otimizar o ângulo da câmera se você estiver usando o Hub com um suporte de área de trabalho em vez de um carrinho ou se estiver próximo ao Hub. A câmera não gira automaticamente, portanto você precisa ter uma chave hex 2mm para girar manualmente a câmera. 
+Você pode montar a câmera na parte superior ou em ambos os lados do dispositivo. Monte a câmera em uma posição para otimizar o ângulo da câmera se você estiver usando o Hub com um suporte de área de trabalho em vez de um carrinho ou estiver próximo do Hub. A câmera não gira automaticamente, portanto, você precisa ter uma chave hexaxa de 2 mm para girar manualmente a câmera. 
 
-Para saber mais sobre como montar a câmera lado a lado e girar a câmera manualmente, consulte <a href="https://support.microsoft.com/help/4509729/surface-hub-2s-camera-lens-orientation" target="_blank"> orientação do Surface Hub 2s orientação da lente da câmera </a> .
+Para obter mais informações sobre como montar lateralmente a câmera e girar a câmera manualmente, consulte Orientação da lente da câmera <a href="https://support.microsoft.com/help/4509729/surface-hub-2s-camera-lens-orientation" target="_blank"> do Surface Hub 2S </a> .
 
-## Configuração do Windows Hello
+## <a name="windows-hello-configuration"></a>Configuração do Windows Hello
 
-O Surface Hub 2S executando o Windows 10 Enterprise permite o pacote completo de aplicativos da área de trabalho Win32, bem como as opções biométricas do Windows Hello. O acessório de leitor de impressão digital Surface Hub 2 pode ser conectado a qualquer porta USB-C do dispositivo. 
+O Surface Hub 2S que executa o Windows 10 Enterprise permite o pacote completo de aplicativos de área de trabalho Win32, bem como opções biométricas do Windows Hello. O acessório Leitor de Impressão Digital do Surface Hub 2 pode ser conectado a qualquer porta USB-C no dispositivo. 
 
-Para solicitar um leitor de Surface Hub 2 ou exibir especificações técnicas, consulte (surface-hub-2-essential-add-ons.md "target =" _blank ">Complementos essenciais para o Windows 10 pro e Enterprise no Surface Hub 2 </a> . 
+Para solicitar um Leitor de Impressão Digital do Surface Hub 2 ou exibir especificações técnicas, consulte (surface-hub-2-essential-add-ons.md" target="_blank">Complementos essenciais para Windows 10 Pro e Enterprise no Surface Hub 2 </a> . 
 
-Depois de inserir o leitor de impressão digital, selecione **Iniciar**  >  **configurações**  >  **conta**  >  **Opções de entrada**e  >  **impressão digital do Windows Hello** para registrar sua impressão digital.
+Depois de inserir o leitor de impressão digital, selecione **Iniciar**  >  **Configurações**Opções de  >  ****  >  **logon**do  >  **Windows Hello Fingerprint** para registrar sua impressão digital.
 
-Use um dispositivo certificado com Windows Hello para o reconhecimento de rosto. A câmera Surface Hub 2S não dá suporte ao reconhecimento facial do Windows Hello.
+Use um dispositivo certificado do Windows Hello para reconhecimento de rosto. A câmera do Surface Hub 2S não dá suporte ao reconhecimento facial do Windows Hello.
 
-## Habilitar um ícone de atalho da tela de bloqueio na barra de tarefas
+## <a name="enable-a-lock-screen-shortcut-icon-on-the-taskbar"></a>Habilitar um ícone de atalho de Tela de Bloqueio na barra de tarefas
 
-Para adicionar um ícone à barra de tarefas que permite o bloqueio de tela com um toque semelhante ao atalho de teclado do Windows-L: 
+Para adicionar um ícone à barra de tarefas que habilita um bloqueio de tela de toque semelhante ao atalho do teclado windows-L: 
 
-1.  Toque e segure ou clique com o botão direito do mouse na área de trabalho, selecione **novo**  >  **atalho**  >  **navegar**na  >  **área de trabalho**  >  **OK**  >  **Avançar**.
+1.  Toque e segure ou clique com o botão direito do mouse na área de trabalho, selecione **Novo**  >  **Atalho**  >  **Procurar**  >  **Área de Trabalho**OK  >  ****  >  **Próximo**.
 
-1.  Forneça um nome para o atalho, como **bloquear meu PC**e, em seguida, selecione **concluir**.
+1.  Forneça um nome para o atalho, como **Bloquear meu computador**e selecione **Concluir**.
 
-1.  Clique com o botão direito do mouse ou toque e mantenha pressionado o atalho recém-criado na área de trabalho e selecione **Propriedades**. Na guia **atalho** , insira o seguinte no campo de **destino** : **Rundll32.exe User32.dll, LockWorkStation**
+1.  Clique com o botão direito do mouse ou toque e segure o atalho recém-criado na área de trabalho e selecione **Propriedades**. Na guia **Atalho,** insira o seguinte no campo **Destino:** **Rundll32.exe User32.dll,LockWorkStation**
 
-1.  Selecione o botão **Alterar ícone** e navegue até **C:\Windows\System32\imageres.dll** e selecione um ícone para usar. 
+1.  Selecione o **botão Alterar Ícone** e navegue ** até **C:\Windows\System32\imageres.dlle selecione um ícone a ser usado. 
 
     Veja o exemplo a seguir:
 
@@ -217,95 +219,95 @@ Para adicionar um ícone à barra de tarefas que permite o bloqueio de tela com 
     
 1.  Selecione **OK** para salvar o atalho.
 
-1.  Clique com o botão direito do mouse ou toque e segure o atalho e selecione **fixar na barra de tarefas**.
+1.  Clique com o botão direito do mouse ou toque e segure o atalho e selecione **Fixar na barra de tarefas**.
 
-1. Depois de fixar o atalho de bloqueio à barra de tarefas, você pode excluí-lo da área de trabalho.
+1. Depois de ter fixado o atalho de bloqueio na barra de tarefas, você pode excluí-lo da área de trabalho.
 
-## Aplicativos
+## <a name="applications"></a>Aplicativos
 
 
-### Microsoft Whiteboard
+### <a name="microsoft-whiteboard"></a>Microsoft Whiteboard
 
-Para instalar o Microsoft whiteboard:
+Para instalar o Quadro de Whiteboard da Microsoft:
 
- - Selecione o ícone do **espaço de trabalho do Windows Ink** no canto inferior direito da barra de tarefas e baixe o **whiteboard**.
+ - Selecione o **ícone do Espaço de Trabalho do Windows Ink** no canto inferior direito da barra de tarefas e baixe o Quadro de **Trabalho**.
  
-   ![Espaço de trabalho à tinta](images/ink.png) 
+   ![Espaço de trabalho de tinta](images/ink.png) 
 
-Você também pode instalar o whiteboard na Microsoft Store:
+Como alternativa, você pode instalar o Quadro de Trabalho na Microsoft Store:
 
-1. Abra o aplicativo da Microsoft Store e pesquise por **whiteboard**.
+1. Abra o aplicativo da Microsoft Store e pesquise **whiteboard**.
 
-2. Escolha **não graças** para entrar e usar entre dispositivos.
+2. Escolha **Não graças** a entrar e usar em dispositivos.
 
-3. Fixar quadro de comunicações na barra de tarefas.
+3. Fixar quadro de trabalho na barra de tarefas.
 
-### Aplicativo Surface
+### <a name="surface-app"></a>Aplicativo Surface
 
-1. Na Microsoft Store, procure por **Surface**.
+1. Na Microsoft Store, pesquise o **Surface**.
 
-2. Defina o filtro **disponível em** **todos os dispositivos**.
+2. De definir **o filtro Disponível em** todos os **dispositivos**.
 
-3. Instale o aplicativo **Surface** . Este deve ser o primeiro aplicativo listado. Talvez seja necessário associar o MSA à loja para instalar o aplicativo.
+3. Instale o **aplicativo Surface.** Este deve ser o primeiro aplicativo listado. Talvez seja necessário associar seu MSA à Loja para instalar o aplicativo.
 
-4. Fixar o aplicativo **Surface** à barra de tarefas.
+4. Fixar o **aplicativo Surface** na barra de tarefas.
 
-### Captura e Esboço
+### <a name="snip--sketch"></a>Captura e Esboço
 
-1. Abra o aplicativo **corte & esboço** e fixe-o na barra de tarefas.
+1. Abra o **aplicativo Snip & Sketch** e fixe-o na barra de tarefas.
 
-2. Selecione as reticências no canto superior direito e selecione **configurações**.
+2. Selecione a reellipse no canto superior direito e selecione **Configurações**.
 
-3. Em **configurações**, ative **a cópia automática para a área de transferência**, **salve recortes**e **várias janelas** (opcional).
+3. Em **Configurações,** a opção **Copiar automaticamente**para área de transferência, **Salvar trechos**e Várias **janelas** (opcional).
 
-### Microsoft Office
+### <a name="microsoft-office"></a>Microsoft Office
 
-1. Abra o <a href="https://portal.office.com/account#installs" target="_blank"> portal do Office </a> e instale os aplicativos desejados.
+1. Abra o <a href="https://portal.office.com/account#installs" target="_blank"> Portal do Office e instale seus </a> aplicativos desejados.
 
 2. Fixar aplicativos do Office desejados na barra de tarefas.
 
-3. Se o Outlook estiver instalado, certifique-se de definir o OST do Outlook para salvar somente as últimas duas últimas semanas do cache. Isso reduzirá consideravelmente o uso do disco e o tempo de configuração.
+3. Se o Outlook estiver instalado, certifique-se de definir o Outlook OST para salvar apenas o cache das últimas duas semanas. Isso reduzirá consideravelmente o uso do disco e o tempo de instalação.
 
-    - Selecione **File**  >  **configurações de conta** de arquivo e selecione sua conta.
+    - Selecione **Configurações**  >  **da Conta de Arquivo** e selecione sua conta.
     
-    - Selecione **alterar** e defina o controle deslizante para **usar o modo cache do Exchange** como 14 dias.
+    - Selecione **Alterar** e de definir o controle deslizante para **Usar o Modo cache do Exchange** como 14 dias.
 
-### Microsoft Teams
+### <a name="microsoft-teams"></a>Microsoft Teams
 
-1. Baixe e instale <a href="https://teams.microsoft.com/downloads" target="_blank"> o Microsoft Teams </a> .
+1. Baixar e instalar <a href="https://teams.microsoft.com/downloads" target="_blank"> o Microsoft </a> Teams.
 
-2. Definir configurações para iniciar o aplicativo automaticamente (opcional).
+2. Configure as configurações para o aplicativo de início automático (opcional).
 
-3. Fixar equipes na barra de tarefas.
+3. Fixar o Teams na barra de tarefas.
 
-4. Considere reduzir as notificações do Microsoft Teams no dispositivo para evitar distrações (opcional).
+4. Considere reduzir as notificações do Teams no dispositivo para evitar distrações (opcionais).
 
-   ![Notificações do teams](images/teams.png)
+   ![Notificações do Teams](images/teams.png)
 
-### Conectar o aplicativo
+### <a name="connect-app"></a>Conectar aplicativo
 
 > [!IMPORTANT]
-> No Windows 10, versão 2004 e posterior, a projeção conectar aplicativo para conexão sem fio que usa Miracast não é instalada por padrão, mas está disponível como um recurso opcional. Se você instalou (ou atualizou para) a versão 2004 ou posterior do Windows, poderá ver o seguinte na tela projetando a this PC em configurações:
+> No Windows 10, versão 2004 e posterior, o aplicativo Connect para projeção sem fio usando Miracast não é instalado por padrão, mas está disponível como um recurso opcional. Se você tiver instalado (ou atualizado para) o Windows versão 2004 ou posterior, poderá ver o seguinte na tela Projetando para este computador nas configurações:
 
-![Projeto para este PC](images/sh2-project.png) 
+![Project para este computador](images/sh2-project.png) 
 
 
-1. Para instalar o aplicativo na página de configurações "Projetando para este PC", selecione **recursos opcionais**  >  **Adicionar um recurso** e instalar o aplicativo de **exibição sem fio** .
+1. Para instalar o aplicativo na página de configurações "Projetando para este computador", selecione Recursos opcionais **** Adicionar um recurso e, em seguida, instalar o aplicativo De  >  **** **exibição sem** fio.
 
-2. Em **alguns dispositivos Windows e Android podem projetar neste computador quando você disser que está ok**, escolha:
+2. Em **Alguns dispositivos Windows e Android podem projetar**para este computador quando você diz que está OK , escolha:
 
-    - **Disponível em qualquer lugar** se o dispositivo não estiver em uma rede corporativa.
-    - Caso contrário, escolha **disponível em todos os lugares em redes seguras**.
+    - **Disponível em todos os** lugares se o dispositivo não estiver em uma rede corporativa.
+    - Caso contrário, escolha **Disponível em qualquer lugar em redes seguras.**
     
-3. Em **pedir projeto para este PC**, escolha **primeira vez apenas**.
+3. Em **Pedir para projetar para este computador,** escolha Somente primeira **vez**.
 
-4. Em **exigir PIN para emparelhamento**, escolha **nunca**.
+4. Em **Exigir PIN para emparelhamento,** escolha **Nunca**.
 
-5. Para iniciar o aplicativo e fixá-lo na barra de tarefas, procure **Connect**.
+5. Para então iniciar o aplicativo e fixá-lo na barra de tarefas, pesquise **por Connect**.
 
-6. Abra o aplicativo. Enquanto o aplicativo estiver aberto, clique com o botão direito do mouse no ícone conectar aplicativo na barra de tarefas e selecione **fixar na barra de tarefas**.
+6. Abra o aplicativo. Enquanto o aplicativo estiver aberto, clique com o botão direito do mouse no ícone do aplicativo Conectar na barra de tarefas e selecione **o pino na**barra de tarefas .
 
-7. Em seguida, feche o aplicativo conectar. O **Project para este computador** pode não funcionar a menos que o aplicativo tenha sido executado pelo menos uma vez.
+7. Em seguida, feche o aplicativo Connect. **O project para esse computador pode** não funcionar, a menos que o aplicativo tenha sido executado pelo menos uma vez.
 
 Configuração recomendada quando não estiver na rede corporativa:
 
@@ -315,169 +317,169 @@ Configuração recomendada na rede corporativa:
 
 ![Configurações no trabalho](images/project2.png)
 
-### Seu Telefone
+### <a name="your-phone"></a>Seu Telefone
 
-O aplicativo de **telefone** é instalado por padrão no Windows 10. Se não estiver presente, você também poderá instalá-lo na Windows Store.
+O **aplicativo Seu Telefone** é instalado por padrão no Windows 10. Se ele não estiver presente, você também poderá instalá-lo na Windows Store.
 
-Para obter informações sobre como configurar o aplicativo, consulte <a href="https://www.windowscentral.com/how-set-your-phone-windows-10" target="_blank"> como configurar seu telefone no Windows 10 e sincronizar dados entre seu PC e telefone </a> . Veja também <a href="https://www.windowscentral.com/how-fix-common-problems-your-phone-app-windows-10" target="_blank"> como corrigir problemas comuns com o aplicativo de telefone no Windows 10 </a> .
+Para obter informações sobre como configurar o aplicativo, consulte Como configurar Seu Telefone no Windows 10 e sincronizar dados entre seu <a href="https://www.windowscentral.com/how-set-your-phone-windows-10" target="_blank"> computador e </a> telefone. Consulte Também <a href="https://www.windowscentral.com/how-fix-common-problems-your-phone-app-windows-10" target="_blank"> Como corrigir problemas comuns com o aplicativo Seu Telefone no Windows 10 </a> .
 
-###  Zonas decorativas
-
-
-As **zonas decorativas** fazem parte de uma coleção de ferramentas chamadas <a href="https://github.com/microsoft/PowerToys/releases" target="_blank"> PowerToys </a> no github. É uma ótima maneira de usar o estado real da tela em um Surface Hub 2 oferecendo a você a capacidade de definir layouts fixos em seu vídeo ("zonas") e, em seguida, selecionar qual aplicativo será executado em cada zona. 
+###  <a name="fancy-zones"></a>Zonas sofisticadas
 
 
-O [wiki do PowerToy](https://github.com/microsoft/PowerToys/wiki) tem instruções sobre como usar e personalizar cada ferramenta, incluindo o [FancyZones](https://github.com/microsoft/PowerToys/wiki/FancyZones-Overview). Em um nível alto – após a instalação do PowerToys, você pode selecionar ou criar um layout personalizado e, em seguida, manter a tecla Shift pressionada e arrastar ou usar as teclas do teclado para mover um aplicativo em execução para zonas específicas. Usar um teclado Bluetooth ou USB e um mouse ajudará com isso, ou você pode usar o teclado virtual e o touchpad.
-
-**Dicas do Power Toys**
-- Para receber notificações por email de atualizações de versão do PowerToy no GitHub, clique no botão "inscrição" na parte superior da [página](https://github.com/microsoft/PowerToys/releases).
-- Após a instalação do PowerToys, você pode receber notificações do Windows e/ou baixar e instalar as atualizações mais recentes configurando as configurações do PowerToys **baixar atualizações automaticamente** para ativado.
-- Para acessar as configurações do PowerToys, selecione a guia up Carat **executando aplicativos** na barra de tarefas e clique com o botão direito do mouse ou pressione e mantenha pressionado o ícone do PowerToys até que o menu seja exibido. Selecione "configurações".
-- Na parte inferior da página de configurações do PowerToy, ative o **download de atualizações automaticamente** para ativado.
-- Quando uma atualização for liberada, uma notificação do Windows será exibida oferecendo a opção de quando instalar a atualização.
+**Zonas Sofisticadas** faz parte de uma coleção de ferramentas chamadas <a href="https://github.com/microsoft/PowerToys/releases" target="_blank"> PowerToys </a> no GitHub.. É uma ótima maneira de utilizar a propriedade de tela em um Surface Hub 2, dando a você a capacidade de definir layouts fixos em sua exibição ("zonas") e, em seguida, selecione qual aplicativo será executado em cada zona. 
 
 
-### Navegador do Edge Chromium
+O [wiki do PowerToys tem](https://github.com/microsoft/PowerToys/wiki) instruções sobre como usar e personalizar cada ferramenta, incluindo [FancyZones](https://github.com/microsoft/PowerToys/wiki/FancyZones-Overview). Em alto nível – depois de instalar o PowerToys, você pode selecionar ou criar um layout personalizado e, em seguida, segurar a tecla de turno para baixo e arrastar ou usar teclas de teclado para mover um aplicativo em execução para zonas específicas. Usar um Bluetooth ou o teclado USB e o mouse ajudarão com isso, ou você pode usar o teclado touch na tela e o touchpad.
 
-Baixe e instale o novo <a href="https://www.microsoft.com/en-us/edge?form=MY01BL&OCID=MY01BL" target="_blank"> navegador Chromium do Edge </a> .
+**Dicas de power toys**
+- Para receber notificações por email das atualizações de versão do PowerToys no GitHub, clique no botão "inscrever-se" na parte superior da [página](https://github.com/microsoft/PowerToys/releases).
+- Depois que o PowerToys for instalado, você poderá receber notificações do Windows e/ou baixar e instalar as atualizações mais recentes configurando as configurações do PowerToys **Baixar** atualizações automaticamente para.
+- Para acessar as configurações do PowerToys, **** selecione o quilate para cima Executando aplicativos na barra de tarefas e clique com o botão direito do mouse ou pressione e segure o ícone PowerToys até que o menu apareça. Selecione "Configurações".
+- Na parte inferior da página de configurações do PowerToys, a opção **Baixar atualizações automaticamente** para.
+- Quando uma atualização for lançada, uma notificação do Windows aparecerá, dando a você a opção de quando instalar a atualização.
 
 
-### Ferramenta de diagnóstico de hardware do Surface Hub
+### <a name="edge-chromium-browser"></a>Navegador edge Chromium
 
-A <a href="https://www.microsoft.com/p/surface-hub-hardware-diagnostic/9nblggh51f2g" target="_blank"> ferramenta de diagnóstico de hardware do Surface Hub </a> disponível gratuitamente na Microsoft Store. A ferramenta foi projetada para ajudar você a garantir que seu Surface Hub esteja se apresentando o melhor. Ele contém testes para determinar se o seu firmware está atualizado e configurado corretamente. Testes interativos permitem que você confirme que a funcionalidade essencial está funcionando conforme esperado. Se forem encontrados problemas, os resultados poderão ser salvos e compartilhados com a equipe de suporte do Surface Hub. Clique no link para instalá-lo na Microsoft Store e, em seguida, fixe o aplicativo na barra de tarefas.
+Baixe e instale o novo <a href="https://www.microsoft.com/en-us/edge?form=MY01BL&OCID=MY01BL" target="_blank"> navegador edge Chromium </a> .
 
-## Configurações adicionais
 
-### Cauda da caneta selecione para iniciar o quadro de comunicações
+### <a name="surface-hub-hardware-diagnostic-tool"></a>Ferramenta de Diagnóstico de Hardware do Surface Hub
 
-1. Procure **caneta** e selecione **caneta & configurações de tinta do Windows**.
+A <a href="https://www.microsoft.com/p/surface-hub-hardware-diagnostic/9nblggh51f2g" target="_blank"> ferramenta diagnóstico de hardware do Surface Hub disponível </a> gratuitamente na Microsoft Store. A ferramenta foi projetada para ajudá-lo a garantir que o Surface Hub está em melhor desempenho. Ele contém testes para determinar se o firmware está atualizado e configurado corretamente. Testes interativos permitem confirmar que a funcionalidade essencial está funcionando conforme o esperado. Se forem encontrados problemas, os resultados poderão ser salvos e compartilhados com a equipe de suporte do Surface Hub. Clique no link para instalá-lo na Microsoft Store e fixe o aplicativo na barra de tarefas.
 
-2. Próximo à parte inferior da página, em **atalhos de caneta** , defina **selecionar uma vez** para o **Microsoft whiteboard**. 
+## <a name="additional-settings"></a>Configurações adicionais
 
-### Gerenciamento de energia
+### <a name="pen-tail-select-to-launch-whiteboard"></a>Caneta tail select to launch Whiteboard
 
-Há várias configurações de energia disponíveis para obter a melhor experiência com o Windows 10 pro ou Enterprise no Surface Hub 2. Isso inclui tempos limite de tela e do PC e como eles interagem com a detecção de presença humana (Doppler) interna, a proteção de tela e a proteção por senha e, em seguida, se for apropriado como passar configurações de energia de política de grupo para usuários de laptop/desktop.
+1. Pesquise **Caneta** e selecione **Caneta & configurações do Windows Ink.**
 
-O Windows 10 pro ou Enterprise no Surface Hub 2 mantém a tela de entrar no estado de suspensão por ações de toque, mouse e teclado, além da detecção de ocupação humana interna (Doppler). A detecção de ocupação humana é habilitada por padrão, mas, se desejado, pode ser desabilitada na UEFI alternando a opção de dispositivo na ferramenta configurador UEFI do Surface como parte da migração inicial ou criando e aplicando um pacote de configuração UEFI mais recente. 
+2. Na parte inferior da página, em **Atalhos de caneta,** desempenha **Selecionar uma vez** para o Quadro de Branco da **Microsoft.** 
 
-**Gerenciamento de energia: configurações de tela e suspensão do computador**
+### <a name="power-management"></a>Gerenciamento de energia
 
-1. Selecione **Iniciar**  >  **configurações**  >  **sistema**  >  **alimentação & suspender**.
+Há várias configurações de energia disponíveis para obter a melhor experiência usando o Windows 10 Pro ou Enterprise no Surface Hub 2. Isso inclui tempos-extra de tela e computador e como eles interagem com a detecção de presença humana interna (Doppler), a proteção de senha e economia de tela e, se apropriado, como passar as configurações de energia da política de grupo destinadas a usuários de laptop/área de trabalho.
 
-2. Defina o controle deslizante do modo de energia para **obter o melhor desempenho**.
+O Windows 10 Pro ou Enterprise no Surface Hub 2 impede que a tela adore por ações de toque, mouse e teclado, bem como a detecção de ocupação humana (Doppler) integrada. A detecção de ocência humana é habilitada por padrão, mas, se desejado, ela pode ser desabilitada na UEFI por meio da agregação da opção de dispositivo na ferramenta Configurador uefi do Surface como parte da migração inicial ou pela criação e aplicação de um pacote de configuração UEFI posterior. 
 
-3. Configure os valores de tela e de repouso para sua preferência enquanto também faz a Doppler de detecção de presença do que ativa o dispositivo quando o movimento é detectado. Portanto, como prática recomendada, é recomendável definir a tela para desligar **após 2 horas** e o computador para **desligar após 4 horas.**
+**Gerenciamento de Energia: Configurações de sleep de tela e computador**
 
-**Gerenciamento de energia: proteção de tela**
+1. Selecione **Iniciar**  >  **Configurações do**  >  **Sistema**Energia & de  >  **1.000.**
 
-1. Pesquisar a **tela de bloqueio** e abrir **as configurações da tela de bloqueio**.
+2. De definir o controle deslizante do modo de alimentação **como Melhor desempenho.**
 
-2. Defina **as configurações de tempo limite de tela** e **as configurações de proteção de tela** para sua preferência. Os valores padrão recomendados são:
+3. Configure os valores de tela e de encefação para sua preferência enquanto também contabilização da detecção de presença do Doppler que acorda o dispositivo quando o movimento é detectado. Assim, como prática recomendada, é recomendável definir Tela como Desativar após **2** horas e o computador para **Desativar após 4 horas.**
 
-   - Proteção de tela para (nenhum) ou uma proteção de tela de sua escolha.
+**Gerenciamento de Energia: Economia de tela**
+
+1. **Pesquise as** configurações de tela de bloqueio e abra a **tela de bloqueio.**
+
+2. Configure **configurações de tempo de tempo de tela** e **configurações de economia de tela** para sua preferência. Os valores padrão recomendados são:
+
+   - Economia de tela como (Nenhum) ou um protetor de tela de sua escolha.
    - Tempo de espera para 15 minutos.
-   - Ao continuar, exiba a tela de logon.
+   - Ao retomar, exibe a tela de logon.
 
 
-**Gerenciamento de energia: política de grupo**
+**Gerenciamento de Energia: Política de Grupo**
 
-Antes de executar o procedimento a seguir, verifique com seu departamento de ti para aprovação para excluir um dispositivo Surface Hub 2S da política global de gerenciamento de energia. Algumas configurações de gerenciamento de energia podem desabilitar a função de detecção de presença.
+Antes de executar o procedimento a seguir, verifique com seu departamento de IT a aprovação para excluir um dispositivo Surface Hub 2S da política de gerenciamento de energia global. Algumas configurações de gerenciamento de energia podem desabilitar a função de detecção de presença.
 
-1. Procure pela **central de software** e abra-a.
+1. Pesquise **o Centro de Software** e abra-o.
 
 2. Selecione **Opções**.
 
-3. Expanda o **Gerenciamento de energia**  e selecione **não aplicar configurações de energia do meu departamento de ti para este computador**.
+3. Expanda **o gerenciamento de energia**  e selecione Não aplicar configurações de energia do meu departamento de IT a este **computador**.
 
    ![Configurações de software](images/soft-cntr.png)
 
-### Sensor de armazenamento
+### <a name="storage-sense"></a>Sensor de armazenamento
 
-O Surface Hub 2 tem uma SSD de 128 GB para armazenamento local, portanto, é necessário considerar o uso das medidas de salvamento de armazenamento durante o uso normal.  Para configurar o sensor de armazenamento:
+O Surface Hub 2 tem um SSD de 128 GB para armazenamento local, portanto, é necessário considerar o uso de medidas de economia de armazenamento durante o uso normal.  Para configurar o Sentido de Armazenamento:
 
-1.  Procure **configurações de armazenamento**, que se encontra em **configurações do sistema**.
+1.  **Pesquise as configurações de armazenamento**, que é encontrada em **Configurações do sistema**.
 
-2.  Em **configurações**, selecione **ativar o sensor de armazenamento** para abrir a página Configurações de **armazenamento** .
+2.  Em **Configurações,** selecione **Ativar o sentido de armazenamento** para abrir a página **Configurações** de armazenamento.
 
-3.  Mude o sensor de armazenamento para **ligado**.
+3.  Ativar o Sentido de **Armazenamento**para .
 
-4.  Selecione **Configurar o sensor de armazenamento ou executá-lo agora** e defina as configurações para manter os arquivos online o máximo possível (devido a espaço limitado na unidade).
+4.  Selecione **Configurar o Sentido de Armazenamento ou execute-o** agora e configure as configurações para manter os arquivos online o máximo possível (devido ao espaço limitado da unidade).
 
 Configurações recomendadas:
 
-- Executar detecção de armazenamento = todos os dias.
-- Exclua os arquivos temporários que os meus aplicativos não estão usando = a cada 14 dias (pelo menos).
-- Exclua os arquivos na pasta Meus downloads se eles estiverem lá por mais de = 30 dias.
-- OneDrive: o conteúdo ficará online apenas se não for aberto por mais de 30 dias.
+- Executar o Sentido de Armazenamento = Todos os Dias.
+- Exclua arquivos temporários que meus aplicativos não estão usando = a cada 14 dias (pelo menos).
+- Exclua arquivos na minha pasta Downloads se eles estão lá há mais de 30 dias.
+- OneDrive: o conteúdo se tornará somente online se não for aberto por mais de 30 dias.
 
-### Modo tablet
+### <a name="tablet-mode"></a>Modo tablet
 
-Ative o modo tablet, se quiser, para atender às necessidades de acessibilidade.
+Ativar o modo Tablet, se desejado para necessidades de acessibilidade.
 
 
-### Configurações de som
+### <a name="sound-settings"></a>Configurações de som
 
-1. Procure **configurações de sons** e abra esta página.
+1. Pesquise **as configurações de Sons** e abra esta página.
 
-2. Selecione o **painel de controle de som** à direita e selecione a guia **sons** .
+2. Selecione **Painel de Controle de Som** à direita e selecione a guia **Sons.**
 
-3. Em **eventos do programa** , defina **conexão do dispositivo** e **dispositivo desconectar** para **nenhum**.
+3. Em **Eventos de Programa,** **desconectar** dispositivo e conexão **de dispositivo** como **nenhum**.
 
-### Notificações de silêncio
+### <a name="silence-notifications"></a>Notificações de silêncio
 
-1. Pesquise o **Assistente de foco** e abra esta página.
+1. Procure ajuda **de Foco e** abra esta página.
 
-2. Selecione **apenas alarmes**. Isso evitará submenus de notificação constante.
+2. Selecione **Somente Alarmes**. Isso evitará os sobrevoos de notificação constante.
 
-### Limpeza de Disco
+### <a name="disk-cleanup"></a>Limpeza de Disco
 
-1. Procure por **limpeza de disco** e abra este aplicativo.
+1. **Pesquise a Limpeza de Disco** e abra este aplicativo.
 
-2. Em **arquivos a serem excluídos**, selecione os arquivos que você deseja excluir. 
+2. Em **Arquivos a ser excluído,** selecione os arquivos que você deseja excluir. 
 
-3. Além disso, selecione **limpar arquivos do sistema**.
+3. Selecione Também **Limpar arquivos do sistema**.
 
-## Concluir e verificar
+## <a name="complete-and-verify"></a>Concluir e verificar
 
-1. Procure e instale todas as atualizações do Windows.
+1. Examinar e instalar todas as Atualizações do Windows.
 
-2. Atualize a política de grupo.
+2. Atualizar Política de Grupo.
 
-   1. Em um prompt de comando elevado, digite **gpupdate/force/boot/Wait: 0**.
+   1. Em um prompt de comando elevado, insira **gpupdate /force /boot /wait:0**.
    
 3. Reinicie o dispositivo.
 
 4. Verifique os aplicativos da barra de tarefas.
 
-   - Conectar o aplicativo
-   - Ícone de cadeado
+   - Conectar Aplicativo
+   - Ícone de bloqueio
    - Captura e Esboço
-   - Equipes (se aplicável)
-   - Aplicativos do Office (se aplicável)
-   - Aplicativo Surface
+   - Teams (se aplicável)
+   - Office Apps (se aplicável)
+   - Surface App
    - Quadro de Comunicações
     
-5. Verificar a detecção de presença.
+5. Verifique a detecção de presença.
 
    - A detecção de presença será um ícone verde na bandeja do sistema.
     
-6. Verifique se a projeção neste computador está habilitada com o aplicativo conectar. Depois de configurar o  **Project para estas** configurações do computador, execute o aplicativo conectar pelo menos uma vez. (Subsequentemente, o aplicativo de conexão não precisa estar em execução para projetar para o Surface Hub.)
+6. Verifique se a projeção para esse computador está habilitada com o Aplicativo Connect. Depois de configurar  **o Project para essas configurações** de computador, execute o Aplicativo conectar pelo menos uma vez. (Subsequentemente, o Aplicativo Connect não precisa ser executado para projetar para o Surface Hub.)
 
-7. Verifique as configurações de energia e suspensão.
+7. Verifique as configurações de energia e de sono.
 
-    - Proteção de tela: 15 minutos, definir como (nenhum), polígonos ou ficar em branco; Verifique se a caixa de seleção Requer senha está selecionada.
-    - Tela: **desative após 2 horas**.
-    - PC:  **desative após 4 horas**.
+    - Screen Saver: 15 minutos, definido como (nenhum), Mystify ou Blank; verifique se a caixa de seleção para exigir senha está selecionada.
+    - Tela: **Desativar após 2 horas**.
+    - PC:  **Desativar após 4 horas**.
     
 8. Verifique se o Windows Hello está funcionando.
 
-9. Verifique se a sincronização suas configurações está desabilitada.
+9. Verifique se a sincronização das configurações está desabilitada.
 
 10. Verifique os aplicativos de inicialização.
 
 > [!TIP]
-> Após a instalação e a configuração do Windows 10, o Surface Hub 2S pode ser gerenciado assim como qualquer outro dispositivo com o Windows 10.
+> Depois de instalar e configurar o Windows 10, o Surface Hub 2S pode ser gerenciado da mesma forma que qualquer outro dispositivo Windows 10.
 
-## Tópicos relacionados
+## <a name="related-topics"></a>Tópicos relacionados
 
 <a href="surface-hub-2s-migrate-os.md" target="_blank"> Migrar para o Windows 10 Pro ou para o Enterprise no Surface Hub 2</a>
