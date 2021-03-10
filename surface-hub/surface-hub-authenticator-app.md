@@ -1,5 +1,5 @@
 ---
-title: Fazer logon no Surface Hub com o Microsoft Authenticator
+title: Faça logon no Surface Hub com Microsoft Authenticator
 description: Use o Microsoft Authenticator em seu dispositivo móvel para fazer logon no Surface Hub.
 ms.prod: surface-hub
 ms.sitesec: library
@@ -10,18 +10,18 @@ ms.date: 08/28/2017
 ms.reviewer: ''
 manager: laurawi
 localizationpriority: medium
-ms.openlocfilehash: 11768488d2ef7509af6a592b9e4ac945a7e35650
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: f8a2bf8ddb75ca6dd3ff89e16fe0d37e099be29d
+ms.sourcegitcommit: 85f5a2e67b34fe073ec588ed441ebee239ab0ac6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830416"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "11400732"
 ---
-# Faça logon no Surface Hub com Microsoft Authenticator
+# <a name="sign-in-to-surface-hub-with-microsoft-authenticator"></a>Faça logon no Surface Hub com Microsoft Authenticator
 
 Pessoas em sua organização podem fazer logon em um Surface Hub sem uma senha usando o aplicativo Microsoft Authenticator, disponível em Android e iOS.
 
-## Pré-requisitos de organização
+## <a name="organization-prerequisites"></a>Pré-requisitos de organização
 
 Para permitir que as pessoas em sua organização efetuem login no Surface Hub com seus telefones e outros dispositivos em vez de uma senha, você precisará garantir que sua organização atende a esses pré-requisitos: 
 
@@ -33,15 +33,13 @@ Para permitir que as pessoas em sua organização efetuem login no Surface Hub c
 
     ![opções de autenticação multi-fator](images/mfa-options.png)
 
-- Habilite a hospedagem de conteúdo nos serviços do Azure AD, como o Office, o SharePoint, etc. 
+- Habilitar a hospedagem de conteúdo em serviços do Azure AD, como Office, SharePoint, etc. 
 
 - O Surface Hub deve estar executando o Windows 10, versão 1703 ou posterior.
 
 - O Surface Hub é configurado com uma conta local ou domínio.
 
-No momento, você não pode usar o Microsoft Authenticator para iniciar sessão em Surface Hubs que ingressaram no Azure AD.
-
-## Pré-requisitos individuais
+## <a name="individual-prerequisites"></a>Pré-requisitos individuais
 
 - Um telefone Android com versão 6.0 ou posterior, ou um iPhone ou iPad com versão iOS9 ou posterior 
 
@@ -54,9 +52,7 @@ No momento, você não pode usar o Microsoft Authenticator para iniciar sessão 
 
 - Senha ou tela de bloqueio em seu dispositivo está habilitada
 
-- Um endereço de email SMTP padrão (exemplo: joe@contoso.com). Não padrão ou endereços de email SMTP banidos (exemplo: firstname.lastname@contoso.com) atualmente não funcionam.
-
-## Como usar o aplicativo Microsoft Authenticator
+## <a name="how-to-set-up-the-microsoft-authenticator-app"></a>Como usar o aplicativo Microsoft Authenticator
 
 >[!NOTE]
 >Se o Portal de empresas estiver instalado em seu dispositivo Android, desinstale-a antes de configurar o Microsoft Authenticator. Depois de configurar o aplicativo, você pode reinstalar o Portal de empresas.
@@ -67,7 +63,7 @@ No momento, você não pode usar o Microsoft Authenticator para iniciar sessão 
 2. Vá para **Configurações** e registre seu dispositivo.
 3. Retorne à página das contas e escolha **Habilitar entrada por telefone** no menu suspenso de conta.
 
-## Como fazer logon no Surface Hub durante uma reunião
+## <a name="how-to-sign-in-to-surface-hub-during-a-meeting"></a>Como fazer logon no Surface Hub durante uma reunião
 
 1. Depois que você configurou uma reunião, vá para o Surface Hub e selecione **Entrar para ver as reuniões e arquivos**.
 
