@@ -12,12 +12,12 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 03/10/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 4b6797a83936b919aa43a7ae9fc8ae4dd720223a
-ms.sourcegitcommit: f0c976664116c45605edf3d56c4f58119a246b93
+ms.openlocfilehash: 8d9a4f995abda4e005e8136ace62e10fb564c9b8
+ms.sourcegitcommit: ea853f2dba67e63e6df33538670fd581e17facab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "11406604"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "11408806"
 ---
 # <a name="reset-or-recover-a-surface-hub"></a>Redefinir ou recuperar um Surface Hub
 
@@ -37,7 +37,7 @@ Este artigo descreve como redefinir ou recuperar um Microsoft Surface Hub.
 
 Talvez seja preciso redefinir o Surface Hub por motivos como:
 
-- Você está repondo o dispositivo para um novo espaço de reunião e deseja reconfigurá-lo.
+- Você está recompondo o dispositivo para um novo espaço de reunião e deseja reconfigurá-lo.
 - Você deseja alterar como gerencia o dispositivo localmente.
 - O nome de usuário ou a senha da conta do dispositivo ou da conta de Administrador foi perdido.
 - Depois de instalar uma atualização, o desempenho do dispositivo diminui.
@@ -49,18 +49,21 @@ Durante o processo de redefinição, se você vir uma tela em branco por longos 
 
 1. No Surface Hub, abra **Configurações**.
 
-   ![Imagem que mostra o aplicativo Configurações do Surface Hub.](images/sh-settings.png)
+   > [!div class="mx-imgBorder"]
+   > ![Imagem que mostra o aplicativo Configurações do Surface Hub.](images/sh-settings.png)
 
 2. Selecione **Atualizar & Segurança**.
 
-   ![Imagem que mostra o grupo Atualizar & Segurança no aplicativo Configurações do Surface Hub.](images/sh-settings-update-security.png)
+   > [!div class="mx-imgBorder"]
+   > ![Imagem que mostra o grupo Atualizar & Segurança no aplicativo Configurações do Surface Hub.](images/sh-settings-update-security.png)
 
 3. Selecione **Recuperação**e, em **Redefinir dispositivo,** selecione **Iniciar**.
 
    > [!IMPORTANT]
    > Verifique se você tem sua chave BitLocker disponível antes de redefinir o dispositivo, pois você será solicitado mais tarde. Para saber mais, confira [Salvar a tecla BitLocker](save-bitlocker-key-surface-hub.md). Quando o Hub for reiniciado para a partição de recuperação, ele solicitará que você insira a chave BitLocker. Ignorar esse prompt fará com que a redefinição falhe.
    
-   ![Imagem que mostra a opção Redefinir dispositivo no aplicativo Configurações do Surface Hub.](images/sh-settings-reset-device.png)
+   > [!div class="mx-imgBorder"]
+   > ![Imagem que mostra a opção Redefinir dispositivo no aplicativo Configurações do Surface Hub.](images/sh-settings-reset-device.png)
 
    Depois que o processo de redefinição terminar, o Surface Hub iniciará [o primeiro programa de executar](first-run-program-surface-hub.md) novamente. Se o processo de redefinição encontrar um problema, ele rola o Surface Hub de volta para a imagem do sistema operacional anteriormente existente e exibe a tela de boas-vindas.
 
@@ -86,7 +89,8 @@ Se a conta do dispositivo entrar em um estado instável ou se a conta de adminis
 
 2. Em **Recuperar da nuvem,** selecione **Reiniciar agora**.
 
-   ![recuperar da nuvem](images/recover-from-the-cloud.png)
+   > [!div class="mx-imgBorder"]
+   > ![recuperar da nuvem](images/recover-from-the-cloud.png)
 
 ### <a name="recover-a-locked-surface-hub"></a>Recuperar um Surface Hub bloqueado
 
@@ -99,26 +103,31 @@ Em raras ocasiões, o Surface Hub pode encontrar um erro durante a limpeza dos d
 3. Use a opção de energia para ativar novamente o Surface Hub. O dispositivo é iniciado e exibe a tela logotipo do Surface Hub. Quando você vir pontos giratórios sob o Logotipo do Surface Hub, use a opção de energia para desativar o Surface Hub novamente.  
 
 4. Repita a etapa 3 três vezes ou até que o Surface Hub exibe a mensagem "Preparando Reparo Automático". Depois de exibir essa mensagem, o Surface Hub exibe a tela do Windows RE.
-
  
-5. Selecione **Redefinir para instalar novamente o Windows**. 
-![redefinir para reinstalar](images/recover-from-cloud.png)
+5. Selecione **Redefinir**. 
 
-8. Selecione **Baixar na nuvem.** 
+6. Se você for solicitado a inserir a chave BitLocker, faça um dos seguintes:
+   - Para preservar as informações que o BitLocker protege no Surface Hub, insira a chave BitLocker.
+   - Para descartar as informações protegidas, selecione Ignorar essa unidade
+
+7. Selecione **Baixar na nuvem.** 
 
    ![Download em nuvem](images/recover-cloud-download.png)
 
->[!IMPORTANT]
->Se você receber uma mensagem de erro indicando Não é possível **baixar,** selecione **Cancelar** e tente novamente.
+   >[!IMPORTANT]
+   >Se você receber uma mensagem de erro indicando Não é possível **baixar**, selecione **Cancelar** e **redefinir** novamente.
 
-9. Selecione **Limpar totalmente a unidade.**  
-![ recuperar e limpar totalmente a unidade](images/recover-fully-clean-drive.png)
+8. Selecione **Limpar totalmente a unidade.**
+ 
+   ![recuperar e limpar totalmente a unidade](images/recover-fully-clean-drive.png)
 
-10. Você será solicitado **Você está pronto para redefinir este dispositivo?**. Selecione **Redefinir**. 
-![recuperar e confirmar redefinição](images/recover-confirm-reset.png)
+9. Você será solicitado **Você está pronto para redefinir este dispositivo?**. Selecione **Redefinir**. 
+   
+   ![recuperar e confirmar redefinição](images/recover-confirm-reset.png)
 
-11. O download começa e o processo de recuperação indica **Redefinindo este dispositivo**. 
-![recuperação mostrada em andamento](images/recover-in-progress.png)
+10. O download começa e o processo de recuperação indica **Redefinindo este dispositivo**.
+
+    ![recuperação mostrada em andamento](images/recover-in-progress.png)
 
 ## <a name="contact-support"></a>Contate o Suporte
 
