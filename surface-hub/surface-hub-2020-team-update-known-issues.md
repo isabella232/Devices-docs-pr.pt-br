@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 02/09/2021
 ms.localizationpriority: Medium
-ms.openlocfilehash: ddfa9369c03296d9a7792ee0b28bf3b91163b9c7
-ms.sourcegitcommit: f0c976664116c45605edf3d56c4f58119a246b93
+ms.openlocfilehash: 903307112433d794052a4a4e9694f3e793d248c8
+ms.sourcegitcommit: 8b35cdee6c638359403697711ee53d07cca6ee51
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "11406594"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "11442109"
 ---
 # <a name="known-issues-windows-10-team-2020-update"></a>Problemas conhecidos: Atualização do Windows 10 Team 2020 
 
@@ -37,4 +37,3 @@ Para garantir que o Surface Hub receba as atualizações mais recentes, entre co
 | Falha no login único para dispositivos ingressados no Azure Active Directory ao usar um telefone para entrar no Surface Hub | Se um administrador de IT tiver [](surface-hub-2s-phone-authenticate.md) configurado o locatário para usar a autenticação sem senha para entrar no Surface Hub e o dispositivo estiver ingressado no AAD, os usuários não poderão entrar usando um dispositivo móvel, como um telefone.                                                                                                       | Entre manualmente no Surface Hub.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Ao usar o Navegador Herdou de Borda, as Web Notes não podem ser compartilhadas por email. | Depois de criar um Web Note e passar pelo fluxo de compartilhamento para enviar a nota por email, o botão "Enviar" não aparecerá. Como resultado, a nota não pode ser compartilhada por email. | Os Surface Hubs que têm a atualização 2020 instalada podem ser atualizados para o novo navegador do Microsoft Edge, e o compartilhamento de anotações por email funciona com esse navegador.<br> <br>**Saiba mais**: [Instalar o novo Microsoft Edge no Surface Hub](surface-hub-install-chromium-edge.md) |
 | O Centro de Ações tem um link Configurações não cíveis. | Esse link não deve aparecer na Equipe do Windows 10 e pode causar confusão.   | A funcionalidade é a mesma de antes da atualização de 2020; a seção Aplicativos do menu Iniciar deve ser usada para iniciar o aplicativo Configurações.    |
-| Hub 2S Devices reporting all 0s for Serial Number after updating to November 24, 2020 update for Windows 10 Team 2020 for 2S. | Depois de instalar a atualização do Surface Hub 2S 24 de novembro para o Windows 10 Team 2020 ou instalar a imagem de recuperação do Windows 10 Team 2020 (BMR), alguns dispositivos estão relatando todos os zeros para o Número de Série. Isso impede que os dispositivos se inscrevam em provedores MDM.  | Esse problema ocorreu quando um dispositivo não tinha a atualização de **firmware do Surface SMC 1.177.139.0** (parte do 1º de setembro, Atualização 2020 para Windows 10 Team Creators Update) antes de mudar para a atualização de **firmware do SMC 3.91.139.0** (incluída na BMR original do Windows 10 Team 2020, ou parte da atualização de 24 de novembro de 2020 para Windows 10 Team 2020). Como a atualização de firmware do **Surface SMC 3.93.139.0** agora está incluída na BMR atual do Windows 10 Team 2020 e oferecida para dispositivos Surface Hub 2S por meio do Windows Update, não é mais possível executar esse problema. Os dispositivos já afetados terão um novo número de série gerado depois que a atualização de firmware for instalada. Observe que o dispositivo precisará ser reiniciado duas vezes depois que a atualização for instalada para concluir a instalação. **Saiba mais**: [Histórico de atualizações do Surface Hub.](surface-hub-update-history.md) |

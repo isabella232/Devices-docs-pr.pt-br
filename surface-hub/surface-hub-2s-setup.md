@@ -1,6 +1,6 @@
 ---
-title: Configuração da primeira vez para Surface Hub 2S
-description: Saiba como concluir a configuração da primeira vez para o Surface Hub 2S.
+title: Instalação da primeira vez para o Surface Hub 2S
+description: Saiba como concluir a instalação da primeira vez para o Surface Hub 2S.
 keywords: separar os valores com vírgulas
 ms.prod: surface-hub
 ms.sitesec: library
@@ -9,97 +9,104 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 07/03/2019
+ms.date: 03/03/2019
 ms.localizationpriority: Medium
-ms.openlocfilehash: 47a393944c1b524931a6ac56962cc2cd60786007
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 9cbce8bf0cc9c729af4cd052167fef016197274f
+ms.sourcegitcommit: 8b35cdee6c638359403697711ee53d07cca6ee51
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830633"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "11442189"
 ---
-# Configuração da primeira vez para Surface Hub 2S
+# <a name="first-time-setup-for-surface-hub-2s"></a>Instalação da primeira vez para o Surface Hub 2S
 
-Quando você inicia pela primeira vez o Surface Hub 2S, o dispositivo entra automaticamente no modo de configuração inicial para orientá-lo por meio de configuração de conta e configurações relacionadas.
+Quando você inicia o Surface Hub 2S pela primeira vez, o dispositivo entra automaticamente no modo de Instalação da primeira vez para orientá-lo através da configuração da conta e das configurações relacionadas.
 
-## Configurando a conta do Surface Hub 2S
+## <a name="configuring-surface-hub-2s-account"></a>Configurando a conta do Surface Hub 2S
 
-1. **Configure sua localidade.** Digite a região, o idioma, o layout do teclado e as informações do fuso horário. Selecione **Avançar**.
+1. **Configure sua localidade.** Insira informações de região, idioma, layout do teclado e fuso horário. Selecione **Avançar**.
 
-   ![* Configurar sua localidade *](images/sh2-run1.png) <br>
-1. **Conecte-se a uma rede sem fio.** Escolha sua rede sem fio preferencial e selecione **Avançar.**
+   ![* Configure sua localidade *](images/sh2-run1.png)
 
-- Essa opção não é mostrada se estiver conectada usando um cabo Ethernet.
-- Você não pode se conectar a uma rede sem fio em pontos de acesso (portais prisioneiros) que redirecionem solicitações de entrada para um site do provedor.
+1. **Conecte-se a uma rede sem fio.** Escolha sua rede sem fio preferida e selecione **Next.**
 
-3. **Insira as informações da conta do dispositivo.** Use **domínio** \ usuário para ambientes locais e híbridos e o **usuário \ @example. com** para ambientes online. Selecione **Avançar.**
+   - Essa opção não será mostrada se estiver conectada usando um cabo Ethernet.
 
-   ![* Insira as informações da conta do dispositivo *](images/sh2-run2.png) <br>
-1. **Insira informações adicionais.** Se solicitado, forneça o endereço do servidor do Exchange e selecione **Avançar.**
+   - Você não pode se conectar a uma rede sem fio em hotspots (portais cativos) que redirecionam as solicitações de login para o site de um provedor.
 
-    ![* Insira mais informações; por exemplo, nome do servidor Exchange *](images/sh2-run3.png) <br>
+3. **Insira informações da conta do dispositivo.** Use **domínio\usuário** para ambientes locais e híbridos e **user\@example.com** para ambientes online. Selecione **Próximo.**
 
-1. **Nomeie este dispositivo.** Insira um nome para o seu dispositivo ou use o sugerido com base no nome para exibição e nome do princípio do usuário [UPN] da sua conta. **Selecione Avançar**.
+   ![* Insira informações da conta do dispositivo *](images/sh2-run2.png)
 
-- O **nome amigável** fica visível no canto inferior esquerdo do Surface Hub 2S e é exibido durante a projeção para o dispositivo.
+1. **Insira informações adicionais.** Se solicitado, forneça seu endereço de servidor do Exchange e selecione **Next.**
 
-- O **nome do dispositivo** identifica o dispositivo quando associado ao Active Directory ou ao Active Directory do Azure, e ao registrar o dispositivo com o Intune.
+   ![* Insira mais informações; por exemplo, nome do servidor exchange*](images/sh2-run3.png)
 
-  ![* Nomeie este dispositivo *](images/sh2-run4.png) <br>
+1. **Nomeia esse dispositivo.** Insira um nome para seu dispositivo ou use o sugerido com base no nome de exibição da sua conta e no nome de princípio do usuário [UPN]. **Selecione Próximo**.
+
+   - O **nome Amigável** fica visível no canto inferior esquerdo do Surface Hub 2S e é mostrado ao projetar para o dispositivo.
+
+   - O **nome do dispositivo** identifica o dispositivo quando afiliada ao Active Directory ou ao Azure Active Directory e ao registrar o dispositivo com o Intune.
+
+   ![* Nome deste dispositivo*](images/sh2-run4.png)
  
-## Configurando contas de administradores de dispositivos
 
-Você só pode configurar administradores de dispositivo durante a primeira configuração. Para obter mais informações, confira [Surface Hub 2s Device afiliation](https://docs.microsoft.com/surface-hub/surface-hub-2s-prepare-environment#device-affiliation).
+## <a name="configuring-device-admin-accounts"></a>Configurando contas de administrador de dispositivo
 
- Na janela **Configurar administradores para este dispositivo** , selecione uma das seguintes opções: serviços de domínio do Active Directory, Active Directory do Azure ou administrador local.
+Você só pode configurar administradores de dispositivos durante a instalação da primeira vez. Para obter mais informações, consulte [a afiliação de dispositivos do Surface Hub 2S](https://docs.microsoft.com/surface-hub/prepare-your-environment-for-surface-hub#device-affiliation).
 
-   ![* Configurar administradores para este dispositivo *](images/sh2-run5.png) <br>
+Na janela **Administradores de** Instalação para este dispositivo, selecione uma das seguintes opções: Serviços de Domínio do Active Directory, Azure Active Directory ou Administrador Local.
 
-### Active Directory Domain Services
+![* Administradores de instalação para este dispositivo *](images/sh2-run5.png)
 
-1. Insira as credenciais de um usuário que tem permissões para ingressar no dispositivo no Active Directory.
+### <a name="active-directory-domain-services"></a>Active Directory Domain Services
 
-    ![* Configurar administradores usando ingresso no domínio *](images/sh2-run6.png) <br>
+1. Insira as credenciais de um usuário que tenha permissões para ingressar no dispositivo no Active Directory.
 
-2. Selecione o grupo de segurança do Active Directory que contém os membros permitidos para fazer logon no aplicativo configurações no Surface Hub 2S.
+    ![* Administradores de instalação usando a junção de domínio *](images/sh2-run6.png)
 
-    ![* Insira um grupo de segurança *](images/sh2-run7.png) <br>
-1. Selecione **concluir**. O dispositivo será reiniciado.
+2. Selecione o Grupo de Segurança do Active Directory que contém membros permitidos para fazer logoff no aplicativo Configurações no Surface Hub 2S.
 
-### Azure Active Directory
+   ![* Insira um grupo de segurança *](images/sh2-run7.png)
 
-Ao escolher associar seu dispositivo ao Azure Active Directory, o dispositivo será reiniciado imediatamente e exibirá a página a seguir. Selecione **Avançar**.
+1. Selecione **Concluir**. O dispositivo será reiniciado agora.
 
-![* Se a sua organização usa o Office 365 ou outros serviços comerciais da Microsoft, registraremos este dispositivo com a sua organização *](images/sh2-run8.png) <br>
+### <a name="azure-active-directory"></a>Azure Active Directory
 
-1. Digite o endereço de email ou o UPN de uma conta **com o Intune plano 1** ou superior e, em seguida, selecione **Avançar.**
+Ao optar por afiliadar seu dispositivo ao Azure Active Directory, o dispositivo será reiniciado imediatamente e exibirá a página a seguir.
 
-    ![* Insira uma conta corporativa ou de estudante *](images/sh2-run9.png) <br>
+![* Se sua organização usa o Office 365 ou outros serviços comerciais da Microsoft, registraremos esse dispositivo com sua organização*](images/sh2-run8.png)
 
-2. Se for redirecionado, autentique usando a página de entrada da sua organização e fornecerá informações de logon adicionais, se solicitado. O dispositivo será reiniciado.
+1. Selecione **Avançar**.
 
-## Conta de administrador local
+1. Insira o endereço de email ou UPN de uma conta com o Plano 1 ou superior do **Intune** e selecione **Próximo.**
 
-- Insira um nome de usuário e senha para seu administrador local. O dispositivo será reiniciado.
+   ![* Insira conta de trabalho ou de estudante*](images/sh2-run9.png)
 
-     ![* Configurar uma conta de administrador *](images/sh2-run10.png) <br>
+1. Se redirecionado, autenticar usando a página de logon da sua organização e fornecer informações de logon adicionais, se solicitado. O dispositivo será reiniciado agora.
+
+## <a name="local-administrator-account"></a>Conta de Administrador Local
+
+- Insira um nome de usuário e uma senha para o administrador local. O dispositivo será reiniciado.
+
+  ![* Configurar uma conta de administrador*](images/sh2-run10.png)
  
-## Usando pacotes de provisionamento
+## <a name="using-provisioning-packages"></a>Usando pacotes de provisionamento
 
-Se você inserir um pen drive com um pacote de aprovisionamento em uma das portas USB ao iniciar o Surface Hub 2S, o dispositivo exibirá a página a seguir.
+Se você inserir uma unidade de pen drive com um pacote de provisionamento em uma das portas USB ao iniciar o Surface Hub 2S, o dispositivo exibirá a página a seguir.
 
 1. Insira as configurações solicitadas e selecione **Configurar**.
 
-    ![* Insira as configurações regionais para o pacote de provisionamento *](images/sh2-run11.png) <br>
+   ![* Insira configurações regionais para o pacote de provisionamento*](images/sh2-run11.png)
 
-    ![* Provisionar este dispositivo em mídia removível *](images/sh2-run12.png) <br>
+   ![* Provisione este dispositivo de mídia removível*](images/sh2-run12.png)
+
 2. Escolha o pacote de provisionamento que você gostaria de usar.
 
-   ![* Escolha o pacote de provisionamento a ser usado *](images/sh2-run13.png) <br>
+   ![* Escolha o pacote de provisionamento a ser usado*](images/sh2-run13.png)
 
-3. Se você criou um arquivo CSV de vários dispositivos, poderá escolher uma configuração de dispositivo. Para obter mais informações, consulte [criar pacotes de provisionamento para o Surface Hub 2s](https://docs.microsoft.com/surface-hub/surface-hub-2s-deploy#provisioning-multiple-devices-csv-file).
+3. Se você criou um arquivo CSV de vários dispositivos, poderá escolher uma configuração de dispositivo. Para obter mais informações, consulte [Create provisioning packages for Surface Hub 2S](https://docs.microsoft.com/surface-hub/surface-hub-2s-deploy#provisioning-multiple-devices-csv-file).
 
+   ![* Selecione uma conta de dispositivo e um nome amigável no arquivo de configuração*](images/sh2-run14.png)
 
-    ![* Selecione uma conta de dispositivo e um nome amigável do seu arquivo de configuração *](images/sh2-run14.png) <br>
-
-4. Siga as instruções para concluir a configuração da primeira vez.
+4. Siga as instruções para concluir a instalação da primeira vez.

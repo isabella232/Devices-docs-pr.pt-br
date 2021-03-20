@@ -1,7 +1,7 @@
 ---
-title: Wake On LAN para dispositivos Surface (Surface)
-description: Veja como você pode usar o Wake On LAN para acioná-los remotamente para realizar tarefas de gerenciamento ou manutenção ou para habilitar soluções de gerenciamento automaticamente, mesmo que os dispositivos sejam desligados.
-keywords: atualizar, implantar, driver, ltd, wake-on-lan
+title: Wake On LAN para dispositivos Surface
+description: Veja como você pode usar Wake On LAN para acordar remotamente dispositivos para executar tarefas de gerenciamento automaticamente.
+keywords: update, deploy, driver, wol, wake-on-lan
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.pagetype: surface, devices
@@ -10,68 +10,55 @@ ms.localizationpriority: medium
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.reviewer: scottmca
+ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
-ms.date: 1/15/2021
-ms.openlocfilehash: 709286cc0d62bd0b4c1e28e7626529fc4a215ae2
-ms.sourcegitcommit: 1b86286bd13b13749ddbf454ae78d9a24fec44ee
+ms.date: 3/19/2021
+ms.openlocfilehash: 1fbbf899876d154469d48fa75a179196697205c1
+ms.sourcegitcommit: 8b35cdee6c638359403697711ee53d07cca6ee51
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "11271118"
+ms.lasthandoff: 03/20/2021
+ms.locfileid: "11442149"
 ---
-# Wake On LAN para dispositivos Surface
+# <a name="wake-on-lan-for-surface-devices"></a>Wake On LAN para dispositivos Surface
 
-Dispositivos Surface que executem o Windows 10, versão 1607 (também conhecido como Atualização de Aniversário do Windows 10) ou posterior e usam um adaptador Ethernet do Surface para se conectar a uma rede com fio, são capazes de Wake On LAN (ETHERNET) do Modo de Espera Conectado. Com o DRAG, você pode ativar remotamente os dispositivos para executar tarefas de gerenciamento ou manutenção ou habilitar soluções de gerenciamento (como o Microsoft Endpoint Configuration Manager) automaticamente. Por exemplo, você pode implantar aplicativos em dispositivos Surface à esquerda encaixados com um Surface Dock ou Uma Base de Encaixe do Surface Pro 3 usando o Microsoft Endpoint Configuration Manager durante uma janela no meio da noite, quando o escritório estiver vazio.
+Os dispositivos Surface que usam um adaptador Surface Ethernet para se conectar a uma rede com fio podem tirar proveito do Wake On LAN (WOL) de Espera Conectada. Com o WOL, você pode acordar remotamente dispositivos e executar tarefas de gerenciamento automaticamente usando soluções de gerenciamento, como o Microsoft Endpoint Manager/Microsoft Intune.
 
->[!NOTE]
->Os dispositivos Surface devem estar conectados à alimentação AC e em modo de espera conectado ( sleep) para dar suporte a BLUETOOTH. NÃO é possível com dispositivos que estão em hibernação ou desligados.
+## <a name="wol-supported-devices"></a>Dispositivos compatíveis com o WOL
 
-## Dispositivos com suporte
+- Adaptador Surface Ethernet
+- Surface USB-C para Ethernet e Adaptador USB
+- Surface Dock 2
+- Surface Pro 6 e posterior
+- Surface Book (todas as gerações)
+- Surface Laptop (todas as gerações)
+- Surface Go (todas as gerações)
+- Surface Studio 2 (consulte Apêndice)
 
-Os seguintes dispositivos são compatíveis com o BLUETOOTH:
 
-* Adaptador Ethernet Surface
-* Surface USB-C para Ethernet e adaptador USB
-* Encaixe do Surface
-* Base de Encaixe do Surface para Surface Pro 3
-* Surface 3
-* Surface Pro 3
-* Surface Pro 4
-* Surface Pro (5ª geração)
-* Surface Pro (5ª geração) com LTE Avançado
-* Surface Book
-* Surface Laptop (1ª geração)
-* Surface Pro 6
-* Surface Book 2
-* Surface Laptop 2
-* Surface Go
-* Surface Go com LTE Avançado
-* Surface Studio 2 (consulte as instruções do Surface Studio 2 abaixo)
-* Surface Pro 7
-* Surface Laptop 3
-* Surface Laptop Go
-* Surface Pro 7+
+## <a name="using-surface-wol"></a>Usando o Surface WOL
 
-## Driver DELM
+Os administradores de IT podem disparar dispositivos usando um wake on LAN request (pacote mágico) que contém o endereço MAC do computador de destino. Para enviar um pacote mágico e acordar um dispositivo usando o WOL, você deve saber o endereço MAC do dispositivo de destino e o adaptador Ethernet. Como o pacote mágico não usa o protocolo de rede IP, não é possível usar o endereço IP ou o nome DNS do dispositivo.
 
-Para habilitar o suporte a ETHERNET em dispositivos Surface, é necessário um driver específico para o adaptador Ethernet do Surface. Esse driver não está incluído no pacote de firmware e driver padrão para dispositivos Surface – você deve baixá-lo e instalá-lo separadamente. Você pode baixar o driver SURFACE SURFACE (SurfaceWOL.msi) na página Ferramentas do [Surface para](https://www.microsoft.com/download/details.aspx?id=46703) TI no Centro de Download da Microsoft.
+Muitas soluções de gerenciamento, como o Microsoft Endpoint Configuration Manager e aplicativos da Microsoft Store de terceiros oferecem suporte integrado para o WOL. Observe que os dispositivos precisam estar no modo De espera conectado (Sleep) e conectados à energia ac. Para saber mais sobre como acordar dispositivos com o Endpoint Configuration Manager, consulte [Configure Wake on LAN - Configuration Manager](https://docs.microsoft.com/mem/configmgr/core/clients/deploy/configure-wake-on-lan).
 
-Você pode executar esse arquivo do Microsoft Windows Installer (.msi) em um dispositivo Surface para instalar o driver SURFACE USB ou distribuí-lo para dispositivos Surface com uma solução de implantação de aplicativo, como o Microsoft Endpoint Configuration Manager. Para incluir o driver DO SURFACE SURFACE DURANTE A implantação, você pode instalar o arquivo .msi como um aplicativo durante o processo de implantação. Você também pode extrair os arquivos de driver DO SURFACE LTD para incluí-los no processo de implantação. Por exemplo, você pode incluí-los no compartilhamento de implantação do Microsoft Deployment Toolkit (MDT). Você pode ler mais sobre a implantação do Surface com o MDT em Implantar o Windows 10 em dispositivos [Surface com o Microsoft Deployment Toolkit.](https://technet.microsoft.com/itpro/surface/deploy-windows-10-to-surface-devices-with-mdt)
 
-> [!NOTE]
-> Durante a instalação do SurfaceWOL.msi, a chave do Registro a seguir é definida como um valor 1, o que permite a identificação fácil de sistemas em que o driver DOLS foi instalado. Se você optar por extrair e instalar esses drivers separadamente durante a implantação, essa chave do Registro não será configurada e deverá ser configurada manualmente ou com um script.
-> 
-> **HKLM\SYSTEM\CurrentControlSet\Control\Power AllowSystemRequiredPowerRequests** 
+## <a name="to-check-wol-is-enabled-on-your-device"></a>Para verificar se a WOL está habilitada em seu dispositivo
 
-Para extrair o conteúdo do SurfaceWOL.msi, use a opção de instalação administrativa MSIExec (**/a**), conforme mostrado no exemplo a seguir, para extrair o conteúdo para a pasta C:\IBM\:
+1. Em seu dispositivo conectado Ethernet, selecione seu adaptador de rede e selecione **Propriedades**.
 
-   `msiexec /a surfacewol.msi targetdir=C:\WOL /qn`
+   > [!div class="mx-imgBorder"]
+   > ![Adaptador Surface Ethernet](images/surface-ethernet.png)
 
-## Instruções do Surface Studio 2
+2. Selecione **Configurar**  >  **Avançado**.
+3. Role até **Pacote Moderno de Espera WoL Mágico** e certifique-se de que **Habilitado** está selecionado.
 
-Para habilitar o RECURSO NO Surface Studio 2, você deve usar o procedimento a seguir
+     ![Verificar se a WOL está habilitada no dispositivo](images/ethernet-wol-setting.png)
+
+## <a name="appendix-surface-studio-2"></a>Apêndice: Surface Studio 2
+
+Para habilitar o WOL no Surface Studio 2, use o procedimento a seguir.
 
 1. Crie as seguintes chaves do Registro:
 
@@ -89,14 +76,9 @@ Para habilitar o RECURSO NO Surface Studio 2, você deve usar o procedimento a s
 
     ```powercfg /SETACVALUEINDEX SCHEME_BALANCED SUB_NONE CONNECTIVITYINSTANDBY 1```
 
-## Usando o Surface SURFACE SURFACE
 
-O driver SURFACEFORM está em conformidade com o padrão PORTAL, por meio do qual o dispositivo é comunicado por uma comunicação de rede especial conhecida como um pacote mágico. O pacote clássico consiste em 6 bytes de 255 (ou FF em hexadecimal) seguidos por 16 repetições do endereço MAC do computador de destino. Você pode ler mais sobre o pacote clássico e o padrão DELM na [Wikipédia.](https://wikipedia.org/wiki/Wake-on-LAN#Magic_packet)
+## <a name="learn-more"></a>Saiba mais
 
->[!NOTE]
->Para enviar um pacote clássico e apertá-lo usando o ETHERNET, você deve saber o endereço MAC do dispositivo de destino e do adaptador Ethernet. Como o pacote sujo não usa o protocolo de rede IP, não é possível usar o endereço IP ou o nome DNS do dispositivo.
+- [Microsoft Surface USB-C para Ethernet e Adaptador USB](https://www.microsoft.com/p/surface-usb-c-to-ethernet-and-usb-adapter/8wt81cglrblp?)
 
-Muitas soluções de gerenciamento, como o Configuration Manager, fornecem suporte integrado para o TAMBÉM. Há também muitas soluções, incluindo aplicativos da Microsoft Store, módulos do PowerShell, aplicativos de terceiros e soluções de gerenciamento de terceiros que permitem que você envie um pacote mágico para apertá-lo. Por exemplo, você pode usar o [módulo Wake On LAN PowerShell](https://gallery.technet.microsoft.com/scriptcenter/Wake-On-Lan-815424c4) do TechNet Script Center. 
-
->[!NOTE]
->Depois que um dispositivo tiver sido reatado com um pacote mágico, o dispositivo retornará ao sleep se um aplicativo não estiver ativamente impedindo o sleep no sistema ou se a chave do Registro AllowSystemRequiredPowerRequests não estiver configurada como 1, o que permite que os aplicativos impeçam o sleep. Consulte a [seção do driver DELLs](#wol-driver) deste artigo para obter mais informações sobre essa chave do Registro.
+- [Adaptador Ethernet Surface USB 3.0 Gigabit](https://www.microsoft.com/p/surface-usb-30-gigabit-ethernet-adapter/8xn9fqvzbvq0?)
