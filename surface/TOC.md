@@ -83,6 +83,7 @@
 
 ## Planos de proteção e garantia
 ### [Planos de proteção e garantia do Surface para Empresas](https://www.microsoft.com/surface/business/warranty-service-offerings-and-support)
-### [Termos e condições](https://support.microsoft.com/help/4493926/warranties-extended-service-plans-and-terms-conditions-for-your-device)
+### [Termos e Condições](https://support.microsoft.com/help/4493926/warranties-extended-service-plans-and-terms-conditions-for-your-device)
+### [Substituição do Próximo Dia Útil](surface-next-business-day-replacement.md)
 ### [Verificar o status da garantia do dispositivo](https://mybusinessservice.surface.com/)
 ### [Proteção de dados quando enviar o Surface para manutenção](https://support.microsoft.com/help/4023508/surface-faq-protecting-your-data-service)
