@@ -21,8 +21,8 @@
 #### [Personalizar o suporte de parede do Surface Hub 2S](surface-hub-2s-custom-install.md)
 #### [Planilha de instalação](setup-worksheet-surface-hub.md)
 #### [Visão geral do teclado numérico e das portas do Surface Hub 2S](surface-hub-2s-port-keypad-overview.md)
-#### [Conectar outros dispositivos ao Surface Hub 2S](surface-hub-2s-connect.md)
-### [Preparar seu ambiente para o Microsoft Surface Hub 2S](surface-hub-2s-prepare-environment.md)
+#### [Conectar dispositivos ao Surface Hub 2S](surface-hub-2s-connect.md)
+### [Preparar o ambiente para o Microsoft Surface Hub](prepare-your-environment-for-surface-hub.md)
 
 
 ## Implantar
