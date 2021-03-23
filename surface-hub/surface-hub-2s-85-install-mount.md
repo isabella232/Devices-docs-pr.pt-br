@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 03/02/2020
+ms.date: 03/22/2020
 ms.localizationpriority: Medium
-ms.openlocfilehash: 1fab09ef21dbddbb2b4f292acd716c6e6cbaff7e
-ms.sourcegitcommit: 5c904229a0257297be7f724c264e484d2c4b5168
+ms.openlocfilehash: 6224f9aa3abed85d5aff7e7e58fccbb6df41d283
+ms.sourcegitcommit: 6c362c5d5f67449f1adf4618847093eaf6ad087b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "11387491"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "11442905"
 ---
 # <a name="install-and-mount-surface-hub-2s-85"></a>Instalar e montar o Surface Hub 2S 85"
 
@@ -27,8 +27,6 @@ Este artigo fornece orientações de suporte para instalar fisicamente o Microso
 - Antes de começar, confira o Vídeo de Unboxing e Configuração do Microsoft Surface Hub 2S 85":
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWwwgL]
-
-- Uma versão em chinês deste vídeo está disponível no [Apêndice B](#appendix-b-unboxing-video) abaixo. 
 
 ## <a name="follow-all-safety-precautions"></a>Siga todas as precauções de segurança 
 
@@ -205,15 +203,6 @@ Uma tela de toque quebrada ou lascada causada por uso indevido ou abuso de seu d
 > [!WARNING]
 >  **Instalação adequada**<br>
 Para evitar riscos relacionados à instalação inadequada do dispositivo, a instalação deve ser realizada por pessoas que leram e entenderam a instrução de instalação antes do início do trabalho. Se você não tiver o equipamento ou a experiência necessários ou se não tiver certeza de que a superfície de montagem poderá suportar adequadamente consultar um instalador profissional.
-
-
-## <a name="appendix-b-unboxing-video"></a>Apêndice B: Unboxing video
-
-
-### <a name="microsoft-surface-hub-2s-85-unboxing-and-set-up-video-chinese"></a>Microsoft Surface Hub 2S 85" Unboxing and Set Up video (chinês)
-
-> [!VIDEO https://www.microsoft.com/zh-cn/videoplayer/embed/RE4MRqV]
-
 
 ## <a name="more-information"></a>Mais informações
 
