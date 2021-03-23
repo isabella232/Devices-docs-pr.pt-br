@@ -14,12 +14,12 @@ ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
 ms.date: 3/19/2021
-ms.openlocfilehash: 1fbbf899876d154469d48fa75a179196697205c1
-ms.sourcegitcommit: 8b35cdee6c638359403697711ee53d07cca6ee51
+ms.openlocfilehash: 9c3302616de97cf60b7d750948fed653456a7cba
+ms.sourcegitcommit: 6c362c5d5f67449f1adf4618847093eaf6ad087b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "11442149"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "11442885"
 ---
 # <a name="wake-on-lan-for-surface-devices"></a><span data-ttu-id="d90c9-104">Wake On LAN para dispositivos Surface</span><span class="sxs-lookup"><span data-stu-id="d90c9-104">Wake On LAN for Surface devices</span></span>
 
@@ -44,7 +44,7 @@ ms.locfileid: "11442149"
 <span data-ttu-id="d90c9-120">Muitas soluções de gerenciamento, como o Microsoft Endpoint Configuration Manager e aplicativos da Microsoft Store de terceiros oferecem suporte integrado para o WOL.</span><span class="sxs-lookup"><span data-stu-id="d90c9-120">Many management solutions, such as Microsoft Endpoint Configuration Manager and third party Microsoft Store apps provide built-in support for WOL.</span></span> <span data-ttu-id="d90c9-121">Observe que os dispositivos precisam estar no modo De espera conectado (Sleep) e conectados à energia ac.</span><span class="sxs-lookup"><span data-stu-id="d90c9-121">Note that devices need to be in Connected Standby (Sleep) mode and connected to AC power.</span></span> <span data-ttu-id="d90c9-122">Para saber mais sobre como acordar dispositivos com o Endpoint Configuration Manager, consulte [Configure Wake on LAN - Configuration Manager](https://docs.microsoft.com/mem/configmgr/core/clients/deploy/configure-wake-on-lan).</span><span class="sxs-lookup"><span data-stu-id="d90c9-122">To learn more about waking devices with Endpoint Configuration Manager, see [Configure Wake on LAN - Configuration Manager](https://docs.microsoft.com/mem/configmgr/core/clients/deploy/configure-wake-on-lan).</span></span>
 
 
-## <a name="to-check-wol-is-enabled-on-your-device"></a><span data-ttu-id="d90c9-123">Para verificar se a WOL está habilitada em seu dispositivo</span><span class="sxs-lookup"><span data-stu-id="d90c9-123">To check WOL is enabled on your device</span></span>
+### <a name="to-check-wol-is-enabled-on-your-device"></a><span data-ttu-id="d90c9-123">Para verificar se a WOL está habilitada em seu dispositivo</span><span class="sxs-lookup"><span data-stu-id="d90c9-123">To check WOL is enabled on your device</span></span>
 
 1. <span data-ttu-id="d90c9-124">Em seu dispositivo conectado Ethernet, selecione seu adaptador de rede e selecione **Propriedades**.</span><span class="sxs-lookup"><span data-stu-id="d90c9-124">On your Ethernet connected device, select your network adapter, and then select **Properties**.</span></span>
 
