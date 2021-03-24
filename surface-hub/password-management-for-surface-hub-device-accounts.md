@@ -12,14 +12,14 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 07/27/2017
 ms.localizationpriority: medium
-ms.openlocfilehash: bef626fce875d5074f3ed47ed957e821beec7c77
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 215736527121306c712932f57a5a3a853fb3bb20
+ms.sourcegitcommit: 366eedceb9f859f5e87ba032b161f248360cb895
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10831104"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "11445577"
 ---
-# Gerenciamento de senhas (Surface Hub)
+# <a name="password-management-surface-hub"></a>Gerenciamento de senhas (Surface Hub)
 
 Toda conta de dispositivo do Microsoft Surface Hub requer uma senha para autenticar e habilitar recursos no dispositivo. Por motivos de segurança, convém alterar (ou "girar") essa senha regularmente. No entanto, se a senha da conta de dispositivo mudar, a conta que estava anteriormente armazenada no Surface Hub será inválida, e todos os recursos que dependem da conta de dispositivo serão desabilitados. Você precisará atualizar a senha da conta de dispositivo no Surface Hub, no aplicativo Configurações, para reabilitar esses recursos.
 
@@ -29,16 +29,16 @@ Para simplificar o gerenciamento de senhas para suas contas de dispositivos Surf
 2.  Permitir que o Surface Hub mude automaticamente a senha da conta de dispositivo.
 
 
-## Desativar a rotação de senha para a conta de dispositivo
+## <a name="turn-off-password-rotation-for-the-device-account"></a>Desativar a rotação de senha para a conta de dispositivo
 
 Defina a propriedade **PasswordNeverExpires** da conta de dispositivo como True. Você deve verificar se isso atende aos requisitos de segurança da sua organização.
 
 
-## Permitir que o Surface Hub mude automaticamente a senha da conta de dispositivo
+## <a name="allow-the-surface-hub-to-automatically-rotate-the-device-accounts-password"></a>Permitir que o Surface Hub mude automaticamente a senha da conta de dispositivo
 
-O Surface Hub pode gerenciar a senha da conta de um dispositivo alterando-a com frequência sem exigir que você atualize manualmente as informações da conta de dispositivo. Você pode habilitar esse recurso em **Configurações**. Uma vez habilitado, a senha da conta de dispositivo mudará semanalmente durante o horário de manutenção.
+O Surface Hub pode alterar automaticamente a senha de uma conta de dispositivo sem exigir que você a atualize manualmente. Você pode habilitar esse recurso em **Configurações**  >  **contas do Surface Hub.**  >  **** Se você ativar Rotação de Senha, o Surface Hub tentará alterar a senha a cada 7 dias durante o horário de manutenção. As senhas não são mudadas durante uma reunião. Se 7 dias se passaram desde a última rotação de senha, mas o Surface Hub estava desligado, ele tentará alterar a senha imediatamente quando estiver ligado ou a cada 10 minutos até ter êxito.
 
-Observe que, quando a senha da conta de dispositivo for alterada, você não verá a nova senha. Se você precisar entrar na conta, ou fornecer a senha novamente (por exemplo, se desejar alterar as configurações da conta de dispositivo no Surface Hub), será necessário usar o Active Directory ou o portal de administração do Office 365 para redefinir a senha.
+As senhas geradas automaticamente contêm de 15 a 32 caracteres, incluindo uma combinação de letras maiúsculas e minúsculas, números e caracteres especiais. Observe que, quando a senha da conta do dispositivo for alterada, você não será mostrado a nova senha. Se você precisar entrar na conta ou fornecer a senha novamente (por exemplo, se quiser alterar as configurações da conta de dispositivo no Surface Hub), será necessário usar o Active Directory ou o portal de administração do Microsoft 365 para redefinir a senha.
 
 > [!IMPORTANT]
-> Se a sua organização usa uma topologia híbrida (alguns serviços são hospedados no local e alguns são hospedados online por meio do Office 365), você deverá configurar a conta de dispositivo no formato **domínio\nome de usuário**. Caso contrário, rotação de senha não funcionará.
+> O formato usado ao adicionar a conta de dispositivo ao Surface Hub tem um impacto sobre qual opção de [afiliação](prepare-your-environment-for-surface-hub.md) de dispositivo deve ser usada para que a rotação de senha funcione. Se adicionar a conta no **formato domínio\nome** de usuário, afiliada o Hub ao Active Directory local durante a configuração inicial. Se adicionar a conta no `username@domain.com` formato, afiliada o Hub com o Azure Active Directory durante a configuração inicial. Caso contrário, rotação de senha não funcionará.
