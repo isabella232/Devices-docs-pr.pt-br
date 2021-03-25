@@ -7,16 +7,16 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 03/03/2021
+ms.date: 03/23/2021
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: f3ffcc46912fba3313e4489f5713b6ffcacf2d8a
-ms.sourcegitcommit: 5c904229a0257297be7f724c264e484d2c4b5168
+ms.openlocfilehash: 9c76f9405146c5cda4afe6b46ce7e1cce0062682
+ms.sourcegitcommit: 88ce9e77afdc3d09984edc05286cd0f1eb054223
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "11387476"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "11448295"
 ---
 # <a name="operating-system-essentials-surface-hub"></a>Noções básicas do sistema operacional (Surface Hub)
 
@@ -71,26 +71,26 @@ Os arquivos salvos localmente nesses diretórios são excluídos quando os usuá
 Com algumas exceções, os aplicativos padrão da Plataforma Universal do Windows (UWP) no Surface Hub também estão disponíveis em computadores com Windows 10.
 
 Aplicativos UWP pré-instalados no Surface Hub:
+
 - Alarmes e Relógio
 - Calculadora
 - Connect
 - Excel Mobile
 - Hub de Feedback
-- Explorador de Arquivos*
+- Explorador de Arquivos
 - Introdução
 - Mapas
 - Microsoft Edge
 - Microsoft Power BI
+- Microsoft Teams
+- Microsoft Whiteboard
 - OneDrive
 - Fotos
 - PowerPoint Mobile
-- Configurações*
-- Skype for Business*
-- Loja
-- Quadro de comunicações*
+- Configurações
+- Store
+- Dicas
 - Word Mobile
-
-*Aplicativos com um asterisco (&ast;) são exclusivos do Surface Hub*
 
 *Políticas da organização que isso pode afetar:* <br> Use as diretrizes para o Windows 10 Enterprise para determinar os recursos e requisitos de rede para aplicativos padrão no Surface Hub.
 
@@ -106,11 +106,11 @@ Para o Surface Hub ser usado em espaços públicos, como salas de reunião, seu 
 
 O Surface Hub implementa estes recursos de segurança do Windows 10:
 - [Inicialização segura UEFI](https://msdn.microsoft.com/windows/hardware/commercialize/manufacture/desktop/secure-boot-overview)
-- [UMCI (integridade de código do modo de usuário) com o Device Guard](https://technet.microsoft.com/itpro/windows/keep-secure/introduction-to-device-guard-virtualization-based-security-and-code-integrity-policies)
+- [Controle de aplicativos do Windows Defender e proteção de integridade de código baseada na virtualização](https://technet.microsoft.com/itpro/windows/keep-secure/introduction-to-device-guard-virtualization-based-security-and-code-integrity-policies)
 - [Políticas de restrição de aplicativo usando o AppLocker](https://technet.microsoft.com/itpro/windows/keep-secure/applocker-overview)
 - [Criptografia de Unidade de Disco BitLocker](https://technet.microsoft.com/itpro/windows/keep-secure/bitlocker-overview)
 - [Trusted Platform Module (TPM)](https://technet.microsoft.com/itpro/windows/keep-secure/trusted-platform-module-overview)
-- [Windows Defender](https://technet.microsoft.com/itpro/windows/keep-secure/windows-defender-in-windows-10)
+- [Microsoft Defender](https://technet.microsoft.com/itpro/windows/keep-secure/windows-defender-in-windows-10)
 - [Controle de Conta de Usuário (UAC)](https://technet.microsoft.com/itpro/windows/keep-secure/user-account-control-overview) para acessar o aplicativo Configurações
 
 Estes recursos do Surface Hub fornecem segurança adicional:
@@ -121,6 +121,8 @@ Estes recursos do Surface Hub fornecem segurança adicional:
 - O download de drivers Plug and Play avançados está desabilitado
 
 *Políticas da organização que isso pode afetar:* <br> Considere estes recursos ao executar sua avaliação de segurança para o Surface Hub.
+
+Para saber mais, confira [Visão geral de segurança do Surface Hub](surface-hub-security.md)
 
 ## <a name="management"></a>Gerenciamento
 
