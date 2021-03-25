@@ -4,7 +4,6 @@
 
 ## Visão geral
 ### [Novidades na atualização do Windows 10 Team 2020](surface-hub-2020-update-whats-new.md)
-### [Novidades no Surface Hub 2S para administradores de IT](surface-hub-2s-whats-new.md)
 ### [Especificações técnicas do Surface Hub 2S 50 "](surface-hub-2s-techspecs.md) 
 ### [Especificações técnicas do Surface Hub 2S 85 "](surface-hub-2s-85.md)
 ### [Noções básicas do sistema operacional (Surface Hub)](differences-between-surface-hub-and-windows-10-enterprise.md)
