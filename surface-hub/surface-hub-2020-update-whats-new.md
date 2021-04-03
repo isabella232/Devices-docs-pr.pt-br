@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 02/01/2021
+ms.date: 03/25/2021
 ms.localizationpriority: Medium
-ms.openlocfilehash: 96452885e19adc9784bb8d14be8ac6f2f86e883d
-ms.sourcegitcommit: 6c362c5d5f67449f1adf4618847093eaf6ad087b
+ms.openlocfilehash: 14e08cf099ac441f7b2b3b76366406868ac6c056
+ms.sourcegitcommit: f9e7c091a26df0f99500c0d8b6cf40a81133e4e2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "11442865"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "11470419"
 ---
 # <a name="whats-new-in-windows-10-team-2020-update"></a>Novidades na atualização do Windows 10 Team 2020
 
@@ -25,9 +25,18 @@ A Atualização do Windows 10 Team 2020 traz melhorias importantes para a implan
 ##  <a name="deployment-and-manageability"></a>Implantação e capacidade de gerenciamento
 
 - **Autenticação moderna para contas de dispositivos de nuvem.** O Surface Hub dá suporte ao Exchange Web Services (EWS) e à autenticação baseada na Biblioteca de Autenticação do Active Directory (ADAL) para se conectar ao Exchange, permitindo que os clientes preteram o uso da autenticação básica. Para saber mais, confira [Autenticação moderna no Surface Hub](https://docs.microsoft.com/surface-hub/surface-hub-modern-auth).
-- Mais de 20 políticas de gerenciamento de dispositivo **móvel (MDM)** novas e atualizadas.      Essas políticas dão aos administradores de TI um controle aprimorado sobre várias configurações de dispositivo, incluindo: atualizações de aplicativos da Microsoft Store, configurações de projeção sem fio, como Miracast sobre infraestrutura, configurações de rede, como Qualidade de Serviço e autenticação com fio 802,1x e novas configurações relacionadas à privacidade/RGPD. Para saber mais, confira: 
-- [Gerenciar o Surface Hub com o Microsoft Intune](surface-hub-2s-manage-intune.md).
-- [CSPs de políticas suportados pelo Microsoft Surface Hub](https://docs.microsoft.com//windows/client-management/mdm/policy-csps-supported-by-surface-hub)
+- Mais de 20 configurações de política de gerenciamento de dispositivo **móvel (MDM) novas e atualizadas.**  Essas configurações de política dão aos administradores de TI um controle aprimorado sobre várias configurações de dispositivo, incluindo: atualizações de aplicativos da Microsoft Store, configurações de projeção sem fio, como Miracast sobre infraestrutura, configurações de rede, como Qualidade de Serviço e autenticação com fio 802,1x e novas configurações relacionadas à privacidade/RGPD. Os novos provedores de serviços de configuração (CSPs) incluem: 
+
+  - [CSP Accounts](https://docs.microsoft.com/windows/client-management/mdm/accounts-csp) 
+  - [Firewall-CSP](https://docs.microsoft.com/windows/client-management/mdm/firewall-csp) 
+  - [CSP RemoteWipe](https://docs.microsoft.com/windows/client-management/mdm/remotewipe-csp) 
+  - [Wifi-CSP](https://docs.microsoft.com/windows/client-management/mdm/wifi-csp) 
+  - [Wirednetwork-CSP](https://docs.microsoft.com/windows/client-management/mdm/wirednetwork-csp) 
+
+Para saber mais, confira: 
+- [CSPs suportados no Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport)
+- [Gerenciar o Surface Hub com um provedor MDM](manage-settings-with-mdm-for-surface-hub.md)
+
 
 ##  <a name="azure-active-directory-joined-devices"></a>Dispositivos ingressados no Azure Active Directory
 
@@ -51,7 +60,7 @@ A Atualização do Windows 10 Team 2020 traz melhorias importantes para a implan
 
 - **Suporte para reuniões coordenadas com o Microsoft Teams.** Em salas de reunião que apresentam um Surface Hub e um dispositivo da Sala do Microsoft Teams ou espaços com dois dispositivos Surface Hub, as Reuniões Coordenadas permitem que os usuários aproveitem facilmente os dois dispositivos durante uma reunião do Microsoft Teams. Com um único toque, os usuários podem ingressar em uma reunião de um dispositivo e maximizar a propriedade da tela mostrando feeds de vídeo em um dispositivo e um quadro de trabalho digital ou conteúdo no outro. O Windows 10 Team 2020 Update adiciona suporte ao Gerenciamento de Dispositivo Móvel (MDM) para configurar Reuniões Coordenadas e o recurso será lançado posteriormente como uma atualização do Microsoft Teams por meio do Microsoft Store.To saiba mais em Configurar Reuniões Coordenadas com salas do Microsoft Teams e [Surface Hub.](https://docs.microsoft.com/microsoftteams/rooms/coordinated-meetings)
 
-## <a name="security"></a>Security
+## <a name="security"></a>Segurança
 
 - Entrar sem senha usando chaves de segurança **FIDO2**     Usando chaves de segurança FIDO2, os clientes podem entrar rapidamente e facilmente no Surface Hub sem precisar digitar nomes de usuário e senhas. Combinado com o SSO (Single Sign-On), esse recurso fornece autenticação rápida e perfeita para arquivos, aplicativos e sites durante uma reunião. Para saber mais, consulte [Configure passwordless sign-in on Surface Hub](https://docs.microsoft.com/surface-hub/surface-hub-2s-phone-authenticate).
 - **Melhorias na login sem senha usando o Microsoft Authenticator**.  Para organizações que usam o Azure AD, os usuários podem usar o aplicativo Microsoft Authenticator para entrar sem precisar digitar nomes de usuário e senhas. Além disso, os usuários podem entrar usando seus aliases de email preferenciais no Azure AD, além do nome principal do usuário (UPN). Para saber mais, confira [Entrar no Surface Hub com o Microsoft Authenticator](https://docs.microsoft.com/surface-hub/surface-hub-authenticator-app).

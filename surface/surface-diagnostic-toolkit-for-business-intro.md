@@ -1,6 +1,6 @@
 ---
 title: Corrigir problemas comuns do Surface usando o Kit de Ferramentas de Diagnóstico Surface para Empresas
-description: Esta página fornece uma introdução ao kit de ferramentas de diagnóstico de superfície para empresas para uso em ambientes comerciais.
+description: Esta página fornece uma introdução ao Surface Diagnostic Toolkit for Business para uso em ambientes comerciais.
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.sitesec: library
@@ -9,40 +9,40 @@ ms.author: greglin
 ms.topic: article
 ms.reviewer: cottmca
 manager: laurawi
+ms.date: 04/02/2021
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: a1a7d6fa2cb8bad676f0a65a933a4596ef918e7a
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: d5b593100f6c361ebd122ecdc4c9738624dd7272
+ms.sourcegitcommit: 879e80200aea26f6705c887fa392db5db35b99ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830168"
+ms.lasthandoff: 04/03/2021
+ms.locfileid: "11475075"
 ---
-# Corrigir problemas comuns do Surface usando o Kit de Ferramentas de Diagnóstico Surface para Empresas
+# <a name="fix-common-surface-problems-using-the-surface-diagnostic-toolkit-for-business"></a>Corrigir problemas comuns do Surface usando o Kit de Ferramentas de Diagnóstico Surface para Empresas
 
-Se a sua superfície não estiver funcionando corretamente, o kit de ferramentas de diagnóstico de superfície da Microsoft para empresas pode ajudar você ou o administrador a encontrar e solucionar problemas.
-
-> [!NOTE]
-> O kit de ferramentas de diagnóstico de superfície para empresas é criado para dispositivos comerciais. Se o seu dispositivo for um dispositivo pessoal e não for gerenciado pelo seu trabalho ou escola, execute o [Kit de ferramentas de diagnóstico de Surface](https://support.microsoft.com/en-us/help/4037239/surface-fix-common-surface-problems-using-surface-diagnostic-toolkit) .
-
-## Executar o kit de ferramentas de diagnóstico de superfície para empresas
-
-Antes de executar a ferramenta de diagnóstico, verifique se você tem as atualizações mais recentes do Windows. Vá para [instalação Surface Surface e atualizações do Windows 10](https://support.microsoft.com/en-us/help/4023505/surface-install-surface-and-windows-updates) para obter mais informações. Se isso não resolver o problema, você precisará executar a ferramenta de diagnóstico.
+Se o Surface não estiver funcionando corretamente, o Microsoft Surface Diagnostic Toolkit para Empresas poderá ajudar você ou seu administrador a encontrar e resolver problemas.
 
 > [!NOTE]
-> O kit de ferramentas de diagnóstico de superfície para empresas só funciona em dispositivos de superfície que executam o Windows 10. Ele não funciona em dispositivos Surface pro, Surface Pro 2 ou Surface configurados no modo S.
+> O Surface Diagnostic Toolkit for Business foi criado para dispositivos comerciais. Se o dispositivo for um dispositivo pessoal e não gerenciado pelo trabalho ou escola, execute o Surface [Diagnostic Toolkit.](https://support.microsoft.com/en-us/help/4037239/surface-fix-common-surface-problems-using-surface-diagnostic-toolkit)
 
-**Para executar o kit de ferramentas de diagnóstico de superfície para empresas:**
+## <a name="run-the-surface-diagnostic-toolkit-for-business"></a>Executar o surface Diagnostic Toolkit for Business
 
-1. Baixe o kit de ferramentas de diagnóstico de superfície para empresas. Para fazer isso, vá para a [página **ferramentas de superfície para** download](https://www.microsoft.com/download/details.aspx?id=46703), escolha **baixar**, escolha **Kit de ferramentas de diagnóstico de Surface for Business** na lista fornecida e escolha **Avançar**.
-2. Selecione executar e siga as instruções na tela. Para obter detalhes completos, consulte [implantar o kit de ferramentas de diagnóstico de superfície para empresas](https://docs.microsoft.com/surface/surface-diagnostic-toolkit-business).
+Antes de executar a ferramenta de diagnóstico, certifique-se de ter as atualizações mais recentes do Windows. Acesse [Instalar atualizações do Surface e do Windows 10](https://support.microsoft.com/en-us/help/4023505/surface-install-surface-and-windows-updates) para obter mais informações. Se isso não resolver o problema, você precisará executar a ferramenta de diagnóstico.
 
-O tempo de diagnóstico e reparo média de 15 minutos, mas pode levar uma hora ou mais, dependendo da velocidade da conexão à Internet e do número de atualizações ou reparos necessários. 
+> [!NOTE]
+> O Surface Diagnostic Toolkit para Empresas só funciona em dispositivos Surface que executam o Windows 10. Ele não funciona em dispositivos Surface Pro, Surface Pro 2 ou Surface configurados no modo S.
 
-## Se você ainda precisar de ajuda
+**Para executar o surface Diagnostic Toolkit for Business:**
 
-Se o kit de ferramentas de diagnóstico de superfície para empresas não corrigir o problema, você também pode:
+1. Baixe o Surface Diagnostic Toolkit for Business. Para fazer isso, vá para a página de download do [ **Surface Tools for IT,** ](https://www.microsoft.com/download/details.aspx?id=46703)escolha **Baixar,** selecione Surface **Diagnostic Toolkit for Business** na lista fornecida e escolha **Próximo**.
+2. Selecione Executar e siga as instruções na tela. Para obter detalhes completos, consulte [Deploy Surface Diagnostic Toolkit for Business](https://docs.microsoft.com/surface/surface-diagnostic-toolkit-business).
 
-- Faça um compromisso no repositório: pode ser possível corrigir o problema ou fornecer uma superfície de substituição na sua loja local da Microsoft. [Localize uma Microsoft Store perto de você](https://www.microsoft.com/store/locations/find-a-store?WT.mc_id=MSC_Solutions_en_us_scheduleappt).
-- Entre em contato com o suporte ao cliente: se você quiser falar com alguém sobre como corrigir o problema, [entre em contato conosco](https://support.microsoft.com/en-us/help/4037645/contact-surface-warranty-and-software-support-for-business).
-- Obtenha seu serviço de Surface: se seu produto Surface precisar de serviço, [solicite-o online](https://mybusinessservice.surface.com/). 
+A média de tempo de diagnóstico e reparo é de 15 minutos, mas pode levar uma hora ou mais, dependendo da velocidade da conexão com a Internet e do número de atualizações ou reparos necessários. 
+
+## <a name="if-you-still-need-help"></a>Se você ainda precisar de ajuda
+
+Se o surface Diagnostic Toolkit for Business não corrigiu o problema, você também pode:
+
+- Entre em contato com o suporte ao cliente: se você quiser falar com alguém sobre como corrigir seu problema, [entre em contato conosco](https://support.microsoft.com/en-us/help/4037645/contact-surface-warranty-and-software-support-for-business).
+- Obter o surface serviced: Se seu produto Surface precisar de serviço, [solicite-o online](https://mybusinessservice.surface.com/). 
