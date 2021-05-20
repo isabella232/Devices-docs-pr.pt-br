@@ -11,20 +11,22 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: High
-  ms.openlocfilehash: 9360df030e5a562dfeb3ad471c228408122c3471
-  ms.sourcegitcommit: f8f32455b1230742c58ee74004cbaaad037069b6
+  ms.openlocfilehash: 301a4b733ee477c1e9999dba84cd58283c02844f
+  ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 02/14/2021
-  ms.locfileid: "11328175"
+  ms.lasthandoff: 05/20/2021
+  ms.locfileid: "11576821"
 landingContent:
 - title: Dispositivos Surface
   linkLists:
   - linkListType: whats-new
     links:
+    - text: Surface Laptop 4 + para Empresas
+      url: https://www.microsoft.com/surface/business/surface-laptop-4
     - text: Surface Pro 7+ for Business
       url: https://www.microsoft.com/surface/business/surface-pro-7-plus
-    - text: Surface Laptop Go for Business
+    - text: Surface Laptop Ir para Empresas
       url: https://www.microsoft.com/surface/business/surface-laptop-go
     - text: Surface Pro X para Empresas
       url: https://www.microsoft.com/surface/business/surface-pro-x
@@ -34,21 +36,21 @@ landingContent:
   linkLists:
   - linkListType: get-started
     links:
-    - text: Novidades no Surface Pro 7+ para Empresas
-      url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-pro-7-brings-next-level-performance-and-versatility-to/ba-p/1928797
+    - text: Surface Laptop visão geral técnica de 4 processadores
+      url: surface-laptop-processors.md
+    - text: Surface Headphones visão geral da tecnologia 2+
+      url: surface-headphones.md
     - text: Área de Trabalho Virtual do Windows no Surface
       url: windows-virtual-desktop-surface.md
-    - text: Novidades no Surface Dock 2
-      url: surface-dock-whats-new.md
 - title: Microsoft Ignite
   linkLists:
   - linkListType: video
     links:
-    - text: Implantação zero touch com o Surface & AutoPilot
+    - text: Implantação zero toque com o Surface & AutoPilot
       url: https://youtu.be/WQ-wg8fRzN0
     - text: Surface Pro X e Windows no ARM em um mundo remoto
       url: https://youtu.be/bDw77ZQNPPw
-    - text: Segurança do Surface – Chip para Proteção de Ponto de Extremidade Moderno na Nuvem da Microsoft
+    - text: Segurança do Surface – Chip para Nuvem Moderna Endpoint Protection da Microsoft
       url: https://youtu.be/uadAecDbqf4
 - title: Implantar dispositivos Surface
   linkLists:
@@ -58,18 +60,18 @@ landingContent:
       url: windows-autopilot-and-surface-devices.md
     - text: Suporte a Registro Surface para o Windows Autopilot
       url: surface-autopilot-registration-support.md
-    - text: Ferramenta Surface Deployment Accelerator
+    - text: Ferramenta Acelerador de Implantação do Surface
       url: microsoft-surface-deployment-accelerator.md
 - title: Gerenciar dispositivos Surface
   linkLists:
   - linkListType: how-to-guide
     links:
+    - text: Modo de gerenciamento empresarial do Surface
+      url: surface-enterprise-management-mode.md
     - text: Gerenciar e implantar atualizações de driver e firmware do Surface
       url: manage-surface-driver-and-firmware-updates.md
-    - text: Gerenciamento pelo Intune das configurações de UEFI do Surface
+    - text: Gerenciar DFCI em dispositivos Surface
       url: surface-manage-dfci-guide.md
-    - text: Implantação, gerenciamento e manutenção do Surface Pro X
-      url: surface-pro-arm-app-management.md
 - title: Solução de problemas
   linkLists:
   - linkListType: learn
@@ -78,7 +80,7 @@ landingContent:
       url: surface-diagnostic-toolkit-business.md
     - text: Principais soluções de suporte
       url: support-solutions-surface.md
-    - text: Driver Surface e ciclo de vida do firmware para dispositivos baseados no Windows
+    - text: Driver do Surface e ciclo de vida do firmware para dispositivos baseados no Windows
       url: surface-driver-firmware-lifecycle-support.md
 - title: Explorar orientação de segurança
   linkLists:
@@ -86,7 +88,7 @@ landingContent:
     links:
     - text: Proteção DMA em dispositivos Surface
       url: dma-protect.md
-    - text: Portas seguras do Surface Dock 2 com o Surface Enterprise Management Mode (SEMM)
+    - text: Portas seguras do Surface Dock 2 com o Surface Enterprise Modo de Gerenciamento (SEMM)
       url: secure-surface-dock-ports-semm.md
     - text: Ferramenta Surface Data Eraser
       url: microsoft-surface-data-eraser.md
@@ -116,5 +118,5 @@ landingContent:
     links:
     - text: Contate o suporte para Surface
       url: contact-surface-support.md
-    - text: Planos de proteção e garantia do Surface for Business
+    - text: Planos de proteção e garantia do Surface para Empresas
       url: https://www.microsoft.com/surface/business/warranty-service-offerings-and-support

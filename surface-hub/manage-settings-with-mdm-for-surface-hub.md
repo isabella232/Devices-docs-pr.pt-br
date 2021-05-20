@@ -12,42 +12,41 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 03/25/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 1afa4d63dde793e61e30d1c4dd54f552b5581a81
-ms.sourcegitcommit: f9e7c091a26df0f99500c0d8b6cf40a81133e4e2
+ms.openlocfilehash: 4308ce1ea8ff382dc15706e68d2d706d0fd33f5f
+ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "11470449"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "11576751"
 ---
 # <a name="manage-surface-hub-with-an-mdm-provider"></a>Gerenciar o Surface Hub com um provedor MDM
 
-O Surface Hub permite que os administradores de TI gerenciem configurações e políticas usando um provedor de gerenciamento de dispositivo móvel (MDM), como o Microsoft Intune. O Surface Hub tem um componente de gerenciamento integrado para se comunicar com o servidor de gerenciamento. Não é necessário instalar clientes adicionais no dispositivo.
+Surface Hub permite que os administradores de TI gerenciem configurações e políticas usando um provedor de gerenciamento de dispositivo móvel (MDM), como Microsoft Intune. Surface Hub tem um componente de gerenciamento integrado para se comunicar com o servidor de gerenciamento. Não é necessário instalar clientes adicionais no dispositivo.
 
-## <a name="enrolling-surface-hub-into-mdm-management"></a>Registrar o Surface Hub no gerenciamento de MDM 
+## <a name="enrolling-surface-hub-into-mdm-management"></a>Registrar Surface Hub gerenciamento de MDM 
 
-Você pode registrar o Surface no Microsoft Intune ou em outro provedor MDM por meio de registro manual ou automático.
+Você pode registrar o Surface no Microsoft Intune ou em outro provedor MDM por meio do registro manual ou automático.
 
 ### <a name="manual-enrollment"></a>Registro manual
 
-1. Abra o **aplicativo Configurações** e entre como administrador local. Selecione **Gerenciamento de dispositivos surface hub**e selecione  >  **** **+Gerenciamento de dispositivos**.
+1. Abra o **Configurações** e entre como administrador local. Selecione **Surface Hub**  >  **gerenciamento de dispositivos** e selecione **+Gerenciamento de dispositivos.**
 2. Você será solicitado a entrar com a conta a ser usada para seu provedor MDM. Após a autenticação, o dispositivo se registra automaticamente com seu provedor MDM.
 
 > [!TIP]
 > Se você estiver usando o Intune e o endereço do servidor não for detectado, **digite manage.microsoft.com**.
    
 > [!NOTE]
->  O registro do MDM usa os detalhes da conta fornecidos para autenticação. A conta deve ter permissões para registrar um dispositivo Windows, bem como uma licença do Intune (ou as promissões de registro equivalentes configuradas no provedor MDM de terceiros).
+> O registro do MDM usa os detalhes da conta fornecidos para autenticação. A conta deve ter permissões para registrar um dispositivo Windows, bem como uma licença do Intune (ou as promissões de registro equivalentes configuradas no provedor MDM de terceiros).
 
 ### <a name="auto-enrollment--azure-ad-affiliated"></a>Registro Automático — afiliada ao Azure AD
 
-Durante o processo de instalação inicial, ao afiliar o Surface Hub com um locatário do Azure Active Directory (AD) que tenha o registro automático do Intune habilitado, o dispositivo se registrará automaticamente no Intune. Para saber mais, consulte Os métodos de registro do [Intune para dispositivos Windows](https://docs.microsoft.com/intune/enrollment/windows-enrollment-methods). A afiliação do Azure AD e o registro automático do Intune são necessários para que o Surface Hub seja um “dispositivo compatível” no Intune. 
+Durante o processo de instalação inicial, ao afiliar o Surface Hub com um locatário Azure Active Directory (AD) que tenha o registro automático do Intune habilitado, o dispositivo se registrará automaticamente no Intune. Para saber mais, consulte os métodos de registro do [Intune para Windows dispositivos](https://docs.microsoft.com/intune/enrollment/windows-enrollment-methods). A afiliação do Azure AD e o registro automático do Intune são necessários para que o Surface Hub seja um “dispositivo compatível” no Intune. 
 
-## <a name="manage-surface-hub-windows-10-team-settings-with-intune"></a>Gerenciar configurações de equipe do Surface Hub windows 10 com o Intune
+## <a name="manage-surface-hub-windows-10-team-settings-with-intune"></a>Gerenciar Surface Hub Windows 10 Team configurações com o Intune
 
-O bloco de construção base do gerenciamento de configurações de política no Intune e em outros provedores MDM é o protocolo Open Mobile Alliance-Device Management (OMA-DM) baseado em XML. O Windows 10 implementa o OMA-DM XML por meio de um dos muitos provedores de serviço de Configuração (CSPs) disponíveis com nomes como CSP AccountManagement, CSP DeviceStatus, Wirednetwork-CSP e assim por diante. Para uma lista completa, consulte [CSPs suportados no Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport).
+O bloco de construção base do gerenciamento de configurações de política no Intune e em outros provedores MDM é o protocolo Open Mobile Alliance-Device Management (OMA-DM) baseado em XML. Windows 10 implementa o OMA-DM XML por meio de um dos muitos provedores de serviços de Configuração (CSPs) disponíveis com nomes como CSP AccountManagement, CSP DeviceStatus, WiFi-CSP e assim por diante. Para uma lista completa, consulte [CSPs com suporte em Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport).
 
-
-O Microsoft Intune e outros provedores MDM usam CSPs para fornecer uma interface do usuário que permite configurar configurações de política em perfis de Configuração. O Intune usa o CSP do Surface Hub para seu perfil integrado — Restrições de dispositivo (Equipe do  **Windows 10)** — que permite configurar as configurações básicas, como impedir que o Surface Hub "acorde" sempre que qualquer pessoa se mover por perto dentro de seu intervalo de proximidade. Para gerenciar configurações e recursos do Hub fora do perfil integrado do Intune, você precisará usar um perfil personalizado, conforme [mostrado abaixo](#create-custom-configuration-profile). 
+Microsoft Intune e outros provedores de MDM usam CSPs para fornecer uma interface do usuário que permite configurar configurações de política em perfis de configuração. O Intune usa o CSP do Surface Hub para seu perfil integrado — restrições de **dispositivo (Windows 10 Team)** — permite que você configure configurações básicas, como impedir que o Surface Hub "acorde" sempre que alguém se mover por perto dentro de seu intervalo de proximidade. Para gerenciar configurações e recursos do Hub fora do perfil integrado do Intune, você precisará usar um perfil personalizado, conforme [mostrado abaixo](#create-custom-configuration-profile). 
 
 Para resumir, as opções para configurar e gerenciar configurações de política no Intune incluem o seguinte: 
  
@@ -55,30 +54,32 @@ Para resumir, as opções para configurar e gerenciar configurações de políti
 - **Criar um perfil de configuração de dispositivo.**  Selecione um modelo focado em um recurso ou tecnologia específico, como o Microsoft Defender ou certificados de segurança. Consulte [Criar perfil de configuração do dispositivo](#create-device-configuration-profile).
 - **Criar um perfil de configuração personalizado.**  Estenda seu escopo de gerenciamento usando um OMA Uniform Resource Identifier (OMA URI) de qualquer um dos [CSPs suportados no Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport). Consulte [Criar perfil de configuração personalizado](#create-custom-configuration-profile).
 
+> [!NOTE]
+> Os perfis devem ser atribuídos aos grupos de dispositivos que contêm os dispositivos Surface Hub inscritos.
 
 ## <a name="create-device-restriction-profile"></a>Criar perfil de restrição de dispositivo
 
-1. Entre no Centro de [**administração do Microsoft Endpoint Manager,**](https://endpoint.microsoft.com/) **selecione**Perfis de  >  **Configuração de**  >  **+** **Dispositivos Criar perfil**.
-2. Em **Plataforma**, selecione **Windows 10 e posterior** >
+1. Entre no centro [**de administração Microsoft Endpoint Manager,**](https://endpoint.microsoft.com/)selecione **Perfis**de  >  **Configuração de**  >  **+** **Dispositivos Criar perfil**.
+2. Em **Plataforma,** selecione **Windows 10 e posterior** >
 3. Em ****Tipo de**perfil, selecione** **Modelos** e selecione **Restrições de dispositivo (Windows 10 Team)**
 4. Selecione **Criar**, adicionar um nome e selecione **Next.**
-6. Agora você pode navegar e escolher entre as configurações de restrição de dispositivo predefinidas para o Surface Hub nas seguintes categorias: Aplicativos e experiência, percepções operacionais do Azure, Manutenção, Sessão e projeção sem fio. O exemplo mostrado na figura a seguir especifica uma janela de manutenção de 4 horas e um tempo de tempo de 15 minutos para tela, sono e retomada de sessão.
+6. Agora você pode navegar e escolher entre as configurações de restrição de dispositivo predefinidas para Surface Hub nas seguintes categorias: aplicativos e experiência, percepções operacionais do Azure, manutenção, sessão e projeção sem fio. O exemplo mostrado na figura a seguir especifica uma janela de manutenção de 4 horas e um tempo de tempo de 15 minutos para tela, sono e retomada de sessão.
 
-     ![Configurar configurações do Surface Hub com o perfil de restrição de dispositivo do Intune](images/sh-device-restrictions.png)
+     ![Configurar Surface Hub configurações com o perfil de restrição de dispositivo do Intune](images/sh-device-restrictions.png)
 
 Para obter mais informações sobre como criar e gerenciar perfis, consulte [Restrict devices features using policy in Microsoft Intune](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-configure#create-the-profile).
  
-Para obter mais informações sobre como gerenciar recursos e configurações do Surface Hub, consulte [Surface Hub Windows 10 Team device restrictions in Microsoft Intune](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-windows-10-teams)
+Para obter mais informações sobre como gerenciar Surface Hub recursos e configurações, [consulte Surface Hub Windows 10 Team restrições de dispositivo em Microsoft Intune](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-windows-10-teams)
  
 
 ## <a name="create-device-configuration-profile"></a>Criar perfil de configuração do dispositivo
 
-1. Entre no Centro de [**administração do Microsoft Endpoint Manager,**](https://endpoint.microsoft.com/)selecione **Perfis**  >  **de Configuração de**  >  **Dispositivos + Criar perfil**.
-2. Em **Plataforma**, selecione **Windows 10 e posterior** >
-3. Em **Tipo de perfil,** selecione **Modelos** e escolha entre os seguintes modelos com suporte no Surface Hub:
+1. Entre no centro [**de administração Microsoft Endpoint Manager,**](https://endpoint.microsoft.com/)selecione **Perfis**de  >  **Configuração de**  >  **Dispositivos + Criar perfil**.
+2. Em **Plataforma,** selecione **Windows 10 e posterior** >
+3. Em **Tipo de perfil,** selecione **Modelos** e escolha entre os seguintes modelos com suporte em Surface Hub:
 
-    - Restrições de dispositivo (Equipe do Windows 10), conforme descrito na [seção anterior](#create-device-restriction-profile).
-    - Microsoft Defender para Ponto de Extremidade (Área de Trabalho do Windows 10)
+    - Restrições de dispositivo (Windows 10 Team), conforme descrito na [seção anterior](#create-device-restriction-profile).
+    - Microsoft Defender para Ponto de Extremidade (Windows 10 Desktop)
     - Certificado PKCS
     - Certificado importado PKCS
     - Certificado SCEP
@@ -86,7 +87,7 @@ Para obter mais informações sobre como gerenciar recursos e configurações do
 
 ## <a name="create-custom-configuration-profile"></a>Criar perfil de configuração personalizado
 
-Você pode estender o [](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure) escopo de gerenciamento criando um perfil personalizado usando um URI OMA de qualquer um dos [CSPs suportados no Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport). Cada configuração em um CSP tem um OMA-URI correspondente que você pode definir usando perfis de configuração personalizados no Intune. Para obter detalhes sobre os CSPs suportados pelo Surface Hub, você pode fazer referência aos seguintes recursos: 
+Você pode estender o [](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure) escopo de gerenciamento criando um perfil personalizado usando um URI OMA de qualquer um dos [CSPs](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport)com suporte em Microsoft Surface Hub . Cada configuração em um CSP tem um OMA-URI correspondente que você pode definir usando perfis de configuração personalizados no Intune. Para obter detalhes sobre os CSPs com suporte Surface Hub, você pode fazer referência aos seguintes recursos: 
 
 - [Referência de provedor de serviços de configuração](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport)
 - [CSPs de políticas suportados pelo Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/policy-csps-supported-by-surface-hub)
@@ -113,13 +114,13 @@ Para gerar o URI OMA para qualquer configuração:
 
 ### <a name="add-oma-uri-to-custom-configuration-profile"></a>Adicionar URI OMA ao perfil de configuração personalizado
 
-1. No Endpoint Manager, selecione **Perfis**de  >  **Configuração de**  >  **Dispositivos Criar perfil**.
+1. Em Endpoint Manager, selecione **Perfis**de  >  **Configuração de**  >  **Dispositivos Criar perfil**.
 2. Em Plataforma, **selecione Windows 10 e posterior.** Em Perfil, selecione **Personalizado**e, em seguida, selecione **Criar.**
 3. Adicione um nome e uma descrição opcional e selecione **Next.**
-4. Em **Configurações configurações**  >  **OMA-URI Configurações,** selecione **Adicionar**.
+4. Em **Configuração configurações**  >  **OMA-URI Configurações**, selecione **Adicionar**.
 
   
-## <a name="manage-specific-surface-hub-features"></a>Gerenciar recursos específicos do Surface Hub
+## <a name="manage-specific-surface-hub-features"></a>Gerenciar recursos Surface Hub específicos
 
 Esta seção destaca informações sobre recursos que você pode gerenciar por meio do Intune ou outro provedor MDM. Isso inclui:
 
@@ -163,15 +164,15 @@ Para garantir a qualidade ideal de vídeo e áudio no Surface Hub, adicione as s
 > [!NOTE]
 > Ambas as tabelas mostram intervalos de porta padrão. Os administradores podem alterar os intervalos de porta no painel de controle do Skype for Business e do Teams.
 
-### <a name="microsoft-teams-and-skype-for-business-settings"></a>Configurações do Microsoft Teams e skype for Business
+### <a name="microsoft-teams-and-skype-for-business-settings"></a>Microsoft Teams e Skype for Business configurações
 
-Você pode criar um perfil de configuração personalizado para gerenciar Reuniões Coordenadas do Teams, Participação de Proximidade e outros recursos. Para saber mais, confira [Gerenciar a configuração do Microsoft Teams no Surface Hub](https://docs.microsoft.com/microsoftteams/rooms/surface-hub-manage-config).
+Você pode criar um perfil de configuração personalizado para gerenciar Teams reuniões coordenadas, participação de proximidade e outros recursos. Para saber mais, consulte [Manage Microsoft Teams configuration on Surface Hub](https://docs.microsoft.com/microsoftteams/rooms/surface-hub-manage-config).
 
 #### <a name="changing-default-business-communications-platform"></a>Alterar a plataforma de comunicações comerciais padrão
 
-A plataforma de comunicações comerciais padrão no Surface Hub varia dependendo de como você instala o Windows 10 Team 2020 Update (também conhecido como Windows 10 20H2). Se você re-imagem do Surface Hub para o Windows 10 20H2, o Microsoft Teams será definido como padrão, com a funcionalidade do Skype for Business disponível (Modo 1). Se você atualizar seu Hub de uma versão anterior do sistema operacional, o Skype for Business permanecerá como padrão, com a funcionalidade do Teams disponível (Modo 0), a menos que você já tenha configurado o Teams como seu padrão. 
+A plataforma de comunicações comerciais padrão Surface Hub varia dependendo de como você instala o Windows 10 Team 2020 Update (também conhecido como Windows 10 20H2). Se você re-Surface Hub para Windows 10 20H2, o Microsoft Teams será definido como padrão, com Skype for Business funcionalidade disponível (Modo 1). Se você atualizar seu Hub de uma versão anterior do sistema operacional, o Skype for Business permanecerá como padrão, com Teams funcionalidade disponível (Modo 0), a menos que você já tenha configurado o Teams como seu padrão. 
 
-Para alterar a instalação padrão, use um [perfil personalizado](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure) definindo o Modo de Aplicativo do Teams da seguinte forma:  
+Para alterar a instalação padrão, use um [perfil personalizado](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure) definindo o modo Teams App da seguinte forma:  
 
 - Modo 0 — Skype for Business com a funcionalidade do Microsoft Teams para reuniões agendadas.
 - Modo 1 — Microsoft Teams com a funcionalidade do Skype for Business para reuniões agendadas.

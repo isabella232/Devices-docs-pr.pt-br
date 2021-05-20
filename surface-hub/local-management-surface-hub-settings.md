@@ -11,18 +11,18 @@ ms.date: 07/08/2019
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 524d207ec1c117fb81d26ee233ea382ccb8d71d9
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 2403c57f88b0e14209b77b9f666141694384868d
+ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10831105"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "11577031"
 ---
-# Gerenciamento local para configurações do Surface Hub
+# <a name="local-management-for-surface-hub-settings"></a>Gerenciamento local para configurações do Surface Hub
 
 Após a configuração inicial do Microsoft Surface Hub, as configurações do dispositivo podem ser gerenciadas localmente por meio de **Configurações**.
 
-## Configurações do Surface Hub
+## <a name="surface-hub-settings"></a>Configurações do Surface Hub
 
 Os Surface Hubs têm muitas configurações que são comuns a outros dispositivos Windows, mas também têm configurações que só são configuráveis em Surface Hubs. Esta tabela lista as configurações que só podem ser definidas em Surface Hubs. 
 
@@ -45,20 +45,19 @@ Os Surface Hubs têm muitas configurações que são comuns a outros dispositivo
 | Canal de projeção sem fio (Miracast) | Surface Hub > Projeção | Defina o canal para projeção Miracast. |
 | Informações de reunião mostradas na tela de boas-vindas | Surface Hub > Tela de boas-vindas | Especifique se organizador da reunião, hora e assunto devem aparecer na tela de boas-vindas. |
 | Plano de fundo da tela de boas-vindas |  Surface Hub > Tela de boas-vindas | Escolha uma imagem de fundo para a tela de boas-vindas. |
-| Tempo limite da sessão para tela de boas-vindas | Hub de Surface > & energia da sessão | Escolha quanto tempo até o Surface Hub retornar para a tela de boas-vindas depois que nenhum movimento for detectado. |
-| Sessão de retomada | Hub de Surface > & energia da sessão | Opte por permitir que os usuários retomem uma sessão depois que nenhum movimento for detectado ou limpem automaticamente uma sessão. |
-| Acesso a arquivos e reuniões do Office 365 | Hub de Surface > & energia da sessão | Escolha se um usuário pode se conectar ao Office 365 para obter acesso aos arquivos e reuniões dele. |
-| Ativar a tela com sensores de movimento | Hub de Surface > & energia da sessão | Especifique se a tela é ativada quando é detectado movimento. |
-| Tempo limite da tela | Hub de Surface > & energia da sessão | Escolha por quanto tempo o dispositivo precisa estar inativo antes de desativar a tela. |
-| Tempo limite de suspensão | Hub de Surface > & energia da sessão | Escolha quanto tempo o dispositivo precisa ficar inativo antes de passar para o modo de suspensão. |
+| Tempo de sessão para tela de boas-vindas | Surface Hub > sessão & energia | Escolha quanto tempo até o Surface Hub retornar para a tela de boas-vindas depois que nenhum movimento for detectado. |
+| Sessão de retomada | Surface Hub > sessão & energia | Opte por permitir que os usuários retomem uma sessão depois que nenhum movimento for detectado ou limpem automaticamente uma sessão. |
+| Acesso a arquivos e reuniões do Office 365 | Surface Hub > sessão & energia | Escolha se um usuário pode se conectar ao Office 365 para obter acesso aos arquivos e reuniões dele. |
+| Ativar a tela com sensores de movimento | Surface Hub > sessão & energia | Especifique se a tela é ativada quando é detectado movimento. |
+| Tempo de tela fora | Surface Hub > sessão & energia | Escolha por quanto tempo o dispositivo precisa ficar inativo antes de desativar a tela. |
+| Tempo limite de suspensão | Surface Hub > sessão & energia | Escolha quanto tempo o dispositivo precisa ficar inativo antes de passar para o modo de suspensão. |
 | Nome amigável | Surface Hub > Sobre | Defina o nome do Surface Hub que as pessoas verão ao se conectar em uma rede sem fio. |
 | Horas de manutenção | Atualizações e segurança > Windows Update > Opções avançadas | Configure quando as atualizações podem ser instaladas. |
-| Configurar servidor do Windows Server Update Services (WSUS) | Atualizações e segurança > Windows Update > Opções avançadas | Altere se o Surface Hub receberá atualizações de um servidor WSUS em vez do Windows Update. |
 | Recuperar da nuvem | Atualização e segurança > Recuperação | Reinstale o sistema operacional no Surface Hub para um build do fabricante da nuvem. |
 | Salve a chave do BitLocker | Atualização e segurança > Recuperação | Faça backup da chave do BitLocker do Surface Hub em uma unidade USB. |
 | Coletar registros | Atualização e segurança > Recuperação | Salve os logs em uma unidade USB para enviar à Microsoft posteriormente. | 
 
-## Tópicos relacionados
+## <a name="related-topics"></a>Tópicos relacionados
 
 [Gerenciar configurações do Surface Hub](manage-surface-hub-settings.md)
 

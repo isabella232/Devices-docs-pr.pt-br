@@ -1,6 +1,6 @@
 ---
-title: Personalizar o suporte de parede do Surface Hub 2S
-description: Saiba como executar uma instalação personalizada do Surface Hub 2S.
+title: Personalizar a montagem de parede Surface Hub 2S de 50 polegadas
+description: Saiba como executar uma instalação personalizada de Surface Hub 2S de 50 polegadas.
 keywords: separar os valores com vírgulas
 ms.prod: surface-hub
 ms.sitesec: library
@@ -9,83 +9,89 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 06/20/2019
+ms.date: 04/16/2021
 ms.localizationpriority: Medium
-ms.openlocfilehash: 3b96fa53f9ccc9b3577549c98d9299a8dfb149a2
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: f21ed5d667dac89b3903b59811131bf27435ceb1
+ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830534"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "11576961"
 ---
-# Personalizar o suporte de parede do Surface Hub 2S
+# <a name="customize-wall-mount-of-surface-hub-2s-50"></a>Personalizar a montagem de parede Surface Hub 2S 50"
 
-Se você não estiver usando soluções certificadas de montagem, é possível montar o Surface Hub 2S usando um hardware de varejo prontamente disponível.
+Este artigo fornece orientações para instalar fisicamente o Microsoft Surface Hub 2S 50." Para obter informações sobre como instalar o 85" consulte [Install and mount Surface Hub 2S 85"](surface-hub-2s-85-install-mount.md).
 
-## Definir medidas de montagem da parede
+Se não estiver usando soluções de montagem certificadas, você poderá montar Surface Hub 2S 50" usando o hardware de varejo prontamente disponível.
 
-Medidas de montagem recomendadas do Surface Hub 2S:
+## <a name="set-wall-mount-measurements"></a>Definir medidas de montagem de parede
 
-|**Item**|**Descrição**|**Observações**|
+Surface Hub medidas de montagem recomendadas de 2S 50":
+
+| Item | Descrição | Observações |
 |:------ |:------------- |:------- |
-|**Altura da parte inferior do Surface Hub 2S**| 1026,5 mm (40,41 ") | Recomendações |
-|**Altura do início do Surface Hub 2S**| 1767,2 mm (69,57 ") | Recomendações |
-|**Altura do centro da montagem**| 1397 mm (55 ") | Recomendações |
+|**Altura da parte inferior Surface Hub 2S 50"**| 1026,5 mm (40,41") | Recomendações |
+|**Altura da parte superior Surface Hub 2S 50"**| 1767,2 mm (69,57") | Recomendações |
+|**Altura do centro da montagem**| 1397 mm (55") | Recomendações |
 
-1. Meça 1026,5 mm (40,41 ") do nível do chão para definir a altura mínima recomendada.
-2. Meça 1767,2 mm (69,57 ") do nível do chão para definir a altura de início recomendável.
+1. Mede 1026,5 mm (40,41") do nível do piso para definir a altura mínima recomendada.
 
-![* Exibição frontal do Surface Hub 2S Wall Mount *](images/sh2-wall-front.png) <br>
+2. Mede 1767,2 mm (69,57") do nível do piso para definir a altura superior recomendada.
 
-3. Meça 1397 mm (55 ") mm do nível do chão para definir a altura do centro recomendada.
+    ![Surface Hub vista frontal de montagem de parede de 2S 50"](images/sh2-wall-front.png)
 
-![* Exibição do lado do Surface Hub 2S-Mount Wall *](images/sh2-wall-side.png) <br>
+3. Mede 1397 mm (55") mm do nível do piso para definir a altura central recomendada.
 
-## Montagem de obstrução grátis
+    ![Surface Hub de montagem de parede de 2S 50"](images/sh2-wall-side.png)
 
-Além das portas visíveis nas laterais do dispositivo, certos componentes integrados devem permanecer sem obstruções para funcionar corretamente. Isso inclui os sensores Bluetooth, Wi-Fi, ocupação e microfone, bem como entradas de resfriamento térmica.
-Manter zonas
 
-|**Item**|**Descrição**|**Observações**|
+## <a name="obstruction-free-mounting"></a>Montagem livre de obstrução
+
+Além das portas visíveis nos lados do dispositivo, determinados componentes integrados devem permanecer livres de obstrução para funcionar corretamente. Eles incluem os sensores Bluetooth, Wi-Fi, occupancy e mic, bem como os dutos de arrefecamento térmico.
+Manter zonas fora
+
+| Item | Descrição | Observações |
 |:---- |:----------- |:----- |
-|**Access**| Assegure o acesso não impedido às portas de entrada/saída, ao cartucho de computação, ao rádio Bluetooth, ao sensor Bluetooth, ao rádio Wi-Fi, ao sensor de Wi-Fi, ao sensor de ocupação. | Veja a Figura 1. |
-|**Fluxo de ar**| Evite o bloqueio de zonas de ventilação de entrada e saída de ar. | Veja a Figura 2  |
-|**Áudio**| Evite bloquear a zona de saída de áudio na parte traseira do Surface Hub 2S. | Veja a Figura 2. |
+|**Access**| Certifique-se de acesso não impimpedido às portas de entrada/saída, ao cartucho de computação, Bluetooth rádio, sensor Bluetooth, Wi-Fi rádio, sensor Wi-Fi, sensor de ocupação. | Consulte a Figura 1. |
+|**Fluxo de ar**| Evite bloquear zonas de saída e entrada de ar de saída. | Consulte a Figura 2  |
+|**Áudio**| Evite bloquear a zona de saída de áudio na parte Surface Hub 2S 50". | Consulte a Figura 2. |
 
-![* Figura 1. Manter zonas para componentes do Surface Hub 2S *](images/sh2-keepout-zones.png) <br>
-***Figura 1. Manter zonas para componentes do Surface Hub 2S***
+![Figura 1. Manter zonas de fora para Surface Hub componentes de 2S 50"](images/sh2-keepout-zones.png) <br>
+**_Figura 1. Manter zonas de fora para Surface Hub componentes de 2S 50"_*_
 
-![* Figura 2. Evitar o bloqueio de zonas de entrada/saída e saída de áudio térmica *](images/sh2-thermal-audio.png) <br>
-***Figura 2. Evite o bloqueio de zonas de entrada/saída e saída de áudio térmicas.<br>***
+![Figura 2. Evite bloquear zonas de entrada/saída térmica e saída de áudio](images/sh2-thermal-audio.png) <br>
+_*_Figura 2. Evite bloquear zonas de entrada/saída térmica e saída de áudio._*_
 
-O cartucho de computação removível que contém as portas de e/s deve permanecer sem qualquer obstrução ou impedimento de qualquer tipo.
+O cartucho de computação removível que contém as portas de E/S deve permanecer livre de quaisquer obstruções ou impedimentos de qualquer tipo.
 
-![* Figura 3. modo de exibição do cartucho Compute na parte inferior do Surface Hub 2s. *](images/sh2-ports.png) <br>
-***Figura 3. modo de exibição do cartucho Compute na parte inferior do Surface Hub 2s.***
+![Figura 3.View do cartucho de computação na parte inferior Surface Hub 2S 50".](images/sh2-ports.png) <br>
+_*_Figura 3.View do cartucho de computação na parte inferior Surface Hub 2S 50"._*_
 
-![* Figura 4. Remoção não impedida do cartucho Compute *](images/sh2-cartridge.png) <br>
-***Figura 4. Remoção não impedida do cartucho computacional***
+![Figura 4. Remoção não emimpedida do cartucho de computação ](images/sh2-cartridge.png) <br>
+_*_Figura 4. Remoção não emimpedida do cartucho de computação_*_
 
-## Selecionar um sistema de montagem
+## <a name="selecting-a-mounting-system"></a>Selecionar um sistema de montagem
 
-O Surface Hub 2S usa uma estrutura de montagem de 350 mm x 350 mm que atende à maioria dos critérios listados no padrão da interface de montagem de tela plana VESA. Você pode instalar o Surface Hub 2S usando qualquer um dos vários suportes de exibição fora da prateleira projetados para acomodar exibições que divergem de especificações VESA exatas, conforme mostrado a seguir.
+Surface Hub 2S 50" usa uma estrutura de montagem de 350 mm x 350 mm que atende a maioria dos critérios listados no Padrão de Interface de Montagem de Exibição Simples do VESA. Você pode instalar o Surface Hub 2S 50" usando qualquer um dos vários colchetes de exibição fora da plataforma projetados para acomodar exibições que divergem das especificações exatas do VESA, conforme mostrado abaixo.
 
-Na parte traseira do Surface Hub 2S, você encontrará um padrão quadrado de quatro furos M6 x 1,0 encadeados centralizados na bomba circular (565 mm de diâmetro). Conecte sua montagem usando quatro parafusos de M6 x 1.0 – 12 mm de longa duração. Ou, dependendo da preferência, você pode usar mais de um máximo de 20 mm.
-Considerações importantes para a montagem de sistemas
+Na parte de trás do Surface Hub 2S 50", você encontrará um padrão quadrado de quatro buracos encadeados M6 x 1,0 centralizados na lombada circular (565 mm de espessura). Anexe sua montagem usando quatro pinos métricos M6 x 1,0-12 mm-long. Ou, dependendo da preferência, você pode usar pinos mais longos até um máximo de 20 mm.
+Considerações importantes para sistemas de montagem
 
-|**Item**|**Descrição**|**Observações**|
+| Item | Descrição | Observações |
 |:------ |:------------- |:------- |
-|**Nível**| Escolha montagens que podem dar suporte a dispositivos de pelo menos 28 kg (62 lb.). | Obrigatório |
-|**Pesada**| Evite montagens de exibição flexíveis que possam diminuir a experiência interativa de uso de caneta e de toque. A maioria das montagens de TV não são projetadas para dar suporte a telas de toque. | Recomendações |
-|**Profundidade**| Mantenha o dispositivo montado rigidamente na parede, especialmente em CORRIDORS, e através dos caminhos de circulação dentro de salas.| Recomendações |
-|**Versatilidade**| Certifique-se de que sua solução de montagem permaneça oculta do modo de exibição no modo paisagem existente e qualquer modo retrato potencial (sujeito à disponibilidade futura). | Recomendações |
+|_*Strength**| Escolha apenas montagens que possam suportar com segurança dispositivos de pelo menos 28 kg (62 lbs.). | Obrigatório |
+|**Enrijecimento**| Evite montagens de exibição flexíveis que podem diminuir a experiência interativa de uso de caneta e toque. A maioria das montagens de TV não são projetadas para dar suporte a exibições por toque. | Recomendações |
+|**Profundidade**| Mantenha o dispositivo montado firmemente na parede, especialmente em corredores e ao longo de caminhos de circulação dentro das salas.| Recomendações |
+|**Versatilidade**| Verifique se sua solução de montagem permanece oculta do modo de exibição no modo paisagem existente e em qualquer modo de retrato em potencial (sujeito à disponibilidade futura). | Recomendações |
 
-![* Figura 5. Configuração de montagem do Surface Hub 2S *](images/sh2-mount-config.png) <br>
-***Figura 5. Configuração de montagem do Surface Hub 2S***
+![Figura 5. Surface Hub configuração de montagem de 2S 50"](images/sh2-mount-config.png) <br>
+**_Figura 5. Surface Hub configuração de montagem do 2S 50"_*_
 
-## Métodos de montagem compatíveis com o Surface Hub 2S
 
-O Surface Hub 2S é compatível com montagens que permitem colocá-lo em ângulos de 10-70 graus a partir do plano vertical. Montagens Rails geralmente têm vários orifícios e um conjunto de Slots, permitindo a compatibilidade entre uma ampla gama de monitores. Um trilho anexado à parede e duas montagens anexadas à exibição permite que você instale com segurança o Surface Hub 2S em uma parede. Ao avaliar montagens do trilho para fins de compatibilidade, certifique-se de que atendam aos requisitos de versatilidade listados anteriormente.
+## <a name="mounting-methods-compatible-with-surface-hub-2s-50"></a>Métodos de montagem compatíveis com Surface Hub 2S 50"
 
-![* Figura 6. Montagens Rails *](images/h2gen-railmount.png)<br>
-***Figura 6. Montagens do trilho 2S do Surface Hub***
+Surface Hub 2S 50" é compatível com montagens que permitem que você o coloque em ângulos de 10 a 70 graus do plano vertical. As montagens de trilhos geralmente têm vários buracos e um conjunto de slots, permitindo a compatibilidade em uma ampla variedade de exibições. Um trilho anexado à parede e duas montagens anexadas à tela permitem que você instale com segurança Surface Hub 2S 50" em uma parede. Ao avaliar as montagens de trilhos para compatibilidade, certifique-se de que atendem aos requisitos de versatilidade listados anteriormente.
+
+![Figura 6. Montagens de trilhos](images/h2gen-railmount.png)<br>
+_*_Figura 6. Surface Hub 2S 50" rail mounts_**
+

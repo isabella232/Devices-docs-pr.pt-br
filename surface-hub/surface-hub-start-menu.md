@@ -10,20 +10,20 @@ ms.date: 08/15/2018
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: c5b6a083d543649eab899d2fea36327d08f8bc29
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: cf9649b8d1f747722064793fbbde70116bc7f424
+ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830231"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "11576841"
 ---
-# Configurar o menu Iniciar do Surface Hub
+# <a name="configure-surface-hub-start-menu"></a>Configurar o menu Iniciar do Surface Hub
 
 A [atualização de 17 de janeiro de 2018 para o Windows 10](https://support.microsoft.com/help/4057144) (build 15063.877) habilita os menus Iniciar personalizados em dispositivos Surface Hub. Você aplica o layout do menu Iniciar personalizado usando o gerenciamento de dispositivo móvel (MDM).
 
 Quando você aplica um layout do menu Iniciar personalizado ao Surface Hub, os usuários não podem fixar, desafixar ou desinstalar os apps de Iniciar. 
 
-## Como aplicar um menu Iniciar personalizado ao Surface Hub
+## <a name="how-to-apply-a-customized-start-menu-to-surface-hub"></a>Como aplicar um menu Iniciar personalizado ao Surface Hub
 
 O menu Iniciar personalizado é definido em um arquivo XML de layout de Iniciar. Você tem duas opções para criar o arquivo XML de layout de Iniciar:
 
@@ -41,19 +41,23 @@ Para editar o XML padrão ou o layout exportado, familiarize-se com o [XML do la
 Quando você tiver o menu Iniciar definido em um XML de layout de Iniciar, [crie uma política de MDM para aplicar o layout.](https://docs.microsoft.com/windows/configuration/customize-windows-10-start-screens-by-using-mobile-device-management#a-href-idbkmk-domaingpodeploymentacreate-a-policy-for-your-customized-start-layout)
 
 <span id="differences" />
-## Diferenças entre o Surface Hub e o menu Iniciar de desktop
+
+## <a name="differences-between-surface-hub-and-desktop-start-menu"></a>Diferenças entre o Surface Hub e o menu Iniciar de desktop
 
 Há algumas diferenças importantes entre a personalização do menu Iniciar para o Surface Hub e uma área de trabalho do Windows 10:
 
-- Você não pode usar **DesktopApplicationTile** ( https://docs.microsoft.com/windows/configuration/start-layout-xml-desktop#startdesktopapplicationtile) em seu XML de layout inicial porque não há suporte para aplicativos da área de trabalho do Windows (Win32) no Surface Hub.
+- Você não pode usar **DesktopApplicationTile** ( em seu XML de layout inicial porque Windows aplicativos de área de trabalho https://docs.microsoft.com/windows/configuration/start-layout-xml-desktop#startdesktopapplicationtile) (Win32) não são suportados no Surface Hub.
 - Você não pode usar o XML de layout de Iniciar para definir a barra de tarefas ou na tela de boas-vindas para o Surface Hub.  
+- A política de layout de início deve ser atribuída somente a dispositivos, não usuários.
+- A configuração OMA-URI a ser usada na política é `./Device/Vendor/MSFT/Policy/Config/Start/StartLayout`
 - O Surface Hub dá suporte a um máximo de 6 colunas (6 blocos 1x1), mas você **deve** definir `GroupCellWidth=8` mesmo que o Surface Hub só exiba os blocos nas colunas de 0 a 5, e não colunas 6 e 7.
 - O Surface Hub dá suporte a um máximo de 6 linhas (6 blocos 1x1)
 - `SecondaryTile`, que é usado para links, abrirá o link no Microsoft Edge.
 
 
 <span id="default" />
-## Exemplo: Layout Padrão de Iniciar do Surface Hub
+
+## <a name="example-default-surface-hub-start-layout"></a>Exemplo: Layout Padrão de Iniciar do Surface Hub
 
 ```xml
 <LayoutModificationTemplate Version="1" xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification">
@@ -110,9 +114,10 @@ Há algumas diferenças importantes entre a personalização do menu Iniciar par
 ```
 
 <span id="edge" />
-## Exemplo: Layout de Iniciar que inclui um link do Microsoft Edge
 
-Este exemplo mostra um link para um site e um link para um arquivo .pdf. O bloco secundário do Microsoft Edge usa um ícone de 150 x 150 pixels.
+## <a name="example-start-layout-that-includes-a-microsoft-edge-link"></a>Exemplo: Layout de Iniciar que inclui um link do Microsoft Edge
+
+Este exemplo mostra um link para um site e um link para um arquivo .pdf. O azulejo secundário para Microsoft Edge usa um ícone de 150 x 150 pixels.
 
 ```xml
 <LayoutModificationTemplate Version="1" xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification">
@@ -186,4 +191,4 @@ Este exemplo mostra um link para um site e um link para um arquivo .pdf. O bloco
 ```
 
 >[!NOTE]
->O valor padrão para `ForegroundText` é Light; não é necessário incluir `ForegroundText` em seu XML, a menos que você esteja alterando o valor para escuro.
+>O valor padrão para é claro; você não precisa incluir em seu XML, a menos que você esteja alterando o `ForegroundText` valor para `ForegroundText` escuro.
