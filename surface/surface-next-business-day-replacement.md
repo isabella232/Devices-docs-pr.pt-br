@@ -3,7 +3,7 @@ title: Informações sobre Substituição no Próximo Dia Útil e áreas de cobe
 ms.author: v-kaij
 author: greg-lindsay
 manager: laurawi
-ms.date: 02/19/2021
+ms.date: 05/18/2021
 audience: Admin
 ms.topic: article
 ms.prod: surface
@@ -14,39 +14,108 @@ appliesto:
 - Surface Hub
 ms.reviewer: irenewhite
 description: Informações sobre Substituição no Próximo Dia Útil e Áreas de Cobertura.
-ms.openlocfilehash: febc81156fea88d1f08ef162152b9cde6d78a559
-ms.sourcegitcommit: 8b35cdee6c638359403697711ee53d07cca6ee51
+ms.openlocfilehash: 387286698a1f82066bf1631682e2ceb749c0a6ab
+ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "11442129"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "11577081"
 ---
 # <a name="next-business-day-replacement-information--coverage-areas"></a>Informações sobre Substituição no Próximo Dia Útil e áreas de cobertura
 
 A Substituição no Próximo Dia Útil é um serviço pago onde um dispositivo Surface de substituição é entregue em seu endereço no próximo dia útil. 
 
-A Substituição no Próximo Dia Útil está disponível para os planos de proteção Complete for Business Plus nos Estados Unidos, Canadá, Europa (limitado à Áustria, Bélgica, República Tcheca, França, Alemanha, Países Baixos, Polônia, Reino Unido), Austrália, Cingapura e Japão. Esses serviços se aplicam após um agente determinar a necessidade de um dispositivo de substituição, tivermos estoque disponível e encomendarmos uma substituição por tempo de fechamento padrão, predeterminado pela Microsoft. 
+A Substituição no Próximo Dia útil está disponível com a compra de seu plano de proteção Complete para Negócios Plus (disponível em alguns países). Esses serviços se aplicam depois que um agente determina que um dispositivo de substituição é necessário, confirma o estoque disponível e envia um pedido de dispositivo de substituição em um tempo limite padrão, predeterminado pela Microsoft. 
 
 ## <a name="guidelines"></a>Diretrizes
 
 - A entrega noturna está sujeita à disponibilidade das nossas transportadoras de entrega noturna autorizadas.
-- Para garantir a entrega de um dispositivo de substituição ano próximo dia útil, as solicitações de substituição de dispositivo devem ser concluídas até os tempos de fechamento listados na Tabela 1. 
+- Para garantir a entrega de um dispositivo de substituição até o próximo dia útil, os pedidos de substituição do dispositivo devem ser concluídos até os horários limite listados abaixo.
 - Para termos e condições completos, confira [Garantias, planos de serviço estendidos, e Termos e Condições para seu dispositivo ](https://support.microsoft.com/topic/warranties-extended-service-plans-and-terms-conditions-for-your-device-eedf7a23-84a7-1a47-480b-0e10503eedf5)
 
-### <a name="table-1-replacement-request-cutoff-times-by-locale"></a>Tabela 1. Tempos de fechamento para solicitação de substituição por localidade
+## <a name="coverage"></a>Cobertura
 
-| Localidade                                                                                                    | Tempo de Fechamento |
-| -------------------------------------------------------------------------------------------------------------- | --------------- |
-| **Estados Unidos e Canadá**                                                                                     | 14:00 CST (UTC -6)      |
-| **Europa** (limitada à Áustria, Bélgica, República Tcheca, França, Alemanha, Países Baixos, Polônia e Reino Unido) | 12:00 CET   (UTC +1)     |
-| **Austrália**                                                                                                  | 13:00 AET   (UTC +11)    |
-| **Cingapura**                                                                                                  | 13:00 SGT    (UTC +8)   |
-| **Japão**                                                                                                      | 13:00 JST    (UTC +9)   |
+Para obter uma lista de códigos postais suportados, confira "Cobertura no próximo dia útil" quando aplicável abaixo. 
+
+- [Austrália](#australia)
+- [Áustria](#austria)
+- [Bélgica](#belgium)
+- [Canadá](#canada)
+- [República Tcheca](#czech-republic)
+- [Dinamarca](#denmark)
+- [Finlândia](#finland)
+- [França](#france)
+- [Alemanha](#germany)
+- [Irlanda](#ireland)
+- [Itália](#italy)
+- [Japão](#japan)
+- [Noruega](#norway)
+- [Polônia](#poland)
+- [Portugal](#portugal)
+- [Cingapura](#singapore)
+- [Espanha](#spain)
+- [Suécia](#sweden)
+- [Suíça](#switzerland)
+- [Países Baixos](#the-netherlands)
+- [Estados Unidos](#united-states)
 
 
-##  <a name="available-areas-in-japan"></a>Áreas disponíveis no Japão 
+#### <a name="australia"></a>Austrália
 
-Ela estará disponível nas seguintes regiões no Japão. Para obter mais informações, confira [Surface Complete for Business Plus (Japão)](https://cdn.techcommunity.microsoft.com/assets/Surface/jp-next-day-replace-surface.pdf)
+- Hora de corte: 14:30 AET (UTC+11)
+
+#### <a name="austria"></a>Áustria
+
+- Hora de Corte: 12:00 CET (UTC+1)
+- [Cobertura do próximo dia útil](https://download.microsoft.com/download/5/7/5/575447e3-70c1-468b-a714-22d3cded7a6e/NBD%20Coverage%20-%20Austria%20Post%20Codes%20030321.xlsx)
+
+#### <a name="belgium"></a>Bélgica
+
+- Hora de Corte: 12:00 CET (UTC+1)
+- [Cobertura do próximo dia útil](https://download.microsoft.com/download/f/b/9/fb95d99c-1403-4ecf-bbde-0bab2af2c2ce/NBD%20Coverage%20-%20Belgium%20Post%20Codes%20030321.xlsx)
+
+#### <a name="canada"></a>Canadá
+
+- Hora de corte: 14:00 CST (UTC-6)
+
+#### <a name="czech-republic"></a>República Tcheca
+
+- Hora de Corte: 12:00 CET (UTC+1)
+
+#### <a name="denmark"></a>Dinamarca 
+
+- Hora de Corte: 12:00 CET (UTC+1) 
+- [Cobertura do próximo dia útil](https://download.microsoft.com/download/9/e/6/9e6b4db6-b9f6-412e-a296-a10b5bc6e591/NBD%20Coverage%20-%20Denmark%20Post%20Codes%20030321.xlsx)
+
+#### <a name="finland"></a>Finlândia
+
+- Hora de Corte: 12:00 CET (UTC+1)
+- [Cobertura do próximo dia útil](https://download.microsoft.com/download/b/d/d/bddd01a3-6f8e-4bd2-9549-4dbf0a5aee86/NBD%20Coverage%20-%20Finland%20Post%20Codes%20030321.xlsx)
+
+#### <a name="france"></a>França
+
+- Hora de Corte: 12:00 CET (UTC+1)
+
+#### <a name="germany"></a>Alemanha
+
+- Hora de Corte: 12:00 CET (UTC+1)
+
+#### <a name="ireland"></a>Irlanda
+
+- Hora de Corte: 12:00 CET (UTC+1)
+- [Cobertura do próximo dia útil](https://download.microsoft.com/download/d/6/f/d6f05276-3657-49d3-8871-a2e445b686ef/NBD%20Coverage%20-%20Ireland%20Post%20Codes%20030321.xlsx)
+
+#### <a name="italy"></a>Itália
+
+- Hora de Corte: 12:00 CET (UTC+1)
+- [Cobertura do próximo dia útil](https://download.microsoft.com/download/6/9/a/69a57c96-f4ce-4f93-a99a-2469ed737351/NBD%20Coverage%20-%20Italy%20Post%20Codes%20030321.xlsx)
+
+#### <a name="japan"></a>Japão
+
+- Hora de corte: 15:30 JST (UTC+9)
+- [Cobertura do próximo dia útil](https://cdn.techcommunity.microsoft.com/assets/Surface/jp-next-day-replace-surface.pdf)
+
+**Áreas disponíveis no Japão** 
 
 - Aomori
 - Iwate
@@ -79,3 +148,44 @@ Ela estará disponível nas seguintes regiões no Japão. Para obter mais inform
 - Hiroshima
 - Yamaguchi
 
+#### <a name="norway"></a>Noruega
+
+- Hora de Corte: 12:00 CET (UTC+1)
+- [Cobertura do próximo dia útil](https://download.microsoft.com/download/2/8/0/2803e50f-b7fb-431a-9eb9-efba7fb32260/NBD%20Coverage%20-%20Norway%20Post%20Codes%20032521.xlsx)
+
+#### <a name="poland"></a>Polônia
+
+- Hora de Corte: 12:00 CET (UTC+1)
+
+
+#### <a name="portugal"></a>Portugal
+
+- Hora de Corte: 12:00 CET (UTC+1)
+- [Cobertura do próximo dia útil](https://download.microsoft.com/download/5/1/4/5146ceeb-651c-4b10-afeb-ea1abb733e33/NBD%20Coverage%20-%20Portugal%20Post%20Codes%20030321.xlsx)
+
+#### <a name="singapore"></a>Cingapura
+
+- Hora de corte: 13:00 SGT (UTC+8)
+
+#### <a name="spain"></a>Espanha
+
+- Hora de Corte: 12:00 CET (UTC+1)
+- [Cobertura do próximo dia útil](https://download.microsoft.com/download/6/1/d/61da1e35-e17e-4a67-ab81-27cf7a21f91b/NBD%20Coveragef-%20Spain%20Post%20Codes%20030321.xlsx)
+
+#### <a name="sweden"></a>Suécia
+
+- Hora de Corte: 12:00 CET (UTC+1)
+- [Cobertura do próximo dia útil](https://download.microsoft.com/download/3/c/8/3c8a0591-2ee9-4742-835f-86b8c79b986f/NBD%20Coverage%20-%20Sweden%20Post%20Codes%20030321.xlsx)
+
+#### <a name="switzerland"></a>Suíça
+
+- Hora de Corte: 12:00 CET (UTC+1)
+- [Cobertura do próximo dia útil](https://download.microsoft.com/download/e/6/9/e69789ca-4617-4b23-afb2-09529f320de3/NBD%20Coverage%20-%20Switzerland%20Post%20Codes%20030321%20update.xlsx)
+
+#### <a name="the-netherlands"></a>Países Baixos
+
+- Hora de Corte: 12:00 CET (UTC+1)
+
+#### <a name="united-states"></a>Estados Unidos 
+
+- Hora de corte: 14:00 CST (UTC-6)
