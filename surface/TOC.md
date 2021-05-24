@@ -2,12 +2,13 @@
 
 ## [Documentação de dispositivos Surface](get-started.yml)
 
-## Visão geral
+## Visão Geral
 
-### [Surface Pro 7+ for Business](https://www.microsoft.com/surface/business/surface-pro-7-plus)
+### [Surface Laptop 4 para Empresas](https://www.microsoft.com/surface/business/surface-laptop-4)
+### [Visão geral técnica de processadores do Surface Laptop 4](surface-laptop-processors.md)
+### [Surface Pro 7+ para Empresas](https://www.microsoft.com/surface/business/surface-pro-7-plus)
 ### [Surface Go 2 para Empresas](https://www.microsoft.com/surface/business/surface-go-2)
 ### [Surface Pro X para Empresas](https://www.microsoft.com/surface/business/surface-pro-x)
-### [Surface Laptop 3 para Empresas](https://www.microsoft.com/surface/business/surface-laptop-3)
 ### [Surface Studio 2 para Empresas](https://www.microsoft.com/surface/business/surface-studio-2)
 ### [Surface Book 3 para Empresas](https://www.microsoft.com/surface/business/surface-book-3)
 ### [Maximizar o ROI com o Microsoft Surface](forrester-tei-study.md)
@@ -16,8 +17,10 @@
 ### [Visão geral técnica da GPU do Surface Book 3](surface-book-GPU-overview.md)
 ### [Visão geral técnica do Surface Book 3 Quadro RTX 3000](surface-book-quadro.md)
 ### [Mobilidade segura em qualquer lugar com o LTE Avançado](https://www.microsoft.com/surface/business/lte-laptops-and-tablets)
+### [Visão geral técnica do Surface Headphones 2+](surface-headphones.md)
 
-## Planeje
+
+## Plano
 
 ### [Compatibilidade do dispositivo Surface com o Branch de Manutenção de Longo Prazo do Windows 10](surface-device-compatibility-with-windows-10-ltsc.md)
 ### [Branch de Manutenção de Longo Prazo para dispositivos Surface](ltsb-for-surface.md)

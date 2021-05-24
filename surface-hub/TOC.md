@@ -14,11 +14,11 @@
 ### [Guia de preparação do local do Surface Hub 2S](surface-hub-2s-site-readiness-guide.md) 
 #### [Planejamento do local para o Surface Hub 2S](surface-hub-2s-site-planning.md)
 #### [Início rápido do Surface Hub 2S](surface-hub-2s-quick-start.md)
-#### [Instalar e montar o Surface Hub 2S](surface-hub-2s-install-mount.md)
-#### [Movimentação e manuseio do Surface Hub 2S 85 "](hub-move.md)
-#### [Instale e monte o Surface Hub 2S 85 "](surface-hub-2s-85-install-mount.md)
-#### [Personalizar o suporte de parede do Surface Hub 2S](surface-hub-2s-custom-install.md)
-#### [Planilha de instalação](setup-worksheet-surface-hub.md)
+#### [Instalar e montar o Surface Hub 2S 50"](surface-hub-2s-install-mount.md)
+#### [Mover e manusear o Surface Hub 2S 85"](hub-move.md)
+#### [Instalar e montar o Surface Hub 2S 85 "](surface-hub-2s-85-install-mount.md)
+#### [Personalizar a montagem de parede do Surface Hub 2S 50"](surface-hub-2s-custom-install.md)
+#### [Planilha de configuração](setup-worksheet-surface-hub.md)
 #### [Visão geral do teclado numérico e das portas do Surface Hub 2S](surface-hub-2s-port-keypad-overview.md)
 #### [Conectar dispositivos ao Surface Hub 2S](surface-hub-2s-connect.md)
 ### [Preparar o ambiente para o Microsoft Surface Hub](prepare-your-environment-for-surface-hub.md)
@@ -28,8 +28,7 @@
 ### [Adoção e treinamento do Surface Hub 2S](surface-hub-2s-adoption-kit.md)
 ### [Vídeos de adoção do Surface Hub 2S](surface-hub-2s-adoption-videos.md)
 ### [Primeira instalação do Surface Hub 2S](surface-hub-2s-setup.md)
-### [Conectar outros dispositivos ao Surface Hub 2S](surface-hub-2s-connect.md)
-### [Lista de verificação de implantação do Surface Hub 2S](surface-hub-2s-deploy-checklist.md)
+### [Conectar dispositivos ao Surface Hub 2S](surface-hub-2s-connect.md)
 ### [Criar e testar uma conta de dispositivo](create-and-test-a-device-account-surface-hub.md)
 ### [Criar pacotes de provisionamento para o Surface Hub 2S](surface-hub-2s-deploy.md)
 ### [Implantar aplicativos no Surface Hub 2S usando o Intune](surface-hub-2s-deploy-apps-intune.md)
@@ -82,11 +81,13 @@
 ### [Guia de preparação do local do Surface Hub](surface-hub-site-readiness-guide.md) 
 ### [Instalar fisicamente o Microsoft Surface Hub](physically-install-your-surface-hub-device.md) 
 
-## Implante
+## Implantar
 ### [Criar e testar uma conta de dispositivo](create-and-test-a-device-account-surface-hub.md)
 #### [Implantação online](https://docs.microsoft.com/microsoftteams/rooms/with-office-365)
+
 #### [Implantação local (floresta única)](https://docs.microsoft.com/microsoftteams/rooms/with-skype-for-business-server-2015)
-#### [Implantação local (várias florestas)] (https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/multiple-forest-on-premises-deployments
+
+#### [Implantação local (várias florestas)](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/multiple-forest-on-premises-deployments)
 #### [Implantação híbrida](hybrid-deployment-surface-hub-device-accounts.md)
 #### [Propriedades do Microsoft Exchange](exchange-properties-for-surface-hub-device-accounts.md)
 #### [Aplicando políticas do ActiveSync a contas de dispositivo](apply-activesync-policies-for-surface-hub-device-accounts.md)
@@ -135,7 +136,7 @@
 ### [Principais soluções de suporte para o Surface Hub](support-solutions-surface-hub.md)
 ### [Solução de problemas do Microsoft Surface Hub](troubleshoot-surface-hub.md)
 ### [Histórico de atualizações do Surface Hub](surface-hub-update-history.md)
-### [Problemas conhecidos e informações adicionais sobre o Microsoft Surface Hub](known-issues-and-additional-info-about-surface-hub.md)
+### [Problemas conhecidos: Windows 10 Team OS](surface-hub-2020-team-update-known-issues.md)
 ### [Como usar a recuperação da nuvem para o BitLocker em um Surface Hub](use-cloud-recovery-for-bitlocker-on-surfacehub.md)
 ### [Como usar a Ferramenta de Diagnóstico de Hardware do Surface Hub para testar uma conta de dispositivo](use-surface-hub-diagnostic-test-device-account.md)
 ### [Solução de problemas do Miracast no Surface Hub](miracast-troubleshooting.md)
