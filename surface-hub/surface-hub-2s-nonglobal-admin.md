@@ -14,12 +14,12 @@ ms.localizationpriority: Medium
 appliesto:
 - Surface Hub
 - Surface Hub 2S
-ms.openlocfilehash: 03359a7d8ea028a8094c064c1fcb82cc9a53fe6a
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: cdb6dbdb49b34857f7b30feebb39f7a5c36e883c
+ms.sourcegitcommit: 77b2c51f8467ac3ac37399551b0cc20d9ce57d24
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11576761"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "11585952"
 ---
 # <a name="configure-non-global-admin-accounts-on-surface-hub"></a>Configurar contas administrativas não globais no Surface Hub
 
@@ -47,7 +47,7 @@ Primeiro crie um grupo de segurança que contenha as contas de administrador. Em
 
      ![Criar grupo de segurança para administradores do Hub](images/sh-create-sec-group.png)
 
-3. Abra o grupo, selecione **Membros**e escolha **Adicionar** membros para inserir as contas de administrador que você deseja designar como administradores não globais no Surface Hub. Para saber mais sobre a criação de grupos no Intune, consulte  [Adicionar grupos para organizar usuários e dispositivos](https://docs.microsoft.com/mem/intune/fundamentals/groups-add).
+3. Abra o grupo, selecione **Membros**e escolha **Adicionar** membros para inserir as contas de administrador que você deseja designar como administradores não globais no Surface Hub. Para saber mais sobre a criação de grupos no Intune, consulte  [Adicionar grupos para organizar usuários e dispositivos](/mem/intune/fundamentals/groups-add).
 
 ### <a name="create-security-group-for-surface-hub-devices"></a>Criar grupo de segurança para Surface Hub dispositivos
 
@@ -57,8 +57,8 @@ Primeiro crie um grupo de segurança que contenha as contas de administrador. Em
 
 ## <a name="obtain-azure-ad-group-sid-using-powershell"></a>Obter SID do grupo do Azure AD usando o PowerShell
 
-1. Iniciar o PowerShell com privilégios de conta elevados ( Executar como**Administrador**) e garantir que seu sistema está configurado para executar scripts do PowerShell. Para saber mais, consulte [About Execution Policies](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies?). 
-2. [Instalar Azure PowerShell módulo](https://docs.microsoft.com/powershell/azure/install-az-ps).
+1. Iniciar o PowerShell com privilégios de conta elevados ( Executar como**Administrador**) e garantir que seu sistema está configurado para executar scripts do PowerShell. Para saber mais, consulte [About Execution Policies](/powershell/module/microsoft.powershell.core/about/about_execution_policies?). 
+2. [Instalar Azure PowerShell módulo](/powershell/azure/install-az-ps).
 3. Entre no locatário do Azure AD.
 
     ```powershell
@@ -106,6 +106,9 @@ Primeiro crie um grupo de segurança que contenha as contas de administrador. Em
 
 2. Substitua o SID de espaço reservado (começando pelo S-1-12-1) pelo SID do **grupo do Azure AD** e salve o arquivo como XML; por exemplo, **aad-local-admin.xml**. 
 
+      > [!NOTE]
+      > Embora os grupos deverão ser especificados por meio do SID, se você quiser adicionar usuários do Azure diretamente, eles podem ser adicionados especificando seu Nome de Entidade de Usuário (UPN) nesse formato: `<member name = "AzureAD\user@contoso.com" />`
+
 ## <a name="create-custom-configuration-profile"></a>Criar perfil de configuração personalizado
 
 1. Em Endpoint Manager, selecione **Perfis**de  >  **Configuração de**  >  **Dispositivos Criar perfil**. 
@@ -125,7 +128,7 @@ Primeiro crie um grupo de segurança que contenha as contas de administrador. Em
 8. Clique **em Selecionar grupos para incluir** e escolher o grupo de segurança [criado](#create-security-group-for-surface-hub-devices) anteriormente (**Surface Hub dispositivos**). Clique em **Avançar**.
 9. Em Regras de Aplicabilidade, adicione uma Regra, se desejado. Caso contrário, selecione **Próximo** e selecione **Criar**.
 
-Para saber mais sobre perfis de configuração personalizados usando cadeias de caracteres OMA-URI, consulte [Use custom settings for Windows 10 devices in Intune](https://docs.microsoft.com/mem/intune/configuration/custom-settings-windows-10).
+Para saber mais sobre perfis de configuração personalizados usando cadeias de caracteres OMA-URI, consulte [Use custom settings for Windows 10 devices in Intune](/mem/intune/configuration/custom-settings-windows-10).
 
 
 ## <a name="non-global-admins-managing-surface-hub"></a>Administradores não globais gerenciando Surface Hub

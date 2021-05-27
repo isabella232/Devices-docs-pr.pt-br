@@ -3,7 +3,7 @@ title: Informações sobre Substituição no Próximo Dia Útil e áreas de cobe
 ms.author: v-kaij
 author: greg-lindsay
 manager: laurawi
-ms.date: 05/18/2021
+ms.date: 05/23/2021
 audience: Admin
 ms.topic: article
 ms.prod: surface
@@ -14,12 +14,12 @@ appliesto:
 - Surface Hub
 ms.reviewer: irenewhite
 description: Informações sobre Substituição no Próximo Dia Útil e Áreas de Cobertura.
-ms.openlocfilehash: 387286698a1f82066bf1631682e2ceb749c0a6ab
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: 2708890c864582cf638c48474f85ddc01ef36576
+ms.sourcegitcommit: 77b2c51f8467ac3ac37399551b0cc20d9ce57d24
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11577081"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "11585922"
 ---
 # <a name="next-business-day-replacement-information--coverage-areas"></a>Informações sobre Substituição no Próximo Dia Útil e áreas de cobertura
 
@@ -46,6 +46,7 @@ Para obter uma lista de códigos postais suportados, confira "Cobertura no próx
 - [Finlândia](#finland)
 - [França](#france)
 - [Alemanha](#germany)
+- [Hong Kong](#hong-kong)
 - [Irlanda](#ireland)
 - [Itália](#italy)
 - [Japão](#japan)
@@ -81,6 +82,7 @@ Para obter uma lista de códigos postais suportados, confira "Cobertura no próx
 #### <a name="czech-republic"></a>República Tcheca
 
 - Hora de Corte: 12:00 CET (UTC+1)
+- [Cobertura do próximo dia útil](https://download.microsoft.com/download/9/2/6/926014cb-38b2-4270-b841-d3dc56f6e341/NBD%20Coverage%20-%20Czech%20Republic%20Post%20Codes%20042821.xlsx)
 
 #### <a name="denmark"></a>Dinamarca 
 
@@ -95,10 +97,16 @@ Para obter uma lista de códigos postais suportados, confira "Cobertura no próx
 #### <a name="france"></a>França
 
 - Hora de Corte: 12:00 CET (UTC+1)
+- [Cobertura do próximo dia útil](https://download.microsoft.com/download/7/b/0/7b0fa1bb-4c75-474a-83be-6d55e0fa719f/NBD%20Coverage%20-%20France%20Postal%20Codes%20042821.xlsx)
 
 #### <a name="germany"></a>Alemanha
 
 - Hora de Corte: 12:00 CET (UTC+1)
+- [Cobertura do próximo dia útil](https://download.microsoft.com/download/d/4/f/d4f6c11f-ada2-4400-b502-2e722644427b/NBD%20Coverage%20-%20Germany%20Post%20Codes%20042821.xlsx)
+
+#### <a name="hong-kong"></a>Hong Kong
+
+- Hora de Corte:16:00 HKT (UTC+8) 
 
 #### <a name="ireland"></a>Irlanda
 
@@ -113,40 +121,7 @@ Para obter uma lista de códigos postais suportados, confira "Cobertura no próx
 #### <a name="japan"></a>Japão
 
 - Hora de corte: 15:30 JST (UTC+9)
-- [Cobertura do próximo dia útil](https://cdn.techcommunity.microsoft.com/assets/Surface/jp-next-day-replace-surface.pdf)
-
-**Áreas disponíveis no Japão** 
-
-- Aomori
-- Iwate
-- Miyagi
-- Akita
-- Yamagata
-- Fukushima
-- Ibaraki
-- Saitama
-- Chiba
-- Tóquio
-- Kanagawa
-- Niigata
-- Toyama
-- Ishikawa
-- Fukui
-- Yamanashi
-- Nagano
-- Gifu
-- Shizuoka
-- Aichi
-- Mie
-- Shiga
-- Kyoto
-- Osaka
-- Hyogo
-- Nara
-- Wakayama
-- Tottori
-- Hiroshima
-- Yamaguchi
+- [Cobertura do próximo dia útil](https://download.microsoft.com/download/c/7/8/c781a035-19f7-4563-9dd9-e8c5f3713342/NBD%20Coverage%20-%20Japan%20Post%20Codes%20060121.xlsx)
 
 #### <a name="norway"></a>Noruega
 
@@ -156,7 +131,8 @@ Para obter uma lista de códigos postais suportados, confira "Cobertura no próx
 #### <a name="poland"></a>Polônia
 
 - Hora de Corte: 12:00 CET (UTC+1)
-
+- [Cobertura do próximo dia útil](https://download.microsoft.com/download/f/e/8/fe8b9b43-5f72-4cf1-971d-78dd46f8ea1c/NBD%20Coverage%20-%20Poland%20Post%20Codes%20042821.xlsx
+)
 
 #### <a name="portugal"></a>Portugal
 
@@ -185,6 +161,7 @@ Para obter uma lista de códigos postais suportados, confira "Cobertura no próx
 #### <a name="the-netherlands"></a>Países Baixos
 
 - Hora de Corte: 12:00 CET (UTC+1)
+- [Cobertura do próximo dia útil](https://download.microsoft.com/download/6/3/f/63f2ff4c-3b8f-465e-9498-0878f7ba70f3/NBD%20Coverage%20-%20Netherlands%20Post%20Codes%20042821.xlsx)
 
 #### <a name="united-states"></a>Estados Unidos 
 
