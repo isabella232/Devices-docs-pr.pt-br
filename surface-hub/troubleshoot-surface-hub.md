@@ -31,12 +31,12 @@ ms.locfileid: "10830325"
 
 
 
-## <span data-ttu-id="29aa6-113">Solução de problemas de instalação</span><span class="sxs-lookup"><span data-stu-id="29aa6-113">Setup troubleshooting</span></span>
+## <a name="setup-troubleshooting"></a><span data-ttu-id="29aa6-113">Solução de problemas de instalação</span><span class="sxs-lookup"><span data-stu-id="29aa6-113">Setup troubleshooting</span></span>
 
 
 <span data-ttu-id="29aa6-114">Esta seção lista as causas e possíveis correções para ajudar a solucionar problemas que você pode encontrar ao configurar o Microsoft Surface Hub.</span><span class="sxs-lookup"><span data-stu-id="29aa6-114">This section lists causes, and possible fixes to help troubleshoot issues you might find when you set up your Microsoft Surface Hub.</span></span>
 
-### <span data-ttu-id="29aa6-115">No dispositivo</span><span class="sxs-lookup"><span data-stu-id="29aa6-115">On-device</span></span>
+### <a name="on-device"></a><span data-ttu-id="29aa6-115">No dispositivo</span><span class="sxs-lookup"><span data-stu-id="29aa6-115">On-device</span></span>
 
 <span data-ttu-id="29aa6-116">Possíveis correções para os problemas no Surface Hub depois de concluir a primeira execução do programa.</span><span class="sxs-lookup"><span data-stu-id="29aa6-116">Possible fixes for issues on the Surface Hub after you've completed the first-run program.</span></span>
 
@@ -143,7 +143,7 @@ ms.locfileid: "10830325"
 </table>
  
 
-### <span data-ttu-id="29aa6-150">Primeira execução</span><span class="sxs-lookup"><span data-stu-id="29aa6-150">First run</span></span>
+### <a name="first-run"></a><span data-ttu-id="29aa6-150">Primeira execução</span><span class="sxs-lookup"><span data-stu-id="29aa6-150">First run</span></span>
 
 <span data-ttu-id="29aa6-151">Possíveis correções para os problemas com o programa de primeira execução do Surface Hub.</span><span class="sxs-lookup"><span data-stu-id="29aa6-151">Possible fixes for issues with Surface Hub first-run program.</span></span>
 
@@ -212,7 +212,7 @@ ms.locfileid: "10830325"
 
  
 
-### <span data-ttu-id="29aa6-178">Página da conta do dispositivo, problemas de configurações de conta existente</span><span class="sxs-lookup"><span data-stu-id="29aa6-178">Device account page, issues for existing account settings</span></span>
+### <a name="device-account-page,-issues-for-existing-account-settings"></a><span data-ttu-id="29aa6-178">Página da conta do dispositivo, problemas de configurações de conta existente</span><span class="sxs-lookup"><span data-stu-id="29aa6-178">Device account page, issues for existing account settings</span></span>
 
 <table>
 <tr>
@@ -372,7 +372,7 @@ ms.locfileid: "10830325"
 
  
 
-### <span data-ttu-id="29aa6-227">Primeira execução, página do servidor do Exchange</span><span class="sxs-lookup"><span data-stu-id="29aa6-227">First run, Exchange server page</span></span>
+### <a name="first-run,-exchange-server-page"></a><span data-ttu-id="29aa6-227">Primeira execução, página do servidor do Exchange</span><span class="sxs-lookup"><span data-stu-id="29aa6-227">First run, Exchange server page</span></span>
 
 <table>
 <colgroup>
@@ -431,7 +431,7 @@ ms.locfileid: "10830325"
 
  
 
-## <span data-ttu-id="29aa6-243">Erros do Exchange ActiveSync</span><span class="sxs-lookup"><span data-stu-id="29aa6-243">Exchange ActiveSync errors</span></span>
+## <a name="exchange-activesync-errors"></a><span data-ttu-id="29aa6-243">Erros do Exchange ActiveSync</span><span class="sxs-lookup"><span data-stu-id="29aa6-243">Exchange ActiveSync errors</span></span>
 
 
 <span data-ttu-id="29aa6-244">Esta seção lista códigos de status, mapeamento, mensagens de usuário e ações que um administrador pode executar para resolver erros do Exchange ActiveSync.</span><span class="sxs-lookup"><span data-stu-id="29aa6-244">This section lists status codes, mapping, user messages, and actions an admin can take to solve Exchange ActiveSync errors.</span></span>
@@ -607,13 +607,13 @@ ms.locfileid: "10830325"
 </tbody>
 </table>
 
-## <span data-ttu-id="29aa6-372">Contatar o Suporte</span><span class="sxs-lookup"><span data-stu-id="29aa6-372">Contact Support</span></span>
+## <a name="contact-support"></a><span data-ttu-id="29aa6-372">Contatar o Suporte</span><span class="sxs-lookup"><span data-stu-id="29aa6-372">Contact Support</span></span>
 
 <span data-ttu-id="29aa6-373">Se tiver dúvidas ou precisar de ajuda, você pode [criar uma solicitação de suporte](https://support.microsoft.com/supportforbusiness/productselection).</span><span class="sxs-lookup"><span data-stu-id="29aa6-373">If you have questions or need help, you can [create a support request](https://support.microsoft.com/supportforbusiness/productselection).</span></span>
 
 
  
-## <span data-ttu-id="29aa6-374">Conteúdo relacionado</span><span class="sxs-lookup"><span data-stu-id="29aa6-374">Related content</span></span>
+## <a name="related-content"></a><span data-ttu-id="29aa6-374">Conteúdo relacionado</span><span class="sxs-lookup"><span data-stu-id="29aa6-374">Related content</span></span>
 
 - [<span data-ttu-id="29aa6-375">Solução de problemas de conexão do Miracast para o Surface Hub</span><span class="sxs-lookup"><span data-stu-id="29aa6-375">Troubleshooting Miracast connection to the Surface Hub</span></span>](https://docs.microsoft.com/surface-hub/miracast-troubleshooting)
  

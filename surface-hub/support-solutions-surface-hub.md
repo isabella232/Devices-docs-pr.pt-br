@@ -28,20 +28,20 @@ ms.locfileid: "10831037"
 
 <span data-ttu-id="1171b-109">Essas são as principais soluções do Suporte da Microsoft para problemas comuns enfrentados ao usar o Surface Hub.</span><span class="sxs-lookup"><span data-stu-id="1171b-109">These are the top Microsoft Support solutions for common issues experienced when using Surface Hub.</span></span>
 
-## <span data-ttu-id="1171b-110">Problemas de instalação e configuração</span><span class="sxs-lookup"><span data-stu-id="1171b-110">Setup and install issues</span></span>
+## <a name="setup-and-install-issues"></a><span data-ttu-id="1171b-110">Problemas de instalação e configuração</span><span class="sxs-lookup"><span data-stu-id="1171b-110">Setup and install issues</span></span>
 
 - [<span data-ttu-id="1171b-111">Solução de problemas de instalação</span><span class="sxs-lookup"><span data-stu-id="1171b-111">Setup troubleshooting</span></span>](troubleshoot-surface-hub.md#setup-troubleshooting)
 - [<span data-ttu-id="1171b-112">Erros do Exchange ActiveSync</span><span class="sxs-lookup"><span data-stu-id="1171b-112">Exchange ActiveSync errors</span></span>](troubleshoot-surface-hub.md#exchange-activesync-errors)
 
-## <span data-ttu-id="1171b-113">Problemas do Miracast</span><span class="sxs-lookup"><span data-stu-id="1171b-113">Miracast issues</span></span>
+## <a name="miracast-issues"></a><span data-ttu-id="1171b-113">Problemas do Miracast</span><span class="sxs-lookup"><span data-stu-id="1171b-113">Miracast issues</span></span>
 
 - [<span data-ttu-id="1171b-114">Solução de problemas do Miracast no Surface Hub</span><span class="sxs-lookup"><span data-stu-id="1171b-114">Troubleshoot Miracast on Surface Hub</span></span>](miracast-troubleshooting.md)
  
-## <span data-ttu-id="1171b-115">Problemas ao baixar atualizações</span><span class="sxs-lookup"><span data-stu-id="1171b-115">Download updates issues</span></span>
+## <a name="download-updates-issues"></a><span data-ttu-id="1171b-115">Problemas ao baixar atualizações</span><span class="sxs-lookup"><span data-stu-id="1171b-115">Download updates issues</span></span>
 
 - [<span data-ttu-id="1171b-116">O Surface Hub não consegue baixar atualizações do Windows Update</span><span class="sxs-lookup"><span data-stu-id="1171b-116">Surface Hub can't download updates from Windows Update</span></span>](https://support.microsoft.com/help/3191418/surface-hub-can-t-download-updates-from-windows-update)
 
-## <span data-ttu-id="1171b-117">Problemas do aplicativo Connect</span><span class="sxs-lookup"><span data-stu-id="1171b-117">Connect app issues</span></span>
+## <a name="connect-app-issues"></a><span data-ttu-id="1171b-117">Problemas do aplicativo Connect</span><span class="sxs-lookup"><span data-stu-id="1171b-117">Connect app issues</span></span>
 
 - [<span data-ttu-id="1171b-118">O aplicativo Connect no Surface Hub é encerrado inesperadamente</span><span class="sxs-lookup"><span data-stu-id="1171b-118">The Connect app in Surface Hub exits unexpectedly</span></span>](https://support.microsoft.com/help/3157417/the-connect-app-in-surface-hub-exits-unexpectedly)
 
