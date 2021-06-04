@@ -26,7 +26,7 @@ As instruções de configuração do Surface Hub incluem uma planilha de instala
 
 Antes de você ativar o Microsoft Surface Hub pela primeira vez, verifique se concluiu a lista de verificação no final da seção [Preparar o ambiente para o Surface Hub](prepare-your-environment-for-surface-hub.md) e se tem as informações listadas na [Planilha de instalação](setup-worksheet-surface-hub.md). Quando você ligá-lo, o dispositivo irá orientá-lo por meio de uma série de telas de configuração. Se não tiver configurado corretamente seu ambiente ou não tiver as informações necessárias, você deverá verificar mais tarde se as configurações estão corretas.
 
-## Nesta seção
+##  <a name="in-this-section"></a>Nesta seção
 
 
 <table>

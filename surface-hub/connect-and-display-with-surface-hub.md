@@ -248,11 +248,11 @@ Se o computador que estiver usando para o Modo Convidado não for compatível co
 
 No Modo de Computador de Substituição, o computador incorporado do Surface Hub é desativado, e um PC externo é conectado ao Surface Hub. Conexões com portas do computador de substituição dão acesso aos principais periféricos no Surface Hub, incluindo recursos de toque, tela e caneta. Isso significa que o Surface Hub não terá a vantagem da experiência da Equipe do Windows, mas você terá a flexibilidade oferecida por fornecer e gerenciar seu próprio computador Windows.
 
-### Requisitos de software
+###  <a name="requirements"></a>Requisitos de software
 
 Você pode executar o Surface Hub no Modo de computador de Substituição com versões de 64 bits do Windows 10 Home, Windows 10 Pro e Windows 10 Enterprise. Você pode baixar o [pacote de driver do computador de substituição do Surface Hub](https://www.microsoft.com/download/details.aspx?id=52210) do Centro de Download da Microsoft. Recomendamos que você instale esses drivers em qualquer computador que planeje usar como substituto.
 
-### Requisitos de hardware
+###  <a name="requirements"></a>Requisitos de hardware
 
 O Surface Hub é compatível com vários tipos de hardware. Escolha a confirmação de processador e memória para o computador de substituição para que ele aceite os programas que você usará. O hardware do computador de substituição precisa dar suporte a versões de 64 bits do Windows 10.
 

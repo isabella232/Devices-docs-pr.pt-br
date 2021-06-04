@@ -23,11 +23,11 @@ ms.locfileid: "10897069"
 ---
 # Atualizações do driver do Surface no Gerenciador de Configurações
 
-## Resumo
+##  <a name="summary"></a>Resumo
 
 A partir do [Microsoft System Center Configuration Manager versão 1710](https://docs.microsoft.com/sccm/core/plan-design/changes/whats-new-in-version-1710#software-updates), você pode sincronizar e implantar o firmware da superfície da Microsoft e atualizações de driver diretamente por meio do cliente do Configuration Manager. O processo é semelhante à implantação de atualizações regulares. No entanto, algumas configurações adicionais são necessárias para obter as atualizações do driver da superfície em seu catálogo.
 
-## Pré-requisitos
+##  <a name="prerequisites"></a>Pré-requisitos
 
 Para gerenciar atualizações de driver de superfície, os seguintes pré-requisitos devem ser atendidos:
 
@@ -156,7 +156,7 @@ Você pode implantar o firmware da superfície e as atualizações de driver da 
 
 Para obter mais informações sobre a implantação, consulte [Gerenciador de configuração do System Center 2012 – Part7: atualizações de software (implantar)](https://blogs.technet.microsoft.com/elie/2012/05/25/system-center-2012-configuration-managerpart7-software-updates-deploy/).
 
-## Perguntas frequentes (FAQ)
+##  <a name="faq"></a>Perguntas frequentes (FAQ)
 
 **Depois de seguir as etapas deste artigo, meus drivers de superfície ainda não estão sincronizados. Por quê?**
 

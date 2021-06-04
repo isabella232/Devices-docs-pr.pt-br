@@ -24,12 +24,12 @@ ms.locfileid: "10830291"
 
 O Microsoft Surface Hub oferece duas opções de conectividade de rede para sua rede corporativa e a Internet: com e sem fio. Embora ambas forneçam acesso à rede, recomendamos que você use uma conexão com fio.
 
-## Modificando, adicionando ou examinando uma conexão de rede
+##  <a name="modifying,-adding,-or-reviewing-a-network-connection"></a>Modificando, adicionando ou examinando uma conexão de rede
 
 
 Se uma conexão de rede com fio não estiver disponível, o Surface Hub poderá usar uma rede sem fio para acesso à Internet. Um ponto de acesso Wi-Fi conectado e configurado corretamente deve estar disponível e dentro do alcance do Surface Hub.
 
-### Escolher um ponto de acesso sem fio
+###  <a name="choose-a-wireless-access-point"></a>Escolher um ponto de acesso sem fio
 
 1.  No Surface Hub, abra **Configurações** e insira suas credenciais de administrador.
 2.  Clique em **Rede e Internet**. Em **Wi-Fi**, escolha um ponto de acesso. Se você quiser que o Surface Hub se conecte automaticamente a esse ponto de acesso, clique em **Conectar automaticamente**. Clique em **Conectar**.
@@ -40,7 +40,7 @@ Se uma conexão de rede com fio não estiver disponível, o Surface Hub poderá 
 
     ![Imagem mostrando prompts de chave de segurança e senha para se conectar a Wi-Fi protegido.](images/networkmgtwireless-02.png)
 
-### Examinar as configurações sem fio
+###  <a name="review-wireless-settings"></a>Examinar as configurações sem fio
 
 1.  No Surface Hub, abra as **Configurações** e insira suas credenciais de administrador.
 2.  Clique em **Rede e Internet**, e, em seguida, clique em **Wi-Fi** e em **Opções avançadas**.
@@ -48,7 +48,7 @@ Se uma conexão de rede com fio não estiver disponível, o Surface Hub poderá 
 
     ![Imagem mostrando propriedades para Wi-Fi conectado.](images/networkmgtwireless-04.png)
 
-### Examinar as configurações com fio
+###  <a name="review-wired-settings"></a>Examinar as configurações com fio
 
 1.  No Surface Hub, abra **Configurações** e insira suas credenciais de administrador.
 2.  Clique em **Sistema**, em **Rede e Internet** e, em seguida, clique na rede em Ethernet.
@@ -59,7 +59,7 @@ Se uma conexão de rede com fio não estiver disponível, o Surface Hub poderá 
 
     ![Imagem mostrando propriedades para conexão ethernet.](images/networkmgtwired-02.png)
 
-## Tópicos relacionados
+##  <a name="related-topics"></a>Tópicos relacionados
 
 
 [Gerenciar o Microsoft Surface Hub](manage-surface-hub.md)

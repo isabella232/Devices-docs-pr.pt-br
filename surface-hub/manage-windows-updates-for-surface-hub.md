@@ -123,12 +123,12 @@ Uma janela de manutenção padrão é definida para todos os novos Surface Hubs:
 Para alterar a janela de manutenção usando o MDM, defina o nó **MaintenanceHoursSimple** no [provedor de serviços de configuração do SurfaceHub](https://msdn.microsoft.com/library/windows/hardware/mt608323.aspx). Consulte [Gerenciar configurações usando um provedor de MDM](manage-settings-with-mdm-for-surface-hub.md) para saber mais detalhes.
 
 
-## Mais informações
+##  <a name="more-information"></a>Mais informações
 
 - [Postagem de blog: manutenção, processamento e gerenciamento de atualizações para o Surface Hub (com o Intune, é claro!)](https://blogs.technet.microsoft.com/y0av/2018/05/31/7-3/)
 
 
-## Tópicos relacionados
+##  <a name="related-topics"></a>Tópicos relacionados
 
 [Gerenciar o Microsoft Surface Hub](manage-surface-hub.md)
 

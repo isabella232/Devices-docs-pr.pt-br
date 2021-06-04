@@ -29,7 +29,7 @@ ms.locfileid: "10893073"
 
 Estas são as soluções de suporte da Microsoft para problemas comuns que você pode ter ao usar dispositivos de superfície em uma empresa. Se o problema não estiver listado aqui, [entre em contato com o suporte da superfície](contact-surface-support.md?tabs=online).
 
-## Drivers de superfície e firmware
+##  <a name="surface-drivers-and-firmware"></a>Drivers de superfície e firmware
 
 A Microsoft lança regularmente atualizações e soluções para dispositivos Surface. Para garantir que os dispositivos possam receber atualizações futuras, incluindo atualizações de segurança, é importante manter os dispositivos Surface atualizados.
 
@@ -40,34 +40,34 @@ A Microsoft lança regularmente atualizações e soluções para dispositivos Su
 - [Gerenciar atualizações de driver e firmware do Surface](https://docs.microsoft.com/surface/manage-surface-pro-3-firmware-updates)
 - [Como gerenciar atualizações de driver de superfície no Configuration Manager](https://support.microsoft.com/help/4098906)
 
-## Problemas de encaixe de superfície
+##  <a name="surface-dock-issues"></a>Problemas de encaixe de superfície
 
 - [Solucionar problemas de bases de encaixe e do Surface Dock](https://support.microsoft.com/help/4023468/surface-troubleshoot-surface-dock-and-docking-stations)
 - [Solucionar problemas de superfície de conexão a uma segunda tela](https://support.microsoft.com/help/4023496)
 - [Atualização do firmware do Dock Surface da Microsoft](https://docs.microsoft.com/surface/surface-dock-updater)
 
-## Problemas de capa ou teclado de dispositivo
+##  <a name="device-cover-or-keyboard-issues"></a>Problemas de capa ou teclado de dispositivo
 
 - [Solucionar problemas com o teclado ou a capa tipo Surface](https://www.microsoft.com/surface/support/hardware-and-drivers/troubleshoot-surface-keyboards)
 
-## Tela rachada ou arranhada
+##  <a name="screen-cracked-or-scratched-issues"></a>Tela rachada ou arranhada
 
 - [Contate o suporte para Surface](contact-surface-support.md?tabs=online)
 
-## Problemas de energia ou bateria do Surface
+##  <a name="surface-power-or-battery-issues"></a>Problemas de energia ou bateria do Surface
 
 - [Como cobrar da superfície (informações da Surface PSU)](https://support.microsoft.com/help/4023496)
 - [A bateria Surface não cobra ou Surface não será executada na bateria](https://support.microsoft.com/help/4023536)
 - [O Surface não ativa ou o desperta do estado de suspensão](https://support.microsoft.com/help/4023537)
 - [Maximizar a duração da bateria do Surface](https://support.microsoft.com/help/4483194)
 
-## Redefinir dispositivo
+##  <a name="reset-device"></a>Redefinir dispositivo
 
 - [Criando e usando uma unidade de recuperação USB para Surface](https://support.microsoft.com/help/4023512)
 - [Perguntas frequentes: proteger seus dados se você enviar sua superfície para serviço](https://support.microsoft.com/help/4023508)
 - [Microsoft Surface Data Eraser](https://docs.microsoft.com/surface/microsoft-surface-data-eraser)
 
-## Problemas de implantação
+##  <a name="deployment-issues"></a>Problemas de implantação
 
 - [DISK0 não encontrado ao implantar o Windows no Surface Pro Model 1796 ou Surface laptop](https://support.microsoft.com/help/4046108)
 - [O Surface Pro Model 1796 e o Surface laptop 1TB exibem duas unidades](https://support.microsoft.com/help/4046105)

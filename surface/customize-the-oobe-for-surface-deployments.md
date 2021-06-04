@@ -44,14 +44,14 @@ Este artigo fornece um resumo dos cenários em que uma implantação pode exigir
 
  
 
-## Cenário 1: rede sem fio na configuração inicial pelo usuário com MDT 2013
+##  <a name="scenario-1:-wireless-networking-in-oobe-with-mdt-2013"></a>Cenário 1: rede sem fio na configuração inicial pelo usuário com MDT 2013
 
 
 Quando um adaptador de rede sem fio está presente na tela de apresentação, a página **Ingressar em uma rede sem fio** é exibida, solicitando que um usuário se conecte a uma rede sem fio. Essa página não é ocultada automaticamente pelas tecnologias de implantação, incluindo o MDT 2013. Portanto, ela será exibida mesmo quando uma implantação estiver configurada para automação completa.
 
 Para garantir que uma implantação automatizada não seja interrompida por essa página, a página deve ser ocultada definindo-se uma configuração adicional no arquivo de resposta, **HideWirelessSetupInOOBE**. Você pode encontrar informações adicionais sobre a configuração **HideWirelessSetupInOOBE** na [Referência de instalação autônoma do Windows](https://technet.microsoft.com/library/ff716213.aspx).
 
-## Cenário 2: emparelhamento da Caneta Surface na tela de apresentação
+##  <a name="scenario-2:-surface-pen-pairing-in-oobe"></a>Cenário 2: emparelhamento da Caneta Surface na tela de apresentação
 
 
 Quando você retira da embalagem um Surface Pro 3, um Surface Pro 4, um Surface Book ou um Surface Studio e o inicia, a tela de apresentação da imagem de fábrica inclui um prompt que o solicita a emparelhar com o dispositivo a Caneta Surface incluída. Esse prompt é fornecido apenas pela imagem de fábrica que acompanha o dispositivo e não é incluído em outras imagens usadas para implantação, como a mídia de instalação do Windows Enterprise baixada do Centro de Serviços de Licenciamento por Volume. Como o emparelhamento da Caneta Surface Bluetooth fora dessa experiência requer que você entre no Painel de Controle ou nas Configurações do computador e emparelhe manualmente um dispositivo Bluetooth, convém deixar que os usuários ou um técnico usem esse prompt para executar a operação de emparelhamento.

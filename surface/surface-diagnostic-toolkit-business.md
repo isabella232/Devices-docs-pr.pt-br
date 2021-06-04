@@ -42,7 +42,7 @@ Modo |  Cenários principais | Baixar | Saiba mais
 Modo desktop |  Ajude os usuários a executar o SDT em seus dispositivos Surface para solucionar problemas.<br>Crie um pacote personalizado para implantar em um ou mais dispositivos Surface, permitindo que os usuários selecionem logs específicos para coletar e analisar. | Pacote MSI distribuível do SDT:<br>Instalador do Microsoft Surface Diagnostic Toolkit for Business<br>[Ferramentas Surface para TI](https://www.microsoft.com/download/details.aspx?id=46703) | [Usar o Surface Diagnostic Toolkit no modo desktop](surface-diagnostic-toolkit-desktop-mode.md)
 Linha de comando |  Solucionar problemas diretamente de dispositivos Surface remotamente sem a interação do usuário, usando ferramentas padrão, como o Configuration Manager. Ele inclui os seguintes comandos:<br>`-DataCollector` coleta todos os arquivos de log<br>`-bpa` executa diagnósticos de saúde usando o Analisador de Práticas Práticas Melhores.<br>`-windowsupdate` verifica se há atualizações de firmware ou driver ausentes no Windows Update.<br>`-warranty` verifica as informações de garantia. <br><br>| Aplicativo de console SDT:<br>Console do Aplicativo de Diagnóstico do Microsoft Surface<br>[Ferramentas Surface para TI](https://www.microsoft.com/download/details.aspx?id=46703) | [Executar o Surface Diagnostic Toolkit usando comandos](surface-diagnostic-toolkit-command-line.md)
 
-## Dispositivos com suporte 
+##  <a name="supported-devices"></a>Dispositivos com suporte 
 
 O SDT para Empresas tem suporte no Surface 3 e em dispositivos posteriores, incluindo:
 
@@ -160,12 +160,12 @@ Você pode optar por executar uma ampla variedade de logs entre aplicativos, dri
 
 *Figura 7. Opção de log e salvar pacote*
 
-## Próximas etapas
+##  <a name="next-steps"></a>Próximas etapas
 
 - [Usar o Kit de Ferramentas de Diagnóstico Surface para Empresas no modo de área de trabalho](surface-diagnostic-toolkit-desktop-mode.md)
 - [Usar o Surface Diagnostic Toolkit for Business usando comandos](surface-diagnostic-toolkit-command-line.md)
 
-## Alterações e atualizações
+##  <a name="changes-and-updates"></a>Alterações e atualizações
 
 ### Versão 2.131.139.0
 

@@ -25,7 +25,7 @@ Executar o Surface Diagnostic Toolkit (SDT) em um prompt de comando requer o dow
 >[!NOTE]
 >Para executar o SDT usando comandos, você deve estar conectado à conta de Administrador ou conectado a uma conta que seja membro do grupo Administrador no dispositivo Surface.
 
-## Executando o console do aplicativo SDT
+##  <a name="running-sdt-app-console"></a>Executando o console do aplicativo SDT
 
 Baixe e instale o console do aplicativo SDT na página [de download do Surface Tools for IT.](https://www.microsoft.com/download/details.aspx?id=46703) Você pode usar o prompt de comando do Windows (cmd.exe) ou o Windows PowerShell para: 
 
@@ -49,7 +49,7 @@ Comando | Observações
 >[!NOTE]
 >Para executar o console do aplicativo SDT remotamente em dispositivos de destino, você pode usar uma ferramenta de gerenciamento de configuração, como o Microsoft Endpoint Configuration Manager. Como alternativa, você pode criar um arquivo .zip contendo o aplicativo de console e os comandos de console apropriados e implantar de acordo com os processos de distribuição de software da sua organização. 
 
-## Executando o Analisador de Práticas Práticas Melhores 
+##  <a name="running-best-practice-analyzer"></a>Executando o Analisador de Práticas Práticas Melhores 
 
 Você pode executar testes BPA nos principais componentes, como BitLocker, Inicialização Segura e Trusted Platform Module (TPM) e, em seguida, a saída dos resultados para um arquivo compartilhável. A ferramenta gera uma série de tabelas com títulos codificados por cores e descritores de condição, juntamente com orientações sobre como abordar a resolução do problema. 
 
@@ -57,7 +57,7 @@ Você pode executar testes BPA nos principais componentes, como BitLocker, Inici
 - Laranja indica que o componente não está em execução em uma condição ideal (não ideal).
 - Vermelho indica que o componente está em um estado anormal. 
 
-### Exemplo de saída de resultados BPA
+###  <a name="sample-bpa-results-output"></a>Exemplo de saída de resultados BPA
 
 <table>
 <tr><th colspan="2"><font color="00ff00">BitLocker</font></th></tr>

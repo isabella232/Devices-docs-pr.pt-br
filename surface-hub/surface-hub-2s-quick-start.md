@@ -20,7 +20,7 @@ ms.locfileid: "10830436"
 ---
 # Início rápido do Surface Hub 2S
 
-## Descompactar Surface Hub 2S
+##  <a name="unpack-surface-hub-2s"></a>Descompactar Surface Hub 2S
 
 1. Use as alças de cada lado da caixa para movê-la para o espaço onde ela será configurada.
 2. Antes de abrir, remova os clipes (4) na frente e atrás e, em seguida, levante o topo da caixa usando as alças.
@@ -29,7 +29,7 @@ ms.locfileid: "10830436"
 
 Consulte este vídeo para obter mais informações sobre a não [conboxing e configurar](https://youtu.be/fCrxdNXvru4).
 
-## Instalar e ajustar caneta
+##  <a name="install-and-adjust-pen"></a>Instalar e ajustar caneta
 
 1. Anexe o Surface Hub 2 caneta magneticamente ao seu lado preferido do dispositivo.
 
@@ -39,11 +39,11 @@ Consulte este vídeo para obter mais informações sobre a não [conboxing e con
 
 ![* Ajustar o controle deslizante para alterar a pressão da caneta *](images/sh2-pen-pressure.png) <br>
 
-## Instalar câmera
+##  <a name="install-camera"></a>Instalar câmera
 
 Remova o aderência de lente da câmera e anexe-o à porta USB-C na parte superior do Surface Hub 2S.
 
-## Iniciar Hub de Surface 2S
+##  <a name="start-surface-hub-2s"></a>Iniciar Hub de Surface 2S
 
 1. Insira o cabo de alimentação na parte traseira do dispositivo e conecte-o a uma tomada elétrica. Execute o cabo em qualquer guia de cabos na sua solução de montagem e remova a tela Clang.
 2. Para começar, pressione o botão de energia no canto inferior direito.

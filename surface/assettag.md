@@ -21,13 +21,13 @@ ms.locfileid: "10830289"
 
 Marca de ativos de superfície é um utilitário CLI (interface de linha de comando) que permite que você exiba, atribua e modifique um valor de marca de ativo atribuído para dispositivos Surface. Ele funciona no Surface Pro 3 e em todos os dispositivos de superfície mais recentes.
 
-## Requisitos de sistema
+##  <a name="system-requirements"></a>Requisitos de sistema
 
 - Surface Pro 3 ou posterior
 
 - Firmware UEFI versão 3.9.150.0 ou posterior
 
-## Usar a marca de ativos de superfície 
+##  <a name="using-surface-asset-tag-"></a>Usar a marca de ativos de superfície 
 
 Para executar a marca de ativos da superfície:
 
@@ -40,7 +40,7 @@ Para executar a marca de ativos da superfície:
 
 3.  Reinicie a superfície.
 
-### Comandos da ferramenta de marca do ativo   
+###  <a name="asset-tag-tool-commands"></a>Comandos da ferramenta de marca do ativo   
 Nos exemplos a seguir, AssetTag.exe é salvo em um diretório em um computador local (C:\assets). 
 
 Para obter a marca de ativos proposto, execute AssetTag-g.
@@ -70,7 +70,7 @@ C:\assets\AssetTag.exe -s testassettag12
 >O valor da marca de ativos deve conter entre 1 e 36 caracteres. Os caracteres válidos incluem A-Z, a-z, 0-9, ponto final (.) e hífen (-).
 
 
-## Gerenciando marcas de ativos
+##  <a name="managing-asset-tags"></a>Gerenciando marcas de ativos
 
 Você pode exibir a marca de ativos existente nas configurações de UEFI em informações do dispositivo (**painel de controle > recuperação > inicialização avançada > reiniciar agora**.)
 
@@ -91,7 +91,7 @@ Como alternativa, você pode usar o WMI para consultar a marca de ativos existen
 C:\Windows\System32> (Get-WmiObject -query “Select * from Win32_SystemEnclosure”)
   ```
   
-### Usando o PowerShell
+###  <a name="using-powershell"></a>Usando o PowerShell
 
 Você pode usar o script abaixo como uma maneira de obter o valor proposto e interpretar os erros.
 

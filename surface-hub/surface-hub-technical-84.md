@@ -61,7 +61,7 @@ Energia de entrada, espera    |   5W nominal, 1-10W máximo
 > - [Gerenciamento local de configurações do Surface Hub](local-management-surface-hub-settings.md)
 > - [CSP SurfaceHub - Gerenciamento de Cliente do Windows](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
 
-## Conexões de computador de substituição 
+##  <a name="replacement-pc-connections"></a>Conexões de computador de substituição 
 
 Conector e local | Rótulo | Descrição
 --- | --- | ---
@@ -72,7 +72,7 @@ Usb tipo B, E/S inferior | ![](images/usb.png) | Fornece conexão USB para subst
 Usb tipo B, E/S inferior | ![](images/usb.png) | Fornece conexão USB para hub integrado.
 
 
-## Conexões de conexão com fio
+##  <a name="wired-connect-connections"></a>Conexões de conexão com fio
 
 Conector e local | Rótulo | Descrição
 --- | --- | ---
@@ -82,7 +82,7 @@ VGA, E/S inferior | ![](images/vga.png) | Fornece entrada VGA para computador co
 3,5 mm, E/S inferior | ![](images/35mm.png) | Fornece entrada de áudio analógica.
 Usb tipo B, E/S inferior | ![](images/usb.png) | Fornece conexão USB para touchback de ingestão de vídeo.
 
-## Conexões adicionais
+##  <a name="additional-connections"></a>Conexões adicionais
 
 Conector e local | Rótulo | Descrição
 --- | --- | ---
@@ -100,7 +100,7 @@ RJ11, E/S inferior | ![](images/rj11.png) | Conecta-se a sistemas de controle de
 
 
 
-## Diagramas de portas e liberações
+##  <a name="diagrams-of-ports-and-clearances"></a>Diagramas de portas e liberações
 
 ***Exibição superior do Surface Hub de 84"***
 

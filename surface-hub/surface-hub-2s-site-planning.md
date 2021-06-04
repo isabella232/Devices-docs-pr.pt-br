@@ -20,11 +20,11 @@ ms.locfileid: "10830415"
 ---
 # Planejamento de site do Surface Hub 2S
 
-## Introdução
+##  <a name="introduction"></a>Introdução
 
 Projetado para colaboração em equipe, o Surface Hub 2S pode transformar a maneira como você trabalha, não apenas nas salas de conferência, mas em qualquer lugar onde você queira trabalhar. Uma das principais vantagens do Surface Hub 2S é a capacidade de movê-lo de um espaço para outro quando usado com a bateria móvel e para celular Steelcase. Fornecer recursos de trabalho em equipe desconectados e ininterruptas, o Surface Hub 2S pode ser integrado em quase qualquer espaço de trabalho.
 
-## Considerações sobre a sala
+##  <a name="room-considerations"></a>Considerações sobre a sala
 
 Projetado para uso interativo em salas de conferência e espaços huddles menores, o Surface Hub 2S oferece uma câmera de 4K, uma matriz de microfone, alto-falantes Crystal claros e uma exibição brilhante + resolução de 4K. A otimização da experiência do usuário em espaços maiores, com mais pessoas, mais longe da exibição, pode exigir periféricos como uma câmera extra, um microfone ou uma solução de sistemas de sala, como salas do Microsoft Teams.
 
@@ -43,6 +43,6 @@ Seja montado em uma parede ou instalado no suporte móvel, as áreas em que voc�
 
 Para obter diretrizes detalhadas de planejamento de sala e mais informações sobre as salas do Microsoft Teams, consulte [planejar salas do Microsoft Teams.](https://docs.microsoft.com/MicrosoftTeams/room-systems/skype-room-systems-v2-0)
 
-## Gerenciando o local do Surface Hub 2S
+##  <a name="managing-surface-hub-2s-location"></a>Gerenciando o local do Surface Hub 2S
 
 Se você pretende usar o Surface Hub 2S em um celular, talvez queira explorar soluções de terceiros que permitam aos serviços de localização. Por exemplo, os sistemas RFID ativos podem oferecer rastreamento em tempo real em espaços complexos do Office ou industriais. Para obter mais informações, consulte seu provedor de A/V ou outros conhecimentos de terceiros para obter diretrizes.

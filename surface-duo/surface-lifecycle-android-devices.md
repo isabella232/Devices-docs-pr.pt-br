@@ -27,7 +27,7 @@ ms.locfileid: "11326272"
 
 O Ciclo de Vida do Surface para dispositivos baseados em Android abrange as atualizações de segurança e a versão do Android para o Surface Duo. O ciclo de vida começa quando um dispositivo é lançado pela primeira vez e conclui quando o Surface encerra a publicação de atualizações.
 
-## Suporte a dispositivos Surface Android 
+##  <a name="surface-android-device-support"></a>Suporte a dispositivos Surface Android 
 
 Os dispositivos Surface Android receberão atualizações de segurança e versão do Android por pelo menos três anos a partir de sua data de lançamento (10 de setembro de 2020). Nos casos em que a duração do suporte for maior do que 3 anos, um término atualizado da data de manutenção será publicado 18 meses antes da expiração da última data de manutenção planejada. 
 

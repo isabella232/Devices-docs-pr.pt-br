@@ -25,7 +25,7 @@ A imposição e a habilitação de autenticação 802.1x com fio no Surface Hub 
 
 A configuração principal a ser definida é a política **LanProfile**. Dependendo do método de autenticação selecionado, outras políticas talvez seja necessárias, ou a política **EapUserData** ou por meio de políticas de MDM para adicionar certificados de usuário ou de computador (como [ClientCertificateInstall](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp) para certificados de usuário/dispositivo ou [RootCATrustedCertificates](https://docs.microsoft.com/windows/client-management/mdm/rootcacertificates-csp) para certificados de dispositivo). 
 
-## Elemento de política LanProfile
+##  <a name="lanprofile-policy-element"></a>Elemento de política LanProfile
 
 Para configurar o Surface Hub para usar um dos métodos de autenticação 802.1 com suporte, utilize o OMA-URI a seguir. 
 
@@ -49,7 +49,7 @@ Profile File Name: .\Ethernet.xml
 1 profile(s) were exported successfully.
 ```
 
-## Elemento de política EapUserData
+##  <a name="eapuserdata-policy-element"></a>Elemento de política EapUserData
 
 Se seu método de autenticação selecionado exigir um nome de usuário e uma senha em oposição a um certificado, você poderá usar o elemento **EapUserData** para especificar as credenciais para o dispositivo a ser usado para autenticação na rede. 
 
@@ -61,7 +61,7 @@ Esse nó OMA-URI aceita uma cadeia de caracteres de texto de XML como um parâme
 
 
 
-## Adição de certificados
+##  <a name="adding-certificates"></a>Adição de certificados
 
 Se o seu método de autenticação selecionado for baseado em certificado, você precisará [criar um pacote de provisionamento](provisioning-packages-for-surface-hub.md), [usar o MDM](https://docs.microsoft.com/windows/client-management/mdm/clientcertificateinstall-csp)ou importar um certificado de configurações (atualização de**configurações**  >  **e**  >  **certificados**de segurança) para implantar esses certificados em seu dispositivo do Surface Hub no repositório de certificados apropriado. Ao adicionar certificados, cada PFX deve conter apenas um certificado (um PFX não pode ter vários certificados).
 

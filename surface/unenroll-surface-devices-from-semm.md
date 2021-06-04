@@ -29,7 +29,7 @@ Quando um dispositivo de superfície é registrado no modo de gerenciamento do S
 
 Para obter mais informações sobre o SEMM, consulte [modo de gerenciamento do Microsoft Surface Enterprise](https://technet.microsoft.com/itpro/surface/surface-enterprise-management-mode).
 
-## Cancelar o registro de um dispositivo de superfície do SEMM com um pacote de redefinição de UEFI de superfície
+##  <a name="unenroll-a-surface-device-from-semm-with-a-surface-uefi-reset-package"></a>Cancelar o registro de um dispositivo de superfície do SEMM com um pacote de redefinição de UEFI de superfície
 
 O pacote de redefinição de UEFI de superfície é o método principal que você usa para cancelar o registro de um dispositivo de superfície de SEMM. Assim como um pacote de configuração do Surface UEFI, o pacote de redefinição é um arquivo do Windows Installer (. msi) que configura o SEMM no dispositivo. Ao contrário do pacote de configuração, o pacote de redefinição redefinirá a configuração do Surface UEFI em um dispositivo Surface para suas configurações padrão, removerá o certificado SEMM e cancelará o registro do dispositivo do SEMM.
 
@@ -74,7 +74,7 @@ Execute o arquivo de instalação do Windows Installer (. msi) do pacote de rede
 
 *Figura 5. A presença do item do pacote de configuração do Surface da Microsoft em programas e recursos indica que o dispositivo está registrado no SEMM*
 
-## Cancelar o registro de um dispositivo de superfície do SEMM com uma solicitação de recuperação
+##  <a name="unenroll-a-surface-device-from-semm-with-a-recovery-request"></a>Cancelar o registro de um dispositivo de superfície do SEMM com uma solicitação de recuperação
 
 Em alguns cenários, um pacote do Surface UEFI Reset pode não ser uma opção viável para cancelar o registro de um dispositivo de superfície de SEMM (por exemplo, onde o Windows tornou-se inutilizável). Nesses cenários, você pode cancelar o registro do dispositivo usando uma solicitação de recuperação gerada no Surface UEFI. O processo de solicitação de recuperação pode ser iniciado mesmo em dispositivos nos quais você não tem a senha UEFI de superfície.
 

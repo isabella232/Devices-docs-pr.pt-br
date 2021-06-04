@@ -44,7 +44,7 @@ Observe que os aplicativos são executados de forma diferente em computadores co
 - **Não é possível instalar um software antivírus de terceiros**. Você não conseguirá instalar um software antivírus de terceiros em um computador baseado no Windows 10 ARM. No entanto, a segurança do Windows ajudará a manter você seguro para o tempo de vida útil do seu dispositivo com Windows 10.
 - O **fax e scanner do Windows não está disponível**. Este recurso não está disponível em um computador baseado no Windows 10 ARM.
 
-## Garantia do aplicativo
+##  <a name="app-assure"></a>Garantia do aplicativo
 
 A Microsoft está comprometida em garantir que os clientes tenham uma excelente experiência de compatibilidade com o Windows 10 em dispositivos ARM64, como o Surface Pro X. Expandimos o programa de garantia do aplicativo para dar suporte a clientes que enfrentam desafios de compatibilidade de aplicativos fornecendo aos engenheiros a solução de problemas e fornecem remediação de aplicativos, tudo sem custo adicional. O serviço está disponível para clientes comerciais e EDU para seus aplicativos de LOB, ISV e Microsoft First-Party destinados ao Windows 10 no ARM64. 
 

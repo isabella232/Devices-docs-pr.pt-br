@@ -25,11 +25,11 @@ ms.locfileid: "11105402"
 
 O formulário de solicitação de serviço e garantia permite que você envie várias declarações em uma solicitação de serviço para os produtos Microsoft Surface, Microsoft Surface Hub, Microsoft HoloLens 2 e Microsoft Azure Kinect.
 
-## Quando usar este formulário
+##  <a name="when-to-use-this-form"></a>Quando usar este formulário
 
 Use o formulário de garantia e de reivindicação de serviço quando precisar enviar uma solicitação de garantia de hardware ou solicitar um ajuste para a garantia.  
 
-## Como usar o formulário
+##  <a name="how-to-use-the-form"></a>Como usar o formulário
 
 1.  Baixe o formulário e selecione Habilitar.
 2.  Insira as informações do produto:
@@ -67,13 +67,13 @@ Use o formulário de garantia e de reivindicação de serviço quando precisar e
         1. Se você estiver solicitando um ajuste de garantia, forneça uma instrução que contenha a solicitação. Se você não estiver solicitando um ajuste de garantia, deixe este campo em branco.
         2. Para agilizar o processo, carregue a garantia ou a prova de hardware da compra junto com a sua solicitação.
 
-## Tarifas de serviço fora da garantia
+##  <a name="out-of-warranty-service-fees"></a>Tarifas de serviço fora da garantia
 
 Os defensores do suporte assistido comunicarão as tarifas de falta de garantia para os produtos Surface Hub, HoloLens e Kinect do Azure.
 
 Para obter mais informações sobre as tarifas de serviço fora da garantia, consulte [quanto custa o serviço fora da garantia para o seu dispositivo Surface ou acessório?](https://support.microsoft.com/help/4563717)
 
-## Mais informações
+##  <a name="more-information"></a>Mais informações
 
 Para obter mais informações sobre serviço para Surface, consulte [como obter serviço para Surface](https://support.microsoft.com/help/4023527/surface-how-to-get-service-for-surface).
 

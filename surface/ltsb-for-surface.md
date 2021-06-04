@@ -35,7 +35,7 @@ Os dispositivos de superfície de finalidade geral devem ser executados no canal
 
 Dispositivos Surface em cenários especializados – como PCs que controlam equipamento médico, sistemas de ponto de venda e caixas eletrônicos – podem considerar o uso de LTSC. Esses sistemas de propósito especial geralmente realizam uma única tarefa e não exigem atualizações de recursos com a maioria dos dispositivos da organização. 
 
-## Tópicos relacionados
+##  <a name="related-topics"></a>Tópicos relacionados
 
 - [Blog Surface para profissionais de TI](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/bg-p/SurfaceITPro)
 

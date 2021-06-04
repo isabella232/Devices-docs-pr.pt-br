@@ -38,7 +38,7 @@ A ferramenta escurece a tela automaticamente quando não está em uso e inclui a
 
 - Instale surfacebrightnesscontrol.msi no dispositivo de destino e o controle de brilho da superfície começará a funcionar imediatamente.
 
-## Configurando o controle do Surface Bright
+##  <a name="configuring-surface-brightness-control"></a>Configurando o controle do Surface Bright
 
 Você pode ajustar os valores padrão por meio do registro do Windows. Para obter mais informações sobre como usar o registro do Windows, consulte a [documentação do registro](https://docs.microsoft.com/windows/desktop/sysinfo/registry).
 
@@ -60,18 +60,18 @@ Brilho completo   | Padrão: 100  <br>Opção: intervalo de 0-100% do brilho da 
 | Tempo limite de inatividade| Padrão: 30 segundos <br>Opção: qualquer valor numérico  <br>Tipo de dados: inteiro  <br> Tipo: REG_DWORD | Essa configuração permite que você gerencie o período de inatividade antes de desactivar o dispositivo. Se você não definir essa configuração, o tempo limite de inatividade será de 30 segundos.|
 | Telemetria habilitada | Padrão: 01 <br>Opção: 01, 00 <br> Tipo: REG_BINARY  | Essa configuração permite que você gerencie o compartilhamento de informações de uso do aplicativo para melhorar o software e oferecer uma melhor experiência do usuário. Para desabilitar a telemetria, defina o valor como 00. Se você não definir essa configuração, as informações de telemetria serão compartilhadas com a Microsoft de acordo com a [política de privacidade da Microsoft](https://privacy.microsoft.com/privacystatement). |
 
-## Alterações e atualizações
+##  <a name="changes-and-updates"></a>Alterações e atualizações
 
-### Versão 1.16.137<br>
+###  <a name="version-1.16.137"></a>Versão 1.16.137<br>
 *Data do lançamento: 22 de outubro de 2019*<br>
 Esta versão do controle de brilho de superfície adiciona suporte para o seguinte:-recompilado para x86, adicionando suporte para Surface Pro 7, Surface Pro X e Surface laptop 3. 
 
-### Versão 1.12.239.0
+###  <a name="version-1.12.239.0"></a>Versão 1.12.239.0
 *Data do lançamento: 26 de abril de 2019*<br>
 Esta versão do controle de brilho de superfície adiciona suporte para o seguinte:
 - Correções de atraso de toque.
 
 
-## Tópicos relacionados
+##  <a name="related-topics"></a>Tópicos relacionados
 
 - [Configuração de limite de bateria](battery-limit.md)

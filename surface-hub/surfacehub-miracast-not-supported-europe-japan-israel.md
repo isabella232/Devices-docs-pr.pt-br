@@ -20,7 +20,7 @@ ms.locfileid: "10830331"
 
 Em conformidade com normas governamentais regionais, todos os dispositivos sem fio de 5 GHz na Europa, Japão e Israel não são compatíveis com a faixa U-NII-3. No Surface Hub, os canais associados a U-NII-3 são de 149 a 165. Isso inclui a conexão Miracast nesses canais. Portanto, os hubs de superfície usados na Europa, no Japão e em Israel não podem usar os canais de 149 a 165 para conexão Miracast.
 
-## Mais informações
+##  <a name="more-information"></a>Mais informações
 
 Para obter mais informações, consulte o tópico [U-Nii](https://en.wikipedia.org/wiki/U-NII) na Wikipédia.
 

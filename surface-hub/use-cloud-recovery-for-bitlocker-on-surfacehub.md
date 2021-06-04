@@ -31,7 +31,7 @@ Este artigo descreve como usar a função de recuperação de nuvem se você for
 > [!IMPORTANT]
 > Esse processo requer uma conexão com a Internet aberta que não usa um método proxy ou outro método de autenticação.
 
-## Processo de recuperação na nuvem
+##  <a name="cloud-recovery-process"></a>Processo de recuperação na nuvem
 
 Para executar uma recuperação na nuvem, siga estas etapas:
 
@@ -61,7 +61,7 @@ Para executar uma recuperação na nuvem, siga estas etapas:
 
    ![Captura de tela da caixa de saída](images/06-out-of-box.png)
 
-## Mensagem de erro "algo deu errado"
+##  <a name="something-went-wrong-error-message"></a>Mensagem de erro "algo deu errado"
 
 Geralmente, esse erro é causado por problemas de rede que ocorrem durante o download de recuperação. Quando esse problema ocorre, não desligue o Hub porque você não poderá reiniciá-lo. Se você receber essa mensagem de erro, retorne à etapa "recuperar da nuvem" e reinicie o processo de recuperação.
 

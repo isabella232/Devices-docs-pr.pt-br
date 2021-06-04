@@ -25,7 +25,7 @@ Assista ao engenheiro de Surface Hub, Jordan Marchese, apresentar atualizações
 
 O Windows 10, versão 1703 (também chamado da Atualização para Criadores), apresenta as seguintes alterações para o Microsoft Surface Hub.
 
-## Novas configurações
+##  <a name="new-settings"></a>Novas configurações
 
 As configurações foram adicionadas ao gerenciamento de dispositivo móvel (MDM) e aos provedores de serviço de configuração (CSPs) para expandir os recursos de gerenciamento do Surface Hub. [As novas configurações incluem](manage-settings-with-mdm-for-surface-hub.md):
 
@@ -44,17 +44,17 @@ As configurações foram adicionadas ao gerenciamento de dispositivo móvel (MDM
 Além das configurações baseadas no novo [NetworkQoSPolicy CSP](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/networkqospolicy-csp) e [NetworkProxy CSP](https://msdn.microsoft.com/windows/hardware/commercialize/customize/mdm/networkproxy-csp).
 </br>
 
-## Assistente de provisionamento
+##  <a name="provisioning-wizard"></a>Assistente de provisionamento
 
 Um assistente fácil de usar ajuda você a criar rapidamente os pacotes de provisionamento que podem ser aplicados a vários dispositivos Surface Hub e inclui o ingresso em massa no Azure Active Directory. [Saiba como criar um pacote de provisionamento para o Surface Hub.](provisioning-packages-for-certificates-surface-hub.md)
 
 ![Etapas no assistente de dispositivos de provisionamento do Surface Hub](images/wcd-wizard.png)
     
-## Miracast em sua rede sem fio existente ou LAN 
+##  <a name="miracast-on-your-existing-wireless-network-or-lan"></a>Miracast em sua rede sem fio existente ou LAN 
 
 A Microsoft estendeu a capacidade de [enviar um fluxo de Miracast por uma rede local](miracast-over-infrastructure.md), e não por um link direto sem fio. 
     
-## Recuperação na nuvem
+##  <a name="cloud-recovery"></a>Recuperação na nuvem
 
 Ao restaurar um dispositivo Surface Hub, agora você pode baixar e instalar uma versão de fábrica do sistema operacional da nuvem. [Saiba mais sobre a recuperação na nuvem.](device-reset-surface-hub.md#cloud-recovery)
 
@@ -63,7 +63,7 @@ Ao restaurar um dispositivo Surface Hub, agora você pode baixar e instalar uma 
     
 ![Reinstalar](images/reinstall.png)
     
-## Encerrar sessão
+##  <a name="end-session"></a>Encerrar sessão
 
 **Terminei** agora é **Encerrar a sessão**. [Saiba como usar a opção de Encerrar a sessão.](finishing-your-surface-hub-meeting.md) 
 

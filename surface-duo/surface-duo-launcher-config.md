@@ -27,7 +27,7 @@ ms.locfileid: "11326273"
 
 O Surface Duo dá suporte ao Microsoft Launcher para empresas, um aplicativo Android que permite que os usuários personalizem seu telefone, permaneçam organizados e sincronizem perfeitamente seus Calendários, Tarefas, Anotações e muito mais entre dispositivos móveis e seus PCs. Na verdade, o launcher do Surface Duo é uma versão personalizada de duas telas do Microsoft Launcher que você pode ajustar para definir as experiências preferenciais nos dispositivos totalmente gerenciados para sua organização, bem como permitir que os usuários algumas opções personalizem suas experiências nesses dispositivos corporativos. Por exemplo, você pode selecionar quais aplicativos deseja fixados na tela inicial, implantar um papel de parede de marca ou ocultar uma barra de pesquisa, permitindo que os usuários habilitam a barra de pesquisa, se desejado.
 
-## Configurações do Microsoft Launcher
+##  <a name="microsoft-launcher-settings"></a>Configurações do Microsoft Launcher
 
 O Microsoft Launcher inclui as seguintes configurações para personalizar a experiência do usuário final:
 

@@ -24,7 +24,7 @@ Use este guia de preparação para o site para ajudar a planejar a instalação 
 - Recomendações para mover e armazenar em armazenamento 
 - Links para diretrizes sobre como descompactar e montar 
 
-## Planejamento de preparação do site
+##  <a name="site-readiness-planning"></a>Planejamento de preparação do site
 
 A sala precisa ser grande o suficiente para fornecer bons ângulos de visualização, mas pequenos o suficiente para os microfones pegarem sinais claros das pessoas da sala. A maioria das salas com cerca de 22 pés (sete metros) de tempo oferece uma boa experiência de reunião. Na área de conferência, monte Surface Hub onde:
 
@@ -35,7 +35,7 @@ A sala precisa ser grande o suficiente para fornecer bons ângulos de visualiza�
 - Os microfones não são afetados por fontes de ruído, como ventiladores ou ventilação.
 Você pode encontrar mais detalhes nas seções de informações técnicas do Microsoft Surface [Hub do 55](surface-hub-technical-55.md) ou do [84 "Microsoft Surface Hub](surface-hub-technical-84.md) .  Para obter informações de limpeza, cuidado e segurança, consulte os guias de montagem e o guia do usuário em https://www.microsoft.com/surface/support/surface-hub .
 
-### Considerações de hardware
+###  <a name="hardware-considerations"></a>Considerações de hardware
 
 O Surface Hub chega com:
 - Duas canetas do Hub Surface da Microsoft
@@ -54,7 +54,7 @@ O Microsoft Surface Hub tem um computador interno e não exige um sistema de com
 
 Para obter recomendações de energia, consulte [55 "informações técnicas do Microsoft Surface Hub](surface-hub-technical-55.md) ou [84" informações técnicas do Microsoft Surface Hub](surface-hub-technical-84.md). Para ver os avisos de segurança do cabo de alimentação, consulte os guias de montagem em https://www.microsoft.com/surface/support/surface-hub .
 
-### Dados e outras conexões
+###  <a name="data-and-other-connections"></a>Dados e outras conexões
 
 Para usar o Surface Hub, você precisa de uma porta Ethernet ativa e uma tomada de energia padrão. Além disso, você pode querer:
 
@@ -66,7 +66,7 @@ Para usar o Surface Hub, você precisa de uma porta Ethernet ativa e uma tomada 
     - Portas de vídeo (DisplayPort, HDMI, VGA, etc.) 
 
 
-## Quando o Surface Hub chegar
+##  <a name="when-surface-hub-arrives"></a>Quando o Surface Hub chegar
 
 O Surface Hub é grande e pesado, portanto, avise o recebimento quando ele chegar e o que ele deve fazer para tratá-lo com segurança. Para obter detalhes sobre os pesos de embalagem e outras especificações, consulte [55 "informações técnicas do hub de Surface Microsoft](surface-hub-technical-55.md) ou [84" informações técnicas do Microsoft Surface Hub](surface-hub-technical-84.md).
 
@@ -76,22 +76,22 @@ Considere o seguinte:
 - Verifique se há regras de União de mão de obra locais que exijam o uso de mão-de-obra de União para descarregar ou mover o Surface Hub.   
 - Não deixe o Surface Hub em um ambiente quente ou Humid. Assim como qualquer equipamento com base em computador ou vídeo, o calor e a umidade podem danificar o Surface Hub. As temperaturas de armazenamento recomendadas são de 32 ° f a 95 ° f, com uma umidade relativa de menos de 70%. 
 
-### Movendo o Surface Hub
+###  <a name="moving-surface-hub"></a>Movendo o Surface Hub
 
 Antes de mover o Surface Hub, certifique-se de que todos os doorways, limiares, corredores e elevadors sejam grandes o suficiente para acomodá-los. Para obter informações sobre as dimensões e o peso do seu Surface Hub em seu contêiner de remessa, consulte [55 "informações técnicas do Microsoft Surface Hub](surface-hub-technical-55.md) ou [84" informações técnicas do Microsoft Surface Hub](surface-hub-technical-84.md).
 
-### Descompactando o Surface Hub
+###  <a name="unpacking-surface-hub"></a>Descompactando o Surface Hub
 
 Para descompactar as informações, consulte o guia de descompactação incluído no contêiner de remessa. Você pode abrir as instruções para descompactação antes de abrir o contêiner de remessa.  Estas instruções também podem ser encontradas aqui:https://www.microsoft.com/surface/support/surface-hub
 
 >[!IMPORTANT]
 >Manter e armazenar todos os materiais de remessa do Surface Hub, incluindo o palete, contêiner e parafusos, para que você precise enviar o Surface Hub para um novo local ou enviá-lo para reparos. Para o 84 "Surface Hub, mantenha as alças de levantar. 
 
-### Levantando o Surface Hub
+###  <a name="lifting-surface-hub"></a>Levantando o Surface Hub
 
 O Surface Hub do 55 exige duas pessoas para levantar e montar com segurança. O Surface Hub do 84 exige quatro pessoas para levantar e montar com segurança. Essas assistências devem ser capazes de levantar 70 kg para a altura Waist. Examine a guia descompactação e montagem para obter detalhes sobre o levantamento do Surface Hub. Você pode encontrá-lo em https://www.microsoft.com/surface/support/surface-hub .
 
-## Montando e configurando
+##  <a name="mounting-and-setup"></a>Montando e configurando
 
 Consulte o guia de montagem em https://www.microsoft.com/surface/support/surface-hub para obter instruções detalhadas. 
 
@@ -106,7 +106,7 @@ Para obter especificações sobre montagens disponíveis para o Surface Hub orig
 - [Folha de dados de montagens do Surface Hub e refere-se](https://download.microsoft.com/download/5/0/1/501F98D9-1BCC-4448-A1DB-47056CEE33B6/20160711_Surface_Hub_Mounts_and_Stands_Datasheet.pdf)
 - [Especificações de suporte do Surface Hub e parede do Surface Hub](https://download.microsoft.com/download/7/A/7/7A75BD0F-5A46-4BCE-B313-A80E47AEB581/20160720_Combined_Stand_Wall_Mount_Drawings.pdf)
 
-## A experiência de conexão
+##  <a name="the-connect-experience"></a>A experiência de conexão
 
 A conexão permite que as pessoas entrem em contato com laptop, Tablet ou telefone para a tela do Surface Hub. A conexão permite tipos de conexão sem fio ou com fio.
 
@@ -138,6 +138,6 @@ Para obter detalhes sobre o touchback e o Inkback, consulte o guia do usuário e
 
 
 
-## Consulte também
+##  <a name="see-also"></a>Consulte também
 
 [Assista ao vídeo (abre em um media player pop-up)](https://compass.xbox.com/assets/27/aa/27aa7dd7-7cb7-40ea-9bd6-c7de0795f68c.mov?n=04.07.16_installation_video_01_site_readiness.mov)  

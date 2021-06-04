@@ -31,11 +31,11 @@ A maneira como você gerencia as atualizações de driver de superfície e firmw
 
 Embora as soluções de distribuição de software de nível empresarial continuem a evoluir, a lógica dos negócios para o gerenciamento centralizado das atualizações continua sendo a mesma: Mantenha a segurança dos dispositivos de superfície e mantenha-os atualizados com os mais recentes aprimoramentos de recursos e sistema operacional. Isso é essencial para sustentar um ambiente de produção estável e garantir que os usuários não sejam impedidos de serem produtivos. Este artigo fornece uma visão geral de ferramentas e processos recomendados para organizações maiores para alcançar essas metas.
 
-## Gerenciamento de atualizações centrais em ambientes comerciais
+##  <a name="central-update-management-in-commercial-environments"></a>Gerenciamento de atualizações centrais em ambientes comerciais
 
 A Microsoft tem ferramentas simplificadas para o gerenciamento de dispositivos, incluindo atualizações de driver e firmware, em uma única experiência unificada que é chamada de [centro de administração do Microsoft Endpoint Manager](https://devicemanagement.microsoft.com/) e é acessada a partir do [devicemanagement.Microsoft.com](https://devicemanagement.microsoft.com/#home).
 
-### Gerenciar atualizações com o Configuration Manager e o Intune
+###  <a name="manage-updates-with-configuration-manager-and-intune"></a>Gerenciar atualizações com o Configuration Manager e o Intune
 
 O Gerenciador de configuração do Microsoft Endpoint permite sincronizar e implantar o firmware de superfície e atualizações de driver com o cliente do Configuration Manager. A integração com o Microsoft Intune permite que você veja todos os dispositivos gerenciados, cogerenciados e gerenciados por parceiros em um só lugar. Esta é a solução recomendada para grandes organizações gerenciar atualizações de superfície.
 
@@ -45,7 +45,7 @@ Para obter etapas detalhadas, confira os seguintes recursos:
 - [Implantar aplicativos com o Configuration Manager](https://docs.microsoft.com/configmgr/apps/deploy-use/deploy-applications)
 - [Documentação do Gerenciador de configuração de ponto de extremidade](https://docs.microsoft.com/configmgr/)
 
-### Gerenciar atualizações com o Microsoft Deployment Toolkit
+###  <a name="manage-updates-with-microsoft-deployment-toolkit"></a>Gerenciar atualizações com o Microsoft Deployment Toolkit
 
 O kit de ferramentas de implantação da Microsoft (MDT) está incluído no Gerenciador de configuração de ponto de extremidade. Ele contém ferramentas de implantação opcionais que você pode querer usar, dependendo do seu ambiente. Isso inclui o kit de avaliação e implantação do Windows (Windows ADK), o Gerenciador de imagem de sistema do Windows (Windows SIM), o gerenciamento e manutenção de imagens de implantação (DISM) e a ferramenta de migração de estado do usuário (USMT). Você pode baixar a versão mais recente do MDT na [página de download do kit de ferramentas de implantação da Microsoft](https://www.microsoft.com/download/details.aspx?id=54259).
 
@@ -63,26 +63,26 @@ Para obter instruções sobre como implantar atualizações usando o Gerenciador
 
 O Gerenciador de configuração de ponto de extremidade e o MDT usam o ambiente de pré-instalação do Windows (WindowsPE) durante o processo de implantação. O WindowsPE só oferece suporte a um conjunto limitado de drivers básicos, como os de adaptadores de rede e controladores de armazenamento. Os drivers para componentes do Windows que não fazem parte do WindowsPE podem produzir erros. Como prática recomendada, você pode evitar esses erros Configurando o processo de implantação para usar somente os drivers obrigatórios durante a fase WindowsPE.
 
-### Endpoint Configuration Manager
+###  <a name="endpoint-configuration-manager"></a>Endpoint Configuration Manager
 
 Iniciando no Gerenciador de configuração de ponto de extremidade, você pode sincronizar e implantar o firmware de superfície da Microsoft e atualizações de driver usando o cliente do Configuration Manager. Para obter informações adicionais, consulte KB 4098906, [como gerenciar atualizações de driver de superfície no Configuration Manager](https://support.microsoft.com/help/4098906/manage-surface-driver-updates-in-configuration-manager).
 
-## Dispositivos com suporte
+##  <a name="supported-devices"></a>Dispositivos com suporte
 
 Os arquivos. msi disponíveis para download estão disponíveis para os dispositivos Surface Pro 2 e posterior (exceto Surface Pro X, que executa o Windows 10 no ARM).
 
-## Gerenciando o firmware com o DFCI
+##  <a name="managing-firmware-with-dfci"></a>Gerenciando o firmware com o DFCI
 
 Com os perfis da interface de configuração do firmware (DFCI) incorporados ao Intune (agora disponível no modo de [Visualização pública](https://docs.microsoft.com/intune/configuration/device-firmware-configuration-interface-windows)), o gerenciamento de UEFI da superfície estende a pilha de gerenciamento moderno para o nível de hardware UEFI. O DFCI é compatível com o provisionamento de Zero Touch, elimina as senhas do BIOS, fornece o controle das configurações de segurança (incluindo opções de inicialização e periféricos incorporados) e prepara a base para cenários de segurança avançada no futuro. Para obter mais informações, consulte os seguintes artigos:
 
 - [Gerenciamento pelo Intune das configurações de UEFI do Surface](https://docs.microsoft.com/surface/surface-manage-dfci-guide)
 - [Ignite 2019: anunciando o gerenciamento remoto de configurações de controle de Surface do Intune](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/Ignite-2019-Announcing-remote-management-of-Surface-UEFI/ba-p/978333).
 
-## Práticas recomendadas para processos de atualização de implantação
+##  <a name="best-practices-for-update-deployment-processes"></a>Práticas recomendadas para processos de atualização de implantação
 
 Para manter um ambiente estável, recomendamos enfaticamente que você mantenha a paridade com a versão mais recente do Windows 10.  Para obter recomendações de práticas recomendadas, consulte [criar toques de implantação para atualizações do Windows 10](https://docs.microsoft.com/windows/deployment/update/waas-deployment-rings-windows-10-updates).
 
-## Pacotes de atualização de superfície para download
+##  <a name="downloadable-surface-update-packages"></a>Pacotes de atualização de superfície para download
 
 Versões específicas do Windows 10 têm arquivos. msi separados, cada um contendo todas as atualizações de driver cumulativo e firmware necessárias para dispositivos Surface. Os pacotes de atualização podem incluir alguns ou todos os seguintes componentes:
 
@@ -96,7 +96,7 @@ Versões específicas do Windows 10 têm arquivos. msi separados, cada um conten
 - Mecanismo de gerenciamento (eu)
 - Unified Extensible Firmware Interface (UEFI)
 
-### Baixando arquivos. msi
+###  <a name="downloading-.msi-files"></a>Baixando arquivos. msi
 
 1. Navegue até [baixar drivers e firmware para o Surface](https://support.microsoft.com/help/4023482/surface-download-drivers-and-firmware) no centro de download da Microsoft.
 2. Selecione o nome do arquivo. msi que corresponda ao modelo de superfície e à versão do Windows. O nome do arquivo. msi inclui o número mínimo de compilação do Windows com suporte que é necessário para instalar os drivers e o firmware. Por exemplo, confira a figura a seguir. Para atualizar um catálogo de superfície 2 com compilação 18362 do Windows 10, escolha **SurfaceBook2_Win10_18362_19.101.13994.msi.** Para um livro de superfície 2 com compilação 16299 do Windows 10, escolha **SurfaceBook2_Win10_16299_1803509_3.msi**.
@@ -105,7 +105,7 @@ Versões específicas do Windows 10 têm arquivos. msi separados, cada um conten
 
     *Figura 1. Baixando atualizações de superfície*
 
-### Convenção de nomenclatura Surface. msi
+###  <a name="surface-.msi-naming-convention"></a>Convenção de nomenclatura Surface. msi
 
 Desde que os arquivos. msi de agosto de 2019 estejam usando a seguinte convenção de nomenclatura:
 
@@ -126,7 +126,7 @@ Este nome de arquivo fornece as seguintes informações:
   - **Minuto do mês:** 44195
 - **Revisão da versão:** 0 (primeiro lançamento desta versão)
 
-### Convenção de nomenclatura do Surface. msi herdada
+###  <a name="legacy-surface-.msi-naming-convention"></a>Convenção de nomenclatura do Surface. msi herdada
 
 Os arquivos. msi herdados (arquivos que foram criados antes de agosto de 2019) seguivam a mesma fórmula de nomenclatura geral, mas usaram um método diferente para gerar o número da versão.
 
@@ -145,7 +145,7 @@ Este nome de arquivo fornece as seguintes informações:
   - **Número da versão do produto:** 07 (Surface pro 6 é oficialmente a sétima versão do Surface pro)
 - **Revisão da versão:** 0 (primeiro lançamento desta versão)
 
-## Saiba mais
+##  <a name="learn-more"></a>Saiba mais
 
 - [Baixar drivers e firmware para Surface](https://support.microsoft.com/help/4023482/surface-download-drivers-and-firmware)
 - [Como gerenciar atualizações de driver de superfície no Configuration Manager](https://support.microsoft.com/help/4098906/manage-surface-driver-updates-in-configuration-manager)

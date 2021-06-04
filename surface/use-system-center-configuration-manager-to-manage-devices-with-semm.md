@@ -30,7 +30,7 @@ Para organizações com o Gerenciador de configuração do Microsoft EndPoint, h
 > [!Note]
 > Embora o processo descrito neste artigo possa funcionar com versões anteriores do Endpoint Configuration Manager ou com outras soluções de gerenciamento de terceiros, o gerenciamento de SEMM com o Microsoft Surface UEFI Manager e o PowerShell só tem suporte com o Branch atual do Endpoint Configuration Manager.
 
-#### Pré-requisitos
+####  <a name="prerequisites"></a>Pré-requisitos
 
 Antes de começar o processo descrito neste artigo, familiarize-se com as seguintes tecnologias e ferramentas:
 

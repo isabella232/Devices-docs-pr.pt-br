@@ -24,7 +24,7 @@ Se você tiver problemas com o Surface Hub 2S, poderá redefinir o dispositivo p
 
 Para começar, entre no Surface Hub 2S com **** credenciais de administrador, abra o aplicativo Configurações, selecione **Atualizar**& segurança e, em seguida, selecione **Recuperação**.
 
-## Redefina o dispositivo
+##  <a name="reset-the-device"></a>Redefina o dispositivo
 
    > [!IMPORTANT]
    > Verifique se sua chave do BitLocker está disponível antes de redefinir o dispositivo, pois ela será solicitado posteriormente. Para saber mais, consulte [Salvar sua chave do BitLocker.](save-bitlocker-key-surface-hub.md)
@@ -44,11 +44,11 @@ Para começar, entre no Surface Hub 2S com **** credenciais de administrador, ab
    > ![*Redefinir e recuperar para o Surface Hub 2S*](images/sh2-reset.png)
    <br/>*Figura 1. Redefinir e recuperar para o Surface Hub 2S* 
 
-## Recuperar o Surface Hub 2S usando uma unidade de recuperação USB
+##  <a name="recover-surface-hub-2s-by-using-a-usb-recovery-drive"></a>Recuperar o Surface Hub 2S usando uma unidade de recuperação USB
 
 Novidade no Surface Hub 2S, agora você pode reinstalar o dispositivo usando uma imagem de recuperação.
 
-### Recuperação de uma unidade USB
+###  <a name="recovery-from-a-usb-drive"></a>Recuperação de uma unidade USB
 
 Usando o Surface Hub 2S, você pode reinstalar o dispositivo usando uma imagem de recuperação. Ao fazer isso, você pode reinstalar o dispositivo nas configurações de fábrica se tiver perdido a chave do BitLocker ou se não tiver mais credenciais de administrador para o aplicativo Configurações.
 
@@ -90,6 +90,6 @@ Usando o Surface Hub 2S, você pode reinstalar o dispositivo usando uma imagem d
 
 Quando a tela de instalação pela primeira vez for exibida, remova a unidade USB.
 
-## Contate o Suporte
+##  <a name="contact-support"></a>Contate o Suporte
 
 Se você tiver dúvidas ou precisar de ajuda, poderá [criar uma solicitação de suporte.](https://support.microsoft.com/supportforbusiness/productselection)

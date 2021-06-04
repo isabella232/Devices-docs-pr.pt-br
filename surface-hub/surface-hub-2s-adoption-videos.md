@@ -21,7 +21,7 @@ ms.locfileid: "10830544"
 
 Esta página contém treinamento abrangente para o Surface Hub 2S, disponível sob demanda.
 
-## Capítulo 1 – Visão geral do treinamento
+##  <a name="chapter-1---training-overview"></a>Capítulo 1 – Visão geral do treinamento
 
 > [!video https://www.microsoft.com/videoplayer/embed/RE46Jud] 
 
@@ -33,7 +33,7 @@ Esta página contém treinamento abrangente para o Surface Hub 2S, disponível s
 - Visão geral dos serviços de treinamento
 - Práticas recomendadas de treinamento
 
-## Capítulo 2-Introdução ao Surface Hub
+##  <a name="chapter-2---getting-started-with-surface-hub"></a>Capítulo 2-Introdução ao Surface Hub
 
 > [!video https://www.microsoft.com/videoplayer/embed/RE46Ejt] 
 
@@ -44,7 +44,7 @@ Esta página contém treinamento abrangente para o Surface Hub 2S, disponível s
 - Introdução ao Surface Hub
 - Coletando expectativas
 
-## Capítulo 3 – Hub de superfície de navegação
+##  <a name="chapter-3---navigating-surface-hub"></a>Capítulo 3 – Hub de superfície de navegação
 
 > [!video https://www.microsoft.com/videoplayer/embed/RE46OFW] 
 
@@ -56,7 +56,7 @@ Esta página contém treinamento abrangente para o Surface Hub 2S, disponível s
 - Teams/Skype
 - Encerrar sessão
 
-## Capítulo 4: quadro de comunicações e colaboração
+##  <a name="chapter-4---whiteboarding-and-collaboration"></a>Capítulo 4: quadro de comunicações e colaboração
 
 > [!video https://www.microsoft.com/videoplayer/embed/RE46M4v] 
 
@@ -68,7 +68,7 @@ Esta página contém treinamento abrangente para o Surface Hub 2S, disponível s
 - Compartilhar o quadro de comunicações
 - Exportar o quadro de comunicações 
  
-## Capítulo 5-explorando os aplicativos do Surface Hub
+##  <a name="chapter-5---exploring-surface-hub-apps"></a>Capítulo 5-explorando os aplicativos do Surface Hub
 
 > [!video https://www.microsoft.com/videoplayer/embed/RE46Ejz] 
 
@@ -78,7 +78,7 @@ Esta página contém treinamento abrangente para o Surface Hub 2S, disponível s
 - Microsoft Excel
 - Microsoft Edge
 
-## Capítulo 6-aplicativos avançados e o Office 365
+##  <a name="chapter-6---advanced-apps-and-office-365"></a>Capítulo 6-aplicativos avançados e o Office 365
 
 > [!video https://www.microsoft.com/videoplayer/embed/RE46EjA] 
 
@@ -90,7 +90,7 @@ Esta página contém treinamento abrangente para o Surface Hub 2S, disponível s
 - OneDrive
 - Documentos de autoria
 
-## Capítulo 7-dispositivos conectados
+##  <a name="chapter-7---connecting-devices"></a>Capítulo 7-dispositivos conectados
 
 > [!video https://www.microsoft.com/videoplayer/embed/RE46M4w] 
 
@@ -101,7 +101,7 @@ Esta página contém treinamento abrangente para o Surface Hub 2S, disponível s
 - Fluxos de trabalho de aplicativos de linha de negócios
 - Solução de problemas de Miracast e conexão com fio    
  
-## Capítulo 8 – reuniões do Skype for Business
+##  <a name="chapter-8---skype-for-business-meetings"></a>Capítulo 8 – reuniões do Skype for Business
 
 > [!video https://www.microsoft.com/videoplayer/embed/RE46M4x] 
 
@@ -112,7 +112,7 @@ Esta página contém treinamento abrangente para o Surface Hub 2S, disponível s
 - Gerenciando uma reunião do Skype for Business
 - Apresentar conteúdo
     
-## Capítulo 9-reuniões do Microsoft Teams
+##  <a name="chapter-9---microsoft-teams-meetings"></a>Capítulo 9-reuniões do Microsoft Teams
 
 > [!video https://www.microsoft.com/videoplayer/embed/RE46OFZ] 
 
@@ -125,7 +125,7 @@ Esta página contém treinamento abrangente para o Surface Hub 2S, disponível s
 - Apresentar conteúdo
 - Conclusão
 
-## Capítulo 10-solução de problemas básica
+##  <a name="chapter-10---basic-troubleshooting"></a>Capítulo 10-solução de problemas básica
 
 > [!video https://www.microsoft.com/videoplayer/embed/RE46z65] 
 

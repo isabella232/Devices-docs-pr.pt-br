@@ -27,7 +27,7 @@ ms.locfileid: "11326103"
 
 Direcionados a implantações BYOD, os perfis de trabalho fornecem um espaço separado no Duo para dados e aplicativos de trabalho, dando às organizações controle total de seus dados, aplicativos e políticas de segurança sem impedir que os funcionários usem seus dispositivos para aplicativos e dados pessoais.
 
-### Configurar o Perfil de Trabalho empresarial do Android
+###  <a name="set-up-android-enterprise-work-profile"></a>Configurar o Perfil de Trabalho empresarial do Android
 
 Use perfis de trabalho para gerenciar dados corporativos e aplicativos em dispositivos Android de propriedade do usuário. Por padrão, o registro de dispositivos de perfil de trabalho de propriedade pessoal está habilitado e não requer mais configuração de administrador.  
 
@@ -64,7 +64,7 @@ Use perfis de trabalho para gerenciar dados corporativos e aplicativos em dispos
      ![Selecione continuar para concluir a instalação](images/duo-wp-8.png)<br><br>
      ![configuração completa](images/duo-wp-9.png)<br><br>
 
-## Saiba mais
+##  <a name="learn-more"></a>Saiba mais
 
 - [Configurar o registro de dispositivos de perfil de trabalho android Enterprise](https://docs.microsoft.com/mem/intune/enrollment/android-work-profile-enroll)
 

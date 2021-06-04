@@ -34,7 +34,7 @@ O Surface Duo tem proteção integrada em todas as camadas com hardware, firmwar
 - **Microsoft Defender ATP.** O software de proteção contra malware e antivírus de nível empresarial para o Window 10 agora está disponível para dispositivos Android gerenciados pelo Intune. Para saber mais, confira [o Microsoft defender ATP para Android.](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-atp-android) 
 
 
-## Segurança de gerenciamento de dispositivo móvel
+##  <a name="mobile-device-management-security"></a>Segurança de gerenciamento de dispositivo móvel
 
 O Surface Duo é protegido em um ambiente corporativo usando uma solução Enterprise Mobility Management (EMM) que fornece um conjunto consistente de ferramentas de proteção, tecnologias e práticas recomendadas que você pode adaptar para atender aos seus requisitos organizacionais e de conformidade. Uma ampla variedade de APIs de gerenciamento fornece aos departamentos de IT as ferramentas para ajudar a evitar o vazamento de dados e impor a conformidade em uma variedade de cenários. As opções de suporte de vários perfis e gerenciamento de dispositivos permitem a separação de dados pessoais e de trabalho, ajudando a manter os dados da empresa seguros.
 
@@ -43,13 +43,13 @@ A segurança MDM se baseia em um conjunto crescente de tecnologias de configura�
 Por exemplo, talvez você queira reforçar a autenticação de dispositivo, exigindo que os usuários insiram um pin alfanumérico de seis dígitos juntamente com a autenticação de 2 fatores.  você pode restringir os dispositivos que os usuários podem registrar para ajudar a garantir que você permaneça em conformidade com os limites de licenciamento ou evitar conceder acesso a telefones "jailbroken" ou outros tipos de dispositivo sem suporte.
 O Intune e outros EMMs fornecem às organizações a flexibilidade de gerenciar dispositivos de acordo com suas necessidades.
 
-## Políticas de proteção de aplicativos
+##  <a name="app-protection-policies"></a>Políticas de proteção de aplicativos
 
 As políticas de proteção de aplicativo (APP) são regras que garantem que os dados de uma organização permaneçam seguros ou contidos em um aplicativo gerenciado. Uma política pode ser uma regra imposta quando o usuário tenta acessar ou mover dados "corporativos" ou um conjunto de ações que são proibidas ou monitoradas quando o usuário está dentro do aplicativo. Um aplicativo gerenciado é um aplicativo que tem políticas de proteção de aplicativo aplicadas a ele e pode ser gerenciado pelo Intune.
 
 As políticas de proteção de aplicativos permitem que você gerencie e proteja os dados da sua organização em um aplicativo. Muitos aplicativos de produtividade, como os aplicativos do Microsoft Office, podem ser gerenciados pelo MAM do Intune. Veja a lista oficial de [aplicativos protegidos do Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-supported-intune-apps) disponíveis para uso público.
 
-## Considerações de segurança para gerenciar o Surface Duo
+##  <a name="security-considerations-for-managing-surface-duo"></a>Considerações de segurança para gerenciar o Surface Duo
 
 O crescente número de configurações de política disponíveis em soluções de gerenciamento de dispositivo móvel permite que as organizações ajustem os níveis de proteção para atender às suas necessidades específicas. Para ajudar as organizações a priorizar as configurações de segurança do Surface Duo (ou qualquer outro dispositivo Android), o Intune introduziu sua estrutura de configuração de segurança [do Android Enterprise](https://docs.microsoft.com/mem/intune/enrollment/android-configuration-framework) organizada em vários cenários de configuração distintos, fornecendo orientações para o perfil de trabalho e cenários totalmente gerenciados.
  

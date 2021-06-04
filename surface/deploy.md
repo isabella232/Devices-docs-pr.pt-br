@@ -23,7 +23,7 @@ ms.locfileid: "10830380"
 
 Saiba mais sobre como implantar dispositivos de superfície ARM-e baseado em Intel.
 
-## Implantando dispositivos baseados em ARM
+##  <a name="deploying-arm-based-devices"></a>Implantando dispositivos baseados em ARM
 
 | Tópico | Descrição |
 | --- | --- |
@@ -32,7 +32,7 @@ Saiba mais sobre como implantar dispositivos de superfície ARM-e baseado em Int
 | [Compatibilidade do aplicativo PC baseado em ARM do Windows 10](surface-pro-arm-app-performance.md) | Examine a orientação de compatibilidade do aplicativo para Surface Pro X. |
 
 
-## Implantação de dispositivos baseados em Intel 
+##  <a name="deploying-intel-based-devices"></a>Implantação de dispositivos baseados em Intel 
 
 | Tópico | Descrição |
 | --- | --- |
@@ -45,7 +45,7 @@ Saiba mais sobre como implantar dispositivos de superfície ARM-e baseado em Int
 | [Surface Deployment Accelerator](microsoft-surface-deployment-accelerator.md)| Veja como o acelerador de implantação de superfície da Microsoft oferece um mecanismo de implantação rápido e simples para as organizações refazer a imagem de dispositivos de superfície. |
 [Configuração de limite da bateria](battery-limit.md) | Saiba como usar o limite de bateria, uma configuração de UEFI que altera a carga da bateria do dispositivo Surface e pode prolongar sua longevidade.
 
-## Tópicos relacionados
+##  <a name="related-topics"></a>Tópicos relacionados
 
 [Blog Surface para profissionais de TI](https://techcommunity.microsoft.com/t5/Surface-IT-Pro-Blog/bg-p/SurfaceITPro)
 

@@ -28,7 +28,7 @@ Este artigo fornece orientação e respostas para ajudá-lo a realizar uma impla
 
 A implantação de rede para dispositivos Surface pode gerar alguns desafios únicos para os administradores do sistema. Devido à falta de um adaptador Ethernet com fio nativo, os administradores devem fornecer conectividade por meio de um adaptador Ethernet removível.
 
-## Selecionar um adaptador Ethernet para dispositivos Surface
+##  <a name="select-an-ethernet-adapter-for-surface-devices"></a>Selecionar um adaptador Ethernet para dispositivos Surface
 
 
 Para você possa abordar as preocupações sobre como executará a inicialização no ambiente de implantação ou como os dispositivos serão reconhecidos por sua solução de implantação, você precisa usar um adaptador de rede com fio.
@@ -53,7 +53,7 @@ Os seguintes dispositivos Ethernet têm suporte para a inicialização de rede c
 
 Também há suporte a adaptadores Ethernet de terceiros para a implantação de rede, embora eles não deem suporte à inicialização PXE. Para usar um adaptador Ethernet de terceiros, você deve carregar os drivers na imagem de inicialização de implantação e iniciar essa imagem de um dispositivo de armazenamento separado, como um pen drive.
 
-## Inicializar dispositivos Surface da rede
+##  <a name="boot-surface-devices-from-the-network"></a>Inicializar dispositivos Surface da rede
 
 Para inicializar da rede ou de um pen drive conectado, você deve instruir o dispositivo Surface a ser inicializado de um dispositivo de inicialização alternativo. Você pode alterar a ordem de inicialização no firmware do sistema para priorizar dispositivos de inicialização USB ou pode instrui-lo a inicializar de um dispositivo de inicialização alternativo durante o processo de inicialização.
 

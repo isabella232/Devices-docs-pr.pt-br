@@ -24,7 +24,7 @@ ms.locfileid: "10831122"
 
 Você pode alterar a conta do dispositivo em Configurações para adicionar uma conta, caso nenhuma tenha sido provisionada ainda, ou para alterar as propriedades de uma conta que já foi provisionada.
 
-## Detalhes
+##  <a name="details"></a>Detalhes
 
 
 <table>
@@ -72,7 +72,7 @@ Você pode alterar a conta do dispositivo em Configurações para adicionar uma 
 
  
 
-## O que ocorre?
+##  <a name="what-happened"></a>O que ocorre?
 
 
 O UPN e a senha são usados para validar a conta no AD ou Azure AD. Se a validação falhar, você talvez precise fornecer o nome de usuário e domínio.
@@ -81,7 +81,7 @@ Usando as credenciais fornecidas, tentaremos descobrir o endereço SIP. Se um en
 
 O endereço do servidor do Exchange precisará ser fornecido se o dispositivo não conseguir encontrar um servidor associado às credenciais de logon. O Microsoft Surface Hub usará o servidor do Exchange para se comunicar com o ActiveSync, que ativa vários recursos importantes no dispositivo.
 
-## Tópicos relacionados
+##  <a name="related-topics"></a>Tópicos relacionados
 
 
 [Gerenciar o Microsoft Surface Hub](manage-surface-hub.md)

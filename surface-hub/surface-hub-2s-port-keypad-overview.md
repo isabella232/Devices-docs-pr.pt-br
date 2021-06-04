@@ -29,7 +29,7 @@ A figura a seguir mostra a localização de portas e os botões físicos em um t
 
  ![Modo de exibição de frente e verso das conexões de e/s e dos botões físicos](images/hub2s-schematic.png)
 
-## Referência de componentes de portabilidade e teclado
+##  <a name="port-and-keypad-component-reference"></a>Referência de componentes de portabilidade e teclado
 
 |**Chave**|**Componente**|**Descrição**|**Parâmetros principais**|
 |:--- |:--------- |:----------- |:-------------- |

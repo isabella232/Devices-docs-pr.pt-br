@@ -27,7 +27,7 @@ O catálogo de superfície 3 para empresas equipado pela NVIDIA® Quadro RTX™ 
 - **Inteligência artificial** -remova tarefas tediosas e tediosas e trabalho intensivo de computação com tensor núcleos do 240 para ai acelerado por GPU.
 - **Tecnologia e elementos gráficos avançados** -experiência de tecnologia e interatividade incríveis durante a maioria dos gráficos mais exigentes e computação de cargas de trabalho com CUDA núcleos de 1.920 e 6GB de GDDR6 memória.
 
-## Solução de nível empresarial
+##  <a name="enterprise-grade-solution"></a>Solução de nível empresarial
 
 De importância fundamental para os clientes comerciais, o quadro RTX 3000 traz uma solução de nível totalmente profissional que combina o rastreamento acelerado de Ray e recursos de aprendizagem profunda com uma solução integrada de gerenciamento e suporte de nível corporativo. Quadro os drivers são testados e certificados para mais de 100 aplicativos profissionais por ISVs líderes, oferecendo uma camada adicional de garantia de qualidade para validar a estabilidade, a confiabilidade e o desempenho.
  
@@ -36,7 +36,7 @@ Quadro inclui ferramentas corporativas dedicadas para gerenciamento remoto de di
 A NVIDIA desenvolve e mantém os drivers ideais do quadro para empresas (ODE) que são ajustados, testados e validados para fornecer estabilidade, confiabilidade, disponibilidade e suporte em nível corporativo com disponibilidade estendida do produto. Cada versão do driver envolve mais de 2.000 homens-dia de testes com pacotes e casos de teste dos aplicativos profissionais, bem como certificação WHQL. As ameaças à segurança são continuamente monitoradas, e atualizações regulares de segurança são lançadas para proteger contra vulnerabilidades recém-descobertas. Além disso, os drivers quadro passam por uma camada adicional de teste por engenharia Surface antes do lançamento pelo Windows Update.
  
 
-## Desenvolvido para cargas de trabalho intensivas de computação
+##  <a name="built-for-compute-intensive-workloads"></a>Desenvolvido para cargas de trabalho intensivas de computação
 
 O livro Surface 3 com quadro RTX 3000 oferece o melhor desempenho de elementos gráficos de qualquer laptop Surface, permitindo que profissionais avançados trabalhem em praticamente qualquer lugar.
  
@@ -89,7 +89,7 @@ O livro Surface 3 com quadro RTX 3000 oferece o melhor desempenho de elementos g
 | NVIDIA Optimus                                             | Sim             |
 
  
-## Testes de ISV & aceleração do aplicativo
+##  <a name="isv-testing-&-app-acceleration"></a>Testes de ISV & aceleração do aplicativo
 
 Conforme mostrado na tabela 3, o Surface Book 3 com quadro RTX 3000 é testado e aprovado por ISVs líderes e fornece aceleração significativamente mais rápida entre aplicativos profissionais. Os resultados do teste de benchmark do SPECview perf 13 comparam o catálogo de superfície de 3 15 polegadas com NVIDIA Quadro RTX 3000 em relação ao livro Surface 2 15-inch com dispositivos NVIDIA GeForce GTX 1060.
 
@@ -125,7 +125,7 @@ Conforme mostrado na tabela 3, o Surface Book 3 com quadro RTX 3000 é testado e
 
 
 
-## SKU
+##  <a name="skus"></a>Sku
 
 **Tabela 4. Livro Surface 3 com SKUs RTX 3000 do quadro**
 
@@ -134,7 +134,7 @@ Conforme mostrado na tabela 3, o Surface Book 3 com quadro RTX 3000 é testado e
 | 15 polegadas | Quad-Core 10 Gen Core i7-1065G7 | Elementos gráficos da Intel íris™ Plus<br>NVIDIA Quadro RTX 3000. Design Max-Q com 6GB GDDR6 de memória gráfica | 32 LPDDR4x | 512 GB      |
 | 15 polegadas | Quad-Core 10 Gen Core i7-1065G7 | Elementos gráficos da Intel íris™ Plus<br>NVIDIA Quadro RTX 3000. Design Max-Q com 6GB GDDR6 de memória gráfica | 32 LPDDR4x | 1 TB        |
 
-## Resumo
+##  <a name="summary"></a>Resumo
 
 O livro Surface 3 com quadro RTX 3000 oferece o melhor desempenho de elementos gráficos de qualquer laptop Surface, fornecendo arquitetos, engenheiros, desenvolvedores e cientistas de dados com as ferramentas de que precisam para trabalhar de forma eficiente em qualquer lugar:
  
@@ -142,7 +142,7 @@ O livro Surface 3 com quadro RTX 3000 oferece o melhor desempenho de elementos g
 - Desempenho de nível de desktop em um fator forma móvel.
 - Recursos de classe empresarial, confiabilidade e suporte para projetos de missão crítica.
 
-## Saiba mais
+##  <a name="learn-more"></a>Saiba mais
 
 - [Visão geral técnica da GPU do Surface Book 3](surface-book-GPU-overview.md)
 - [Surface para Empresas](https://www.microsoft.com/surface/business)

@@ -23,7 +23,7 @@ ms.locfileid: "10830556"
 O Microsoft Surface Hub tem as mesmas opções de acessibilidade do Windows 10.
 
 
-## Configurações de acessibilidade padrão
+##  <a name="default-accessibility-settings"></a>Configurações de acessibilidade padrão
 
 A lista completa de configurações de acessibilidade disponíveis para os administradores de TI no aplicativo **Configurações**. As configurações de acessibilidade padrão do Surface Hub incluem:
 
@@ -57,7 +57,7 @@ Além disso, esses recursos e aplicativos de acessibilidade retornam para as con
 - Teclas do mouse
 
 
-## Alterar configurações de acessibilidade durante uma reunião
+##  <a name="change-accessibility-settings-during-a-meeting"></a>Alterar configurações de acessibilidade durante uma reunião
 
 Durante uma reunião, os usuários podem ativar/desativar recursos e aplicativos de acessibilidade de duas maneiras:
 - [Atalhos do teclado](https://support.microsoft.com/help/13813/windows-10-microsoft-surface-hub-keyboard-shortcuts)
@@ -66,7 +66,7 @@ Durante uma reunião, os usuários podem ativar/desativar recursos e aplicativos
 > ![Imagem mostrando a Central de ações rápidas no Surface Hub](images/sh-quick-action.png)
 
 
-## Tópicos relacionados
+##  <a name="related-topics"></a>Tópicos relacionados
 
 [Gerenciar o Microsoft Surface Hub](manage-surface-hub.md)
 

@@ -48,14 +48,14 @@ O recurso Wake on Power está disponível nos seguintes dispositivos:
 - Surface Pro X 
 
 
-## Visão geral e pré-requisitos
+##  <a name="overview-and-prerequisites"></a>Visão geral e pré-requisitos
 
 O Configurador UEFI do Surface permite salvar configurações UEFI individuais em um pacote .msi do Windows Installer para distribuição a dispositivos de destino. 
 
 > [!NOTE]
 > Este artigo presume que você saiba como usar o SEMM. Para obter mais informações, consulte [a documentação do Surface Enterprise Management Mode (SEMM).](surface-enterprise-management-mode.md)
 
-## Para habilitar o Wake on Power
+##  <a name="to-enable-wake-on-power"></a>Para habilitar o Wake on Power
 
 1.  Baixe a versão mais recente do [Configurador UEFI do Surface.](https://www.microsoft.com/download/confirmation.aspx?id=46703)
 2.  Entre no dispositivo Surface como administrador, abra o **Configurador UEFI**do Surface, selecione **Dispositivos Surface**e selecione **Próximo.**
@@ -76,7 +76,7 @@ O Configurador UEFI do Surface permite salvar configurações UEFI individuais e
     > Se esta for a primeira vez que você estiver fornecendo configurações para seu dispositivo, também será solicitado a fornecer os dois últimos caracteres da impressão digital do certificado. 
 9.  Salve o pacote .msi. 
 
-## Aplicar o pacote MSI 
+##  <a name="apply-the-msi-package"></a>Aplicar o pacote MSI 
 
 Você pode aplicar o pacote MSI a dispositivos em sua rede usando ferramentas de distribuição de software, como o Microsoft Endpoint Configuration Manager. Esse procedimento inclui etapas para instalar o pacote no computador local. 
 
@@ -96,7 +96,7 @@ Você pode aplicar o pacote MSI a dispositivos em sua rede usando ferramentas de
 
 O Wake on Power agora está configurado. Para testar as configurações, desligue o dispositivo, desconecte a energia e reconecte a energia. O dispositivo deve iniciar automaticamente. 
 
-## Referências
+##  <a name="references"></a>Referências
 
 Para obter mais informações, consulte os artigos a seguir. 
 

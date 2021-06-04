@@ -23,7 +23,7 @@ ms.locfileid: "11271395"
 
 Os dispositivos Surface foram projetados para aproveitar os avanços mais recentes no consumo de energia do dispositivo móvel para oferecer uma experiência otimizada otimizada entre cargas de trabalho. Dependendo do que você estiver fazendo, o Surface ajusta dinamicamente como a energia flui para componentes de hardware individuais, ativas momentaneamente os componentes do sistema para lidar com tarefas em segundo plano , como um email de entrada ou tráfego de rede, antes de retornar a um estado de baixo consumo de energia ocioso (S0ix).
 
-## Resumo das recomendações para administradores de IT
+##  <a name="summary"></a>Resumo das recomendações para administradores de IT
 
 Para garantir que os dispositivos Surface em toda a organização se beneficiem totalmente dos recursos de otimização de energia do Surface:
 
@@ -71,7 +71,7 @@ O Surface integra os seguintes recursos projetados para ajudar os usuários a ot
 
 O Surface foi projetado para uma experiência de gerenciamento de energia simplificada que elimina a necessidade de criar planos de energia personalizados ou definir manualmente as configurações de energia. A Microsoft simplifica a experiência do usuário fornecendo um único plano de energia (balanceado) que substitui os vários planos de energia de builds padrão do Windows.
 
-### Interface do usuário de configurações de energia simplificadas
+###  <a name="user-interface"></a>Interface do usuário de configurações de energia simplificadas
 
 O Surface fornece uma interface do usuário simplificada de acordo com as recomendações de configuração de energia de práticas práticas. Em geral, é recomendável apenas ajustar as configurações visíveis na interface do usuário padrão e evitar definir configurações avançadas de energia ou configurações de Política de Grupo. Usar o tempo limite de tela e atividade padrão, evitando níveis máximos de brilho são as maneiras mais eficazes para os usuários manterem a duração da bateria estendida.
 
@@ -128,7 +128,7 @@ Para saber mais, confira:
 | Verificar o uso do aplicativo | Seus aplicativos | Feche os aplicativos.|
 | Verifique se há danos no cabo de alimentação.| Seu cabo de alimentação | Substitua o cabo de alimentação se estiver danificado ou danificado.|
 
-## Saiba mais 
+##  <a name="learn-more"></a>Saiba mais 
 
 - [Modo de espera moderno](https://docs.microsoft.com/windows-hardware/design/device-experiences/modern-standby-wake-sources)
 

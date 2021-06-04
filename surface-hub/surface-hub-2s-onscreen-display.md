@@ -22,7 +22,7 @@ ms.locfileid: "10831092"
 
 Surface Hub 2S fornece uma exibição na tela para volume, brilho e controle de entrada. O botão fonte funciona como uma tecla de alternância para alternar entre os menus volume, brilho e controle de entrada.
 
-## Para mostrar a exibição na tela
+##  <a name="to-show-the-on-screen-display"></a>Para mostrar a exibição na tela
 
 - Pressione e mantenha pressionado o botão **fonte** por 4 segundos.
 
@@ -30,16 +30,16 @@ Surface Hub 2S fornece uma exibição na tela para volume, brilho e controle de 
 
  Quando a exibição na tela estiver visível, use um ou mais botões para acessar as configurações desejadas.
  
-## Para ajustar o volume
+##  <a name="to-adjust-volume"></a>Para ajustar o volume
 
 - Use o botão aumentar **/diminuir volume** para aumentar ou diminuir o volume.
 
-## Para ajustar o brilho
+##  <a name="to-adjust-brightness"></a>Para ajustar o brilho
 
 1. Pressione o botão **código-fonte** novamente para alternar para o menu brilho.
 2. Use o botão de **cima/para baixo do volume** para aumentar ou diminuir o brilho.
 
-## Para ajustar a entrada
+##  <a name="to-adjust-input"></a>Para ajustar a entrada
 
 1. Pressione o botão **código-fonte** duas vezes para alternar para o menu fonte.
 2. Use o botão de **cima/para baixo do volume** para alternar entre as entradas PC, HDMI e USB-C.

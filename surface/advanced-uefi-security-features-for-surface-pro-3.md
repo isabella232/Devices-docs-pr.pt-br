@@ -27,14 +27,14 @@ Este artigo descreve como instalar e configurar a atualização UEFI v3.11.760.0
 
 Para abordar o controle mais granular sobre a segurança dos dispositivos Surface, a atualização UEFI v3.11.760.0 fornece opções de segurança adicionais que permitem desabilitar dispositivos de hardware específicos ou evitar a inicialização por meio desses dispositivos. Após a atualização UEFI ser instalada em um dispositivo, você pode configurá-la manualmente ou automaticamente executando um script.
 
-## Instalar manualmente a atualização UEFI
+##  <a name="manually-install-the-uefi-update"></a>Instalar manualmente a atualização UEFI
 
 
 Para poder configurar os recursos de segurança avançados do dispositivo Surface, primeiro você deve instalar a atualização UEFI v3.11.760.0. Essa atualização será instalada automaticamente se você receber as atualizações do Windows Update. Para obter mais informações sobre como configurar o Windows para ser atualizado automaticamente usando o Windows Update, consulte [Como configurar e usar Atualizações Automáticas no Windows](https://support.microsoft.com/kb/306525).
 
 Para atualizar a UEFI no Surface Pro 3, você pode baixar e instalar as atualizações UEFI do Surface como parte do pacote de firmware e driver do Surface Pro 3. Esses pacotes de firmware e driver estão disponíveis na [página do Surface Pro 3](https://www.microsoft.com/download/details.aspx?id=38826) no Centro de Download da Microsoft. Você pode saber mais sobre os pacotes de firmware e driver em [Baixar o firmware e os drivers mais recentes para dispositivos Surface](https://technet.microsoft.com/itpro/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices). Os pacotes de firmware e driver estão disponíveis em formatos do Windows Installer (.msi) e de arquivo (.zip) independentes. Você pode saber mais sobre esses dois formatos e como pode usá-los para atualizar seus drivers em [Gerenciar atualizações de driver e firmware do Surface](https://technet.microsoft.com/itpro/surface/manage-surface-pro-3-firmware-updates).
 
-## Definir configurações de segurança adicionais manualmente
+##  <a name="manually-configure-additional-security-settings"></a>Definir configurações de segurança adicionais manualmente
 
 
 >[!NOTE]
@@ -56,7 +56,7 @@ Após a atualização UEFI v3.11.760.0 ser instalada em um dispositivo Surface, 
 
  
 
-## Automatizar configurações de segurança adicionais
+##  <a name="automate-additional-security-settings"></a>Automatizar configurações de segurança adicionais
 
 
 Como profissional de TI com privilégios administrativos, você pode automatizar a configuração da UEFI utilizando as [Ferramentas de firmware do Surface Pro 3 (476 KB)](https://go.microsoft.com/fwlink/p/?LinkID=618038) disponíveis no Centro de Download da Microsoft. Essas ferramentas instalam um assembly .NET que pode ser chamado de qualquer aplicativo ou script personalizado.

@@ -21,7 +21,7 @@ ms.locfileid: "11271355"
 ---
 # Implantação, gerenciamento e manutenção do Surface Pro X
 
-## Introdução
+##  <a name="introduction"></a>Introdução
 
 Construído para lidar com requisitos comerciais de alto desempenho, o Surface Pro X inova ao incorporar os processadores mais poderosos de sua classe, os chipsets Microsoft SQ1 e Microsoft SQ1 ARM.
 
@@ -29,7 +29,7 @@ Com uma CPU de 3GHz e uma GPU 2.1 teraflop, o Surface Pro X fornece uma experiê
 
 O Surface Pro X foi projetado quase exclusivamente para um ambiente moderno baseado em nuvem e funciona melhor quando combinado com Microsoft 365, Intune e Windows Autopilot. Este artigo realça a aparência disso e descreve as principais considerações sobre a implantação, o gerenciamento e a manutenção do Surface Pro X.
 
-## Implantação do Surface Pro X
+##  <a name="deploying-surface-pro-x"></a>Implantação do Surface Pro X
 
 Para obter a melhor experiência, implante o Surface Pro X usando o Windows Autopilot com a assistência de um Provedor de Soluções na Nuvem da Microsoft ou provisionado automaticamente usando perfis de implantação do Autopilot e recursos relacionados. Para obter mais informações, consulte:
 
@@ -40,33 +40,33 @@ A implantação do Autopilot tem diversas vantagens: permite que você use o sis
 
 As organizações que já usam as soluções modernas de gerenciamento, segurança e produtividade estão bem posicionadas para tirar proveito dos recursos de desempenho exclusivos do Surface Pro X. Os clientes que usam aplicativos modernos de linha de negócios, aplicativos da Microsoft Store (UWP) ou soluções de área de trabalho remota também se beneficiam.
 
-## Considerações sobre a implantação baseada em imagem
+##  <a name="image-based-deployment-considerations"></a>Considerações sobre a implantação baseada em imagem
 
 Atualmente, o Microsoft Deployment Toolkit (MDT) e o Microsoft Endpoint Configuration Manager (anteriormente conhecido como System Center Configuration Manager) não dão suporte ao Surface Pro X para a implantação do sistema operacional. Os clientes que dependem da implantação baseada em imagem devem considerar o Surface Pro 7+ enquanto continuam avaliando o momento certo para fazer a transição para soluções de implantação modernas. 
 
-## Gerenciamento de dispositivos Surface Pro X
+##  <a name="managing-surface-pro-x-devices"></a>Gerenciamento de dispositivos Surface Pro X
 
-### Intune
+###  <a name="intune"></a>Intune
 
 Um componente do Microsoft Enterprise Mobility + Security, o Intune integra-se ao Azure Active Directory para controle de identidade e acesso, e fornece gerenciamento granular de dispositivos Surface Pro X registrados. As políticas de gerenciamento de dispositivo móvel (MDM) do Intune têm várias vantagens sobre as ferramentas locais anteriores, como a Política de Grupo do Windows. Isso inclui tempos de logon de dispositivos mais rápidos e um catálogo de políticas mais simplificado, permitindo o gerenciamento completo do dispositivo na nuvem. Por exemplo, você pode gerenciar LTE usando perfis eSIM para configurar planos de dados e implantar códigos de ativação em vários dispositivos.<br> 
 
 Para obter mais informações sobre como configurar o Intune, consulte a [documentação do Intune](https://docs.microsoft.com/intune/).
 
-### Cogerenciamento
+###  <a name="co-management"></a>Cogerenciamento
 
 Depois de implantado no Autopilot, você poderá ingressar dispositivos Surface Pro X no Azure AD ou no Active Directory (Ingresso no Azure AD Híbrido), onde você poderá gerenciar os dispositivos com o Intune ou cogerenciá-los com o Endpoint Configuration Manager, que instalará o Cliente do ConfigMgr x86 de 32 bits.
 
-### Soluções MDM de terceiros
+###  <a name="third-party-mdm-solutions"></a>Soluções MDM de terceiros
 
 Você poderá usar ferramentas MDM de terceiros para gerenciar dispositivos Surface Pro X. Para obter detalhes, entre em contato com seu provedor de MDM.
 
-### Software antivírus
+###  <a name="antivirus-software"></a>Software antivírus
 
 O Windows Defender ajudará a proteger o Windows 10 em computadores baseados em ARM para o tempo de vida com suporte do dispositivo Windows 10. 
 
 Alguns softwares antivírus de terceiros não podem ser instalados em um computador Windows 10 em execução em um processador baseado em ARM. A colaboração com fornecedores de software antivírus de terceiros continua para a preparação do aplicativo AV em computadores baseados em ARM. Entre em contato com seu provedor de software antivírus para entender quando seus aplicativos estarão disponíveis.
 
-## Manutenção do Surface Pro X
+##  <a name="servicing-surface-pro-x"></a>Manutenção do Surface Pro X
 
 O Surface Pro X vem com o Windows 10 versão 2004 e oferece suporte ao Windows 10, versão 1903 e posterior. Como um dispositivo baseado em ARM, ele tem requisitos específicos para manter os drivers e o firmware mais recentes. 
 
@@ -75,17 +75,17 @@ O Surface Pro X foi projetado para usar o Windows Update para simplificar o proc
 1. Vá para **Iniciar** > **Configurações > Atualização e Segurança > Windows Update** > **Opções Avançadas**.
 2. Em **Escolher como as atualizações são instaladas**, selecione **Automático (recomendado)**.
 
-### Recomendações para clientes comerciais
+###  <a name="recommendations-for-commercial-customers"></a>Recomendações para clientes comerciais
 
 - Use o Windows Update ou o Windows Update para Empresas para manter os drivers e o firmware mais recentes. Para saber mais, confira [Implantar atualizações usando o Windows Update para Empresas](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb).
 - Para obter mais informações sobre a implantação e o gerenciamento de atualizações em dispositivos Surface, consulte [Implantar o firmware e os drivers mais recentes para dispositivos Surface](manage-surface-driver-and-firmware-updates.md).
 - Observe que o Windows Server Update Services (WSUS) não oferece suporte à capacidade de fornecer drivers e firmware para o Surface Pro X.
 
-## Execução de aplicativos no Surface Pro X
+##  <a name="running-apps-on-surface-pro-x"></a>Execução de aplicativos no Surface Pro X
 
 A maioria dos aplicativos é executada em computadores Windows 10 baseados em ARM com exclusões limitadas.
 
-### Aplicativos com suporte
+###  <a name="supported-apps"></a>Aplicativos com suporte
 
 - A maioria dos aplicativos x86 Win32 é executada no Surface Pro X.
 - Os aplicativos ARM64 nativos e UWP da Microsoft Store proporcionam uma excelente experiência do usuário usando a velocidade nativa completa do processador baseado em ARM e, ao mesmo tempo, otimizam a duração da bateria.
@@ -94,7 +94,7 @@ A maioria dos aplicativos é executada em computadores Windows 10 baseados em AR
 > [!NOTE]
 > Com a emulação de 64 bits em breve na visualização por meio do Participante do Programa Windows Insider, você poderá executar aplicativos de 64 bits (x64) no Surface Pro X.
 
-### Garantia de Aplicativo do FastTrack 
+###  <a name="fasttrack-app-assure"></a>Garantia de Aplicativo do FastTrack 
 
 O programa de Garantia de Aplicativo está disponível para clientes comerciais para seus aplicativos de LOB, ISV e Microsoft voltados para o Windows 10 em ARM. Se clientes comerciais encontrarem um problema de compatibilidade de aplicativo usando o Windows 10 no ARM, a Microsoft fornecerá recursos de desenvolvedor para solucionar o problema e ajudar nas correções do aplicativo, sem custo adicional. Para saber mais, acesse [aka.ms/AppAssure](https://docs.microsoft.com/fasttrack/products-and-capabilities#app-assure).
 
@@ -103,29 +103,29 @@ Para obter mais informações sobre como executar aplicativos no Surface Pro X, 
 - [Perguntas frequentes sobre suporte a computadores Windows 10 baseados em ARM](https://support.microsoft.com/help/4521606)
 - [Documentação do Windows 10 em ARM](https://docs.microsoft.com/windows/arm)
 
-## Áreas de Trabalho Virtuais (VDI)
+##  <a name="virtual-desktops-(vdi)"></a>Áreas de Trabalho Virtuais (VDI)
 
 A Área de Trabalho Virtual do Windows permite o acesso a áreas de trabalho, aplicativos e dados do Windows em qualquer dispositivo ou plataforma de computação, em qualquer local. Para saber mais, consulte [o site da Área de Trabalho Virtual do Windows](https://aka.ms/wvd). 
 
-## Navegação com o Surface Pro X
+##  <a name="browsing-with-surface-pro-x"></a>Navegação com o Surface Pro X
 
 Os navegadores populares são executados no Surface Pro X:
 
 - Edge nativo, Firefox, Chrome e Internet Explorer são executados no Surface Pro X.
 - O Firefox e o Microsoft Edge baseados no Chromium são executados nativamente e, portanto, têm desempenho avançado em um PC com Windows 10 em um processador baseado em ARM.
 
-## Instalação e uso do Microsoft Office
+##  <a name="installing-and-using-microsoft-office"></a>Instalação e uso do Microsoft Office
 
 - Use o Office 365 para obter a melhor experiência em um computador Windows 10 com um processador baseado em ARM.
 - O "clique para executar" do Office 365 instala o Outlook, o Word, o Excel e o PowerPoint, otimizado para ser executado em um computador Windows 10 com um processador baseado em ARM.
 - O Microsoft Teams tem ótima execução no Surface Pro X.
 - Para "versões perpétuas" do Office, como o Office 2019, instale a versão de 32 bits.
 
-## VPN
+##  <a name="vpn"></a>VPN
 
 Para confirmar se uma VPN de terceiros específica dá suporte a um computador Windows 10 com um processador baseado em ARM, entre em contato com o provedor de VPN.
 
-## Resumo dos recursos
+##  <a name="feature-summary"></a>Resumo dos recursos
 
 As tabelas a seguir mostram a disponibilidade de recursos importantes selecionados no Surface Pro X com Windows 10 no ARM.
 
@@ -176,20 +176,20 @@ As tabelas a seguir mostram a disponibilidade de recursos importantes selecionad
 
 
 
-## Perguntas frequentes
+##  <a name="faq"></a>Perguntas frequentes
 
-### Posso implantar o Surface Pro X com o MDT ou Endpoint Configuration Manager?
+###  <a name="can-i-deploy-surface-pro-x-with-mdt-or-endpoint-configuration-manager"></a>Posso implantar o Surface Pro X com o MDT ou Endpoint Configuration Manager?
 
 Atualmente, o Microsoft Deployment Toolkit (MDT) e o Microsoft Endpoint Configuration Manager não oferecem suporte ao Surface Pro X para implantação de sistema operacional. Os clientes que dependem da implantação baseada em imagem devem considerar o Surface Pro 7+ enquanto continuam avaliando o momento certo para fazer a transição para a nuvem.
 
-### Como faço para implantar o Surface Pro X?
+###  <a name="how-can-i-deploy-surface-pro-x"></a>Como faço para implantar o Surface Pro X?
 
 Implante o Surface Pro X usando o Windows Autopilot.
 
-### Está disponível um BMR?
+###  <a name="is-a-bmr-available"></a>Está disponível um BMR?
 
 Sim, consulte [Baixar uma imagem de recuperação para o Surface](https://support.microsoft.com/surfacerecoveryimage).
 
-### O Intune é necessário para gerenciar o Surface Pro X?
+###  <a name="is-intune-required-to-manage-surface-pro-x"></a>O Intune é necessário para gerenciar o Surface Pro X?
 
 O Intune é recomendado, mas não é necessário. Depois de implantado no Autopilot, você poderá ingressar dispositivos Surface Pro X no Azure AD ou no Active Directory (Ingresso no Azure AD Híbrido), onde você poderá gerenciar os dispositivos com o Intune ou cogerenciá-los com o Endpoint Configuration Manager, que instalará o Cliente do ConfigMgr x86 de 32 bits.
