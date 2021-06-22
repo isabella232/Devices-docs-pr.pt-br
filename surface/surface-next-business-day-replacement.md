@@ -3,7 +3,7 @@ title: Informações sobre Substituição no Próximo Dia Útil e áreas de cobe
 ms.author: v-kaij
 author: greg-lindsay
 manager: laurawi
-ms.date: 05/23/2021
+ms.date: 06/17/2021
 audience: Admin
 ms.topic: article
 ms.prod: surface
@@ -11,15 +11,14 @@ localization_priority: high
 ms.custom: references_regions
 appliesto:
 - Surface
-- Surface Hub
 ms.reviewer: irenewhite
 description: Informações sobre Substituição no Próximo Dia Útil e Áreas de Cobertura.
-ms.openlocfilehash: 2708890c864582cf638c48474f85ddc01ef36576
-ms.sourcegitcommit: 77b2c51f8467ac3ac37399551b0cc20d9ce57d24
+ms.openlocfilehash: 4488d2f1cc8a3e6c240710d59f3465d05abae12b
+ms.sourcegitcommit: 267e12897efd9d11f8c7303eaf780632741cfe77
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "11585922"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "11613840"
 ---
 # <a name="next-business-day-replacement-information--coverage-areas"></a>Informações sobre Substituição no Próximo Dia Útil e áreas de cobertura
 
@@ -58,6 +57,7 @@ Para obter uma lista de códigos postais suportados, confira "Cobertura no próx
 - [Suécia](#sweden)
 - [Suíça](#switzerland)
 - [Países Baixos](#the-netherlands)
+- [Reino Unido](#united-kingdom)
 - [Estados Unidos](#united-states)
 
 
@@ -107,6 +107,7 @@ Para obter uma lista de códigos postais suportados, confira "Cobertura no próx
 #### <a name="hong-kong"></a>Hong Kong
 
 - Hora de Corte:16:00 HKT (UTC+8) 
+- A cobertura do NBD está disponível em todos os códigos postais de Hong Kong.
 
 #### <a name="ireland"></a>Irlanda
 
@@ -142,11 +143,12 @@ Para obter uma lista de códigos postais suportados, confira "Cobertura no próx
 #### <a name="singapore"></a>Cingapura
 
 - Hora de corte: 13:00 SGT (UTC+8)
+- A cobertura NBD está disponível em todos os códigos postais deste país.
 
 #### <a name="spain"></a>Espanha
 
 - Hora de Corte: 12:00 CET (UTC+1)
-- [Cobertura do próximo dia útil](https://download.microsoft.com/download/6/1/d/61da1e35-e17e-4a67-ab81-27cf7a21f91b/NBD%20Coveragef-%20Spain%20Post%20Codes%20030321.xlsx)
+- [Cobertura do próximo dia útil](https://download.microsoft.com/download/6/1/d/61da1e35-e17e-4a67-ab81-27cf7a21f91b/NBD%20Coverage-%20Spain%20Post%20Codes%20030321.xlsx)
 
 #### <a name="sweden"></a>Suécia
 
@@ -162,6 +164,10 @@ Para obter uma lista de códigos postais suportados, confira "Cobertura no próx
 
 - Hora de Corte: 12:00 CET (UTC+1)
 - [Cobertura do próximo dia útil](https://download.microsoft.com/download/6/3/f/63f2ff4c-3b8f-465e-9498-0878f7ba70f3/NBD%20Coverage%20-%20Netherlands%20Post%20Codes%20042821.xlsx)
+
+### <a name="united-kingdom"></a>Reino Unido
+
+- Hora de Corte: 12:00 CET (UTC+1)
 
 #### <a name="united-states"></a>Estados Unidos 
 
