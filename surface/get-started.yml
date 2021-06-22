@@ -11,12 +11,12 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: High
-  ms.openlocfilehash: 301a4b733ee477c1e9999dba84cd58283c02844f
-  ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+  ms.openlocfilehash: 021d30e782bc50e0c89fad6478c8e784234c768d
+  ms.sourcegitcommit: 267e12897efd9d11f8c7303eaf780632741cfe77
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 05/20/2021
-  ms.locfileid: "11576821"
+  ms.lasthandoff: 06/22/2021
+  ms.locfileid: "11613920"
 landingContent:
 - title: Dispositivos Surface
   linkLists:
@@ -24,7 +24,7 @@ landingContent:
     links:
     - text: Surface Laptop 4 + para Empresas
       url: https://www.microsoft.com/surface/business/surface-laptop-4
-    - text: Surface Pro 7+ for Business
+    - text: Surface Pro 7+ para Empresas
       url: https://www.microsoft.com/surface/business/surface-pro-7-plus
     - text: Surface Laptop Ir para Empresas
       url: https://www.microsoft.com/surface/business/surface-laptop-go
@@ -36,9 +36,9 @@ landingContent:
   linkLists:
   - linkListType: get-started
     links:
-    - text: Surface Laptop visão geral técnica de 4 processadores
+    - text: Visão geral técnica de processadores do Surface Laptop 4
       url: surface-laptop-processors.md
-    - text: Surface Headphones visão geral da tecnologia 2+
+    - text: Visão geral técnica do Surface Headphones 2+
       url: surface-headphones.md
     - text: Área de Trabalho Virtual do Windows no Surface
       url: windows-virtual-desktop-surface.md
@@ -86,10 +86,10 @@ landingContent:
   linkLists:
   - linkListType: how-to-guide
     links:
+    - text: Visão geral da segurança do Surface
+      url: surface-security.md
     - text: Proteção DMA em dispositivos Surface
       url: dma-protect.md
-    - text: Portas seguras do Surface Dock 2 com o Surface Enterprise Modo de Gerenciamento (SEMM)
-      url: secure-surface-dock-ports-semm.md
     - text: Ferramenta Surface Data Eraser
       url: microsoft-surface-data-eraser.md
 - title: Descubra as ferramentas Surface
