@@ -11,12 +11,12 @@ ms.date: 03/23/2021
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 9c76f9405146c5cda4afe6b46ce7e1cce0062682
-ms.sourcegitcommit: 88ce9e77afdc3d09984edc05286cd0f1eb054223
+ms.openlocfilehash: 54fe39fe35a63d27447fb0b4a01642f249475afc
+ms.sourcegitcommit: 267e12897efd9d11f8c7303eaf780632741cfe77
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "11448295"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "11613810"
 ---
 # <a name="operating-system-essentials-surface-hub"></a>Noções básicas do sistema operacional (Surface Hub)
 
@@ -24,7 +24,7 @@ O sistema operacional do Surface Hub, o Windows 10 Team, é baseado no Windows 1
 
 A partir de setembro de 2020, os clientes têm a opção de migrar para o Windows 10 Pro ou Enterprise no Surface Hub 2S. Para saber mais, consulte o seguinte:
 
-- [Anunciando a disponibilidade do Windows 10 Pro e Enterprise no Surface Hub 2](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/announcing-the-availability-of-windows-10-pro-and-enterprise-on/ba-p/1624107).
+- [Anunciando a disponibilidade de Windows 10 Pro e Enterprise em Surface Hub 2](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/announcing-the-availability-of-windows-10-pro-and-enterprise-on/ba-p/1624107).
 
 - [Migrar para o Windows 10 Pro ou para o Enterprise no Surface Hub 2](surface-hub-2s-migrate-os.md)
 
@@ -122,7 +122,7 @@ Estes recursos do Surface Hub fornecem segurança adicional:
 
 *Políticas da organização que isso pode afetar:* <br> Considere estes recursos ao executar sua avaliação de segurança para o Surface Hub.
 
-Para saber mais, confira [Visão geral de segurança do Surface Hub](surface-hub-security.md)
+Para saber mais, consulte [Surface Hub Visão Geral de Segurança](surface-hub-security.md)
 
 ## <a name="management"></a>Gerenciamento
 
@@ -138,13 +138,13 @@ O Surface Hub não oferece suporte ao recursos administrativos no Windows 10 Ent
 
 ### <a name="remote-management-and-monitoring"></a>Gerenciamento remoto e monitoramento
 
-O Surface Hub dá suporte ao gerenciamento remoto por meio de soluções de gerenciamento de dispositivo móvel (MDM), como [o Microsoft Intune](https://docs.microsoft.com/intune/) e monitoramento por meio do [Azure Monitor](https://azure.microsoft.com/services/monitor/). 
+Surface Hub suporte ao gerenciamento remoto por meio de soluções [](/mem/intune/) de gerenciamento de dispositivo móvel (MDM), como Microsoft Intune e monitoramento por meio do [Azure Monitor](/azure/azure-monitor/). 
 
 *Políticas da organização que isso pode afetar:* <br> O Surface Hub não dá suporte à instalação de agentes do Win32 exigida pela maioria das tradicionais ferramentas de gerenciamento e monitoramento de computador, como o System Center Operations Manager.
 
 ### <a name="group-policy"></a>Política de Grupo
 
-O Surface Hub não dá suporte à Política de Grupo do Windows, incluindo auditoria. Em vez disso, use MDM para aplicar políticas ao seu Surface Hub. Para obter mais informações sobre MDM, consulte [Gerenciar configurações com um provedor de MDM](manage-settings-with-mdm-for-surface-hub.md).
+Surface Hub não dá suporte Windows Política de Grupo, incluindo auditoria. Em vez disso, use MDM para aplicar políticas ao seu Surface Hub. Para obter mais informações sobre MDM, consulte [Gerenciar configurações com um provedor de MDM](manage-settings-with-mdm-for-surface-hub.md).
 
 *Políticas da organização que isso pode afetar:* <br> Use MDM para gerenciar o Surface Hub em vez de política de grupo.
 
@@ -158,7 +158,7 @@ O Surface Hub não oferece suporte à assistência remota.
 
 ### <a name="domain-join-and-azure-active-directory-azure-ad-join"></a>Ingresso em domínio e ingresso no Azure Active Directory (Azure AD) 
 
-O Surface Hub usa o ingresso em domínio e o ingresso no Azure AD principalmente para fornecer um grupo de administração salvo por diretório. Os usuários não podem fazer logon com uma conta de domínio. Para obter mais informações, consulte [Gerenciamento de grupo de administração](admin-group-management-for-surface-hub.md).
+O Surface Hub usa o ingresso em domínio e o ingresso no Azure AD principalmente para fornecer um grupo de administração salvo por diretório. Não há suporte para a junção híbrida. Os usuários não podem fazer logon com uma conta de domínio. Para obter mais informações, consulte [Gerenciamento de grupo de administração](admin-group-management-for-surface-hub.md).
 
 *Políticas da organização que isso pode afetar:* <br> Políticas de grupo não são aplicadas quando um Surface Hub é associado ao seu domínio. Políticas relacionados à associação ao domínio não se aplicam ao Surface Hub.
 
