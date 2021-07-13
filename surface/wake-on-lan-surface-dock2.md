@@ -1,5 +1,5 @@
 ---
-title: Acordar na LAN com o Surface Dock 2
+title: WOL com Surface Dock 2
 description: O Surface Dock 2 oferece o melhor suporte para Wake on LAN (WOL), permitindo que os administradores acordem remotamente os dispositivos e executem tarefas de gerenciamento automaticamente.
 keywords: update, deploy, driver, wol, wake-on-lan
 ms.prod: w10
@@ -13,15 +13,15 @@ ms.topic: article
 ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
-ms.date: 6/03/2021
-ms.openlocfilehash: 74b36b60cb58ecb9042b73b8cdba7271d0af8c80
-ms.sourcegitcommit: 267e12897efd9d11f8c7303eaf780632741cfe77
+ms.date: 7/02/2021
+ms.openlocfilehash: 4a74efb8af776e9805ad3148ea656f0a65d5d09c
+ms.sourcegitcommit: d020d899e9c7e1eb0b85193ecb0a17a85bb39fe6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "11614030"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "11643847"
 ---
-# <a name="wake-on-lan-with-surface-dock-2"></a>Acordar na LAN com o Surface Dock 2
+# <a name="wake-on-lan-with-surface-dock-2"></a>WOL com Surface Dock 2
 
 Para manter os dispositivos totalmente atualizados, os administradores de TI precisam ser capazes de gerenciar dispositivos quando não estão em uso, normalmente durante janelas de manutenção noturna. O Surface Dock 2 oferece o melhor suporte para Wake on LAN (WOL), permitindo que os administradores acordem remotamente os dispositivos e executem automaticamente tarefas de gerenciamento com Microsoft Endpoint Manager ou outras soluções de terceiros.
 
@@ -48,7 +48,7 @@ O Surface Dock 2 oferece suporte a WOL para dispositivos nos seguintes estados d
 
 - Modo de espera conectado
 - Hibernação (estado de energia S4)
-- Hibernação (estado de energia "soft off" S5)
+- Desligamento (estado de energia "soft off" S5)
 
 Para saber mais sobre estados de energia, consulte [System Power States](/windows/win32/power/system-power-states).
 
@@ -61,6 +61,6 @@ Para habilitar o WOL em dispositivos sem o Surface Dock 2, consulte [Wake on LAN
 ## <a name="learn-more"></a>Saiba mais
 
 - [Surface Dock 2](https://www.microsoft.com/p/surface-dock-2-for-business/8q4hgc6kbmdq?)
-- [Wake On LAN para dispositivos Surface](wake-on-lan-for-surface-devices.md)
+- [WOL para dispositivos Surface](wake-on-lan-for-surface-devices.md)
 - [Estados de energia do sistema](/windows/win32/power/system-power-states)
 - [Configurar Wake on LAN - Configuration Manager](/mem/configmgr/core/clients/deploy/configure-wake-on-lan)
