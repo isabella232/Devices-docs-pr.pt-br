@@ -12,14 +12,14 @@ ms.date: 04/13/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 2036379ce52f3b7824570ab10473568a57f64fb0
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: 0abdd30f3bdc136dd94fcaf41cf7af16cc3c53ab
+ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11576641"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "11676405"
 ---
-# <a name="whats-new-in-surface-dock"></a>Novidades no Surface Dock
+# <a name="whats-new-in-surface-dock-2"></a>Novidades no Surface Dock 2
 
 O Surface Dock 2, a próxima geração do Surface Dock, permite que os usuários conectem monitores externos e vários periféricos para obter uma experiência de área de trabalho totalmente modernizada de um dispositivo Surface. Criado para maximizar a eficiência no escritório, em um espaço de trabalho flexível ou em casa, o Surface Dock 2 apresenta sete portas, incluindo duas portas USB-C front-facing, com 15 mw de energia de carregamento rápido para telefone e acessórios. 
 
@@ -105,7 +105,7 @@ O Surface Dock 2 foi projetado para simplificar o gerenciamento de IT, permitind
 | Dc power in                         | Sim                                                         | Sim                                                                                                 |                  |
 | Bloqueio kensington                     | Sim                                                         | Sim                                                                                                 |                  |
 | Comprimento do cabo surflink               | 65cm                                                        | 80cm                                                                                                | 20cm             |
-| Energia do host do Surflink                 | 60W                                                         | 120W                                                                                                | N/D              |
+| Energia do host do Surflink                 | 60W                                                         | 120W                                                                                                | N/A              |
 | Energia de carga USB                      | 30W                                                         | 60W                                                                                                 |                  |
 | Taxa de bits USB                        | 5 Gbps                                                      | 10 Gbps                                                                                             | 10 Gbps          |
 | Monitorar o suporte                     | 2 x 4k @30fps, ou<br>1 x 4k @ 60fps                         | 2 x 4K a 60fps<br> ou 1 x 4K @120fps                                                                                     | 1 x 4K a 60fps   |

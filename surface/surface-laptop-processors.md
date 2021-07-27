@@ -12,14 +12,14 @@ ms.date: 04/13/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 50c7c9109d98448f10afcf3105974c8bee9515af
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: 52b988315951132284c7016752a6817dadbf74c6
+ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11577143"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "11676615"
 ---
-# <a name="surface-laptop-4-processors-tech-overview"></a>Surface Laptop visão geral técnica de 4 processadores
+# <a name="surface-laptop-4-processors-tech-overview"></a>Visão geral técnica de processadores do Surface Laptop 4
 
 Surface Laptop 4 foi projetado para fornecer aos clientes comerciais um rico conjunto de opções de dispositivo para ajudar os tomadores de decisão a alinhar melhor as metas de compra de dispositivos com requisitos de função cada vez mais específicos. Em comparação com Surface Laptop 3:
 
@@ -85,7 +85,7 @@ Para obter informações gerais sobre os processadores Intel no Surface Laptop 4
 | TDP/TDP padrão    | 15W               | 15W               |
 | Max Temps            | 105C              | 105 C             |
 
-Para obter informações gerais sobre processadores AMD Surface Laptop 4, consulte [AMD Ryzen](https://www.amd.com/processors/ryzen)
+Para obter informações gerais sobre processadores AMD no Surface Laptop 4, consulte [Microsoft Surface Laptop 4 Powered by AMD Ryzen Mobile Processors](https://www.amd.com/processors/ryzen-surface-edition).
 
 ## <a name="surface-laptop-4-skus"></a>Surface Laptop 4 SKUs
 

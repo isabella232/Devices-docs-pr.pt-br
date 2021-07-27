@@ -14,16 +14,16 @@ ms.audience: itpro
 ms.reviewer: ''
 manager: laurawi
 ms.date: 4/16/2021
-ms.openlocfilehash: c7a882859339ff3d7feeb685c62672bc57c301ec
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: 339a6a3ab76f36004f2399b333d48487c9d6e31d
+ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11576521"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "11676667"
 ---
 # <a name="deploy-surface-app-with-microsoft-store-for-business-and-education"></a>Implantar aplicativo surface com Microsoft Store para Empresas e Education
 
-**Aplica-se a**
+**Aplica-se ao**
 
 - Surface Laptop 4
 - Surface Pro 7+
@@ -47,21 +47,7 @@ ms.locfileid: "11576521"
 - Surface Pro 3
 
 
-O aplicativo Surface é um aplicativo Microsoft Store leve que fornece controle de muitas configurações e opções específicas do Surface, incluindo: 
-
-* Habilitar ou desabilitar o botão Windows no dispositivo Surface 
- 
-
-* Ajustar a sensibilidade de uma Caneta Surface 
- 
-
-* Personalizar ações de botão da Caneta Surface 
- 
-
-* Habilitar ou desabilitar os aperfeiçoamentos de áudio do Surface 
- 
-
-* Acesso rápido para dar suporte a documentação e informações para seu dispositivo
+O aplicativo Surface é um aplicativo Microsoft Store leve que fornece controle de muitas configurações e opções específicas do Surface com acesso rápido às informações do dispositivo, incluindo número de série, nome do modelo surface, versão UEFI e drivers relacionados.  
 
 Os clientes que Windows Update normalmente receberão o aplicativo Surface como parte das atualizações automáticas. No entanto, se sua organização estiver preparando imagens para implantação em seus dispositivos Surface, talvez você queira incluir o aplicativo Surface (anteriormente chamado de Surface Hub) em seu processo de imagens e implantação, em vez de exigir que os usuários de cada dispositivo individual baixem e instalem o aplicativo no Microsoft Store ou no Microsoft Store para Empresas. 
 
@@ -70,7 +56,7 @@ Os clientes que Windows Update normalmente receberão o aplicativo Surface como 
 
 ## <a name="surface-app-overview"></a>Visão geral do aplicativo Surface
 
-O aplicativo Surface está disponível como download gratuito do [Microsoft Store](https://www.microsoft.com/store/apps/Surface/9WZDNCRFJB8P). Os usuários podem baixá-lo e instalá-lo do Microsoft Store, mas se sua organização usar o Microsoft Store para Empresas, você precisará adicioná-lo ao inventário da sua loja e possivelmente incluir o aplicativo como parte do seu processo de implantação Windows. Esses processos são discutidos ao longo deste artigo. Para obter mais informações Microsoft Store para Empresas, [consulte Microsoft Store para Empresas](https://docs.microsoft.com/microsoft-store/) no Windows TechCenter. 
+O aplicativo Surface está disponível como download gratuito do [Microsoft Store](https://www.microsoft.com/store/apps/Surface/9WZDNCRFJB8P). Os usuários podem baixá-lo e instalá-lo do Microsoft Store, mas se sua organização usar o Microsoft Store para Empresas, você precisará adicioná-lo ao inventário da sua loja e possivelmente incluir o aplicativo como parte do seu processo de implantação Windows. Esses processos são discutidos ao longo deste artigo. Para obter mais informações sobre Microsoft Store para Empresas, [consulte Microsoft Store para Empresas](/microsoft-store/). 
 
 ## <a name="add-surface-app-to-a-microsoft-store-for-business-account"></a>Adicionar aplicativo Surface a uma Microsoft Store para Empresas de usuário 
 
@@ -78,19 +64,17 @@ Antes que os usuários possam instalar ou implantar um aplicativo a partir da co
 
 1. Se você ainda não tiver feito isso, crie uma conta [Microsoft Store para Empresas .](https://www.microsoft.com/business-store) 
 
-2. Faça logoff no portal. 
+2. Entre no portal. 
 
-3. Habilitar o licenciamento offline: clique em Gerenciar >configurações da Loja e selecione a caixa de seleção Mostrar **aplicativos licenciados** **offline** para pessoas que estão comprando na loja, conforme mostrado na Figura 1. Para obter mais informações sobre Microsoft Store para Empresas de licenciamento de aplicativos, consulte [Apps in Microsoft Store para Empresas and Education](https://docs.microsoft.com/microsoft-store/).
+3. Habilitar o licenciamento offline: clique em **Gerenciar**Configurações e selecione a caixa de seleção Mostrar aplicativos licenciados offline para pessoas que estão comprando na loja, conforme mostrado  >  **** na Figura 1. **** Para obter mais informações sobre Microsoft Store para Empresas de licenciamento de aplicativos, consulte [Apps in Microsoft Store para Empresas and Education](/microsoft-store/).
 
    > [!div class="mx-imgBorder"]
    > ![Mostrar caixa de seleção de aplicativos de licenças offline](images/deploysurfapp-figure1-enablingapps.png "Show offline licenses apps checkbox")<br/>
    *Figura 1. Habilitar aplicativos para uso offline*
 
-4. Adicione o aplicativo Surface à sua conta Microsoft Store para Empresas seguindo este procedimento:
+4. Adicione o aplicativo Surface à sua Microsoft Store para Empresas conta:
 
-    * Clique no menu **Loja.**
-    
-    * Na caixa de pesquisa, digite **Aplicativo Surface**e clique no ícone de pesquisa.
+    * Pesquisar na loja para **o aplicativo Surface** 
     
     * Depois que o aplicativo Surface for apresentado nos resultados da pesquisa, clique no ícone do aplicativo.
     
@@ -233,4 +217,4 @@ Após a importação, o aplicativo Surface estará disponível para seleção na
 
 3. Selecione **Instalar um único aplicativo e** especifique o Surface **App** como o aplicativo a **ser instalado.**
 
-Para obter mais informações sobre como incluir aplicativos em suas implantações Windows, consulte [Deploy Windows 10 with the Microsoft Deployment Toolkit](https://technet.microsoft.com/itpro/windows/deploy/deploy-windows-10-with-the-microsoft-deployment-toolkit).
+Para obter mais informações sobre como incluir aplicativos em suas implantações Windows, consulte [Prepare for deployment with MDT](/windows/deployment/deploy-windows-mdt/prepare-for-windows-deployment-with-mdt).

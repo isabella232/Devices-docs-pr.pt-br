@@ -12,12 +12,12 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 07/27/2017
 ms.localizationpriority: medium
-ms.openlocfilehash: 215736527121306c712932f57a5a3a853fb3bb20
-ms.sourcegitcommit: 366eedceb9f859f5e87ba032b161f248360cb895
+ms.openlocfilehash: ab2726577201157ed9a7ff4d265e826c063cf477
+ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "11445577"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "11676605"
 ---
 # <a name="password-management-surface-hub"></a>Gerenciamento de senhas (Surface Hub)
 
@@ -36,9 +36,9 @@ Defina a propriedade **PasswordNeverExpires** da conta de dispositivo como True.
 
 ## <a name="allow-the-surface-hub-to-automatically-rotate-the-device-accounts-password"></a>Permitir que o Surface Hub mude automaticamente a senha da conta de dispositivo
 
-O Surface Hub pode alterar automaticamente a senha de uma conta de dispositivo sem exigir que você a atualize manualmente. Você pode habilitar esse recurso em **Configurações**  >  **contas do Surface Hub.**  >  **** Se você ativar Rotação de Senha, o Surface Hub tentará alterar a senha a cada 7 dias durante o horário de manutenção. As senhas não são mudadas durante uma reunião. Se 7 dias se passaram desde a última rotação de senha, mas o Surface Hub estava desligado, ele tentará alterar a senha imediatamente quando estiver ligado ou a cada 10 minutos até ter êxito.
+O Surface Hub pode alterar automaticamente a senha de uma conta de dispositivo sem exigir que você a atualize manualmente. Você pode habilitar esse recurso **em Configurações**  >  **Surface Hub**  >  **Contas**. Se você ativar Rotação de Senha, o Surface Hub tentará alterar a senha a cada 7 dias durante o horário de manutenção. As senhas não são mudadas durante uma reunião. Se 7 dias se passaram desde a última rotação de senha, mas o Surface Hub estava desligado, ele tentará alterar a senha imediatamente quando estiver ligado ou a cada 10 minutos até ter êxito.
 
-As senhas geradas automaticamente contêm de 15 a 32 caracteres, incluindo uma combinação de letras maiúsculas e minúsculas, números e caracteres especiais. Observe que, quando a senha da conta do dispositivo for alterada, você não será mostrado a nova senha. Se você precisar entrar na conta ou fornecer a senha novamente (por exemplo, se quiser alterar as configurações da conta de dispositivo no Surface Hub), será necessário usar o Active Directory ou o portal de administração do Microsoft 365 para redefinir a senha.
+As senhas geradas automaticamente contêm de 15 a 32 caracteres, incluindo uma combinação de letras maiúsculas e minúsculas, números e caracteres especiais. Observe que, quando a senha da conta do dispositivo for alterada, você não será mostrado a nova senha. Se você precisar entrar na conta ou fornecer a senha novamente (por exemplo, se quiser alterar as configurações da conta do dispositivo no Surface Hub), você precisará usar o Active Directory ou o portal de administração do Microsoft 365 para redefinir a senha.
 
 > [!IMPORTANT]
-> O formato usado ao adicionar a conta de dispositivo ao Surface Hub tem um impacto sobre qual opção de [afiliação](prepare-your-environment-for-surface-hub.md) de dispositivo deve ser usada para que a rotação de senha funcione. Se adicionar a conta no **formato domínio\nome** de usuário, afiliada o Hub ao Active Directory local durante a configuração inicial. Se adicionar a conta no `username@domain.com` formato, afiliada o Hub com o Azure Active Directory durante a configuração inicial. Caso contrário, rotação de senha não funcionará.
+> A [opção de afiliação](prepare-your-environment-for-surface-hub.md) de dispositivo selecionada durante a configuração inicial do Surface Hub tem um impacto em qual formato de conta de dispositivo pode ser usado com rotação de senha. Hubs afiliadas a um Active Directory local só podem girar senhas de contas de dispositivo inseridas no **formato domínio\nome de** usuário. Os hubs afiliadas a um Azure Active Directory só podem girar senhas de contas de dispositivo inseridas no formato, mas somente se a conta for somente na nuvem ou se o domínio AAD estiver configurado para autenticação na nuvem e `username@domain.com` [write-back](/azure/active-directory/authentication/concept-sspr-writeback)de [](/azure/active-directory/hybrid/choose-ad-authn#cloud-authentication) senha.
