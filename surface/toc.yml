@@ -6,7 +6,7 @@
       href: get-started.yml
     - name: Visão Geral
       items:
-        - name: Visões geral técnicas
+        - name: Visões gerais de técnicas
           items:
             - name: Visão geral da segurança de superfície
               href: surface-security.md
@@ -148,7 +148,7 @@
               href: considerations-for-surface-and-system-center-configuration-manager.md
         - name: Dispositivos ARM
           items:
-            - name: 'Implantando, gerenciando e atendendo Surface Pro X'
+            - name: 'Implantando, gerenciando e fazendo manutenção do Surface Pro X'
               href: surface-pro-arm-app-management.md
             - name: Compatibilidade do aplicativo Surface Pro X
               href: surface-pro-arm-app-performance.md

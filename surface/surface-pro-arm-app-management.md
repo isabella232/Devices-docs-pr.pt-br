@@ -19,7 +19,7 @@ ms.contentlocale: pt-BR
 ms.lasthandoff: 07/24/2021
 ms.locfileid: "11676415"
 ---
-# <a name="deploying-managing--servicing-surface-pro-x"></a>Implantando, gerenciando e atendendo Surface Pro X
+# <a name="deploying-managing--servicing-surface-pro-x"></a>Implantando, gerenciando e fazendo manutenção do Surface Pro X
 
 ## <a name="introduction"></a>Introdução
 
