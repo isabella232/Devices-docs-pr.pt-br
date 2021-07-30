@@ -9,12 +9,12 @@ author: v-miegge
 ms.author: v-miegge
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: b03b1a60ebc75e6af37c979082bf7c4a2eca4937
-ms.sourcegitcommit: d020d899e9c7e1eb0b85193ecb0a17a85bb39fe6
+ms.openlocfilehash: a611653c557f7df4d8029502f82a09f0000e5756
+ms.sourcegitcommit: 0d1a23988be4da24a8d42b391e1c60e624465fa4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "11643837"
+ms.lasthandoff: 07/30/2021
+ms.locfileid: "11710380"
 ---
 # <a name="surface-hub-update-history"></a>Histórico de atualizações do Surface Hub
 
@@ -29,6 +29,18 @@ Atualizaremos esta página à medida que novas atualizações são lançadas, po
 Consulte a página "[Surface Hub Informações Importantes](https://support.microsoft.com/products/surface-devices/surface-hub)" para tópicos relacionados sobre versões atuais e passadas que podem exigir sua atenção.
 
 ## <a name="windows-10-team-2020-update-20h2"></a>Windows 10 Team Atualização 2020 (20H2)
+
+<details>
+<summary>29 de julho de 2021 — atualização para a Equipe com base em KB5004296* (Build 19042.1151)</summary>
+
+Essa atualização para o Surface Hub inclui melhorias de qualidade e correções de segurança. As principais atualizações Surface Hub, ainda não descritas Windows 10 Histórico de [Atualizações,](https://support.microsoft.com/help/4581839/windows-10-update-history)incluem:
+
+* Atualize para o recurso "Coletar logs" para incluir Windows dados de diagnóstico no formato csv.
+* Correção que garante que a limpeza de Sessão Final remova totalmente todos os dados relacionados ao edge Chromium.
+* Melhora alguns cenários com Surface Hubs ingressados no Azure AD ao usar o Authenticator app.
+
+Consulte o guia de administração [Surface Hub para](/surface-hub/) habilenciar/desabilitar recursos e serviços do dispositivo. *[KB5004296](https://support.microsoft.com/help/5004296)
+</details>
 
 <details>
 <summary>10 de junho de 2021 — atualização para o Surface Hub 2S</summary>
@@ -104,7 +116,6 @@ Essa atualização é específica do Surface Hub 2S e fornece as atualizações 
 Essa atualização para o Surface Hub inclui melhorias de qualidade e correções de segurança. As principais atualizações Surface Hub, ainda não descritas Windows 10 Histórico de [Atualizações,](https://support.microsoft.com/help/4581839/windows-10-update-history)incluem:
 
 * Atualize a página Privacidade Configurações para fornecer opções adicionais.
-* Correção que garante que a limpeza de Sessão Final remova totalmente todos os dados relacionados ao edge Chromium.
 * Resolve um problema em que as reuniões que já tinham sido iniciadas não eram exibidas na tela De boas-vindas/início.
 * Resolve um problema com a recuperação de nuvem para localidades não-en-US.
 * Skype for Business
@@ -304,7 +315,7 @@ Essa atualização para o Surface Hub inclui melhorias de qualidade e correçõe
   * Resolve Skype for Business problema de conexão de rede, quando o dispositivo está conectado à Internet
   * Resolve Skype for Business falha ao pesquisar usuários do diretório
 * Resolve o problema em que o Hub relata erroneamente "Sem conexão com a Internet" em ambientes de proxy corporativos.
-* Implementou um recurso que permite que os clientes op-in para uma nova experiência de quadro de trabalho.
+* Implementou um recurso que permite que os clientes optem por uma nova experiência de quadro de trabalho.
 
 Consulte o guia de administração [Surface Hub para](/surface-hub/) habilenciar/desabilitar recursos e serviços do dispositivo.
 *[KB4462939](https://support.microsoft.com/help/4462939)
@@ -398,7 +409,7 @@ Essa atualização para o Surface Hub inclui melhorias de qualidade e correçõe
 * Uma atualização de recurso que permite que os usuários selecionem dinamicamente um aplicativo de sua escolha ao abrir um arquivo.
 * Correção que garante que a limpeza da Sessão Final remova totalmente todas as conexões entre a conta do usuário e o dispositivo.
 * Correção de desempenho que melhora o tempo de limpeza, bem como Miracast tempo de conexão.
-* Introduz a utilização de Autenticação Fácil durante as reuniões do ad-hock.
+* Introduz a utilização de Autenticação Fácil durante reuniões ad hoc.
 * Correção que garante que os componentes do serviço usem o mesmo proxy configurado no dispositivo.
 * Reduz e garante mais detalhadamente a telemetria transmitida pelo dispositivo, reduzindo a utilização de largura de banda.
 * Habilita um recurso que permite que os usuários forneçam comentários à Microsoft após a conclusão de uma reunião.
