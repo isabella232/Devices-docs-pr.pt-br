@@ -79,11 +79,9 @@
                   href: unenroll-surface-devices-from-semm.md
                 - name: Usar o Microsoft Endpoint Configuration Manager para gerenciar dispositivos com SEMM
                   href: use-system-center-configuration-manager-to-manage-devices-with-semm.md
-            - name: Corrigir problemas comuns do Surface usando o Kit de Ferramentas de Diagnóstico Surface para Empresas
-              href: surface-diagnostic-toolkit-for-business-intro.md
+            - name: Kit de Ferramentas de Diagnóstico Surface para Empresas
+              href: surface-diagnostic-toolkit-business.md
               items:
-                - name: Implantar o Kit de Ferramentas de Diagnóstico Surface para Empresas
-                  href: surface-diagnostic-toolkit-business.md
                 - name: Usar o Kit de Ferramentas de Diagnóstico Surface para Empresas no modo de área de trabalho
                   href: surface-diagnostic-toolkit-desktop-mode.md
                 - name: Executar Kit de Ferramentas de Diagnóstico Surface for Business com comandos
