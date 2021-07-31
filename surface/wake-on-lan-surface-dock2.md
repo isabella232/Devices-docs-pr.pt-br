@@ -13,17 +13,17 @@ ms.topic: article
 ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
-ms.date: 7/02/2021
-ms.openlocfilehash: 4a74efb8af776e9805ad3148ea656f0a65d5d09c
-ms.sourcegitcommit: d020d899e9c7e1eb0b85193ecb0a17a85bb39fe6
+ms.date: 7/30/2021
+ms.openlocfilehash: 935cec6eed15b7831bffafdc2078a9cadf2067e2
+ms.sourcegitcommit: 6a7f96a497c8749a5997972db139542563769101
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "11643847"
+ms.lasthandoff: 07/31/2021
+ms.locfileid: "11710575"
 ---
 # <a name="wake-on-lan-with-surface-dock-2"></a>WOL com Surface Dock 2
 
-Para manter os dispositivos totalmente atualizados, os administradores de TI precisam ser capazes de gerenciar dispositivos quando não estão em uso, normalmente durante janelas de manutenção noturna. O Surface Dock 2 oferece o melhor suporte para Wake on LAN (WOL), permitindo que os administradores acordem remotamente os dispositivos e executem automaticamente tarefas de gerenciamento com Microsoft Endpoint Manager ou outras soluções de terceiros.
+Para manter os dispositivos totalmente atualizados, os administradores de TI precisam ser capazes de gerenciar dispositivos quando não estão em uso, normalmente durante janelas de manutenção noturna. O Surface Dock 2 oferece o melhor suporte para Wake on LAN (WOL), permitindo que os administradores acordem remotamente os dispositivos Surface e executem tarefas de gerenciamento automaticamente com Microsoft Endpoint Manager ou outras soluções de terceiros.
 
 ## <a name="requirements"></a>Requisitos
 
@@ -32,6 +32,9 @@ Os dispositivos devem ter uma conexão com fio com o Surface Dock 2 e permanecer
 > [!div class="mx-imgBorder"]
 > ![Surface Dock 2](images/surface-dock2-angled.png)
 
+> [!NOTE]
+> Acordar dispositivos conectados ao Surface Dock 2 não requer o uso do Surface Enterprise Management Mode (SEMM) ou a habilitação de qualquer configuração de política UEFI.
+ 
 ## <a name="supported-surface-devices"></a>Dispositivos Surface com suporte
 
 - Surface Laptop 4 (processadores Intel)
@@ -54,13 +57,15 @@ Para saber mais sobre estados de energia, consulte [System Power States](/window
 
 ## <a name="how-it-works"></a>Como funciona
 
-Quando não estiver em uso, os dispositivos Surface entram em um estado ocioso e com baixa potência conhecido como Espera Moderna ou Espera Conectada. Os administradores de IT podem disparar remotamente dispositivos usando uma solicitação de alerta (pacote mágico) que contém o endereço MAC (Controle de Acesso de Mídia) do dispositivo Surface de destino. Muitas soluções de gerenciamento, como Microsoft Endpoint Configuration Manager e aplicativos de terceiros Microsoft Store oferecem suporte integrado para o WOL.
+Quando não estiver em uso, os dispositivos Surface entram em um estado ocioso e com baixa potência conhecido como Espera Moderna ou Espera Conectada. Ou os dispositivos podem estar em estado de energia de hibernação (S4) ou desligamento (S5) com base nas configurações de energia configuradas no dispositivo. Os administradores de IT podem disparar remotamente dispositivos usando uma solicitação de alerta (pacote mágico) que contém o endereço MAC (Controle de Acesso de Mídia) do dispositivo Surface de destino. Muitas soluções de gerenciamento, como Microsoft Endpoint Configuration Manager e aplicativos de terceiros Microsoft Store oferecem suporte integrado para o WOL.
 
-Para habilitar o WOL em dispositivos sem o Surface Dock 2, consulte [Wake on LAN for Surface devices](wake-on-lan-for-surface-devices.md).
+Para habilitar o WOL em dispositivos sem o Surface Dock 2, consulte:
+
+- [Acordar na LAN para dispositivos Surface](wake-on-lan-for-surface-devices.md)
 
 ## <a name="learn-more"></a>Saiba mais
 
 - [Surface Dock 2](https://www.microsoft.com/p/surface-dock-2-for-business/8q4hgc6kbmdq?)
 - [WOL para dispositivos Surface](wake-on-lan-for-surface-devices.md)
 - [Estados de energia do sistema](/windows/win32/power/system-power-states)
-- [Configurar Wake on LAN - Configuration Manager](/mem/configmgr/core/clients/deploy/configure-wake-on-lan)
+
