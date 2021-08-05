@@ -14,12 +14,12 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 ms.audience: itpro
-ms.openlocfilehash: e72abd2fbd3289989d64f23bbc06fa72d3c5b1d2
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: f704541a2d862550250794308df6201c38b09e15
+ms.sourcegitcommit: 6d531906c36da51cb4032a220d70182e686114a8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676644"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "11721261"
 ---
 # <a name="customize-the-oobe-for-surface-deployments"></a>Personalizar a configuração inicial pelo usuário para implantações do Surface
 
@@ -44,7 +44,7 @@ Este artigo fornece um resumo dos cenários em que uma implantação pode exigir
 
 Quando um adaptador de rede sem fio está presente na tela de apresentação, a página **Ingressar em uma rede sem fio** é exibida, solicitando que um usuário se conecte a uma rede sem fio. Essa página não é ocultada automaticamente pelas tecnologias de implantação, incluindo o MDT 2013. Portanto, ela será exibida mesmo quando uma implantação estiver configurada para automação completa.
 
-Para garantir que uma implantação automatizada não seja interrompida por essa página, a página deve ser ocultada definindo-se uma configuração adicional no arquivo de resposta, **HideWirelessSetupInOOBE**. Você pode encontrar informações adicionais sobre a configuração **HideWirelessSetupInOOBE** na [Referência de instalação autônoma do Windows](/previous-versions/windows/it-pro/windows-8.1-and-8/ff716213(v=win.10)).
+Para garantir que uma implantação automatizada não seja interrompida por essa página, a página deve ser ocultada definindo-se uma configuração adicional no arquivo de resposta, **HideWirelessSetupInOOBE**. Você pode encontrar informações adicionais sobre a configuração **HideWirelessSetupInOOBE** na [Referência de instalação autônoma do Windows](/windows-hardware/customize/desktop/unattend/microsoft-windows-shell-setup-oobe-hidewirelesssetupinoobe).
 
 ## <a name="scenario-2-surface-pen-pairing-in-oobe"></a>Cenário 2: emparelhamento da Caneta Surface na tela de apresentação
 

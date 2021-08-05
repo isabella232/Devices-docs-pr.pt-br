@@ -9,17 +9,17 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 04/19/2021
+ms.date: 08/02/2021
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: bf3fb926c5e66f5f02f921f1c0d4fbe5f016f02d
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: 71ded9892e9dde8de1976a89214ea946e1bd1da4
+ms.sourcegitcommit: 657d0d73a51f0dd35ad60740ed523164a55d2e04
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11577041"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "11720915"
 ---
 # <a name="surface-system-sku-reference"></a>Referência da SKU de sistema do Surface
 
@@ -40,7 +40,7 @@ Modelo de Sistema e SKU do Sistema são variáveis armazenadas nas tabelas de BI
 | Surface Book 2 15"                                        | Surface Book 2   | Surface_Book_1793                |
 | Surface Book 3 13"                                        | Surface Book 3   | Surface_Book_3_1900                |
 | Surface Book 3 15"                                        | Surface Book 3   | Surface_Book_3_1899
-| Comercial do Surface Go LTE | System Go | Surface_Go_1825_Commercial |
+| Comercial do Surface Go LTE | Surface Go | Surface_Go_1825_Commercial |
 | Consumidor do Surface Go                                          | Surface Go       | Surface_Go_1824_Consumer         |
 | Surface Go Commercial                                        | Surface Go       | Surface_Go_1824_Commercial       |
 | Surface Go 2                                                 | Surface Go 2     | Surface_Go_2_1927                |
@@ -56,16 +56,19 @@ Modelo de Sistema e SKU do Sistema são variáveis armazenadas nas tabelas de BI
 | Surface Pro X com processador SQ2                | Surface Pro X    | Surface_Pro_X_H_1876        |
 | Surface Laptop 3 13" Intel | Surface Laptop 3 | Surface_Laptop_3_1867:1868 |
 | Surface Laptop 3 15" Intel | Surface Laptop 3 | Surface_Laptop_3_1872      |
-| Surface Laptop AMD de 3 15"   | Surface Laptop 3 | Surface_Laptop_3_1873      | 
-| Surface Laptop Go  | Surface Laptop Go | Surface_Laptop_Go_1943      | 
+| Surface Laptop AMD de 3 15"   | Surface Laptop 3 | Surface_Laptop_3_1873      |
+| Surface Laptop Go  | Surface Laptop Go | Surface_Laptop_Go_1943      |
 | Surface Laptop 4 13" Intel | Surface Laptop 4 | Surface_Laptop_4_1950:1951 |
 | Surface Laptop 4 15" Intel | Surface Laptop 4 | Surface_Laptop_4_1978:1979     |
-| Surface Laptop AMD de 4 15"   | Surface Laptop 4 | Surface_Laptop_4_1952:1953     | 
-| Surface Laptop AMD de 4 13"   | Surface Laptop 4 | Surface_Laptop_4_1958:1959    | 
-| Surface Hub 2S 50"  | Surface Hub 2S | Surface Hub 2S   | 
-| Surface Hub 2S 85"  | Surface Hub 2S | Surface Hub 2S 85   | 
+| Surface Laptop AMD de 4 15"   | Surface Laptop 4 | Surface_Laptop_4_1952:1953     |
+| Surface Laptop AMD de 4 13"   | Surface Laptop 4 | Surface_Laptop_4_1958:1959    |
+| Surface Hub 2S 50"  | Surface Hub 2S | Surface Hub 2S   |
+| Surface Hub 2S 85"  | Surface Hub 2S | Surface Hub 2S 85   |
+| Surface Studio | Surface Studio | Surface_Studio   |
+| Surface Studio 2 | Surface Studio 2 | Surface_Studio_2_1707_Commercial   |
+|
 
-## <a name="examples"></a>Exemplos 
+## <a name="examples"></a>Exemplos
 
 **Recuperar a SKU usando o PowerShell**  
 Use o seguinte comando do PowerShell para obter as informações de SKU do sistema:
@@ -86,9 +89,9 @@ Você pode usar as informações SKU do sistema no Microsoft Deployment Toolkit 
  ``` powershell  
     - WMI Namespace – Root\WMI
     - WQL Query – SELECT * FROM MS_SystemInformation WHERE SystemSKU = "Surface_Pro_1796"
- ``` 
+ ```
 
-## <a name="learn-more"></a>Saiba mais
+## <a name="learn-more"></a>Saber mais
 
-- [Referência WMI](https://docs.microsoft.com/windows/win32/wmisdk/wmi-reference)
+- [Referência WMI](/windows/win32/wmisdk/wmi-reference)
 - [Suporte a Registro Surface para o Windows Autopilot](surface-autopilot-registration-support.md)

@@ -14,12 +14,12 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 ms.audience: itpro
-ms.openlocfilehash: eacb7bd6b1f2f62b97b02cc871f8980e65ba7c8a
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: 0eb0eb1e1d73852a2131c5aa5d6a7731ce78d54f
+ms.sourcegitcommit: 6d531906c36da51cb4032a220d70182e686114a8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676545"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "11721251"
 ---
 # <a name="ethernet-adapters-and-surface-deployment"></a>Adaptadores Ethernet e implantação do Surface
 
@@ -40,6 +40,7 @@ Os seguintes dispositivos Ethernet têm suporte para a inicialização de rede c
 - Surface USB-C para Ethernet e Adaptador USB 3.0
 - Surface USB 3.0 para Adaptador Ethernet Gigabit
 - Encaixe do Surface
+- Surface Dock 2
 - Base de Encaixe do Surface 3
 - Base de Encaixe do Surface Pro 3
 - Base de Encaixe do Surface Pro e do Surface Pro 2
