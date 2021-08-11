@@ -12,12 +12,12 @@ ms.date: 1/15/2021
 ms.reviewer: jessko
 manager: laurawi
 ms.audience: itpro
-ms.openlocfilehash: 83b3db2e9fa3da253c16d208b752bd7b6e6be771
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: f0fed17dade345bf3f7dc9619eab7981dcb30cb0
+ms.sourcegitcommit: 6d531906c36da51cb4032a220d70182e686114a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676415"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "11721271"
 ---
 # <a name="deploying-managing--servicing-surface-pro-x"></a>Implantando, gerenciando e fazendo manutenção do Surface Pro X
 
@@ -36,7 +36,7 @@ Para obter a melhor experiência, implante o Surface Pro X usando o Windows Auto
 - [Windows Autopilot e dispositivos Surface](windows-autopilot-and-surface-devices.md)
 - [Visão geral do Windows Autopilot.](/windows/deployment/windows-autopilot/windows-autopilot)
 
-A implantação do Autopilot tem diversas vantagens: permite que você use o sistema operacional provisionado de fábrica, simplificado para implantação de toque zero, para a inclusão da pré-instalação do Office Pro Plus.
+A implantação do Autopilot tem várias vantagens: ele permite que você use o sistema operacional provisionado de fábrica, otimizado para implantação sem toque, para incluir a pré-instalação do Microsoft 365 Apps para Grandes Empresas (também conhecido como Office Pro Plus).
 
 As organizações que já usam as soluções modernas de gerenciamento, segurança e produtividade estão bem posicionadas para tirar proveito dos recursos de desempenho exclusivos do Surface Pro X. Os clientes que usam aplicativos modernos de linha de negócios, aplicativos da Microsoft Store (UWP) ou soluções de área de trabalho remota também se beneficiam.
 
