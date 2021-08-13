@@ -11,12 +11,12 @@ ms.date: 07/08/2019
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 2403c57f88b0e14209b77b9f666141694384868d
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: 92b60fb0f0ac83c2516ebb1ebde0748d9d933c4e
+ms.sourcegitcommit: 21fcd329a7b0c82c69e2a65c423d47c5b23b4e7f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11577031"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "11882998"
 ---
 # <a name="local-management-for-surface-hub-settings"></a>Gerenciamento local para configurações do Surface Hub
 
@@ -44,7 +44,7 @@ Os Surface Hubs têm muitas configurações que são comuns a outros dispositivo
 | Exigir um PIN para projeção sem fio | Surface Hub > Projeção | Decida se as pessoas precisam inserir um PIN antes de usar a projeção sem fio. |
 | Canal de projeção sem fio (Miracast) | Surface Hub > Projeção | Defina o canal para projeção Miracast. |
 | Informações de reunião mostradas na tela de boas-vindas | Surface Hub > Tela de boas-vindas | Especifique se organizador da reunião, hora e assunto devem aparecer na tela de boas-vindas. |
-| Plano de fundo da tela de boas-vindas |  Surface Hub > Tela de boas-vindas | Escolha uma imagem de fundo para a tela de boas-vindas. |
+| Plano de fundo da tela de boas-vindas |  Surface Hub > Tela de boas-vindas | Escolha uma imagem a ser usada como plano de fundo durante as sessões do usuário e na tela de boas-vindas. |
 | Tempo de sessão para tela de boas-vindas | Surface Hub > sessão & energia | Escolha quanto tempo até o Surface Hub retornar para a tela de boas-vindas depois que nenhum movimento for detectado. |
 | Sessão de retomada | Surface Hub > sessão & energia | Opte por permitir que os usuários retomem uma sessão depois que nenhum movimento for detectado ou limpem automaticamente uma sessão. |
 | Acesso a arquivos e reuniões do Office 365 | Surface Hub > sessão & energia | Escolha se um usuário pode se conectar ao Office 365 para obter acesso aos arquivos e reuniões dele. |
