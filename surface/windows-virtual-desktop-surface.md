@@ -1,6 +1,6 @@
 ---
-title: Área de Trabalho Virtual do Windows no Surface
-description: Este artigo explica como os dispositivos Surface oferecem um nó final ideal para soluções de Área de Trabalho Virtual Windows, fornecendo aos clientes fatores de formulário flexíveis Windows 10, segurança e gerenciabilidade de dispositivos modernos e suporte para cenários de trabalho persistentes e sob demanda & cenários de trabalho just-in-time.
+title: Área de trabalho virtual do Azure no Surface
+description: Este artigo explica como os dispositivos Surface oferecem um nó final ideal para soluções de Área de Trabalho Virtual do Azure, fornecendo aos clientes fatores de formulário flexíveis Windows 10, segurança e gerenciabilidade de dispositivos modernos e suporte para cenários de trabalho persistentes e sob demanda & cenários de trabalho just-in-time.
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.localizationpriority: medium
@@ -12,32 +12,32 @@ ms.date: 01/15/2021
 ms.reviewer: rohenr
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 9118cb69a0f4ed770e2adce3b02976ca34128d46
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: 680fea05112605aa0c26f63c135cb3bc4208e3ad
+ms.sourcegitcommit: 2776af08eb63c0a23950c476256e5019f83effd8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676625"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "11902620"
 ---
-# <a name="windows-virtual-desktop-on-surface"></a>Área de Trabalho Virtual do Windows no Surface
+# <a name="azure-virtual-desktop-on-surface"></a>Área de trabalho virtual do Azure no Surface
 
 ## <a name="introduction"></a>Introdução
 
-Windows A Área de Trabalho Virtual no Surface permite que você execute Virtual Desktop Infrastructure (VDI) em um dispositivo Surface — desfocar as linhas entre a experiência da área de trabalho local e a área de trabalho virtual em que o toque, a caneta, a tinta e a autenticação biométrica abrangem ambientes físicos e virtuais. Representando outro marco na evolução da computação, o Windows Área de Trabalho Virtual no Surface 1 combina o Microsoft 365 — virtualizado na nuvem do Azure — com as proteções avançadas de segurança, a capacidade de gerenciamento no nível empresarial e as ferramentas de produtividade aprimoradas <a href="#1"><sup> </sup></a> do Windows 10 no Surface. Essa fusão de fatores de formulário premium e Virtual Desktop Infrastructure no Azure equipa organizações para oferecer experiências avançadas do usuário, portabilidade, segurança, continuidade de negócios e gerenciamento moderno.
+A Área de Trabalho Virtual do Azure no Surface permite que você execute Virtual Desktop Infrastructure (VDI) em um dispositivo Surface — desfocar as linhas entre a experiência da área de trabalho local e a área de trabalho virtual em que a autenticação de toque, caneta, tinta e biometria abrange ambientes físicos e virtuais. Representando outro marco na evolução da computação, a Área de Trabalho Virtual do Azure no Surface 1 combina o Microsoft 365 — virtualizado na nuvem do Azure — com as proteções avançadas de segurança, a capacidade de gerenciamento no nível empresarial e as ferramentas de produtividade aprimoradas <a href="#1"><sup> </sup></a> do Windows 10 no Surface. Essa fusão de fatores de formulário premium e Virtual Desktop Infrastructure no Azure equipa organizações para oferecer experiências avançadas do usuário, portabilidade, segurança, continuidade de negócios e gerenciamento moderno.
 
-### <a name="windows-virtual-desktop"></a>Área de Trabalho Virtual do Windows
+### <a name="azure-virtual-desktop"></a>Área de Trabalho Virtual do Azure
 
-Windows A Área de Trabalho Virtual (WVD) é um serviço abrangente de virtualização de aplicativos e área de trabalho em execução na nuvem do Azure. É a única infraestrutura de área de trabalho virtual que oferece gerenciamento simplificado, Windows 10 de várias sessões, otimizações para Microsoft 365 Apps e suporte para ambientes de Serviços de Área de Trabalho Remota (RDS). [](https://www.microsoft.com/microsoft-365) Com o WVD, você pode implantar e dimensionar rapidamente Windows áreas de trabalho e aplicativos no Azure e obter recursos de segurança e conformidade integrados.
+A Área de Trabalho Virtual do Azure (AVD) é um serviço abrangente de virtualização de aplicativos e área de trabalho em execução na nuvem do Azure. É a única infraestrutura de área de trabalho virtual que oferece gerenciamento simplificado, Windows 10 de várias sessões, otimizações para Microsoft 365 Apps e suporte para ambientes de Serviços de Área de Trabalho Remota (RDS). [](https://www.microsoft.com/microsoft-365) Com a AVD, você pode implantar e dimensionar rapidamente Windows áreas de trabalho e aplicativos no Azure e obter recursos de segurança e conformidade integrados.
 
-### <a name="windows-virtual-desktop-partner-integrations"></a>Windows Integrações de parceiros da Área de Trabalho Virtual
+### <a name="azure-virtual-desktop-partner-integrations"></a>Integrações de parceiros da Área de Trabalho Virtual do Azure
 
-Para uma lista de provedores de parceiros aprovados e fornecedores de software independentes, visite o Marketplace do [Azure](https://azuremarketplace.microsoft.com) e pesquise Windows Área de Trabalho Virtual. Alguns parceiros também fornecem a Área de Trabalho Virtual como Serviço (DaaS). DaaS você precisa manter suas próprias máquinas virtuais (VMs) fornecendo um serviço de virtualização e área de trabalho totalmente gerenciado e com chave de usuário. A capacidade de fornecer áreas de trabalho personalizadas aos usuários em qualquer lugar do mundo permite que as empresas se ajustem rapidamente às condições de mercado mudando girando as áreas de trabalho de nuvem sob demanda — quando e onde são necessárias.
+Para uma lista de provedores de parceiros aprovados e fornecedores de software independentes, visite o [Azure Marketplace](https://azuremarketplace.microsoft.com) e pesquise a Área de Trabalho Virtual do Azure. Alguns parceiros também fornecem a Área de Trabalho Virtual como Serviço (DaaS). DaaS você precisa manter suas próprias máquinas virtuais (VMs) fornecendo um serviço de virtualização e área de trabalho totalmente gerenciado e com chave de usuário. A capacidade de fornecer áreas de trabalho personalizadas aos usuários em qualquer lugar do mundo permite que as empresas se ajustem rapidamente às condições de mercado mudando girando as áreas de trabalho de nuvem sob demanda — quando e onde são necessárias.
 
 ## <a name="microsoft-surface-devices"></a>Dispositivos Microsoft Surface
 
-A engenharia de superfície definiu há muito tempo novos padrões de inovação, indo além do teclado e do mouse para imaginar maneiras mais naturais de interagir com dispositivos, seja por toque, voz, tinta ou Surface Dial. E com a integração de chip para nuvem do Microsoft 365 e a segurança e a capacidade de gerenciamento do Windows 10 Pro, o Surface fornece hardware, software, aplicativos e serviços conectados da maneira como eles eram destinados. Embora seja possível executar o WVD a partir de dispositivos Windows desde o Windows 7, os dispositivos Microsoft Surface oferecem vantagens exclusivas, incluindo suporte para:
+A engenharia de superfície definiu há muito tempo novos padrões de inovação, indo além do teclado e do mouse para imaginar maneiras mais naturais de interagir com dispositivos, seja por toque, voz, tinta ou Surface Dial. E com a integração de chip para nuvem do Microsoft 365 e a segurança e a capacidade de gerenciamento do Windows 10 Pro, o Surface fornece hardware, software, aplicativos e serviços conectados da maneira como eles eram destinados. Embora seja possível executar a AVD de Windows dispositivos que datam do Windows 7, os dispositivos Microsoft Surface oferecem vantagens exclusivas, incluindo suporte para:
 
-- **Fatores** de formulário flexíveis - como dispositivos 2 em 1, como o Surface Pro 7+, Surface Go 2, Surface Pro 7 e Surface Pro X com caneta, toque e teclado desconectada. Você pode até usar [o Surface Duo](/surface-duo/) para se conectar ao WVD.
+- **Fatores** de formulário flexíveis - como dispositivos 2 em 1, como o Surface Pro 7+, Surface Go 2, Surface Pro 7 e Surface Pro X com caneta, toque e teclado desconectada. Você pode até usar [o Surface Duo](/surface-duo/) para se conectar ao AVD.
 - Cenários de trabalho persistentes, sob demanda e **just-in-time** - com acesso offline e no dispositivo para experiências mais produtivas.
 - **Windows 10 segurança de dispositivos modernos e capacidade de gerenciamento** - fornecendo a flexibilidade para ser produtivo em qualquer lugar.
 
@@ -63,7 +63,7 @@ Dispositivos Surface 2 em 1, incluindo [o Surface Go 2](https://www.microsoft.co
 
 ### <a name="device-redirection-support"></a>Suporte a redirecionamento de dispositivo
 
-As experiências de produtividade centradas no Surface listadas acima tornam-se ainda mais atraentes em ambientes de Área de Trabalho Virtual Windows aproveitando os recursos de redirecionamento de dispositivo com Windows 10. O Surface oferece uma ampla variedade de suporte a redirecionamento de dispositivos, especialmente quando comparado a clientes finos EEM e terminais fixos, Android, iOS/macOS e acesso baseado na Web. Os clientes Windows Caixa de Entrada (MSTSC) e Windows Desktop (MSRDC) fornecem a maioria dos recursos de redirecionamento de dispositivos, incluindo Redirecionamento de Entrada (teclado, mouse, caneta e toque), Redirecionamento de Porta (serial e USB) e Outros Redirecionamentos (câmeras, área de transferência, unidade/armazenamento local, local, microfones, impressoras, scanners, cartões inteligentes e alto-falantes). Para uma comparação detalhada do suporte ao redirecionamento de dispositivo, consulte a documentação de [redirecionamento do dispositivo.](/windows-server/remote/remote-desktop-services/clients/remote-desktop-app-compare#redirection-support)
+As experiências de produtividade centradas no Surface listadas acima tornam-se ainda mais atraentes em ambientes de Área de Trabalho Virtual do Azure, aproveitando os recursos de redirecionamento de dispositivo com Windows 10. O Surface oferece uma ampla variedade de suporte a redirecionamento de dispositivos, especialmente quando comparado a clientes finos EEM e terminais fixos, Android, iOS/macOS e acesso baseado na Web. Os clientes Windows Caixa de Entrada (MSTSC) e Windows Desktop (MSRDC) fornecem a maioria dos recursos de redirecionamento de dispositivos, incluindo Redirecionamento de Entrada (teclado, mouse, caneta e toque), Redirecionamento de Porta (serial e USB) e Outros Redirecionamentos (câmeras, área de transferência, unidade/armazenamento local, local, microfones, impressoras, scanners, cartões inteligentes e alto-falantes). Para uma comparação detalhada do suporte ao redirecionamento de dispositivo, consulte a documentação de [redirecionamento do dispositivo.](/windows-server/remote/remote-desktop-services/clients/remote-desktop-app-compare#redirection-support)
 
 ### <a name="familiar-desktop-experience"></a>Experiência da Área de Trabalho Familiar
 
@@ -71,7 +71,7 @@ Não apenas a execução do Windows Desktop Client em dispositivos Surface forne
 
 ### <a name="persistent-on-demand-and-just-in-time-work-scenarios"></a>Cenários de trabalho persistentes, sob demanda e just-in-time
 
-Windows A Área de Trabalho Virtual no Surface ajuda os clientes a atender aos requisitos de segurança e negócios cada vez mais complexos em setores, funções de funcionários e ambientes de trabalho. Como por exemplo:
+A Área de Trabalho Virtual do Azure no Surface ajuda os clientes a atender aos requisitos de segurança e negócios cada vez mais complexos em setores, funções de funcionários e ambientes de trabalho. Como por exemplo:
 
 - Segurança em várias camadas de acesso a dados e recursos organizacionais
 - Conformidade com os regulamentos do setor
@@ -80,7 +80,7 @@ Windows A Área de Trabalho Virtual no Surface ajuda os clientes a atender aos r
 - Capacidade de dar suporte a cargas de trabalho especializadas e intensivas em processadores.
 - Resiliência para manter operações durante interrupções.
 
-### <a name="table-1-windows-virtual-desktop-business-conversations"></a>Tabela 1. Windows Conversas comerciais da Área de Trabalho Virtual
+### <a name="table-1-azure-virtual-desktop-business-conversations"></a>Tabela 1. Conversas comerciais da Área de Trabalho Virtual do Azure
 
 | Regulamentação & segurança                                | Força de trabalho elástica                                                            | Funções de trabalho                                                        | Cargas de trabalho especiais                                                            | Continuidade de negócios                                  |
 | ---------------------------------------------------- | ---------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------- |
@@ -114,11 +114,11 @@ Mesmo em um ambiente de área de trabalho virtualizado, o Microsoft 365 e o Surf
 ### <a name="security-and-management"></a>Segurança e gerenciamento
 
 De chip em nuvem, o Microsoft 365 e o Surface ajudam as organizações a se manterem protegidas e atualizadas.
-Com o hardware e o software do Surface — projetados, criados e testados pela Microsoft — os usuários podem ter certeza de que são produtivos e protegidos pelas tecnologias líderes de chip para nuvem. À medida que mais usuários trabalham remotamente, a proteção de dados corporativos e propriedade intelectual se torna mais importante do que nunca. Windows A Área de Trabalho Virtual no Surface foi projetada em torno de um modelo de segurança de confiança zero no qual cada solicitação de acesso é fortemente autenticada, autorizada dentro de restrições de política e inspecionada para verificar anomalias antes de conceder acesso.
+Com o hardware e o software do Surface — projetados, criados e testados pela Microsoft — os usuários podem ter certeza de que são produtivos e protegidos pelas tecnologias líderes de chip para nuvem. À medida que mais usuários trabalham remotamente, a proteção de dados corporativos e propriedade intelectual se torna mais importante do que nunca. A Área de Trabalho Virtual do Azure no Surface foi projetada em torno de um modelo de segurança de confiança zero no qual cada solicitação de acesso é fortemente autenticada, autorizada dentro de restrições de política e inspecionada por anomalias antes de conceder acesso.
 
 Ao maximizar a eficiência da computação em nuvem, o gerenciamento moderno permite que a ÁREA DE NEGÓCIOS atende melhor às necessidades dos usuários, participantes e clientes em um ambiente de negócios cada vez mais competitivo. Por exemplo, você pode fazer os dispositivos Surface funcionarem com a interação mínima de sua equipe. A instalação é automática e autoatendada. As atualizações são rápidas e indolors para sua equipe e seus usuários. Você pode gerenciar dispositivos independentemente de sua localização física.
 
-Os recursos de segurança e gerenciamento fornecidos Windows área de trabalho virtual no Surface incluem:
+Os recursos de segurança e gerenciamento fornecidos com a Área de Trabalho Virtual do Azure no Surface incluem:
 
 - **Windows Update.** Manter Windows atualizado ajuda você a se manter à frente de novas ameaças de segurança. Windows 10 foi projetado do zero para ser mais seguro e utilizar os recursos de hardware mais recentes para melhorar a segurança. Com um UEFI 5 criado para fins e Windows Atualização para Empresas que responde a ameaças em evolução, a proteção de ponta a ponta é segura e <a href="#5"><sup> </sup></a> simplificada.
 - **Criptografia de hardware.** A criptografia de dispositivo permite que você proteja os dados em seu Surface para que ele só possa ser acessado por indivíduos autorizados. Todos os dispositivos Surface for Business apresentam um DTPM (Trusted Platform Module) discreto que é protegido por hardware contra intrusão enquanto o software usa chaves e medidas protegidas para verificar a validade do software.
@@ -136,13 +136,13 @@ O Surface realiza avaliações de ciclo de vida para calcular o impacto ambienta
 
 ## <a name="summary"></a>Resumo
 
-Windows A Área de Trabalho Virtual no Surface oferece às organizações maior flexibilidade e resiliência para atender às diversas necessidades de usuários, participantes e clientes. Executar Windows soluções de Área de Trabalho Virtual em dispositivos Surface oferece vantagens exclusivas sobre a confiança contínua em dispositivos herdados. Fatores de formulário flexíveis, como o Surface Go 2 e Surface Pro 7+ conectados à nuvem (ou offline), permitem que os usuários sejam produtivos de qualquer lugar, a qualquer momento. Se os funcionários trabalham em cenários persistentes, sob demanda ou just-in-time, o Windows Área de Trabalho Virtual no Surface proporciona às empresas a versatilidade para sustentar a produtividade em todas as interrupções de emergências de saúde pública ou outros eventos imprevistos. Usando a segurança interna e com várias camadas e a capacidade de gerenciamento moderna do Windows 10, as empresas podem aproveitar um ecossistema em expansão de serviços baseados em nuvem para implantar e dimensionar rapidamente Windows desktops e aplicativos. Simplificando, Windows Área de Trabalho Virtual no Surface fornece tecnologia críticamente necessária para organizações e empresas de todos os tamanhos.
+A Área de Trabalho Virtual do Azure no Surface oferece às organizações maior flexibilidade e resiliência para atender às diversas necessidades de usuários, participantes e clientes. Executar soluções de Área de Trabalho Virtual do Azure em dispositivos Surface oferece vantagens exclusivas sobre a dependência contínua em dispositivos herdados. Fatores de formulário flexíveis, como o Surface Go 2 e Surface Pro 7+ conectados à nuvem (ou offline), permitem que os usuários sejam produtivos de qualquer lugar, a qualquer momento. Se os funcionários trabalham em cenários persistentes, sob demanda ou just-in-time, a Área de Trabalho Virtual do Azure no Surface proporciona às empresas a versatilidade para sustentar a produtividade em todas as interrupções de emergências de saúde pública ou outros eventos imprevistos. Usando a segurança interna e com várias camadas e a capacidade de gerenciamento moderna do Windows 10, as empresas podem aproveitar um ecossistema em expansão de serviços baseados em nuvem para implantar e dimensionar rapidamente Windows desktops e aplicativos. Simplificando, a Área de Trabalho Virtual do Azure no Surface fornece tecnologia críticamente necessária para organizações e empresas de todos os tamanhos.
 
 ## <a name="learn-more"></a>Saiba mais
 
 Para obter mais informações, veja os seguintes recursos:
 
-- [Área de Trabalho Virtual do Windows](https://azure.microsoft.com/services/virtual-desktop/)
+- [Área de Trabalho Virtual do Azure](https://azure.microsoft.com/services/virtual-desktop/)
 - [Surface para Empresas](https://www.microsoft.com/surface/business)
 - [Modernizar sua força de trabalho com o Microsoft Surface](https://boards.microsoft.com/public/prism/103849?token=754435c36d)
 - [Um guia para o Surface Technical Content and Solutions](https://boards.microsoft.com/public/prism/104362/category/90968?token=09e688ec4a)
@@ -150,7 +150,7 @@ Para obter mais informações, veja os seguintes recursos:
 
 ----------
 
-<a id="1">1. Windows Área de Trabalho Virtual no Surface refere-se à execução do Azure Virtual Desktop Infrastructure em um dispositivo Surface e é descrito aqui como uma solução de arquitetura, não um produto disponível </a> separadamente.<br>
+<a id="1">1. A Área de Trabalho Virtual do Azure no Surface refere-se à execução do Azure Virtual Desktop Infrastructure em um dispositivo Surface e é descrita aqui como uma solução de arquitetura, não um produto disponível </a> separadamente.<br>
 <a id="2">2. </a> A duração da bateria varia significativamente com configurações, uso e outros fatores.<br>
 <a id="3">3. </a> Disponibilidade do serviço e desempenho sujeitos à rede do provedor de serviços. Entre em contato com seu provedor de serviços para obter detalhes, compatibilidade, preços, cartão SIM e ativação. Consulte todas as especificações e frequências em surface.com.<br>
 <a id="4">4. Forrester Consulting, "Um Impacto Econômico Total forrester™ Estudo: maximizando seu ROI do Microsoft 365 Enterprise com o Microsoft Surface", comissionado pela </a> Microsoft, 2018.<br> 
