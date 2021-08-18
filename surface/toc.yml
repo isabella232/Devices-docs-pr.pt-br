@@ -10,7 +10,7 @@
           items:
             - name: Visão geral da segurança de superfície
               href: surface-security.md
-            - name: Área de Trabalho Virtual do Windows no Surface
+            - name: Área de Trabalho Virtual do Azure no Surface
               href: windows-virtual-desktop-surface.md
             - name: Visão geral técnica de processadores do Surface Laptop 4
               href: surface-laptop-processors.md
