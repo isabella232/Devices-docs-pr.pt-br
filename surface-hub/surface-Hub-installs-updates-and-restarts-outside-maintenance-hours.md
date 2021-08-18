@@ -10,12 +10,12 @@ ms.author: v-tea
 ms.topic: article
 ms.localizationpriority: medium
 ms.date: 04/15/2021
-ms.openlocfilehash: 7df7857258c1baeedf4ff239eda17c66c93a531c
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: 7c023256750ee997ce50d0adcd392207f47a298f
+ms.sourcegitcommit: 3810c4310e9f5b5b9ad7b4584eaede2789ccd946
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11577021"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "11902880"
 ---
 # <a name="surface-hub-may-install-updates-and-restart-outside-maintenance-hours"></a>O Surface Hub pode instalar atualizações e reiniciar fora do horário de manutenção
 
@@ -37,6 +37,5 @@ As atualizações só poderão ser instaladas durante a janela de manutenção s
 Uma opção que você pode usar para controlar a disponibilidade de atualizações é Windows Update for Business.
 
 ## <a name="learn-more"></a>Saiba mais
- 
-- [Atualizar o Surface Hub](first-run-program-surface-hub.md#update-the-surface-hub) 
+  
 - [Janela de manutenção](manage-windows-updates-for-surface-hub.md#maintenance-window) 
