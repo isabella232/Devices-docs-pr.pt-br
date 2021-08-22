@@ -32,7 +32,9 @@
 ### [Criar e testar uma conta de dispositivo](create-and-test-a-device-account-surface-hub.md)
 ### [Criar os pacotes de provisionamento para Surface Hub](provisioning-packages-for-surface-hub.md)
 ### [Instalar aplicativos no Microsoft Surface Hub](install-apps-on-surface-hub.md)
-### [Criar contas locais do Surface Hub 2S com o PowerShell](https://docs.microsoft.com/microsoftteams/rooms/with-skype-for-business-server-2015)
+### [Criar contas locais do Surface Hub 2S com o PowerShell](/microsoftteams/rooms/with-skype-for-business-server-2015)
+### [Salas do Microsoft Teams no Surface Hub](surface-hub-teams-rooms.md)
+### [Configurar rede e qualidade de serviço para Sala do Microsoft Teams no Surface Hub](surface-hub-teams-rooms-networking.md)
 ### [Aplicativo Teams para Surface Hub](hub-teams-app.md)
 ### [Acessórios certificados do Teams para o Surface Hub 2S](surface-hub-2s-certifications.md)
 
@@ -83,11 +85,11 @@
 
 ## Implantar
 ### [Criar e testar uma conta de dispositivo](create-and-test-a-device-account-surface-hub.md)
-#### [Implantação online](https://docs.microsoft.com/microsoftteams/rooms/with-office-365)
+#### [Implantação online](/microsoftteams/rooms/with-office-365)
 
-#### [Implantação local (floresta única)](https://docs.microsoft.com/microsoftteams/rooms/with-skype-for-business-server-2015)
+#### [Implantação local (floresta única)](/microsoftteams/rooms/with-skype-for-business-server-2015)
 
-#### [Implantação local (várias florestas)](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-clients/multiple-forest-on-premises-deployments)
+#### [Implantação local (várias florestas)](/skypeforbusiness/deploy/deploy-clients/multiple-forest-on-premises-deployments)
 #### [Implantação híbrida](hybrid-deployment-surface-hub-device-accounts.md)
 #### [Propriedades do Microsoft Exchange](exchange-properties-for-surface-hub-device-accounts.md)
 #### [Aplicando políticas do ActiveSync a contas de dispositivo](apply-activesync-policies-for-surface-hub-device-accounts.md)
