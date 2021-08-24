@@ -12,14 +12,14 @@ ms.date: 5/06/2020
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 26a6d49af6010f66ed80d0aba1193ef009c91ff0
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: 31ce5192670b8c9051ba499273909fdf31c1062d
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676515"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911956"
 ---
-# <a name="surface-book-3-gpu-tech-overview"></a>Surface Book visão geral técnica da GPU 3
+# <a name="surface-book-3-gpu-tech-overview"></a>Surface Book de tecnologia de GPU 3
 
 ## <a name="introduction"></a>Introdução
 
@@ -136,7 +136,7 @@ Em algumas instâncias, Windows 10 pode atribuir um aplicativo graficamente exig
 
 2. Selecione **Adicionar** para criar uma nova entrada na lista do programa selecionado, selecione Opções para abrir Especificações gráficas e selecione a opção desejada.
 
-   ![Selecionar opções de GPU de economia de energia ou de alto desempenho](./images/graphics-settings2.png)
+   ![Selecione opções de GPU de economia de energia ou de alto desempenho.](./images/graphics-settings2.png)
 
 3. Para verificar qual GPU é usada para cada aplicativo, abra o Gerenciador de **Tarefas,** selecione **Desempenho** e ex view the **GPU Engine** column.
 

@@ -15,12 +15,12 @@ ms.topic: article
 ms.date: 08/02/2021
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 9a98eb9bab9b0be7f225dedf00ee6cfe7944b05e
-ms.sourcegitcommit: 657d0d73a51f0dd35ad60740ed523164a55d2e04
+ms.openlocfilehash: a6b1dcdb3cf0ff8fe2f6485520c6b6301f5d2b2f
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "11720925"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911996"
 ---
 # <a name="secure-surface-dock-2-ports-with-surface-enterprise-management-mode-semm"></a>Portas seguras do Surface Dock 2 com o Surface Enterprise Modo de Gerenciamento (SEMM)
 
@@ -106,15 +106,15 @@ Quando você tiver obtido ou criado os certificados, estará pronto para criar o
 
 1. Execute o Configurador **UEFI do**Surface.
 
-   ![Executar o Configurador UEFI do Surface](images/secure-surface-dock-ports-semm-1.png)
+   ![Execute o Configurador UEFI do Surface.](images/secure-surface-dock-ports-semm-1.png)
 
 1. Selecione **Surface Dock**.
 
-   ![Selecionar Surface Dock](images/secure-surface-dock-ports-semm-2.png)
+   ![Selecione Surface Dock.](images/secure-surface-dock-ports-semm-2.png)
 
 1. Insira os **certificados apropriados**  na página de certificados. Os certificados de demonstração estão disponíveis no [Surface Tools for IT:](https://www.microsoft.com/download/details.aspx?id=46703)Baixe **SEMM_PowerShell.zip** e consulte **CreateSurfaceDock2Certificates.ps1**. Certifique-se de instalar **SurfaceDock2_WmiInstanceProvider** antes de executar os scripts de demonstração.
 
-   ![insira os certificados apropriados](images/secure-surface-dock-ports-semm-3.png)
+   ![insira os certificados apropriados.](images/secure-surface-dock-ports-semm-3.png)
 
 1. Adicione RNs de encaixe apropriados à lista.
 
@@ -146,26 +146,26 @@ Objetivo: Configurar configurações de política para permitir o acesso de port
 
 1. A turn on all ports for authenticated users and turn them off for unauthenticated users.
 
-   ![Habilitando portas para usuários autenticados](images/secure-surface-dock-ports-semm-4.png)
+   ![Habilitando portas para usuários autenticados.](images/secure-surface-dock-ports-semm-4.png)
 
 1. Aplique o pacote de configuração ao dispositivo de destino e conecte o Surface Dock 2.
 
 1. Abra **o Surface App** e selecione Surface **Dock** para exibir o estado de política resultante do Surface Dock. Se as configurações de política são aplicadas, o Surface App indicará que as portas estão disponíveis.
 
-   ![O aplicativo Surface mostra que todas as portas estão disponíveis para usuários autenticados](images/secure-surface-dock-ports-semm-5.png)
+   ![O aplicativo Surface mostra que todas as portas estão disponíveis para usuários autenticados.](images/secure-surface-dock-ports-semm-5.png)
 
 1. Agora você precisa verificar se as configurações de política desligaram com êxito todas as portas para usuários não autenticados. Conexão Surface Dock 2 para um dispositivo não gerenciada, ou seja, qualquer dispositivo Surface fora do escopo de gerenciamento para o pacote de configuração criado.
 
 1. Abra **o Surface App** e selecione Surface **Dock**. O estado de política resultante indicará que as portas estão desligadas.
 
-   ![Aplicativo surface mostrando portas desligadas para usuários não autenticados ](images/secure-surface-dock-ports-semm-6.png)
+   ![Aplicativo surface mostrando portas desligadas para usuários não autenticados .](images/secure-surface-dock-ports-semm-6.png)
 
 >[!TIP]
 >Se você quiser manter a propriedade do dispositivo, mas permitir acesso total a todos os usuários, poderá fazer um novo pacote com tudo ligado. Se você quiser remover completamente as restrições e a propriedade do dispositivo (torná-lo nãomanageado), selecione **Redefinir** no Surface UEFI Configurator para criar um pacote para aplicar a dispositivos de destino.
 
 Parabéns. Você gerencia com êxito as portas do Surface Dock 2 em dispositivos host direcionados.
 
-## <a name="learn-more"></a>Saber mais
+## <a name="learn-more"></a>Saiba mais
 
 - [Documentação do Modo de Gerenciamento do Surface Enterprise (SEMM)](surface-enterprise-management-mode.md)
 - [Arquitetura de Serviços de Certificado](/windows/win32/seccrypto/certificate-services-architecture)

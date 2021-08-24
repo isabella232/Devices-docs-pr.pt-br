@@ -11,20 +11,20 @@ audience: Admin
 ms.topic: article
 ms.date: 03/22/2021
 ms.localizationpriority: Medium
-ms.openlocfilehash: 9b7a3e49f3fa05117fa37cbd47695e54ff26e899
-ms.sourcegitcommit: f9e7c091a26df0f99500c0d8b6cf40a81133e4e2
+ms.openlocfilehash: 823c80e812038a0d2f2efaca65d97d1379f03e35
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "11470489"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911206"
 ---
-# <a name="install-and-mount-surface-hub-2s-85"></a>Instalar e montar o Surface Hub 2S 85"
+# <a name="install-and-mount-surface-hub-2s-85"></a>Instalar e montar Surface Hub 2S 85"
 
-Este artigo fornece orientações de suporte para instalar fisicamente o Microsoft Surface Hub 2S 85" em ambientes comerciais. 
+Este artigo fornece orientações de suporte para a instalação física Microsoft Surface Hub 2S 85" em ambientes comerciais. 
 
 ## <a name="unboxing-video"></a>Unboxing video
 
-- Antes de começar, confira o Vídeo de Unboxing e Configuração do Microsoft Surface Hub 2S 85":
+- Antes de começar, revise Microsoft Surface Hub de 2S 85" Unboxing e Configurar vídeo:
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWwwgL]
 
@@ -48,14 +48,14 @@ Este artigo fornece orientações de suporte para instalar fisicamente o Microso
 3. Abra e remova os seis (6) clipes das extremidades.
 4. Remova a tampa e, em seguida, levante e remova os painéis frontal e traseiro.
 
- ![Remover empacotamento externo](images/hub85mount1a.png) <br>
+ ![Remova o empacotamento externo.](images/hub85mount1a.png) <br>
 
 ## <a name="2-remove-black-outer-packaging-foam"></a>2. Remover a tinta de empacotamento externo preto
 
 1. Remover partes de espeção de canto preto (4).
 2. Remova o suporte de espeção do centro preto.
 
- ![Remover a tinta de empacotamento externo preto](images/hub85mount2a.png) <br>
+ ![Remover a tinta de empacotamento externo preto.](images/hub85mount2a.png) <br>
 
 > [!Caution]
 > Não remova nenhum material branco de espeção, faixa ou empacotamento até que o Hub 2S seja adjacente ao carrinho ou à montagem de parede no qual ele será colocado.
@@ -68,14 +68,14 @@ Materiais adicionais de faixa são fornecidos na caixa pequena localizada sob os
 2. Freios de roda de bloqueio (4).
 3. Deslize o empacotamento interno da paleta.
 
- ![Remover quadro de empacotamento interno da paleta](images/hub85mount3b.png) <br>
+ ![Remova o quadro de empacotamento interno da paleta.](images/hub85mount3b.png) <br>
 
 ## <a name="4-rotate-packaging-frame-to-fit-elevator"></a>4. Girar o quadro de empacotamento para ajustar o elevador
 
 1. Girar quadro para ajustar elevador
 2. Gire na extremidade chanfrada do quadro interno e deslize para o elevador.
 
- ![Girar quadro de empacotamento para ajustar elevador](images/hub85mount4a.png) <br>
+ ![Gire o quadro de empacotamento para ajustar o elevador.](images/hub85mount4a.png) <br>
 
 > [!TIP]
 > A paleta de roda é personalizada para o espaço de empacotamento do quadro interno e pode ser usada em todo o processo de entrega do site de instalação. A parte final do quadro de madeira interna tem chapas de skid de náilon.
@@ -85,18 +85,18 @@ Materiais adicionais de faixa são fornecidos na caixa pequena localizada sob os
 1. Deslizar para fora do elevador
 2. Freios de roda de bloqueio (x4).
 
- ![Remover do elevador](images/hub85mount5a.png) <br>
+ ![Remova do elevador.](images/hub85mount5a.png) <br>
 
 
-## <a name="6-place-surface-hub-85-back-on-pallet"></a>6. Coloque o Surface Hub 85" de volta no palete
+## <a name="6-place-surface-hub-85-back-on-pallet"></a>6. Coloque Surface Hub 85" de volta no palete
 
 1. Usando a extremidade chanfrada, gire de volta para a paleta.
 2. Desbloquear freios de roda (x4).
 3. Mova o produto para o local da montagem de parede ou carrinho.
 
- ![Colocar o Surface Hub 85" de volta no palete](images/hub85mount6a.png) <br>
+ ![Coloque Surface Hub 85" novamente no palete.](images/hub85mount6a.png) <br>
 
-## <a name="7-place-surface-hub-85-on-wall-mount-or-cart"></a>7. Coloque o Surface Hub 85" na montagem de parede ou no carrinho
+## <a name="7-place-surface-hub-85-on-wall-mount-or-cart"></a>7. Coloque Surface Hub 85" na montagem de parede ou no carrinho
 
 1. Coloque o Hub 2S na frente da montagem da parede ou do carrinho.
 2. Freios de roda de bloqueio (x4).
@@ -108,7 +108,7 @@ Materiais adicionais de faixa são fornecidos na caixa pequena localizada sob os
 8. Remova a parte final levantando verticalmente.
 9. Remova as partes de extremidade de madeira pelos quatro botões de mão parafusados na base de madeira.
 
-   ![Colocar o Surface Hub 85" na montagem de parede ou no carrinho](images/hub85mount7a.png) <br>
+   ![Coloque Surface Hub 85" no Monte de Parede ou no Carrinho.](images/hub85mount7a.png) <br>
 
    > [!CAUTION]
    >  Não deixe o Hub 2S 85" sem supervisão. Uma pessoa adicional é necessária para manter o dispositivo vertical. Depois que as partes de extremidade são removidas, um mínimo de uma pessoa precisa manter contato com o Hub 2S até que o posicionamento na montagem da parede ou no carrinho seja concluído.
@@ -133,20 +133,20 @@ Materiais adicionais de faixa são fornecidos na caixa pequena localizada sob os
  
 
  
-## <a name="mounting-surface-hub-2s-85"></a>Montagem do Surface Hub 2S 85" 
+## <a name="mounting-surface-hub-2s-85"></a>Montagem Surface Hub 2S 85" 
 
-O Surface Hub 2S 85" usa um padrão de montagem VESA de 600 x 600. Conforme mostrado na imagem a seguir, a Microsoft fez uma parceria com [o Steelcase](https://www.steelcase.com/products/collaboration/steelcase-roam/) para criar opções de montagem compatíveis com o design exclusivo do Surface Hub 2S 85". 
+O Surface Hub 2S 85" usa um padrão de montagem VESA de 600 x 600. Conforme mostrado na imagem a seguir, a Microsoft fez uma parceria com [o Steelcase](https://www.steelcase.com/products/collaboration/steelcase-roam/) para criar opções de montagem compatíveis com o design exclusivo Surface Hub 2S 85". 
 
-![Montagem de parede em siderúrculo](images/sh2-steelcasemount.png) <br>
+![Montagem de parede em siderúrculo.](images/sh2-steelcasemount.png) <br>
 
 ### <a name="mounting-dimensions"></a>Dimensões de montagem
 
 Se estiver usando outras opções de montagem (que não são siderúrgicas), você precisará de esparsos para levar em conta o compartimento de computação na parte de trás do dispositivo. Os espars e outros acessórios certificados estão disponíveis na [Salamander Designs.](http://www.salamandercommercial.com/surface-hub-2)
 
 
-![Detalhes das dimensões do Surface Hub 85" para montagem](images/sh2-85-measure2.png) <br>
+![Surface Hub detalhes de dimensões de 85" para montagem.](images/sh2-85-measure2.png) <br>
 
-![Dimensões do Surface Hub 85" para montagem](images/sh2-85-measure1.png) <br>
+![Surface Hub dimensões de 85" para montagem.](images/sh2-85-measure1.png) <br>
 
 
 ## <a name="supplemental-strapping-kit"></a>Kit de faixas suplementares

@@ -19,12 +19,12 @@ appliesto:
 - Surface Laptop 2
 - Surface Laptop 3
 - Surface Laptop 4
-ms.openlocfilehash: 1ee3376a24d3e83cc66c8a220a1f7afa195840d0
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: 96c1a641ae964752afa4f4ea3c2817a026a419ba
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676715"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11912006"
 ---
 # <a name="how-to-enable-the-surface-laptop-keyboard-during-mdt-deployment"></a>Como habilitar o teclado Surface Laptop durante a implantação do MDT
 
@@ -78,21 +78,21 @@ Importe as pastas a seguir conforme apropriado para seu Surface Laptop dispositi
 
 1. Verifique se a pasta WindowsPEX64 agora contém os drivers importados, conforme mostrado na figura a seguir:
 
-   ![Imagem que mostra os drivers recém-importados na pasta WindowsPEX64 do Deployment Workbench](./images/surface-laptop-keyboard-2.png)
+   ![Imagem que mostra os drivers recém-importados na pasta WindowsPEX64 do Deployment Workbench.](./images/surface-laptop-keyboard-2.png)
 1. Configure um perfil de seleção que usa a pasta WindowsPEX64, conforme mostrado na figura a seguir:
 
-   ![Imagem que mostra a pasta WindowsPEX64 selecionada como parte de um perfil de seleção](./images/surface-laptop-keyboard-3.png)
+   ![Imagem que mostra a pasta WindowsPEX64 selecionada como parte de um perfil de seleção.](./images/surface-laptop-keyboard-3.png)
 1. Configure as Windows PE do compartilhamento de implantação do MDT para usar o novo perfil de seleção, da seguinte forma:
     - Para **Plataforma,** selecione **x64**.
     - Para **Perfil de seleção,** selecione o novo perfil.
     - Selecione **Incluir todos os drivers do perfil de seleção**.
 
-    ![Imagem que mostra as Windows PE do Compartilhamento de Implantação do MDT](./images/surface-laptop-keyboard-4.png)
+    ![Imagem que mostra as Windows PE do Compartilhamento de Implantação do MDT.](./images/surface-laptop-keyboard-4.png)
 4. Verifique se você configurou os drivers Surface Laptop restantes usando um perfil de seleção ou uma **variável DriverGroup001.**
     - Para Surface Laptop (1ª Geração), o modelo é **Surface Laptop**. Os drivers Surface Laptop restantes devem residir na pasta \MDT Deployment Share\Out-of-Box Drivers\Windows10\X64\Surface Laptop conforme mostrado na figura a seguir.
     - Para Surface Laptop 2, o modelo é **Surface Laptop 2**. Os drivers Surface Laptop restantes devem residir na pasta \MDT Deployment Share\Out-of-Box Drivers\Windows10\X64\Surface Laptop 2.
     - Para Surface Laptop 3 com processador Intel, o modelo é Surface Laptop 3. Os drivers Surface Laptop restantes estão localizados na pasta \MDT Deployment Share\Out-of-Box Drivers\Windows10\X64\Surface Laptop 3.
 
-    ![Imagem que mostra os drivers Surface Laptop (1ª Geração) na pasta Surface Laptop do Deployment Workbench](./images/surface-laptop-keyboard-5.png)
+    ![Imagem que mostra os drivers Surface Laptop (1ª Geração) na pasta Surface Laptop do Deployment Workbench.](./images/surface-laptop-keyboard-5.png)
 
 Depois de configurar o Compartilhamento de Implantação do MDT para usar o novo perfil de seleção e as configurações relacionadas, continue o processo de implantação conforme descrito em [Deploy a Windows 10 image using MDT: Step 6: Create the deployment task sequence](/windows/deployment/deploy-windows-mdt/deploy-a-windows-10-image-using-mdt#step-6-create-the-deployment-task-sequence).

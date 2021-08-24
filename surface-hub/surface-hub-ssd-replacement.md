@@ -9,51 +9,51 @@ author: dansimp
 ms.author: dansimp
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 17e6018478b608b34c47ce0acd602deb70035474
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 652a90e380d77eb35a3fc187ce2dc61bc8f5dd07
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830384"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911556"
 ---
-# Substituição da SSD do Surface Hub
+# <a name="surface-hub-ssd-replacement"></a>Substituição da SSD do Surface Hub
 
-Talvez seja necessário remover a unidade SSD (unidade de estado sólido) do Surface Hub para que você possa refazer o seu redirecionamento usando a [ferramenta de recuperação do Surface Hub](surface-hub-recovery-tool.md) ou porque foi enviada uma unidade de substituição. Você recolocaria a imagem do SSD quando o sistema operacional não for mais inicializável, como uma falha do Windows Update, problemas de BitLocker, falha na redefinição ou falha de hardware. 
+Talvez seja necessário remover a unidade de estado sólido (SSD) do seu Surface Hub para que você possa reimá-la usando [a](surface-hub-recovery-tool.md) Ferramenta de Recuperação Surface Hub ou porque você foi enviado uma unidade de substituição. Você reimage seu SSD quando o sistema operacional não é mais inicializado, como por exemplo, de uma falha de atualização Windows, problemas do BitLocker, falha de redefinição ou falha de hardware. 
 
 
 >[!WARNING]
->Certifique-se de que o Surface Hub esteja desligado na chave ca.
+>Certifique-se de Surface Hub está desligado na opção AC.
 
-1. Localize a porta do compartimento de SSD na parte traseira superior do Surface Hub nos locais ilustrados abaixo. A portabilidade pode ser identificada, pois ela não tem slots de ventilação abertos.
+1. Localize a porta do compartimento SSD na parte traseira, parte superior do Surface Hub nos locais ilustrados abaixo. A porta é identificável, pois não tem slots de abertura de abertura.
 
-    ![Porta do compartimento de SSD](images/ssd-location.png)
+    ![Porta do compartimento SSD.](images/ssd-location.png)
 
-    *Locais do disco rígido do Surface Hub*
+    *Surface Hub locais do disco rígido*
 
-2. Localize a guia de travamento na porta do compartimento do disco rígido. No Surface Hub 55, a guia de proteção estará localizada no lado esquerdo da porta. No Surface Hub 84, ele estará no lado direito, conforme mostrado na ilustração.
+2. Localize a guia de bloqueio na porta do compartimento do disco rígido. Na Surface Hub 55, a guia de bloqueio estará localizada no lado esquerdo da porta. No Surface Hub 84, ele estará no lado direito, conforme mostrado na ilustração.
 
-    ![Guia de bloqueio do compartimento de SSD](images/ssd-lock-tab.png)
+    ![Guia de bloqueio do compartimento SSD.](images/ssd-lock-tab.png)
 
-    *Guia de travamento na porta do compartimento do disco rígido*
+    *Guia de bloqueio na porta do compartimento do disco rígido*
 
-3. Levante a abertura da porta do compartimento para acessar a unidade de disco rígido.
+3. Abra a porta do compartimento para acessar o disco rígido.
 
-    ![Tire](images/ssd-lift-door.png)
+    ![Levante.](images/ssd-lift-door.png)
 
-    *Levante a porta do compartimento*
+    *Porta do compartimento de elevação*
 
-4. Localize a guia pull, que pode estar parcialmente oculta na tampa traseira. Empurre a guia para ejetar a unidade de disco rígido do compartimento.
+4. Localize a guia pull, que pode estar parcialmente oculta sob a capa traseira. Puxe a guia para ejetar o disco rígido do compartimento.
 
-    ![Retirar](images/ssd-pull-tab.png)
+    ![Pull.](images/ssd-pull-tab.png)
 
-    *Guia puxar*
+    *Guia Pull*
 
-5. Deslize a unidade de substituição para o local até ouvir clique.
+5. Deslize a unidade de substituição para o local até ouvi-la clicar.
 
-    ![Slide na unidade](images/ssd-click.png)
+    ![Deslize na unidade.](images/ssd-click.png)
     
     *Unidade de substituição de slides no local*
 
 6. Feche a porta do compartimento.
 
-7. Aplique a energia ao Surface Hub.
+7. Aplique energia ao Surface Hub.

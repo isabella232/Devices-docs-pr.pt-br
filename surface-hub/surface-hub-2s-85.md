@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 02/26/2021
 ms.localizationpriority: Medium
-ms.openlocfilehash: b87d7c5bff6f885d69c3f74d6c1e454f47b89c4f
-ms.sourcegitcommit: b7fa6865e8f4209552a8130b861a1edef1b6666d
+ms.openlocfilehash: c5cddde47b2046badf3f6deba5791b7642e044f3
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "11615521"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11912026"
 ---
 # <a name="surface-hub-2s-85-overview--tech-specs"></a>Surface Hub visão geral do 2S 85" & de tecnologia
 
@@ -26,7 +26,7 @@ A versão de 85" da família Surface Hub traz a experiência do Surface Hub 2S p
 - **Experiência Surface Hub 2S consistente.** Fornece o mesmo design premium, tecnologia de exibição 4K, toque, caneta/tinta, recargância de computação e suporte à câmera como Surface Hub 2S 50".
 - **Integração com sistemas A/V existentes e novos.** Combina com Microsoft Teams periféricos certificados e se integra ao Salas do Microsoft Teams.
 
-![Surface Hub 2S 85"](images/hub-2s-85.png)
+![Surface Hub 2S 85".](images/hub-2s-85.png)
 
 ## <a name="surface-hub-2s-85-tech-specs"></a>Especificações técnicas do Surface Hub 2S 85 "
 
@@ -68,6 +68,6 @@ A versão de 85" da família Surface Hub traz a experiência do Surface Hub 2S p
 3. Sensor Doppler não disponível em Hong Kong, Índia, Kuwait e Omã.
 4. A Garantia Limitada da Microsoft está além dos seus direitos de direito do consumidor. 
 
-## <a name="learn-more"></a>Saber mais
+## <a name="learn-more"></a>Saiba mais
 
 - [Surface Hub 2S 85" - Colaboração em uma escala enorme](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-2s-85-quot-collaboration-at-a-massive-scale/ba-p/1669717)

@@ -14,12 +14,12 @@ manager: laurawi
 ms.localizationpriority: medium
 audience: itpro
 ms.date: 04/16/2021
-ms.openlocfilehash: 08221db2e4a49ccce1b372689b4dc30d8241ad0d
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: 8e30234e72b6533da3d36ca38188c7e199beeeac
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676695"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11910986"
 ---
 # <a name="microsoft-surface-enterprise-management-mode"></a>Modo de gerenciamento do Microsoft Surface Enterprise
 
@@ -58,7 +58,7 @@ Esses pacotes contêm um arquivo de configuração que especifica as configuraç
 >[!TIP]
 >Agora você pode usar o Surface UEFI Configurator e o SEMM para gerenciar portas no Surface Dock 2. Para saber mais, confira [Portas seguras do Surface Dock 2 com SEMM](secure-surface-dock-ports-semm.md).
 
-![Configurador UEFI do Microsoft Surface](images/surface-ent-mgmt-fig1-uefi-configurator.png "Microsoft Surface UEFI Configurator")
+![Configurador UEFI do Microsoft Surface.](images/surface-ent-mgmt-fig1-uefi-configurator.png "Microsoft Surface UEFI Configurator")
 
 *Figura 1. Configurador UEFI do Microsoft Surface*
 
@@ -76,7 +76,7 @@ Você pode baixar o Configurador UEFI do Microsoft Surface na página [Ferrament
 
 Os pacotes de configuração uefi do Surface são o mecanismo principal para implementar e gerenciar o SEMM em dispositivos Surface. Esses pacotes contêm um arquivo de configuração e um arquivo de certificado, conforme mostrado na Figura 2. O arquivo de configuração contém configurações UEFI que são especificadas quando o pacote é criado no Microsoft Surface UEFI Configurator. Quando um pacote de configuração é executado pela primeira vez em um dispositivo Surface que ainda não está inscrito no SEMM, ele provisiona o arquivo de certificado no firmware do dispositivo e registra o dispositivo no SEMM. Ao registrar um dispositivo no SEMM e antes que o certificado seja armazenado e o registro seja finalizado, você será solicitado a confirmar a operação fornecendo os dois últimos dígitos da impressão digital do certificado SEMM. Essa confirmação exige que um usuário seja fisicamente presente no dispositivo durante o registro para executar a confirmação.
 
-![Proteger um pacote de configuração do SEMM com um certificado](images/surface-ent-mgmt-fig2-securepackage.png "Secure a SEMM configuration package with a certificate")
+![Proteja um pacote de configuração semm com um certificado.](images/surface-ent-mgmt-fig2-securepackage.png "Secure a SEMM configuration package with a certificate")
 
 *Figura 2. Proteger um pacote de configuração do SEMM com um certificado*
 
@@ -120,7 +120,7 @@ A lista a seguir mostra todos os dispositivos disponíveis que você pode gerenc
 | Energia automática                      | Permite que você gerencie as configurações de inicialização do Auto Power On. Se você não configurar essa configuração, o Auto Power on será habilitado.                                                                                                        |
 | SMT (Multi-Threading Simultâneo) | Permite gerenciar o SMT (Multi-Threading Simultâneo) para habilitar ou desabilitar o hiperthreading. Se você não configurar essa configuração, a SMT será habilitada.                                                  |
 |Habilitar limite de bateria| Permite gerenciar a funcionalidade de limite de bateria. Se você não configurar essa configuração, o limite de bateria será habilitado |
-| Security                           | Exibe a página Segurança uefi **do** Surface. Se você não configurar essa configuração, a página Segurança será exibida.                                                                                                                 |
+| Segurança                           | Exibe a página Segurança uefi **do** Surface. Se você não configurar essa configuração, a página Segurança será exibida.                                                                                                                 |
 | Dispositivos                            | Exibe a página Dispositivos UEFI **surface.** Se você não configurar essa configuração, a página Dispositivos será exibida.                                                                                                                     |
 | Iniciar                               | Exibe a página Inicialização uefi **do** Surface. Se você não configurar essa configuração, a página Inicialização será exibida.                                                                                                                                                            |
 | DateTime                           | Exibe a página Surface UEFI **DateTime.** Se você não configurar essa configuração, a página DateTime será exibida.                                                                                                                |
@@ -129,13 +129,13 @@ A lista a seguir mostra todos os dispositivos disponíveis que você pode gerenc
 >[!TIP]
 >Quando você cria um pacote de configuração **** SEMM, dois caracteres são mostrados na página Bem-sucedido, conforme mostrado na Figura 3.
 
-![Exibição de impressão digital de certificado](images/surface-ent-mgmt-fig5-success.png "Certificate thumbprint display")
+![Exibição de impressão digital de certificado.](images/surface-ent-mgmt-fig5-success.png "Certificate thumbprint display")
 
 *Figura 3. Exibição dos dois últimos caracteres da impressão digital do certificado na página Bem-sucedida*
 
 Esses caracteres são os dois últimos caracteres da impressão digital do certificado e devem ser gravados ou gravados. Os caracteres são necessários para confirmar o registro no SEMM em um dispositivo Surface, conforme mostrado na Figura 4.
 
-![Confirmação de registro no SEMM](images/surface-ent-mgmt-fig6-enrollconfirm.png "Enrollment confirmation in SEMM")
+![Confirmação de registro no SEMM.](images/surface-ent-mgmt-fig6-enrollconfirm.png "Enrollment confirmation in SEMM")
 
 *Figura 4. Confirmação de registro no SEMM com a impressão digital do certificado SEMM*
 
@@ -163,7 +163,7 @@ Um pacote de redefinição uefi do Surface é usado para executar apenas uma tar
 Em alguns cenários, pode ser impossível usar um pacote de redefinição uefi do Surface. (Por exemplo, se Windows se tornar inutilizável no dispositivo Surface.) Nesses cenários, você pode desempacodar o dispositivo Surface do SEMM **por** meio da página gerenciamento Enterprise do Surface UEFI (mostrado na Figura 5) com uma operação de Solicitação de Recuperação.
 
 > [!div class="mx-imgBorder"]
-> ![Iniciar uma solicitação de recuperação semm](images/surface-ent-mgmt-fig7-semmrecovery.png "Initiate a SEMM recovery request")
+> ![Inicie uma solicitação de recuperação semm.](images/surface-ent-mgmt-fig7-semmrecovery.png "Initiate a SEMM recovery request")
 
 *Figura 5. Iniciar uma solicitação de recuperação do SEMM na página gerenciamento Enterprise de dados*
 

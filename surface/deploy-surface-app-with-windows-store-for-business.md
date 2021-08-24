@@ -14,12 +14,12 @@ ms.audience: itpro
 ms.reviewer: ''
 manager: laurawi
 ms.date: 4/16/2021
-ms.openlocfilehash: 339a6a3ab76f36004f2399b333d48487c9d6e31d
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: 463f5670c5e2b7eac9ac7a41b5b2b04da3ebb83e
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676667"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911176"
 ---
 # <a name="deploy-surface-app-with-microsoft-store-for-business-and-education"></a>Implantar aplicativo surface com Microsoft Store para Empresas e Education
 
@@ -69,7 +69,7 @@ Antes que os usuários possam instalar ou implantar um aplicativo a partir da co
 3. Habilitar o licenciamento offline: clique em **Gerenciar**Configurações e selecione a caixa de seleção Mostrar aplicativos licenciados offline para pessoas que estão comprando na loja, conforme mostrado  >  **** na Figura 1. **** Para obter mais informações sobre Microsoft Store para Empresas de licenciamento de aplicativos, consulte [Apps in Microsoft Store para Empresas and Education](/microsoft-store/).
 
    > [!div class="mx-imgBorder"]
-   > ![Mostrar caixa de seleção de aplicativos de licenças offline](images/deploysurfapp-figure1-enablingapps.png "Show offline licenses apps checkbox")<br/>
+   > ![Mostrar caixa de seleção de aplicativos de licenças offline.](images/deploysurfapp-figure1-enablingapps.png "Show offline licenses apps checkbox")<br/>
    *Figura 1. Habilitar aplicativos para uso offline*
 
 4. Adicione o aplicativo Surface à sua Microsoft Store para Empresas conta:
@@ -81,7 +81,7 @@ Antes que os usuários possam instalar ou implantar um aplicativo a partir da co
     * Você é apresentado com uma opção (selecione **Online** ou **Offline**), conforme mostrado na Figura 2.
     
       > [!div class="mx-imgBorder"]
-      > ![Selecione o modo de licenciamento offline e adicione o aplicativo ao inventário](images/deploysurfapp-fig2-selectingofflinelicense.png "Select the Offline licensing mode and add the app to your inventory")   
+      > ![Selecione o modo de licenciamento offline e adicione o aplicativo ao inventário.](images/deploysurfapp-fig2-selectingofflinelicense.png "Select the Offline licensing mode and add the app to your inventory")   
       *Figura 2. Selecione o modo de licenciamento offline e adicione o aplicativo ao inventário*
     
     * Clique **em Offline** para selecionar o modo de licenciamento offline.
@@ -89,7 +89,7 @@ Antes que os usuários possam instalar ou implantar um aplicativo a partir da co
     * Clique **em Obter o aplicativo** para adicionar o aplicativo ao inventário Microsoft Store para Empresas usuário. Conforme mostrado na Figura 3, você verá uma caixa de diálogo que solicita que você reconheça que os aplicativos offline podem ser implantados usando uma ferramenta de gerenciamento ou baixados da página de inventário da empresa em seu armazenamento particular.
     
       > [!div class="mx-imgBorder"]
-      > ![Janela de confirmação de aplicativo licenciado offline ](images/deploysurfapp-fig3-acknowledge.png "Offline-licensed app acknowledgement window")
+      > ![Janela de confirmação de aplicativo licenciado offline. ](images/deploysurfapp-fig3-acknowledge.png "Offline-licensed app acknowledgement window")
        *Figura 3. Reconhecimento de aplicativo licenciado offline*
       
     * Clique em **OK**.
@@ -106,7 +106,7 @@ Depois de adicionar um aplicativo à conta Microsoft Store para Empresas no modo
 4. Selecione as opções **** **de Plataforma** e Arquitetura desejadas nas seleções disponíveis para o aplicativo selecionado, conforme mostrado na Figura 4.
 
     > [!div class="mx-imgBorder"]
-    > ![Exemplo do pacote AppxBundle](images/deploysurfapp-fig4-downloadappxbundle.png "Example of the AppxBundle package")<br/>
+    > ![Exemplo do pacote AppxBundle.](images/deploysurfapp-fig4-downloadappxbundle.png "Example of the AppxBundle package")<br/>
     *Figura 4. Baixar o pacote AppxBundle para um aplicativo*
     
 5. Clique **em Baixar**. O pacote AppxBundle será baixado. Observe o caminho do arquivo baixado, pois você precisará disso mais adiante neste artigo.
@@ -121,7 +121,7 @@ Depois de adicionar um aplicativo à conta Microsoft Store para Empresas no modo
 A Figura 5 mostra as estruturas necessárias para o aplicativo Surface.
 
 > [!div class="mx-imgBorder"]
-> ![Estruturas necessárias para o aplicativo Surface](images/deploysurfapp-fig5-requiredframework.png "Required frameworks for the Surface app")<br/>
+> ![Estruturas necessárias para o aplicativo Surface.](images/deploysurfapp-fig5-requiredframework.png "Required frameworks for the Surface app")<br/>
 *Figura 5. Estruturas necessárias para o aplicativo Surface*
 
 >[!NOTE]

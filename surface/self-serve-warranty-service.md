@@ -12,14 +12,14 @@ ms.date: 06/07/2021
 ms.reviewer: louannh
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: a6021a58c85ac6ee4c039959dcde9bab632ea1bb
-ms.sourcegitcommit: 267e12897efd9d11f8c7303eaf780632741cfe77
+ms.openlocfilehash: 57801a7eb663d08a0af28c825c698318f8673d40
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "11614034"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911986"
 ---
-# <a name="surface-self-serve-warranty-and-service"></a>Garantia e serviço de autoatendação do Surface
+# <a name="surface-self-serve-warranty-and-service"></a>Garantia e serviço de autoatendimento de superfície
 
 Microsoft 365 Os clientes comerciais podem estar qualificados para usar o nó Surface Self Serve Warranty and Service no centro de Administração Microsoft 365 para criar e gerenciar pedidos de serviço. Esse novo recurso, disponível como um programa beta, permite que os Administradores Globais designem permissões para indivíduos em sua empresa responsáveis por oferecer suporte a declarações de garantia e serviço, incluindo:
 
@@ -53,7 +53,7 @@ Para obter mais informações sobre usuários e permissões, consulte [Visão ge
 2. Vá para **Suporte**  >  **a Reparos de Dispositivo Surface** e selecione Criar **solicitação de reparo**. (Se você não vir essa opção de reparo, não terá permissão para acessar esta página.)
 
     > [!div class="mx-imgBorder"]
-    > ![Iniciar solicitação de reparo de autoatendito](images/self-serve-fig1.png)
+    > ![Inicie a solicitação de reparo de autoatendito.](images/self-serve-fig1.png)
 
 3. Você pode criar uma solicitação de reparo para um ou vários dispositivos. Selecione Enviar **um dispositivo** de **** cada vez ou Enviar vários dispositivos para usar um arquivo .csv para carregar vários números de série e selecione **Próximo**.
 
@@ -72,27 +72,25 @@ Para obter mais informações sobre usuários e permissões, consulte [Visão ge
     > - O formulário valida automaticamente as informações de endereço e você pode ser corrigido para fazer alterações se o endereço não for reconhecido pelo sistema postal local. O endereço de email é usado para enviar notificações e comunicações para a solicitação de reparo.
 
     > [!div class="mx-imgBorder"]
-    > ![
-      Adicionar novo endereço
-    ](images/self-serve-fig2a.png)
+    > ![Adicione novo endereço.](images/self-serve-fig2a.png)
 
 5. Adicione o dispositivo inserindo o número de série do dispositivo no bloco de texto. Para saber mais, confira [números de série do dispositivo](https://support.microsoft.com/help/4036293/surface-find-the-serial-number-on-surface). Se o número de série for válido, uma imagem e informações do produto, incluindo a data da garantia e o número do modelo, serão exibidas. Selecione **Adicionar Dispositivo** se as informações estão corretas.
 
     > [!div class="mx-imgBorder"]
-    > ![Adicionar dispositivos](images/self-serve-fig2.png)
+    > ![Adicionar dispositivos.](images/self-serve-fig2.png)
 
 6. Repita as etapas 1 a 2 para adicionar vários dispositivos (até 20 no total) à solicitação.
 7. No menu suspenso, selecione o tipo de problema que melhor descreve o problema e selecione **Próximo.**
 
     > [!div class="mx-imgBorder"]
-    > ![Selecionar categoria de problema](images/self-serve-fig3.png)
+    > ![Selecione categoria de problema.](images/self-serve-fig3.png)
 
 8. Revise seu pedido. Se alguma informação estiver incorreta, escolha **Voltar** para corrigir erros.
 9. Aceite os termos de condições.
 10. Se o resumo da solicitação estiver correto, selecione **Enviar sua solicitação**.
 
     > [!div class="mx-imgBorder"]
-    > ![Enviar solicitação de reparo de autoatendito](images/self-serve-fig4.png)
+    > ![Enviar solicitação de reparo de autoatendito.](images/self-serve-fig4.png)
 
 Quando a home page é exibida, você pode exibir sua solicitação de serviço na lista de resumos e receber um email de confirmação.
 

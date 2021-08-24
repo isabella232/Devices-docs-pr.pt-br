@@ -12,12 +12,12 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 03/25/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 4308ce1ea8ff382dc15706e68d2d706d0fd33f5f
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: 384d2d76274121236e76b1b5e45b30505e929c19
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11576751"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911796"
 ---
 # <a name="manage-surface-hub-with-an-mdm-provider"></a>Gerenciar o Surface Hub com um provedor MDM
 
@@ -65,7 +65,7 @@ Para resumir, as opções para configurar e gerenciar configurações de políti
 4. Selecione **Criar**, adicionar um nome e selecione **Next.**
 6. Agora você pode navegar e escolher entre as configurações de restrição de dispositivo predefinidas para Surface Hub nas seguintes categorias: aplicativos e experiência, percepções operacionais do Azure, manutenção, sessão e projeção sem fio. O exemplo mostrado na figura a seguir especifica uma janela de manutenção de 4 horas e um tempo de tempo de 15 minutos para tela, sono e retomada de sessão.
 
-     ![Configurar Surface Hub configurações com o perfil de restrição de dispositivo do Intune](images/sh-device-restrictions.png)
+     ![Configure Surface Hub configurações com o perfil de restrição de dispositivo do Intune.](images/sh-device-restrictions.png)
 
 Para obter mais informações sobre como criar e gerenciar perfis, consulte [Restrict devices features using policy in Microsoft Intune](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-configure#create-the-profile).
  
@@ -89,7 +89,7 @@ Para obter mais informações sobre como gerenciar Surface Hub recursos e config
 
 Você pode estender o [](https://docs.microsoft.com/mem/intune/configuration/custom-settings-configure) escopo de gerenciamento criando um perfil personalizado usando um URI OMA de qualquer um dos [CSPs](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport)com suporte em Microsoft Surface Hub . Cada configuração em um CSP tem um OMA-URI correspondente que você pode definir usando perfis de configuração personalizados no Intune. Para obter detalhes sobre os CSPs com suporte Surface Hub, você pode fazer referência aos seguintes recursos: 
 
-- [Referência de provedor de serviços de configuração](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport)
+- [Referência do provedor de serviços de configuração](https://docs.microsoft.com/windows/client-management/mdm/configuration-service-provider-reference#surfacehubcspsupport)
 - [CSPs de políticas suportados pelo Microsoft Surface Hub](https://docs.microsoft.com/windows/client-management/mdm/policy-csps-supported-by-surface-hub)
 - [CSP SurfaceHub](https://docs.microsoft.com/windows/client-management/mdm/surfacehub-csp)
 > [!NOTE]

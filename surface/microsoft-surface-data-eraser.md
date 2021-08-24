@@ -15,12 +15,12 @@ ms.author: greglin
 ms.topic: article
 audience: itpro
 ms.date: 05/17/2021
-ms.openlocfilehash: d96581cd67e9cd4171fbb745aed4e9b34e2f0627
-ms.sourcegitcommit: a4f8d271b1372321c3b45fc5a7a29703976964a4
+ms.openlocfilehash: 292c20c9999d9f226f28daed87069c78b43fd4bf
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "11576621"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911186"
 ---
 # <a name="microsoft-surface-data-eraser"></a>Microsoft Surface Data Eraser
 
@@ -77,12 +77,12 @@ Depois que a ferramenta de criação for instalada, siga estas etapas para criar
 
 3. Clique em **Iniciar** para confirmar que há um pen drive de pelo menos 4 GB conectado, conforme mostrado na Figura 1.
 
-   ![Inicie a ferramenta Microsoft Surface Data Eraser](images/dataeraser-start-tool.png "Start the Microsoft Surface Data Eraser tool")
+   ![Inicie a ferramenta Microsoft Surface Data Eraser.](images/dataeraser-start-tool.png "Start the Microsoft Surface Data Eraser tool")
 
    *Figura 1. Inicie a ferramenta Microsoft Surface Data Eraser*
 4. Escolha **x64 para a** maioria dos dispositivos Surface ou **** **ARM64** para Surface Pro X na página Seleção de Arquitetura, conforme mostrado na Figura 2. Selecione **Continuar**.
 
-    ![Seleção de arquitetura](images/dataeraser-arch.png "Architecture Selection")<br>
+    ![Seleção de arquitetura.](images/dataeraser-arch.png "Architecture Selection")<br>
        *Figura 2. Selecionar arquitetura de dispositivo*
 
 5. Selecione a unidade USB de sua escolha na página Seleção de Unidade **** de Polegar **USB,** conforme mostrado na Figura 3, e clique em Iniciar para iniciar o processo de criação usb. A unidade que você selecionar será formatada, e todos os dados existentes nela serão perdidos.
@@ -90,7 +90,7 @@ Depois que a ferramenta de criação for instalada, siga estas etapas para criar
    >[!TIP]
    >Se o botão Iniciar estiver desabilitado, verifique se a unidade removível tem capacidade total de pelo menos 4 GB.
   
-   ![Seleção de pen drive](images/dataeraser-usb-selection.png "USB thumb drive selection")
+   ![Seleção de unidade de pen drive USB.](images/dataeraser-usb-selection.png "USB thumb drive selection")
 
    *Figura 3. Seleção de pen drive*
 
@@ -98,7 +98,7 @@ Depois que a ferramenta de criação for instalada, siga estas etapas para criar
 
 7. Quando a tela **Parabéns** for exibida, você poderá ejetar e remover o pen drive. Esse pen drive agora está pronto para ser inserido em um dispositivo Surface, para executar a inicialização e apagar todos os dados no dispositivo. Clique **em Concluir** para concluir o processo de criação usb, conforme mostrado na Figura 4.
 
-   ![Processo de criação do Surface Data Eraser USB](images/dataeraser-complete-process.png "Surface Data Eraser USB creation process")
+   ![Processo de criação USB do Surface Data Eraser.](images/dataeraser-complete-process.png "Surface Data Eraser USB creation process")
 
    *Figura 4. Concluir o processo de criação do pen drive do Microsoft Surface Data Eraser*
 
@@ -122,7 +122,7 @@ Após criar um pen drive do Microsoft Surface Data Eraser, você pode inicializa
 
 3. Quando o dispositivo Surface é inicializado, um **arquivo de texto SoftwareLicenseTerms** é exibido, conforme mostrado na Figura 5.
 
-   ![Inicialização do pen drive do Microsoft Surface Data Eraser](images/data-eraser-3.png "Booting the Microsoft Surface Data Eraser USB stick")
+   ![Inicializando o pen drive do Microsoft Surface Data Eraser.](images/data-eraser-3.png "Booting the Microsoft Surface Data Eraser USB stick")
 
    *Figura 5. Inicialização do pen drive do Microsoft Surface Data Eraser*
 
@@ -135,7 +135,7 @@ Após criar um pen drive do Microsoft Surface Data Eraser, você pode inicializa
    >[!CAUTION]
    >A ferramenta Microsoft Surface Data Eraser excluirá todos os dados, incluindo arquivos do sistema operacional Windows necessários para inicializar o dispositivo, de forma segura e irrecuperável. Para inicializar um dispositivo Surface que foi apagado com o Microsoft Surface Data Eraser, primeiro você precisará reinstalar o sistema operacional Windows. Para remover dados de um dispositivo Surface sem remover o sistema operacional Windows, você pode usar a função **Restaurar o PC**. No entanto, isso não impede que os dados sejam recuperados com recursos forenses ou de recuperação de dados. Confira [Opções de recuperação no Windows 10](https://support.microsoft.com/help/12415/windows-10-recovery-options) para obter mais informações.
 
-   ![A partição a ser apagada é exibida](images/sda-fig5-erase.png "Partition to be erased is displayed")
+   ![A partição a ser apagada é exibida.](images/sda-fig5-erase.png "Partition to be erased is displayed")
   
    *Figura 6. A partição a ser apagada é exibida no Microsoft Surface Data Eraser*
 

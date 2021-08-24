@@ -9,74 +9,74 @@ author: v-miegge
 ms.author: v-miegge
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 7912f9d1bab2ba625995c56d6d7da4e6b2d3df37
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: e220be7d4613fcb6a14180e482dc4f2c66a5ddc8
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830320"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911026"
 ---
-# Resumo
+# <a name="summary"></a>Resumo
 
-Este artigo descreve como usar a função de recuperação de nuvem se você for avisado de forma inesperada pelo BitLocker em um dispositivo Surface Hub.
+Este artigo descreve como usar a função de recuperação de nuvem se você for inesperadamente solicitado pelo BitLocker em um Surface Hub dispositivo.
 
 > [!NOTE]
-> Você deve seguir estas etapas apenas se uma chave de recuperação do BitLocker não estiver disponível.
+> Você deve seguir estas etapas somente se uma chave de recuperação do BitLocker não estiver disponível.
 
 > [!WARNING]
-> * Este processo de recuperação exclui o conteúdo da unidade interna. Se o processo falhar, a unidade interna ficará completamente inutilizável. Se isso ocorrer, será preciso registrar uma solicitação de serviço na Microsoft para obter uma solução.
-> * Após a conclusão do processo de recuperação, o dispositivo será redefinido para as configurações de fábrica e retornado ao estado de experiência inicial do da caixa.
-> * Após a recuperação, o Surface hub deve ser completamente reconfigurado.
+> * Esse processo de recuperação exclui o conteúdo da unidade interna. Se o processo falhar, a unidade interna se tornará completamente inutilizável. Se isso ocorrer, você terá que registrar uma solicitação de serviço com a Microsoft para uma resolução.
+> * Depois que o processo de recuperação for concluído, o dispositivo será redefinido para as configurações de fábrica e retornado para seu estado de experiência fora da caixa.
+> * Após a recuperação, o Surface Hub deve ser completamente reconfigurado.
 
 > [!IMPORTANT]
-> Esse processo requer uma conexão com a Internet aberta que não usa um método proxy ou outro método de autenticação.
+> Esse processo requer uma conexão de Internet aberta que não usa um proxy ou outro método de autenticação.
 
-##  <a name="cloud-recovery-process"></a>Processo de recuperação na nuvem
+## <a name="cloud-recovery-process"></a>Processo de recuperação de nuvem
 
-Para executar uma recuperação na nuvem, siga estas etapas:
+Para executar uma recuperação de nuvem, siga estas etapas:
 
-1. Selecione **pressione ESC para obter mais opções de recuperação**.
+1. Selecione **Pressionar Esc para obter mais opções de recuperação.**
 
-   ![Captura de tela do escape](images/01-escape.png)
+   ![Captura de tela de Escape.](images/01-escape.png)
 
-1. Selecione **ignorar esta unidade**.
+1. Selecione **Ignorar essa unidade**.
 
-   ![Captura de tela de ignorar esta unidade](images/02-skip-this-drive.png)
+   ![Captura de tela de Ignorar essa unidade.](images/02-skip-this-drive.png)
 
-1. Selecione **recuperar na nuvem**.
+1. Selecione **Recuperar da nuvem**.
 
-   ![Captura de tela da recuperação da nuvem](images/03-recover-from-cloud.png)
+   ![Captura de tela de Recuperar da nuvem.](images/03-recover-from-cloud.png)
 
 1. Selecione **Sim**.
 
-   ![Captura de tela de Sim](images/04-yes.png)
+   ![Captura de tela de Sim.](images/04-yes.png)
 
-1. Selecione **reinstalar**.
+1. Selecione **Reinstalar**.
 
-   ![Captura de tela da reinstalação](images/05a-reinstall.png)
+   ![Captura de tela da Reinstalação.](images/05a-reinstall.png)
 
-   ![Captura de tela do download](images/05b-downloading.png)
+   ![Captura de tela de Download.](images/05b-downloading.png)
 
-1. Após a conclusão do processo de recuperação na nuvem, inicie a reconfiguração usando a **experiência**inicial.
+1. Depois que o processo de recuperação de nuvem for concluído, inicie a reconfiguração usando a **Experiência de**Saída.
 
-   ![Captura de tela da caixa de saída](images/06-out-of-box.png)
+   ![Captura de tela de Fora da Caixa.](images/06-out-of-box.png)
 
-##  <a name="something-went-wrong-error-message"></a>Mensagem de erro "algo deu errado"
+## <a name="something-went-wrong-error-message"></a>Mensagem de erro "Algo deu errado"
 
-Geralmente, esse erro é causado por problemas de rede que ocorrem durante o download de recuperação. Quando esse problema ocorre, não desligue o Hub porque você não poderá reiniciá-lo. Se você receber essa mensagem de erro, retorne à etapa "recuperar da nuvem" e reinicie o processo de recuperação.
+Esse erro geralmente é causado por problemas de rede que ocorrem durante o download de recuperação. Quando esse problema ocorrer, não desligue o Hub porque você não poderá reiniciá-lo. Se você receber essa mensagem de erro, retorne para a etapa "Recuperar da nuvem" e reinicie o processo de recuperação.
 
 1. Selecione **Cancelar**.
 
-   ![Captura de tela do cancelamento](images/07-cancel.png)
+   ![Captura de tela de Cancel.](images/07-cancel.png)
 
-1. Selecione **solucionar problemas**.
+1. Selecione **Solucionar problemas**.
 
-   ![Captura de tela da solução de problemas](images/08-troubleshoot.png)
+   ![Captura de tela de Solução de Problemas.](images/08-troubleshoot.png)
 
-1. Selecione **recuperar na nuvem**.
+1. Selecione **Recuperar da nuvem**.
 
-   ![Captura de tela da recuperação da nuvem](images/09-recover-from-cloud2.png)
+   ![Captura de tela de Recuperar da nuvem.](images/09-recover-from-cloud2.png)
 
-1. Se o erro **rede com fio não for encontrado** , selecione **Cancelar**e deixe o Surface Hub Redescubra a rede com fio.
+1. Se o **erro da rede** Com fio não for encontrado, selecione **Cancelar**e, em seguida, permitir que a rede Surface Hub redescobrir a rede com fio.
 
-   ![A captura de tela da rede com fio não é encontrada](images/10-cancel.png)
+   ![Captura de tela da rede Com fio não foi encontrada.](images/10-cancel.png)

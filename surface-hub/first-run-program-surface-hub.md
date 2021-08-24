@@ -12,12 +12,12 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 08/17/2021
 ms.localizationpriority: medium
-ms.openlocfilehash: 947d73febb41562b44d5ecb102511be314ad987e
-ms.sourcegitcommit: 3810c4310e9f5b5b9ad7b4584eaede2789ccd946
+ms.openlocfilehash: 95b3e9dceab3304da627807cf28a9e37a5af10d4
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "11902900"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911446"
 ---
 # <a name="first-time-setup-for-surface-hub"></a>Configuração da primeira vez para Surface Hub
 
@@ -30,31 +30,31 @@ Quando você começa a Surface Hub, o dispositivo entra automaticamente no modo 
 
 1. Por padrão, Cortana está habilitado para orientá-lo durante o processo. Para desativar Cortana assistência, selecione o ícone de microfone.
 
-    :::image type="content" source="images/hub-setup-cortana.png" alt-text="Cortana está habilitado para orientá-lo durante o processo":::
+    :::image type="content" source="images/hub-setup-cortana.png" alt-text="Cortana está habilitado para orientá-lo durante o processo.":::
 
 2. **Selecione sua região.** Confirme a região detectada automaticamente e selecione **Sim**.
 
-    :::image type="content" source="images/hub-setup-region.png" alt-text="Selecionar suaregião":::
+    :::image type="content" source="images/hub-setup-region.png" alt-text="Selecione sua região.":::
 
 3. **Confirme o layout do teclado.** Selecione **Sim**.
 
-    :::image type="content" source="images/hub-setup-keyboard.png" alt-text="Confirmar layout do teclado":::
+    :::image type="content" source="images/hub-setup-keyboard.png" alt-text="Confirme o layout do teclado.":::
 
 4. Para adicionar um segundo teclado, selecione **Adicionar layout**. Caso contrário, selecione **Ignorar**.
 
-    :::image type="content" source="images/hub-setup-2keyboard.png" alt-text="Adicionar um segundo teclado":::
+    :::image type="content" source="images/hub-setup-2keyboard.png" alt-text="Adicione um segundo teclado.":::
 
 5. **Conexão para uma rede.** Se você já tiver anexado um cabo Ethernet, Surface Hub se conectará automaticamente à sua rede. Como alternativa, você pode se conectar a uma rede sem fio. **Observação:** Você não pode se conectar a uma rede sem fio em hotspots (portais cativos) que redirecionam as solicitações de login para o site de um provedor. Selecione **Avançar**.
 
-    :::image type="content" source="images/hub-setup-network.png" alt-text="Conectar a uma rede":::
+    :::image type="content" source="images/hub-setup-network.png" alt-text="Conexão para uma rede.":::
 
 6. **Aceite Windows 10 Contrato de Licença.** Selecione **Aceitar**.
 
-    :::image type="content" source="images/hub-setup-license.png" alt-text="Aceitar Windows 10 Contrato de Licença":::
+    :::image type="content" source="images/hub-setup-license.png" alt-text="Aceite Windows 10 Contrato de Licença.":::
 
 7. **Insira informações da** conta do dispositivo usando um endereço UPN (user@contoso.com) ou um endereço de domínio de nível inferior (CONTOSO\user). Use o formato que corresponde ao seu ambiente e insira a senha.
 
-    :::image type="content" source="images/hub-setup-device-account.png" alt-text="Inserir informações da conta do dispositivo":::
+    :::image type="content" source="images/hub-setup-device-account.png" alt-text="Insira Informações da conta do dispositivo.":::
 
 | Ambiente                                              | Formato exigido para a conta de dispositivo |
 | -------------------------------------------------------- | ---------------------------------- |
@@ -69,11 +69,11 @@ Quando você começa a Surface Hub, o dispositivo entra automaticamente no modo 
 
 9. Surface Hub detecta automaticamente Exchange informações de endereço SIP e servidor do domínio inserido na etapa anterior. Ou, se necessário, forneça seu endereço Exchange servidor e selecione **Next**.
 
-    :::image type="content" source="images/hub-setup-exchange.png" alt-text="Exchange servidor e endereço SIP":::
+    :::image type="content" source="images/hub-setup-exchange.png" alt-text="Exchange servidor e endereço SIP.":::
 
 10. **Nomeia esse dispositivo.** Insira um nome para seu dispositivo ou use o sugerido. **Selecione Próximo**.
 
-    :::image type="content" source="images/hub-setup-name.png" alt-text="Nomear este dispositivo":::
+    :::image type="content" source="images/hub-setup-name.png" alt-text="Nomeia esse dispositivo.":::
 
 - O **nome Amigável** fica visível no canto inferior esquerdo do Surface Hub 2S e é mostrado ao projetar para o dispositivo.
 - O **nome do dispositivo** identifica o dispositivo quando afiliada ao Active Directory ou Azure Active Directory e ao registrar o dispositivo com o Intune.
@@ -90,7 +90,7 @@ Você só pode configurar administradores de dispositivos durante a instalação
 
 1. **Escolha o tipo de conta de administrador.** Selecione uma das seguintes opções: Serviços de Domínio do Active Directory, Azure Active Directory ou administrador local.
 
-    :::image type="content" source="images/hub-setup-join.png" alt-text="Escolha o tipo de conta de administrador":::
+    :::image type="content" source="images/hub-setup-join.png" alt-text="Escolha o tipo de conta de administrador.":::
 
 ### <a name="active-directory-domain-services"></a>Active Directory Domain Services
 
@@ -103,7 +103,7 @@ Você só pode configurar administradores de dispositivos durante a instalação
 1. Se você pretende gerenciar Surface Hub na nuvem usando Microsoft Intune ou um provedor MDM, selecione **Microsoft Azure Active Directory**.
 2. Selecione Próximo e entre com uma conta de trabalho ou de estudante. Se redirecionado, autenture-se usando a página de login da sua organização e forneça credenciais adicionais, se solicitado. Caso contrário, insira sua senha e selecione **Next.**
 
-    :::image type="content" source="images/hub-setup-signin.png" alt-text="Entrar com uma conta de trabalho ou de estudante":::
+    :::image type="content" source="images/hub-setup-signin.png" alt-text="Entre com uma conta de trabalho ou de estudante.":::
 
 >[!NOTE]
 >Para configurar quem pode usar o aplicativo Configurações para administrar Surface Hubs, certifique-se de que o registro automático do Intune está habilitado em seu locatário antes de ingressar no dispositivo no Azure AD. Em seguida, as políticas do Intune podem ser usadas para [configurar administradores](surface-hub-2s-nonglobal-admin.md) não globais nos Surface Hubs.
@@ -112,13 +112,13 @@ Você só pode configurar administradores de dispositivos durante a instalação
 
 - Insira um nome de usuário e uma senha memorável para o administrador [](surface-hub-2s-recover-reset.md) local. (Se você esquecer a senha de administrador local, precisará recuperar seu dispositivo e repetir o processo de instalação.)  
 
-    :::image type="content" source="images/hub-setup-local-admin.png" alt-text="Insira uma senha memorável para a conta de administrador local":::
+    :::image type="content" source="images/hub-setup-local-admin.png" alt-text="Insira uma senha memorável para a conta de administrador local.":::
 
 ### <a name="choose-privacy-settings-for-your-device"></a>Escolha as configurações de privacidade para o seu dispositivo
 
 - Selecione entre as configurações de privacidade disponíveis e selecione **Aceitar.**
 
-    :::image type="content" source="images/hub-setup-privacy.png" alt-text="Escolha configurações de privacidade":::
+    :::image type="content" source="images/hub-setup-privacy.png" alt-text="Escolha configurações de privacidade.":::
 
 ### <a name="use-provisioning-packages"></a>Usar pacotes de provisionamento
 

@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 appliesto:
 - Surface Hub
 - Surface Hub 2S
-ms.openlocfilehash: bb5c08454d6c148c5e07b80ee0b4452e5b768a87
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: 9f0f63cb44c54b6350bc478e4fc15455ba94e85f
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676705"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911816"
 ---
 # <a name="create-provisioning-packages-for-surface-hub"></a>Criar os pacotes de provisionamento para Surface Hub
 
@@ -33,7 +33,7 @@ Os pacotes de provisionamento permitem automatizar a implantação de recursos p
 - Adicionar um arquivo de configuração do Surface Hub
 - Configurar [configurações do Provedor de Serviços de Configuração (CSP)](/windows/client-management/mdm/surfacehub-csp)
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 1. Em um computador separado executando Windows 10, [instale Windows Configuration Designer](https://www.microsoft.com/store/apps/9nblggh4tx22) do Microsoft Store.
 1. Selecione [**Provisionar Surface Hub dispositivos**](#use-surface-hub-provisioning-wizard) para configurar configurações comuns usando um assistente. Ou selecione [Provisionamento avançado](#use-advanced-provisioning) para exibir e configurar todas as configurações possíveis.
@@ -43,21 +43,21 @@ Os pacotes de provisionamento permitem automatizar a implantação de recursos p
 ## <a name="use-surface-hub-provisioning-wizard"></a>Usar Surface Hub de provisionamento
 
 1. Abra Windows Designer de Configuração e selecione **Provision Surface Hub dispositivos**.<br>
-    ![Use o assistente de provisionamento do Surface Hub](images/sh-prov-start.png)
+    ![Use o assistente Surface Hub de provisionamento.](images/sh-prov-start.png)
     
 2. Nomeia seu projeto e selecione **Próximo**.
 
 ### <a name="add-certificates"></a>Adicionar certificados
 
 > [!div class="mx-imgBorder"]
-> ![adicionar um certificado](images/sh-prov-cert.png)
+> ![adicionar um certificado.](images/sh-prov-cert.png)
 
 Para provisionar o dispositivo com um certificado, selecione **Adicionar um certificado**. Insira um nome para o certificado e procure para selecionar o certificado a ser usado.  Para opções de provisionamento avançadas, consulte a seção abaixo [Adicionar um certificado ao pacote](#add-a-certificate-to-your-package).
 
 ### <a name="configure-proxy-settings"></a>Configurar as definições do proxy
 
 > [!div class="mx-imgBorder"]
-> ![configurar as definições do proxy](images/sh-prov-proxy.png)
+> ![configurar configurações de proxy.](images/sh-prov-proxy.png)
 
 1. Alterne entre **Sim** ou **Não** para as configurações de proxy. Por padrão, Surface Hub detecta automaticamente as configurações de proxy. No entanto, se anteriormente sua infraestrutura precisava usar um servidor proxy e houve alteração para não exigir um servidor proxy, você pode usar um pacote de provisionamento para reverter seus dispositivos Surface Hub para as configurações padrão, selecionando **Sim** e **Detectar configurações automaticamente**.
 2. Se você alternar **sim**, poderá selecionar para detectar automaticamente as configurações de proxy ou configurar manualmente as configurações inserindo uma das seguintes:
@@ -72,7 +72,7 @@ Para provisionar o dispositivo com um certificado, selecione **Adicionar um cert
 ### <a name="set-up-device-admins"></a>Configurar administradores de dispositivos
 
  > [!div class="mx-imgBorder"]
- > ![Ingressar no Active Directory, no Azure AD ou criar uma conta de administrador local](images/sh2-wcd.png)
+ > ![Participe do Active Directory, do Azure AD ou crie uma conta de administrador local.](images/sh2-wcd.png)
 
 Você pode registrar o dispositivo no Active Directory e especificar um grupo de segurança para usar o aplicativo Configurações, se inscrever no Azure Active Directory para permitir que os administradores globais usem o aplicativo Configurações ou criar uma conta de administrador local no dispositivo.
 
@@ -87,7 +87,7 @@ Você pode registrar o dispositivo no Active Directory e especificar um grupo de
 ### <a name="enroll-in-third-party-mdm-provider"></a>Registrar-se no provedor de MDM de terceiros
 
 > [!div class="mx-imgBorder"]
-> ![Registrar-se no gerenciamento de dispositivo móvel de terceiros](images/sh-prov-mdm.png)
+> ![Inscreva-se no gerenciamento de dispositivos móveis de terceiros.](images/sh-prov-mdm.png)
 
 Se você usar um provedor de gerenciamento de dispositivo móvel (MDM) de terceiros, poderá usar esta seção para registrar Surface Hub. Para se inscrever no Intune, primeiro configure o Azure AD join, conforme descrito na seção anterior, e siga as instruções na seguinte documentação do Intune: Configurar o registro automático para dispositivos [Windows 10](/mem/intune/enrollment/quickstart-setup-auto-enrollment).
 
@@ -100,7 +100,7 @@ Se você usar um provedor de gerenciamento de dispositivo móvel (MDM) de tercei
 ### <a name="add-applications"></a>Adicionar aplicativos
 
 > [!div class="mx-imgBorder"]
-> ![adicionar um aplicativo](images/sh-prov-apps.png)
+> ![adicionar um aplicativo.](images/sh-prov-apps.png)
 
 Você pode instalar vários aplicativos da Plataforma Universal do Windows (UWP) em um pacote de provisionamento. Para saber mais, confira [Provisionar PCs com aplicativos](/windows/configuration/provisioning-packages/provision-pcs-with-apps).
 
@@ -142,7 +142,7 @@ Se você precisar apenas definir configurações comuns, selecione **Concluir**C
 ## <a name="use-advanced-provisioning"></a>Usar provisionamento avançado
 
 > [!TIP]
-> Use o assistente para criar um pacote com as configurações comuns e alterne para o editor avançado a fim de adicionar outras configurações.<br><br> ![Alternar para o editor avançado](images/icd-simple-edit.png)
+> Use o assistente para criar um pacote com as configurações comuns e alterne para o editor avançado a fim de adicionar outras configurações.<br><br> ![Alternar para editor avançado.](images/icd-simple-edit.png)
 
 1. Se continuar na seção anterior, selecione **Alternar** para editor avançado caso contrário, abra **Windows Designer** de Configuração e selecione **Provisionamento avançado**.
 
@@ -152,7 +152,7 @@ Se você precisar apenas definir configurações comuns, selecione **Concluir**C
 
 3. Selecione **Comum para Windows 10 Team,** selecione **Próximo**e, em seguida, selecione **Concluir**.
 
-   ![Novo projeto do WCD](images/icd-new-project.png)
+   ![Novo projeto do WCD.](images/icd-new-project.png)
 
 4. No projeto, em **Personalizações disponíveis,** selecione **Configurações comuns da equipe.**
 

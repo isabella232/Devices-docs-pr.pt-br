@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 04/15/2021
 ms.localizationpriority: Medium
-ms.openlocfilehash: c94cb701fb1b7fcdc0168a795f57a4e497317902
-ms.sourcegitcommit: 77b2c51f8467ac3ac37399551b0cc20d9ce57d24
+ms.openlocfilehash: fb0948623ec9c12aa818e4829285ea77229bf71d
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "11585962"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911576"
 ---
 # <a name="update-pen-firmware-on-surface-hub-2s"></a>Atualizar o firmware da caneta no Surface Hub 2S
 
@@ -29,7 +29,7 @@ Esta seção descreve como atualizar o firmware de caneta por meio dos ciclos de
 1. Verifique se Surface Hub caneta 2 está emparelhada Surface Hub 2S: pressione **** e segure o botão superior até que a luz LED do indicador branco comece a piscar.
 
     > [!div class="mx-imgBorder"]
-    > ![Surface Hub caneta 2](images/sh2-pen-1.png)
+    > ![Surface Hub caneta 2.](images/sh2-pen-1.png)
 
 2. No Surface Hub, faça logon como administrador, **abra**Configurações e, em seguida, procure novos Bluetooth dispositivos.
 
@@ -44,7 +44,7 @@ Você pode atualizar o firmware na Surface Hub 2 de um computador separado que e
 1. Emparelhe Surface Hub caneta 2 ao computador com capacidade Bluetooth: pressione **** e segure o botão superior até que a luz LED do indicador branco comece a piscar.
 
     > [!div class="mx-imgBorder"]
-    > ![Surface Hub caneta 2](images/sh2-pen-1.png)
+    > ![Surface Hub caneta 2.](images/sh2-pen-1.png)
 
 2. No computador, procure novos dispositivos Bluetooth.
 

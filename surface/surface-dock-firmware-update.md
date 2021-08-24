@@ -12,12 +12,12 @@ ms.reviewer: scottmca
 manager: laurawi
 ms.audience: itpro
 ms.date: 2/08/2021
-ms.openlocfilehash: 544aa8ab7cb9bb443f368bfbbcecb1fa256d32c5
-ms.sourcegitcommit: ad08299d14810db746514f01d977a81fc5a3961e
+ms.openlocfilehash: 070139370fc8175a116cb2e2a329404af8ac09b9
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "11708752"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911146"
 ---
 # <a name="surface-dock-1-firmware-update"></a>Atualização de firmware do Surface Dock 1
 
@@ -125,7 +125,7 @@ A conclusão bem-sucedida da Atualização de Firmware do Surface Dock 1 resulta
 
 2. Procure as chaves do Registro: **Component10CurrentFwVersion e Component20CurrentFwVersion**, que se referem ao firmware que está atualmente no dispositivo.
 
-   ![Processo de instalação do Surface Dock 1 Firmware Update](images/regeditDock.png)
+   ![Processo de instalação do Surface Dock 1 Firmware Update.](images/regeditDock.png)
 
 3. Verifique se os novos valores de chave do Registro corresponderão aos valores de chave do Registro atualizados listados na referência Versões no final deste documento. Se os valores corresponderem, o firmware foi atualizado com êxito.
 
@@ -135,7 +135,7 @@ A conclusão bem-sucedida da Atualização de Firmware do Surface Dock 1 resulta
 
 ### <a name="table-1-log-files-for-surface-dock-1-firmware-update"></a>Tabela 1. Arquivos de log para Atualização de Firmware do Surface Dock 1
 
-| Log                              | Localização                               | Observações                                                                                                                                                                                                         |
+| Log                              | Location                               | Observações                                                                                                                                                                                                         |
 | -------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Log de Atualização de Firmware do Surface Dock 1 | O caminho precisa ser especificado (consulte observação) | Versões anteriores desta ferramenta escreveram eventos para Logs de Aplicativos e Serviços\Microsoft Surface Dock Updater.                                                                                                  |
 | Windows Log de instalação do dispositivo       | %windir%\inf\setupapi.dev.log           | Para obter mais informações sobre como usar o Log de Instalação do Dispositivo, consulte a documentação de Registro em [Log de InstalaçãoAPI.](/windows-hardware/drivers/install/setupapi-logging--windows-vista-and-later-) |

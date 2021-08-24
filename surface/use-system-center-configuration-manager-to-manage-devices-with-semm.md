@@ -14,12 +14,12 @@ manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
 ms.date: 10/28/2020
-ms.openlocfilehash: 9f3db9428e188aa20399d26c066507d76c90ba57
-ms.sourcegitcommit: ad08299d14810db746514f01d977a81fc5a3961e
+ms.openlocfilehash: 3a70f08ded5ad19b8bc2dc8a7e4fe6d85d972c43
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "11708782"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911616"
 ---
 # <a name="use-microsoft-endpoint-configuration-manager-to-manage-devices-with-semm"></a>Usar o Microsoft Endpoint Configuration Manager para gerenciar dispositivos com SEMM
 
@@ -80,7 +80,7 @@ Para criar um novo aplicativo e implantá-lo em uma coleção que contém seus d
 
    * **Importar Informações** – o Assistente para Criar Aplicativo analisará o arquivo .msi e lerá o **Nome** do Aplicativo e o Código **do Produto.** SurfaceUEFIManagerSetup.msi deve ser listado como o único arquivo na linha **Arquivos de**Conteúdo , conforme mostrado na Figura 1. Selecione **Avançar** para continuar.
 
-      ![As informações da instalação do Surface UEFI Manager são automaticamente analisados](images/config-mgr-semm-fig1.png "Information from Surface UEFI Manager setup is automatically parsed")
+      ![As informações da instalação do Surface UEFI Manager são automaticamente analisados.](images/config-mgr-semm-fig1.png "Information from Surface UEFI Manager setup is automatically parsed")
 
       *Figura 1. As informações da instalação do Microsoft Surface UEFI Manager são automaticamente analisados*
 
@@ -423,7 +423,7 @@ Para adicionar os scripts do Semm Configuration Manager ao Configuration Manager
      * **Informações Gerais** – insira um nome para o tipo de implantação (por exemplo, Scripts de Configuração SEMM) e selecione **Próximo** para continuar.
      * **Conteúdo** – Selecione **Procurar** ao lado do campo **Local** do Conteúdo e selecione a pasta onde os scripts do Gerenciador de Configurações do SEMM estão localizados. No campo **Programa de Instalação,** digite o comando [de instalação](#deploy-semm-configuration-manager-scripts) encontrado anteriormente neste artigo. No campo Programa de Desinstalação, insira o comando [de desinstalação](#deploy-semm-configuration-manager-scripts) encontrado anteriormente neste artigo (mostrado na Figura 2). **** Selecione **Avançar** para mover para a próxima página.
     
-     ![Definir os scripts do SEMM Configuration Manager como os comandos de instalação e desinstalação](images/config-mgr-semm-fig2.png "Set the SEMM Configuration Manager scripts as the install and uninstall commands")
+     ![Defina os scripts do SEMM Configuration Manager como os comandos de instalação e desinstalação.](images/config-mgr-semm-fig2.png "Set the SEMM Configuration Manager scripts as the install and uninstall commands")
 
      *Figura 2. Definir os scripts do SEMM Configuration Manager como os comandos de instalação e desinstalação*
 
@@ -438,7 +438,7 @@ Para adicionar os scripts do Semm Configuration Manager ao Configuration Manager
        - Insira o nome do certificado inserido na linha 58 do script no **campo Valor.**
        - Selecione **OK** para fechar a janela **Regra de** Detecção.
 
-     ![Usar uma chave do Registro para identificar dispositivos inscritos no SEMM](images/config-mgr-semm-fig3.png "Use a registry key to identify devices enrolled in SEMM")
+     ![Use uma chave do Registro para identificar dispositivos inscritos no SEMM.](images/config-mgr-semm-fig3.png "Use a registry key to identify devices enrolled in SEMM")
      
      *Figura 3. Usar uma chave do Registro para identificar dispositivos inscritos no SEMM*
 

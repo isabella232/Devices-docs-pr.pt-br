@@ -14,12 +14,12 @@ ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
 ms.date: 7/30/2021
-ms.openlocfilehash: 935cec6eed15b7831bffafdc2078a9cadf2067e2
-ms.sourcegitcommit: 6a7f96a497c8749a5997972db139542563769101
+ms.openlocfilehash: 84a87342891dac2e4c0b0490458941c82fa0d018
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/31/2021
-ms.locfileid: "11710575"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911606"
 ---
 # <a name="wake-on-lan-with-surface-dock-2"></a>WOL com Surface Dock 2
 
@@ -30,7 +30,7 @@ Para manter os dispositivos totalmente atualizados, os administradores de TI pre
 Os dispositivos devem ter uma conexão com fio com o Surface Dock 2 e permanecer conectados ao AC Power.
 
 > [!div class="mx-imgBorder"]
-> ![Surface Dock 2](images/surface-dock2-angled.png)
+> ![Surface Dock 2.](images/surface-dock2-angled.png)
 
 > [!NOTE]
 > Acordar dispositivos conectados ao Surface Dock 2 não requer o uso do Surface Enterprise Management Mode (SEMM) ou a habilitação de qualquer configuração de política UEFI.

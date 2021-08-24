@@ -1,5 +1,5 @@
 ---
-title: Surface Diagnostic Toolkit for Business
+title: Kit de Ferramentas de Diagnóstico Surface para Empresas
 description: Este tópico explica como implantar e usar o Surface Diagnostic Toolkit for Business, que permite que os administradores de IT investiguem, resolvam rapidamente problemas de hardware, software e firmware com dispositivos Surface.
 ms.prod: w10
 ms.mktglfcycl: manage
@@ -12,14 +12,14 @@ ms.date: 07/27/2021
 ms.reviewer: hachidan
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 13480c4b642ff64883c0ee69c73161a51f3f1e96
-ms.sourcegitcommit: ad08299d14810db746514f01d977a81fc5a3961e
+ms.openlocfilehash: 50ea987273c5d9a10bd28e67358ee83e1d8bc295
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "11708802"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911826"
 ---
-# <a name="surface-diagnostic-toolkit-for-business"></a>Surface Diagnostic Toolkit for Business
+# <a name="surface-diagnostic-toolkit-for-business"></a>Kit de Ferramentas de Diagnóstico Surface para Empresas
 
 Se o Surface não estiver funcionando corretamente, o Microsoft Surface Diagnostic Toolkit (SDT) para Empresas poderá ajudar você ou seu administrador a encontrar e resolver problemas.  O SDT para empresas permite investigar, solucionar problemas e resolver rapidamente problemas de hardware, software e firmware com dispositivos Surface em toda a sua rede.
 
@@ -67,7 +67,7 @@ Para criar um pacote SDT que você pode distribuir aos usuários em sua organiza
     >[!NOTE]
     >Se o assistente de configuração não aparecer, verifique se você está entrando na conta administrador no computador.
 
-    ![bem-vindo ao assistente de Toolkit de configuração do Surface Diagnostic](images/sdt-1.png)
+    ![bem-vindo ao assistente de Toolkit de configuração do Surface Diagnostic.](images/sdt-1.png)
 
     *Figura 1. Assistente de Toolkit de configuração do Surface Diagnostic*
 
@@ -79,7 +79,7 @@ Para criar um pacote SDT que você pode distribuir aos usuários em sua organiza
     >[!NOTE]
     >A opção padrão permite que os usuários executem a ferramenta de diagnóstico diretamente em seu dispositivo Surface, desde que eles sejam conectados ao dispositivo usando uma conta de Administrador.
 
-     ![Opções de instalação: Avançado](images/sdt-install.png)
+     ![Opções de instalação: avançado.](images/sdt-install.png)
 
 7. Clique **em Próximo** e clique em **Instalar**.
 
@@ -110,7 +110,7 @@ Tanto o SDT quanto o console do aplicativo SDT estão instalados em `C:\Program 
 
 Além do arquivo .exe, o SDT instala um arquivo JSON e um arquivo admin.dll (modules\admin.dll), conforme mostrado na figura 2.
 
-![lista de arquivos instalados do SDT no Explorador de Arquivos](images/sdt-2.png)
+![lista de arquivos instalados do SDT no Explorador de Arquivos.](images/sdt-2.png)
 
 *Figura 2. Arquivos instalados pelo SDT*
 
@@ -121,7 +121,7 @@ A criação de um pacote personalizado permite direcionar a ferramenta a problem
 1. Clique **em Iniciar > Executar,** insira o **Surface** e clique em Surface Diagnostic Toolkit **for Business**.
 2. Quando a ferramenta for aberta, clique em **Criar Pacote Personalizado**, conforme mostrado na figura 3.
 
-    ![Criar opção de pacote personalizado](images/sdt-3.png)
+    ![Criar a opção de pacote personalizado.](images/sdt-3.png)
 
     *Figura 3. Criar pacote personalizado*
 
@@ -132,7 +132,7 @@ A criação de um pacote personalizado permite direcionar a ferramenta a problem
 >[!NOTE]
 >Essa configuração não afeta a telemetria mínima armazenada automaticamente nos servidores Microsoft durante a execução de testes e reparos que exigem uma conexão com a Internet, como o reparo de software e atualização do Windows, ou o fornecimento de comentários usando os botões Smile ou Frown na barra de ferramentas do aplicativo.
 
-![Selecionar configurações de idioma e telemetria](images/sdt-4.png)
+![Selecione configurações de idioma e telemetria.](images/sdt-4.png)
 
 *Figura 4. Selecionar configurações de idioma e telemetria*
 
@@ -140,7 +140,7 @@ A criação de um pacote personalizado permite direcionar a ferramenta a problem
 
 Selecione a opção apropriada para sua organização. A maioria das organizações com vários usuários normalmente selecionará receber atualizações por meio Windows Server Update Services (WSUS), conforme mostrado na figura 5. Se estiver usando pacotes Windows update local ou WSUS, insira o caminho conforme apropriado.
 
-![Selecione Windows opção Atualizar](images/sdt-5.png)
+![Selecione Windows opção Atualizar.](images/sdt-5.png)
 
 *Figura 5. Windows Opção Atualizar*
 
@@ -148,7 +148,7 @@ Selecione a opção apropriada para sua organização. A maioria das organizaç�
 
 Isso permite que você selecione ou remova a opção de executar atualizações de reparo de software.
 
-![Selecionar opção de reparo de software](images/sdt-6.png)
+![Selecione a opção de reparo de software.](images/sdt-6.png)
 
 *Figura 6. Opção de reparo de software*
 
@@ -156,7 +156,7 @@ Isso permite que você selecione ou remova a opção de executar atualizações 
 
 Você pode selecionar para executar uma ampla variedade de logs entre aplicativos, drivers, hardware e o sistema operacional. Clique na área apropriada e selecione no menu de logs disponíveis. Em seguida, você pode salvar o pacote em um ponto de distribuição de software ou local equivalente que os usuários possam acessar.
 
-![Selecionar opções de log](images/sdt-7.png)
+![Selecione opções de log.](images/sdt-7.png)
 
 *Figura 7. Opção de log e salvar pacote*
 

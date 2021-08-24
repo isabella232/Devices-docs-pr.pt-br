@@ -12,12 +12,12 @@ ms.date: 04/13/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: a43566461ab6bbac8045326801617bd6f723316e
-ms.sourcegitcommit: ad08299d14810db746514f01d977a81fc5a3961e
+ms.openlocfilehash: 14b4b5ee72ac92618a2906894840a51dd2229d42
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "11708762"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911156"
 ---
 # <a name="whats-new-in-surface-dock-2"></a>Novidades no Surface Dock 2
 
@@ -52,7 +52,7 @@ O Surface Dock 2 foi projetado para simplificar o gerenciamento de IT, permitind
 
 ## <a name="surface-dock-2-components"></a>Componentes do Surface Dock 2
 
-![Componentes do Surface Dock 2](./images/surface-dock2.png)
+![Componentes do Surface Dock 2.](./images/surface-dock2.png)
  
 ### <a name="usb"></a>USB
 
@@ -106,7 +106,7 @@ O Surface Dock 2 foi projetado para simplificar o gerenciamento de IT, permitind
 | Dc power in                         | Sim                                                         | Sim                                                                                                 |                  |
 | Bloqueio kensington                     | Sim                                                         | Sim                                                                                                 |                  |
 | Comprimento do cabo surflink               | 65cm                                                        | 80cm                                                                                                | 20cm             |
-| Energia do host do Surflink                 | 60W                                                         | 120W                                                                                                | N/A              |
+| Energia do host do Surflink                 | 60W                                                         | 120W                                                                                                | N/D              |
 | Energia de carga USB                      | 30W                                                         | 60W                                                                                                 |                  |
 | Taxa de bits USB                        | 5 Gbps                                                      | 10 Gbps                                                                                             | 10 Gbps          |
 | Monitorar o suporte                     | 2 x 4k @30fps, ou<br>1 x 4k @ 60fps                         | 2 x 4K a 60fps<br> ou 1 x 4K @120fps                                                                                     | 1 x 4K a 60fps   |

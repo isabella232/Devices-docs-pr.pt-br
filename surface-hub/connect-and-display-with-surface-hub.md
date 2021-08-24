@@ -11,22 +11,22 @@ ms.author: dansimp
 ms.topic: article
 ms.date: 07/27/2017
 ms.localizationpriority: medium
-ms.openlocfilehash: 2d8d814d5e33a878fab066321a0d7800ae5104c0
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 6985d6a87e14df70d244457dfeddabd673bb2bdc
+ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10831110"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "11911386"
 ---
-# Conectar outros dispositivos e exibir seu conteúdo com o Surface Hub
+# <a name="connect-other-devices-and-display-with-surface-hub"></a>Conectar outros dispositivos e exibir seu conteúdo com o Surface Hub
 
 
 Você pode conectar outros dispositivos ao Microsoft Surface Hub para exibir seu conteúdo. Este tópico descreve o Modo Convidado, o Modo de Computador de Substituição e a funcionalidade Saída de Vídeo disponíveis por meio de conexões com fio e também lista acessórios que você pode conectar ao Surface Hub usando [Bluetooth](#bluetooth-accessories).
 
 >[!NOTE]
->O Surface Hub usará a entrada de vídeo que você selecionar até que uma nova conexão seja feita, a conexão existente será interrompida ou o aplicativo conectar será fechado.
+>Surface Hub usará a entrada de vídeo selecionada até que uma nova conexão seja feita, a conexão existente seja interrompida ou o aplicativo Conexão está fechado.
 
-## Qual método devo escolher?
+## <a name="which-method-should-i-choose"></a>Qual método devo escolher?
 
 Ao conectar dispositivos externos e telas a um Surface Hub, existem várias opções disponíveis. O método usado dependerá de suas necessidades e cenário. 
 
@@ -37,15 +37,15 @@ Ao conectar dispositivos externos e telas a um Surface Hub, existem várias opç
 | Ligue o Surface Hub de um computador Windows 10 externo, desligando o computador incorporado do Surface Hub. Câmeras, microfones, alto-falantes e outros periféricos são enviados para o computador externo, além de caneta e touch. | [Modo de Computador de Substituição](#replacement-pc-mode) |
 
 
-## Modo Convidado
+## <a name="guest-mode"></a>Modo Convidado
 
 
-O Modo Convidado usa uma conexão com fio, para que as pessoas possam exibir o conteúdo de seus dispositivos no Surface Hub. Se o dispositivo de origem for baseado no Windows, ele também poderá fornecer Touchback e Inkback. O computador interno do Surface Hub usa o vídeo e o áudio do dispositivo conectado e apresenta-os no Surface Hub. Se o Surface Hub encontrar um sinal de HDCP (proteção de conteúdo digital) de alta largura de banda, a origem será exibida como uma imagem preta. Para exibir seu conteúdo sem violar os requisitos de HDCP, use o teclado numérico no lado direito do Surface Hub para escolher diretamente a fonte externa.
+O Modo Convidado usa uma conexão com fio, para que as pessoas possam exibir o conteúdo de seus dispositivos no Surface Hub. Se o dispositivo de origem for baseado no Windows, ele também poderá fornecer Touchback e Inkback. O computador interno do Surface Hub usa o vídeo e o áudio do dispositivo conectado e apresenta-os no Surface Hub. Se Surface Hub encontrar um sinal High-Bandwidth HDCP (Proteção de Conteúdo Digital), a origem será exibida como uma imagem preta. Para exibir seu conteúdo sem violar os requisitos de HDCP, use o teclado numérico no lado direito do Surface Hub para escolher diretamente a fonte externa.
 
 >[!NOTE]
 >Quando uma fonte de HDCP estiver conectada, use o teclado numérico para alterar as entradas da fonte.
 
-### Portas
+### <a name="ports"></a>Portas
 
 Use estas portas no Surface Hub para o Modo Convidado.
 
@@ -116,7 +116,7 @@ Use estas portas no Surface Hub para o Modo Convidado.
 
  
 
-### Locais de porta
+### <a name="port-locations"></a>Locais de porta
 
 Estas são as conexões de porta usadas para o Modo Convidado nos Surface Hubs de 55 e 84 polegadas.
 
@@ -128,7 +128,7 @@ Conexões de porta com fio em Surface Hub de 55 polegadas
 
 Conexões de porta com fio em Surface Hub de 84 polegadas
 
-### Enumeração de porta
+### <a name="port-enumeration"></a>Enumeração de porta
 
 Quando um Surface Hub é conectado a um computador convidado com a porta USB conectada com fio, vários dispositivos USB são descobertos e configurados. Esses dispositivos periféricos são criados para Touchback e Inkback. Os dispositivos periféricos podem ser vistos no Gerenciador de Dispositivos. O Gerenciador de Dispositivos mostrará nomes duplicados para alguns dispositivos.
 
@@ -162,7 +162,7 @@ Quando um Surface Hub é conectado a um computador convidado com a porta USB con
 
 -   Dispositivo composto USB
 
-### Conectividade de Modo Convidado
+### <a name="guest-mode-connectivity"></a>Conectividade de Modo Convidado
 
 Sua opção de cabo de vídeo será determinada pelo que está disponível na sua entrada de origem. O Surface Hub tem três opções de entrada de vídeo: DisplayPort, HDMI e VGA. Veja o gráfico a seguir para resoluções disponíveis.
 
@@ -243,20 +243,20 @@ Alguém usando o Modo Convidado para se conectar a um computador usaria uma dest
 
 Se o computador que estiver usando para o Modo Convidado não for compatível com Touchback e Inkback, você não precisará do cabo USB.
 
-## Modo de Computador de Substituição
+## <a name="replacement-pc-mode"></a>Modo de Computador de Substituição
 
 
 No Modo de Computador de Substituição, o computador incorporado do Surface Hub é desativado, e um PC externo é conectado ao Surface Hub. Conexões com portas do computador de substituição dão acesso aos principais periféricos no Surface Hub, incluindo recursos de toque, tela e caneta. Isso significa que o Surface Hub não terá a vantagem da experiência da Equipe do Windows, mas você terá a flexibilidade oferecida por fornecer e gerenciar seu próprio computador Windows.
 
-###  <a name="requirements"></a>Requisitos de software
+### <a name="software-requirements"></a>Requisitos de software
 
 Você pode executar o Surface Hub no Modo de computador de Substituição com versões de 64 bits do Windows 10 Home, Windows 10 Pro e Windows 10 Enterprise. Você pode baixar o [pacote de driver do computador de substituição do Surface Hub](https://www.microsoft.com/download/details.aspx?id=52210) do Centro de Download da Microsoft. Recomendamos que você instale esses drivers em qualquer computador que planeje usar como substituto.
 
-###  <a name="requirements"></a>Requisitos de hardware
+### <a name="hardware-requirements"></a>Requisitos de hardware
 
 O Surface Hub é compatível com vários tipos de hardware. Escolha a confirmação de processador e memória para o computador de substituição para que ele aceite os programas que você usará. O hardware do computador de substituição precisa dar suporte a versões de 64 bits do Windows 10.
 
-### Adaptador gráfico
+### <a name="graphics-adapter"></a>Adaptador gráfico
 
 No Modo de Computador de substituição, o Surface Hub dá suporte a qualquer adaptador gráfico que possa produzir um sinal DisplayPort. Você melhorará a sua experiência com um adaptador gráfico que corresponda à resolução e à taxa de atualização do Surface Hub. Por exemplo, a melhor experiência de computador de substituição recomendada no Surface Hub é com um sinal de vídeo de 120Hz.
 
@@ -295,7 +295,7 @@ Consulte os drivers mais recentes diretamente com fornecedores de placas gráfic
 
  
 
-### Portas
+### <a name="ports"></a>Portas
 
 Portas de computador de substituição em Surface Hub de 55 polegadas
 
@@ -411,7 +411,7 @@ Portas de computador de substituição em Surface Hub de 84 polegadas
 
  
 
-### Instruções de configuração de computador de substituição
+### <a name="replacement-pc-setup-instructions"></a>Instruções de configuração de computador de substituição
 
 **Para usar o Modo de Computador de Substituição**
 
@@ -445,19 +445,19 @@ Você pode definir o Surface Hub para usar o computador interno.
 3.  Ligue o Surface Hub usando o botão liga/desliga ao lado do cabo de alimentação.
 
  
-## Saída de Vídeo
+## <a name="video-out"></a>Saída de Vídeo
  
 O Surface Hub inclui uma porta de Saída de Vídeo para espelhamento de conteúdo visual do Surface Hub para outra tela.
 
-### Portas
+### <a name="ports"></a>Portas
 
 Porta para Saída de Vídeo no Surface Hub de 55 polegadas
 
-![Ilustração da porta de saída de vídeo](images/video-out-55.png)
+![Ilustração da porta de saída de vídeo.](images/video-out-55.png)
 
 Porta para Saída de Vídeo no Surface Hub de 84 polegadas
 
-![Ilustração da porta de saída de vídeo](images/video-out-84.png)
+![Ilustração da porta de saída de vídeo.](images/video-out-84.png)
 
 <table>
 <thead>
@@ -481,12 +481,12 @@ Porta para Saída de Vídeo no Surface Hub de 84 polegadas
 </tbody>
 </table>
 
-## Cabos
+## <a name="cables"></a>Cabos
 
 Os dispositivos do Surface Hub 55" e 84" foram testados com cabos DisplayPort e HDMI certificados.  Embora os fornecedores vendam cabos mais longos que possam funcionar com o Surface Hub, somente os cabos que foram certificados por laboratórios de testes certamente funcionarão com o Hub. Por exemplo, os cabos DisplayPort são certificados apenas até três metros, mas muitos fornecedores vendem cabos com três vezes esse tamanho. Se um cabo longo for necessário, sugerimos usar HDMI.  HDMI tem muitas soluções econômicas para cabos de longa distância, inclusive o uso de repetidores. Quase todas as fontes DisplayPort alternarão automaticamente para o sinal HDMI se for detectado um coletor HDMI.
 
 
-## Acessórios Bluetooth
+## <a name="bluetooth-accessories"></a>Acessórios Bluetooth
 
 Você pode conectar os seguintes acessórios ao Surface Hub usando Bluetooth:
 
