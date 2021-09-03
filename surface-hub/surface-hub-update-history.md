@@ -9,12 +9,12 @@ author: v-miegge
 ms.author: v-miegge
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: a611653c557f7df4d8029502f82a09f0000e5756
-ms.sourcegitcommit: 0d1a23988be4da24a8d42b391e1c60e624465fa4
+ms.openlocfilehash: 40bca71dcc740cf95b79bd9386c5217a1772c9e1
+ms.sourcegitcommit: 1d540913ca2d49ef5b8fa3c6dffe9131a197b270
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2021
-ms.locfileid: "11710380"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "11936764"
 ---
 # <a name="surface-hub-update-history"></a>Histórico de atualizações do Surface Hub
 
@@ -29,6 +29,16 @@ Atualizaremos esta página à medida que novas atualizações são lançadas, po
 Consulte a página "[Surface Hub Informações Importantes](https://support.microsoft.com/products/surface-devices/surface-hub)" para tópicos relacionados sobre versões atuais e passadas que podem exigir sua atenção.
 
 ## <a name="windows-10-team-2020-update-20h2"></a>Windows 10 Team Atualização 2020 (20H2)
+
+<details>
+<summary>1º de setembro de 2021 — atualização para a Equipe com base em KB5005101* (Build 19042.1202 do SISTEMA OPERACIONAL)</summary>
+
+Essa atualização para o Surface Hub inclui melhorias de qualidade e correções de segurança. As principais atualizações Surface Hub são descritas na atualização 1 Windows 10 Team [2020](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/windows-10-team-2020-update-1-released-to-all-surface-hubs/ba-p/2653503)e também incluem o abaixo:
+
+* Melhora a confiabilidade de alguns cenários de instalação da Conta de Dispositivo ao usar uma caixa de correio local Exchange caixa de correio.
+
+Consulte o guia de administração [Surface Hub para](/surface-hub/) habilenciar/desabilitar recursos e serviços do dispositivo. *[KB5005101](https://support.microsoft.com/help/5005101)
+</details>
 
 <details>
 <summary>29 de julho de 2021 — atualização para a Equipe com base em KB5004296* (Build 19042.1151)</summary>
