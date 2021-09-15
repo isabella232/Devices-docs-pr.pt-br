@@ -13,12 +13,12 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.openlocfilehash: e887a449fb00b76c14de5b8ede51a1ba91a6b4c4
-ms.sourcegitcommit: 6d531906c36da51cb4032a220d70182e686114a8
+ms.openlocfilehash: 39cd721606a44fed21c2a8cf59baaf806db47959
+ms.sourcegitcommit: a5651e8c8f953fe3130dd476f4e06c16c172aaa4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "11721241"
+ms.lasthandoff: 09/04/2021
+ms.locfileid: "11939493"
 ---
 # <a name="enable-peap-eap-fast-and-cisco-leap-on-surface-devices"></a>Habilitar PEAP, EAP-FAST e Cisco LEAP em dispositivos Surface
 
@@ -84,4 +84,5 @@ Para especificar o(s) protocolo(s) explicitamente, siga estas etapas:
 
 Para organizações que gerenciam dispositivos Surface com o Gerenciador de Configurações, é ainda mais fácil implantar o suporte a PEAP, EAP-FAST ou Cisco LEAP em dispositivos Surface. Basta importar cada arquivo MSI como um aplicativo da Biblioteca doe Software e configurar uma implantação para sua coleção de dispositivos Surface.
 
-Para obter mais informações sobre como implantar aplicativos com o Configuration Manager, consulte [Create and deploy an application with Configuration Manager](/mem/configmgr/apps/get-started/create-and-deploy-an-application.md).
+Para obter mais informações sobre como implantar aplicativos com o Configuration Manager, consulte [Create and deploy an application with Configuration Manager](/mem/configmgr/apps/get-started/create-and-deploy-an-application).
+

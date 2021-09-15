@@ -13,12 +13,12 @@ ms.topic: article
 ms.reviewer: hachidan
 manager: laurawi
 ms.date: 04/13/2021
-ms.openlocfilehash: 60ace1e2b9344faeb9f130a56686ffac4643fc37
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.openlocfilehash: e21febfcbcbf139aea832c51e354759c0a49f896
+ms.sourcegitcommit: a5651e8c8f953fe3130dd476f4e06c16c172aaa4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911316"
+ms.lasthandoff: 09/04/2021
+ms.locfileid: "11939532"
 ---
 # <a name="manage-surface-uefi-settings"></a>Gerenciar configurações de UEFI do Surface
 
@@ -96,7 +96,7 @@ A senha deve ter pelo menos 6 caracteres e diferencia maiúsculas de minúsculas
 
 *Figura 3. Adicionar uma senha para proteger as configurações de UEFI do Surface*
 
-Na página Segurança também é possível alterar a configuração de Inicialização Segura no dispositivo Surface. A tecnologia de Inicialização Segura impede que o código de inicialização não autorizado inicialize no dispositivo Surface, o que protege contra infecções por malware do tipo bootkit e rootkit. Você pode desabilitar a Inicialização Segura para permitir que o dispositivo Surface inicialize sistemas operacionais de terceiros ou mídia inicializável. Você também pode configurar a Inicialização Segura para funcionar com certificados de terceiros, conforme mostrado na Figura 4. Leia mais sobre a [Inicialização Segura](https://msdn.microsoft.com/windows/hardware/commercialize/manufacture/desktop/secure-boot-overview) na Biblioteca do TechNet.
+Na página Segurança também é possível alterar a configuração de Inicialização Segura no dispositivo Surface. A tecnologia de Inicialização Segura impede que o código de inicialização não autorizado inicialize no dispositivo Surface, o que protege contra infecções por malware do tipo bootkit e rootkit. Você pode desabilitar a Inicialização Segura para permitir que o dispositivo Surface inicialize sistemas operacionais de terceiros ou mídia inicializável. Você também pode configurar a Inicialização Segura para funcionar com certificados de terceiros, conforme mostrado na Figura 4. Para saber mais, confira [Inicialização Segura](/windows-hardware/design/device-experiences/oem-secure-boot).
 
 ![Configurar Inicialização Segura.](images/manage-surface-uefi-fig3.png "Configure Secure Boot")
 
