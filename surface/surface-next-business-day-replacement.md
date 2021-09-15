@@ -13,18 +13,18 @@ appliesto:
 - Surface
 ms.reviewer: irenewhite
 description: Informações sobre Substituição no Próximo Dia Útil e Áreas de Cobertura.
-ms.openlocfilehash: 4488d2f1cc8a3e6c240710d59f3465d05abae12b
-ms.sourcegitcommit: 267e12897efd9d11f8c7303eaf780632741cfe77
+ms.openlocfilehash: 9f66e16730b070ab75f4b5646cbcf2cf95ba77bf
+ms.sourcegitcommit: a5651e8c8f953fe3130dd476f4e06c16c172aaa4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "11613840"
+ms.lasthandoff: 09/04/2021
+ms.locfileid: "11939508"
 ---
 # <a name="next-business-day-replacement-information--coverage-areas"></a>Informações sobre Substituição no Próximo Dia Útil e áreas de cobertura
 
 A Substituição no Próximo Dia Útil é um serviço pago onde um dispositivo Surface de substituição é entregue em seu endereço no próximo dia útil. 
 
-A Substituição no Próximo Dia útil está disponível com a compra de seu plano de proteção Complete para Negócios Plus (disponível em alguns países). Esses serviços se aplicam depois que um agente determina que um dispositivo de substituição é necessário, confirma o estoque disponível e envia um pedido de dispositivo de substituição em um tempo limite padrão, predeterminado pela Microsoft. 
+A Substituição do Próximo Dia Útil está disponível com a compra de seu plano de proteção Complete para Negócios Plus (disponível em alguns países). Esses serviços se aplicam depois que um agente determina que um dispositivo de substituição é necessário, confirma o estoque disponível e envia um pedido de dispositivo de substituição em um tempo limite padrão, predeterminado pela Microsoft. 
 
 ## <a name="guidelines"></a>Diretrizes
 
@@ -107,7 +107,7 @@ Para obter uma lista de códigos postais suportados, confira "Cobertura no próx
 #### <a name="hong-kong"></a>Hong Kong
 
 - Hora de Corte:16:00 HKT (UTC+8) 
-- A cobertura do NBD está disponível em todos os códigos postais de Hong Kong.
+- A cobertura do Próximo Dia Útil está disponível em todos os códigos postais de Hong Kong.
 
 #### <a name="ireland"></a>Irlanda
 
@@ -143,12 +143,12 @@ Para obter uma lista de códigos postais suportados, confira "Cobertura no próx
 #### <a name="singapore"></a>Cingapura
 
 - Hora de corte: 13:00 SGT (UTC+8)
-- A cobertura NBD está disponível em todos os códigos postais deste país.
+- A cobertura do Próximo Dia Útil está disponível em todos os códigos postais deste país.
 
 #### <a name="spain"></a>Espanha
 
 - Hora de Corte: 12:00 CET (UTC+1)
-- [Cobertura do próximo dia útil](https://download.microsoft.com/download/6/1/d/61da1e35-e17e-4a67-ab81-27cf7a21f91b/NBD%20Coverage-%20Spain%20Post%20Codes%20030321.xlsx)
+- [Cobertura do próximo dia útil](https://download.microsoft.com/download/6/1/d/61da1e35-e17e-4a67-ab81-27cf7a21f91b/NBD%20Coverage%20-%20Spain%20Post%20Codes%20030321.xlsx)
 
 #### <a name="sweden"></a>Suécia
 
