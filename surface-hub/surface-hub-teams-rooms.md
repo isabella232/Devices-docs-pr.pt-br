@@ -11,16 +11,16 @@ ms.date: 08/20/2021
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 2d8bd08c150c1665365ae21bc87fd3485b8c69a8
-ms.sourcegitcommit: b5e7ea8118b848846cf1fb332ed7bf96c4583d20
+ms.openlocfilehash: 05160bc2c1b77843b8ad832452501d7b065a8bc6
+ms.sourcegitcommit: 38bde856b6091097d25745f6d080edebf72e3e17
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "11909946"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "12030816"
 ---
 # <a name="microsoft-teams-rooms-on-surface-hub"></a>Salas do Microsoft Teams no Surface Hub
 
-Salas do Teams for Surface Hub substituirá automaticamente o aplicativo Surface Hub Teams [atual](hub-teams-app.md) como parte de uma versão global de 4 semanas a partir de 23 de setembro. Para uma demonstração da nova experiência Teams, atualmente disponível como uma visualização por meio do programa Windows Insider, consulte Apresentando Salas do Teams [no](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/introducing-teams-rooms-on-surface-hub/ba-p/2118373)Surface Hub .
+Salas do Teams for Surface Hub substituirá automaticamente o aplicativo Surface Hub Teams [atual](hub-teams-app.md) como parte de uma versão global de 4 semanas a partir de 30 de setembro. Para uma demonstração da nova experiência Teams, atualmente disponível como uma visualização por meio do programa Windows Insider, consulte Apresentando Salas do Teams [no](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/introducing-teams-rooms-on-surface-hub/ba-p/2118373)Surface Hub .
 
 ## <a name="whats-new"></a>Quais são as novidades?
 
