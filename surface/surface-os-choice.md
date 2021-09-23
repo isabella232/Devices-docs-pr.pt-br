@@ -1,5 +1,5 @@
 ---
-title: Escolha do sistema operacional surface
+title: Escolha do SO do Surface
 description: Este artigo descreve como os clientes comerciais podem comprar novos dispositivos Surface com Windows 10 ou Windows 11.
 ms.prod: w10
 ms.mktglfcycl: manage
@@ -16,8 +16,8 @@ ms.openlocfilehash: cc6a9cebf389885a3a21f594a30653dccbd22a8a
 ms.sourcegitcommit: 389b24de1759d60339f4fe9257d1bdd68267bc39
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2021
-ms.locfileid: "12034360"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "12036972"
 ---
 # <a name="os-choice-for-new-surface-devices"></a>Opção do sistema operacional para novos dispositivos Surface
  
