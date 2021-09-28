@@ -13,12 +13,12 @@ appliesto:
 - Surface
 ms.reviewer: irenewhite
 description: Informações sobre Substituição no Próximo Dia Útil e Áreas de Cobertura.
-ms.openlocfilehash: 9f66e16730b070ab75f4b5646cbcf2cf95ba77bf
-ms.sourcegitcommit: a5651e8c8f953fe3130dd476f4e06c16c172aaa4
+ms.openlocfilehash: ac5b006f2ada1bf27c2df5ff5b8b54ed5fcde149
+ms.sourcegitcommit: a039b4f1b0ef24c7da9edddb10300f158ba86250
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/04/2021
-ms.locfileid: "11939508"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "12053203"
 ---
 # <a name="next-business-day-replacement-information--coverage-areas"></a>Informações sobre Substituição no Próximo Dia Útil e áreas de cobertura
 
@@ -64,6 +64,7 @@ Para obter uma lista de códigos postais suportados, confira "Cobertura no próx
 #### <a name="australia"></a>Austrália
 
 - Hora de corte: 14:30 AET (UTC+11)
+- [Cobertura do próximo dia útil](https://download.microsoft.com/download/2/a/b/2abb0658-6900-440f-96c0-94eb38dcb488/NBD%20Coverage%20-%20Australia%20Post%20Codes%20092421.xlsx)
 
 #### <a name="austria"></a>Áustria
 
