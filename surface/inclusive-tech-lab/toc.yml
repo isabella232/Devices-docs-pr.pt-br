@@ -44,7 +44,7 @@ items:
             items:
               - name: Cegueira (sem visão)
                 href: vision-blindness-sightlessness.md
-              - name: Visão subnormal (parcialmente cego)
+              - name: Visão subnormal (visão parcial)
                 href: vision-low-vision-partially-sighted.md
               - name: Diminuição da acuidade
                 href: vision-decreased-acuity.md
