@@ -9,12 +9,12 @@ author: v-miegge
 ms.author: v-miegge
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 40bca71dcc740cf95b79bd9386c5217a1772c9e1
-ms.sourcegitcommit: 1d540913ca2d49ef5b8fa3c6dffe9131a197b270
+ms.openlocfilehash: 57acd34fc83c3f186d3ed4683e6e0f191b9291be
+ms.sourcegitcommit: e330b89272eee8d4ef1836bacd2c91084ad3a36b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "11936764"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "12057658"
 ---
 # <a name="surface-hub-update-history"></a>Histórico de atualizações do Surface Hub
 
@@ -29,6 +29,24 @@ Atualizaremos esta página à medida que novas atualizações são lançadas, po
 Consulte a página "[Surface Hub Informações Importantes](https://support.microsoft.com/products/surface-devices/surface-hub)" para tópicos relacionados sobre versões atuais e passadas que podem exigir sua atenção.
 
 ## <a name="windows-10-team-2020-update-20h2"></a>Windows 10 Team Atualização 2020 (20H2)
+
+<details>
+<summary>30 de setembro de 2021 — KB5004196, KB5004198 e KB5004199</summary>
+
+Essas atualizações para o Surface Hub entregam o cliente da sala Teams, o Teams do Centro de Administração e o agente de Salas de Reunião Gerenciadas. Os principais recursos são descritos [em Teams Room on Surface Hub](surface-hub-teams-rooms.md).
+ 
+Consulte o guia de administração [Surface Hub para](/surface-hub/) habilenciar/desabilitar recursos e serviços do dispositivo.
+</details>
+
+<details>
+<summary>30 de setembro de 2021 — atualização para a Equipe com base em KB5005611* (Com build do sistema operacional 19042.1266)</summary>
+
+Essa atualização para o Surface Hub inclui melhorias de qualidade e correções de segurança. As principais atualizações Surface Hub, ainda não descritas Windows 10 Histórico de [Atualizações,](https://support.microsoft.com/help/4581839/windows-10-update-history)incluem:
+
+* Substitui o Modo de Reunião 1 (Teams/SfB disponível) pela funcionalidade do Modo 2 (Teams somente); qualquer configuração pode ser usada, mas ambas têm o mesmo efeito.
+
+Consulte o guia de administração [Surface Hub para](/surface-hub/) habilenciar/desabilitar recursos e serviços do dispositivo. *[KB5005611](https://support.microsoft.com/help/5005611)
+</details>
 
 <details>
 <summary>1º de setembro de 2021 — atualização para a Equipe com base em KB5005101* (Build 19042.1202 do SISTEMA OPERACIONAL)</summary>
@@ -513,7 +531,7 @@ Essa atualização para o Surface Hub inclui melhorias de qualidade e correçõe
   * Resolvidos vários problemas de Redefinição e Recuperação
   * Problema da guia Histórico de Atualizações Endereçadas
   * Resolvido Miracast problema de início do serviço
-* Apps
+* Aplicativos
   * Erro de atualização de pacote de aplicativo fixo
 
 *[KB4016871](https://support.microsoft.com/help/4016871)
@@ -644,7 +662,7 @@ Essa atualização traz a atualização Windows 10 Team aniversário para Surfac
 * Quadro de Comunicações
   * Agora, o usuário pode salvar e lembrar sessões de quadro de OneDrive online (por meio da funcionalidade Compartilhar)
   * Quadro de trabalho de lançamento aprimorado ao remover caneta do dock
-* Apps
+* Aplicativos
   * Aplicativo de OneDrive pré-instalado, para acesso aos arquivos pessoais e de trabalho
   * Aplicativo Fotos pré-instalado, para exibir fotos e vídeos
   * Aplicativo PowerBI pré-instalado, para exibir painéis

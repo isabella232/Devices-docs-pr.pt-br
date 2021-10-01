@@ -12,12 +12,12 @@ ms.date: 04/13/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 14b4b5ee72ac92618a2906894840a51dd2229d42
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.openlocfilehash: e36e01ec9387779ba4b920e21bf51f1f210cbdde
+ms.sourcegitcommit: e330b89272eee8d4ef1836bacd2c91084ad3a36b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911156"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "12057668"
 ---
 # <a name="whats-new-in-surface-dock-2"></a>Novidades no Surface Dock 2
 
@@ -121,7 +121,7 @@ O Surface Dock 2 foi projetado para simplificar o gerenciamento de IT, permitind
 
 
 
-1. *Os dispositivos devem ser configurados para Wake on LAN via Surface Enterprise Management Mode (SEMM) ou Device Firmware Control Interface (DFCI) para acordar de hibernação ou Power-Off estados. Wake from Hibernation or Power-Off is supported on Surface Pro 7+, Surface Pro 7, Surface Laptop 4, Surface Laptop 3, Surface Pro X, Surface Book 3 e Surface Go 2.  Licença de software necessária para alguns recursos. Vendido separadamente.*
+1. *Os dispositivos devem ser configurados para Wake on LAN via Surface Enterprise Management Mode (SEMM) ou Device Firmware Control Interface (DFCI) para acordar de hibernação ou Power-Off estados. Wake from Hibernation or Power-Off is supported on Surface Laptop Studio, Surface Pro 8, Surface Pro 7+, Surface Pro 7, Surface Laptop 4, Surface Laptop 3, Surface Pro X, Surface Book 3, Surface Go 3 e Surface Go 2.  Licença de software necessária para alguns recursos. Vendido separadamente.*
 
 2. *Licença de software necessária para alguns recursos. Vendido separadamente.*
 
@@ -133,7 +133,7 @@ O Surface lançou a funcionalidade de gerenciamento simplificada por meio do Win
 - **Acorde da rede**. Gerencie e acesse dispositivos corporativos sem depender dos usuários para manter seus dispositivos conectados. Mesmo quando um dispositivo encaixado está em modo de repouso, hibernação ou desligar, sua equipe pode acordar da rede para serviço e gerenciamento, usando o Endpoint Configuration Manager ou outras ferramentas de gerenciamento empresariais.
 - **Controle de IT centralizado**. Controle quem pode se conectar ao Surface Dock 2 ligando e desligando as portas. Restringir quais dispositivos host podem ser usados com o Surface Dock 2. Limite o acesso de encaixe a um único usuário ou configure docks para que eles só possam ser acessados por usuários específicos em sua equipe ou em toda a empresa.
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 - [Portas seguras do Surface Dock 2 com o Surface Enterprise Modo de Gerenciamento](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/secure-surface-dock-2-ports-with-surface-enterprise-management/ba-p/1418999)
 - [Modo de gerenciamento empresarial do Surface](surface-enterprise-management-mode.md)

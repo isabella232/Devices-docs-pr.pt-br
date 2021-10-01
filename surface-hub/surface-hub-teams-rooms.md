@@ -8,15 +8,15 @@ author: dansimp
 ms.author: dansimp
 ms.topic: article
 ms.date: 08/20/2021
-ms.reviewer: ''
+ms.reviewer: dpandre
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 05160bc2c1b77843b8ad832452501d7b065a8bc6
-ms.sourcegitcommit: 38bde856b6091097d25745f6d080edebf72e3e17
+ms.openlocfilehash: 3cb72801f58424ed8c515e57cbd25799f3a9d709
+ms.sourcegitcommit: e330b89272eee8d4ef1836bacd2c91084ad3a36b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2021
-ms.locfileid: "12030816"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "12057678"
 ---
 # <a name="microsoft-teams-rooms-on-surface-hub"></a>Salas do Microsoft Teams no Surface Hub
 
@@ -29,7 +29,7 @@ Salas do Teams for Surface Hub substituirá automaticamente o aplicativo Surface
 - Salas do Teams no Surface Hub pode ser executado lado a lado com outros aplicativos ou ser executado minimizado.
 - Os administradores podem configurar recursos como Reunião Coordenada e Participação de Proximidade para Surface Hub. [Os arquivos XML](/microsoftteams/rooms/surface-hub-manage-config#teams-configuration-file-syntax) são suportados e serão migrados para o novo modelo de configurações.
 - Novas opções de QoS e requisitos de rede. Para saber mais, consulte [Configure networking and Quality of Service for Microsoft Teams Room on Surface Hub](surface-hub-teams-rooms-networking.md).
-- Alterações no Teams, substituindo Skype for Business como o aplicativo de colaboração e reunião padrão. Para saber mais, consulte [Deploy Microsoft Teams for Surface Hub](/MicrosoftTeams/teams-surface-hub).
+- Se ainda não for o padrão, Teams pode ser definido **** como o aplicativo padrão para reuniões e chamadas em Configurações  >  **Surface Hub**  >  **chamando & áudio**. Para saber mais sobre modos de reunião e configurá-los por meio de política MDM, consulte [Manage Surface Hub with an MDM provider](manage-settings-with-mdm-for-surface-hub.md#changing-default-business-communications-platform).
 
 ## <a name="in-meeting-experience"></a>Na experiência de reunião
 
@@ -61,3 +61,27 @@ Quando Salas do Teams for Surface Hub lançado publicamente no final deste ano, 
 
 - **Teams Centro de administração.** Teams O Centro de Administração fornece uma plataforma abrangente de auto-gerenciamento para monitorar e gerenciar a experiência Salas do Teams em Teams dispositivos. Teams O Centro de Administração estará disponível para Salas do Microsoft Teams usuários sem custo adicional.
 - **Salas do Microsoft Teams serviço gerenciado.** O [Salas do Microsoft Teams](/microsoftteams/rooms/microsoft-teams-rooms-premium) gerenciado é um serviço de gerenciamento e monitoramento de IT baseado em nuvem que mantém os dispositivos Salas do Microsoft Teams e seus periféricos atualizados e monitorados proativamente, suportando um ambiente otimizado para uma ótima experiência do usuário.
+
+
+## <a name="support-for-teams-rooms-in-government-community-cloud-high-gcc-h"></a>Suporte para Salas do Teams no Nuvem da Comunidade Governamental High (GCC-H)
+
+Quando o Salas do Teams para o Surface Hub é lançado publicamente no final deste ano, uma atualização manual única do cliente para a versão 1.4.00.25354 é necessária para que ele possa se conectar a um locatário do GCC-H e, em seguida, manter-se atualizado automaticamente:
+
+ - Confirme se seu Hub tem KB5005611 ou uma atualização cumulativa posterior instalada Windows atualização cumulativa
+ - Use [Teams_Uninstall_win32.ppkg para](https://download.microsoft.com/download/8/3/F/83FD5089-D14E-42E3-AF7C-6FC36F80D347/Teams_Uninstall_Win32.ppkg) remover o Salas do Teams atual na Surface Hub versão
+ - Reiniciar seu dispositivo
+ - Instalar [Teams_win32.ppkg para](https://download.microsoft.com/download/8/3/F/83FD5089-D14E-42E3-AF7C-6FC36F80D347/Teams_Win32.ppkg) instalar a versão 1.4.00.25354
+ - Reinicie o dispositivo novamente
+
+Etapas detalhadas:
+
+1. Salve os dois pacotes de provisionamento na raiz da unidade USB.
+2.  Insira a unidade USB em sua Surface Hub.
+3.  Em seu Surface Hub, abra o menu Iniciar, selecione Todos os aplicativos e selecione Configurações.
+4.  Forneça suas credenciais de administrador do Hub quando solicitado.
+5.  Vá para **Surface Hub**  >  **Gerenciamento de dispositivos**Adicione ou remova um pacote  >  **de provisionamento**e selecione **Adicionar um pacote**.
+6.  Em **Selecionar um pacote,** selecione o pacote de provisionamento Teams_Uninstall_win32.ppkg e reinicie seu Surface Hub.
+7.  Em seu Surface Hub, abra o menu Iniciar, selecione Todos os aplicativos e selecione Configurações.
+8.  Forneça suas credenciais de administrador do Hub quando solicitado.
+9.  Vá para **Surface Hub**  >  **Gerenciamento de dispositivos**Adicione ou remova um pacote  >  **de provisionamento**e selecione **Adicionar um pacote**.
+10. Em **Selecionar um pacote,** selecione o pacote de provisionamento Teams_win32.ppkg e reinicie seu Surface Hub.

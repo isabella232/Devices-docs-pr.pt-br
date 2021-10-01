@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 06/04/2021
+ms.date: 10/01/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 193053745628b434c07a63f23a042e95fead32eb
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.openlocfilehash: e329b0cd1b74060e01ad1105a75c63d2883c6a4e
+ms.sourcegitcommit: e330b89272eee8d4ef1836bacd2c91084ad3a36b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911802"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "12057638"
 ---
 # <a name="surface-security-overview"></a>Visão geral da segurança de superfície
 
@@ -41,7 +41,7 @@ O Surface impulsiona a segurança por meio de uma abordagem aprofundada de defes
 | TPM físico 2.0                | Módulo de Plataforma Confiável - Microcontrolador dedicado projetado para proteger o hardware por meio de chaves criptográficas integradas.<br>Criptografa e armazena chaves (BitLocker, Windows Hello, Credenciais do AD,)<br>PCR - Configuração da Plataforma Registra que as medidas seguras e as métricas relevantes para detectar alterações na configuração anterior  | [Visão geral da tecnologia Trusted Platform Module](/windows/security/information-protection/tpm/trusted-platform-module-overview)                 |
 | Windows Hello para Empresas      | Substitui senhas por autenticação forte de dois fatores em PCs e dispositivos móveis. Essa autenticação biométrica consiste em um novo tipo de credencial de usuário que está vinculado a um dispositivo e usa uma biometria ou PIN.                                                                                                                   | [Como Windows Hello para Empresas funciona - Microsoft 365 Segurança](/windows/security/identity-protection/hello-for-business/hello-how-it-works) |
 | Criptografia integrada           | A criptografia integrada é habilitada pelo BitLocker para proteger e criptografar seus dados e Windows Hello habilitar o logon sem senha, combinado com TPM físico e UEFI.                                                                                                                                                                 | [BitLocker (Windows 10) - Microsoft 365 Segurança](/windows/security/information-protection/bitlocker/bitlocker-overview)                     |
-| Proteção Avançada contra Ameaças do Microsoft Defender | Fornece uma plataforma de segurança de ponto de extremidade empresarial projetada para ajudar as redes corporativas a impedir, detectar, investigar e responder a ameaças avançadas.                                                                                                                                                                               | [Proteção Avançada contra Ameaças do Microsoft Defender](/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint)                 |
+| Microsoft Defender para Ponto de Extremidade | Fornece uma plataforma de segurança de ponto de extremidade empresarial projetada para ajudar as redes corporativas a impedir, detectar, investigar e responder a ameaças avançadas.                                                                                                                                                                               | [Microsoft Defender para Ponto de Extremidade](/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint)                 |
 
 ## <a name="factory-level-security-protocols-and-inspection"></a>Inspeção e protocolos de segurança de nível de fábrica
 
@@ -132,7 +132,7 @@ Os administradores de TI podem gerenciar remotamente dispositivos Surface sem pr
 
 ## <a name="references"></a>Referências
 
-1. Surface Go e Surface Go 2 usam uma UEFI de terceiros e não suportam DFCI. O DFCI está disponível para o Surface Laptop 4, Surface Laptop Go, Surface Book 3, Surface Laptop 3, Surface Pro 7+, Surface Pro 7 e Surface Pro X. 
+1. Surface Go e Surface Go 2 usam uma UEFI de terceiros e não suportam DFCI. O DFCI está disponível atualmente para o Surface Laptop Studio, Surface Pro 8, Surface Go 3, Surface Laptop 4, Surface Laptop Go, Surface Book 3, Surface Laptop 3, Surface Pro 7+, Surface Pro 7 e Surface Pro X. 
 
 ## <a name="learn-more"></a>Saiba mais
 
