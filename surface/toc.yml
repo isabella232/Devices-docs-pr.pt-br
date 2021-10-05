@@ -14,12 +14,16 @@
               href: windows-virtual-desktop-surface.md
             - name: Visão geral técnica de processadores do Surface Laptop 4
               href: surface-laptop-processors.md
-            - name: Surface Book de tecnologia de GPU 3
+            - name: Visão geral técnica do Surface Headphones 2+
+              href: surface-headphones.md
+        - name: Elementos gráficos profissionais do Surface
+          items:
+            - name: Visão geral dos elementos gráficos do Surface Laptop Studio
+              href: surface-laptop-studio-graphics.md
+            - name: Visão geral técnica do Surface Book 3
               href: surface-book-GPU-overview.md
             - name: Surface Book 3 Visão geral técnica do Quadro RTX 3000
               href: surface-book-quadro.md
-            - name: Visão geral técnica do Surface Headphones 2+
-              href: surface-headphones.md
         - name: Solicitar dispositivos Surface
           items:
             - name: Escolha do SO do Surface
