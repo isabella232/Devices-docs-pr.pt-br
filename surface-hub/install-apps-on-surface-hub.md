@@ -13,12 +13,12 @@ ms.topic: article
 ms.date: 07/16/2021
 ms.localizationpriority: medium
 audience: ITPro
-ms.openlocfilehash: a8c11406c7786e379999ff32f482815d6b180b24
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: 3c4869f8aadbd849a608b5a35bf0e76ff3e78508
+ms.sourcegitcommit: 38e98402ab1380521029e792a83c00391997e1fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676655"
+ms.lasthandoff: 10/12/2021
+ms.locfileid: "12089323"
 ---
 # <a name="install-apps-on-your-microsoft-surface-hub"></a>Instalar aplicativos no Microsoft Surface Hub
 
@@ -73,11 +73,11 @@ Encontre e adquira o aplicativo desejado e baixe:
 - O arquivo de licença *codificado* (se você estiver usando o MDM para distribuir o aplicativo)
 - Todos os arquivos de dependência necessários
 
-Para obter mais informações, consulte [Baixar um aplicativo licenciado offline](https://technet.microsoft.com/itpro/windows/manage/distribute-offline-apps#download-an-offline-licensed-app).
+Para obter mais informações, consulte [Baixar um aplicativo licenciado offline](/microsoft-store/distribute-offline-apps#download-an-offline-licensed-app).
 
 ### <a name="install-offline-licensed-apps-via-provisioning-package"></a>Instalar aplicativos licenciados offline por meio do pacote de provisionamento
 
-Você pode instalar manualmente os aplicativos licenciados offline que você baixou da Windows Store para Empresas em alguns Surface Hubs usando pacotes de provisionamento. Use o ICD (Designer de Configuração e Imagens do Windows) para criar um pacote de provisionamento que contenha o pacote do aplicativo e o arquivo de licença *decodificado* que você baixou da Windows Store para Empresas. Para obter mais informações, consulte [Criar pacotes de provisionamento](provisioning-packages-for-certificates-surface-hub.md).
+Você pode instalar manualmente os aplicativos licenciados offline que você baixou da Windows Store para Empresas em alguns Surface Hubs usando pacotes de provisionamento. Use o ICD (Designer de Configuração e Imagens do Windows) para criar um pacote de provisionamento que contenha o pacote do aplicativo e o arquivo de licença *decodificado* que você baixou da Windows Store para Empresas. Para obter mais informações, consulte [Create provisioning packages for Surface Hub](provisioning-packages-for-certificates-surface-hub.md).
 
 ### <a name="supported-mdm-provider"></a>Provedor de MDM com suporte
 
@@ -118,7 +118,7 @@ Durante o desenvolvimento, a maneira mais fácil de testar seu aplicativo em um 
 
 #### <a name="create-provisioning-package"></a>Criar pacote de provisionamento
 
-Use o Visual Studio para criar um pacote do aplicativo para seu aplicativo UWP, assinado com um certificado de teste. Use o ICD (Designer de Configuração e Imagens do Windows) para criar um pacote de provisionamento que contenha o pacote do aplicativo. Para obter mais informações, consulte [Criar pacotes de provisionamento](provisioning-packages-for-certificates-surface-hub.md).
+Use o Visual Studio para criar um pacote do aplicativo para seu aplicativo UWP, assinado com um certificado de teste. Use o ICD (Designer de Configuração e Imagens do Windows) para criar um pacote de provisionamento que contenha o pacote do aplicativo. Para obter mais informações, consulte [Create provisioning packages for Surface Hub](provisioning-packages-for-certificates-surface-hub.md).
 
 ## <a name="submit-apps-to-the-microsoft-store"></a>Enviar aplicativos para a Microsoft Store
 

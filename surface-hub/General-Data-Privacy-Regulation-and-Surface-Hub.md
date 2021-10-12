@@ -1,30 +1,30 @@
 ---
 title: Regulamento Geral sobre a Proteção de Dados e Surface Hub
-description: Informa os usuários que estão sujeitos às leis de proteção de dados da UE de suas opções sobre como excluir ou restringir dados de diagnóstico produzidos pelo Surface Hub.
+description: Informa aos usuários que estão sujeitos às leis de proteção de dados da UE sobre suas opções sobre como excluir ou restringir dados de diagnóstico produzidos por Surface Hub.
 ms.assetid: 087713CF-631D-477B-9CC6-EFF939DE0186
 keywords: RGPD
 ms.prod: surface-hub
 ms.sitesec: library
-author: Teresa-MOTIV
-ms.author: v-tea
+author: greg-lindsay
+ms.author: greglin
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 838562508c86093ebc95e3497dc07eafe56b5f96
-ms.sourcegitcommit: 109d1d7608ac4667564fa5369e8722e569b8ea36
+ms.openlocfilehash: 0d0f8c78ff2704a43c8422315cf36ee3f33085bc
+ms.sourcegitcommit: 38e98402ab1380521029e792a83c00391997e1fd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "10830371"
+ms.lasthandoff: 10/12/2021
+ms.locfileid: "12089273"
 ---
-# Regulamento Geral sobre a Proteção de Dados e Surface Hub
+# <a name="general-data-privacy-regulation-and-surface-hub"></a>Regulamento Geral sobre a Proteção de Dados e Surface Hub
 
-Em maio de 2018, uma lei de privacidade européia, a regulamentação geral de proteção de dados (RGPD) levou a vigorar. O RGPD impõe novas regras em empresas, órgãos governamentais, sem fins lucrativos e em outras organizações que oferecem bens e serviços a pessoas na União Europeia (UE) ou que coletam e analisam dados vinculados a moradores da União Europeia.
+Em maio de 2018, uma lei de privacidade europeia, o RGPD (Regulamento Geral de Proteção de Dados), entrou em vigor. O RGPD impõe novas regras a empresas, agências governamentais, entidades sem fins lucrativos e outras organizações que oferecem bens e serviços a pessoas na União Europeia (UE), ou que coletam e analisam dados vinculados aos residentes da UE.
 
-Os clientes do Surface Hub preocupados com a privacidade de acordo com as novas normas de RGPD podem gerenciar a privacidade do dispositivo com as seguintes opções fornecidas pela Microsoft:
+Surface Hub os clientes preocupados com privacidade nos novos regulamentos do RGPD podem gerenciar a privacidade do dispositivo com as seguintes opções fornecidas pela Microsoft:
 
-* **Opção 1:** Dispositivos Surface Hub em regiões impondo regulamentos RGPD instalarão o KB4284830 quando for publicamente disponível para reduzir automaticamente a emissão de dados de diagnóstico para básico. Os clientes que optarem por fornecer um nível mais alto de dados de diagnóstico podem usar o aplicativo Configurações do Surface Hub ou o gerenciamento de dispositivo móvel para substituir a configuração básica padrão.
+* **Opção 1: Surface Hub** dispositivos em regiões que impostas regulamentos do RGPD reduzem automaticamente a emissão de dados de diagnóstico ao básico. Os clientes que optarem por fornecer um nível mais alto de dados de diagnóstico podem usar o aplicativo Surface Hub Configurações ou o Gerenciamento de Dispositivo Móvel para substituir a configuração básica padrão.
 
-* **Opção 2:** Os clientes do Surface Hub que desejam remover dados de diagnóstico existentes podem baixar o aplicativo **Surface Hub excluir** aplicativo de dados de diagnóstico da Microsoft Store. Este aplicativo permitirá que os clientes solicitem a exclusão de dados de diagnóstico associados diretamente do dispositivo Surface Hub.
+* **Opção 2: Surface Hub** clientes que quiserem remover todos os dados de diagnóstico existentes podem baixar o aplicativo excluir dados de diagnóstico Surface Hub [**excluir**](https://www.microsoft.com/p/surface-hub-delete-diagnostic-data/9mtxh9zl7mxs) do Microsoft Store. Este aplicativo permitirá que os clientes solicitem a exclusão de dados de diagnóstico associados diretamente de seus Surface Hub dispositivo.
 
-A Microsoft tem ampla experiência na proteção de dados, proteção de privacidade e conformidade com regulamentações complexas, e atualmente está em conformidade com as cláusulas do modelo da União Européia e da União Européia. Acreditamos que o RGPD é uma etapa importante em direção a esclarecer e habilitar direitos de privacidade individuais. Queremos ajudá-lo a se concentrar no seu negócio, e se preparar eficientemente para o RGPD.
+A Microsoft tem ampla experiência na proteção de dados, na defesa da privacidade e no cumprimento de regulamentos complexos e atualmente está em conformidade com as Cláusulas de Modelo da UE e do Escudo de Privacidade da UE-EUA. Acreditamos que o RGPD é um passo importante para esclarecer e permitir direitos de privacidade individuais. Queremos ajudá-lo a se concentrar em sua empresa principal enquanto se prepara eficientemente para o RGPD.
 
