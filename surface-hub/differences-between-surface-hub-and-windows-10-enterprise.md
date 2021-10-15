@@ -11,12 +11,12 @@ ms.date: 03/23/2021
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 57fd7ea11e19902d2a94c1be998052739875afaf
-ms.sourcegitcommit: 38e98402ab1380521029e792a83c00391997e1fd
+ms.openlocfilehash: 3bc5d7e26d565ca26ec23eefaee406c47eac395e
+ms.sourcegitcommit: 2493c83b1b3cb28b0836926cd406d4b28cd6abfa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2021
-ms.locfileid: "12089293"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "12094454"
 ---
 # <a name="operating-system-essentials-surface-hub"></a>Noções básicas do sistema operacional (Surface Hub)
 
@@ -119,7 +119,7 @@ O Surface Hub implementa estes recursos de segurança do Windows 10:
 - [Controle de Aplicativos do Windows Defender e proteção baseada em virtualização da integridade do código](/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
 - [Políticas de restrição de aplicativo usando o AppLocker](/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-overview)
 - [Criptografia de Unidade de Disco BitLocker](/windows/security/information-protection/bitlocker/bitlocker-overview)
-- [Trusted Platform Module (TPM)] (/security/information-protection/tpm/trusted-platform-module-overview
+- [Trusted Platform Module (TPM)](/security/information-protection/tpm/trusted-platform-module-overview)
 - [Microsoft Defender Antivírus no Windows](/microsoft-365/security/defender-endpoint/microsoft-defender-antivirus-windows)
 - [Controle de Conta de Usuário (UAC)](/windows/security/identity-protection/user-account-control/user-account-control-overview) para acessar o aplicativo Configurações
 
