@@ -11,17 +11,19 @@ metadata:
   ms.author: greglin
   audience: itpro
   ms.localizationpriority: High
-  ms.openlocfilehash: 60a0956cf83b466587197ca401dc41b95952be03
-  ms.sourcegitcommit: 389b24de1759d60339f4fe9257d1bdd68267bc39
+  ms.openlocfilehash: 1d46bea76ffb0641aeee1c51f88dcbb1ff2d56bf
+  ms.sourcegitcommit: 74ab91db82ae611854c070ddb14daa28acf7051f
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 09/23/2021
-  ms.locfileid: "12037135"
+  ms.lasthandoff: 10/16/2021
+  ms.locfileid: "12096439"
 landingContent:
 - title: Dispositivos Surface
   linkLists:
   - linkListType: whats-new
     links:
+    - text: Quais dispositivos Surface podem ser atualizados para Windows 11?
+      url: https://support.microsoft.com/surface/which-surface-devices-can-be-upgraded-to-windows-11-76c3c125-82e0-4d1e-9550-12ed09f9058e
     - text: Escolha do SO do Surface
       url: surface-os-choice.md
     - text: Surface Pro 8 para Empresas
@@ -40,10 +42,10 @@ landingContent:
   linkLists:
   - linkListType: get-started
     links:
-    - text: Visão geral técnica de processadores do Surface Laptop 4
+    - text: Visão geral dos elementos gráficos do Surface Laptop Studio
+      url: surface-laptop-studio-graphics.md
+    - text: Surface Laptop visão geral de 4 processadores
       url: surface-laptop-processors.md
-    - text: Visão geral técnica do Surface Headphones 2+
-      url: surface-headphones.md
     - text: Área de Trabalho Virtual do Azure no Surface
       url: windows-virtual-desktop-surface.md
     - text: Soluções de trabalho remoto com o Surface
@@ -88,6 +90,8 @@ landingContent:
       url: support-solutions-surface.md
     - text: Driver do Surface e ciclo de vida do firmware para dispositivos baseados no Windows
       url: surface-driver-firmware-lifecycle-support.md
+    - text: Sistemas operacionais com suporte do Surface
+      url: https://support.microsoft.com/surface/surface-supported-operating-systems-9559cc3c-7a38-31b6-d9fb-571435e84cd1
 - title: Explorar orientação de segurança
   linkLists:
   - linkListType: how-to-guide
