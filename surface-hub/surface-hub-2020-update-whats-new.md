@@ -9,14 +9,14 @@ ms.author: greglin
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 03/25/2021
+ms.date: 10/19/2021
 ms.localizationpriority: Medium
-ms.openlocfilehash: fcd7df80615e406a1dab061b473ef7f3dbd065e1
-ms.sourcegitcommit: 38e98402ab1380521029e792a83c00391997e1fd
+ms.openlocfilehash: 3b9dbf0e4b7412967c3f2c68ddc10a6fccac8907
+ms.sourcegitcommit: 4012a9499f658799197fedc7ea1a0c35d6127ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2021
-ms.locfileid: "12089263"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "12101218"
 ---
 # <a name="whats-new-in-windows-10-team-2020-update"></a>Novidades na atualização do Windows 10 Team 2020
 
@@ -45,12 +45,12 @@ Para saber mais, confira:
 
 ## <a name="browser-and-pen"></a>Navegador e caneta
 
-- **Suporte para o novo Microsoft Edge**. Microsoft Edge foi reconstruído para obter o melhor desempenho de compatibilidade, segurança e privacidade. Para saber mais, consulte [Install and configure the new Microsoft Edge on Surface Hub](surface-hub-install-chromium-edge.md).
+- **Novos Microsoft Edge instalados por padrão**. Microsoft Edge foi reconstruído para obter o melhor desempenho de compatibilidade, segurança e privacidade. Para saber mais, consulte [Manage Microsoft Edge on Surface Hub](surface-hub-install-chromium-edge.md).
 - **Dual-pen inking no Surface Hub 2S**.   Os usuários podem fazer whiteboard e colaborar lado a lado no Surface Hub 2S usando duas Surface Hub 2 Canetas. As atualizações de firmware necessárias para habilitar o uso de dupla caneta serão lançadas com uma atualização subsequente.
 
 ## <a name="microsoft-teams"></a>Microsoft Teams  
 
-- **Microsoft Teams instalado por padrão**.        Microsoft Teams é incluído como o aplicativo padrão reuniões, chamada e colaboração em novos dispositivos Surface Hub que podem ser alterados ou configurados por meio do MDM ou diretamente no Surface Hub usando o aplicativo Configurações. Para saber mais, consulte [Microsoft Teams visão geral da implantação.](/microsoftteams/deploy-overview)
+- **Microsoft Teams instalado por padrão**.        Microsoft Teams é incluído como o aplicativo padrão reuniões, chamada e colaboração em novos dispositivos Surface Hub que podem ser alterados ou configurados por meio do MDM ou diretamente no Surface Hub usando o aplicativo Configurações. Para saber mais, confira [[Implantar Microsoft Teams](/MicrosoftTeams/teams-surface-hub).
 - **Suporte para a junção de proximidade com Microsoft Teams**.  A União de Proximidade permite que os usuários Microsoft Teams chamadas agendadas em um Surface Hub usando seu laptop/telefone ou transibilem perfeitamente uma reunião em andamento para um Surface Hub. Windows 10 Team atualização 2020 adiciona suporte ao Gerenciamento de Dispositivo Móvel (MDM) para configurar a Junção de Proximidade. Para saber mais, confira: 
 
   - [Microsoft Teams Blog](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-devices-for-shared-spaces-july-and-august-update/ba-p/1604833). 
@@ -63,7 +63,7 @@ Para saber mais, confira:
 - Entrar sem senha usando chaves de segurança **FIDO2**     Usando chaves de segurança FIDO2, os clientes podem entrar rapidamente e facilmente Surface Hub sem precisar digitar nomes de usuário e senhas. Combinado com o SSO (Single Sign-On), esse recurso fornece autenticação rápida e perfeita para arquivos, aplicativos e sites durante uma reunião. Para saber mais, consulte [Configure passwordless sign-in on Surface Hub](surface-hub-2s-phone-authenticate.md).
 - **Melhorias na login sem senha usando Microsoft Authenticator**.  Para organizações que usam o Azure AD, os usuários podem usar o aplicativo Microsoft Authenticator para entrar sem precisar digitar nomes de usuário e senhas. Além disso, os usuários podem entrar usando seus aliases de email preferenciais no Azure AD, além do nome principal do usuário (UPN). Para saber mais, confira [Entrar Surface Hub com Microsoft Authenticator](surface-hub-authenticator-app.md).
 
-## <a name="learn-more"></a>Saber mais
+## <a name="learn-more"></a>Saiba mais
 
 - [Windows 10 Team Atualização 1 2020 lançada para todos os Surface Hubs](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/windows-10-team-2020-update-1-released-to-all-surface-hubs/ba-p/2653503)
 - [Instale a Atualização do Windows 10 Team 2020](surface-hub-2020-update.md)  

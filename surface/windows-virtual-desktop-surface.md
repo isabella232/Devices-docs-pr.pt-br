@@ -1,5 +1,5 @@
 ---
-title: Área de trabalho virtual do Azure no Surface
+title: Área de Trabalho Virtual do Azure no Surface
 description: Este artigo explica como os dispositivos Surface oferecem um nó final ideal para soluções de Área de Trabalho Virtual do Azure, fornecendo aos clientes fatores de formulário flexíveis Windows 10, segurança e gerenciabilidade de dispositivos modernos e suporte para cenários de trabalho persistentes e sob demanda & cenários de trabalho just-in-time.
 ms.prod: w10
 ms.mktglfcycl: manage
@@ -8,18 +8,18 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 01/15/2021
+ms.date: 10/19/2021
 ms.reviewer: rohenr
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 680fea05112605aa0c26f63c135cb3bc4208e3ad
-ms.sourcegitcommit: 2776af08eb63c0a23950c476256e5019f83effd8
+ms.openlocfilehash: f59441a1df25e455480cfb1b9f2a47a7466ba120
+ms.sourcegitcommit: 4012a9499f658799197fedc7ea1a0c35d6127ed5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "11902620"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "12101169"
 ---
-# <a name="azure-virtual-desktop-on-surface"></a>Área de trabalho virtual do Azure no Surface
+# <a name="azure-virtual-desktop-on-surface"></a>Área de Trabalho Virtual do Azure no Surface
 
 ## <a name="introduction"></a>Introdução
 
@@ -136,7 +136,7 @@ O Surface realiza avaliações de ciclo de vida para calcular o impacto ambienta
 
 ## <a name="summary"></a>Resumo
 
-A Área de Trabalho Virtual do Azure no Surface oferece às organizações maior flexibilidade e resiliência para atender às diversas necessidades de usuários, participantes e clientes. Executar soluções de Área de Trabalho Virtual do Azure em dispositivos Surface oferece vantagens exclusivas sobre a dependência contínua em dispositivos herdados. Fatores de formulário flexíveis, como o Surface Go 2 e Surface Pro 7+ conectados à nuvem (ou offline), permitem que os usuários sejam produtivos de qualquer lugar, a qualquer momento. Se os funcionários trabalham em cenários persistentes, sob demanda ou just-in-time, a Área de Trabalho Virtual do Azure no Surface proporciona às empresas a versatilidade para sustentar a produtividade em todas as interrupções de emergências de saúde pública ou outros eventos imprevistos. Usando a segurança interna e com várias camadas e a capacidade de gerenciamento moderna do Windows 10, as empresas podem aproveitar um ecossistema em expansão de serviços baseados em nuvem para implantar e dimensionar rapidamente Windows desktops e aplicativos. Simplificando, a Área de Trabalho Virtual do Azure no Surface fornece tecnologia críticamente necessária para organizações e empresas de todos os tamanhos.
+A Área de Trabalho Virtual do Azure no Surface oferece às organizações maior flexibilidade e resiliência para atender às diversas necessidades de usuários, participantes e clientes. Executar soluções de Área de Trabalho Virtual do Azure em dispositivos Surface oferece vantagens exclusivas sobre a dependência contínua em dispositivos herdados. Fatores de forma flexíveis, como o Surface Go 3 e Surface Pro 8 conectados à nuvem (ou offline), permitem que os usuários sejam produtivos de qualquer lugar, a qualquer momento. Se os funcionários trabalham em cenários persistentes, sob demanda ou just-in-time, a Área de Trabalho Virtual do Azure no Surface proporciona às empresas a versatilidade para sustentar a produtividade em todas as interrupções de emergências de saúde pública ou outros eventos imprevistos. Usando a segurança interna e com várias camadas e a capacidade de gerenciamento moderna do Windows 10, as empresas podem aproveitar um ecossistema em expansão de serviços baseados em nuvem para implantar e dimensionar rapidamente Windows desktops e aplicativos. Simplificando, a Área de Trabalho Virtual do Azure no Surface fornece tecnologia críticamente necessária para organizações e empresas de todos os tamanhos.
 
 ## <a name="learn-more"></a>Saiba mais
 
@@ -154,6 +154,6 @@ Para obter mais informações, veja os seguintes recursos:
 <a id="2">2. </a> A duração da bateria varia significativamente com configurações, uso e outros fatores.<br>
 <a id="3">3. </a> Disponibilidade do serviço e desempenho sujeitos à rede do provedor de serviços. Entre em contato com seu provedor de serviços para obter detalhes, compatibilidade, preços, cartão SIM e ativação. Consulte todas as especificações e frequências em surface.com.<br>
 <a id="4">4. Forrester Consulting, "Um Impacto Econômico Total forrester™ Estudo: maximizando seu ROI do Microsoft 365 Enterprise com o Microsoft Surface", comissionado pela </a> Microsoft, 2018.<br> 
-<a id="5">5. Surface Go e Surface Go 2 usam uma UEFI de terceiros e </a> não suportam DFCI. O DFCI está disponível atualmente para o Surface Pro 7+, Surface Laptop Go, Surface Book 3, Surface Laptop 4, Surface Laptop 3, Surface Pro 7 e Surface Pro X.<br>
+<a id="5">5. Surface Go e Surface Go 2 usam uma UEFI de terceiros e </a> não suportam DFCI. O DFCI está disponível atualmente para o Surface Laptop Studio, Surface Pro 8, Surface Go 3, Surface Pro 7+, Surface Laptop Go, Surface Book 3, Surface Laptop 4, Surface Laptop 3, Surface Pro 7 e Surface Pro X.<br>
 <a id="6">6. O SSD removível está disponível no </a> Surface Pro 7+, Surface Laptop 4, Surface Laptop 3 e Surface Pro X. <br>
-<a id="7">7. O DFCI está disponível para o </a> Surface Pro 7+, Surface Laptop Go, Surface Book 4, Surface Laptop 3, Surface Pro 7 e Surface Pro X. Saiba mais sobre como gerenciar as configurações do Surface UEFI. [](surface-manage-dfci-guide.md)
+<a id="7">7. O DFCI está disponível atualmente para </a> o Surface Laptop Studio, Surface Pro 8, Surface Go 3, Surface Pro 7+, Surface Laptop Go, Surface Book 3, Surface Laptop 4, Surface Laptop 3, Surface Pro 7 e Surface Pro X. Saiba [mais sobre](surface-manage-dfci-guide.md) como gerenciar as configurações do Surface UEFI.
