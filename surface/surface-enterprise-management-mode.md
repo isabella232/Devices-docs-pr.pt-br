@@ -13,13 +13,13 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 audience: itpro
-ms.date: 04/16/2021
-ms.openlocfilehash: 8e30234e72b6533da3d36ca38188c7e199beeeac
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.date: 10/25/2021
+ms.openlocfilehash: 127f9303751417ad4c24442ba0a5e177fc338475
+ms.sourcegitcommit: 94e11386d7034c6bc5fe753f7bebf61a9c815509
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11910986"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "12154056"
 ---
 # <a name="microsoft-surface-enterprise-management-mode"></a>Modo de gerenciamento do Microsoft Surface Enterprise
 
@@ -31,7 +31,7 @@ O Microsoft Surface Enterprise Modo de Gerenciamento (SEMM) é um recurso dos di
 O SEMM também usa um certificado para proteger a configuração contra violações ou remoção não autorizadas. Para migrar um Surface Hub 2S para Windows 10 Pro ou Windows Enterprise, o SEMM é necessário.
 
 >[!NOTE]
->O SEMM só está disponível em dispositivos com firmware UEFI surface. Isso inclui a maioria dos outros dispositivos Surface, incluindo Surface Pro 7+, Surface Pro X, Surface Hub 2S, Surface Laptop 4 SKUs comerciais com um processador Intel, Surface Laptop 4 SKUs comerciais com processador AMD, Surface Laptop 3 SKUs comerciais com um processador Intel e Surface Laptop Go. SEMM não tem suporte no SKU de 15" Surface Laptop 3 com processador AMD (disponível apenas como uma SKU de varejo).
+>O SEMM só está disponível em dispositivos com firmware UEFI surface. Isso inclui a maioria dos outros dispositivos Surface, incluindo Surface Pro 8, Surface Pro X, Surface Laptop Studio, Surface Hub 2S, Surface Laptop 4 SKUs comerciais com um processador Intel, Surface Laptop 4 SKUs comerciais com processador AMD, Surface Laptop 3 SKUs comerciais com um processador Intel e Surface Laptop Go. SEMM não tem suporte no SKU de 15" Surface Laptop 3 com processador AMD (disponível apenas como uma SKU de varejo).
 
 Quando os dispositivos Surface são configurados pelo SEMM e protegidos com o certificado SEMM, eles são considerados *inscritos* no SEMM. Quando o certificado SEMM é removido e o controle das configurações UEFI é retornado para o usuário do dispositivo, o dispositivo Surface é considerado *não-rollado* no SEMM.
 
@@ -40,9 +40,6 @@ Há duas opções administrativas que você pode usar para gerenciar o SEMM e re
 - A ferramenta autônoma SEMM, Microsoft Surface UEFI Configurator, está descrita neste artigo.
 
 - Integração com Microsoft Endpoint Configuration Manager. Para obter informações, [consulte Use Microsoft Endpoint Configuration Manager para gerenciar dispositivos com SEMM](use-system-center-configuration-manager-to-manage-devices-with-semm.md).
-
-> [!NOTE]
-> O SEMM é suportado no Surface Pro X somente por meio do Gerenciador UEFI. Você pode baixar o GERENCIADOR UEFI do [Surface Tools para TI.](https://www.microsoft.com/download/details.aspx?id=46703) Para obter mais informações, consulte [Deploying, managing, and sering Surface Pro X](surface-pro-arm-app-management.md).
 
 ## <a name="microsoft-surface-uefi-configurator"></a>Configurador UEFI do Microsoft Surface
 
@@ -71,6 +68,9 @@ Você pode usar a ferramenta Configurador UEFI do Microsoft Surface em três mod
 ### <a name="download-microsoft-surface-uefi-configurator"></a>Baixar o Configurador UEFI do Microsoft Surface
 
 Você pode baixar o Configurador UEFI do Microsoft Surface na página [Ferramentas do Surface para TI](https://www.microsoft.com/download/details.aspx?id=46703) no Centro de Download da Microsoft.
+
+- Para dispositivos Intel/AMD, baixe: **SurfaceUEFI_Configurator_v2.94.139.0_x64.msi**
+- Para ARM, baixe: **SurfaceUEFI_Configurator_v2.94.139.0_x86.msi.**
 
 ### <a name="configuration-package"></a>Pacote de configuração
 
@@ -120,8 +120,8 @@ A lista a seguir mostra todos os dispositivos disponíveis que você pode gerenc
 | Energia automática                      | Permite que você gerencie as configurações de inicialização do Auto Power On. Se você não configurar essa configuração, o Auto Power on será habilitado.                                                                                                        |
 | SMT (Multi-Threading Simultâneo) | Permite gerenciar o SMT (Multi-Threading Simultâneo) para habilitar ou desabilitar o hiperthreading. Se você não configurar essa configuração, a SMT será habilitada.                                                  |
 |Habilitar limite de bateria| Permite gerenciar a funcionalidade de limite de bateria. Se você não configurar essa configuração, o limite de bateria será habilitado |
-| Segurança                           | Exibe a página Segurança uefi **do** Surface. Se você não configurar essa configuração, a página Segurança será exibida.                                                                                                                 |
-| Dispositivos                            | Exibe a página Dispositivos UEFI **surface.** Se você não configurar essa configuração, a página Dispositivos será exibida.                                                                                                                     |
+| Security                           | Exibe a página Segurança uefi **do** Surface. Se você não configurar essa configuração, a página Segurança será exibida.                                                                                                                 |
+| Devices                            | Exibe a página Dispositivos UEFI **surface.** Se você não configurar essa configuração, a página Dispositivos será exibida.                                                                                                                     |
 | Iniciar                               | Exibe a página Inicialização uefi **do** Surface. Se você não configurar essa configuração, a página Inicialização será exibida.                                                                                                                                                            |
 | DateTime                           | Exibe a página Surface UEFI **DateTime.** Se você não configurar essa configuração, a página DateTime será exibida.                                                                                                                |
 | EnableOSMigration                          | Permite que você migre Surface Hub 2 de Windows 10 Team para Windows 10 Pro ou Enterprise. Se você não configurar essa configuração, Surface Hub 2 dispositivos poderão executar apenas o sistema operacional Windows 10 Team sistema operacional. Observação: a inicialização dupla entre Windows 10 Team e Windows 10 Pro/Enterprise não está disponível no Surface Hub 2.                                                                                                           |
@@ -172,7 +172,7 @@ Quando você usa o processo na página gerenciamento **Enterprise** para redefin
 >[!NOTE]
 >Uma Solicitação de Redefinição expira duas horas após a criação.
 
-Para um passo a passo passo sobre como desemincar dispositivos Surface do [SEMM, consulte Unenroll Surface devices from SEMM](https://technet.microsoft.com/itpro/surface/unenroll-surface-devices-from-semm).
+Para um passo a passo passo sobre como desemincar dispositivos Surface do [SEMM, consulte Unenroll Surface devices from SEMM](unenroll-surface-devices-from-semm.md).
 
 ## <a name="surface-enterprise-management-mode-certificate-requirements"></a>Requisitos Enterprise de certificado do Modo de Gerenciamento do Surface
 
@@ -262,6 +262,12 @@ Se você quiser que a redefinição ou a recuperação do SEMM funcionem, o cert
 Os exemplos do PowerShell que criam um pacote de configuração para um tipo de dispositivo específico também podem ser usados para criar um pacote de redefinição independente do número de série. Se o certificado ainda for válido, você poderá criar um pacote de redefinição usando o PowerShell para redefinir o SEMM.
 
 ## <a name="version-history"></a>Histórico de versão
+
+### <a name="version-2941390"></a>Versão 2.94.139.0
+
+Esta versão do SEMM inclui:
+
+- Suporte para Surface Laptop Studio, Surface Pro 8 e Surface Go 3
 
 ### <a name="version-2831390"></a>Versão 2.83.139.0
 

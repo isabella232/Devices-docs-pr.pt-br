@@ -8,23 +8,23 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 07/27/2021
+ms.date: 10/25/2021
 ms.reviewer: hachidan
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 50ea987273c5d9a10bd28e67358ee83e1d8bc295
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.openlocfilehash: 71a909a00187cf8727ada4e1adabd998b26eb3c0
+ms.sourcegitcommit: 94e11386d7034c6bc5fe753f7bebf61a9c815509
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911826"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "12153976"
 ---
 # <a name="surface-diagnostic-toolkit-for-business"></a>Kit de Ferramentas de Diagnóstico Surface para Empresas
 
 Se o Surface não estiver funcionando corretamente, o Microsoft Surface Diagnostic Toolkit (SDT) para Empresas poderá ajudar você ou seu administrador a encontrar e resolver problemas.  O SDT para empresas permite investigar, solucionar problemas e resolver rapidamente problemas de hardware, software e firmware com dispositivos Surface em toda a sua rede.
 
 > [!NOTE]
-> O Surface Diagnostic Toolkit for Business foi criado para dispositivos comerciais. Se o dispositivo for um dispositivo pessoal e não gerenciado pelo trabalho ou escola, execute o Surface [Diagnostic Toolkit.](https://support.microsoft.com/en-us/help/4037239/surface-fix-common-surface-problems-using-surface-diagnostic-toolkit)
+> O Surface Diagnostic Toolkit for Business foi criado para dispositivos comerciais. Se o dispositivo for um dispositivo pessoal e não gerenciado pelo trabalho ou escola, execute o Surface [Diagnostic Toolkit.](https://support.microsoft.com/help/4037239/surface-fix-common-surface-problems-using-surface-diagnostic-toolkit)
 
 Especificamente, o SDT para Empresas permite que você:
 
@@ -41,15 +41,17 @@ Para executar o Surface Diagnostic Toolkit para Empresas, baixe os componentes l
 Modo | Cenários principais | Baixar | Saiba mais
 --- | --- | --- | ---
 Modo desktop | Ajude os usuários a executar o SDT em seus dispositivos Surface para solucionar problemas.<br>Crie um pacote personalizado para implantar em um ou mais dispositivos Surface, permitindo que os usuários selecionem logs específicos para coletar e analisar. | Pacote MSI distribuível SDT:<br>Microsoft Surface Diagnostic Toolkit for Business Installer<br>[Ferramentas Surface para TI](https://www.microsoft.com/download/details.aspx?id=46703) | [Usar o Surface Diagnostic Toolkit no modo de área de trabalho](surface-diagnostic-toolkit-desktop-mode.md)
-Linha de comando | Solucionar problemas diretos de dispositivos Surface remotamente sem interação do usuário, usando ferramentas padrão, como o Configuration Manager. Ele inclui os seguintes comandos:<br>`-DataCollector` coleta todos os arquivos de log<br>`-bpa` executa diagnósticos de saúde usando o Analisador de Práticas Práticas Melhores.<br>`-windowsupdate` verifica Windows Atualização para atualizações de firmware ou driver ausentes.<br>`-warranty` verifica as informações de garantia. <br><br>| Aplicativo de console SDT:<br>Console do aplicativo de diagnóstico do Microsoft Surface<br>[Ferramentas Surface para TI](https://www.microsoft.com/download/details.aspx?id=46703) | [Executar o Surface Diagnostic Toolkit usando comandos](surface-diagnostic-toolkit-command-line.md)
+Linha de comando | Solucionar problemas diretos de dispositivos Surface remotamente sem interação do usuário, usando ferramentas padrão, como o Configuration Manager. Ele inclui os seguintes comandos:<br>`-DataCollector` coleta todos os arquivos de log<br>`-bpa` executa diagnósticos de saúde usando o Analisador de Práticas Práticas Melhores.<br>`-windowsupdate` verifica Windows Atualização para atualizações de firmware ou driver ausentes.<br>`-warranty` verifica as informações de garantia. <br><br>| Aplicativo de console SDT:<br>Console do aplicativo de diagnóstico do Microsoft Surface<br>[Ferramentas Surface para TI](https://www.microsoft.com/download/details.aspx?id=46703) | [Executar o console de aplicativo de linha de comando com o Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-command-line.md)
 
 ## <a name="supported-devices"></a>Dispositivos com suporte
 
 O SDT para Empresas tem suporte no Surface 3 e em dispositivos posteriores (exceto para dispositivos configurados no modo S):
 
 - Surface Book - todas as gerações
+- Surface Laptop Studio
 - Surface Go - todas as gerações
 - Surface Laptop - todas as gerações
+- Surface Laptop Go
 - Surface Pro 3 e posterior
 - Surface Pro X - todas as gerações
 - Surface Studio - todas as gerações
@@ -61,25 +63,30 @@ O SDT para Empresas tem suporte no Surface 3 e em dispositivos posteriores (exce
 Para criar um pacote SDT que você pode distribuir aos usuários em sua organização:
 
 1. Entre no dispositivo Surface usando a conta administrador.
-2. Baixe o SDT Windows Pacote do Instalador (.msi) na página de download do [Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703) e copie-o para um local preferencial em seu dispositivo Surface, como Desktop.
-3. O assistente de instalação do SDT é exibido, conforme mostrado na figura 1. Clique em **Avançar**.
+
+2. Baixe o SDT Windows Pacote do Instalador (.msi) na página de download do [Surface Tools for IT.](https://www.microsoft.com/download/details.aspx?id=46703)
+
+    - Para dispositivos Intel/AMD, baixe: **Surface_Diagnostic_Toolkit_for_Business_v2.168.139.0.msi**.
+    - Para ARM, baixe: **Surface_Diagnostic_Toolkit_for_Business_v2.168.139.0_x86.msi**.
+
+3. Copie o arquivo .msi para um local preferencial em seu dispositivo Surface, como Desktop.O assistente de instalação do SDT é exibido, conforme mostrado na figura 1. Clique em **Avançar**.
 
     >[!NOTE]
     >Se o assistente de configuração não aparecer, verifique se você está entrando na conta administrador no computador.
 
-    ![bem-vindo ao assistente de Toolkit de configuração do Surface Diagnostic.](images/sdt-1.png)
-
+    ![bem-vindo ao assistente de Toolkit de configuração do Surface Diagnostic.](images/sdt-1.png)<br/>
     *Figura 1. Assistente de Toolkit de configuração do Surface Diagnostic*
 
-4. Quando o assistente de instalação do SDT for exibido, clique em **Próximo**, aceite o Contrato de Licença de Usuário Final (EULA)
+4. Quando o assistente de instalação do SDT for exibido, clique em **Próximo**, aceite o Contrato de Licença de Usuário Final (EULA).
 
 5. Na tela Opções de Instalação, altere o local de instalação padrão, se desejado.
+
 6. Em Tipo de Instalação, selecione **Avançado**.
 
     >[!NOTE]
     >A opção padrão permite que os usuários executem a ferramenta de diagnóstico diretamente em seu dispositivo Surface, desde que eles sejam conectados ao dispositivo usando uma conta de Administrador.
 
-     ![Opções de instalação: avançado.](images/sdt-install.png)
+    ![Opções de instalação: avançado.](images/sdt-install.png)
 
 7. Clique **em Próximo** e clique em **Instalar**.
 
@@ -94,13 +101,13 @@ Se desejado, você pode instalar o SDT em um prompt de comando e definir um sina
 
 1. Abra um prompt de comando e digite:
 
-    ```
+    ```console
     msiexec.exe /i <the path of installer> ADMINMODE=1. 
     ```
 
     **Exemplo:**
 
-    ```
+    ```console
     C:\Users\Administrator> msiexec.exe/I"C:\Users\Administrator\Desktop\Microsoft_Surface_Diagnostic_Toolkit_for_Business_Installer.msi" ADMINMODE=1
     ```
 
@@ -110,8 +117,7 @@ Tanto o SDT quanto o console do aplicativo SDT estão instalados em `C:\Program 
 
 Além do arquivo .exe, o SDT instala um arquivo JSON e um arquivo admin.dll (modules\admin.dll), conforme mostrado na figura 2.
 
-![lista de arquivos instalados do SDT no Explorador de Arquivos.](images/sdt-2.png)
-
+:::image type="content" alt-text="lista de arquivos instalados do SDT no Explorador de Arquivos." source="images/sdt-2.png":::<br/>
 *Figura 2. Arquivos instalados pelo SDT*
 
 ## <a name="preparing-the-sdt-package-for-distribution"></a>Preparando o pacote SDT para distribuição
@@ -119,10 +125,10 @@ Além do arquivo .exe, o SDT instala um arquivo JSON e um arquivo admin.dll (mod
 A criação de um pacote personalizado permite direcionar a ferramenta a problemas conhecidos específicos.
 
 1. Clique **em Iniciar > Executar,** insira o **Surface** e clique em Surface Diagnostic Toolkit **for Business**.
+
 2. Quando a ferramenta for aberta, clique em **Criar Pacote Personalizado**, conforme mostrado na figura 3.
 
-    ![Criar a opção de pacote personalizado.](images/sdt-3.png)
-
+    ![Criar a opção de pacote personalizado.](images/sdt-3.png)<br/>
     *Figura 3. Criar pacote personalizado*
 
 ### <a name="language-and-telemetry-settings"></a>Configurações de idioma e telemetria
@@ -132,46 +138,50 @@ A criação de um pacote personalizado permite direcionar a ferramenta a problem
 >[!NOTE]
 >Essa configuração não afeta a telemetria mínima armazenada automaticamente nos servidores Microsoft durante a execução de testes e reparos que exigem uma conexão com a Internet, como o reparo de software e atualização do Windows, ou o fornecimento de comentários usando os botões Smile ou Frown na barra de ferramentas do aplicativo.
 
-![Selecione configurações de idioma e telemetria.](images/sdt-4.png)
-
+![Selecione configurações de idioma e telemetria.](images/sdt-4.png)<br/>
 *Figura 4. Selecionar configurações de idioma e telemetria*
 
 ### <a name="windows-update-page"></a>Windows Página de atualização
 
 Selecione a opção apropriada para sua organização. A maioria das organizações com vários usuários normalmente selecionará receber atualizações por meio Windows Server Update Services (WSUS), conforme mostrado na figura 5. Se estiver usando pacotes Windows update local ou WSUS, insira o caminho conforme apropriado.
 
-![Selecione Windows opção Atualizar.](images/sdt-5.png)
-
+![Selecione Windows opção Atualizar.](images/sdt-5.png)<br/>
 *Figura 5. Windows Opção Atualizar*
 
 ### <a name="software-repair-page"></a>Página de reparo de software
 
 Isso permite que você selecione ou remova a opção de executar atualizações de reparo de software.
 
-![Selecione a opção de reparo de software.](images/sdt-6.png)
-
+![Selecione a opção de reparo de software.](images/sdt-6.png)<br/>
 *Figura 6. Opção de reparo de software*
 
 ### <a name="collecting-logs-and-saving-package-page"></a>Coletando logs e salvando a página do pacote
 
 Você pode selecionar para executar uma ampla variedade de logs entre aplicativos, drivers, hardware e o sistema operacional. Clique na área apropriada e selecione no menu de logs disponíveis. Em seguida, você pode salvar o pacote em um ponto de distribuição de software ou local equivalente que os usuários possam acessar.
 
-![Selecione opções de log.](images/sdt-7.png)
-
+![Selecione opções de log.](images/sdt-7.png)<br/>
 *Figura 7. Opção de log e salvar pacote*
 
-## <a name="next-steps"></a>Próximas etapas
+## <a name="next-steps"></a>Próximos passos
 
 - [Usar o Kit de Ferramentas de Diagnóstico Surface para Empresas no modo de área de trabalho](surface-diagnostic-toolkit-desktop-mode.md)
-- [Usar o Surface Diagnostic Toolkit business usando comandos](surface-diagnostic-toolkit-command-line.md)
+- [Executar o console de aplicativo de linha de comando com o Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-command-line.md)
 
 ## <a name="changes-and-updates"></a>Alterações e atualizações
+
+### <a name="version-21681390"></a>Versão 2.168.139.0
+
+Esta versão do Surface Diagnostic Toolkit for Business adiciona suporte para o seguinte:
+
+- Surface Pro 8
+- Surface Laptop Studio
+- Surface Go 3
 
 ### <a name="version-21311390"></a>Versão 2.131.139.0
 
 Esta versão do Surface Diagnostic Toolkit for Business adiciona suporte para o seguinte:
 
-- Suporte para Surface Pro 7+
+- Surface Pro 7+
 - Experiência de suporte contínuo no Surface Pro X
 - Melhorias de segurança
 - Melhorias inclusivas da experiência do usuário
@@ -221,7 +231,7 @@ Esta versão do Surface Diagnostic Toolkit for Business adiciona suporte para o 
 Esta versão do Surface Diagnostic Toolkit for Business adiciona suporte para o seguinte:
 
 - Capacidade de baixar relatórios de hardware.
-- Capacidade de entrar em contato com o Suporte da Microsoft diretamente da ferramenta. <br>
+- Capacidade de entrar em contato com o Suporte da Microsoft diretamente da ferramenta.
 
 ### <a name="version-2411390"></a>Versão 2.41.139.0
 
@@ -229,7 +239,7 @@ Esta versão do Surface Diagnostic Toolkit for Business adiciona suporte para o 
 Esta versão do Surface Diagnostic Toolkit for Business adiciona suporte para o seguinte:
 
 - Informações de versão do driver incluídas em logs e relatório.
-- Capacidade de fornecer comentários sobre o aplicativo.<br>
+- Capacidade de fornecer comentários sobre o aplicativo.
 
 ### <a name="version-2361390"></a>Versão 2.36.139.0
 

@@ -1,5 +1,5 @@
 ---
-title: Surface Laptop Visão geral dos elementos gráficos do Studio
+title: Visão geral dos elementos gráficos do Surface Laptop Studio
 description: Este artigo destaca as GPUs no Surface Lapto Studio.
 ms.prod: w10
 ms.mktglfcycl: manage
@@ -12,14 +12,14 @@ ms.date: 10/04/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: d5c7690cd90427bb7a9a6b2b452e527aa1b608dd
-ms.sourcegitcommit: 7ffb1d2d86a713a3ed4a7faa8ac82cfc49dbd55e
+ms.openlocfilehash: 65734833bf396bbc163bff163b70ba3e226fc95a
+ms.sourcegitcommit: 94e11386d7034c6bc5fe753f7bebf61a9c815509
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "12068442"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "12153956"
 ---
-# <a name="surface-laptop-studio-graphics-overview"></a>Surface Laptop Visão geral dos elementos gráficos do Studio
+# <a name="surface-laptop-studio-graphics-overview"></a>Visão geral dos elementos gráficos do Surface Laptop Studio
 
 Surface Laptop O Studio integra recursos de computação e elementos gráficos totalmente modernizados em um novo fator de forma versátil. Liderada pelo Intel quad-core da 11ª Geração Intel® Core™ i7 e NVIDIA® RTX™ A2000 ou NVIDIA® GeForce RTX™ 3050 Ti, o Surface Laptop Studio fornece arquitetos, engenheiros, especialistas em dados e profissionais criativos com o poder de computação para fazer seu melhor trabalho.
  
@@ -33,15 +33,15 @@ Esta seção descreve as GPUs integradas e discretas nos Surface Laptop Do Studi
 
 ### <a name="intel-iris-xe-graphics"></a>Intel Iris™ Xe Graphics
 
-A GPU integrada (iGPU) Surface Laptop Studio é instalada como a GPU secundária na maioria dos modelos, Intel Iris™ O Xe Graphics funciona como a GPU singular no modelo i5 principal. Ele oferece suporte a experiências de jogos mais ricas e velocidades maiores para designers e criadores. Com recursos gráficos avançados e uma experiência aprimorada por AI, o Intel Iris Xe permite que os consumidores, entusiastas e criadores online executem o software de produtividade mais recente, como o Adobe Creative Cloud ou desfrutem de títulos de jogos no 1080p. Ele também aumenta o número de exibições com suporte de 3 para o total de 4. Isso permite que os clientes usem até três exibições externas juntamente com a exibição interna ou quatro exibições externas de uma só vez, para GPU integrada e modelos de GPU discretos. [[1]](#references)
+A GPU integrada (iGPU) Surface Laptop Studio é instalada como a GPU secundária na maioria dos modelos, o Intel Iris™ Xe Graphics funciona como a GPU singular no modelo Core i5. Ele oferece suporte a experiências de jogos mais ricas e velocidades maiores para designers e criadores. Com recursos gráficos avançados e uma experiência aprimorada por AI, o Intel Iris Xe permite que os consumidores, entusiastas e criadores online executem o software de produtividade mais recente, como o Adobe Creative Cloud ou desfrutem de títulos de jogos no 1080p. Ele também aumenta o número de exibições com suporte de três para um total de quatro. Agora você pode usar até três exibições externas juntamente com a exibição interna ou quatro exibições externas de uma só vez , para GPU integrada e modelos gpu discretos. [[1]](#references)
 
 ### <a name="comparing-discrete-gpus"></a>Comparando GPUs discretas
 
 As GPUs profissionais NVIDIA GeForce RTX 30 e RTX oferecem acelerações em massa para jogos, renderização 3D, edição de vídeo, design gráfico e fluxos de trabalho acelerados por IA, além de muitas outras tarefas criativas. Isso é graças à arquitetura NVIDIA Ampere mais recente:
 
-- RT Cores e DLSS de 2ª geração, fornecendo aumentos de desempenho de até 2x em renderadores principais, incluindo Ciclos do Blender, Raio de V do Caos e Autodesk Arnold
+- Núcleos RT de 2ª geração e DLSS, fornecendo aumentos de desempenho de até 2x em renderadores principais, incluindo Ciclos do Blender, Raio V do Caos e Autodesk Arnold.
 - Núcleos Tensor de 3ª geração que aceleram os recursos de IA. Os Núcleos Tensor também trazem a AI para gráficos com recursos como DLSS, denoising AI e edição aprimorada para aplicativos selecionados.
-- O melhor codificador de vídeo da classe (NVENC), bem como a nova aceleração de hardware para o desfoque de movimento rastreado por raios, uma técnica comum usada na renderização de produção, agora impulsionada por até 5x
+- O melhor codificador de vídeo da classe (NVENC) e a nova aceleração de hardware para o desfoque de movimento rastreado por raios, uma técnica comum usada na renderização de produção, agora é impulsionada por até 5x.
 
 ### <a name="nvidia-geforce-rtx-3050-ti-laptop-gpu"></a>NVIDIA GeForce RTX 3050 Ti Laptop GPU
 
@@ -52,7 +52,7 @@ GeForce RTX 3050 Ti habilita:
 - Acelerações de edição de vídeo e livestream, graças ao codificador de hardware dedicado, recursos avançados de IA e acelerações de aplicativos em aplicativos como Adobe Premier® Pro, DaVinci Resolve ou OBS.
 - Design gráfico e fotografia, com recursos acelerados de IA em aplicativos como Adobe Lightroom ou Photoshop.
 - Renderização 3D ultra-rápida graças às acelerações RTX e DLSS em aplicativos como Blender ou Autodesk® Maya. 
-- Jogos de última geração com gráficos RTX e alto desempenho graças a DLSS, bem como latência ultra baixa com NVIDIA Reflex.
+- Jogos de última geração com gráficos RTX e alto desempenho graças a DLSS e latência ultra baixa com reflexo NVIDIA.
 
 ### <a name="nvidia-rtx-a2000-laptop-gpu"></a>NVIDIA RTX A2000 Laptop GPU
 

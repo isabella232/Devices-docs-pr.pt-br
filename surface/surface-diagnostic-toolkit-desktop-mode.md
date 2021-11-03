@@ -12,12 +12,12 @@ manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
 ms.date: 7/31/2020
-ms.openlocfilehash: 7ebdff37cb96589c765e9c9315b098a760976c80
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.openlocfilehash: 7d09bc70a2e0c882bde9106ee2c241568c1fc991
+ms.sourcegitcommit: 94e11386d7034c6bc5fe753f7bebf61a9c815509
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911236"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "12154126"
 ---
 # <a name="use-surface-diagnostic-toolkit-for-business-in-desktop-mode"></a>Usar o Kit de Ferramentas de Diagnóstico Surface para Empresas no modo de área de trabalho
 
@@ -30,18 +30,18 @@ A execução com êxito do SDT pode determinar rapidamente se um problema relata
 
 2. Comece na home page, que permite que os usuários insiram uma descrição do problema e clique em **Continuar**, conforme mostrado na figura 1.
 
-    ![Inicie o SDT no modo de área de trabalho. ](images/sdt-desk-1.png)
- *Figura 1. SDT no modo desktop*
+    ![Inicie o SDT no modo de área de trabalho.](images/sdt-desk-1.png)<br/>
+    *Figura 1. SDT no modo desktop*
 
 3. Quando o SDT indicar que o dispositivo tem as atualizações mais recentes, clique em **Continuar** para avançar para o catálogo de testes disponíveis, conforme mostrado na figura 2.
 
-    ![Selecione entre as opções do SDT. ](images/sdt1.png)
- *Figura 2. Selecione entre opções do SDT*
+    ![Selecione entre as opções do SDT.](images/sdt1.png)<br/>
+    *Figura 2. Selecione entre opções do SDT*
 
 4. Você pode optar por executar todos os testes de diagnóstico. Ou, se você já suspeitar de um problema específico, como **** uma exibição com falha ou um problema de fonte de alimentação, clique em Selecionar para escolher entre os testes disponíveis e clique em Executar Selecionado **,** conforme mostrado na figura 3. Consulte a tabela a seguir para obter detalhes de cada teste. 
 
-    ![Selecione testes de hardware. ](images/sdt2.png)
- *Figura 3. Selecionar testes de hardware*
+    ![Selecione testes de hardware.](images/sdt2.png)<br/>
+    *Figura 3. Selecionar testes de hardware*
 
     Teste de hardware | Descrição
     --- | ---
@@ -49,7 +49,7 @@ A execução com êxito do SDT pode determinar rapidamente se um problema relata
     Exibição e som   | Verifica o brilho, pixels travados ou mortos, alto-falante e funcionamento do microfone
     Portas e Acessórios   | Verifica acessórios, anexação de tela e funcionamento USB
     Connectivity |  Verifica Bluetooth conectividade sem fio e LTE
-    Segurança    | Verifica problemas relacionados à segurança
+    Security    | Verifica problemas relacionados à segurança
     Touch   | Verifica problemas relacionados ao toque
     Teclado e toque |    Verifica a conexão integrada do teclado e a capa de tipo
     Sensores | Verifica o funcionamento de sensores diferentes no dispositivo
@@ -57,13 +57,13 @@ A execução com êxito do SDT pode determinar rapidamente se um problema relata
 
 5. Quando todos os testes terminarem, a ferramenta solicita que você confirme se o problema foi corrigido. 
 
- ![Seu problema foi resolvido? ](images/sdt3.png)
- *Figura 3a. Seu problema foi resolvido?*
+    ![Seu problema foi resolvido?](images/sdt3.png)<br/>
+    *Figura 3a. Seu problema foi resolvido?*
 
 6. Se o problema não for resolvido ou você não sabe, você pode enviar um tíquete de Suporte selecionando **Entrar** em contato conosco para **Obter ajuda agora.**
  
- ![Envie um tíquete de Suporte. ](images/sdt4.png)
- *Figura 3b. Enviar um tíquete de Suporte*
+    ![Envie um tíquete de Suporte.](images/sdt4.png)<br/>
+    *Figura 3b. Enviar um tíquete de suporte*
 
 <span id="multiple" />
 
@@ -104,5 +104,4 @@ Com base nos logs, o SDT gera um relatório para problemas baseados em software 
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Executar o Kit de Ferramentas de Diagnóstico Surface para Empresas usando comandos](surface-diagnostic-toolkit-command-line.md)
-
+- [Executar o console de aplicativo de linha de comando com o Surface Diagnostic Toolkit for Business](surface-diagnostic-toolkit-command-line.md)

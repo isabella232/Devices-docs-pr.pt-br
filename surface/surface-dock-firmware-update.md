@@ -11,13 +11,13 @@ ms.topic: article
 ms.reviewer: scottmca
 manager: laurawi
 ms.audience: itpro
-ms.date: 2/08/2021
-ms.openlocfilehash: 070139370fc8175a116cb2e2a329404af8ac09b9
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.date: 10/25/2021
+ms.openlocfilehash: ebdb6e5999eb3564a21d23e661fa75d90a32e698
+ms.sourcegitcommit: 94e11386d7034c6bc5fe753f7bebf61a9c815509
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911146"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "12154046"
 ---
 # <a name="surface-dock-1-firmware-update"></a>Atualização de firmware do Surface Dock 1
 
@@ -30,6 +30,24 @@ Essa ferramenta sobressupa a ferramenta anterior do Microsoft Surface Dock Updat
 
 > [!IMPORTANT]
 > Este artigo contém instruções técnicas para administradores de IT. Se você for um usuário de residência, confira [Como atualizar seu Firmware](https://support.microsoft.com/help/4023478/surface-update-your-surface-dock)do Surface Dock no site de Suporte da   Microsoft. As instruções no site de suporte são as mesmas das etapas gerais de instalação abaixo, mas este artigo tem informações adicionais para monitoramento, verificação e implantação da atualização em vários dispositivos em uma rede.
+
+## <a name="supported-devices"></a>Dispositivos com suporte
+
+A Atualização de Firmware do Surface Dock 1 tem suporte nos seguintes dispositivos:
+
+- Surface Pro 3 e posterior
+- Surface Pro X (todas as gerações)
+- Surface 3
+- Surface Book (todas as gerações)
+- Surface Laptop Studio
+- Surface Studio (todas as gerações)
+- Surface Laptop (todas as gerações)
+- Surface Laptop Go
+- Surface Go (todas as gerações)
+
+### <a name="minimum-os-requirement"></a>Requisito mínimo do sistema operacional
+
+- Windows 10, versão 1803 ou posterior
 
 ## <a name="install-surface-dock-1-firmware-update"></a>Instalar a Atualização de Firmware do Surface Dock 1
 
