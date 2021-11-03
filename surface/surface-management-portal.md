@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 10/28/2021
+ms.date: 11/02/2021
 ms.reviewer: hachinda
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: bba49151973423d269dfdcf8eb5039ed5e39787f
-ms.sourcegitcommit: 94e11386d7034c6bc5fe753f7bebf61a9c815509
+ms.openlocfilehash: f3fcc6ddcda0cf8016e1ba9383da2b5be511c0f1
+ms.sourcegitcommit: 714a56ede92eb6b16878aef8fdf94f9d2bda7204
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "12154166"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "12154373"
 ---
 # <a name="surface-management-portal-overview"></a>Visão geral do Portal de Gerenciamento do Surface
 
@@ -30,6 +30,8 @@ Como um único ambiente para a visibilidade de ponta a ponta de dispositivos Sur
 Obter informações sobre conformidade do dispositivo, atividade de suporte e cobertura de garantia. Consulte rapidamente o status de cada dispositivo, quais ainda estão em garantia ou expirando em breve, e o status das solicitações de suporte ativas com seus provedores de hardware.
 
 Quando seus dispositivos Surface estão inscritos para gerenciamento de nuvem e os usuários fazem logoff pela primeira vez, as informações desses dispositivos Surface fluem automaticamente para o Portal de Gerenciamento do Surface, dando a você um único painel de vidro para atividades de administrador de dispositivos específicos do Surface.
+
+Consulte também: [Problemas conhecidos](#known-issues) abaixo. 
 
 ## <a name="get-started"></a>Introdução
 
@@ -70,6 +72,10 @@ O Surface Management Portal dá visibilidade completa à atividade de suporte ju
 ## <a name="try-for-free"></a>Experimente gratuitamente
 
 O Surface Management Portal está disponível para clientes que usam Microsoft Endpoint Manager e registraram dispositivos Surface por meio do Intune. Se você for novo no Intune, defina seu locatário do Intune hoje visitando [o Início Rápido:](/mem/intune/fundamentals/free-trial-sign-up)tente Microsoft Intune gratuitamente .
+
+## <a name="known-issues"></a>Problemas conhecidos
+
+- O portal pode não carregar corretamente para um pequeno número de locatários. A engenharia de superfície está investigando ativamente esse problema. *2 de novembro de 2021.*
 
 ## <a name="learn-more"></a>Saiba mais
 
