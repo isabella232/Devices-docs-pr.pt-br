@@ -1,5 +1,5 @@
 ---
-title: Surface Management Portal
+title: Portal de Gerenciamento do Surface
 description: Este artigo descreve como o novo Surface Management Portal fornece uma solução centralizada para auto-atender, gerenciar e monitorar dispositivos Surface em escala.
 ms.prod: w10
 ms.mktglfcycl: manage
@@ -12,14 +12,14 @@ ms.date: 11/02/2021
 ms.reviewer: hachinda
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: f3fcc6ddcda0cf8016e1ba9383da2b5be511c0f1
-ms.sourcegitcommit: 714a56ede92eb6b16878aef8fdf94f9d2bda7204
+ms.openlocfilehash: a131e663aadbd10be039cff777001383178f7fc1
+ms.sourcegitcommit: 16889d72b0af81dfe79267c41574c3774e81f178
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "12154373"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "12155169"
 ---
-# <a name="surface-management-portal-overview"></a>Visão geral do Portal de Gerenciamento do Surface
+# <a name="surface-management-portal-overview"></a>Visão geral do de Gerenciamento Surface
 
 Integrado ao Microsoft Endpoint Manager, o novo Portal de Gerenciamento do Surface fornece uma solução centralizada para autoatendir, gerenciar e monitorar dispositivos Surface em escala.
 
@@ -37,7 +37,7 @@ Consulte também: [Problemas conhecidos](#known-issues) abaixo.
 
 Entre no Microsoft Endpoint Manager, clique em **Todos os serviços**e clique em Surface Management **Portal**.
 
-:::image type="content" source="/surface/images/surface-management-portal/surface-management-portal-start.png" alt-text="Iniciar o Portal de Gerenciamento de Superfície":::
+:::image type="content" source="/surface/images/surface-management-portal/surface-management-portal-start.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-start.png" alt-text="Iniciar o Portal de Gerenciamento de Superfície":::
 
 ## <a name="monitor-surface-devices"></a>Monitorar dispositivos Surface
 
@@ -52,7 +52,7 @@ Selecione **Monitorar para** exibir insights para todos os dispositivos Surface,
 
 Selecione **Exibir relatório** para ver detalhes sobre cada categoria de insights, dando informações de diagnóstico que você pode personalizar e exportar.
 
-:::image type="content" source="/surface/images/surface-management-portal/surface-management-portal-view-report.png" alt-text="Obter informações sobre dispositivos Surface e relatório de exibição":::
+:::image type="content" source="/surface/images/surface-management-portal/surface-management-portal-view-report.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-view-report.png" alt-text="Obter informações sobre dispositivos Surface e relatório de exibição":::
 
 ## <a name="device-warranty-and-coverage"></a>Garantia e cobertura de dispositivo
 
@@ -67,7 +67,7 @@ se você gerenciar centenas ou milhares de dispositivos, ter acesso direto ao st
 
 O Surface Management Portal dá visibilidade completa à atividade de suporte juntamente com o status de cada solicitação.
 
-:::image type="content" source="/surface/images/surface-management-portal/surface-management-portal-support.png" alt-text="Obter informações sobre a atividade de suporte juntamente com o status de cada solicitação.":::
+:::image type="content" source="/surface/images/surface-management-portal/surface-management-portal-support.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-support.png" alt-text="Obter informações sobre a atividade de suporte juntamente com o status de cada solicitação.":::
 
 ## <a name="try-for-free"></a>Experimente gratuitamente
 
@@ -75,7 +75,7 @@ O Surface Management Portal está disponível para clientes que usam Microsoft E
 
 ## <a name="known-issues"></a>Problemas conhecidos
 
-- O portal pode não carregar corretamente para um pequeno número de locatários. A engenharia de superfície está investigando ativamente esse problema. *2 de novembro de 2021.*
+- Resolvido: foi corrigido um problema que impedia o carregamento correto do portal para um pequeno número de locatários. (3 de novembro de 2021).
 
 ## <a name="learn-more"></a>Saiba mais
 
