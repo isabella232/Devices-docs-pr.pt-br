@@ -13,13 +13,13 @@ ms.topic: article
 ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
-ms.date: 7/30/2021
-ms.openlocfilehash: 58ec7b7cdf0ad7b437619d7587db6084673de71a
-ms.sourcegitcommit: 6a7f96a497c8749a5997972db139542563769101
+ms.date: 11/30/2021
+ms.openlocfilehash: eed1cbedea2a39207846301fa6b4f6c2b2f6dd56
+ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/31/2021
-ms.locfileid: "11710585"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "12337904"
 ---
 # <a name="wake-on-lan-for-surface-devices"></a>WOL para dispositivos Surface 
 
@@ -46,19 +46,18 @@ Dispositivos Surface com suporte para o WOL:
 - Surface Pro 4
 - Surface Pro (5ª Geração)
 - Surface Pro (5ª geração) com LTE Avançado
-- Surface Book
-- Surface Laptop (1ª Geração)
+- Surface Book (todas as gerações)
+- Surface Laptop (todas as gerações)
 - Surface Pro 6
 - Surface Book 2
-- Surface Laptop 2
-- Surface Go
-- Surface Go com LTE Avançado
+- Surface Go (todas as gerações)
 - Surface Studio 2 (consulte Surface Studio 2 instruções abaixo)
 - Surface Pro 7
 - Surface Pro 7+
-- Surface Laptop 3
+- Surface Pro 8
 - Surface Laptop Go
-- Surface Laptop 4
+- Surface Laptop Studio
+
 
 ## <a name="using-wol"></a>Usando o WOL 
 
@@ -72,7 +71,7 @@ O modo de espera moderno é iniciado quando o usuário faz com que o sistema ent
 
 Para habilitar o WOL Surface Studio 2, você deve usar o procedimento a seguir
 
-1. Abra o Editor do Registro (**Iniciar**  >  **Pesquisa**  >  **regedit.exe**) e crie as seguintes chaves do Registro:
+1. Abra o Editor do Registro (**StartSearch** > **** > **regedit.exe**) e crie as seguintes chaves do Registro:
 
    ```console
    ; Set CONNECTIVITYINSTANDBY to 1:

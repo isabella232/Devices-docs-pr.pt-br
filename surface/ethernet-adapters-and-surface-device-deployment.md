@@ -14,12 +14,12 @@ author: coveminer
 ms.author: greglin
 ms.topic: article
 ms.audience: itpro
-ms.openlocfilehash: 0eb0eb1e1d73852a2131c5aa5d6a7731ce78d54f
-ms.sourcegitcommit: 6d531906c36da51cb4032a220d70182e686114a8
+ms.openlocfilehash: 39c51b311a1c1329d0f1f54b787e975d42be0737
+ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "11721251"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "12338210"
 ---
 # <a name="ethernet-adapters-and-surface-deployment"></a>Adaptadores Ethernet e implantação do Surface
 
@@ -39,6 +39,7 @@ Os seguintes dispositivos Ethernet têm suporte para a inicialização de rede c
 
 - Surface USB-C para Ethernet e Adaptador USB 3.0
 - Surface USB 3.0 para Adaptador Ethernet Gigabit
+- Surface USB-C Travel Hub
 - Encaixe do Surface
 - Surface Dock 2
 - Base de Encaixe do Surface 3
@@ -82,4 +83,4 @@ Para acessar o firmware de um dispositivo Surface:
 
 Ao se implantar com o WDS, o endereço MAC é usado apenas para identificar um computador quando o servidor de implantação está configurado para responder apenas a clientes conhecidos e previamente preparados. Ao preparar previamente um cliente, um administrador cria uma conta de computador no Active Directory e define esse computador com o endereço MAC ou o UUID do Sistema. Para evitar conflitos de identidade causados por adaptadores Ethernet compartilhados, você deve usar o [UUID do Sistema para definir clientes previamente preparados](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc742034(v=ws.11)). Como alternativa, você pode configurar o WDS para responder a clientes desconhecidos que não necessitam de definição por meio do endereço MAC ou do UUID do sistema marcando a opção **Responder a todos os computadores cliente (conhecidos e desconhecidos)** na guia [**Resposta PXE**](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732360(v=ws.11)) em **Propriedades do Servidor de Implantação do Windows**.
 
-O risco de conflitos com adaptadores Ethernet compartilhados é muito maior com o Gerenciador de Configurações. Enquanto o WDS usa endereços MAC apenas para definir sistemas individuais quando configurado para fazer isso, o Gerenciador de Configurações usa o endereço MAC para definir sistemas individuais sempre que executa uma implantação em computadores novos ou desconhecidos. Isso pode resultar em dispositivos configurados incorretamente ou até mesmo na incapacidade de implantar mais de um sistema com um adaptador Ethernet compartilhado. Há várias soluções possíveis para essa situação descritas em detalhes em [How to Use The Same External Ethernet Adapter for Multiple SCCM OSD](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/how-to-use-the-same-external-ethernet-adapter-for-multiple-sccm/ba-p/257374), uma postagem de blog no Blog infraestrutura e segurança principal.
+O risco de conflitos com adaptadores Ethernet compartilhados é muito maior com o Gerenciador de Configurações. Enquanto o WDS usa endereços MAC apenas para definir sistemas individuais quando configurado para fazer isso, o Gerenciador de Configurações usa o endereço MAC para definir sistemas individuais sempre que executa uma implantação em computadores novos ou desconhecidos. Isso pode resultar em dispositivos configurados incorretamente ou até mesmo na incapacidade de implantar mais de um sistema com um adaptador Ethernet compartilhado. Há várias soluções possíveis para essa situação descritas em detalhes em [How to Use The Same External Ethernet Adapter for Multiple SCCM OSD](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/how-to-use-the-same-external-ethernet-adapter-for-multiple-sccm/ba-p/257374), uma postagem de blog no Blog de Infraestrutura e Segurança Principal.

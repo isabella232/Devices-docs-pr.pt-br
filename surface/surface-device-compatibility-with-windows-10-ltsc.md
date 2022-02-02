@@ -14,12 +14,12 @@ ms.audience: itpro
 ms.date: 07/21/2021
 ms.reviewer: scottmca
 manager: laurawi
-ms.openlocfilehash: 3cae417caab1249894ab10950be4ec457ed88932
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+ms.openlocfilehash: 6127685edb0c098235734439ffbffac8c2c508ca
+ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676385"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "12338435"
 ---
 # <a name="surface-device-compatibility-with-windows-10-long-term-servicing-channel-ltsc"></a>Compatibilidade do dispositivo Surface com Windows 10 Long-Term de Manutenção (LTSC)
 
@@ -28,11 +28,11 @@ Os dispositivos Surface são projetados para oferecer as melhores experiências 
 Em contraste com a opção de manutenção SAC, anteriormente conhecida como as opções de manutenção do Branch Atual (CB) ou Do Branch Atual para Empresas (CBB), não é possível selecionar Long-Term opção do Canal de Manutenção do Long-Term (LTSC) nas configurações Windows 10. Para usar a opção de manutenção LTSC, você deve instalar uma edição separada do Windows 10 Enterprise, conhecido como Windows 10 Enterprise LTSC, anteriormente conhecido como Windows 10 Enterprise LTSB (Branch de Manutenção de Longo Prazo).
 
 >[!TIP]
->Para obter as informações mais recentes sobre LTSC, consulte as seguintes perguntas frequentes: o próximo lançamento Windows 10 Canal de Manutenção de Longo Prazo [(LTSC).](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/the-next-windows-10-long-term-servicing-channel-ltsc-release/ba-p/2147232)
+>Para obter as informações mais recentes sobre LTSC, consulte as seguintes perguntas frequentes: o próximo lançamento Windows 10 Canal de Manutenção de Longo Prazo [(LTSC](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/the-next-windows-10-long-term-servicing-channel-ltsc-release/ba-p/2147232)).
 
  Além de fornecer um modelo de manutenção estendida, a Windows 10 Enterprise LTSC também fornece um ambiente com vários componentes Windows removidos. As principais experiências do Surface que são impactadas pelo LTSC incluem:
 
-* Windows Atualizações de recursos, incluindo aprimoramentos como:
+* Windows atualizações de recursos, incluindo aprimoramentos como:
 
   *  Melhorias para Tinta Direta e rejeição de palma Windows 10, versão 1607 (também conhecida como Atualização de Aniversário)
   *  Suporte aprimorado para aplicativos DPI elevados fornecidos Windows 10 versão 1703 (também conhecida como Atualização de Criadores)
@@ -67,7 +67,7 @@ Antes de optar por usar a Windows 10 Enterprise LTSC em dispositivos Surface, co
 * As substituições de dispositivo Surface (por exemplo, dispositivos substituídos em garantia) podem conter variações sutis em componentes de hardware que exigem drivers de dispositivo atualizados e firmware. A compatibilidade com essas atualizações pode exigir a instalação de uma versão mais recente do Windows 10 Enterprise LTSC ou Windows 10 Pro ou Enterprise com a opção de manutenção SAC.
 
 >[!NOTE]
->As organizações que padronizarem uma versão específica do Windows 10 Enterprise LTSC podem não poder adotar novas gerações de hardware surface, como o Surface Pro 7, o Surface Pro X ou o Surface Laptop 3, sem também atualizar para uma versão posterior do Windows 10 Enterprise LTSC ou Windows 10 Pro ou Enterprise. Para obter mais informações, consulte a perguntas [frequentes](/lifecycle/faq/windows#what-are-the-requirements-for-servicing-and-updating-the-windows-10-long-term-servicing-channel--ltsc--)sobre ciclo de vida - Windows .
+>As organizações que padronizarem uma versão específica do Windows 10 Enterprise LTSC podem não poder adotar novas gerações de hardware surface, como Surface Pro 8, Surface Pro X ou Surface Laptop 4, sem também atualizar para uma versão posterior do Windows 10 Enterprise LTSC ou Windows 10 Pro ou Enterprise. Para obter mais informações, consulte a perguntas [frequentes sobre ciclo de vida - Windows](/lifecycle/faq/windows#what-are-the-requirements-for-servicing-and-updating-the-windows-10-long-term-servicing-channel--ltsc--).
 
 Os dispositivos Surface que executam Windows 10 Enterprise edição LTSC não receberão novos recursos. Em muitos casos, esses recursos são solicitados pelos clientes para melhorar a usabilidade e os recursos do hardware surface. Por exemplo, novas melhorias para aplicativos high DPI Windows 10 versão 1703. Os clientes que usam dispositivos Surface na configuração LTSC não verão as melhorias até que eles atualizem para uma nova versão do Windows 10 Enterprise LTSC ou atualizem para uma versão do Windows 10 com suporte para a opção de manutenção SAC.
 

@@ -11,25 +11,25 @@ audience: Admin
 ms.topic: article
 ms.date: 10/15/2021
 ms.localizationpriority: Medium
-ms.openlocfilehash: cf87ec877548cd1ae527e8f64eb90d094c19c858
-ms.sourcegitcommit: 74ab91db82ae611854c070ddb14daa28acf7051f
+ms.openlocfilehash: 6ba5677fabd3d309875cf339ec1432e99529b23b
+ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "12096469"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "12338084"
 ---
 # <a name="reset-and-recovery-for-surface-hub-2s"></a>Redefinir e recuperar para Surface Hub 2S
 
-Se você encontrar problemas com Surface Hub 2S, poderá redefinir o dispositivo para configurações de fábrica ou restaurar usando uma unidade USB.
+Se você encontrar problemas com o Surface Hub 2S, poderá redefinir o dispositivo para as configurações de fábrica ou restaurar usando uma unidade USB.
 
-Para começar, entre no Surface Hub 2S com credenciais de administrador, abra o aplicativo **Configurações,** selecione **Atualizar & segurança**e selecione **Recuperação**.
+Para começar, entre no Surface Hub 2S com credenciais de administrador, abra o aplicativo **Configurações**, selecione **Atualizar & segurança** e selecione **Recuperação**.
 
 ## <a name="reset-the-device"></a>Redefina o dispositivo
 
    > [!IMPORTANT]
    > Verifique se você tem sua chave BitLocker disponível antes de redefinir o dispositivo, pois você será solicitado mais tarde. Para saber mais, confira [Salvar a tecla BitLocker](save-bitlocker-key-surface-hub.md).
 
-1. Para redefinir o dispositivo, selecione **Introdução**.
+1. Para redefinir o dispositivo, **selecione Introdução**.
 
 2. Quando a **janela Pronto para redefinir esse dispositivo** for exibida, selecione **Redefinir**.
   
@@ -38,7 +38,7 @@ Para começar, entre no Surface Hub 2S com credenciais de administrador, abra o 
   
 3. Para reconfigurar o dispositivo, execute o programa de Instalação pela primeira vez.
 
-4. Se você gerenciar o dispositivo usando Microsoft Intune ou outra solução de gerenciamento de dispositivo móvel, retire e exclua o registro anterior e, em seguida, re-inscreva o novo dispositivo. Para obter mais informações, [consulte Remove devices by using wipe, retire, or manualmente unenrolling the device](/intune/devices-wipe).
+4. Se você gerenciar o dispositivo usando Microsoft Intune ou outra solução de gerenciamento de dispositivo móvel, retire e exclua o registro anterior e, em seguida, re-inscreva o novo dispositivo. Para obter mais informações, [consulte Remove devices by using wipe, retire, or manually unenrolling the device](/intune/devices-wipe).
 
    > [!div class="mx-imgBorder"]
    > ![*Redefinir e recuperar para Surface Hub 2S*.](images/sh2-reset.png)
@@ -55,13 +55,13 @@ Usando Surface Hub 2S, você pode reinstalar o dispositivo usando uma imagem de 
 >[!TIP]
 >Use uma unidade USB 3.0 com 8 GB ou 16 GB de armazenamento, formatada como FAT32.
 
-1. Em um computador separado, baixe .zip imagem de recuperação de arquivo do [site de Recuperação](https://support.microsoft.com/surfacerecoveryimage?devicetype=surfacehub2s) do Surface e retorne a essas instruções.
+1. Em um computador separado, baixe .zip imagem de recuperação de arquivo do [site de Recuperação do Surface](https://support.microsoft.com/surfacerecoveryimage?devicetype=surfacehub2s) e retorne para essas instruções.
 
-2. Na caixa de pesquisa na barra de tarefas, insira a unidade **de**recuperação e selecione **Criar uma** unidade de recuperação ou Unidade de **Recuperação** a partir dos resultados. Talvez seja necessário inserir uma senha de administrador ou confirmar sua escolha.
+2. Na caixa de pesquisa na barra de tarefas, insira a unidade **de** recuperação e selecione **Criar uma unidade** de recuperação ou **Unidade de Recuperação** a partir dos resultados. Talvez seja necessário inserir uma senha de administrador ou confirmar sua escolha.
 
-3. Na caixa **Controle de Conta de Usuário,** selecione **Sim**.
+3. Na caixa **Controle de Conta de Usuário** , selecione **Sim**.
 
-4. Certifique-se de limpar a caixa de seleção Fazer o back up de arquivos do sistema na unidade de **recuperação** e selecione **Next**.
+4. Certifique-se de limpar a **caixa de seleção Fazer o back up de arquivos** do sistema na unidade de recuperação e selecione **Próximo**.
 
 5. Selecione sua unidade USB e selecione Próximo > **Criar**.  Alguns utilitários precisam ser copiados para a unidade de recuperação, portanto, isso pode levar alguns minutos.
 
@@ -71,14 +71,14 @@ Usando Surface Hub 2S, você pode reinstalar o dispositivo usando uma imagem de 
 
 8. Selecione todos os arquivos da pasta de imagem de recuperação, copie-os para a raiz da unidade USB e selecione Escolher para substituir **os arquivos no destino**.
 
-9. Depois que os arquivos terminarem de copiar, selecione o ícone Remover Hardware e ejetar **Mídia** com Segurança na barra de tarefas e remova sua unidade USB.
+9. Depois que os arquivos terminarem de copiar, selecione o ícone Remover Hardware e Ejetar **Mídia** com Segurança na barra de tarefas e remova sua unidade USB.
 
 10. Conexão unidade USB para qualquer porta USB-C ou USB-A no Surface Hub 2S. Desativar o Hub e, em seguida, inicializar da unidade USB.
 
 #### <a name="boot-surface-hub-from-usb-drive"></a>Inicialização Surface Hub da unidade USB
 
 >[!NOTE]
->Se o dispositivo foi desconectado ou teve uma queda de energia abrubt ou cabo de alimentação puxada, aguarde pelo menos 15 segundos antes de tentar inicializar a partir da USB.
+>Se o dispositivo foi desconectado ou teve uma interrupção abrupta de energia ou cabo de alimentação puxada, aguarde pelo menos 15 segundos antes de tentar inicializar do USB.
 
 1. Ao pressionar o botão Volume para baixo, pressione o botão Ligar.
 
@@ -91,7 +91,7 @@ Usando Surface Hub 2S, você pode reinstalar o dispositivo usando uma imagem de 
 
 4. Na tela de seleção de idioma, selecione o idioma de exibição do seu Surface Hub 2S.
 
-5. Selecione **Recuperar de uma unidade e** Limpe totalmente a **unidade**e, em seguida, selecione **Recuperar**. Se você for solicitado a solicitar uma chave BitLocker, selecione **Ignorar essa unidade**. Surface Hub reinicializações do 2S várias vezes e pode levar uma hora ou mais para concluir o processo de recuperação.
+5. Selecione **Recuperar de uma unidade e** **Limpe totalmente a unidade** e selecione **Recuperar**. Se você for solicitado a solicitar uma chave BitLocker, selecione **Ignorar essa unidade**. Surface Hub reinicializações do 2S várias vezes e pode levar uma hora ou mais para concluir o processo de recuperação.
 
 6. Quando a tela de instalação pela primeira vez for exibida, remova a unidade USB.
 

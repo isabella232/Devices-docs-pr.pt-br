@@ -12,22 +12,22 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 518db8ad0070e5e7355ef57b96057c6f4ae45137
-ms.sourcegitcommit: 94e11386d7034c6bc5fe753f7bebf61a9c815509
+ms.openlocfilehash: 660a96a8825002c6d52d067dac77894bb0c0b7a9
+ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "12154066"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "12337824"
 ---
 # <a name="surface-brightness-control"></a>Controle de brilho do Surface
 
-Ao implantar dispositivos Surface no ponto de venda ou em outros cenários de quiosque "always-on", você pode otimizar o gerenciamento de energia usando o novo aplicativo Surface Brightness Control. O Controle de Brilho de Superfície foi projetado para ajudar a reduzir a carga térmica e reduzir a emissão geral de carbono para dispositivos Surface implantados. A ferramenta apaga automaticamente a tela quando não está em uso e inclui as seguintes opções de configuração:
+Ao implantar dispositivos Surface no ponto de venda ou em outros cenários de quiosque "always-on", você pode otimizar o gerenciamento de energia usando o aplicativo Surface Brightness Control. O Controle de Brilho de Superfície foi projetado para ajudar a reduzir a carga térmica e reduzir a emissão geral de carbono para dispositivos Surface implantados. A ferramenta apaga automaticamente a tela quando não está em uso e inclui as seguintes opções de configuração:
 
 - Período de inatividade antes de escurecer a exibição.
 - Nível de brilho quando esmaecida.
 - Nível máximo de brilho quando em uso.
 
-Baixe-o [do Surface Tools para IT.](https://www.microsoft.com/download/details.aspx?id=46703) Selecione o arquivo **Surface_Brightness_Control_v1.16.137.0.msi** na lista disponível.
+Baixe o Controle de Brilho de Superfície do [Surface Tools para IT](https://www.microsoft.com/download/details.aspx?id=46703). Selecione o arquivo **Surface_Brightness_Control_v1.16.137.0.msi** na lista disponível.
 
 ## <a name="supported-devices"></a>Dispositivos com suporte
 
@@ -48,23 +48,23 @@ Baixe-o [do Surface Tools para IT.](https://www.microsoft.com/download/details.a
 
 ## <a name="configure-surface-brightness-control"></a>Configurar o Controle de Brilho de Superfície
 
- você pode ajustar os valores padrão por meio Windows Registro. Para obter mais informações sobre como usar o Windows Registro, consulte a [documentação do Registro](/windows/desktop/sysinfo/registry).
+Você pode ajustar os valores padrão por meio do Windows Registro. Para obter mais informações sobre como usar o Windows Registro, consulte a [documentação do Registro](/windows/desktop/sysinfo/registry).
 
-1. Execute o regedit de um prompt de comando para abrir o editor Windows Registro.
+1. Execute **o regedit** de um prompt de comando para abrir o editor Windows Registro.
 2. Navegue até Computador\HKEY\_LOCAL\_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Surface\Surface Brightness Control.
 3. Ajuste os valores principais do Registro, conforme descrito na tabela a seguir.
 
 > [!TIP]
-> Se você estiver executando uma versão mais antiga do controle Surface Brightness, navegue até: Computador\HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\Surface\Surface Brightness Control\
+> Se você estiver executando uma versão mais antiga do controle Surface Brightness, navegue até: Computer\HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\Surface\SurfaceBrightnessControl\
 
 | Configuração do Registro | Dados| Descrição  
 |-----------|------------|---------------
-| Controle de brilho habilitado  |  Padrão: 01  <br> Opção: 01,00 <br> Tipo: REG_BINARY |  Essa configuração permite ativar ou desativar o Controle de Brilho de Superfície. Para desabilitar o Controle de Brilho de Superfície, de definir o valor como 00. Se você não definir essa configuração, o Surface Brightness Control será a opção. |
-| Controle de brilho na energia habilitada| Padrão: 01 <br> Opções: 01,00 <br> Tipo: REG_BINARY | Essa configuração permite desativar o Controle de Brilho de Superfície quando o dispositivo está diretamente conectado à energia. Para desabilitar o Surface Brightness Control quando a energia estiver conectada, de definir o valor como 00. Se você não definir essa configuração, o Surface Brightness Control será a opção. |
-| Brilho esmaecida   | Padrão: 20  <br>Opção: Intervalo de 0 a 100% do brilho da tela <br> Tipo de dados: inteiro positivo <br> Tipo: REG_DWORD | Essa configuração permite gerenciar o intervalo de brilho durante períodos de inatividade. Se você não configurar essa configuração, o nível de brilho baixará para 20% do brilho total após 30 segundos de inatividade. |
-Brilho Total   | Padrão: 100  <br>Opção: Intervalo de 0 a 100% do brilho da tela <br> Tipo de dados: inteiro positivo <br> Tipo: REG_DWORD  | Essa configuração permite gerenciar o intervalo máximo de brilho para o dispositivo. Se você não configurar essa configuração, o intervalo máximo de brilho será 100%.|  
-| Tempo limite de inatividade| Padrão: 30 segundos <br>Opção: Qualquer valor numérico  <br>Tipo de dados: Integer  <br> Tipo: REG_DWORD | Essa configuração permite gerenciar o período de inatividade antes de escurecer o dispositivo. Se você não configurar essa configuração, o tempo de inatividade será de 30 segundos.|
-| Telemetria habilitada | Padrão: 01 <br>Opção: 01,00 <br> Tipo: REG_BINARY  | Essa configuração permite gerenciar o compartilhamento de informações de uso do aplicativo para melhorar o software e proporcionar uma melhor experiência do usuário. Para desabilitar a telemetria, de definir o valor como 00. Se você não definir essa configuração, as informações de telemetria são compartilhadas com a Microsoft de acordo com a Declaração de [Privacidade da Microsoft.](https://privacy.microsoft.com/privacystatement) |
+| BrightnessControlEnabled  |  Padrão: 01  <br> Opção: 01,00 <br> Tipo: REG_BINARY |  Essa configuração permite ativar ou desativar o Controle de Brilho de Superfície. Para desabilitar o Controle de Brilho de Superfície, de definir o valor como 00. Se você não definir essa configuração, o Surface Brightness Control será a opção. |
+| BrightnessControlOnPowerEnabled| Padrão: 01 <br> Opções: 01,00 <br> Tipo: REG_BINARY | Essa configuração permite desativar o Controle de Brilho de Superfície quando o dispositivo está diretamente conectado à energia. Para desabilitar o Surface Brightness Control quando a energia estiver conectada, de definir o valor como 00. Se você não definir essa configuração, o Surface Brightness Control será a opção. |
+| DimmedBrightness   | Padrão: 20  <br>Opção: Intervalo de 0 a 100% do brilho da tela <br> Tipo de dados: inteiro positivo <br> Tipo: REG_DWORD | Essa configuração permite gerenciar o intervalo de brilho durante períodos de inatividade. Se você não configurar essa configuração, o nível de brilho baixará para 20% do brilho total após 30 segundos de inatividade. |
+FullBrightness   | Padrão: 100  <br>Opção: Intervalo de 0 a 100% do brilho da tela <br> Tipo de dados: inteiro positivo <br> Tipo: REG_DWORD  | Essa configuração permite gerenciar o intervalo máximo de brilho para o dispositivo. Se você não configurar essa configuração, o intervalo máximo de brilho será 100%.|  
+| InactivityTimeout| Padrão: 30 segundos <br>Opção: Qualquer valor numérico  <br>Tipo de dados: Integer  <br> Tipo: REG_DWORD | Essa configuração permite gerenciar o período de inatividade antes de escurecer o dispositivo. Se você não configurar essa configuração, o tempo de inatividade será de 30 segundos.|
+| TelemetryEnabled | Padrão: 01 <br>Opção: 01,00 <br> Tipo: REG_BINARY  | Essa configuração permite gerenciar o compartilhamento de informações de uso do aplicativo para melhorar o software e proporcionar uma melhor experiência do usuário. Para desabilitar a telemetria, de definir o valor como 00. Se você não definir essa configuração, as informações de telemetria são compartilhadas com a Microsoft de acordo com a [Declaração de Privacidade da Microsoft](https://privacy.microsoft.com/privacystatement). |
 
 ## <a name="changes-and-updates"></a>Alterações e atualizações
 

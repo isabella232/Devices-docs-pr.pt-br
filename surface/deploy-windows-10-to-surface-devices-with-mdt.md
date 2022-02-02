@@ -1,7 +1,7 @@
 ---
-title: Implantar o Windows 10 em dispositivos de superfície com o kit de ferramentas de implantação da Microsoft (Surface)
-description: Percorra o processo recomendado de como implantar o Windows 10 em seus dispositivos de superfície com o kit de ferramentas de implantação da Microsoft.
-keywords: superfície do Windows 10, automatizar, personalizar, MDT
+title: Preparar a implantação do Surface com o Microsoft Deployment Toolkit
+description: And through the recommended process of how to deploy Windows 10 to your Surface devices with the Microsoft Deployment Toolkit.
+keywords: windows 10 surface, automatize, customize, mdt
 ms.prod: w10
 ms.mktglfcycl: deploy
 ms.pagetype: surface
@@ -14,28 +14,28 @@ ms.audience: itpro
 ms.reviewer: ''
 manager: laurawi
 ms.date: 10/12/2020
-ms.openlocfilehash: 858b6726f1127e3c439864f8946274ed0ea1edd3
-ms.sourcegitcommit: c1efb75e8524193bdc0a5f7496dc23a92ac665c8
+ms.openlocfilehash: 9578893ad96d84380adfc038dd42c4791d29c7cd
+ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "11114559"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "12338274"
 ---
-# Implantar o Windows 10 em dispositivos de superfície com o kit de ferramentas de implantação da Microsoft
+# <a name="prepare-surface-deployment-with-microsoft-deployment-toolkit"></a>Preparar a implantação do Surface com o Microsoft Deployment Toolkit
 
-**Aplicável a**
+**Aplicável ao**
 
-- Surface Studio e posterior
+- Surface Studio (todas as gerações)
 - Surface Pro 4 e posterior
-- Catálogo de superfície e mais tarde
-- Surface laptop e posterior
-- Usar o laptop Surface
-- Surface Go
+- Surface Book (todas as gerações)
+- Surface Laptop (todas as gerações)
+- Surface Laptop Go 
+- Surface Go (todas as gerações)
 - Surface 3
 - Windows 10
 
 > [!NOTE]
-> O MDT não é compatível com o Surface Pro X. Para obter mais informações, consulte [implantação, gerenciamento e manutenção do Surface Pro X](surface-pro-arm-app-management.md).
+> O MDT não tem suporte no Surface Pro X. Para obter mais informações, consulte [Deploying, managing, and sering Surface Pro X](surface-pro-arm-app-management.md).
 
-Para obter as informações mais recentes sobre como usar o MDT, consulte [implantar uma imagem do Windows 10 usando o MDT](https://docs.microsoft.com/windows/deployment/deploy-windows-mdt/deploy-a-windows-10-image-using-mdt).
+Para obter as informações mais recentes sobre como usar o MDT, consulte [Deploy a Windows 10 image using MDT](/windows/deployment/deploy-windows-mdt/deploy-a-windows-10-image-using-mdt).
 

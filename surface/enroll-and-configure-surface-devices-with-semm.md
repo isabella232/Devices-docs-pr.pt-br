@@ -14,20 +14,20 @@ ms.audience: itpro
 ms.reviewer: hachinda
 manager: laurawi
 ms.date: 1/15/2021
-ms.openlocfilehash: b7edb07fdd14d3940358a667f81513dd453769c6
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.openlocfilehash: 61b15bf1d7ae5f99d57fb4dcd7bd9f83d9eb4b0a
+ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911006"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "12337934"
 ---
 # <a name="enroll-and-configure-surface-devices-with-semm"></a>Registrar e configurar dispositivos Surface com o SEMM
 
-Com o Microsoft Surface Enterprise Modo de Gerenciamento (SEMM), você pode configurar com segurança as configurações do Surface UEFI em um dispositivo Surface e gerenciar essas configurações em dispositivos Surface em sua organização. Quando um dispositivo Surface é gerenciado pelo SEMM, esse dispositivo é considerado como inscrito *(às* vezes chamado de ativado). Este artigo mostra como criar um pacote de configuração UEFI do Surface que controlará não apenas as configurações do Surface UEFI, mas também registrará um dispositivo Surface no SEMM.
+Com o Microsoft Surface Enterprise Modo de Gerenciamento (SEMM), você pode configurar com segurança as configurações do Surface UEFI em um dispositivo Surface e gerenciar essas configurações em dispositivos Surface em sua organização. Quando um dispositivo Surface é gerenciado pelo SEMM, esse dispositivo é considerado como *inscrito (às* vezes chamado de ativado). Este artigo mostra como criar um pacote de configuração UEFI do Surface que controlará não apenas as configurações do Surface UEFI, mas também registrará um dispositivo Surface no SEMM.
 
-Para obter uma visão geral mais de alto nível do SEMM, consulte [Microsoft Surface Enterprise Modo de Gerenciamento.](https://technet.microsoft.com/itpro/surface/surface-enterprise-management-mode)
+Para obter uma visão geral mais de alto nível do SEMM, consulte [Microsoft Surface Enterprise Modo de Gerenciamento](https://technet.microsoft.com/itpro/surface/surface-enterprise-management-mode).
 
-Como alternativa ao SEMM, os dispositivos Surface mais novos suportam o gerenciamento remoto de um subconjunto de configurações de firmware por meio Microsoft Intune. Para obter mais informações, consulte [Intune management of Surface UEFI settings](surface-manage-dfci-guide.md).
+Como alternativa ao SEMM, os dispositivos Surface mais novos suportam o gerenciamento remoto de um subconjunto de configurações de firmware por meio Microsoft Intune. Para obter mais informações, consulte [o gerenciamento do Intune das configurações uefi do Surface](surface-manage-dfci-guide.md).
 
 > [!NOTE]
 > O SEMM é suportado no Surface Pro X somente por meio do Gerenciador UEFI. Para obter mais informações, consulte [Deploying, managing, and sering Surface Pro X](surface-pro-arm-app-management.md).
@@ -42,13 +42,15 @@ Execute o arquivo Do Microsoft Surface UEFI Configurator Windows Installer (.msi
 
 ## <a name="create-a-surface-uefi-configuration-package"></a>Criar um pacote de configuração uefi do Surface
 
-O pacote de configuração uefi do Surface executa a função de aplicar uma nova configuração das configurações do Surface UEFI a um dispositivo Surface gerenciado com SEMM e a função de registrar dispositivos Surface no SEMM. A criação de um pacote de configuração exige que você tenha um certificado de assinatura a ser usado com o SEMM para proteger a configuração das configurações uefi em cada dispositivo Surface. Para obter mais informações sobre os requisitos para o certificado SEMM, consulte [Microsoft Surface Enterprise Modo de Gerenciamento.](https://technet.microsoft.com/itpro/surface/surface-enterprise-management-mode)
+O pacote de configuração uefi do Surface executa a função de aplicar uma nova configuração das configurações do Surface UEFI a um dispositivo Surface gerenciado com SEMM e a função de registrar dispositivos Surface no SEMM. A criação de um pacote de configuração exige que você tenha um certificado de assinatura a ser usado com o SEMM para proteger a configuração das configurações uefi em cada dispositivo Surface. Para obter mais informações sobre os requisitos do certificado SEMM, consulte [Microsoft Surface Enterprise Management Mode](https://technet.microsoft.com/itpro/surface/surface-enterprise-management-mode).
 
 Para criar um pacote de configuração UEFI do Surface, siga estas etapas:
 
 1. Abra o Configurador UEFI do Microsoft Surface a partir do menu Iniciar.
+
 2. Clique em **Iniciar**.
-3. Clique **em Pacote de**Configuração, conforme mostrado na Figura 1.
+
+3. Clique **em Pacote de** Configuração, conforme mostrado na Figura 1.
 
    ![Crie um pacote para registro SEMM.](images/surface-ent-mgmt-fig1-uefi-configurator.png "Create a package for SEMM enrollment")
 
@@ -61,10 +63,13 @@ Para criar um pacote de configuração UEFI do Surface, siga estas etapas:
    *Figura 2. Adicione o certificado SEMM e a senha UEFI do Surface a um pacote de configuração uefi do Surface*
 
 5. Quando você for solicitado a confirmar a senha do certificado, insira e confirme a senha do arquivo de certificado e clique em **OK**.
-6. Clique **em Proteção de Senha** para adicionar uma senha ao Surface UEFI. Essa senha será necessária sempre que você for inicializado na UEFI. Se essa senha não for inserida, somente as informações do **computador**, **Sobre,** Enterprise **gerenciamento**e **páginas exit** serão exibidas. Esta etapa é opcional.
+
+6. Clique **em Proteção de Senha** para adicionar uma senha ao Surface UEFI. Essa senha será necessária sempre que você for inicializado na UEFI. Se essa senha não for inserida, somente as informações do **computador****,** **Sobre**, Enterprise gerenciamento e **páginas exit** serão exibidas. Esta etapa é opcional.
+
 7. Quando você for solicitado, insira e confirme sua senha escolhida para o Surface UEFI e clique em **OK**. Se você quiser limpar uma senha UEFI existente do Surface, deixe o campo de senha em branco.
-8. Se você não quiser que o pacote UEFI do **** Surface se aplique a um determinado dispositivo, na página Escolher qual tipo surface você deseja direcionar, clique no controle deslizante abaixo da imagem Surface Book ou Surface Pro 4 correspondente para que ele seja na **posição Off.** (Conforme mostrado na Figura 3.)
-   > [!NOTE] 
+
+8. Se você não quiser que o pacote UEFI do Surface se aplique a um determinado dispositivo, na página Escolher qual tipo **surface** você deseja direcionar, clique no controle deslizante abaixo do dispositivo correspondente para que ele seja na posição **** Off, conforme mostrado na Figura 3.
+   > [!TIP] 
    > Você deve selecionar um dispositivo como nenhum está selecionado por padrão.
 
    ![Escolha dispositivos para compatibilidade de pacote.](images/surface-semm-enroll-fig3.jpg "Choose devices for package compatibility")
@@ -72,28 +77,31 @@ Para criar um pacote de configuração UEFI do Surface, siga estas etapas:
    *Figura 3. Escolha os dispositivos para compatibilidade de pacote*
 
 9. Clique em **Avançar**.
-10. Se você quiser desativar um componente em dispositivos Surface gerenciados, na página Escolher quais componentes deseja ativar ou **desativar,** clique no controle deslizante ao lado **** de qualquer dispositivo ou grupo de dispositivos que você deseja desativar para que o controle deslizante está na posição Off. (Mostrado na Figura 4.) A configuração padrão para cada dispositivo é **On**. Clique no **botão Redefinir** se quiser retornar todos os controles deslizantes para a posição padrão.
+
+10. Se você quiser desativar um componente em dispositivos Surface gerenciados, na página Escolher quais componentes deseja ativar ou **desativar**, clique no controle deslizante ao lado de qualquer dispositivo ou grupo de dispositivos que você deseja desativar para que o controle deslizante está na posição Off.**** (Mostrado na Figura 4.) A configuração padrão para cada dispositivo é **On**. Clique no **botão Redefinir** se quiser retornar todos os controles deslizantes para a posição padrão.
 
     ![Desabilitar ou habilitar componentes do Surface.](images/surface-ent-mgmt-fig3-enabledisable.png "Disable or enable Surface components")
 
     *Figura 4. Desabilitar ou habilitar componentes individuais do Surface*
 
 11. Clique em **Avançar**.
-12. Para habilitar ou desabilitar opções avançadas no Surface UEFI ou na exibição de páginas UEFI do Surface, na página **** Escolher as configurações avançadas para seus **dispositivos,** clique no controle deslizante ao lado da configuração desejada para configurar essa opção como Ativado ou Desligado **(mostrado** na Figura 5). Na seção **Front Page UEFI,** você pode usar **** os controles deslizantes para **Segurança,** Dispositivos e **Inicialização** para controlar quais páginas estão disponíveis para os usuários que inicializam no Surface UEFI. (Para obter mais informações sobre as configurações do Surface UEFI, consulte [Manage Surface UEFI settings](https://technet.microsoft.com/itpro/surface/manage-surface-uefi-settings).) Clique **em Criar** quando terminar de selecionar opções para gerar e salvar o pacote.
+
+12. Para habilitar ou desabilitar opções avançadas no Surface UEFI ou na exibição de páginas UEFI do Surface, na página Escolher as configurações **avançadas para seus dispositivos**, clique no controle deslizante ao lado **** da configuração desejada para configurar essa opção como Ativado ou **Desligado (mostrado** na Figura 5). Na seção **Página Inicial uefi**, você pode usar os controles deslizantes para **Segurança****,** Dispositivos e **Inicialização** para controlar quais páginas estão disponíveis para os usuários que inicializam no Surface UEFI. (Para obter mais informações sobre as configurações do Surface UEFI, consulte [Manage Surface UEFI settings](https://technet.microsoft.com/itpro/surface/manage-surface-uefi-settings).) Clique **em Criar** quando terminar de selecionar opções para gerar e salvar o pacote.
 
     ![Controlar configurações avançadas da UEFI do Surface e páginas UEFI do Surface.](images/surface-ent-mgmt-fig4-advancedsettings.png "Control advanced Surface UEFI settings and Surface UEFI pages")
 
     *Figura 5. Controlar configurações avançadas da UEFI do Surface e páginas UEFI do Surface com SEMM*
 
-13. Na caixa de diálogo Salvar **como,** especifique um nome para o pacote de configuração uefi do Surface, navegue até o local onde você gostaria de salvar o arquivo e clique em **Salvar**.
+13. Na caixa **de diálogo Salvar como** , especifique um nome para o pacote de configuração UEFI do Surface, navegue até o local onde você gostaria de salvar o arquivo e clique em **Salvar**.
+
 14. Quando o pacote é criado e salvo, a página **Bem-sucedida** é exibida.
 
->[!NOTE]
->Grave os caracteres de impressão digital do certificado exibidos nesta página, conforme mostrado na Figura 6. Você precisará desses caracteres para confirmar o registro de novos dispositivos Surface no SEMM. Clique **em Fim** para concluir a criação do pacote e feche o Configurador UEFI do Microsoft Surface.
-
-![Exibição de caracteres de impressão digital de certificado.](images/surface-ent-mgmt-fig5-success.png "Display of certificate thumbprint characters")
-
-*Figura 6. Os dois últimos caracteres da impressão digital do certificado são exibidos na página Bem-sucedido*
+    >[!NOTE]
+    >Grave os caracteres de impressão digital do certificado exibidos nesta página, conforme mostrado na Figura 6. Você precisará desses caracteres para confirmar o registro de novos dispositivos Surface no SEMM. Clique **em Fim** para concluir a criação do pacote e feche o Configurador UEFI do Microsoft Surface.
+    
+    ![Exibição de caracteres de impressão digital de certificado.](images/surface-ent-mgmt-fig5-success.png "Display of certificate thumbprint characters")
+    
+    *Figura 6. Os dois últimos caracteres da impressão digital do certificado são exibidos na página Bem-sucedido*
 
 Agora que você criou o pacote de configuração uefi do Surface, você pode registrar ou configurar dispositivos Surface.
 
@@ -126,19 +134,19 @@ Para registrar um dispositivo Surface no SEMM com um pacote de configuração ue
    
 5. O dispositivo Surface agora está inscrito no SEMM e será inicializado para Windows.
 
-Você pode verificar se um dispositivo Surface foi inscrito com êxito no SEMM procurando o Pacote de Configuração do **Microsoft Surface** em Programas e Recursos **(conforme** mostrado na Figura 9) ou nos eventos armazenados no log configurador uefi do **Microsoft Surface,** encontrado em **Logs** de aplicativos e serviços no Visualizador de Eventos (conforme mostrado na Figura 10).
+Você pode verificar se um dispositivo Surface foi inscrito com êxito no SEMM procurando o Pacote de Configuração do **Microsoft Surface** em Programas e **Recursos (conforme** mostrado na Figura 9) ou nos eventos armazenados no log configurador **uefi do Microsoft Surface** , encontrado em **Logs** de aplicativos e serviços no Visualizador de Eventos (conforme mostrado na Figura 10).
 
-![Verifique o registro do dispositivo Surface no SEMM em Programas e Recursos.](images/surface-semm-enroll-fig9.png "Verify enrollment of Surface device in SEMM in Programs and Features")
+:::image type="content" alt-text="Verifique o registro do dispositivo Surface no SEMM em Programas e Recursos." source="images/surface-semm-enroll-fig9.png":::
 
 *Figura 9. Verificar o registro de um dispositivo Surface no SEMM em Programas e Recursos*
 
-![Verifique o registro do dispositivo Surface no SEMM no Visualizador de Eventos.](images/surface-semm-enroll-fig10.png "Verify enrollment of Surface device in SEMM in Event Viewer")
+:::image type="content" alt-text="Verifique o registro do dispositivo Surface no SEMM no Visualizador de Eventos." source="images/surface-semm-enroll-fig10.png":::
 
 *Figura 10. Verificar o registro de um dispositivo Surface no SEMM no Visualizador de Eventos*
 
-Você também pode verificar se o dispositivo está inscrito no SEMM no Surface UEFI – enquanto o dispositivo está inscrito, a UEFI do Surface conterá **a** página de gerenciamento Enterprise (conforme mostrado na Figura 11).
+Você também pode verificar se o dispositivo está inscrito no SEMM no Surface UEFI – enquanto o dispositivo está inscrito, a UEFI do Surface conterá **Enterprise** página de gerenciamento de Enterprise (conforme mostrado na Figura 11).
 
-![Página de gerenciamento Enterprise UEFI do Surface.](images/surface-semm-enroll-fig11.png "Surface UEFI Enterprise management page")
+:::image type="content" alt-text="Página de gerenciamento Enterprise UEFI do Surface." source="images/surface-semm-enroll-fig11.png":::
 
 *Figura 11. A página de gerenciamento Enterprise UEFI do Surface*
 
@@ -149,10 +157,10 @@ Depois que um dispositivo for inscrito no SEMM, você poderá executar pacotes d
 
 Para obter mais informações sobre como implantar arquivos Windows Installer (.msi) com o Configuration Manager, consulte [Deploy and manage applications with Microsoft Endpoint Configuration Manager](https://technet.microsoft.com/library/mt627959).
 
-Se você tiver protegido o Surface UEFI com uma senha, os usuários sem a senha que tentarem inicializar **** no Surface UEFI terão apenas as informações do **computador**, **Sobre**, Enterprise gerenciamento e páginas exit exibidas **para**eles.
+Se você tiver protegido o Surface UEFI com uma senha, os usuários sem **a** senha que tentarem inicializar no Surface UEFI terão apenas as informações do **computador**, **Sobre**, Enterprise gerenciamento e páginas **** exit exibidas para eles.
 
 Se você não tiver protegido a UEFI do Surface com uma senha ou um usuário inserir a senha corretamente, as configurações configuradas com o SEMM serão esmaecidas (indisponíveis) e o texto Algumas configurações serão gerenciadas pela sua organização serão exibidas na parte superior da página, conforme mostrado na Figura 12.
 
-![Configurações gerenciado pelo SEMM desabilitado no Surface UEFI.](images/surface-semm-enroll-fig12.png "Settings managed by SEMM disabled in Surface UEFI")
+:::image type="content" alt-text="Configurações gerenciado pelo SEMM desabilitado no Surface UEFI." source="images/surface-semm-enroll-fig12.png":::
 
 *Figura 12. Configurações gerenciado pelo SEMM será desabilitado no Surface UEFI*

@@ -13,13 +13,13 @@ ms.topic: article
 ms.reviewer: jesko
 manager: laurawi
 ms.audience: itpro
-ms.date: 7/30/2021
-ms.openlocfilehash: 84a87342891dac2e4c0b0490458941c82fa0d018
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.date: 11/30/2021
+ms.openlocfilehash: 09982dff2e44ffc2ebe9b890588e5a62a3259cf5
+ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911606"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "12338484"
 ---
 # <a name="wake-on-lan-with-surface-dock-2"></a>WOL com Surface Dock 2
 
@@ -40,12 +40,14 @@ Os dispositivos devem ter uma conexão com fio com o Surface Dock 2 e permanecer
 - Surface Laptop 4 (processadores Intel)
 - Surface Laptop 4 (processadores AMD)
 - Surface Laptop 3 (processadores Intel)
+- Surface Pro 8
 - Surface Pro 7+
 - Surface Pro 7
 - Surface Pro X
-- Surface Go 2
+- Surface Go (todas as gerações)
 - Surface Laptop Go
 - Surface Book 3
+- Surface Laptop Studio
 
 O Surface Dock 2 oferece suporte a WOL para dispositivos nos seguintes estados de energia:
 
