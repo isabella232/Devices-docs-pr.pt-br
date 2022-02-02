@@ -15,12 +15,12 @@ ms.topic: article
 ms.date: 08/02/2021
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: a6b1dcdb3cf0ff8fe2f6485520c6b6301f5d2b2f
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.openlocfilehash: 7f9d1bd0b1d8e23432b0e855b2ec5c55d49c250c
+ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911996"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "12338104"
 ---
 # <a name="secure-surface-dock-2-ports-with-surface-enterprise-management-mode-semm"></a>Portas seguras do Surface Dock 2 com o Surface Enterprise Modo de Gerenciamento (SEMM)
 
@@ -30,10 +30,10 @@ O Modo de Gerenciamento do Surface Enterprise (SEMM) permite que os administrado
 
 ### <a name="supported-devices"></a>Dispositivos com suporte
 
-O gerenciamento do Surface Dock 2 com SEMM está disponível para docas conectadas ao Surface Book 3, Surface Laptop 4, Surface Laptop 3, Surface Laptop Go, Surface Pro 7+, Surface Pro 7 e Surface Pro X. Esses dispositivos Surface compatíveis são comumente chamados de **dispositivos host**. Um pacote é aplicado a dispositivos host com base em se um dispositivo host for **autenticado** ou **não autenticado.** As configurações residem na camada UEFI em dispositivos host que permitem que você , o administrador de TI, gerencie o Surface Dock 2 como qualquer outro periférico integrado, como a câmera.
+O gerenciamento do Surface Dock 2 com SEMM está disponível para docas conectadas ao Surface Book 3, Surface Laptop Studio, Surface Laptop 4, Surface Laptop 3, Surface Laptop Go, Surface Pro 8, Surface Pro 7+, Surface Pro 7 e Surface Pro X. Esses dispositivos Surface compatíveis são comumente chamados de **dispositivos host**. Um pacote é aplicado a dispositivos host com base em se um dispositivo host for **autenticado** ou **não autenticado**. As configurações residem na camada UEFI em dispositivos host que permitem que você , o administrador de TI, gerencie o Surface Dock 2 como qualquer outro periférico integrado, como a câmera.
 
 >[!NOTE]
->Você pode gerenciar as portas do Surface Dock 2 somente quando o encaixe estiver conectado a um dos seguintes dispositivos compatíveis: Surface Book 3, Surface Laptop 4, Surface Laptop 3, Surface Pro 7+e Surface Pro 7. Qualquer dispositivo que não receba as configurações de política autenticada UEFI é inerentemente um dispositivo não autenticado.
+>Você pode gerenciar as portas do Surface Dock 2 somente quando o dock estiver conectado a um dos seguintes dispositivos compatíveis: Surface Pro 8, Surface Laptop Studio, Surface Book 3, Surface Laptop 4, Surface Laptop 3, Surface Pro 7+, e Surface Pro 7. Qualquer dispositivo que não receba as configurações de política autenticada UEFI é inerentemente um dispositivo não autenticado.
 
 ### <a name="scenarios"></a>Cenários
 
@@ -43,7 +43,7 @@ Restringir o Surface Dock 2 a pessoas autorizadas conectados a um dispositivo ho
 
 Esta seção fornece orientações passo a passo para as seguintes tarefas:
 
-1. Instale **o Configurador UEFI do Surface** a partir das Ferramentas do Surface para [IT.](https://www.microsoft.com/download/details.aspx?id=46703)
+1. Instale **o Surface UEFI Configurator** a partir [das Ferramentas do Surface para IT](https://www.microsoft.com/download/details.aspx?id=46703).
 1. Criar ou obter certificados de chave pública.
 1. Crie um .msi de configuração.
    1. Adicione seus certificados.
@@ -58,7 +58,7 @@ Esta seção fornece orientações passo a passo para as seguintes tarefas:
 
 Instale o SEMM executando **SurfaceUEFI_Configurator_v2.83.139.0.msi.** Este é um instalador autônomo e contém tudo o que você precisa para criar e distribuir pacotes de configuração para o Surface Dock 2.
 
-- Baixe **o Configurador UEFI do Surface** Tools para [IT.](https://www.microsoft.com/download/details.aspx?id=46703)
+- Baixe **o Configurador UEFI do Surface** [Tools para IT](https://www.microsoft.com/download/details.aspx?id=46703).
 
 ## <a name="create-public-key-certificates"></a>Criar certificados de chave pública
 
@@ -66,13 +66,13 @@ Esta seção fornece especificações para a criação dos certificados necessá
 
 ### <a name="prerequisites"></a>Pré-requisitos
 
-Este artigo pressupo que você obtenha certificados de um provedor de terceiros ou já tenha experiência em serviços de certificado PKI e saiba como criar seus próprios.  Você deve estar familiarizado e seguir as recomendações gerais para a criação de certificados, conforme descrito na documentação do [Surface Enterprise Management Mode (SEMM),](surface-enterprise-management-mode.md) com uma exceção. Os certificados documentados nesta página exigem termos de expiração de 30 anos para a Autoridade de Certificação do Dock **e**20 anos para o Certificado de **Autenticação de Host.**
+Este artigo pressupo que você obtenha certificados de um provedor de terceiros ou já tenha experiência em serviços de certificado PKI e saiba como criar seus próprios.  Você deve estar familiarizado e seguir as recomendações gerais para a criação de certificados, conforme descrito na documentação do [Surface Enterprise Management Mode (SEMM),](surface-enterprise-management-mode.md) com uma exceção. Os certificados documentados nesta página exigem termos de expiração de 30 anos para **** a Autoridade de Certificação do Dock e 20 anos para o **Certificado de Autenticação de Host**.
 
-Para obter mais informações, consulte Certificate [Services Architecture](/windows/win32/seccrypto/certificate-services-architecture) documentation and review the appropriate chapters in Windows [Server 2019 Inside Out](https://www.microsoftpressstore.com/store/windows-server-2019-inside-out-9780135492277), or Windows Server [2008 PKI and Certificate Security](https://www.microsoftpressstore.com/store/windows-server-2008-pki-and-certificate-security-9780735640788) available from Microsoft Press.
+Para obter mais informações, [](/windows/win32/seccrypto/certificate-services-architecture) consulte Documentação da Arquitetura de Serviços de Certificados e revise os capítulos apropriados [no Windows Server 2019 Inside Out](https://www.microsoftpressstore.com/store/windows-server-2019-inside-out-9780135492277) ou [no Windows Server 2008 PKI e na](https://www.microsoftpressstore.com/store/windows-server-2008-pki-and-certificate-security-9780735640788) Segurança de Certificados disponíveis na Microsoft Press.
 
 ### <a name="root-and-host-certificate-requirements"></a>Requisitos de certificado raiz e host
 
-Antes de criar o pacote de configuração, você precisa preparar certificados de chave pública que autenticam a propriedade do Surface Dock 2 e facilitam as alterações subsequentes na propriedade durante o ciclo de vida do dispositivo. Os certificados de host e provisionamento exigem a inserção de IDs de EKU também conhecidas como identificadores de objeto **EKU (Client Authentication Enhanced Key Usage) .**
+Antes de criar o pacote de configuração, você precisa preparar certificados de chave pública que autenticam a propriedade do Surface Dock 2 e facilitam as alterações subsequentes na propriedade durante o ciclo de vida do dispositivo. Os certificados de host e provisionamento exigem a inserção de IDs de EKU também conhecidas como identificadores de objeto **EKU (Client Authentication Enhanced Key Usage) (OIDs)**.
 
 Os valores EKU necessários estão listados na Tabela 1 e na Tabela 2.
 
@@ -104,7 +104,7 @@ Cada dispositivo host deve ter a CA doc e dois certificados, conforme mostrado n
 
 Quando você tiver obtido ou criado os certificados, estará pronto para criar o pacote de configuração .msi que será aplicado a dispositivos Surface de destino.
 
-1. Execute o Configurador **UEFI do**Surface.
+1. Execute o **Configurador UEFI do** Surface.
 
    ![Execute o Configurador UEFI do Surface.](images/secure-surface-dock-ports-semm-1.png)
 
@@ -112,7 +112,7 @@ Quando você tiver obtido ou criado os certificados, estará pronto para criar o
 
    ![Selecione Surface Dock.](images/secure-surface-dock-ports-semm-2.png)
 
-1. Insira os **certificados apropriados**  na página de certificados. Os certificados de demonstração estão disponíveis no [Surface Tools for IT:](https://www.microsoft.com/download/details.aspx?id=46703)Baixe **SEMM_PowerShell.zip** e consulte **CreateSurfaceDock2Certificates.ps1**. Certifique-se de instalar **SurfaceDock2_WmiInstanceProvider** antes de executar os scripts de demonstração.
+1. Insira os **certificados apropriados**  na página de certificados. Os certificados de demonstração estão disponíveis no [Surface Tools para IT](https://www.microsoft.com/download/details.aspx?id=46703): baixe **SEMM_PowerShell.zip** e consulte **CreateSurfaceDock2Certificates.ps1**. Certifique-se de instalar **SurfaceDock2_WmiInstanceProvider** antes de executar os scripts de demonstração.
 
    ![insira os certificados apropriados.](images/secure-surface-dock-ports-semm-3.png)
 
@@ -133,7 +133,7 @@ Quando você tiver obtido ou criado os certificados, estará pronto para criar o
 
 ### <a name="apply-the-configuration-package-to-a-surface-dock-2"></a>Aplicar o pacote de configuração a um Surface Dock 2
 
-1. Pegue o .msi que o Configurador UEFI do Surface gerou e instale-o em um dispositivo host do Surface. Os dispositivos host compatíveis Surface Book 3, Surface Laptop 3 ou Surface Pro 7.
+1. Pegue o .msi que o Configurador UEFI do Surface gerou e instale-o em um dispositivo host do Surface. Os dispositivos host compatíveis Surface Book 3, Surface Laptop Studio, Surface Laptop 3, Surface Laptop 4, Surface Pro 7+e Surface Pro 7.
 1. Conexão o dispositivo host para o Surface Dock 2. Quando você conecta as configurações de política UEFI do dock são aplicadas.
 
 ## <a name="verify-managed-state-using-the-surface-app"></a>Verificar o estado gerenciado usando o Surface App
@@ -150,13 +150,13 @@ Objetivo: Configurar configurações de política para permitir o acesso de port
 
 1. Aplique o pacote de configuração ao dispositivo de destino e conecte o Surface Dock 2.
 
-1. Abra **o Surface App** e selecione Surface **Dock** para exibir o estado de política resultante do Surface Dock. Se as configurações de política são aplicadas, o Surface App indicará que as portas estão disponíveis.
+1. Abra **o Surface App** e selecione **Surface Dock** para exibir o estado de política resultante do Surface Dock. Se as configurações de política são aplicadas, o Surface App indicará que as portas estão disponíveis.
 
    ![O aplicativo Surface mostra que todas as portas estão disponíveis para usuários autenticados.](images/secure-surface-dock-ports-semm-5.png)
 
-1. Agora você precisa verificar se as configurações de política desligaram com êxito todas as portas para usuários não autenticados. Conexão Surface Dock 2 para um dispositivo não gerenciada, ou seja, qualquer dispositivo Surface fora do escopo de gerenciamento para o pacote de configuração criado.
+1. Agora você precisa verificar se as configurações de política desligaram com êxito todas as portas para usuários não autenticados. Conexão Surface Dock 2 para um dispositivo não gerenciada, ou seja, qualquer dispositivo Surface fora do escopo de gerenciamento do pacote de configuração criado.
 
-1. Abra **o Surface App** e selecione Surface **Dock**. O estado de política resultante indicará que as portas estão desligadas.
+1. Abra **o Surface App** e selecione **Surface Dock**. O estado de política resultante indicará que as portas estão desligadas.
 
    ![Aplicativo surface mostrando portas desligadas para usuários não autenticados .](images/secure-surface-dock-ports-semm-6.png)
 
@@ -169,5 +169,5 @@ Parabéns. Você gerencia com êxito as portas do Surface Dock 2 em dispositivos
 
 - [Documentação do Modo de Gerenciamento do Surface Enterprise (SEMM)](surface-enterprise-management-mode.md)
 - [Arquitetura de Serviços de Certificado](/windows/win32/seccrypto/certificate-services-architecture)
-- [Windows Server 2019 Inside Out](https://www.microsoftpressstore.com/store/windows-server-2019-inside-out-9780135492277)
-- [Windows Segurança de certificado e PKI do Servidor 2008](https://www.microsoftpressstore.com/store/windows-server-2008-pki-and-certificate-security-9780735640788)
+- [Windows Server 2019 de dentro para fora](https://www.microsoftpressstore.com/store/windows-server-2019-inside-out-9780135492277)
+- [Windows Server 2008 PKI e Segurança de Certificados](https://www.microsoftpressstore.com/store/windows-server-2008-pki-and-certificate-security-9780735640788)
