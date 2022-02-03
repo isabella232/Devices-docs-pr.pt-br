@@ -129,6 +129,8 @@
           href: surface-hub-update-history.md
         - name: Recuperar e restaurar o Surface Hub 2S
           href: surface-hub-2s-recover-reset.md
+        - name: Surface Hub retornar à série de vídeos do Office
+          href: surface-hub-return-to-office-videos.md
         - name: Solução de problemas do Miracast no Surface Hub
           href: miracast-troubleshooting.md
         - name: 'Os canais 149 a 165 do Miracast do Surface Hub não têm suporte na Europa, no Japão e em Israel'
@@ -260,6 +262,8 @@
           href: surface-hub-ssd-replacement.md
         - name: Principais soluções de suporte para o Surface Hub
           href: support-solutions-surface-hub.md
+        - name: Surface Hub retornar à série de vídeos do Office
+          href: surface-hub-return-to-office-videos.md
         - name: Solução de problemas do Microsoft Surface Hub
           href: troubleshoot-surface-hub.md
         - name: 'Problemas conhecidos: Windows 10 Team OS'
