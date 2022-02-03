@@ -8,6 +8,8 @@
       items:
         - name: Visões gerais de técnicas
           items:
+            - name: Visão geral do Surface Laptop SE
+              href: surface-laptop-se-overview.md
             - name: Escolha do SO do Surface
               href: surface-os-choice.md
             - name: Visão geral da segurança de superfície
@@ -22,6 +24,8 @@
           items:
             - name: Visão geral dos elementos gráficos do Surface Laptop Studio
               href: surface-laptop-studio-graphics.md
+            - name: Aplicativos testados/certificados pelo ISV do Surface Laptop Studio
+              href: surface-laptop-studio-isv-certification.md
             - name: Visão geral técnica do Surface Book 3
               href: surface-book-GPU-overview.md
             - name: Surface Book 3 Visão geral técnica do Quadro RTX 3000
@@ -44,6 +48,8 @@
               href: 'https://www.microsoft.com/surface/business/surface-laptop-go'
             - name: Surface Studio 2 para Empresas
               href: 'https://www.microsoft.com/surface/business/surface-studio-2'
+            - name: Surface Laptop ES educação
+              href: 'https://www.microsoft.com/surface/business/surface-laptop-se'
     - name: Plano
       items:
         - name: Compatibilidade do dispositivo Surface com o Branch de Manutenção de Longo Prazo do Windows 10
@@ -56,6 +62,8 @@
           href: surface-system-sku-reference.md
     - name: Implantar e gerenciar
       items:
+        - name: Sistemas operacionais com suporte do Surface
+          href: 'https://support.microsoft.com/surface/surface-supported-operating-systems-9559cc3c-7a38-31b6-d9fb-571435e84cd1'
         - name: Portal de Gerenciamento do Surface
           items:
             - name: Visão geral do de Gerenciamento Surface
@@ -74,7 +82,7 @@
           items:
             - name: Surface Deployment Accelerator
               href: microsoft-surface-deployment-accelerator.md
-            - name: Implantar o Windows 10 para dispositivos Surface com o MDT
+            - name: Preparar a implantação do Surface com o MDT
               href: deploy-windows-10-to-surface-devices-with-mdt.md
             - name: Habilitar o teclado do Surface Laptop durante a implantação do MDT
               href: enable-surface-keyboard-for-windows-pe-deployment.md
@@ -150,7 +158,9 @@
               href: wake-on-power-for-surface.md
         - name: Práticas recomendadas
           items:
-            - name: Otimizar conectividade Wi-Fi para dispositivos Surface
+            - name: Otimize a videoconferência em dispositivos Surface
+              href: optimize-video-conferencing-on-surface.md
+            - name: Otimize a conectividade Wi-Fi em dispositivos Surface
               href: surface-wireless-connect.md
             - name: Práticas recomendadas de configurações de energia para dispositivos Surface
               href: maintain-optimal-power-settings-on-Surface-devices.md
@@ -166,6 +176,10 @@
               href: surface-pro-arm-app-management.md
             - name: Compatibilidade do aplicativo Surface Pro X
               href: surface-pro-arm-app-performance.md
+        - name: Acessórios
+          items:
+            - name: Notas do desenvolvedor do Surface Slim Pen 2 háptico
+              href: surface-slim-pen2-haptics-dev-notes.md
     - name: Solução de problemas
       items:
         - name: Principais soluções de suporte para dispositivos Surface
