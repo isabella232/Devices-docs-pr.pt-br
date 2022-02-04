@@ -29,12 +29,12 @@ conceptualContent:
   items:
     - title: Visão geral do Surface
       links:
+        - url: /surface/surface-laptop-se-overview
+          itemType: concept
+          text: Surface Laptop ES para Educação
         - url: 'https://www.microsoft.com/surface/business/surface-pro-8'
           itemType: concept
           text: Surface Pro 8 para Empresas
-        - url: 'https://www.microsoft.com/surface/business/surface-laptop-studio'
-          itemType: concept
-          text: Surface Laptop Studio para Empresas
         - url: 'https://www.microsoft.com/surface/business'
           itemType: concept
           text: Explorar todos os produtos da família Surface

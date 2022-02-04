@@ -8,16 +8,16 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 1/15/2021
+ms.date: 12/01/2021
 ms.reviewer: jessko
 manager: laurawi
 ms.audience: itpro
-ms.openlocfilehash: f0fed17dade345bf3f7dc9619eab7981dcb30cb0
-ms.sourcegitcommit: 6d531906c36da51cb4032a220d70182e686114a8
+ms.openlocfilehash: f28f09ec6c1cde859996b054fbbe90a726497a80
+ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "11721271"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "12338564"
 ---
 # <a name="deploying-managing--servicing-surface-pro-x"></a>Implantando, gerenciando e fazendo manutenção do Surface Pro X
 
@@ -42,7 +42,7 @@ As organizações que já usam as soluções modernas de gerenciamento, seguran�
 
 ## <a name="image-based-deployment-considerations"></a>Considerações sobre a implantação baseada em imagem
 
-Atualmente, o Microsoft Deployment Toolkit (MDT) e o Microsoft Endpoint Configuration Manager (anteriormente conhecido como System Center Configuration Manager) não dão suporte ao Surface Pro X para a implantação do sistema operacional. Os clientes que dependem da implantação baseada em imagem devem considerar o Surface Pro 7+ enquanto continuam avaliando o momento certo para fazer a transição para soluções de implantação modernas. 
+Atualmente, o Microsoft Deployment Toolkit (MDT) e o Microsoft Endpoint Configuration Manager (anteriormente conhecido como System Center Configuration Manager) não dão suporte ao Surface Pro X para a implantação do sistema operacional. Os clientes que dependem da implantação baseada em imagem devem considerar o Surface Pro 8 enquanto continuam avaliando o momento certo para fazer a transição para soluções de implantação modernas. 
 
 ## <a name="managing-surface-pro-x-devices"></a>Gerenciamento de dispositivos Surface Pro X
 
@@ -180,7 +180,7 @@ As tabelas a seguir mostram a disponibilidade de recursos importantes selecionad
 
 ### <a name="can-i-deploy-surface-pro-x-with-mdt-or-endpoint-configuration-manager"></a>Posso implantar o Surface Pro X com o MDT ou Endpoint Configuration Manager?
 
-Atualmente, o Microsoft Deployment Toolkit (MDT) e o Microsoft Endpoint Configuration Manager não oferecem suporte ao Surface Pro X para implantação de sistema operacional. Os clientes que dependem da implantação baseada em imagem devem considerar o Surface Pro 7+ enquanto continuam avaliando o momento certo para fazer a transição para a nuvem.
+Atualmente, o Microsoft Deployment Toolkit (MDT) e o Microsoft Endpoint Configuration Manager não oferecem suporte ao Surface Pro X para implantação de sistema operacional. Os clientes que dependem da implantação baseada em imagem devem considerar o Surface Pro 8 enquanto continuam avaliando o momento certo para fazer a transição para a nuvem.
 
 ### <a name="how-can-i-deploy-surface-pro-x"></a>Como faço para implantar o Surface Pro X?
 

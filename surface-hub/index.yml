@@ -14,31 +14,25 @@ metadata:
   author: greg-lindsay
   ms.author: greglin
   manager: laurawi
-  ms.openlocfilehash: 3eb4acb7d169a725cab3a5c1b70056495c0419b1
-  ms.sourcegitcommit: 4ec96ff1cd563d055fa0689a63f136acf2794a2e
+  ms.openlocfilehash: 78ee6981ec4e4a2b72e77f5893f7db9f19afdc1a
+  ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 04/02/2021
-  ms.locfileid: "11474788"
+  ms.lasthandoff: 02/02/2022
+  ms.locfileid: "12337914"
 landingContent:
-- title: Prepare-se para o Surface Hub 2S
+- title: Novidades
   linkLists:
-  - linkListType: whats-new
+  - linkListType: learn
     links:
-    - text: Atualização do Surface Hub Windows 10 Team 2020 - status de fevereiro
-      url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-windows-10-team-2020-update-february-status/ba-p/2118369
-    - text: Atualização do Surface Hub Windows 10 Team 2020 – Status do Hub v1
-      url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-hub-windows-10-team-2020-update-hub-v1-status/ba-p/2118371
-    - text: Instale e monte o Surface Hub 2S 85 "(guia de prontidão)
-      url: surface-hub-2s-85-install-mount.md
+    - text: Surface Hub retorna à série de vídeos do Office
+      url: surface-hub-return-to-office-videos.md
+    - text: Salas do Microsoft Teams no Surface Hub
+      url: /surface-hub/hub-teams-app
     - text: Novidades na atualização do Windows 10 Team 2020
       url: surface-hub-2020-update-whats-new.md
-    - text: Surface Hub 2S faz a ponte entre digital e físico em espaços de trabalho híbridos de hoje
-      url: https://blogs.windows.com/devices/2020/09/22/surface-hub-2s-bridges-digital-and-physical-divide-in-todays-hybrid-workspaces/
-    - text: Visão geral e especificações técnicas do Surface Hub 2S de 85 polegadas
-      url: surface-hub-2s-85.md
-    - text: Anunciamos a disponibilidade do Windows 10 Pro e do Enterprise no Surface Hub 2
-      url: https://techcommunity.microsoft.com/t5/surface-it-pro-blog/announcing-the-availability-of-windows-10-pro-and-enterprise-on/ba-p/1624107
+    - text: Autenticação moderna no Surface Hub
+      url: surface-hub-modern-auth.md
     - text: Migrar para o Windows 10 Pro ou para o Enterprise no Surface Hub 2
       url: surface-hub-2s-migrate-os.md
 - title: Introdução
