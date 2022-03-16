@@ -14,23 +14,23 @@ metadata:
   author: greg-lindsay
   ms.author: greglin
   manager: laurawi
-  ms.openlocfilehash: 78ee6981ec4e4a2b72e77f5893f7db9f19afdc1a
-  ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+  ms.openlocfilehash: bb947ae85d725a140ea2cc789575c0d40436ba97
+  ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 02/02/2022
-  ms.locfileid: "12337914"
+  ms.lasthandoff: 03/16/2022
+  ms.locfileid: "12449204"
 landingContent:
 - title: Novidades
   linkLists:
   - linkListType: learn
     links:
+    - text: Atualizações mais recentes do sistema operacional Surface Hub lançadas
+      url: surface-hub-2020-update-whats-new.md
     - text: Surface Hub retorna à série de vídeos do Office
       url: surface-hub-return-to-office-videos.md
     - text: Salas do Microsoft Teams no Surface Hub
       url: /surface-hub/hub-teams-app
-    - text: Novidades na atualização do Windows 10 Team 2020
-      url: surface-hub-2020-update-whats-new.md
     - text: Autenticação moderna no Surface Hub
       url: surface-hub-modern-auth.md
     - text: Migrar para o Windows 10 Pro ou para o Enterprise no Surface Hub 2
