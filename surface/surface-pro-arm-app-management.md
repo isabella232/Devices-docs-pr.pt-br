@@ -12,20 +12,21 @@ ms.date: 12/01/2021
 ms.reviewer: jessko
 manager: laurawi
 ms.audience: itpro
-ms.openlocfilehash: f28f09ec6c1cde859996b054fbbe90a726497a80
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 35cfd848ee8f66981c421a8d0f55f8c3bb379a02
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338564"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449594"
 ---
 # <a name="deploying-managing--servicing-surface-pro-x"></a>Implantando, gerenciando e fazendo manutenção do Surface Pro X
 
-## <a name="introduction"></a>Introdução
+Construído para lidar com requisitos comerciais de alto desempenho, o Surface Pro X incorpora os processadores mais poderosos de sua classe, os chipsets Microsoft SQ1 e Microsoft SQ1 ARM.
 
-Construído para lidar com requisitos comerciais de alto desempenho, o Surface Pro X inova ao incorporar os processadores mais poderosos de sua classe, os chipsets Microsoft SQ1 e Microsoft SQ1 ARM.
-
-Com uma CPU de 3GHz e uma GPU 2.1 teraflop, o Surface Pro X fornece uma experiência completa do Windows. Sua bateria de 15 horas de Gigabit LTE integrada e a versatilidade de toque, caneta, tablet e laptop tornam-no ideal para trabalhadores móveis de primeira linha e profissionais nas áreas financeira, jurídica e médica ou qualquer função que exija bateria estendida capacidades de vida e conectividade contínua.
+Com uma CPU de 3GHz e uma GPU 2.1 teraflop, o Surface Pro X fornece uma experiência completa do Windows. Sua bateria de 15 horas de Gigabit LTE integrada e a versatilidade de toque, caneta, tablet e laptop tornam-no ideal para trabalhadores móveis da linha de frente e profissionais nas áreas financeira, jurídica e médica ou qualquer função que exija bateria estendida capacidades de vida e conectividade contínua.
 
 O Surface Pro X foi projetado quase exclusivamente para um ambiente moderno baseado em nuvem e funciona melhor quando combinado com Microsoft 365, Intune e Windows Autopilot. Este artigo realça a aparência disso e descreve as principais considerações sobre a implantação, o gerenciamento e a manutenção do Surface Pro X.
 
@@ -36,9 +37,9 @@ Para obter a melhor experiência, implante o Surface Pro X usando o Windows Auto
 - [Windows Autopilot e dispositivos Surface](windows-autopilot-and-surface-devices.md)
 - [Visão geral do Windows Autopilot.](/windows/deployment/windows-autopilot/windows-autopilot)
 
-A implantação do Autopilot tem várias vantagens: ele permite que você use o sistema operacional provisionado de fábrica, otimizado para implantação sem toque, para incluir a pré-instalação do Microsoft 365 Apps para Grandes Empresas (também conhecido como Office Pro Plus).
+A implantação do Autopilot tem várias vantagens: ele permite que você use o sistema operacional provisionado de fábrica, otimizado para implantação sem toque, para incluir a pré-instalação do [Microsoft 365 Apps para Grandes Empresas](https://www.microsoft.com/microsoft-365/enterprise/microsoft-365-apps-for-enterprise).
 
-As organizações que já usam as soluções modernas de gerenciamento, segurança e produtividade estão bem posicionadas para tirar proveito dos recursos de desempenho exclusivos do Surface Pro X. Os clientes que usam aplicativos modernos de linha de negócios, aplicativos da Microsoft Store (UWP) ou soluções de área de trabalho remota também se beneficiam.
+As organizações que já usam as soluções modernas de gerenciamento, segurança e produtividade estão bem posicionadas para tirar proveito dos recursos de desempenho exclusivos do Surface Pro X. Os clientes que usam [aplicativos modernos de linha de negócios](/microsoft-store/working-with-line-of-business-apps), [aplicativos da Microsoft Store (UWP)](/windows/uwp/get-started/universal-application-platform-guide) ou soluções de área de trabalho remota também se beneficiam.
 
 ## <a name="image-based-deployment-considerations"></a>Considerações sobre a implantação baseada em imagem
 
@@ -48,13 +49,11 @@ Atualmente, o Microsoft Deployment Toolkit (MDT) e o Microsoft Endpoint Configur
 
 ### <a name="intune"></a>Intune
 
-Um componente do Microsoft Enterprise Mobility + Security, o Intune integra-se ao Azure Active Directory para controle de identidade e acesso, e fornece gerenciamento granular de dispositivos Surface Pro X registrados. As políticas de gerenciamento de dispositivo móvel (MDM) do Intune têm várias vantagens sobre as ferramentas locais anteriores, como a Política de Grupo do Windows. Isso inclui tempos de logon de dispositivos mais rápidos e um catálogo de políticas mais simplificado, permitindo o gerenciamento completo do dispositivo na nuvem. Por exemplo, você pode gerenciar LTE usando perfis eSIM para configurar planos de dados e implantar códigos de ativação em vários dispositivos.<br> 
-
-Para obter mais informações sobre como configurar o Intune, consulte a [documentação do Intune](/intune).
+[Microsoft Intune](/intune) integra-se ao Azure Active Directory para controle de identidade e acesso, e fornece gerenciamento granular de dispositivos Surface Pro X registrados. As configurações de política de MDM (gerenciamento de dispositivo móvel) do Intune têm várias vantagens em relação às ferramentas locais anteriores, como o Windows Política de Grupo. Isso inclui tempos de logon de dispositivos mais rápidos e um catálogo de configurações de políticas mais simplificado, permitindo o gerenciamento completo do dispositivo na nuvem. Por exemplo, você pode [gerenciar LTE usando perfis eSIM](/windows/client-management/mdm/esim-enterprise-management) para configurar planos de dados e implantar códigos de ativação em vários dispositivos.
 
 ### <a name="co-management"></a>Cogerenciamento
 
-Depois de implantado no Autopilot, você poderá ingressar dispositivos Surface Pro X no Azure AD ou no Active Directory (Ingresso no Azure AD Híbrido), onde você poderá gerenciar os dispositivos com o Intune ou cogerenciá-los com o Endpoint Configuration Manager, que instalará o Cliente do ConfigMgr x86 de 32 bits.
+Depois de implantado no Autopilot, você poderá ingressar dispositivos Surface Pro X no Azure AD ou no Active Directory ([Ingresso no Azure AD Híbrido](/azure/active-directory/devices/concept-azure-ad-join-hybrid)), onde você pode [gerenciar os dispositivos com o Intune](/mem/intune/remote-actions/device-management) ou [cogerenciá-los com o Endpoint Configuration Manager](/mem/configmgr/comanage/overview), que instalará o Cliente do ConfigMgr x86 de 32 bits.
 
 ### <a name="third-party-mdm-solutions"></a>Soluções MDM de terceiros
 
@@ -62,15 +61,15 @@ Você poderá usar ferramentas MDM de terceiros para gerenciar dispositivos Surf
 
 ### <a name="antivirus-software"></a>Software antivírus
 
-O Windows Defender ajudará a proteger o Windows 10 em computadores baseados em ARM para o tempo de vida com suporte do dispositivo Windows 10. 
+O Microsoft Defender ajudará a proteger o Windows 10 e Windows 11 em computadores baseados em ARM para o tempo de vida com suporte do dispositivo. 
 
-Alguns softwares antivírus de terceiros não podem ser instalados em um computador Windows 10 em execução em um processador baseado em ARM. A colaboração com fornecedores de software antivírus de terceiros continua para a preparação do aplicativo AV em computadores baseados em ARM. Entre em contato com seu provedor de software antivírus para entender quando seus aplicativos estarão disponíveis.
+Alguns softwares antivírus de terceiros não podem ser instalados em dispositivos em execução em um processador baseado em ARM. A colaboração com fornecedores de software antivírus de terceiros continua para a preparação do aplicativo AV em computadores baseados em ARM. Entre em contato com seu provedor de software antivírus para entender quando seus aplicativos estarão disponíveis.
 
 ## <a name="servicing-surface-pro-x"></a>Manutenção do Surface Pro X
 
 O Surface Pro X vem com o Windows 10 versão 2004 e oferece suporte ao Windows 10, versão 1903 e posterior. Como um dispositivo baseado em ARM, ele tem requisitos específicos para manter os drivers e o firmware mais recentes. 
 
-O Surface Pro X foi projetado para usar o Windows Update para simplificar o processo de manter o firmware e os drivers atualizados para usuários domésticos e usuários de pequenas empresas. Use as configurações padrão para receber Atualizações automáticas.  Para verificar:
+O Surface Pro X foi projetado para usar o Windows Update para simplificar a manutenção do firmware e dos drivers atualizados para usuários domésticos e usuários de pequenas empresas. Use as configurações padrão para receber Atualizações automáticas.  Para verificar:
 
 1. Vá para **Iniciar** > **Configurações > Atualização e Segurança > Windows Update** > **Opções Avançadas**.
 2. Em **Escolher como as atualizações são instaladas**, selecione **Automático (recomendado)**.
@@ -79,7 +78,7 @@ O Surface Pro X foi projetado para usar o Windows Update para simplificar o proc
 
 - Use o Windows Update ou o Windows Update para Empresas para manter os drivers e o firmware mais recentes. Para saber mais, confira [Implantar atualizações usando o Windows Update para Empresas](/windows/deployment/update/waas-manage-updates-wufb).
 - Para obter mais informações sobre a implantação e o gerenciamento de atualizações em dispositivos Surface, consulte [Implantar o firmware e os drivers mais recentes para dispositivos Surface](manage-surface-driver-and-firmware-updates.md).
-- Observe que o Windows Server Update Services (WSUS) não oferece suporte à capacidade de fornecer drivers e firmware para o Surface Pro X.
+- Observe que o Windows Server Update Services (WSUS) não oferece suporte ao fornecimento de drivers e firmware para o Surface Pro X.
 
 ## <a name="running-apps-on-surface-pro-x"></a>Execução de aplicativos no Surface Pro X
 
@@ -89,10 +88,8 @@ A maioria dos aplicativos é executada em computadores Windows 10 baseados em AR
 
 - A maioria dos aplicativos x86 Win32 é executada no Surface Pro X.
 - Os aplicativos ARM64 nativos e UWP da Microsoft Store proporcionam uma excelente experiência do usuário usando a velocidade nativa completa do processador baseado em ARM e, ao mesmo tempo, otimizam a duração da bateria.
-- Os aplicativos que usam drivers projetados para um computador Windows 10 com um processador baseado em ARM.
-
-> [!NOTE]
-> Com a emulação de 64 bits em breve na visualização por meio do Participante do Programa Windows Insider, você poderá executar aplicativos de 64 bits (x64) no Surface Pro X.
+- Os aplicativos que usam drivers projetados para um computador Windows 10 ou Windows 11 com um processador baseado em ARM.
+- A emulação x64 para Windows já está em disponibilidade geral no Windows 11.
 
 ### <a name="fasttrack-app-assure"></a>Garantia de Aplicativo do FastTrack 
 
@@ -105,19 +102,19 @@ Para obter mais informações sobre como executar aplicativos no Surface Pro X, 
 
 ## <a name="virtual-desktops-vdi"></a>Áreas de Trabalho Virtuais (VDI)
 
-A Área de Trabalho Virtual do Windows permite o acesso a áreas de trabalho, aplicativos e dados do Windows em qualquer dispositivo ou plataforma de computação, em qualquer local. Para saber mais, consulte [o site da Área de Trabalho Virtual do Windows](https://aka.ms/wvd). 
+A Área de Trabalho Virtual do Azure permite o acesso a áreas de trabalho, aplicativos e dados do Windows em qualquer dispositivo ou plataforma de computação, em qualquer local. Para saber mais, consulte [o site da Área de Trabalho Virtual do Azure](https://aka.ms/wvd). 
 
 ## <a name="browsing-with-surface-pro-x"></a>Navegação com o Surface Pro X
 
 Os navegadores populares são executados no Surface Pro X:
 
 - Edge nativo, Firefox, Chrome e Internet Explorer são executados no Surface Pro X.
-- O Firefox e o Microsoft Edge baseados no Chromium são executados nativamente e, portanto, têm desempenho avançado em um PC com Windows 10 em um processador baseado em ARM.
+- O Firefox e Microsoft Edge baseados no Chromium são executados nativamente com desempenho aprimorado em computadores Windows 10 arm ou Windows 11.
 
 ## <a name="installing-and-using-microsoft-office"></a>Instalação e uso do Microsoft Office
 
-- Use o Office 365 para obter a melhor experiência em um computador Windows 10 com um processador baseado em ARM.
-- O "clique para executar" do Office 365 instala o Outlook, o Word, o Excel e o PowerPoint, otimizado para ser executado em um computador Windows 10 com um processador baseado em ARM.
+- Use o Office 365 para obter a melhor experiência em um computador Windows 10 ou Windows 11 com um processador baseado em ARM.
+- O "clique para executar" do Office 365 instala o Outlook, o Word, o Excel e o PowerPoint, otimizado para ser executado em um computador Windows 10 ou Windows 11 com um processador baseado em ARM.
 - O Microsoft Teams tem ótima execução no Surface Pro X.
 - Para "versões perpétuas" do Office, como o Office 2019, instale a versão de 32 bits.
 
@@ -127,10 +124,10 @@ Para confirmar se uma VPN de terceiros específica dá suporte a um computador W
 
 ## <a name="feature-summary"></a>Resumo dos recursos
 
-As tabelas a seguir mostram a disponibilidade de recursos importantes selecionados no Surface Pro X com Windows 10 no ARM.
+As tabelas a seguir mostram a disponibilidade de recursos importantes selecionados no Surface Pro X com Windows 10 ou Windows 11 no ARM.
 
 
-**Implantação**
+### <a name="deployment"></a>Implantação
 
 | Recurso                                                           | S/N | Observações                                                                                                                             |
 | ----------------------------------------------------------------- | --- | --------------------------------------------------------------------------------------------------------------------------------- |
@@ -143,7 +140,7 @@ As tabelas a seguir mostram a disponibilidade de recursos importantes selecionad
 
  
  
- **Management**
+### <a name="management"></a>Management
  
 
 | Recurso                                       | S/N     | Observações                                                                                 |
@@ -156,24 +153,21 @@ As tabelas a seguir mostram a disponibilidade de recursos importantes selecionad
 | Kit de Ferramentas de Diagnóstico Surface (SDT) para Empresas | Sim     |                                                                                       |
 | Ferramenta de Marca do Ativo Surface                        | Sim     |                                                                                       |
 | Surface Enterprise Management Mode (SEMM)     | Parcial | Nenhuma opção para desabilitar o hardware no Surface Pro X no nível do firmware.                 |
-| Configurador UEFI do Surface                     | Não      | Nenhuma opção para desabilitar o hardware. no Surface Pro X no nível do firmware.                |
+| Configurador UEFI do Surface                     | Não      | Nenhuma opção para desabilitar o hardware no Surface Pro X no nível do firmware.                |
 | Gerenciador UEFI do Surface                          | Parcial | Nenhuma opção para desabilitar o hardware no Surface Pro X no nível do firmware.                 |
 
  
 
-**Segurança**
+### <a name="security"></a>Segurança
  
-
- Recurso                                       | S/N     | Observações                                                                                 |
+ Recurso                                        | S/N     | Observações                                                                                 |
 | --------------------------------------------- | ------- | ------------------------------------------------------------------------------------- |
-| BitLocker                                     | Sim     |                                                       |
-| Windows Defender                              | Sim     |                                                                                       |
-| Suporte para antivírus de terceiros             | Consultar observação| Alguns softwares antivírus de terceiros não podem ser instalados em um computador Windows 10 em execução em um processador baseado em ARM. A colaboração com fornecedores de software antivírus de terceiros continua para a preparação do aplicativo AV em computadores baseados em ARM. Entre em contato com seu provedor de software antivírus para entender quando seus aplicativos estarão disponíveis. |
-| Inicialização Segura               | Sim     |                                                                                       |
-| Proteção de Informações do Windows                      | Sim     |                                                                                       |
-| Surface Data Eraser (SDE)     | Sim     |                                                                                       |
-
-
+| BitLocker                                     | Sim     |                                                                                       |
+| Microsoft Defender                            | Sim     |                                                                                       |
+| Suporte para antivírus de terceiros             | Consultar observação| Alguns softwares antivírus de terceiros não podem ser instalados em um processador baseado em ARM. Entre em contato com seu provedor de software antivírus para entender quando seus aplicativos estarão disponíveis. |
+| Inicialização Segura                                   | Sim     |                                                                                       |
+| Proteção de Informações do Windows                | Sim     |                                                                                       |
+| Surface Data Eraser (SDE)                     | Sim     |                                                                                       |
 
 
 ## <a name="faq"></a>Perguntas frequentes
