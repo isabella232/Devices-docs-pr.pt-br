@@ -12,12 +12,15 @@ ms.date: 12/01/2021
 ms.reviewer: carlol
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: ae648f54f7abd97a6397dca5aa204205b582e4b0
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: a0f04b4dd089309ad44cab12cf738d8203d1526d
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338044"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449494"
 ---
 # <a name="dma-protection-on-surface-devices"></a>Proteção DMA em dispositivos Surface
 

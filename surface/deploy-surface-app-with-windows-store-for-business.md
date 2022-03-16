@@ -14,12 +14,15 @@ ms.audience: itpro
 ms.reviewer: ''
 manager: laurawi
 ms.date: 4/16/2021
-ms.openlocfilehash: b47838a7f0bd0df7bf71479f8217104332cfd0c3
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: cb101ece861b19bab43b0e3356a1109389eebb2f
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338074"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448354"
 ---
 # <a name="deploy-surface-app-with-microsoft-store-for-business-and-education"></a>Implantar aplicativo surface com Microsoft Store para Empresas e Education
 
@@ -39,14 +42,14 @@ ms.locfileid: "12338074"
 
 O aplicativo Surface é um aplicativo Microsoft Store leve que fornece controle de muitas configurações e opções específicas do Surface com acesso rápido às informações do dispositivo, incluindo número de série, nome do modelo surface, versão UEFI e drivers relacionados.  
 
-Os clientes que Windows Update normalmente receberão o aplicativo Surface como parte das atualizações automáticas. Mas se sua organização estiver preparando imagens para implantação para seus dispositivos Surface, talvez você queira incluir o aplicativo Surface (anteriormente chamado de Surface Hub) em seu processo de imagens e implantação, em vez de exigir que os usuários de cada dispositivo individual baixem e instalem o aplicativo no Microsoft Store ou no seu Microsoft Store para Empresas. 
+Os clientes que Windows Update normalmente receberão o aplicativo Surface como parte das atualizações automáticas. Mas se sua organização estiver preparando imagens para implantação em seus dispositivos Surface, talvez você queira incluir o aplicativo Surface (anteriormente chamado de Surface Hub) em seu processo de imagens e implantação, em vez de exigir que os usuários de cada dispositivo individual baixem e instalem o aplicativo no Microsoft Store ou no seu Microsoft Store para Empresas. 
 
 > [!NOTE]
 > Este artigo não se aplica ao Surface Pro X. Para obter mais informações, consulte [Deploying, managing, and sering Surface Pro X](surface-pro-arm-app-management.md)
 
 ## <a name="surface-app-overview"></a>Visão geral do aplicativo Surface
 
-O aplicativo Surface está disponível como download [gratuito do Microsoft Store](https://www.microsoft.com/store/apps/Surface/9WZDNCRFJB8P). Os usuários podem baixá-lo e instalá-lo do Microsoft Store, mas se sua organização usar o Microsoft Store para Empresas, você precisará adicioná-lo ao inventário da sua loja e possivelmente incluir o aplicativo como parte do seu processo de implantação Windows. Esses processos são discutidos ao longo deste artigo. Para obter mais informações sobre Microsoft Store para Empresas, [consulte Microsoft Store para Empresas](/microsoft-store/). 
+O aplicativo Surface está disponível como download gratuito do [Microsoft Store](https://www.microsoft.com/store/apps/Surface/9WZDNCRFJB8P). Os usuários podem baixá-lo e instalá-lo do Microsoft Store, mas se sua organização usar o Microsoft Store para Empresas, você precisará adicioná-lo ao inventário da sua loja e possivelmente incluir o aplicativo como parte do seu processo de implantação Windows. Esses processos são discutidos ao longo deste artigo. Para obter mais informações sobre Microsoft Store para Empresas, [consulte Microsoft Store para Empresas](/microsoft-store/). 
 
 ## <a name="add-surface-app-to-a-microsoft-store-for-business-account"></a>Adicionar aplicativo Surface a uma Microsoft Store para Empresas de usuário 
 
@@ -56,13 +59,13 @@ Antes que os usuários possam instalar ou implantar um aplicativo a partir da co
 
 2. Entre no portal. 
 
-3. Habilita o licenciamento offline: clique em **Gerenciar** >  **Configurações** e selecione a caixa de seleção Mostrar aplicativos licenciados **offline** para pessoas que estão comprando na loja, conforme mostrado na Figura 1. Para obter mais informações sobre Microsoft Store para Empresas de licenciamento de aplicativos, consulte [Apps in Microsoft Store para Empresas and Education](/microsoft-store/).
+3. Habilitar o licenciamento offline: clique em **Gerenciar** >  **Configurações** e selecione a caixa de seleção Mostrar aplicativos licenciados **offline** para pessoas que estão comprando na loja, conforme mostrado na Figura 1. Para obter mais informações sobre Microsoft Store para Empresas de licenciamento de aplicativos, consulte [Apps in Microsoft Store para Empresas e Education](/microsoft-store/).
 
    > [!div class="mx-imgBorder"]
    > ![Mostrar caixa de seleção de aplicativos de licenças offline.](images/deploysurfapp-figure1-enablingapps.png "Show offline licenses apps checkbox")<br/>
    *Figura 1. Habilitar aplicativos para uso offline*
 
-4. Adicione o aplicativo Surface à sua Microsoft Store para Empresas conta:
+4. Adicione o aplicativo Surface à sua Microsoft Store para Empresas de usuário:
 
     * Pesquisar na loja para **o aplicativo Surface** 
     
@@ -89,7 +92,7 @@ Depois de adicionar um aplicativo à conta Microsoft Store para Empresas no modo
 
 1. Faça logoff na conta Microsoft Store para Empresas em https://businessstore.microsoft.com.
 
-2. Clique **em Gerenciar >Aplicativos & software**. Uma lista de todos os aplicativos da sua empresa é exibida, incluindo o aplicativo Surface que você adicionou no aplicativo [Adicionar Surface a](#add-surface-app-to-a-microsoft-store-for-business-account) uma Microsoft Store para Empresas de conta deste artigo.
+2. Clique **em Gerenciar aplicativos >aplicativos & software**. Uma lista de todos os aplicativos da sua empresa é exibida, incluindo o aplicativo Surface que você adicionou no aplicativo [Adicionar Surface a](#add-surface-app-to-a-microsoft-store-for-business-account) uma Microsoft Store para Empresas de conta deste artigo.
 
 3. Em **Ações**, clique na reellipse (**...**) e clique em **Baixar** para uso offline para o aplicativo Surface.
 
@@ -101,12 +104,12 @@ Depois de adicionar um aplicativo à conta Microsoft Store para Empresas no modo
     
 5. Clique **em Baixar**. O pacote AppxBundle será baixado. Observe o caminho do arquivo baixado, pois você precisará disso mais adiante neste artigo.
 
-6. Clique na opção **Licença codificada** ou **Licença não codificada** . Use a opção de licença codificada com ferramentas de gerenciamento como Microsoft Endpoint Configuration Manager ou quando você usa Windows Designer de Configuração para criar um pacote de provisionamento. Selecione a opção de licença não codificada ao usar o DISM (Deployment Image Servicing and Management) ou soluções de implantação com base em imagens, incluindo o Microsoft Deployment Toolkit (MDT).
+6. Clique na opção **Licença codificada** ou **Licença não codificada** . Use a opção de licença codificada com ferramentas de gerenciamento como Microsoft Endpoint Configuration Manager ou quando você usa Windows Designer de Configuração para criar um pacote de provisionamento. Selecione a opção licença não codificada ao usar o DISM (Deployment Image Servicing and Management) ou soluções de implantação com base em imagens, incluindo o Microsoft Deployment Toolkit (MDT).
 
 7. Clique **em Gerar** para gerar e baixar a licença do aplicativo. Certifique-se de observar o caminho do arquivo de licença, pois você precisará disso mais adiante neste artigo.
 
 >[!NOTE]
->Quando você baixa um aplicativo para uso offline, como o aplicativo Surface, pode notar uma seção na parte inferior da página rotulada **estruturas necessárias**. Os computadores de destino devem ter as estruturas instaladas para que o aplicativo seja executado, portanto, talvez seja necessário repetir o processo de download para cada uma das estruturas necessárias para sua arquitetura (x86 ou x64) e também incluí-las como parte da implantação do Windows discutida posteriormente neste artigo.
+>Quando você baixa um aplicativo para uso offline, como o aplicativo Surface, pode notar uma seção na parte inferior da página rotulada **estruturas necessárias**. Seus computadores de destino devem ter as estruturas instaladas para que o aplicativo seja executado, portanto, talvez seja necessário repetir o processo de download para cada uma das estruturas necessárias para sua arquitetura (x86 ou x64) e também incluí-las como parte da implantação do Windows discutida posteriormente neste artigo.
 
 A Figura 5 mostra as estruturas necessárias para o aplicativo Surface.
 
@@ -129,7 +132,7 @@ Para baixar as estruturas necessárias para o aplicativo Surface, siga estas eta
 ## <a name="install-surface-app-on-your-computer-with-powershell"></a>Instalar o aplicativo Surface no computador com o PowerShell
 O procedimento a seguir provisiona o aplicativo Surface para seu computador e o disponibiliza para quaisquer contas de usuário criadas no computador posteriormente.
 
-1. Usando o procedimento descrito na seção [Como baixar o aplicativo Surface](#download-surface-app-from-a-microsoft-store-for-business-account) de uma Microsoft Store para Empresas deste artigo, baixe o aplicativo Surface AppxBundle e o arquivo de licença. 
+1. Usando o procedimento descrito na seção Como [baixar o aplicativo Surface](#download-surface-app-from-a-microsoft-store-for-business-account) de uma Microsoft Store para Empresas deste artigo, baixe o aplicativo Surface AppxBundle e o arquivo de licença. 
 
 2. Inicie uma sessão do PowerShell com privilégios elevados.
 
@@ -142,7 +145,7 @@ O procedimento a seguir provisiona o aplicativo Surface para seu computador e o 
     Add-AppxProvisionedPackage –Online –PackagePath <DownloadPath>\ Microsoft.SurfaceHub_10.0.342.0_neutral_~_8wekyb3d8bbwe.AppxBundle –LicensePath <DownloadPath>\ Microsoft.SurfaceHub_8wekyb3d8bbwe_a53ef8ab-9dbd-dec1-46c5-7b664d4dd003.xml
     ```
 
-    Onde `<DownloadPath>` está a pasta onde você baixou o appxBundle e o arquivo de licença Microsoft Store para Empresas conta.
+    Onde `<DownloadPath>` está a pasta onde você baixou o appxBundle e o arquivo de licença da conta Microsoft Store para Empresas.
 
     Por exemplo, se você baixou os arquivos para c:\Temp, o comando executado será:
     

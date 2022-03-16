@@ -20,12 +20,15 @@ ms.topic: article
 manager: laurawi
 ms.audience: itpro
 ms.date: 12/08/2021
-ms.openlocfilehash: e8e4ddbd559fc6aea2d04e61208b911ebef3ec22
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 44508875254d2e3d004afef710b43ada2911de08
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338394"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448654"
 ---
 # <a name="wake-on-power-for-surface-devices"></a>Wake on Power para dispositivos Surface
 
@@ -46,14 +49,14 @@ O recurso Wake on Power está disponível nos seguintes dispositivos:
 
 
 >[!TIP]
-> Os SKUs comerciais (também conhecidos como Surface for Business) são executados Windows 10 Pro/Enterprise ou Windows 11 Pro/Enterprise; os SKUs do consumidor são executados Windows 10/Windows 11 Home. Para saber mais, confira [Exibir as informações do sistema](https://support.microsoft.com/windows/view-your-system-info-a965a8f2-0773-1d65-472a-1e747c9ebe00). 
+> As SKUs comerciais (também conhecidas como Surface for Business) são executados Windows 10 Pro/Enterprise ou Windows 11 Pro/Enterprise; os SKUs do consumidor são executados Windows 10/Windows 11 Home. Para saber mais, confira [Exibir as informações do sistema](https://support.microsoft.com/windows/view-your-system-info-a965a8f2-0773-1d65-472a-1e747c9ebe00). 
 
 ## <a name="overview-and-prerequisites"></a>Visão geral e pré-requisitos
 
-O Configurador UEFI do Surface permite salvar configurações uefi individuais em um pacote Windows do Instalador .msi para distribuição para dispositivos de destino. 
+O Configurador UEFI do Surface permite salvar configurações uefi individuais em um pacote Windows installer .msi para distribuição para dispositivos de destino. 
 
 > [!NOTE]
-> Este artigo supõe que você saiba como usar o SEMM. Para obter mais informações, consulte a documentação [do Surface Enterprise Management Mode (SEMM](surface-enterprise-management-mode.md)).
+> Este artigo supõe que você saiba como usar o SEMM. Para obter mais informações, consulte [a documentação do Surface Enterprise Modo de Gerenciamento (SEMM](surface-enterprise-management-mode.md)).
 
 ## <a name="to-enable-wake-on-power"></a>Para habilitar Wake on Power
 

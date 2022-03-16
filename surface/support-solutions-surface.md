@@ -15,19 +15,22 @@ ms.topic: article
 ms.date: 09/26/2019
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 65cd0822f9419d2a2b678c598681891539855c9f
-ms.sourcegitcommit: a5651e8c8f953fe3130dd476f4e06c16c172aaa4
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 0308c2e721e441ebb354e6cfb8a22a5a5a26d268
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/04/2021
-ms.locfileid: "11939522"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449444"
 ---
 # <a name="top-support-solutions-for-surface-devices"></a>Principais soluções de suporte para dispositivos Surface
 
 > [!Note]
-> **Usuários em casa**: este artigo destina-se apenas a ser usado por profissionais de TI e agentes de suporte técnico e se aplica somente a dispositivos Surface. Se você estiver procurando ajuda com um problema com seu dispositivo home, consulte [Surface Devices Help](https://support.microsoft.com/products/surface-devices).
+> **Usuários em casa**: este artigo destina-se apenas a ser usado por profissionais de TI e agentes de suporte técnico e se aplica somente a dispositivos Surface. Se você estiver procurando ajuda com um problema com seu dispositivo interno, consulte [Ajuda do Surface Devices](https://support.microsoft.com/products/surface-devices).
 
-Estas são as soluções de Suporte da Microsoft para problemas comuns que você pode experimentar usando dispositivos Surface em uma empresa. Se seu problema não estiver listado aqui, [entre em contato com o Suporte do Surface](contact-surface-support.md?tabs=online).
+Estas são as soluções de Suporte da Microsoft para problemas comuns que você pode experimentar usando dispositivos Surface em uma empresa. Se o problema não estiver listado aqui, [entre em contato com o Suporte do Surface](contact-surface-support.md?tabs=online).
 
 ## <a name="surface-drivers-and-firmware"></a>Drivers e firmware do Surface
 
@@ -51,7 +54,7 @@ A Microsoft lança regularmente atualizações e soluções para dispositivos Su
 
 ## <a name="screen-cracked-or-scratched-issues"></a>Tela rachada ou arranhada
 
-- [Contatar o Suporte para Surface](contact-surface-support.md?tabs=online)
+- [Contate o suporte para Surface](contact-surface-support.md?tabs=online)
 
 ## <a name="surface-power-or-battery-issues"></a>Surface Power ou problemas de bateria
 

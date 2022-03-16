@@ -9,17 +9,20 @@ ms.sitesec: library
 author: coveminer
 ms.author: greglin
 ms.topic: article
-ms.date: 01/07/2022
+ms.date: 02/03/2022
 ms.reviewer: carlol
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 4d9b845901734e23c5b83ee47f9d6608f7495b91
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 45fd61ff59273e5ae3fc269058b663f271e641d4
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338504"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448684"
 ---
 # <a name="surface-system-sku-reference"></a>Referência da SKU de sistema do Surface
 
@@ -61,13 +64,14 @@ Este documento fornece uma referência que pode ser usada para várias tarefas d
 | Surface Laptop ES                                            | Surface Laptop ES | Surface Laptop ES            |
 | Surface Laptop Studio                                        | Surface Laptop Studio | Surface_Laptop_Studio_1964 |
 | Surface Pro (5ª Geração)                                        | Surface Pro      | Surface_Pro_1796                 |
-| Surface Pro com o LTE Avançado (5ª Geração)                      | Surface Pro      | Surface_Pro_1807                 |
+| Surface Pro com LTE Avançado (5ª Geração)                      | Surface Pro      | Surface_Pro_1807                 |
 | Surface Pro 6 Comercial                                     | Surface Pro 6    | Surface_Pro_6_1796_Commercial    |
 | Surface Pro 6 Consumidor                                       | Surface Pro 6    | Surface_Pro_6_1796_Consumer      |
 | Surface Pro 7                                                | Surface Pro 7    | Surface_Pro_7_1866         |
 | Surface Pro 7+                                               | Surface Pro 7+   | Surface_Pro_7+_1960|
 | Surface Pro 7+ LTE                                           | Surface Pro 7+   | Surface_Pro_7+_with_LTE_Advanced_1961|
 | Surface Pro 8                                                | Surface Pro 8    | Surface_Pro_8_for_Business_1983|
+| Surface Pro 8 Consumidor                                       | Surface Pro 8    | Surface_Pro_8_1983|
 | Surface Pro 8 LTE                                            | Surface Pro 8    | Surface_Pro_8_for_Business_with_LTE_Advanced_1982|
 | Surface Pro X com processador SQ1                             | Surface Pro X    | Surface_Pro_X_1876         |
 | Surface Pro X com processador SQ2                             | Surface Pro X    | Surface_Pro_X_H_1876        |
@@ -85,8 +89,8 @@ Use o seguinte comando do PowerShell para obter as informações de SKU do siste
 (Get-CimInstance -Namespace root\wmi -ClassName MS_SystemInformation).SystemSKU
 ```
 
-**Recuperar a SKU usando Informações do Sistema**  
-Você também pode encontrar o System SKU e o System Model para um dispositivo em **Informações do Sistema**. Para fazer isso, siga estas etapas:
+**Recuperar a SKU usando o Informações do Sistema**  
+Você também pode encontrar a SKU do sistema e o Modelo de Sistema para um dispositivo em **Informações do Sistema**. Para fazer isso, siga estas etapas:
 
 1. Selecione **Iniciar** e digite **MSInfo32** na caixa de pesquisa.  
 1. Selecione **Informações do Sistema**.

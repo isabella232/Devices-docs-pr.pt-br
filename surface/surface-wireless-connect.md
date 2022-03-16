@@ -12,14 +12,17 @@ ms.topic: article
 ms.reviewer: tokatz
 manager: laurawi
 ms.date: 11/30/2021
-ms.openlocfilehash: e031b485979b20d6206398840466d553772b6f1d
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 2f0aaaff212475887c3cf446709947d4e960c353
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338244"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449304"
 ---
-# <a name="optimize-wi-fi-connectivity-on-surface-devices"></a>Otimizar Wi-Fi conectividade em dispositivos Surface
+# <a name="optimize-wi-fi-connectivity-on-surface-devices"></a>Otimize a conectividade Wi-Fi em dispositivos Surface
 
 Para permanecer conectado com a duração da bateria de todos os dias, os dispositivos Surface implementam configurações de conectividade sem fio que equilibram o desempenho e a conservação de energia. Fora das cargas de trabalho de mobilidade mais exigentes, os usuários podem manter conectividade sem fio suficiente sem modificar o adaptador de rede padrão ou configurações relacionadas. Esta página destaca as principais considerações de conectividade sem fio em cenários móveis usando dispositivos Surface.
 
@@ -45,7 +48,7 @@ Você pode obter recursos de roaming ideais por meio de uma rede bem projetada q
 Em determinadas situações, modificar configurações avançadas de adaptador de rede internas em dispositivos Surface pode facilitar uma conexão mais confiável. No entanto, lembre-se de que uma incapacidade de se conectar a recursos sem fio é mais frequente devido a um problema de ponto de acesso, falha de design de rede ou problema de site ambiental.
 
 > [!TIP]
-> A forma como você mantém o Surface Pro ou o Surface Go também pode afetar a força do sinal. Se você estiver enfrentando uma perda de largura de banda, verifique se não está segurando a parte superior da tela, onde o receptor de Wi-Fi está localizado. Embora a segurando a parte superior da tela não bloqueie sinais sem fio, ela pode disparar o driver do dispositivo para iniciar alterações que reduzem a conectividade.
+> Como você mantém sua Surface Pro ou Surface Go também pode afetar a força do sinal. Se você estiver enfrentando uma perda de largura de banda, verifique se não está segurando a parte superior da tela, onde o receptor de Wi-Fi está localizado. Embora a segurando a parte superior da tela não bloqueie sinais sem fio, ela pode disparar o driver do dispositivo para iniciar alterações que reduzem a conectividade.
 
 ### <a name="keep-default-auto-setting-for-dual-bandwidth-capability"></a>Manter a configuração automática padrão para o recurso de largura de banda dupla
 

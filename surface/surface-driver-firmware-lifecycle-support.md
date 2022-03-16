@@ -12,12 +12,15 @@ ms.date: 11/30/2021
 ms.reviewer: phorton
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 200029bbe3e988d4eed3187bf3897517b5074b4a
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 54a6fd560b16d29e8a155bcf24efd814a6d5bf77
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338424"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449614"
 ---
 # <a name="surface-driver-and-firmware-lifecycle-for-windows-based-devices"></a>Driver do Surface e ciclo de vida do firmware para dispositivos baseados no Windows
  

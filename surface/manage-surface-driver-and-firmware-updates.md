@@ -15,12 +15,15 @@ ms.author: greglin
 ms.topic: article
 ms.audience: itpro
 ms.date: 12/14/2021
-ms.openlocfilehash: 6cfe5f44c156c8042172741739fffbfed3ceba07
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: f914678f2317ce4e08554d27b74bac4e33e3c641
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338574"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449634"
 ---
 # <a name="manage-and-deploy-surface-driver-and-firmware-updates"></a>Gerenciar e implantar atualizações de driver e firmware do Surface
 
@@ -69,7 +72,7 @@ Esta seção fornece links diretos para pacotes baixáveis que contêm atualiza�
  
 
 > [!TIP]
-> Para dispositivos anteriores que incluem arquivos separados para versões Windows diferentes, selecione o nome de arquivo .msi que corresponde ao modelo surface e à versão do Windows. O .msi de arquivo inclui o número de com build mínimo Windows necessário para instalar os drivers e o firmware. Por exemplo, para atualizar um Surface Book 2 que tenha build 18362 de Windows 10, ** escolhaSurfaceBook2_Win10_18362_19.101.13994.msi.** Para um Surface Book 2 com build 16299 de Windows 10, escolha **SurfaceBook2_Win10_16299_1803509_3.msi**.
+> Para dispositivos anteriores que incluem arquivos separados para versões Windows diferentes, selecione o nome de arquivo .msi que corresponde ao modelo surface e à versão do Windows. O .msi de arquivo inclui o número de com build mínimo Windows necessário para instalar os drivers e o firmware. Por exemplo, para atualizar um Surface Book 2 que tenha build 18362 de Windows 10, ** escolhaSurfaceBook2_Win10_18362_19.101.13994.msi.** Para um Surface Book 2 com build 16299 de Windows 10, ** escolhaSurfaceBook2_Win10_16299_1803509_3.msi**.
 
 ## <a name="central-update-management-in-commercial-environments"></a>Gerenciamento de atualizações centrais em ambientes comerciais
 
@@ -87,7 +90,7 @@ Para etapas detalhadas, consulte os seguintes recursos:
 
 ### <a name="manage-updates-with-microsoft-deployment-toolkit"></a>Gerenciar atualizações com o Microsoft Deployment Toolkit
 
-O Microsoft Deployment Toolkit (MDT) está incluído no Endpoint Configuration Manager. Dependendo do seu ambiente, ele contém ferramentas de implantação opcionais que você pode querer usar.  Eles incluem Windows Kit de Avaliação e Implantação (Windows ADK), Windows System Image Manager (Windows SIM), Serviço e Gerenciamento de Imagens de Implantação (DISM) e USMT (User State Migration Tool). Você pode baixar a versão mais recente do MDT na [página de download do Microsoft Deployment Toolkit download](https://www.microsoft.com/download/details.aspx?id=54259).
+O Microsoft Deployment Toolkit (MDT) está incluído no Endpoint Configuration Manager. Dependendo do seu ambiente, ele contém ferramentas de implantação opcionais que você pode querer usar.  Eles incluem o Kit de Avaliação e Implantação do Windows (Windows ADK), Windows System Image Manager (Windows SIM), Serviço e Gerenciamento de Imagens de Implantação (DISM) e USMT (User State Migration Tool). Você pode baixar a versão mais recente do MDT na [página de download do Microsoft Deployment Toolkit download](https://www.microsoft.com/download/details.aspx?id=54259).
 
 Para etapas detalhadas, consulte os seguintes recursos:
 
@@ -117,11 +120,11 @@ Ao ter perfis DFCI (Interface de Configuração de Firmware de Dispositivo) inte
 
 ## <a name="best-practices-for-update-deployment-processes"></a>Práticas recomendadas para atualizar processos de implantação
 
-Para manter um ambiente estável, é recomendável manter a paridade com a versão mais recente do Windows 10.  Para saber mais sobre as recomendações de práticas práticas, consulte [Prepare servicing strategy for Windows client updates](/windows/deployment/update/waas-deployment-rings-windows-10-updates).
+Para manter um ambiente estável, é recomendável manter a paridade com a versão mais recente do Windows 10.  Para recomendações de práticas, consulte [Preparar a estratégia de manutenção para Windows de cliente](/windows/deployment/update/waas-deployment-rings-windows-10-updates).
 
-### <a name="surface-msi-naming-convention"></a>Convenção .msi de nomenis do Surface
+### <a name="surface-msi-naming-convention"></a>Convenção de nomenis .msi Surface
 
-Desde agosto de 2019, .msi arquivos estão usando a seguinte convenção de nomeniso:
+Desde agosto de 2019, .msi arquivos estão usando a seguinte convenção de nomenis:
 
 - *Product* _*Windows release*_ *Windows build* _*numberVersionRevision*_ *of version number (normalmente zero)*.
 
@@ -142,7 +145,7 @@ Este nome de arquivo fornece as seguintes informações:
 
 ### <a name="legacy-surface-msi-naming-convention"></a>Convenção de nomenis do Surface .msi herdada
 
-Arquivos .msi herdados (arquivos que foram construídos antes de agosto de 2019) seguiram a mesma fórmula de nomenrção geral, mas usaram um método diferente para derivar o número da versão.
+Arquivos .msi herdados (arquivos que foram construídos antes de agosto de 2019) seguiram a mesma fórmula geral de nomenrção, mas usaram um método diferente para derivar o número da versão.
 
 **Exemplo**
 

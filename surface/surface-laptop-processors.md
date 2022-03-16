@@ -12,26 +12,29 @@ ms.date: 04/13/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 52b988315951132284c7016752a6817dadbf74c6
-ms.sourcegitcommit: 62b85dfb85abbe0d880b04e1bcee5bacc9fc045f
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 43619159ff8e429735116c61de23172c63cd900b
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "11676615"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449364"
 ---
 # <a name="surface-laptop-4-processors-tech-overview"></a>Visão geral técnica de processadores do Surface Laptop 4
 
 Surface Laptop 4 foi projetado para fornecer aos clientes comerciais um rico conjunto de opções de dispositivo para ajudar os tomadores de decisão a alinhar melhor as metas de compra de dispositivos com requisitos de função cada vez mais específicos. Em comparação com Surface Laptop 3:
 
-- Surface Laptop 4 equipados com o AMD Ryzen™ os processadores do Microsoft Surface Edition proporcionam um desempenho de vários threads superior, tornando-o uma ótima opção para os profissionais de informações que precisam de recursos de multitarefas melhores.
-- Surface Laptop 4 equipados com processadores Intel de 11ª geração® Core™ fornecem uma GPU mais forte e um desempenho de thread único mais rápido, tornando-o uma ótima opção para desenvolvedores, pesquisadores, especialistas em dados e a exemplo , especialmente quando emparelhados com a maior memória e armazenamento oferecidos no SKU intel de ponta.
+- Surface Laptop 4 equipados com processadores AMD Ryzen™ Microsoft Surface Edition fornece um desempenho superior de vários threads, tornando-o uma ótima opção para os profissionais de informações que precisam de recursos de multitarefas melhores.
+- Surface Laptop 4 equipados com processadores Intel® Core™ de 11ª geração fornecem uma GPU mais forte e um desempenho de thread único mais rápido, tornando-o uma ótima opção para desenvolvedores, pesquisadores, especialistas em dados e a exemplo , especialmente quando emparelhado com a maior memória e armazenamento oferecidos no SKU intel de ponta.
 
 A escolha da SKU depende das prioridades do cliente:
 
 - Se o desempenho do aplicativo com vários threads e a duração da bateria mais longa for uma prioridade máxima, Surface Laptop 4 com processadores AMD Ryzen Surface Edition é uma boa opção.
 - Se o desempenho de thread único mais rápido for mais importante, juntamente com opções para maior memória e armazenamento, Surface Laptop 4 com processadores principais da 11ª geração intel é uma boa opção.
 
-Para saber mais, confira [Surface Laptop 4 para Empresas.](https://www.microsoft.com/surface/business/surface-laptop-4)
+Para saber mais, confira [Surface Laptop 4 para Empresas](https://www.microsoft.com/surface/business/surface-laptop-4).
 
 ## <a name="processor-tech-specs"></a>Especificações técnicas do processador
 
@@ -39,13 +42,13 @@ Para saber mais, confira [Surface Laptop 4 para Empresas.](https://www.microsoft
 
 - Processador Quad Core 11th Gen Intel Core i5-1145G7
 - Processador Quad Core 11th Gen Intel Core i7-1185G7
-- Processador móvel AMD Ryzen 5 4680U com Radeon™ Gráficos do Microsoft Surface Edition (6 núcleos)
+- Processador móvel AMD Ryzen 5 4680U com Radeon™ Graphics Microsoft Surface Edition (6 núcleos)
 - Processador móvel AMD Ryzen 7 4980U com Radeon Graphics Microsoft Surface Edition (8 núcleos)
 
 **Surface Laptop 4 15"**
 
-- Quad Core 11th Gen Intel Core™ processador i7-1185G7
-- Processador móvel AMD Ryzen 7 4980U com Radeon™ Gráficos do Microsoft Surface Edition (8 núcleos)
+- Processador Quad Core 11th Gen Intel Core™ i7-1185G7
+- Processador móvel AMD Ryzen 7 4980U com Radeon™ Graphics Microsoft Surface Edition (8 núcleos)
 
  
 
@@ -63,7 +66,7 @@ Para saber mais, confira [Surface Laptop 4 para Empresas.](https://www.microsoft
 | Canais máximos de memória                   | 2                       | 2                       |
 
 
-Para obter informações gerais sobre os processadores Intel no Surface Laptop 4, consulte:
+Para obter informações gerais sobre os processadores Intel Surface Laptop 4, consulte:
 
 - [Processador Intel Core i5-1145G7](https://www.intel.com/content/www/us/en/products/sku/208660/intel-core-i51145g7-processor-8m-cache-up-to-4-40-ghz-with-ipu/specifications.html) 
 - [Processador Intel Core i7-1185G7](https://www.intel.com/content/www/us/en/products/sku/208664/intel-core-i71185g7-processor-12m-cache-up-to-4-80-ghz-with-ipu/specifications.html) 

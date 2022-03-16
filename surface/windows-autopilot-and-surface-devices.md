@@ -3,7 +3,7 @@ title: Windows Autopilot e dispositivos Surface
 ms.reviewer: ''
 manager: laurawi
 description: Saiba mais sobre as Windows de implantação do Autopilot para dispositivos Surface.
-keywords: autopilot, windows 10, surface, deployment
+keywords: autopilot, Windows 10, Windows 11, superfície, implantação
 ms.prod: w10
 ms.mktglfcycl: deploy
 ms.pagetype: surface, devices
@@ -14,23 +14,26 @@ ms.topic: article
 ms.localizationpriority: medium
 ms.audience: itpro
 ms.date: 9/14/2020
-ms.openlocfilehash: bfcb8c09b3228730e3255c4f92948dc4acfea506
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: ca2dab5483ecb7ae11a102c56308742e348156bb
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338534"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448524"
 ---
 # <a name="windows-autopilot-and-surface-devices"></a>Windows Autopilot e dispositivos Surface
 
-Windows Autopilot é uma tecnologia de implantação baseada em nuvem no Windows 10. Você pode usar Windows Autopilot remotamente para implantar e configurar dispositivos em um processo de toque zero imediatamente.
+Windows Autopilot é uma tecnologia de implantação baseada em nuvem no Windows 10 e Windows 11. Você pode usar Windows Autopilot remotamente para implantar e configurar dispositivos em um processo de toque zero imediatamente.
 
 Tradicionalmente, os profissionais de IT gastam muito tempo criando e personalização de imagens que serão implantadas posteriormente em dispositivos que já vêm com um sistema operacional perfeitamente bom já instalado neles. Windows Autopilot introduz uma nova abordagem de implantação de toque zero usando uma coleção de tecnologias para configurar e configurar Windows dispositivos. Isso permite que um departamento de TI configure/personalize imagens com pouca ou nenhuma infraestrutura para gerenciar e um processo fácil e simples. Da perspectiva do usuário, ele só precisa de algumas etapas simples para levar o Surface a um estado produtivo. Na verdade, a única interação necessária do usuário final é se conectar a uma rede e verificar suas credenciais. Tudo depois disso é totalmente automatizado.
 
 Windows Autopilot permite:
 
 - Associar automaticamente dispositivos ao Azure Active Directory (Azure AD).
-- Registrar automaticamente dispositivos em serviços MDM, como Microsoft Intune (requer uma assinatura Azure AD Premium assinatura).
+- Registrar automaticamente dispositivos em serviços MDM, como Microsoft Intune (requer uma assinatura Azure AD Premium de segurança).
 - Restringir a criação de uma conta de Administrador. O piloto automático é a única maneira de ter a primeira pessoa que faz logo Windows entrar como um usuário padrão.
 - Crie e atribua automaticamente dispositivos a grupos de configuração com base nos perfis de dispositivo.
 - Personalizar conteúdo e identidade visual OOBE (Experiência In-loco) para atender aos requisitos organizacionais.
@@ -70,7 +73,7 @@ Os clientes e os CSPs (Provedores de Soluções de Nuvem da Microsoft) têm a op
 
 Selecione Parceiros do Surface podem registrar dispositivos Surface no Windows Autopilot para você no momento da compra. Eles também podem enviar dispositivos inscritos diretamente para seus usuários. Os dispositivos podem ser configurados inteiramente por meio de um processo de toque zero usando o Windows Autopilot, o Azure AD e o gerenciamento de dispositivos móveis.
 
-Os parceiros surface habilitados para o Windows Autopilot incluem:
+Os parceiros surface habilitados para Windows Autopilot incluem:
 
 | Parceiros dos EUA | Parceiros globais | Distribuidores dos EUA |
 |--------------|---------------|-------------------|
@@ -86,6 +89,6 @@ Os parceiros surface habilitados para o Windows Autopilot incluem:
 
 Para obter mais informações sobre Windows Autopilot, consulte:
 
-- [Visão geral do Windows Autopilot](/windows/deployment/windows-autopilot/windows-10-autopilot)
+- [Visão geral do Windows Autopilot.](/windows/deployment/windows-autopilot/windows-10-autopilot)
 - [Requisitos do Windows Autopilot](/windows/deployment/windows-autopilot/windows-autopilot-requirements)
 - [Suporte a Registro Surface para o Windows Autopilot](surface-autopilot-registration-support.md)

@@ -12,34 +12,37 @@ ms.date: 10/04/2021
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 65734833bf396bbc163bff163b70ba3e226fc95a
-ms.sourcegitcommit: 94e11386d7034c6bc5fe753f7bebf61a9c815509
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: d70ee9f9957ad0981bb967397bbefe6da85a7cf6
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "12153956"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449314"
 ---
 # <a name="surface-laptop-studio-graphics-overview"></a>Visão geral dos elementos gráficos do Surface Laptop Studio
 
-Surface Laptop O Studio integra recursos de computação e elementos gráficos totalmente modernizados em um novo fator de forma versátil. Liderada pelo Intel quad-core da 11ª Geração Intel® Core™ i7 e NVIDIA® RTX™ A2000 ou NVIDIA® GeForce RTX™ 3050 Ti, o Surface Laptop Studio fornece arquitetos, engenheiros, especialistas em dados e profissionais criativos com o poder de computação para fazer seu melhor trabalho.
+Surface Laptop Studio integra recursos de computação e elementos gráficos totalmente modernizados em um novo fator de forma versátil. Liderada pelo Intel Core™ i7 de 11ª® Geração quad-core e NVIDIA® RTX™ A2000 ou NVIDIA® GeForce RTX™ 3050 Ti, o Surface Laptop Studio fornece arquitetos, engenheiros, analistas de dados e profissionais criativos com o poder de computação para fazer o melhor trabalho.
  
 Um diferencial significativo entre os Surface Laptop do Studio é a configuração da GPU. Todos, menos o dispositivo Core i5, apresentam uma GPU NVIDIA RTX discreta, permitindo rastreamento de raios acelerado por hardware, AI e vídeo. O design também otimiza a eficiência de energia para fatores de forma móvel. Os modelos com GPUs NVIDIA fazem parte do programa NVIDIA Studio Products, beneficiando-se das acelerações RTX nos principais aplicativos criativos, drivers confiáveis do NVIDIA Studio e tendo acesso a aplicativos NVIDIA exclusivos, como Canvas ou Broadcast. O rastreamento de raios é uma técnica computacional intensa que simula o comportamento físico da luz para obter maior realismo em cenas geradas pelo computador. Ele é usado tanto em jogos quanto em renderização 3D. O NVIDIA RTX também apresenta uma super amostragem de aprendizagem profunda (DLSS), uma tecnologia de AI que aumenta as taxas de quadros.
  
 Esses recursos avançados de renderização de elementos gráficos vêm em duas configurações principais: GPU do Laptop de Ti NVIDIA GeForce RTX 3050 para consumidores ou profissionais criativos e GPU de laptop NVIDIA RTX A2000 para arquitetos, engenheiros, profissionais criativos e outros profissionais de negócios que precisam de recursos gráficos avançados.
  
-## <a name="surface-laptop-studio-gpus"></a>Surface Laptop Studio GPUs
+## <a name="surface-laptop-studio-gpus"></a>Surface Laptop GPUs do Studio
 
-Esta seção descreve as GPUs integradas e discretas nos Surface Laptop Do Studio.
+Esta seção descreve as GPUs integradas e discretas em Surface Laptop modelos do Studio.
 
 ### <a name="intel-iris-xe-graphics"></a>Intel Iris™ Xe Graphics
 
-A GPU integrada (iGPU) Surface Laptop Studio é instalada como a GPU secundária na maioria dos modelos, o Intel Iris™ Xe Graphics funciona como a GPU singular no modelo Core i5. Ele oferece suporte a experiências de jogos mais ricas e velocidades maiores para designers e criadores. Com recursos gráficos avançados e uma experiência aprimorada por AI, o Intel Iris Xe permite que os consumidores, entusiastas e criadores online executem o software de produtividade mais recente, como o Adobe Creative Cloud ou desfrutem de títulos de jogos no 1080p. Ele também aumenta o número de exibições com suporte de três para um total de quatro. Agora você pode usar até três exibições externas juntamente com a exibição interna ou quatro exibições externas de uma só vez , para GPU integrada e modelos gpu discretos. [[1]](#references)
+Como a GPU integrada (iGPU) no Surface Laptop Studio, o Intel Iris™ Xe Graphics funciona como a GPU singular no modelo Core i5. Ele oferece suporte a experiências de jogos mais ricas e velocidades maiores para designers e criadores. Com recursos gráficos avançados e uma experiência aprimorada por AI, o Intel Iris Xe permite que os consumidores, entusiastas e criadores online executem o software de produtividade mais recente, como o Adobe Creative Cloud ou desfrutem de títulos de jogos no 1080p. Ele também aumenta o número de exibições com suporte de três para um total de quatro. Agora você pode usar até três exibições externas juntamente com a exibição interna ou quatro exibições externas de uma só vez , para GPU integrada e modelos gpu discretos. [[1]](#references)
 
 ### <a name="comparing-discrete-gpus"></a>Comparando GPUs discretas
 
 As GPUs profissionais NVIDIA GeForce RTX 30 e RTX oferecem acelerações em massa para jogos, renderização 3D, edição de vídeo, design gráfico e fluxos de trabalho acelerados por IA, além de muitas outras tarefas criativas. Isso é graças à arquitetura NVIDIA Ampere mais recente:
 
-- Núcleos RT de 2ª geração e DLSS, fornecendo aumentos de desempenho de até 2x em renderadores principais, incluindo Ciclos do Blender, Raio V do Caos e Autodesk Arnold.
+- RT Cores e DLSS de 2ª geração, fornecendo aumentos de desempenho de até 2x nos renderadores principais, incluindo Ciclos do Blender, Raio de V do Caos e Autodesk Arnold.
 - Núcleos Tensor de 3ª geração que aceleram os recursos de IA. Os Núcleos Tensor também trazem a AI para gráficos com recursos como DLSS, denoising AI e edição aprimorada para aplicativos selecionados.
 - O melhor codificador de vídeo da classe (NVENC) e a nova aceleração de hardware para o desfoque de movimento rastreado por raios, uma técnica comum usada na renderização de produção, agora é impulsionada por até 5x.
 
@@ -49,14 +52,14 @@ A GPU do Laptop GeForce RTX 3050 Ti é uma ótima GPU para jogadores e criadores
  
 GeForce RTX 3050 Ti habilita:
 
-- Acelerações de edição de vídeo e livestream, graças ao codificador de hardware dedicado, recursos avançados de IA e acelerações de aplicativos em aplicativos como Adobe Premier® Pro, DaVinci Resolve ou OBS.
-- Design gráfico e fotografia, com recursos acelerados de IA em aplicativos como Adobe Lightroom ou Photoshop.
+- Edição de vídeo e acelerações de streaming ao vivo, graças ao codificador de hardware dedicado, recursos aprimorados de IA e acelerações de aplicativos em aplicativos como Adobe Premier® Pro, DaVinci Resolve ou OBS.
+- Design gráfico e fotografia, com recursos acelerados por IA em aplicativos como Adobe Lightroom ou Photoshop.
 - Renderização 3D ultra-rápida graças às acelerações RTX e DLSS em aplicativos como Blender ou Autodesk® Maya. 
-- Jogos de última geração com gráficos RTX e alto desempenho graças a DLSS e latência ultra baixa com reflexo NVIDIA.
+- Jogos de última geração com gráficos RTX e alto desempenho graças a DLSS e latência ultra-baixa com reflexo NVIDIA.
 
 ### <a name="nvidia-rtx-a2000-laptop-gpu"></a>NVIDIA RTX A2000 Laptop GPU
 
-O NVIDIA RTX A2000 oferece renderização de elementos gráficos profissionais e recursos de AI para exigir fluxos de trabalho profissionais, incluindo design de produtos e manufatura, modelagem de mídia e entretenimento, animação e renderização, arquitetura, engenharia e design de construção.
+O NVIDIA RTX A2000 oferece renderização de elementos gráficos profissionais e recursos de AI para exigir fluxos de trabalho profissionais, incluindo manufatura e design de produtos, modelagem de mídia e entretenimento, animação e renderização, arquitetura, engenharia e design de construção.
  
 NVIDIA RTX A2000 cria os recursos geForce RTX 3050 Ti com os seguintes recursos adicionais:
 

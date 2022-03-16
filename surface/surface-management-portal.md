@@ -12,12 +12,15 @@ ms.date: 11/02/2021
 ms.reviewer: hachinda
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: a131e663aadbd10be039cff777001383178f7fc1
-ms.sourcegitcommit: 16889d72b0af81dfe79267c41574c3774e81f178
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 8c0f4f6c80ff7341b795839c3897dff6733414bc
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "12155169"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448874"
 ---
 # <a name="surface-management-portal-overview"></a>Visão geral do de Gerenciamento Surface
 
@@ -35,7 +38,7 @@ Consulte também: [Problemas conhecidos](#known-issues) abaixo.
 
 ## <a name="get-started"></a>Introdução
 
-Entre no Microsoft Endpoint Manager, clique em **Todos os serviços**e clique em Surface Management **Portal**.
+Entre no Microsoft Endpoint Manager, clique em **Todos os serviços** e clique em **Surface Management Portal**.
 
 :::image type="content" source="/surface/images/surface-management-portal/surface-management-portal-start.png" lightbox="/surface/images/surface-management-portal/surface-management-portal-start.png" alt-text="Iniciar o Portal de Gerenciamento de Superfície":::
 
@@ -71,7 +74,7 @@ O Surface Management Portal dá visibilidade completa à atividade de suporte ju
 
 ## <a name="try-for-free"></a>Experimente gratuitamente
 
-O Surface Management Portal está disponível para clientes que usam Microsoft Endpoint Manager e registraram dispositivos Surface por meio do Intune. Se você for novo no Intune, defina seu locatário do Intune hoje visitando [o Início Rápido:](/mem/intune/fundamentals/free-trial-sign-up)tente Microsoft Intune gratuitamente .
+O Surface Management Portal está disponível para clientes que usam Microsoft Endpoint Manager e registraram dispositivos Surface por meio do Intune. Se você for novo no Intune, defina seu locatário do Intune hoje visitando [o Início Rápido: tente Microsoft Intune gratuitamente](/mem/intune/fundamentals/free-trial-sign-up).
 
 ## <a name="known-issues"></a>Problemas conhecidos
 

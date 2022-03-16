@@ -12,12 +12,15 @@ ms.reviewer: scottmca
 manager: laurawi
 ms.audience: itpro
 ms.date: 10/25/2021
-ms.openlocfilehash: ebdb6e5999eb3564a21d23e661fa75d90a32e698
-ms.sourcegitcommit: 94e11386d7034c6bc5fe753f7bebf61a9c815509
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 8d714ad9e7d301b4691655faaf9e39b0f4147301
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "12154046"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449374"
 ---
 # <a name="surface-dock-1-firmware-update"></a>Atualização de firmware do Surface Dock 1
 
@@ -29,7 +32,7 @@ Este artigo explica como usar a Atualização de Firmware do Microsoft Surface D
 Essa ferramenta sobressupa a ferramenta anterior do Microsoft Surface Dock Updater, disponível anteriormente para download como parte do Surface Tools para IT. A ferramenta anterior foi nomeada Surface_Dock_Updater_vx.xx.xxx.x.msi (onde x indica o número da versão) e não está mais disponível para download e não deve ser usada.
 
 > [!IMPORTANT]
-> Este artigo contém instruções técnicas para administradores de IT. Se você for um usuário de residência, confira [Como atualizar seu Firmware](https://support.microsoft.com/help/4023478/surface-update-your-surface-dock)do Surface Dock no site de Suporte da   Microsoft. As instruções no site de suporte são as mesmas das etapas gerais de instalação abaixo, mas este artigo tem informações adicionais para monitoramento, verificação e implantação da atualização em vários dispositivos em uma rede.
+> Este artigo contém instruções técnicas para administradores de IT. Se você for um usuário de residência, confira [Como atualizar seu Firmware](https://support.microsoft.com/help/4023478/surface-update-your-surface-dock)  do Surface Dock no site de Suporte da Microsoft. As instruções no site de suporte são as mesmas das etapas gerais de instalação abaixo, mas este artigo tem informações adicionais para monitoramento, verificação e implantação da atualização em vários dispositivos em uma rede.
 
 ## <a name="supported-devices"></a>Dispositivos com suporte
 
@@ -56,7 +59,7 @@ Esta seção descreve como instalar manualmente a atualização de firmware no S
 > [!TIP]
 > A Microsoft lança periodicamente novas versões do Surface Dock 1 Firmware Update. O arquivo MSI não está se atualizando. Se você tiver implantado o MSI em dispositivos Surface e uma nova versão do firmware for lançada, será necessário implantar a nova versão.
 
-1. Vá para [o Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703) e baixe e instale o arquivo .msi chamado **Surface_Dock_FwUpdate..**, seguido da versão apropriada. Se você estiver executando Surface Pro X, baixe a com build **.arm64.** Para todos os outros dispositivos, use a com build **.amd64.**  
+1. Vá para [o Surface Tools for IT](https://www.microsoft.com/download/details.aspx?id=46703) e baixe e instale o arquivo .msi chamado **Surface_Dock_FwUpdate..**, seguido pela versão apropriada. Se você estiver executando Surface Pro X, baixe a com build **.arm64**. Para todos os outros dispositivos, use a **com build .amd64** .  
 
     - A atualização requer um dispositivo Surface executando Windows 10, versão 1803 ou posterior.
     - Instalar o arquivo MSI pode solicitar que você reinicie o Surface. No entanto, a reinicialização não é necessária para executar a atualização.
@@ -69,7 +72,7 @@ Esta seção é opcional e fornece uma visão geral de como monitorar a instala�
 
 Para monitorar a atualização:
 
-1. Abra o Visualizador de Eventos, navegue até Windows Logs **** **> Application**e, em Ações no painel direito, clique em Filtrar Log **Atual,** insira **SurfaceDockFwUpdate** ao lado de Fontes de Eventos **e**clique em **OK**.
+1. Abra o Visualizador de Eventos, navegue até Windows **Logs > Application** e, em Ações no painel direito****, clique em Filtrar **Log** Atual, insira **SurfaceDockFwUpdate** ao lado de Fontes de Eventos e **** clique em **OK**.
 
 2. Digite o seguinte comando em um prompt de comando elevado:
 
@@ -79,9 +82,9 @@ Para monitorar a atualização:
 
 3. Instale a atualização conforme descrito na [próxima seção](#install-surface-dock-1-firmware-update) deste artigo.
 
-4. Evento 2007 com o seguinte texto indica uma atualização bem-sucedida: atualização de **firmware concluída. hr=0 DriverTelementry EventCode = 2007**.
+4. O evento 2007 com o seguinte texto indica uma atualização bem-sucedida: **atualização de firmware concluída. hr=0 DriverTelementry EventCode = 2007**.
 
-   Se a atualização não for bem-sucedida, a ID do evento 2007 será exibida como um evento **Error** em vez de **Informações**. Além disso, a versão relatada no Windows Registro não será atual.
+   Se a atualização não for bem-sucedida, a ID do evento 2007 será exibida como um evento **Error** em vez de **Informações**. Além disso, a versão relatada na Windows Registro não será atual.
 
 5. Quando a atualização for concluída, os valores DWORD atualizados serão exibidos no Registro Windows, correspondendo à versão atual da ferramenta. Consulte a [seção de referência](#versions-reference) Versões deste artigo para obter detalhes. Por exemplo:
 
@@ -111,7 +114,7 @@ msiexec /i "\\share\folder\Surface_Dock_FwUpdate_1.42.139_Win10_17134_19.084.316
 ```
 
 > [!NOTE]
-> Um arquivo de log não é criado por padrão. Para criar um arquivo de log, você precisará anexar "/l*v [caminho]". Por exemplo: Msiexec.exe /i \<path to msi file\> /l v*%windir%\logs\ SurfaceDockFWI.log"
+> Um arquivo de log não é criado por padrão. Para criar um arquivo de log, você precisará anexar "/*lv [caminho]". Por exemplo: Msiexec.exe /i /lv \<path to msi file\>*%windir%\logs\ SurfaceDockFWI.log"
 
 Para obter mais informações, consulte a [documentação de opções de linha de](/windows/win32/msi/command-line-options) comando.
 
@@ -120,7 +123,7 @@ Para obter mais informações, consulte a [documentação de opções de linha d
 
 ## <a name="intune-deployment"></a>Implantação do Intune
 
-Você pode usar o Intune para distribuir a Atualização de Firmware do Surface Dock 1 para seus dispositivos. Primeiro, você precisará converter o arquivo MSI no formato .intunewin, conforme descrito na documentação a seguir: [Intune Standalone - Win32 app management](/intune/apps/apps-win32-app-management).
+Você pode usar o Intune para distribuir a Atualização de Firmware do Surface Dock 1 para seus dispositivos. Primeiro, você precisará converter o arquivo MSI no formato .intunewin, conforme descrito na documentação a seguir: Gerenciamento de aplicativos [Do Intune Autônomo - Win32](/intune/apps/apps-win32-app-management).
 
 Use o seguinte comando:
 
@@ -156,7 +159,7 @@ A conclusão bem-sucedida da Atualização de Firmware do Surface Dock 1 resulta
 | Log                              | Location                               | Observações                                                                                                                                                                                                         |
 | -------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Log de Atualização de Firmware do Surface Dock 1 | O caminho precisa ser especificado (consulte observação) | Versões anteriores desta ferramenta escreveram eventos para Logs de Aplicativos e Serviços\Microsoft Surface Dock Updater.                                                                                                  |
-| Windows Log de instalação do dispositivo       | %windir%\inf\setupapi.dev.log           | Para obter mais informações sobre como usar o Log de Instalação do Dispositivo, consulte a documentação de Registro em [Log de InstalaçãoAPI.](/windows-hardware/drivers/install/setupapi-logging--windows-vista-and-later-) |
+| Windows de instalação de dispositivo       | %windir%\inf\setupapi.dev.log           | Para obter mais informações sobre como usar o Log de Instalação do Dispositivo, consulte a [documentação de Registro em Log de InstalaçãoAPI](/windows-hardware/drivers/install/setupapi-logging--windows-vista-and-later-) . |
 
 ### <a name="table-2-event-log-ids-for-surface-dock-1-firmware-update"></a>Tabela 2. IDs de log de eventos para Atualização de Firmware do Surface Dock 1
 

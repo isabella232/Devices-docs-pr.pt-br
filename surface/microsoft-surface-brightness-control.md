@@ -12,12 +12,15 @@ ms.reviewer: hachidan
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 660a96a8825002c6d52d067dac77894bb0c0b7a9
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 7c27bacde65ef8c0fab75b123283bf2e6699afed
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12337824"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449104"
 ---
 # <a name="surface-brightness-control"></a>Controle de brilho do Surface
 
@@ -48,7 +51,7 @@ Baixe o Controle de Brilho de Superfície do [Surface Tools para IT](https://www
 
 ## <a name="configure-surface-brightness-control"></a>Configurar o Controle de Brilho de Superfície
 
-Você pode ajustar os valores padrão por meio do Windows Registro. Para obter mais informações sobre como usar o Windows Registro, consulte a [documentação do Registro](/windows/desktop/sysinfo/registry).
+Você pode ajustar os valores padrão por meio do Windows Registro. Para obter mais informações sobre como usar o Windows, consulte a [documentação do Registro](/windows/desktop/sysinfo/registry).
 
 1. Execute **o regedit** de um prompt de comando para abrir o editor Windows Registro.
 2. Navegue até Computador\HKEY\_LOCAL\_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Surface\Surface Brightness Control.

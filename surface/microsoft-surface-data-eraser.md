@@ -15,12 +15,15 @@ ms.author: greglin
 ms.topic: article
 audience: itpro
 ms.date: 10/06/2021
-ms.openlocfilehash: e97bc719fb93b0a0b74c7ca51b68cbc59efa9f4a
-ms.sourcegitcommit: fe54b2bab8b205302438426b86c0aa8269ff82ea
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: e40c967003fc6dd40725e5015c01497eb3fa141a
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "12081192"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449644"
 ---
 # <a name="microsoft-surface-data-eraser"></a>Microsoft Surface Data Eraser
 
@@ -40,7 +43,7 @@ Dispositivos Surface compatíveis incluem:
 - Surface Laptop (todas as edições)
 - Surface Laptop Go
 - Surface Studio (todas as edições)
-- Surface Pro 2 e posterior
+- Surface Pro 2 e posteriores
 - Surface 3
 - Windows 10 Pro e Enterprise no Surface Hub 2
 
@@ -55,7 +58,7 @@ Alguns cenários em que o Microsoft Surface Data Eraser pode ser útil são:
 
 Depois que a ferramenta de criação for instalada, siga estas etapas para criar um pen drive do Microsoft Surface Data Eraser. Antes de iniciar as etapas, verifique se há um pen drive USB 3.0 com tamanho de 4 GB ou maior conectado ao computador.
 
-1. Execute o DataEraserSetup.msi de instalação que você baixou do [Centro de Download da Microsoft.](https://www.microsoft.com/download/details.aspx?id=46703)
+1. Execute o DataEraserSetup.msi de instalação que você baixou do [Centro de Download da Microsoft](https://www.microsoft.com/download/details.aspx?id=46703).
 
 2. Selecione **Criar para** iniciar o processo de criação USB do Microsoft Surface Data Eraser, conforme mostrado na Figura 1.
 
@@ -67,11 +70,11 @@ Depois que a ferramenta de criação for instalada, siga estas etapas para criar
    :::image type="content" source="images/microsoft-surface-data-eraser/fig2-continue.png" alt-text="Figura 2. Confirmar que a unidade USB de pelo menos 4 GB está conectada":::<br>
    *Figura 2. Confirmar que a unidade USB de pelo menos 4 GB está conectada*
 
-4. Escolha x64 (somente para dispositivos **2021+ )** para dispositivos 2021 ou mais novos, escolha **x64** para 2020 e dispositivos mais antigos ou **ARM64** para Surface Pro X na página Seleção de Arquitetura, conforme mostrado Na Figura-3. **** Selecione **Continuar**.
+4. Escolha **x64 (somente para dispositivos 2021+ )** para dispositivos 2021 ou mais novos, escolha **x64** para 2020 e dispositivos mais antigos ou **ARM64** para Surface Pro X na página Seleção **** de Arquitetura, conforme mostrado Figure-3. Selecione **Continuar**.
 
    :::image type="content" source="images/microsoft-surface-data-eraser/fig3-select.png" alt-text="Figura 3. Selecionar arquitetura de dispositivo":::
 
-5. Selecione a unidade USB de sua escolha na página Seleção de Unidade de Polegar **USB,** conforme mostrado na Figura 4, e selecione **Iniciar** para iniciar o processo de criação usb. A unidade que você selecionar será formatada, e todos os dados existentes nela serão perdidos.
+5. Selecione a unidade USB de sua escolha na página Seleção de Unidade de Polegar **USB** , conforme mostrado na Figura 4, e selecione **Iniciar** para iniciar o processo de criação usb. A unidade que você selecionar será formatada, e todos os dados existentes nela serão perdidos.
 
    :::image type="content" source="images/microsoft-surface-data-eraser/fig4-start.png" alt-text="Figura 4. Seleção de unidade de polegar USB>":::<br>
    *Figura 4. Seleção de pen drive*
@@ -93,7 +96,7 @@ Depois que a ferramenta de criação for instalada, siga estas etapas para criar
 Após criar um pen drive do Microsoft Surface Data Eraser, você pode inicializar um dispositivo Surface com suporte por meio do pen drive seguindo este procedimento:
 
 >[!NOTE]
->O Surface Data Eraser no Surface Studio e Surface Studio 2 pode levar até 6 minutos para ser inicializado no WinPE antes que o apagamento do disco possa ocorrer.
+>O Surface Data Eraser no Surface Studio e Surface Studio 2 pode levar até 6 minutos para inicializar no WinPE antes que o apagamento do disco possa ocorrer.
 
 1. Insira o pen drive inicializável do Microsoft Surface Data Eraser no dispositivo Surface com suporte.
 
@@ -260,4 +263,4 @@ Esta versão do Microsoft Surface Data Eraser adiciona suporte para o seguinte:
 - Surface Laptop
 
 >[!NOTE]
->A ferramenta de criação de unidade da unidade USB do Microsoft Surface Data Eraser não pode ser executada no Windows 10 S. Para limpar um Surface Laptop executando o Windows 10 S, primeiro você deve criar a unidade USB do Microsoft Surface Data Eraser em outro computador com Windows 10 Pro ou Windows 10 Enterprise.
+>A ferramenta de criação de unidade USB do Microsoft Surface Data Eraser não pode ser Windows 10 S. Para apagar um Surface Laptop em execução Windows 10 S, primeiro você deve criar a unidade Windows 10 USB do Microsoft Surface Data Eraser em outro computador com Pro/11 ou Windows 10/11 Enterprise.

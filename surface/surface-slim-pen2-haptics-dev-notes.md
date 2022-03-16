@@ -1,5 +1,5 @@
 ---
-title: Notas de dev do Surface Slim Pen 2 haptics
+title: Notas do desenvolvedor do Surface Slim Pen 2 háptico
 description: Esta página fornece notas de implementação para desenvolvedores de aplicativos que querem estender Windows 11 recursos de tinta do Surface Slim Pen 2 para Empresas.
 ms.prod: w11
 ms.mktglfcycl: manage
@@ -12,21 +12,23 @@ ms.date: 12/07/2021
 ms.reviewer: gusing
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 8a3dbbdde85cfdceaf5674750a68fc21d3fcd877
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 11
+ms.openlocfilehash: 881ac52cb7a27b82fa9b7e6b5afd86040581ea86
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338606"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448534"
 ---
-# <a name="surface-slim-pen-2-haptics-dev-notes"></a>Notas de dev do Surface Slim Pen 2 haptics
+# <a name="surface-slim-pen-2-haptics-dev-notes"></a>Notas do desenvolvedor do Surface Slim Pen 2 háptico
 
 Esta página fornece notas de implementação para desenvolvedores de aplicativos que querem estender Windows 11 recursos de tinta do [Surface Slim Pen 2 para Empresas](https://www.microsoft.com/d/surface-slim-pen-2-for-business/8mjc4rmvltj0?). Os recursos de haptics personalizáveis incluem o seguinte:
 
 - **Comentários de escrita à** tinta que simulam a sensação de canetas, lápis e outras ferramentas de escrita ou desenho.
 - **Feedback de** interação que responde diretamente a ações do usuário, como passar o mouse sobre um botão, clicar em um botão ou concluir uma tarefa com a caneta.
 
-Se você estiver personalização de um aplicativo para o Surface Slim Pen 2, consulte as diretrizes de Windows Ink [descritas](/windows/apps/design/input/pen-haptics) em Interações de caneta e comentários hápticos e consulte as anotações abaixo.
+Se você estiver personalização de um aplicativo para o Surface Slim Pen 2, consulte as diretrizes de Windows Ink descritas em Interações de caneta e comentários [hápticos](/windows/apps/design/input/pen-haptics) e consulte as anotações abaixo.
 
 ## <a name="implementation-notes"></a>Notas de implementação
 

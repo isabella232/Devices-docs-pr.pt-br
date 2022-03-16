@@ -1,5 +1,5 @@
 ---
-title: Otimizar a videoconferência em dispositivos Surface
+title: Otimize a videoconferência em dispositivos Surface
 description: Esta página fornece práticas recomendadas para o uso de Microsoft Teams e outras soluções de videoconferência em dispositivos Surface
 ms.prod: w11
 ms.mktglfcycl: manage
@@ -12,14 +12,17 @@ ms.date: 12/10/2021
 ms.reviewer: gusing
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: dd72bf940309fe9f3d7b4bf334a94a557cffe016
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 28ad64b41dedb7d66092cf98388920a732fee737
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338594"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449674"
 ---
-# <a name="optimize-video-conferencing-on-surface-devices"></a>Otimizar a videoconferência em dispositivos Surface
+# <a name="optimize-video-conferencing-on-surface-devices"></a>Otimize a videoconferência em dispositivos Surface
 
 Os dispositivos Surface aproveitam os avanços mais recentes no consumo de energia de dispositivo móvel para oferecer uma experiência simplificada otimizada em cargas de trabalho. Para a maioria das cargas de trabalho, isso oferece uma ótima experiência. Para algumas cargas de trabalho usando Microsoft Teams ou outros aplicativos de videoconferência, siga estas recomendações para garantir a melhor experiência.
 
@@ -56,7 +59,7 @@ Modelos de dispositivo Surface mais recentes com processadores Intel de 10ª e 1
 
 Os dispositivos Surface podem ajustar as configurações de energia relacionadas ao desempenho alterando Windows posição do controle deslizante de energia de desempenho no Windows 10, também conhecido como modo de energia no Windows 11.
 
-Alguns dispositivos Surface receberam atualizações que incluem otimizações de configuração de energia para cargas de trabalho de conferência de vídeo com base na posição do controle deslizante de energia ou no modo de alimentação. No entanto, como Windows 10 e Windows 11 usam a posição recomendada do controle deslizante de energia e a posição do modo de energia para cargas de trabalho de videoconferência, você precisará ajustar o controle deslizante de energia para habilitar essas otimizações:****
+Alguns dispositivos Surface receberam atualizações que incluem otimizações de configuração de energia para cargas de trabalho de conferência de vídeo com base na posição do controle deslizante de energia ou no modo de alimentação. No entanto, como Windows 10 e Windows 11 usam a posição recomendada do controle deslizante **** de energia e a posição do modo de energia para cargas de trabalho de videoconferência, você precisará ajustar o controle deslizante de energia para habilitar essas otimizações:
 
 1. Conexão a energia ac (as otimizações não são executados ao usar a energia da bateria).  
 2. Ajuste o controle deslizante de energia ou a posição do modo de alimentação para usar **Melhor Desempenho** ou **Melhor Desempenho.**

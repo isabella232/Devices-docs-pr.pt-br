@@ -1,5 +1,5 @@
 ---
-title: Surface Laptop ES visão geral
+title: Visão geral do Surface Laptop SE
 description: Este artigo fornece uma visão geral do Surface Laptop ES para educação.
 ms.prod: w11
 ms.mktglfcycl: manage
@@ -12,36 +12,38 @@ ms.date: 01/11/2022
 ms.reviewer: hachidan
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 2496c50db10454674f80aec03734849bacf63f38
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 11
+ms.openlocfilehash: a99c3241eea0099b90de9c64ff840306aa98e58d
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338597"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448315"
 ---
-# <a name="surface-laptop-se-overview"></a>Surface Laptop ES visão geral
+# <a name="surface-laptop-se-overview"></a>Visão geral do Surface Laptop SE
 
 Surface Laptop ES fornece uma experiência de dispositivo gerenciado que simplifica o aprendizado para alunos a um custo acessível. Ele executa Windows 11 ES, um sistema operacional de primeira nuvem, e vem [pré-carregado](#pre-installed-apps) com aplicativos amplamente usados como Microsoft Teams, Word, PowerPoint, Excel, OneNote, Edge, Minecraft: Education Edition, Flipgrid e muito mais. 
 
 :::image type="content" source="images/surface-laptop-se.png" alt-text="Surface Laptop ES mostrando Windows 11 ES menu Iniciar":::<br>
 *Figura 1. Surface Laptop ES mostrando Windows 11 ES menu Iniciar*
 
-Surface Laptop ES oferece suporte à maioria dos aplicativos que os alunos e educadores precisam, incluindo PWAs (Aplicativos Web Progressivos), Aplicativos da Plataforma Universal Windows (UWPs) e um conjunto de aplicativos [win32 & Microsoft Store](#install-optional-apps). Ao contrário de outros dispositivos Surface, Surface Laptop ES impede que os usuários instalem seus próprios aplicativos. Em vez disso, os administradores de TECNOLOGIA ou os leads técnicos gerenciam Surface Laptop ES [dispositivos usando](/mem/intune/fundamentals/what-is-intune) Microsoft Endpoint Manager, o que inclui Microsoft Intune, [Microsoft Intune para](https://www.microsoft.com/education/intune) Educação e o novo [Surface Management Portal](surface-management-portal.md). 
+Surface Laptop ES oferece suporte à maioria dos aplicativos que os alunos e educadores precisam, incluindo PWAs (Aplicativos Web Progressivos), Aplicativos da Plataforma universal de Windows (UWPs) e um conjunto de aplicativos [win32 & Microsoft Store](#install-optional-apps). Ao contrário de outros dispositivos Surface, Surface Laptop ES impede que os usuários instalem seus próprios aplicativos. Em vez disso, os administradores de TECNOLOGIA ou os leads técnicos gerenciam Surface Laptop ES [dispositivos usando](/mem/intune/fundamentals/what-is-intune) Microsoft Endpoint Manager, o que inclui Microsoft Intune, [Microsoft Intune para](https://www.microsoft.com/education/intune) Educação e o novo Portal de Gerenciamento de [Superfície](surface-management-portal.md). 
 
 > [!NOTE]
 > Este artigo destina-se a administradores de IT e funcionários de educação que implantam e gerenciam dispositivos para usuários escolares. Para obter informações gerais ou solicitar, consulte [Surface Laptop ES Laptop Fino para Alunos](https://www.microsoft.com/surface/business/surface-laptop-se).
 
 ## <a name="simplified-deployment-management--security"></a>Implantação simplificada, gerenciamento & segurança
 
-- Conclua a implantação de toque baixo para novos dispositivos usando Windows Autopilot, aplicando rapidamente políticas e instalando aplicativos. Windows Autopilot fornece implantação e imagens de baixo toque fora da caixa, com muitos aplicativos e políticas pré-instalados e pré-configurados. A IT pode ajustar facilmente as configurações do dispositivo, incluindo configurações de firmware, e instalar os aplicativos de que os alunos precisam para que tudo esteja pronto para ir quando eles ativarem o dispositivo pela primeira vez.
+- Conclua a implantação de toque baixo para novos dispositivos usando Windows Autopilot, aplicando rapidamente políticas e instalando aplicativos. Windows Autopilot fornece implantação de baixo toque e imagens fora da caixa, com muitos aplicativos e políticas pré-instalados e pré-configurados. A IT pode ajustar facilmente as configurações do dispositivo, incluindo configurações de firmware, e instalar os aplicativos de que os alunos precisam para que tudo esteja pronto para ir quando eles ativarem o dispositivo pela primeira vez.
 - Depois que os dispositivos são implantados, Microsoft Intune oferece gerenciamento remoto simplificado durante todo o ano escolar, dando à IT a capacidade de gerenciar aplicativos, controlar a segurança e a privacidade e gerar relatórios de conformidade.
 - Bloqueie o sistema operacional com bloqueio de tampa quando o laptop estiver fechado e controle o acesso físico com o Slot de Segurança Integrado kensington Nano™.
 - Uma dobradiça não exposta recentemente projetada, um chassi de plástico e uma borda de plástico ao redor da tela que sai para o biseão fornecem mais durabilidade para atender melhor às necessidades e demandas de uso do aluno.
-- O Intune e o DFCI suportam atualizações de dispositivo seguro e gerenciamento para a camada de firmware. Os administradores de IT podem controlar elementos de hardware, como microfones, portas USB, câmeras e Bluetooth e remover a energia para periféricos. A embalagem surface digitalizável exclusiva permite a fácil identificação de dispositivos, com o número da ID do dispositivo permanecendo o mesmo quando chegar a hora de se registrar de novo.
+- O Intune e o DFCI suportam atualizações de dispositivo seguro e gerenciamento para a camada de firmware. Os administradores de IT podem controlar elementos de hardware, como microfones, portas USB, câmeras e Bluetooth e remover energia para periféricos. A embalagem surface digitalizável exclusiva permite a fácil identificação de dispositivos, com o número da ID do dispositivo permanecendo o mesmo quando chegar a hora de se registrar de novo.
 
 ### <a name="surface-management-portal"></a>Portal de Gerenciamento do Surface
 
-Quando você registra o Surface Laptop ES para gerenciamento de nuvem e os usuários fizerem logoff pela primeira vez, as informações desses dispositivos Surface fluem automaticamente para o Portal de Gerenciamento do Surface, dando a você um único painel de vidro para atividades de administrador de dispositivos específicos do [Surface](surface-management-portal.md). Você pode obter informações sobre conformidade do dispositivo, atividade de suporte e cobertura de garantia. Consulte rapidamente o status de cada dispositivo, quais ainda estão em garantia ou expirando em breve, e o status das solicitações de suporte ativas.
+Quando você se registra Surface Laptop ES gerenciamento de nuvem e os usuários fizerem logoff pela primeira vez, as informações desses dispositivos Surface fluem automaticamente para o Portal de Gerenciamento do Surface, dando a você um único painel de vidro para atividades de administrador de dispositivos específicos do [Surface](surface-management-portal.md). Você pode obter informações sobre conformidade do dispositivo, atividade de suporte e cobertura de garantia. Consulte rapidamente o status de cada dispositivo, quais ainda estão em garantia ou expirando em breve, e o status das solicitações de suporte ativas.
 
 :::image type="content" source="images/surface-management-portal-laptop-se.png" alt-text="Surface Management Portal mostrando a cobertura de garantia para Surface Laptop ES":::
 *Figura 2. Surface Management Portal mostrando a cobertura de garantia para Surface Laptop ES*
@@ -50,7 +52,7 @@ Quando você registra o Surface Laptop ES para gerenciamento de nuvem e os usuá
 
 | Cenário                                                            | Descrição                                                                                                                                                                                                                                                                                                                          | Saiba mais                                                                                                                                                                                                                                                                                                                                                                                                       |
 | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Configurar remotamente Surface Laptop ES dispositivos com Windows Autopilot | Windows Autopilot fornece implantação de baixo toque e imagens fora da caixa, com muitos aplicativos e políticas pré-instalados e pré-configurados. A IT pode ajustar facilmente as configurações do dispositivo, incluindo configurações de firmware, e instalar os aplicativos de que os alunos precisam para que tudo esteja pronto para ir quando eles ativarem o dispositivo pela primeira vez.                 |[Configurar o Intune para dispositivos Education com Windows Autopilot](/intune-education/windows-autopilot-setup)<br><br>[Como registrar meus dispositivos?](/intune-education/how-should-i-enroll-devices)                                                                                                                                                  |
+| Configurar remotamente Surface Laptop ES dispositivos com Windows Autopilot | Windows Autopilot fornece implantação e imagens de baixo toque fora da caixa, com muitos aplicativos e políticas pré-instalados e pré-configurados. A IT pode ajustar facilmente as configurações do dispositivo, incluindo configurações de firmware, e instalar os aplicativos de que os alunos precisam para que tudo esteja pronto para ir quando eles ativarem o dispositivo pela primeira vez.                 |[Configurar o Intune para dispositivos Education com Windows Autopilot](/intune-education/windows-autopilot-setup)<br><br>[Como registrar meus dispositivos?](/intune-education/how-should-i-enroll-devices)                                                                                                                                                  |
 | Implantar atualizações via Intune para Educação                             | Os administradores de usar Microsoft Intune para empurrar as atualizações do sistema operacional e do aplicativo para Surface Laptop ES dispositivos em toda a escola durante todo o ano. Se necessário, eles podem desabilitar elementos de hardware como a câmera ou Bluetooth em um dispositivo individual ou redefinir um dispositivo específico se um aluno estiver enfrentando problemas técnicos. |[Gerenciar dispositivos executando Windows 11 ES](/intune-education/windows-11-se-overview)<br><br>[Recursos e documentação do Microsoft Education](/microsoft-365/education/)<br><br>[Começar com o Intune para Educação](/microsoft-365/education/deploy/intune-for-education)<br><br>[Usar o Intune para Educação para gerenciar grupos, aplicativos e configurações](/microsoft-365/education/deploy/use-intune-for-education) |
 | Substituir dispositivos conforme necessário                                           | Se os alunos quebrarem a tela ou danificarem o dispositivo, os administradores de IT poderão implantar rapidamente dispositivos de reposição, transferindo as identidades de nuvem dos alunos para os novos dispositivos.                                                                                                  |[Ações de dispositivo remoto no Intune para Educação](/intune-education/edu-device-remote-actions)                                                                                                                                                                                                                                                                                   |
 | Implantar novos aplicativos via Intune                                          | Se os professores solicitarem um novo aplicativo, os administradores de IT poderão instalá-lo remotamente em todos os dispositivos de alunos usando o Intune.                                                                                                                                                                                                                            |[Instalar aplicativos para todos os usuários](/microsoft-365/education/deploy/use-intune-for-education#install-apps-for-all-users)                                                                                                                                                                                                                                                              |
@@ -96,7 +98,7 @@ Os administradores de IT podem instalar [aplicativos adicionais](/education/wind
 
 ## <a name="repairability"></a>Capacidade de reparo
 
-Surface Laptop ES Surface Laptop ES foi projetado para permitir que técnicos qualificados ativem dispositivos de serviço localmente substituindo rapidamente os componentes principais:
+Surface Laptop ES Surface Laptop ES foi projetado para habilitar técnicos qualificados para fazer o serviço local de dispositivos substituindo rapidamente os componentes principais:
 
 - Módulo de exibição  
 - Bucket & teclado

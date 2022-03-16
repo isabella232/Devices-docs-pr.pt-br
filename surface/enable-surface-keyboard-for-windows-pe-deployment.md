@@ -21,19 +21,21 @@ appliesto:
 - Surface Laptop 4
 - Surface Laptop Studio
 - Surface Pro 8
-ms.openlocfilehash: b65fbcb0221fe923e1e2240b8da163d868b46122
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 8707d022ae5e3d3f34c59fab88328b5720896898
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338264"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449184"
 ---
 # <a name="how-to-enable-the-surface-laptop-keyboard-during-mdt-deployment"></a>Como habilitar o teclado Surface Laptop durante a implantação do MDT
 
-Este artigo aborda uma abordagem de implantação que usa o Microsoft Deployment Toolkit (MDT). Você também pode aplicar essas informações a outras metodologias de implantação. Na maioria dos tipos de dispositivos Surface, o teclado deve funcionar durante a Instalação Lite Touch (LTI). No entanto, Surface Laptop requer alguns drivers adicionais para habilitar o teclado. Para dispositivos Surface Laptop (1ª Geração) e Surface Laptop 2, você deve preparar a estrutura de pastas e os perfis de seleção que permitem especificar drivers de teclado para uso durante a fase ambiente de pré-instalação do Windows (Windows PE) do LTI. Para obter mais informações sobre essa estrutura de pastas, consulte [Deploy a Windows 10 image using MDT: Step 5: Prepare the drivers repository](/windows/deployment/deploy-windows-mdt/deploy-a-windows-10-image-using-mdt?redirectedfrom=MSDN#step-5-prepare-the-drivers-repository).
+Este artigo aborda uma abordagem de implantação que usa o Microsoft Deployment Toolkit (MDT). Você também pode aplicar essas informações a outras metodologias de implantação. Na maioria dos tipos de dispositivos Surface, o teclado deve funcionar durante a Instalação Lite Touch (LTI). No entanto, Surface Laptop requer alguns drivers adicionais para habilitar o teclado. Para dispositivos Surface Laptop (1st Gen) e Surface Laptop 2, você deve preparar a estrutura de pastas e os perfis de seleção que permitem especificar drivers de teclado para uso durante a fase ambiente de pré-instalação do Windows (Windows PE) do LTI. Para obter mais informações sobre essa estrutura de pastas, consulte [Deploy a Windows 10 image using MDT: Step 5: Prepare the drivers repository](/windows/deployment/deploy-windows-mdt/deploy-a-windows-10-image-using-mdt?redirectedfrom=MSDN#step-5-prepare-the-drivers-repository).
 
 > [!TIP]
-> Ao usar drivers de teclado para Surface Laptop 2 e Surface Laptop 3 na mesma instância de inicialização Windows PE, talvez seja necessário redefinir manualmente o firmware se o teclado ou o touchpad não funcionarem no Windows PE:
+> Ao usar drivers de teclado para o Surface Laptop 2 e Surface Laptop 3 na mesma instância de inicialização Windows PE, talvez seja necessário redefinir manualmente o firmware se o teclado ou o touchpad não funcionarem no Windows PE:
 >
 > - Pressione e segure o botão Ligar por 30 segundos. Se você estiver conectado a uma unidade de alimentação (PSU), pressione e segure o botão Ligar até ver a luz no final do cabo PSU ser desligada brevemente antes de ligar novamente.
 
@@ -48,7 +50,7 @@ Este artigo aborda uma abordagem de implantação que usa o Microsoft Deployment
     - [Surface Laptop 3 com drivers e firmware do processador Intel](https://www.microsoft.com/download/details.aspx?id=100429)
     - [Surface Laptop 4 com drivers e firmware do processador Intel](https://www.microsoft.com/download/102924)
     - [Surface Laptop 4 com drivers e firmware do processador AMD](https://www.microsoft.com/download/102923)
-    - [Surface Laptop drivers e firmware do Studio](https://www.microsoft.com/download/details.aspx?id=103505)
+    - [Surface Laptop Drivers e Firmware do Studio](https://www.microsoft.com/download/details.aspx?id=103505)
     - [Surface Pro 8 drivers e firmware](https://www.microsoft.com/download/details.aspx?id=103503)
 
 2. Extraia o conteúdo do arquivo Surface Laptop .msi para uma pasta que você pode facilmente localizar (por exemplo, c:\surface_laptop_drivers). Para extrair o conteúdo, abra uma janela de Prompt de Comando elevada e execute o comando do exemplo a seguir:
@@ -79,7 +81,7 @@ Importe as pastas a seguir conforme apropriado para seu Surface Laptop dispositi
 | Surface Laptop (1ª Geração)              | SurfacePlatformInstaller\Drivers\System\GPIO<br>SurfacePlatformInstaller\Drivers\System\SurfaceHidMiniDriver<br>SurfacePlatformInstaller\Drivers\System\SurfaceSerialHubDriver<br>SurfacePlatformInstaller\Drivers\System\PreciseTouch                                                                                                                                                                                                                                                                                                                                         | Para arquivos mais .msi começando com "SurfaceUpdate", use:<br>SurfaceUpdate\SerialIOGPIO<br>SurfaceUpdate\SurfaceHidMiniDriver<br>SurfaceUpdate\SurfaceSerialHubDriver<br>SurfaceUpdate\Itouch                                                                                                                                                                                                                                                |
 
   > [!TIP]
-  > Verifique o pacote de .msi baixado para determinar o formato e a estrutura do diretório.  A estrutura de diretórios começará com o SurfacePlatformInstaller (arquivos .msi antigos) ou SurfaceUpdate (arquivos .msi mais novos), dependendo de quando o .msi foi lançado.
+  > Verifique o pacote de .msi baixado para determinar o formato e a estrutura do diretório.  A estrutura de diretório começará com o SurfacePlatformInstaller (arquivos .msi antigos) ou SurfaceUpdate (arquivos .msi mais novos), dependendo de quando o .msi foi lançado.
 
 ## <a name="verify-imported-drivers--configure-windows-pe-properties"></a>Verificar drivers importados & configurar Windows pe
 

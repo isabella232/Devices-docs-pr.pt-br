@@ -7,16 +7,16 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 03/23/2021
+ms.date: 02/15/2022
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 3bc5d7e26d565ca26ec23eefaee406c47eac395e
-ms.sourcegitcommit: 2493c83b1b3cb28b0836926cd406d4b28cd6abfa
+ms.openlocfilehash: 6963a51b492bfbdc09da5ec667d091d62eed4569
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "12094454"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449234"
 ---
 # <a name="operating-system-essentials-surface-hub"></a>Noções básicas do sistema operacional (Surface Hub)
 
@@ -24,7 +24,7 @@ O sistema operacional do Surface Hub, o Windows 10 Team, é baseado no Windows 1
 
 A partir de setembro de 2020, os clientes têm a opção de migrar para o Windows 10 Pro ou Enterprise no Surface Hub 2S. Para saber mais, consulte o seguinte:
 
-- [Anunciando a disponibilidade de Windows 10 Pro e Enterprise em Surface Hub 2](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/announcing-the-availability-of-windows-10-pro-and-enterprise-on/ba-p/1624107).
+- [Anunciando a disponibilidade de Windows 10 Pro e Enterprise no Surface Hub 2](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/announcing-the-availability-of-windows-10-pro-and-enterprise-on/ba-p/1624107).
 
 - [Migrar para o Windows 10 Pro ou para o Enterprise no Surface Hub 2](surface-hub-2s-migrate-os.md)
 
@@ -111,11 +111,11 @@ Para ajudar a preservar a natureza de aplicativo do dispositivo, o Surface Hub s
 
 ## <a name="security-and-lockdown"></a>Segurança e bloqueio
 
-Para o Surface Hub ser usado em espaços públicos, como salas de reunião, seu sistema operacional personalizado implementa vários dos recursos de segurança e de bloqueio disponíveis no Windows 10. Para saber mais, consulte [Surface Hub Visão Geral de Segurança](surface-hub-security.md)
+Para o Surface Hub ser usado em espaços públicos, como salas de reunião, seu sistema operacional personalizado implementa vários dos recursos de segurança e de bloqueio disponíveis no Windows 10. Para saber mais, confira [Surface Hub Visão Geral de Segurança](surface-hub-security.md)
 
 O Surface Hub implementa estes recursos de segurança do Windows 10:
 
-- [Inicialização segura](/windows-hardware/design/device-experiences/oem-secure-boot)
+- [Inicialização Segura](/windows-hardware/design/device-experiences/oem-secure-boot)
 - [Controle de Aplicativos do Windows Defender e proteção baseada em virtualização da integridade do código](/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
 - [Políticas de restrição de aplicativo usando o AppLocker](/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-overview)
 - [Criptografia de Unidade de Disco BitLocker](/windows/security/information-protection/bitlocker/bitlocker-overview)
@@ -147,11 +147,22 @@ As configurações do dispositivo podem ser configuradas por meio do aplicativo 
 
 ### <a name="administrative-features"></a>Recursos administrativos
 
-O Surface Hub não oferece suporte ao recursos administrativos no Windows 10 Enterprise, tais como o Console de Gerenciamento Microsoft, Executar, Prompt de Comando, PowerShell, Editor do Registro, Visualizador de Eventos e Gerenciador de Tarefas. O aplicativo Configurações contém todos os recursos administrativos disponíveis localmente no Surface Hub.
+Os recursos administrativos no Windows 10 Enterprise, como o Console de Gerenciamento da Microsoft, Executar, Prompt de Comando, PowerShell, Editor do Registro e Gerenciador de Tarefas não são suportados no Surface Hub. O aplicativo Configurações contém todos os recursos administrativos disponíveis localmente no Surface Hub.
+
+#### <a name="event-viewer"></a>Visualizador de eventos
+
+Windows 10 Team Atualização 2020 2 adiciona suporte para o Visualizador de Eventos do Windows, que é idêntico ao Visualizador de Eventos instalado no [](/host-integration-server/core/windows-event-viewer1) Windows 10 Pro ou Windows 10 Enterprise. 
+
+**Para abrir o visualizador de eventos:**
+
+1. Entre **no Configurações** app com credenciais de administrador.
+2. Selecione **Atualizar &** **SecurityLogs** >  e, em Visualizador de Eventos, selecione **Abrir**. 
+
+Para saber mais, consulte [Windows Visualizador de Eventos](/host-integration-server/core/windows-event-viewer1).
 
 ### <a name="remote-management-and-monitoring"></a>Gerenciamento remoto e monitoramento
 
-Surface Hub suporte ao gerenciamento remoto por meio de soluções [](/mem/intune/) de gerenciamento de dispositivo móvel (MDM), como Microsoft Intune e monitoramento por meio do [Azure Monitor](/azure/azure-monitor/). 
+Surface Hub suporte ao gerenciamento remoto por meio de soluções de gerenciamento de dispositivo móvel (MDM), como Microsoft Intune e monitoramento por meio do [Monitor do Azure](/azure/azure-monitor/).[](/mem/intune/) 
 
 *Políticas da organização que isso pode afetar:* 
 
@@ -181,7 +192,7 @@ O Surface Hub usa o ingresso em domínio e o ingresso no Azure AD principalmente
 
 *Políticas da organização que isso pode afetar:* 
 
-- As configurações de política de grupo não são aplicadas quando um Surface Hub é ingressado no seu domínio. As configurações de política relacionadas à associação ao domínio não se aplicam Surface Hub.
+- As configurações de política de grupo não são aplicadas quando um Surface Hub é ingressado no seu domínio. As configurações de política relacionadas à associação ao domínio não se aplicam a Surface Hub.
 
 ### <a name="accessing-domain-resources"></a>Acessando recursos do domínio
 

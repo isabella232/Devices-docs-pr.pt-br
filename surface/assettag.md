@@ -11,16 +11,19 @@ ms.topic: article
 ms.reviewer: carlol
 ms.date: 06/29/2021
 manager: laurawi
-ms.openlocfilehash: b130f6b0bf52dc1c3a28231a2330cae51a5ef44a
-ms.sourcegitcommit: d020d899e9c7e1eb0b85193ecb0a17a85bb39fe6
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 3b6525c979160d6f732e330086565c3de6f73cbd
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "11643827"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449144"
 ---
 # <a name="surface-asset-tag-tool"></a>Ferramenta de marca de ativos surface
 
-A Marca do Surface Asset é um utilitário cli (interface de linha de comando) que permite exibir, atribuir e modificar um valor de marca de ativo atribuído para dispositivos Surface. Ele funciona no Surface Pro 3 e em todos os dispositivos Surface mais novos.
+A Marca do Surface Asset é um utilitário cli (interface de linha de comando) que permite exibir, atribuir e modificar um valor de marca de ativo atribuído para dispositivos Surface. Ele funciona em Surface Pro 3 e em todos os dispositivos Surface mais novos.
 
 ## <a name="system-requirements"></a>Requisitos de sistema
 
@@ -32,7 +35,7 @@ A Marca do Surface Asset é um utilitário cli (interface de linha de comando) q
 
 Para executar a marca surface asset:
 
-1. No dispositivo Surface, baixe o **Surface Asset Tag.zip** do Centro de Download da [Microsoft,](https://www.microsoft.com/download/details.aspx?id=46703)extraia o arquivo zip e salve AssetTag.exe na pasta desejada (neste exemplo, C:\\assets).
+1. No dispositivo Surface, baixe o **Surface Asset Tag.zip** do Centro de Download da [Microsoft](https://www.microsoft.com/download/details.aspx?id=46703), extraia o arquivo zip e salve AssetTag.exe na pasta desejada (neste exemplo, C:\\assets).
 
     > [!NOTE]
     > Para Surface Pro X, use o aplicativo chamado **AssetTag_x86** no arquivo ZIP.
@@ -71,7 +74,7 @@ C:\assets\AssetTag.exe -s testassettag12
 
 ## <a name="managing-asset-tags"></a>Gerenciando marcas de ativos
 
-Você pode exibir a marca de ativo existente nas configurações UEFI em Informações do Dispositivo ( Painel de Controle > Recuperação >**Inicialização Avançada > Reiniciar agora**.)
+Você pode exibir a marca de ativo existente nas configurações UEFI em Informações do Dispositivo (Painel de Controle > **Recuperação > Inicialização Avançada > Reiniciar agora**.)
 
 A figura abaixo mostra os resultados da execução da Ferramenta de Marca de Ativo no Surface Go.
 
@@ -81,7 +84,7 @@ A figura abaixo mostra os resultados da execução da Ferramenta de Marca de Ati
 
 Como alternativa, você pode usar o WMI para consultar a marca de ativo existente em um dispositivo:
 
-(Get-WmiObject -query "Select * from Win32_SystemEnclosure")
+(Get-WmiObject -query "Selecionar * de Win32_SystemEnclosure")
 
 ### <a name="example"></a>Exemplo
 

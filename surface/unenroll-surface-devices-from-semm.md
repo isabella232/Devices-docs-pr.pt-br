@@ -13,12 +13,15 @@ ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
-ms.openlocfilehash: 8584ae4ade7d7a043438206230cb24d146b586cb
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 4942dd5ab187b7350e5093d8d189ad52536ef5bd
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911666"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448554"
 ---
 # <a name="unenroll-surface-devices-from-semm"></a>Cancelar o registro de dispositivos Surface no SEMM
 
@@ -27,7 +30,7 @@ Quando um dispositivo Surface é inscrito no Surface Enterprise Modo de Gerencia
 >[!WARNING]
 >Para desempacodar um dispositivo do SEMM e restaurar o controle do usuário das configurações uefi do Surface, você deve ter o certificado SEMM que foi usado para registrar o dispositivo no SEMM. Se esse certificado for perdido ou corrompido, não será possível desempacar do SEMM. Fazer o back-up e proteger seu certificado SEMM de acordo.
 
-Para obter mais informações sobre o SEMM, consulte [Microsoft Surface Enterprise Modo de Gerenciamento.](https://technet.microsoft.com/itpro/surface/surface-enterprise-management-mode)
+Para obter mais informações sobre o SEMM, consulte [Microsoft Surface Enterprise Modo de Gerenciamento](https://technet.microsoft.com/itpro/surface/surface-enterprise-management-mode).
 
 ## <a name="unenroll-a-surface-device-from-semm-with-a-surface-uefi-reset-package"></a>Desempacodar um dispositivo Surface do SEMM com um pacote de redefinição uefi do Surface
 
@@ -65,10 +68,10 @@ Para criar um pacote de redefinição uefi do Surface, siga estas etapas:
 
    *Figura 4. Use o número de série do dispositivo Surface para criar um pacote de redefinição uefi do Surface*
 
-7. Na caixa **de diálogo Salvar como,** especifique um nome para o pacote de redefinição uefi do Surface, navegue até o local onde você gostaria de salvar o arquivo e clique em **Salvar**.
+7. Na caixa **de diálogo Salvar como** , especifique um nome para o pacote de redefinição uefi do Surface, navegue até o local onde você gostaria de salvar o arquivo e clique em **Salvar**.
 8. Quando a geração do pacote é concluída, a página **Bem-sucedida** é exibida. Clique **em Fim** para concluir a criação do pacote e feche o Configurador UEFI do Microsoft Surface.
 
-Execute o pacote de redefinição do Surface UEFI Windows o arquivo instalador (.msi) no dispositivo Surface para desempacodar o dispositivo do SEMM. O pacote de redefinição exigirá uma reinicialização para executar a operação de desempaco. Depois que o dispositivo for desemrollado, você poderá verificar a remoção bem-sucedida garantindo que o item pacote de configuração do **Microsoft Surface** em Programas e Recursos **(mostrado** na Figura 5) não está mais presente.
+Execute o arquivo de pacote de redefinição do Surface UEFI Windows Installer (.msi) no dispositivo Surface para desempacodar o dispositivo do SEMM. O pacote de redefinição exigirá uma reinicialização para executar a operação de desempaco. Depois que o dispositivo for desemrollado, você poderá verificar a remoção bem-sucedida garantindo que o item pacote de configuração do **Microsoft Surface** em Programas e **Recursos (mostrado** na Figura 5) não está mais presente.
 
 ![A tela que mostra que o dispositivo está inscrito no SEMM.](images/surface-semm-unenroll-fig5.png "Screen that shows device is enrolled in SEMM")
 
@@ -84,23 +87,23 @@ Para iniciar uma Solicitação de Recuperação, siga estas etapas:
 
 1. Inicializar o dispositivo Surface que deve ser desempacodado do SEMM para o Surface UEFI.
 2. Digite a senha UEFI do Surface se for solicitado a fazer isso.
-3. Clique na **página Enterprise de gerenciamento,** conforme mostrado na Figura 6.
+3. Clique na **Enterprise de gerenciamento**, conforme mostrado na Figura 6.
 
-   ![Enterprise Página de gerenciamento.](images/surface-semm-unenroll-fig6.png "Enterprise Management page")
+   ![Enterprise página Gerenciamento.](images/surface-semm-unenroll-fig6.png "Enterprise Management page")
 
-   *Figura 6. A Enterprise de gerenciamento do Enterprise é exibida no Surface UEFI em dispositivos inscritos no SEMM*
+   *Figura 6. A Enterprise de gerenciamento de dados é exibida no Surface UEFI em dispositivos inscritos no SEMM*
 
 4. Clique ou pressione **Introdução**.
 5. Clique ou pressione **Next para** iniciar o processo de Solicitação de Recuperação.
    >[!NOTE]
    >Uma Solicitação de Recuperação expira duas horas após a criação. Se uma Solicitação de Recuperação não for concluída neste momento, você terá que reiniciar o processo de Solicitação de Recuperação.
-6. Selecione **Certificado SEMM** na lista de certificados exibidos na página Escolher uma chave de redefinição **do SEMM** (mostrada na Figura 7) e clique ou pressione **Next**.
+6. Selecione **Certificado SEMM** na lista de certificados exibidos na página Escolher uma chave de redefinição **semm** (mostrada na Figura 7) e clique ou pressione **Next**.
 
    ![Selecione Certificado SEMM para sua Solicitação de Recuperação.](images/surface-semm-unenroll-fig7.png "Select SEMM certificate for your Recovery Request")
 
    *Figura 7. Escolha Certificado SEMM para sua Solicitação de Recuperação (Solicitação de Redefinição)*
 
-7. Na página Inserir código de verificação de redefinição **** do **SEMM,** você pode clicar nos botões **Código QR** ou Texto para exibir sua Solicitação de Recuperação (Solicitação de Redefinição), conforme mostrado na Figura 8, ou o botão **USB** para salvar sua Solicitação de Recuperação (Solicitação de Redefinição) como um arquivo em uma unidade USB, conforme mostrado na Figura 9.
+7. Na página Inserir código de verificação de redefinição do **SEMM**, você pode clicar nos **** botões **Código QR** ou Texto para exibir sua Solicitação de Recuperação (Solicitação de Redefinição), conforme mostrado na Figura 8, ou o botão **USB** para salvar sua Solicitação de Recuperação (Solicitação de Redefinição) como um arquivo em uma unidade USB, conforme mostrado na Figura 9.
 
    ![Solicitação de Recuperação exibida como um código QR.](images/surface-semm-unenroll-fig8.png "Recovery Request displayed as a QR Code")
 
@@ -118,7 +121,7 @@ Para iniciar uma Solicitação de Recuperação, siga estas etapas:
     >[!NOTE]
     >O Microsoft Surface UEFI Configurator deve ser executado em um ambiente capaz de autenticar a cadeia de certificados do certificado SEMM.
 9. Clique em **Iniciar**.
-10. Clique **em Solicitação de**Recuperação , conforme mostrado na Figura 10.
+10. Clique **em Solicitação de** Recuperação, conforme mostrado na Figura 10.
 
     ![Inicie o processo para aprovar uma Solicitação de Recuperação.](images/surface-semm-unenroll-fig10.png "Start process to approve a Recovery Request")
 
@@ -141,7 +144,7 @@ Para iniciar uma Solicitação de Recuperação, siga estas etapas:
 
     * Se você exibiu a Solicitação de Recuperação (Solicitação de Redefinição) como texto no dispositivo Surface que está sendo redefinido, use o teclado para digitar a Solicitação de Recuperação (Solicitação de Redefinição) no campo fornecido.
     * Se você exibiu a Solicitação de Recuperação (Solicitação de Redefinição) como um Código QR e usou um aplicativo de mensagens ou email para enviar o código para o computador com o Configurador UEFI do Microsoft Surface, copie e colar o código no campo fornecido.
-    * Se você salvou a Solicitação de Recuperação (Solicitação **** de Redefinição) como um arquivo em uma unidade USB, clique no botão Importar, navegue até e selecione o arquivo Solicitação de Recuperação (Solicitação de Redefinição) e clique em **OK**.
+    * Se você salvou a Solicitação de Recuperação (Solicitação de Redefinição) como um arquivo em **** uma unidade USB, clique no botão Importar, navegue até e selecione o arquivo Solicitação de Recuperação (Solicitação de Redefinição) e clique em **OK**.
 
 16. O código de verificação de redefinição é exibido no Configurador UEFI do Microsoft Surface, conforme mostrado na Figura 13.
 

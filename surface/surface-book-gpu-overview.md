@@ -1,6 +1,6 @@
 ---
 title: Visão geral técnica da GPU do Surface Book 3
-description: Este artigo fornece uma avaliação técnica dos recursos de GPU entre Surface Book 3 modelos.
+description: Este artigo fornece uma avaliação técnica dos recursos de GPU em Surface Book 3 modelos.
 ms.prod: w10
 ms.mktglfcycl: manage
 ms.localizationpriority: medium
@@ -12,18 +12,21 @@ ms.date: 5/06/2020
 ms.reviewer: brrecord
 manager: laurawi
 audience: itpro
-ms.openlocfilehash: 31ce5192670b8c9051ba499273909fdf31c1062d
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 5e36cc8a31d9c6517f661c3d8b03c7f8858d5cae
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911956"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12448934"
 ---
 # <a name="surface-book-3-gpu-tech-overview"></a>Surface Book de tecnologia de GPU 3
 
 ## <a name="introduction"></a>Introdução
 
-Surface Book 3, o laptop Surface mais poderoso ainda lançado, integra recursos de computação e elementos gráficos totalmente modernizados ao seu fator de forma destacável.  Liderada pela GPU (10ª Geração) intel quad-core® Core™ i7 e NVIDIA® Quadro RTX™ 3000 unidade de processamento gráfico (GPU) no modelo de 15 polegadas, o Surface Book 3 vem em uma ampla variedade de configurações para consumidores, profissionais criativos, arquitetos, engenheiros e especialistas em dados. Este artigo explica as principais diferenças entre as configurações de GPU entre modelos de 13 e 15 polegadas de Surface Book 3.
+Surface Book 3, o laptop Surface mais poderoso ainda lançado, integra recursos de computação e elementos gráficos totalmente modernizados ao seu fator de forma destacável famoso.  Liderada pela GPU (unidade de processamento gráfica) quad-core 10th Gen Intel® Core™ i7 e NVIDIA® Quadro RTX™ 3000 no modelo de 15 polegadas, o Surface Book 3 vem em uma ampla variedade de configurações para consumidores, profissionais criativos, arquitetos, engenheiros e especialistas em dados. Este artigo explica as principais diferenças entre as configurações de GPU entre modelos de 13 e 15 polegadas de Surface Book 3.
 
 Um diferencial significativo entre Surface Book 3 é a configuração da GPU. Além da GPU intel integrada em todos os modelos, todos, menos o dispositivo Core i5 de nível de entrada de 13,5 polegadas também apresentam uma GPU NVIDIA discreta com Design Max-Q, que incorpora recursos que otimizam a eficiência de energia para fatores de forma móvel.
 
@@ -33,9 +36,9 @@ Integrado à base de teclado, a GPU NVIDIA adicional fornece recursos avançados
 
 Esta seção descreve as GPUs integradas e discretas entre Surface Book 3 modelos. Para obter detalhes de configuração de todos os modelos, consulte [Apêndice A: Surface Book 3 SKUs](#).
 
-### <a name="intel-iris-plus-graphics"></a>Intel Iris™ Mais Gráficos
+### <a name="intel-iris-plus-graphics"></a>Gráficos Intel Iris™ Plus
 
-A GPU integrada (iGPU) incluída em todos os modelos Surface Book 3 incorpora um mecanismo gráfico mais amplo e um controlador de memória redesenhado com suporte para LPDDR4X. Instalado como a GPU secundária na maioria dos Surface Book 3, o Intel Iris Plus Graphics funciona como a GPU singular no modelo principal i5, de 13,5 polegadas. Embora nominalmente o dispositivo de nível de entrada na linha Surface Book 3, ele oferece recursos gráficos avançados que permitem que os consumidores, entusiastas e criadores online executem o software de produtividade mais recente, como o Adobe Creative Cloud ou desfrutem de títulos de jogos no 1080p.  
+A GPU integrada (iGPU) incluída em todos os modelos Surface Book 3 incorpora um mecanismo gráfico mais amplo e um controlador de memória redesenhado com suporte para LPDDR4X. Instalada como a GPU secundária na maioria dos Surface Book 3, o Intel Iris Plus Graphics funciona como a GPU singular no modelo Core i5, de 13,5 polegadas. Embora nominalmente o dispositivo de nível de entrada na linha Surface Book 3, ele oferece recursos gráficos avançados permitindo que os consumidores, os amadores e criadores online executem o software de produtividade mais recente, como o Adobe Creative Cloud ou aproveitem títulos de jogos no 1080p.  
 
 ### <a name="nvidia-geforce-gtx-1650"></a>NVIDIA GeForce GTX 1650
 
@@ -45,22 +48,22 @@ O NVIDIA GeForce GTX 1650 com design Max-Q oferece uma atualização importante 
 
 Em comparação com o GeForce GTX 1650, o GeForce GTX 1660 Ti mais rápido fornece Surface Book 3 com melhorias de desempenho adicionais e inclui o codificador NVIDIA novo e atualizado, tornando-o melhor para consumidores, jogadores, streamers ao vivo e profissionais criativos.
 
-Graças a 6 GB de memória gráfica GDDR6, os modelos Surface Book 3 equipados com a TI NVIDIA GeForce GTX 1660 oferecem velocidades superiores em softwares avançados de produtividade comercial e jogos populares, especialmente ao executar os títulos mais modernos ou livestreaming. Com um SSD opcional de 2 TB (disponível somente nos EUA), o modelo de 15 polegadas com GeForce GTX 1660 Ti oferece a maior parte do armazenamento de qualquer dispositivo Surface Book 3.
+Graças a 6 GB de memória gráfica GDDR6, os modelos Surface Book 3 equipados com a TI NVIDIA GeForce GTX 1660 oferecem velocidades superiores em softwares de produtividade de negócios avançados e jogos populares, especialmente ao executar os títulos mais modernos ou streaming ao vivo. Com um SSD opcional de 2 TB (disponível apenas nos EUA), o modelo de 15 polegadas com GeForce GTX 1660 Ti oferece a maior parte do armazenamento de qualquer dispositivo Surface Book 3.
 
 ### <a name="nvidia-quadro-rtx-3000"></a>NVIDIA Quadro RTX 3000
 
-O NVIDIA Quadro RTX 3000 desbloqueia vários recursos principais para usuários profissionais: renderização de rastreamento de raios e aceleração de IA e gráficos avançados e desempenho de computação. Uma combinação de 30 núcleos RT, 240 núcleos tensores e 6 GB de memória gráfica GDDR6 permite várias cargas de trabalho avançadas, incluindo fluxos de trabalho com Al, criação de conteúdo 3D, edição de vídeo avançada, transmissão profissional e fluxos de trabalho de vários aplicativos. Enterprise suporte a hardware e software de nível integram ferramentas de implantação para maximizar o tempo de atividade e minimizar os requisitos de suporte a IT. Certificados para o software mais avançado do mundo, os drivers quadro são otimizados para aplicativos profissionais e são ajustados, testados e validados para fornecer certificação de aplicativos, estabilidade de nível empresarial, confiabilidade, disponibilidade e suporte com disponibilidade estendida do produto.
+O NVIDIA Quadro RTX 3000 desbloqueia vários recursos principais para usuários profissionais: renderização de rastreamento de raios e aceleração de IA e gráficos avançados e desempenho de computação. Uma combinação de 30 núcleos RT, 240 núcleos tensores e 6 GB de memória gráfica GDDR6 permite várias cargas de trabalho avançadas, incluindo fluxos de trabalho com Al, criação de conteúdo 3D, edição de vídeo avançada, transmissão profissional e fluxos de trabalho de vários aplicativos. Enterprise suporte a software e hardware de nível integrado integram ferramentas de implantação para maximizar o tempo de atividade e minimizar os requisitos de suporte a IT. Certificados para o software mais avançado do mundo, os drivers quadro são otimizados para aplicativos profissionais e são ajustados, testados e validados para fornecer certificação de aplicativos, estabilidade no nível empresarial, confiabilidade, disponibilidade e suporte com disponibilidade estendida do produto.
  
 
 ## <a name="comparing-gpus-across-surface-book-3"></a>Comparando GPUs entre Surface Book 3
 
-As GPUs NVIDIA oferecem aos usuários um ótimo desempenho para jogos, livestreaming e criação de conteúdo. Os produtos GeForce GTX são ótimos para jogadores e criadores de conteúdo. Os produtos Quadro RTX são voltados para usuários profissionais, oferecem excelente desempenho na criação de conteúdo e jogos e também adicionam os seguintes recursos:
+As GPUs NVIDIA fornecem aos usuários um ótimo desempenho para jogos, streaming ao vivo e criação de conteúdo. Os produtos GeForce GTX são ótimos para jogadores e criadores de conteúdo. Os produtos Quadro RTX são voltados para usuários profissionais, oferecem excelente desempenho na criação de conteúdo e jogos e também adicionam os seguintes recursos:
 
-- Aceleração RTX para rastreamento de raios e AI. Isso possibilita renderizar a qualidade do filme, objetos fotorealistas e ambientes com sombras, reflexos e refração fisicamente precisos.  E seus recursos de IA acelerados por hardware significa que os recursos avançados baseados em IA em aplicativos populares podem ser executados mais rápido do que nunca.
-- Enterprise hardware, drivers e suporte em nível de nível, bem como certificações de aplicativos ISV.
-- Recursos de gerenciamento de IT, incluindo uma camada adicional de ferramentas corporativas dedicadas para gerenciamento remoto, que ajudam a maximizar o tempo de atividade e minimizar os requisitos de suporte de IT.
+- Aceleração RTX para rastreamento de raios e AI. Isso possibilita renderizar a qualidade do filme, objetos fotorealistas e ambientes com sombras, reflexos e refração fisicamente precisos.  E seus recursos de IA acelerados por hardware significam que os recursos avançados baseados em IA em aplicativos populares podem ser executados mais rápido do que nunca.
+- Enterprise hardware, drivers e suporte de nível de nível, bem como certificações de aplicativos ISV.
+- Os recursos de gerenciamento de IT incluem uma camada adicional de ferramentas corporativas dedicadas para gerenciamento remoto que ajudam a maximizar o tempo de atividade e minimizar os requisitos de suporte a IT.
 
- A menos que você se conte entre as classificações de profissionais avançados de engenharia, design, arquitetura ou ciência de dados, Surface Book 3 equipados com recursos gráficos do NVIDIA GeForce provavelmente atenderão às suas necessidades. Por outro lado, se você já estiver em uma profissão que exige recursos gráficos altamente avançados em um fator de formulário portátil que permite que você trabalhe de qualquer lugar, o Surface Book 3 com Quadro RTX 3000 merece uma consideração séria. Para saber mais, consulte a visão geral técnica Surface Book 3 Quadro RTX 3000.
+ A menos que você se conte entre as classificações de profissionais avançados de engenharia, design, arquitetura ou ciência de dados, Surface Book 3 equipados com recursos gráficos do NVIDIA GeForce provavelmente atenderão às suas necessidades. Por outro lado, se você já estiver em uma profissão que exija recursos gráficos altamente avançados em um fator de formulário portátil que permite que você trabalhe de qualquer lugar, o Surface Book 3 com Quadro RTX 3000 merece uma consideração séria. Para saber mais, consulte a visão geral técnica Surface Book 3 Quadro RTX 3000.
  
 **Tabela 1. GPUs discretos Surface Book 3**
 
@@ -88,8 +91,8 @@ As GPUs NVIDIA oferecem aos usuários um ótimo desempenho para jogos, livestrea
 | **Rastreamento de raios em tempo real**                                | Não                   | Não                      | Sim                 |
 | **Aceleração de hardware de IA**                             | Não                   | Não                      | Sim                 |
 | **Codificador de hardware**                                     | Sim                  | Sim                     | Sim                 |
-| **Driver pronto para jogo (GRD)**                              | Sim <sup> 1</sup>                                   | Sim  <sup> 1</sup>          |Sim <sup> 2</sup> 
-| **Driver do Studio (SD)**                                   | Sim  <sup> 1</sup>            | Sim <sup> 1</sup>                 | Sim  <sup> 1</sup>           |
+| **Driver pronto para jogo (GRD)**                              | Sim <sup>1</sup>                                   | Sim  <sup>1</sup>          |Sim <sup>2</sup> 
+| **Driver do Studio (SD)**                                   | Sim  <sup>1</sup>            | Sim1<sup></sup>                 | Sim  <sup>1</sup>           |
 | **Driver ideal para Enterprise (ODE)**                  | Não                   | Não                      | Sim            |
 | **Quadro New Feature Driver (QNF)**                      | Não                   | Não                      | Sim            |
 | **API do Microsoft DirectX 12, API de Vulkan, Open GL 4.6**    | Sim                  | Sim                     | Sim                 |
@@ -100,9 +103,9 @@ As GPUs NVIDIA oferecem aos usuários um ótimo desempenho para jogos, livestrea
  1. *Recomendações*
  2.  *Com suporte*
 
-## <a name="optimizing-power-and-performance-on-surface-book-3"></a>Otimizando a energia e o desempenho no Surface Book 3
+## <a name="optimizing-power-and-performance-on-surface-book-3"></a>Otimizando a energia e o desempenho Surface Book 3
 
-Windows 10 inclui um modo de Economia de Bateria com um controle deslizante de desempenho que permite maximizar o desempenho do aplicativo (deslizando-o para a direita) ou preservando a vida útil da bateria (deslizando-a para a esquerda). Surface Book 3 implementa essa funcionalidade em algoritmos para otimizar a energia e o desempenho nos seguintes componentes:
+Os dispositivos Surface podem ajustar as configurações de energia relacionadas ao desempenho alterando Windows posição do controle deslizante de energia de desempenho no Windows 10, também conhecido como modo de energia no Windows 11. Surface Book 3 implementa essa funcionalidade de forma algoritmos para otimizar a energia e o desempenho nos seguintes componentes:
 
 - Registros de Eficiência de Energia da CPU (tecnologia Intel Speed Shift) e outros parâmetros de ajuste soC para maximizar a eficiência.
 - Rpm máxima do fan com quatro modos: silencioso, nominal, desempenho e máx.
@@ -123,29 +126,29 @@ Novo no Surface Book 3, os aplicativos habilitados para Cofre Desconectar permit
 
 ### <a name="modifying-app-settings-to-always-use-a-specific-gpu"></a>Modificando configurações de aplicativo para sempre usar uma GPU específica
 
-Você pode alternar entre os elementos gráficos Intel de economia de energia, mas ainda capazes, e a GPU NVIDIA discreta mais poderosa e associar uma GPU a um aplicativo específico. Por padrão, Windows 10 escolhe automaticamente a GPU apropriada, atribuindo aplicativos graficamente exigentes à GPU NVIDIA discreta. Na maioria das instâncias, não é necessário ajustar manualmente essas configurações. No entanto, se você desconectar e reattar com frequência a exibição da base de teclado ao usar um aplicativo graficamente exigente, você geralmente precisará fechar o aplicativo antes de desconectar. Para habilitar o uso contínuo do aplicativo sem precisar fechar sempre que você desconectar ou reaconectar a exibição, você pode atribuí-lo à GPU integrada, embora com alguma perda de desempenho gráfico.  
+Você pode alternar entre os elementos gráficos Intel de economia de energia, mas ainda capazes, e a GPU NVIDIA discreta mais poderosa e associar uma GPU a um aplicativo específico. Por padrão, Windows 10 e Windows 11 escolhem automaticamente a GPU apropriada, atribuindo aplicativos graficamente exigentes à GPU NVIDIA discreta. Na maioria das instâncias, você não precisa ajustar manualmente essas configurações. No entanto, se você desconectar e reattar com frequência a exibição da base de teclado ao usar um aplicativo graficamente exigente, você geralmente precisará fechar o aplicativo antes de desconectar. Para habilitar o uso contínuo do aplicativo sem precisar fechar sempre que você desconectar ou reaconectar a exibição, você pode atribuí-lo à GPU integrada, embora com alguma perda de desempenho gráfico.  
 
-Em algumas instâncias, Windows 10 pode atribuir um aplicativo graficamente exigente para ser iGPU; por exemplo, se o aplicativo não estiver totalmente otimizado para gráficos híbridos. Para corrigir isso, você pode atribuir manualmente o aplicativo à GPU NVIDIA discreta.
+Em alguns casos, o sistema operacional pode atribuir um aplicativo graficamente exigente para ser iGPU; por exemplo, se o aplicativo não estiver totalmente otimizado para gráficos híbridos. Para corrigir isso, você pode atribuir manualmente o aplicativo à GPU NVIDIA discreta.
 
 **Para configurar aplicativos usando opções personalizadas por GPU:**  
 
-1. Vá para **Configurações**  >  **System**  >  **Display e** selecione **Gráficos Configurações**.
+1. Vá para **Configurações** >  **SystemDisplay****** >  e selecione **Gráficos Configurações**.
 
-    1. Para um Windows de área de trabalho, escolha **Procurar aplicativo**  >  **clássico** e localize o programa.
+    1. Para um Windows de área de trabalho, escolha **AppBrowse** **** >  Clássico e localize o programa.
     2. Para um aplicativo UWP, escolha **Aplicativo Universal** e selecione o aplicativo na listada.
 
 2. Selecione **Adicionar** para criar uma nova entrada na lista do programa selecionado, selecione Opções para abrir Especificações gráficas e selecione a opção desejada.
 
    ![Selecione opções de GPU de economia de energia ou de alto desempenho.](./images/graphics-settings2.png)
 
-3. Para verificar qual GPU é usada para cada aplicativo, abra o Gerenciador de **Tarefas,** selecione **Desempenho** e ex view the **GPU Engine** column.
+3. Para verificar qual GPU é usada para cada aplicativo, abra **o Gerenciador** de Tarefas, selecione **Desempenho** e ex view the **GPU Engine** column.
 
 
 ## <a name="appendix-a-surface-book-3-skus"></a>Apêndice A: Surface Book 3 SKUs
 
 | **Display**   | **Processor**                     | **GPU**                                                                                              | **RAM**    | **Storage** |
 | ------------- | --------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------- | ----------- |
-| **13,5 polegadas** | Quad-core 10th Gen Core i5-1035G7 | Intel Iris™ Mais Gráficos                                                                            | 16 LPDDR4x | 256 GB      |
+| **13,5 polegadas** | Quad-core 10th Gen Core i5-1035G7 | Gráficos Intel Iris™ Plus                                                                            | 16 LPDDR4x | 256 GB      |
 | **13,5 polegadas** | Quad-core 10th Gen Core i7-1065G7 | Gráficos Intel Iris Plus<br>NVIDIA GeForce GTX 1650. Design Max-Q com memória gráfica GDDR5 de 4 GB    | 16 LPDDR4x | 256 GB      |
 | **13,5 polegadas** | Quad-core 10th Gen Core i7-1065G7 | Gráficos Intel Iris Plus<br>NVIDIA GeForce GTX 1650. Design Max-Q com memória gráfica GDDR5 de 4 GB    | 32 LPDDR4x | 512 GB      |
 | **13,5 polegadas** | Quad-core 10th Gen Core i7-1065G7 | Gráficos Intel Iris Plus<br>NVIDIA GeForce GTX 1650. Design Max-Q com memória gráfica GDDR5 de 4 GB    | 32 LPDDR4x | 1 TB        |
@@ -161,7 +164,7 @@ Em algumas instâncias, Windows 10 pode atribuir um aplicativo graficamente exig
 
 ## <a name="summary"></a>Resumo
 
-Criado para desempenho, Surface Book 3 inclui configurações de GPU diferentes otimizadas para atender a carga de trabalho específica e usar requisitos. Uma GPU gráfica Intel Iris integrada funciona como a GPU exclusiva no dispositivo Core i5 de nível de entrada e como uma GPU secundária em todos os outros modelos. O GeForce GTX 1650 apresenta uma atualização importante do principal multiprocessador de streaming para executar gráficos complexos de forma mais eficiente. Quanto mais rápido o GeForce GTX 1660 Ti oferece Surface Book 3 com melhorias de desempenho adicionais, melhorando-o para consumidores, jogadores, streamers ao vivo e profissionais criativos. Quadro RTX 3000 desbloqueia vários recursos principais para usuários profissionais: renderização de rastreamento de raios e aceleração de IA e gráficos avançados e desempenho de computação.
+Criado para desempenho, Surface Book 3 inclui configurações de GPU diferentes otimizadas para atender a requisitos específicos de carga de trabalho e uso. Uma GPU gráfica Intel Iris integrada funciona como a GPU exclusiva no dispositivo Core i5 de nível de entrada e como uma GPU secundária em todos os outros modelos. O GeForce GTX 1650 apresenta uma atualização importante do principal multiprocessador de streaming para executar gráficos complexos de forma mais eficiente. Quanto mais rápido o GeForce GTX 1660 Ti fornece Surface Book 3 com melhorias de desempenho adicionais, melhorando a qualidade para consumidores, jogadores, streamers ao vivo e profissionais criativos. Quadro RTX 3000 desbloqueia vários recursos principais para usuários profissionais: renderização de rastreamento de raios e aceleração de IA e gráficos avançados e desempenho de computação.
 
 
 ## <a name="learn-more"></a>Saiba mais

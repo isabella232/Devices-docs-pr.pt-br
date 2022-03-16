@@ -12,12 +12,15 @@ manager: laurawi
 ms.localizationpriority: medium
 ms.audience: itpro
 ms.date: 7/31/2020
-ms.openlocfilehash: 7d09bc70a2e0c882bde9106ee2c241568c1fc991
-ms.sourcegitcommit: 94e11386d7034c6bc5fe753f7bebf61a9c815509
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 811fc2875e6865c5160594b36c5166457b678ebb
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "12154126"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449434"
 ---
 # <a name="use-surface-diagnostic-toolkit-for-business-in-desktop-mode"></a>Usar o Kit de Ferramentas de Diagnóstico Surface para Empresas no modo de área de trabalho
 
@@ -38,7 +41,7 @@ A execução com êxito do SDT pode determinar rapidamente se um problema relata
     ![Selecione entre as opções do SDT.](images/sdt1.png)<br/>
     *Figura 2. Selecione entre opções do SDT*
 
-4. Você pode optar por executar todos os testes de diagnóstico. Ou, se você já suspeitar de um problema específico, como **** uma exibição com falha ou um problema de fonte de alimentação, clique em Selecionar para escolher entre os testes disponíveis e clique em Executar Selecionado **,** conforme mostrado na figura 3. Consulte a tabela a seguir para obter detalhes de cada teste. 
+4. Você pode optar por executar todos os testes de diagnóstico. Ou, se você já suspeitar de um problema **específico, como** uma exibição com falha ou um problema de fonte **** de alimentação, clique em Selecionar para escolher entre os testes disponíveis e clique em Executar Selecionado, conforme mostrado na figura 3. Consulte a tabela a seguir para obter detalhes de cada teste. 
 
     ![Selecione testes de hardware.](images/sdt2.png)<br/>
     *Figura 3. Selecionar testes de hardware*
@@ -49,7 +52,7 @@ A execução com êxito do SDT pode determinar rapidamente se um problema relata
     Exibição e som   | Verifica o brilho, pixels travados ou mortos, alto-falante e funcionamento do microfone
     Portas e Acessórios   | Verifica acessórios, anexação de tela e funcionamento USB
     Connectivity |  Verifica Bluetooth conectividade sem fio e LTE
-    Security    | Verifica problemas relacionados à segurança
+    Segurança    | Verifica problemas relacionados à segurança
     Touch   | Verifica problemas relacionados ao toque
     Teclado e toque |    Verifica a conexão integrada do teclado e a capa de tipo
     Sensores | Verifica o funcionamento de sensores diferentes no dispositivo
@@ -73,11 +76,11 @@ O SDT foi projetado como uma ferramenta interativa que executa uma série de tes
 
 Para cada teste, se a funcionalidade não funcionar conforme o esperado e o usuário clicar em **Não**, o SDT gerará um relatório das possíveis causas e maneiras de solucione-lo. 
 
-![Executando diagnósticos de hardware. ](images/sdt-desk-4.png)
+![Executando diagnósticos de hardware.](images/sdt-desk-4.png)
  *Figura 4. Executando diagnósticos de hardware*
 
-1. Se o brilho for ajustado com êxito de 0 a 100 por cento conforme esperado, direcionará o usuário para clicar em **Sim** e clique em **Continuar**. 
-2. Se o brilho falhar ao ajustar de 0 a 100 por cento conforme o esperado, direcionará o usuário para clicar em **Não** e clique em **Continuar**. 
+1. Se o brilho for ajustado com êxito de 0 a 100%, conforme esperado, direcionará o usuário para clicar em **Sim** e clique em **Continuar**. 
+2. Se o brilho falhar ao ajustar de 0 a 100%, conforme esperado, direcionará o usuário para clicar em **Não** e clique em **Continuar**. 
 3. Orientar os usuários por meio de testes restantes conforme apropriado. Quando concluído, o SDT fornece automaticamente um resumo de alto nível do relatório, incluindo as possíveis causas de quaisquer problemas de hardware, juntamente com orientações para resolução.
 
 
@@ -85,7 +88,7 @@ Para cada teste, se a funcionalidade não funcionar conforme o esperado e o usu�
 
 O SDT permite diagnosticar e reparar aplicativos que podem estar causando problemas, conforme mostrado na figura 5.
 
-![Executando reparos. ](images/sdt-desk-5.png)
+![Executando reparos.](images/sdt-desk-5.png)
  *Figura 5. Executando reparos*
 <span id="logs" />
 
@@ -93,7 +96,7 @@ O SDT permite diagnosticar e reparar aplicativos que podem estar causando proble
 
 O SDT oferece suporte extensivo ao diagnóstico habilitado para log em aplicativos, drivers, hardware e problemas do sistema operacional, conforme mostrado na figura 6.
 
-![Gerando logs. ](images/sdt-desk-6.png)
+![Gerando logs.](images/sdt-desk-6.png)
  *Figura 6. Gerar logs*
 
 <span id="detailed-report" />

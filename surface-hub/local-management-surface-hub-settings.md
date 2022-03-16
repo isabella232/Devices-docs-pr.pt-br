@@ -11,12 +11,12 @@ ms.date: 07/08/2019
 ms.reviewer: ''
 manager: laurawi
 ms.localizationpriority: medium
-ms.openlocfilehash: 92b60fb0f0ac83c2516ebb1ebde0748d9d933c4e
-ms.sourcegitcommit: 21fcd329a7b0c82c69e2a65c423d47c5b23b4e7f
+ms.openlocfilehash: ff70b7033e83804f178d35e22935011936ba2d14
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "11882998"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449114"
 ---
 # <a name="local-management-for-surface-hub-settings"></a>Gerenciamento local para configurações do Surface Hub
 
@@ -55,7 +55,8 @@ Os Surface Hubs têm muitas configurações que são comuns a outros dispositivo
 | Horas de manutenção | Atualizações e segurança > Windows Update > Opções avançadas | Configure quando as atualizações podem ser instaladas. |
 | Recuperar da nuvem | Atualização e segurança > Recuperação | Reinstale o sistema operacional no Surface Hub para um build do fabricante da nuvem. |
 | Salve a chave do BitLocker | Atualização e segurança > Recuperação | Faça backup da chave do BitLocker do Surface Hub em uma unidade USB. |
-| Coletar registros | Atualização e segurança > Recuperação | Salve os logs em uma unidade USB para enviar à Microsoft posteriormente. | 
+| Coletar registros | Atualizar & de segurança > Logs | Salve os logs em uma unidade USB para enviar à Microsoft posteriormente. | 
+| Visualizador de eventos | Atualizar & de segurança > Logs | Iniciar Windows Visualizador de Eventos para ver eventos que aconteceram no Surface Hub. | 
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

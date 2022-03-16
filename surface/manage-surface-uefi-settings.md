@@ -13,12 +13,15 @@ ms.topic: article
 ms.reviewer: hachidan
 manager: laurawi
 ms.date: 01/18/2022
-ms.openlocfilehash: 94e39a67ef80e4e95db3441778af915d2e535bab
-ms.sourcegitcommit: e7d95d583429169eb65aae9034eab2347b1f04a0
+appliesto:
+- Windows 10
+- Windows 11
+ms.openlocfilehash: 7da3a2908acc654abd86406af36eba4929bf4760
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "12338154"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449654"
 ---
 # <a name="manage-surface-uefi-settings"></a>Gerenciar configurações de UEFI do Surface
 
@@ -36,12 +39,12 @@ O gerenciamento UEFI tem suporte no seguinte:
 - Surface Go, Surface Go [21<sup></sup>](#references), Surface Go 3 (somente SKUs comerciais)
 
 >[!TIP]
-> Os SKUs comerciais (também conhecidos como Surface for Business) são executados Windows 10 Pro/Enterprise ou Windows 11 Pro/Enterprise; os SKUs do consumidor são executados Windows 10/Windows 11 Home. Para saber mais, confira [Exibir as informações do sistema](https://support.microsoft.com/windows/view-your-system-info-a965a8f2-0773-1d65-472a-1e747c9ebe00). 
+> As SKUs comerciais (também conhecidas como Surface for Business) são executados Windows 10 Pro/Enterprise ou Windows 11 Pro/Enterprise; os SKUs do consumidor são executados Windows 10/Windows 11 Home. Para saber mais, confira [Exibir as informações do sistema](https://support.microsoft.com/windows/view-your-system-info-a965a8f2-0773-1d65-472a-1e747c9ebe00). 
 
 
 ## <a name="support-for-cloud-based-management"></a>Suporte para gerenciamento baseado em nuvem
 
-Com perfis DFCI (Interface de Configuração de Firmware de Dispositivo) integrados Microsoft Intune (agora disponíveis na visualização pública), o gerenciamento uefi do Surface estende a pilha de gerenciamento moderna até o nível de hardware UEFI. O DFCI dá suporte ao provisionamento de toque zero, elimina senhas de BIOS, fornece controle de configurações de segurança, incluindo opções de inicialização e periféricos integrados, e estabelece as bases para cenários avançados de segurança no futuro. O DFCI está disponível para DFCI no momento para Surface Laptop ES, Surface Laptop Studio, Surface Pro 8, Surface Go 3, Surface Laptop 4, Surface Laptop Go, Surface Book 3, Surface Laptop 3, Surface Pro 7+, Surface Pro 7 e Surface Pro X.   Para obter mais informações, consulte [Intune management of Surface UEFI settings](surface-manage-dfci-guide.md).
+Com perfis DFCI (Interface de Configuração de Firmware de Dispositivo) integrados ao Microsoft Intune (agora disponível na visualização pública), o gerenciamento uefi do Surface estende a pilha de gerenciamento moderna até o nível de hardware UEFI. O DFCI dá suporte ao provisionamento de toque zero, elimina senhas de BIOS, fornece controle de configurações de segurança, incluindo opções de inicialização e periféricos integrados, e estabelece as bases para cenários avançados de segurança no futuro. O DFCI está disponível atualmente para Surface Laptop ES, Surface Laptop Studio, Surface Pro 8, Surface Go 3, Surface Laptop 4, Surface Laptop Go, Surface Book 3, Surface Laptop 3, Surface Pro 7+, Surface Pro 7 e Surface Pro X.   Para obter mais informações, consulte [Intune management of Surface UEFI settings](surface-manage-dfci-guide.md).
 
 ## <a name="open-surface-uefi-menu"></a>Menu Abrir UEFI do Surface
 
@@ -93,7 +96,7 @@ A página Segurança permite definir uma senha para proteger as configurações 
 
 - Números: 1-0
 
-- Caracteres especiais: !@#$%^&*()?<>{}[]-_=+|.,;''"
+- Caracteres especiais: !@#$%^&*()?<>{}[]-_=+|.,;:'"
 
 A senha deve ter pelo menos seis caracteres e é sensível a minúsculas.
 
