@@ -2,15 +2,20 @@
 title: Histórico de atualizações do Surface Hub
 description: Histórico de atualizações do Surface Hub
 ms.assetid: d66a9392-2b14-4cb2-95c3-92db0ae2de34
-keywords: null
+keywords: ''
 ms.prod: surface-hub
 ms.sitesec: library
 author: v-miegge
 ms.author: dpandre
 ms.topic: article
 ms.localizationpriority: high
+ms.openlocfilehash: a5556181b6d7642933bcb10c3073ffddc494015f
+ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "12449124"
 ---
-
 # <a name="surface-hub-update-history"></a>Histórico de atualizações do Surface Hub
 
 O Windows 10 foi projetado para ser um serviço, o que significa que ele melhora automaticamente por meio de atualizações periódicas de software. A ótima notícia é que você geralmente não precisa fazer nada para obter as atualizações mais recentes Windows 10— elas baixarão e instalarão sempre que estiverem disponíveis.
@@ -26,6 +31,19 @@ Consulte a página "[Informações importantes do Surface Hub](https://support.m
 ## <a name="windows-10-team-2020-update-20h2"></a>Atualização do Windows 10 Team 2020 (20H2)
 
 <details>
+<summary>Atualização de 15 de fevereiro de 2022 — para a Equipe com base no KB5010415* (Build do sistema operacional 19042.1566)</summary>
+
+ Essa atualização para o Surface Hub inclui melhorias de qualidade e correções de segurança. As principais atualizações do Surface Hub são descritas no [Windows 10 Team 2020 Update 2](surface-hub-2020-update-whats-new.md#windows-10-team-2020-update-2) e também incluem o seguinte:
+
+* Correção que permite que os serviços do Exchange sejam desabilitados durante a configuração da Conta de Dispositivo.
+* Melhora a confiabilidade de alguns cenários de instalação da Conta de Dispositivo ao usar uma caixa de correio local do Exchange.
+* Melhora a confiabilidade para alguns cenários de configuração de política de MDM ao usar o CSP do SurfaceHub.
+* Melhora a confiabilidade para cenários de chamada de entrada ao usar o Skype for Business.
+
+Consulte o [guia de administração do Surface Hub](/surface-hub/) para habilitar/desabilitar recursos e serviços do dispositivo. *[KB5010415](https://support.microsoft.com/help/5010415)
+</details>
+
+<details>
 <summary>25 de janeiro de 2022 — atualização para Team com base no KB5009596* (Build 19042.1503 do sistema operacional)</summary>
 
 Essa atualização para o Surface Hub inclui melhorias de qualidade e correções de segurança. As principais atualizações Surface Hub, ainda não descritas [no histórico de atualização do Windows 10](https://support.microsoft.com/help/4581839/windows-10-update-history), incluem:
@@ -39,7 +57,18 @@ Consulte o [guia de administração do Surface Hub](/surface-hub/) para habilita
 </details>
 
 <details>
-<summary>22 de novembro de 2021 — atualização para Team com base em KB5007253* (Build 19042.1382 do sistema operacional)</summary>
+<summary>21 de janeiro de 2022 — atualização para o Surface Hub 2S</summary>
+
+Essa atualização é específica do Surface Hub 2S e fornece as atualizações de driver e firmware descritas abaixo:
+
+* Atualização UEFI do Surface - 694.3924.768.0
+  * Melhora a segurança e a estabilidade do sistema.
+* Driver da Interface do Mecanismo de Gerenciamento Intel(R) - 2120.100.0.1085
+  * Melhora a segurança e a estabilidade do sistema.
+</details>
+
+<details>
+<summary>22 de novembro de 2021 — atualização para Team com base em KB5007253* (Build 19042.1387 do sistema operacional)</summary>
 
 Essa atualização para o Surface Hub inclui melhorias de qualidade e correções de segurança. As principais atualizações Surface Hub, ainda não descritas [no histórico de atualização do Windows 10](https://support.microsoft.com/help/4581839/windows-10-update-history), incluem:
 
@@ -71,7 +100,7 @@ Consulte o [guia de administração do Surface Hub](/surface-hub/) para habilita
 <details>
 <summary>1º de setembro de 2021 — atualização para Team com base em KB5005101* (Build 19042.1202 do sistema operacional)</summary>
 
-Essa atualização para o Surface Hub inclui melhorias de qualidade e correções de segurança. As principais atualizações Surface Hub são descritas [na atualização 1 de 2020 do Windows 10 Team](https://techcommunity.microsoft.com/t5/surface-it-pro-blog/windows-10-team-2020-update-1-released-to-all-surface-hubs/ba-p/2653503) e também incluem o abaixo:
+Essa atualização para o Surface Hub inclui melhorias de qualidade e correções de segurança. As principais atualizações Surface Hub são descritas [na atualização 1 de 2020 do Windows 10 Team](surface-hub-2020-update-whats-new.md#windows-10-team-2020-update-1) e também incluem o seguinte:
 
 * Melhora a confiabilidade de alguns cenários de instalação da Conta de Dispositivo ao usar uma caixa de correio local do Exchange.
 
