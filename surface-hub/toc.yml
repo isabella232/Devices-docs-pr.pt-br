@@ -19,6 +19,8 @@
           href: 'https://support.office.com/article/use-microsoft-whiteboard-on-a-surface-hub-5c594985-129d-43f9-ace5-7dee96f7621d'
         - name: Regulamento Geral sobre a Proteção de Dados e Surface Hub
           href: general-data-privacy-regulation-and-surface-hub.md
+        - name: Instalar e gerenciar Surface Hub 2 Smart Camera
+          href: surface-hub-2-smart-camera.md
     - name: Planeje
       items:
         - name: Guia de preparação do local do Surface Hub 2S
@@ -61,6 +63,8 @@
               href: apply-activesync-policies-for-surface-hub-device-accounts.md
         - name: Criar os pacotes de provisionamento para Surface Hub
           href: provisioning-packages-for-surface-hub.md
+        - name: Instalar Apps Web Progressivos no Surface Hub
+          href: install-pwa-surface-hub.md
         - name: Windows 10 Pro/Enterprise
           items:
             - name: Migrar para o Windows 10 Pro ou para o Enterprise no Surface Hub 2
