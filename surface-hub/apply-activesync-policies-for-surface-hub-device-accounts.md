@@ -15,21 +15,20 @@ ms.localizationpriority: medium
 appliesto:
 - Surface Hub
 - Surface Hub 2S
-ms.openlocfilehash: 7ead08e49d3eee2d616ac9fcf06b85dd82e136dc
-ms.sourcegitcommit: 4ec96ff1cd563d055fa0689a63f136acf2794a2e
+ms.openlocfilehash: fa393eca697897ee620732b543ebb6889aa035d1
+ms.sourcegitcommit: b922aaf7287bdfb99f848aad455b2b4001b8f5be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "11474728"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "12472570"
 ---
 # <a name="applying-activesync-policies-to-device-accounts-surface-hub"></a>Aplicando políticas do ActiveSync a contas de dispositivo (Surface Hub)
 
+Os Surface Hubs no Windows 10 Team 1703 e versões anteriores usaram o ActiveSync para sincronizar emails & calendário.
 
-Os Surface Hubs que usam contas de dispositivo do Active Directory (provisionados no Hub no formato **domínio\nome** de usuário) e serviços locais do Exchange usam o ActiveSync para sincronizar email e calendário. Isso permite que as pessoas participem e iniciem reuniões agendadas do Surface Hub e enviem por e-mail quadros de comunicações feitos durante a reunião.
+Os Surface Hub requisitos para políticas activeSync em sua organização são os seguintes:
 
-Para que esses recursos funcionem, as políticas do ActiveSync para sua organização devem ser configuradas da seguinte maneira:
-
--   Não pode haver políticas globais que bloqueiem a sincronização de caixa de correio do recurso que está sendo usado pela conta de dispositivo do Surface Hub. Se houver essa política de bloqueio, você precisará adicionar o Surface Hub como um dispositivo permitido.
+-   Não pode haver nenhuma política global que bloqueie a sincronização da caixa de correio de recurso que está sendo usada pela conta de dispositivo Surface Hub do servidor. Se houver essa política de bloqueio, você precisará adicionar o Surface Hub como um dispositivo permitido.
 -   Você deve definir uma política de caixa de correio de dispositivo móvel onde a configuração **PasswordEnabled** seja definida como False. Outras configurações de política de caixa de correio de dispositivo móvel não são compatíveis com o Surface Hub.
 
 ## <a name="allowing-the-deviceid"></a>Permitindo o DeviceID
