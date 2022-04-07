@@ -14,12 +14,12 @@ metadata:
   author: greg-lindsay
   ms.author: greglin
   manager: laurawi
-  ms.openlocfilehash: bb947ae85d725a140ea2cc789575c0d40436ba97
-  ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
+  ms.openlocfilehash: a373029bf07e6f36486342d2e27209365ff7c1b3
+  ms.sourcegitcommit: b922aaf7287bdfb99f848aad455b2b4001b8f5be
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 03/16/2022
-  ms.locfileid: "12449204"
+  ms.lasthandoff: 04/06/2022
+  ms.locfileid: "12472560"
 landingContent:
 - title: Novidades
   linkLists:
@@ -27,6 +27,10 @@ landingContent:
     links:
     - text: Atualizações mais recentes do sistema operacional Surface Hub lançadas
       url: surface-hub-2020-update-whats-new.md
+    - text: Instalar Apps Web Progressivos no Surface Hub
+      url: install-pwa-surface-hub.md
+    - text: Instalar e gerenciar Surface Hub 2 Smart Camera
+      url: surface-hub-2-smart-camera.md
     - text: Surface Hub retorna à série de vídeos do Office
       url: surface-hub-return-to-office-videos.md
     - text: Salas do Microsoft Teams no Surface Hub

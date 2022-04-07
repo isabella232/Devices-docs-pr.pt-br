@@ -9,12 +9,12 @@ author: v-miegge
 ms.author: dpandre
 ms.topic: article
 ms.localizationpriority: high
-ms.openlocfilehash: a5556181b6d7642933bcb10c3073ffddc494015f
-ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
+ms.openlocfilehash: 70b052ec9bc87c0062f72e884c17e6be9cdfdbc0
+ms.sourcegitcommit: b922aaf7287bdfb99f848aad455b2b4001b8f5be
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "12449124"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "12472330"
 ---
 # <a name="surface-hub-update-history"></a>Histórico de atualizações do Surface Hub
 
@@ -31,9 +31,21 @@ Consulte a página "[Informações importantes do Surface Hub](https://support.m
 ## <a name="windows-10-team-2020-update-20h2"></a>Atualização do Windows 10 Team 2020 (20H2)
 
 <details>
+<summary>22 de março de 2022 — atualização para Team com base em KB5011543* (Build do sistema operacional 19042.1620)</summary>
+
+Essa atualização para o Surface Hub inclui melhorias de qualidade e correções de segurança. As principais atualizações Surface Hub, ainda não descritas [no histórico de atualização do Windows 10](https://support.microsoft.com/help/4581839/windows-10-update-history), incluem:
+
+* Adiciona a capacidade de os administradores [instalarem aplicativos Web progressivos](install-pwa-surface-hub.md) (PWAs).
+* Resolve um problema em que os Surface Hubs ingressados no Azure AD ou configurados com uma conta de administrador local não podiam sincronizar o relógio do computador.
+* Resolve um problema em que o uso de sugestões de credenciais de Reuniões e Arquivos com o aplicativo Authenticator podia forçar o usuário a repetir o processo de logon.
+ 
+Consulte o [guia de administração do Surface Hub](/surface-hub/) para habilitar/desabilitar recursos e serviços do dispositivo. *[KB5011543](https://support.microsoft.com/help/5011543)
+</details>
+
+<details>
 <summary>Atualização de 15 de fevereiro de 2022 — para a Equipe com base no KB5010415* (Build do sistema operacional 19042.1566)</summary>
 
- Essa atualização para o Surface Hub inclui melhorias de qualidade e correções de segurança. As principais atualizações do Surface Hub são descritas no [Windows 10 Team 2020 Update 2](surface-hub-2020-update-whats-new.md#windows-10-team-2020-update-2) e também incluem o seguinte:
+Essa atualização para o Surface Hub inclui melhorias de qualidade e correções de segurança. As principais atualizações do Surface Hub são descritas no [Windows 10 Team 2020 Update 2](surface-hub-2020-update-whats-new.md#windows-10-team-2020-update-2) e também incluem o seguinte:
 
 * Correção que permite que os serviços do Exchange sejam desabilitados durante a configuração da Conta de Dispositivo.
 * Melhora a confiabilidade de alguns cenários de instalação da Conta de Dispositivo ao usar uma caixa de correio local do Exchange.
@@ -114,7 +126,7 @@ Essa atualização para o Surface Hub inclui melhorias de qualidade e correçõe
 
 * Atualize para o recurso "Coletar logs" para incluir dados de diagnóstico do Windows no formato csv.
 * Correção que garante que a limpeza da Sessão Final remova completamente todos os dados relacionados ao Edge Chromium.
-* Melhora alguns cenários com Surface Hubs ingressados no Azure AD ao usar o aplicativo Autenticador.
+* Melhora alguns cenários de credenciais pessoais com Surface Hubs ingressados no Azure AD ao usar o aplicativo Authenticator.
 
 Consulte o [guia de administração do Surface Hub](/surface-hub/) para habilitar/desabilitar recursos e serviços do dispositivo. *[KB5004296](https://support.microsoft.com/help/5004296)
 </details>
@@ -161,7 +173,7 @@ Essa atualização é específica do Surface Hub 2S e fornece as atualizações 
 Essa atualização para o Surface Hub inclui melhorias de qualidade e correções de segurança. As principais atualizações Surface Hub, ainda não descritas [no histórico de atualização do Windows 10](https://support.microsoft.com/help/4581839/windows-10-update-history), incluem:
 
 * Correção que permite que a sincronização de calendário com Exchange funcione quando o UPN da conta de dispositivo não for igual a seu SMTP.
-* Adiciona a capacidade dos administradores de desabilitar o uso da Autenticação Moderna durante a sincronização de calendário com Exchange.
+* Adiciona a capacidade de os administradores [desabilitarem o uso da Autenticação Moderna](/windows/client-management/mdm/surfacehub-csp#deviceaccount-exchangemodernauthenabled) durante a sincronização de calendário com o Exchange.
 * Garante que os usuários do Surface Hub não sejam solicitados a inserir credenciais de proxy depois que o recurso "Usar credenciais de conta de dispositivo" tiver sido habilitado.
 * Resolve um problema em que as Windows de atualização e atualização da Loja nunca seriam concluídas se um proxy que exigisse autenticação estivesse em uso.
 * Melhora a confiabilidade do aplicativo Conexão durante cenários de ingestão com fio.
