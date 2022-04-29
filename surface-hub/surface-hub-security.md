@@ -11,12 +11,12 @@ audience: Admin
 ms.topic: article
 ms.date: 01/26/2021
 ms.localizationpriority: High
-ms.openlocfilehash: cd0112f805b60b16c7f32099d5f5e3fde3c821fb
-ms.sourcegitcommit: d6ac31a94b6630f04cf3469d5dcf8b66e46c7412
+ms.openlocfilehash: 6d921fd1a418863eaf03434f2c27344470f12ca2
+ms.sourcegitcommit: e1d7782c2d205da9d1eb6b7aad0333350f2cb5a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "11911376"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "12497734"
 ---
 # <a name="surface-hub-security-overview"></a>Visão geral da segurança do Surface Hub
 
@@ -44,7 +44,7 @@ O SoC tem um processador de segurança separado de cada outro núcleo. Quando vo
 
 #### <a name="secure-boot"></a>Inicialização segura
 
-A inicialização segura é usada para verificar se os componentes do processo de inicialização, incluindo drivers e o sistema operacional, são validados em relação a um banco de dados de assinaturas válidas e conhecidas. No Surface Hub, uma assinatura específica da plataforma deve ser validada antes do sistema operacional autorizado do Windows Team seja carregado. Isso ajuda a evitar que os ataques de um sistema cloanado ou modificado, com um código mal-intencionado, sejam exibidos de forma diferente.  Para saber mais, confira [visão geral da inicialização segura](https://docs.microsoft.com/windows-hardware/design/device-experiences/oem-secure-boot).
+A inicialização segura é usada para verificar se os componentes do processo de inicialização, incluindo drivers e o sistema operacional, são validados em relação a um banco de dados de assinaturas válidas e conhecidas. No Surface Hub, uma assinatura específica da plataforma deve ser validada antes do sistema operacional autorizado do Windows Team seja carregado. Isso ajuda a evitar que os ataques de um sistema cloanado ou modificado, com um código mal-intencionado, sejam exibidos de forma diferente.  Para saber mais, confira [visão geral da inicialização segura](/windows-hardware/design/device-experiences/oem-secure-boot).
 
 ### <a name="operating-system-defenses"></a>Defesas do sistema operacional
 
@@ -52,7 +52,7 @@ Uma vez que o sistema operacional seja verificado à medida que a Microsoft e o 
 
 O Surface Hub usa um recurso de assinatura de código conhecido como UMCI (integridade de código do modo de usuário) no Windows Application Control (antes conhecido como o Device Guard). As configurações de política estão definidas para permitir apenas aplicativos que atendem a um dos seguintes requisitos:
 
-- Aplicativos da plataforma universal do Windows (Microsoft Store) [oficialmente certificados](https://docs.microsoft.com/windows/uwp/publish/the-app-certification-process).
+- Aplicativos da plataforma universal do Windows (Microsoft Store) [oficialmente certificados](/windows/uwp/publish/the-app-certification-process).
 - Aplicativos assinados com a CA (autoridade de certificação) da Microsoft Production Root exclusiva, que só pode ser assinada por funcionários da Microsoft com acesso autorizado a esses certificados.
 - Aplicativos assinados com o Surface Hub Production Root C.
 
@@ -66,9 +66,9 @@ O arquivo de configuração é assinado usando a AC da Microsoft Production Root
 
 Além de bloquear códigos não assinados ou assinados incorretamente por meio do UMCI, o Surface Hub usa o controle do aplicativo Windows para bloquear componentes do Windows, como o prompt de comando, PowerShell e gerenciador de tarefas. Essas proteções refletem um recurso fundamental de design do Surface Hub como um dispositivo de computação seguro. Para obter mais informações, consulte:
 
-- [Visão geral do controle de aplicativo](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control)
+- [Visão geral do controle de aplicativo](/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control)
 
-- [Controle de aplicativos do Windows Defender e proteção de integridade de código baseada na virtualização](https://docs.microsoft.com/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
+- [Controle de aplicativos do Windows Defender e proteção de integridade de código baseada na virtualização](/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
 
 ### <a name="user-interface-defenses"></a>Defesas de Interface do usuário.
 
@@ -98,7 +98,7 @@ Quando gerenciado por meio do SEMM (modo de gerenciamento do Microsoft Surface E
 
 ![Configurações de UEFI do Surface Hub.](images/hub-sec-2.png)
 
-Os administradores podem implementar dispositivos SEMM e Surface Hub 2S registrados usando o [configurador baixável UEFI do Surface](https://www.microsoft.com/download/details.aspx?id=46703). Para saber mais, confira [proteger e gerenciar o Surface Hub 2S com SEMM e o UEFII](https://docs.microsoft.com/surface-hub/surface-hub-2s-secure-with-uefi-semm).
+Os administradores podem implementar dispositivos SEMM e Surface Hub 2S registrados usando o [configurador baixável UEFI do Surface](https://www.microsoft.com/download/details.aspx?id=46703). Para saber mais, confira [proteger e gerenciar o Surface Hub 2S com SEMM e o UEFII](/surface-hub/surface-hub-2s-secure-with-uefi-semm).
 Protegido usando um certificado para proteger a configuração contra violação ou remoção não autorizada, o SEMM habilita o gerenciamento dos seguintes componentes:
 
 - LAN com fio
@@ -124,14 +124,14 @@ O Surface Hub 2S permite que os administradores reinstalem o dispositivo para as
 
 O Surface Hub usa uma conta de dispositivo, também conhecida como "conta room", para se autenticar com o Exchange, o Microsoft Teams e outros serviços. Quando você habilita a rotação de senha, o Hub 2S gera automaticamente uma nova senha a cada sete dias, consistindo em 15-32 caracteres com uma combinação de letras maiúsculas e minúsculas, números e caracteres especiais. Como ninguém conhece a senha, a rotação de senha da conta do dispositivo reduz de forma eficaz o risco associado contra erros humanos e possíveis ataques de segurança de engenharia social.
 
-## <a name="windows-10-enterprise-grade-security"></a>Segurança de nível empresarial do Windows 10
+## <a name="enterprise-grade-security"></a>Segurança de nível empresarial
 
-Além de configurações e recursos específicos do Surface Hub abordados neste documento, o Surface Hub também usa os recursos de segurança padrão do Windows 10. Como por exemplo:
+Além das configurações e recursos específicos do Surface Hub abordados neste documento, o Surface Hub também usa os recursos de segurança padrão do Windows. Como por exemplo:
 
-- **BitLocker**. A SSD do Surface Hub é equipada com BitLocker para proteger os dados no dispositivo. A configuração acompanha os padrões do setor. Para obter mais informações, consulte [visão geral do BitLocker](https://docs.microsoft.com/windows-hardware/design/device-experiences/oem-secure-boot).
-- **Windows Defender.** O mecanismo anti-malware do Windows Defender é executado continuamente no Surface Hub e funciona para corrigir automaticamente ameaças encontradas no Surface Hub. O mecanismo do Windows Defender recebe atualizações automaticamente e é gerenciável por meio das ferramentas de gerenciamento remoto para os administradores de TI. O mecanismo do Windows Defender é um exemplo perfeito de nossa abordagem de defesa de profundidade: se um Malware puder encontrar uma maneira de fornecer uma solução de segurança baseada em codificadores de código central, ele será pego aqui. Para obter mais informações, confira [controle de aplicativos do Windows Defender e proteção de integridade de código baseada na virtualização](https://docs.microsoft.com/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control).
+- **BitLocker**. A SSD do Surface Hub é equipada com BitLocker para proteger os dados no dispositivo. A configuração acompanha os padrões do setor. Para obter mais informações, consulte [visão geral do BitLocker](/windows-hardware/design/device-experiences/oem-secure-boot).
+- **Windows Defender.** O mecanismo anti-malware do Windows Defender é executado continuamente no Surface Hub e funciona para corrigir automaticamente ameaças encontradas no Surface Hub. O mecanismo do Windows Defender recebe atualizações automaticamente e é gerenciável por meio das ferramentas de gerenciamento remoto para os administradores de TI. O mecanismo do Windows Defender é um exemplo perfeito de nossa abordagem de defesa de profundidade: se um Malware puder encontrar uma maneira de fornecer uma solução de segurança baseada em codificadores de código central, ele será pego aqui. Para obter mais informações, confira [controle de aplicativos do Windows Defender e proteção de integridade de código baseada na virtualização](/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control).
 - **Drivers plug and play.** Para impedir que um código mal-intencionado atinja o dispositivo por meio de drivers, o Surface Hub não baixa os drivers avançados para dispositivos PnP. Isso permite que os dispositivos que utilizam drivers básicos, como unidades flash USB, funcionem como esperado enquanto bloqueiam sistemas mais avançados, como impressoras.
-- **Módulo de plataforma confiável 2.0.** O Surface Hub tem um módulo de plataforma confiável (dTPM) padrão do setor para gerar e armazenar hashes e chaves criptográficas. O dTPM protege as teclas usadas para a verificação de fases de inicialização, a chave mestra BitLocker, a tecla de logon sem senha e muito mais. O dTPM atende à certificação [de nível 2 FIPS 140-2](https://docs.microsoft.com/windows/security/threat-protection/fips-140-validation), o padrão de segurança do governo dos Estados Unidos e é compatível com [critérios comuns](https://docs.microsoft.com/windows/security/threat-protection/windows-platform-common-criteria) certificação usada em todo o mundo.
+- **Módulo de plataforma confiável 2.0.** O Surface Hub tem um módulo de plataforma confiável (dTPM) padrão do setor para gerar e armazenar hashes e chaves criptográficas. O dTPM protege as teclas usadas para a verificação de fases de inicialização, a chave mestra BitLocker, a tecla de logon sem senha e muito mais. O dTPM atende à certificação [de nível 2 FIPS 140-2](/windows/security/threat-protection/fips-140-validation), o padrão de segurança do governo dos Estados Unidos e é compatível com [critérios comuns](/windows/security/threat-protection/windows-platform-common-criteria) certificação usada em todo o mundo.
 
 ## <a name="wireless-security-for-surface-hub"></a>Segurança sem fio para Surface Hub
 
@@ -141,24 +141,24 @@ O Miracast faz parte do padrão Vídeo Wi-Fi, que por si só é compatível com 
 
 Wi-Fi Direct ou Wi-Fi "ponto a ponto" (P2P) é um padrão lançado pela Wi-Fi Alliance para redes "Ad-Hoc". Isso permite que os dispositivos com suporte se comuniquem diretamente e criem grupos de redes sem a necessidade de um ponto de acesso Wi-Fi tradicional ou uma conexão de Internet.
 
-A segurança do Wi-Fi Direct é fornecida pelo WPA2 usando o padrão WPS. Os dispositivos podem ser autenticados usando o PIN numérico, um botão de envio físico ou virtual, ou uma mensagem fora da faixa, usando a comunicação em breve. O Surface Hub dá suporte a ambos os botões de envio por padrão, assim como métodos PIN. Para saber mais, confira [Como o Surface Hub resolve problemas de segurança do Wi-Fi Direct](https://docs.microsoft.com/surface-hub/surface-hub-wifi-direct).
+A segurança do Wi-Fi Direct é fornecida pelo WPA2 usando o padrão WPS. Os dispositivos podem ser autenticados usando o PIN numérico, um botão de envio físico ou virtual, ou uma mensagem fora da faixa, usando a comunicação em breve. O Surface Hub dá suporte a ambos os botões de envio por padrão, assim como métodos PIN. Para saber mais, confira [Como o Surface Hub resolve problemas de segurança do Wi-Fi Direct](/surface-hub/surface-hub-wifi-direct).
 
 ## <a name="learn-more"></a>Saiba mais
 
-- [Visão geral da inicialização segura](https://docs.microsoft.com/windows-hardware/design/device-experiences/oem-secure-boot)
+- [Visão geral da inicialização segura](/windows-hardware/design/device-experiences/oem-secure-boot)
 
-- [Visão geral do BitLocker](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview)
+- [Visão geral do BitLocker](/windows/security/information-protection/bitlocker/bitlocker-overview)
 
-- [Visão geral do controle de aplicativo](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control)
+- [Visão geral do controle de aplicativo](/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control)
 
-- [Proteger e gerenciar o Surface Hub 2S com SEMM e UEFI](https://docs.microsoft.com/surface-hub/surface-hub-2s-secure-with-uefi-semm)
+- [Proteger e gerenciar o Surface Hub 2S com SEMM e UEFI](/surface-hub/surface-hub-2s-secure-with-uefi-semm)
 
-- [Como o Surface Hub resolve problemas de segurança do Wi-Fi Direct](https://docs.microsoft.com/surface-hub/surface-hub-wifi-direct)
+- [Como o Surface Hub resolve problemas de segurança do Wi-Fi Direct](/surface-hub/surface-hub-wifi-direct)
 
-- [Controle de aplicativos do Windows Defender e proteção de integridade de código baseada na virtualização](https://docs.microsoft.com/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
+- [Controle de aplicativos do Windows Defender e proteção de integridade de código baseada na virtualização](/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control)
 
 - [Ferramentas Surface para TI](https://www.microsoft.com/download/details.aspx?id=46703)
 
-- [FIPS 140-2 nível 2](https://docs.microsoft.com/windows/security/threat-protection/fips-140-validation)
+- [FIPS 140-2 nível 2](/windows/security/threat-protection/fips-140-validation)
 
-- [Certificações de critérios comuns](https://docs.microsoft.com/windows/security/threat-protection/windows-platform-common-criteria)
+- [Certificações de critérios comuns](/windows/security/threat-protection/windows-platform-common-criteria)

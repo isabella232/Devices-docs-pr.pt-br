@@ -3,7 +3,7 @@ title: Informações sobre Substituição no Próximo Dia Útil e áreas de cobe
 ms.author: v-kaij
 author: greg-lindsay
 manager: laurawi
-ms.date: 06/17/2021
+ms.date: 04/19/2022
 audience: Admin
 ms.topic: article
 ms.prod: surface
@@ -13,18 +13,16 @@ appliesto:
 - Surface
 ms.reviewer: irenewhite
 description: Informações sobre Substituição no Próximo Dia Útil e Áreas de Cobertura.
-ms.openlocfilehash: a6086b7175b336c45fa56d9388c0fac5f36fe549
-ms.sourcegitcommit: beb2f9db90b19b74da6cdee8717cc0888f3b1d70
+ms.openlocfilehash: d1cacb044728a5eb179e22c078dc0d77362b0163
+ms.sourcegitcommit: e1d7782c2d205da9d1eb6b7aad0333350f2cb5a8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "12448275"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "12497804"
 ---
 # <a name="next-business-day-replacement-information--coverage-areas"></a>Informações sobre Substituição no Próximo Dia Útil e áreas de cobertura
 
-A Substituição no Próximo Dia Útil é um serviço pago onde um dispositivo Surface de substituição é entregue em seu endereço no próximo dia útil. 
-
-A Substituição do Próximo Dia Útil está disponível com a compra de seu plano de proteção Complete para Negócios Plus (disponível em alguns países). Esses serviços se aplicam depois que um agente determina que um dispositivo de substituição é necessário, confirma o estoque disponível e envia um pedido de dispositivo de substituição em um tempo limite padrão, predeterminado pela Microsoft. 
+A substituição no Próximo Dia Útil é um serviço pago em que um dispositivo Surface substituto será entregue nas suas instalações até o próximo dia útil (disponibilidade em países/regiões selecionados). Esses serviços se aplicam depois que um agente determina que um dispositivo de substituição é necessário, confirma o estoque disponível e envia um pedido de dispositivo de substituição em um tempo limite padrão, predeterminado pela Microsoft.
 
 ## <a name="guidelines"></a>Diretrizes
 
@@ -39,20 +37,28 @@ Para obter uma lista de códigos postais suportados, confira "Cobertura no próx
 - [Austrália](#australia)
 - [Áustria](#austria)
 - [Bélgica](#belgium)
+- [Bulgária](#bulgaria)
 - [Canadá](#canada)
+- [Croácia](#croatia)
 - [República Tcheca](#czech-republic)
 - [Dinamarca](#denmark)
+- [Estônia](#estonia)
 - [Finlândia](#finland)
 - [França](#france)
 - [Alemanha](#germany)
+- [Grécia](#greece)
 - [Hong Kong](#hong-kong)
 - [Irlanda](#ireland)
 - [Itália](#italy)
 - [Japão](#japan)
+- [Letônia](#latvia)
+- [Lituânia](#lithuania)
+- [Luxemburgo](#luxembourg)
 - [Noruega](#norway)
 - [Polônia](#poland)
 - [Portugal](#portugal)
 - [Cingapura](#singapore)
+- [Eslovênia](#slovenia)
 - [Espanha](#spain)
 - [Suécia](#sweden)
 - [Suíça](#switzerland)
@@ -76,9 +82,19 @@ Para obter uma lista de códigos postais suportados, confira "Cobertura no próx
 - Hora de Corte: 12:00 CET (UTC+1)
 - [Cobertura do próximo dia útil](https://download.microsoft.com/download/f/b/9/fb95d99c-1403-4ecf-bbde-0bab2af2c2ce/NBD%20Coverage%20-%20Belgium%20Post%20Codes%20030321.xlsx)
 
+#### <a name="bulgaria"></a>Bulgária
+
+- Hora de Corte: 12:00 CET (UTC+1)
+- [Cobertura do próximo dia útil](https://download.microsoft.com/download/a/5/c/a5c0d6af-114e-4ecf-aea8-55e556b52adb/NBD_Coverage_BulgariaPostCodes_030222.xlsx)
+
 #### <a name="canada"></a>Canadá
 
 - Hora de corte: 14:00 CST (UTC-6)
+
+#### <a name="croatia"></a>Croácia
+
+- Hora de Corte: 12:00 CET (UTC+1)
+- [Cobertura do próximo dia útil](https://download.microsoft.com/download/4/e/6/4e6bae3f-80bd-4b28-9436-8519dfcd5b3e/NBD_Coverage_CroatiaPostCodes_030222.xlsx)
 
 #### <a name="czech-republic"></a>República Tcheca
 
@@ -89,6 +105,11 @@ Para obter uma lista de códigos postais suportados, confira "Cobertura no próx
 
 - Hora de Corte: 12:00 CET (UTC+1) 
 - [Cobertura do próximo dia útil](https://download.microsoft.com/download/9/e/6/9e6b4db6-b9f6-412e-a296-a10b5bc6e591/NBD%20Coverage%20-%20Denmark%20Post%20Codes%20030321.xlsx)
+
+#### <a name="estonia"></a>Estônia
+
+- Hora de Corte: 12:00 CET (UTC+1)
+- [Cobertura do próximo dia útil](https://download.microsoft.com/download/f/e/8/fe87e78a-384d-4860-b96c-c0956f2393d4/NBD_Coverage_EstoniaPostCodes_030222.xlsx)
 
 #### <a name="finland"></a>Finlândia
 
@@ -104,6 +125,11 @@ Para obter uma lista de códigos postais suportados, confira "Cobertura no próx
 
 - Hora de Corte: 12:00 CET (UTC+1)
 - [Cobertura do próximo dia útil](https://download.microsoft.com/download/d/4/f/d4f6c11f-ada2-4400-b502-2e722644427b/NBD%20Coverage%20-%20Germany%20Post%20Codes%20042821.xlsx)
+
+#### <a name="greece"></a>Grécia
+
+- Hora de Corte: 12:00 CET (UTC+1)
+- [Cobertura do próximo dia útil](https://download.microsoft.com/download/5/7/8/578c1206-8771-41dd-a02b-fce8ac736200/NBD_Coverage_GreecePostCodes_030222.xlsx)
 
 #### <a name="hong-kong"></a>Hong Kong
 
@@ -125,6 +151,22 @@ Para obter uma lista de códigos postais suportados, confira "Cobertura no próx
 - Hora de corte: 15:30 JST (UTC+9)
 - [Cobertura do próximo dia útil](https://download.microsoft.com/download/c/7/8/c781a035-19f7-4563-9dd9-e8c5f3713342/NBD%20Coverage%20-%20Japan%20Post%20Codes%20060121.xlsx)
 
+#### <a name="latvia"></a>Letônia
+
+- Hora de Corte: 12:00 CET (UTC+1)
+- [Cobertura do próximo dia útil](https://download.microsoft.com/download/d/6/c/d6c8c486-a667-4e52-8867-d0dff68cfe39/NBD_Coverage_LatviaPostCodes_030222.xlsx)
+
+#### <a name="lithuania"></a>Lituânia
+
+- Hora de Corte: 12:00 CET (UTC+1)
+- [Cobertura do próximo dia útil](https://download.microsoft.com/download/b/5/c/b5c6602e-73fc-493d-9741-14f28b58c1e8/NBD_Coverage_LithuaniaPostCodes_030222.xlsx)
+
+#### <a name="luxembourg"></a>Luxemburgo
+
+- Hora de Corte: 12:00 CET (UTC+1)
+- [Cobertura do próximo dia útil](https://download.microsoft.com/download/d/6/c/d6c8c486-a667-4e52-8867-d0dff68cfe39/NBD_Coverage_LatviaPostCodes_030222.xlsx)
+
+
 #### <a name="norway"></a>Noruega
 
 - Hora de Corte: 12:00 CET (UTC+1)
@@ -141,10 +183,16 @@ Para obter uma lista de códigos postais suportados, confira "Cobertura no próx
 - Hora de Corte: 12:00 CET (UTC+1)
 - [Cobertura do próximo dia útil](https://download.microsoft.com/download/5/1/4/5146ceeb-651c-4b10-afeb-ea1abb733e33/NBD%20Coverage%20-%20Portugal%20Post%20Codes%20030321.xlsx)
 
+
 #### <a name="singapore"></a>Cingapura
 
 - Hora de corte: 13:00 SGT (UTC+8)
 - A cobertura do Próximo Dia Útil está disponível em todos os códigos postais deste país.
+
+#### <a name="slovenia"></a>Eslovênia
+
+- Hora de Corte: 12:00 CET (UTC+1)
+- [Cobertura do próximo dia útil](https://download.microsoft.com/download/c/4/4/c4436f03-1c81-487b-9e43-e002292ebe28/NBD_Coverage_SloveniaPostCodes_030222.xlsx)
 
 #### <a name="spain"></a>Espanha
 
