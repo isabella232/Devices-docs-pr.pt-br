@@ -11,16 +11,16 @@ audience: Admin
 ms.topic: article
 ms.date: 02/15/2022
 ms.localizationpriority: Medium
-ms.openlocfilehash: 6a35783c08fdc4da3b3c7aabcd99da385c292d24
-ms.sourcegitcommit: b922aaf7287bdfb99f848aad455b2b4001b8f5be
+ms.openlocfilehash: 995766eb216051de270a387c15c96ee42dd008a3
+ms.sourcegitcommit: e1d7782c2d205da9d1eb6b7aad0333350f2cb5a8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "12472530"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "12497954"
 ---
 # <a name="whats-new-in-windows-10-team-2020-updates"></a>Novidades nas atualizações Windows 10 Team 2020
 
-Surface Hub benefícios de atualizações periódicas que fornecem novos recursos e funcionalidades. A Atualização 2020 (20H2) para o Windows 10 Team e, posteriormente, a Atualização 1 & Atualização 2, fornecem melhorias significativas na implantação e na capacidade de gerenciamento do dispositivo, juntamente com os recursos mais recentes Windows 10.
+Surface Hub benefícios de atualizações periódicas que fornecem novos recursos e funcionalidades. A Atualização 2020 (20H2) para o Windows 10 Team e, posteriormente, a Atualização 1 do & Atualização 2, oferecem melhorias significativas na implantação e na capacidade de gerenciamento do dispositivo, juntamente com os recursos mais Windows mais recentes.
 
 ## <a name="windows-10-team-2020-update-2"></a>Windows 10 Team Atualização 2 de 2020 
 
@@ -38,7 +38,7 @@ Os administradores podem instalar remotamente PWAs em Surface Hubs usando um MDM
 
 ### <a name="ease-of-access-updates"></a>Atualizações de facilidade de acesso
 
-Os usuários podem ajustar as configurações de Facilidade de Acesso durante Surface Hub sessão e fechar aplicativos, assim como fazem em outras versões do Windows 10. 
+Os usuários podem ajustar as configurações de Facilidade de Acesso durante uma sessão Surface Hub e fechar aplicativos, assim como fazem em outras versões do Windows 10 ou Windows 11. 
 
 - **Facilidade de acesso**. Os usuários podem ajustar as seguintes configurações sem entrar: Exibição, Cursor de texto, Lupa, Alto Contraste, Narrador, Legendas ocultas e Teclado. 
 - **Interface do usuário familiar para aplicativos**. Os usuários podem fechar aplicativos no Surface Hub selecionando o botão Fechar no canto superior direito do aplicativo. Isso remove a necessidade de fechar aplicativos arrastando-os para a parte inferior da Surface Hub exibição. (Observação: essa funcionalidade estará disponível no navegador Edge como parte da próxima atualização do Edge, agendada para março de 2022.) 
@@ -91,9 +91,9 @@ Para saber mais, confira:
 
 ### <a name="azure-active-directory-joined-devices"></a>Azure Active Directory dispositivos ingressados
 
-- **SSO (logon único) para dispositivos ingressados no Azure AD**. Quando os usuários Microsoft 365 suas credenciais para Minhas reuniões e **arquivos, suas** credenciais fluem perfeitamente de aplicativo para aplicativo, incluindo Microsoft 365 experiências no navegador.
-- **Ac (acesso condicional) para dispositivos ingressados no Azure AD**. Os administradores de TI podem controlar o acesso do usuário aos recursos organizacionais dos Surface Hubs ingressados no Azure AD atribuindo políticas de dispositivo de acordo com seus requisitos corporativos de segurança e conformidade.
-- **Suporte para administradores não globais para dispositivos ingressados no Azure AD**. Os clientes podem escolher um conjunto mais granular de administradores em sua hierarquia de administração para gerenciar Surface Hub. Para saber mais, confira [Configurar contas de administrador não globais Surface Hub](surface-hub-2s-nonglobal-admin.md).
+- **SSO (logon único) para Azure AD ingressados**. Quando os usuários Microsoft 365 suas credenciais para Minhas reuniões e **arquivos, suas** credenciais fluem perfeitamente de aplicativo para aplicativo, incluindo Microsoft 365 experiências no navegador.
+- **Ac (acesso condicional) para Azure AD ingressados**. Os administradores de TI podem controlar o acesso do usuário aos recursos organizacionais Azure AD Surface Hubs ingressados atribuindo políticas de dispositivo de acordo com seus requisitos corporativos de segurança e conformidade.
+- **Suporte para administradores não globais para Azure AD ingressados**. Os clientes podem escolher um conjunto mais granular de administradores em sua hierarquia de administração para gerenciar Surface Hub. Para saber mais, confira [Configurar contas de administrador não globais Surface Hub](surface-hub-2s-nonglobal-admin.md).
 
 ### <a name="inking-improvements"></a>Melhorias de escrita à tinta
 
@@ -112,7 +112,7 @@ Para saber mais, confira:
 ### <a name="security"></a>Segurança
 
 - **Entrada sem senha usando chaves de segurança FIDO2** Com as chaves de segurança FIDO2, os usuários podem entrar rapidamente no Surface Hub sem digitar nomes de usuário e senhas. Combinado com o SSO (single Sign-On), esse recurso fornece autenticação rápida e perfeita para arquivos, aplicativos e sites durante uma reunião. Para saber mais, confira [Configurar a entrada sem senha no Surface Hub](surface-hub-2s-phone-authenticate.md).
-- **Melhorias na entrada sem senha usando Microsoft Authenticator**.  Para organizações que usam o Azure AD, os usuários podem entrar com o Microsoft Authenticator aplicativo. Além disso, os usuários podem entrar com seus aliases de email preferenciais no Azure AD ou seu NOME UPN. Para saber mais, confira [Entrar no Surface Hub com Microsoft Authenticator](surface-hub-authenticator-app.md).
+- **Melhorias na entrada sem senha usando Microsoft Authenticator**.  Para organizações que usam Azure AD, os usuários podem entrar com o Microsoft Authenticator aplicativo. Além disso, os usuários podem entrar com seus aliases de email preferenciais no Azure AD ou no NOME UPN. Para saber mais, confira [Entrar no Surface Hub com Microsoft Authenticator](surface-hub-authenticator-app.md).
 
 ## <a name="learn-more"></a>Saiba mais
 

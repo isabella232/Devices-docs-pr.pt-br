@@ -17,12 +17,12 @@ ms.date: 12/08/2021
 appliesto:
 - Windows 10
 - Windows 11
-ms.openlocfilehash: 9e08b3dd804b8b4ac6e2ee4dd4041ed2e684d5d7
-ms.sourcegitcommit: b922aaf7287bdfb99f848aad455b2b4001b8f5be
+ms.openlocfilehash: 5e54a56a49e16ce23d760337f5ae8a1d76ab7728
+ms.sourcegitcommit: e1d7782c2d205da9d1eb6b7aad0333350f2cb5a8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "12472640"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "12497744"
 ---
 # <a name="microsoft-surface-enterprise-management-mode-semm"></a>Microsoft Surface Enterprise Management Mode (SEMM)
 
@@ -264,7 +264,7 @@ Para criar um certificado autoassinado:
 4. Verifique se suas permissões estão definidas para permitir que os scripts sejam executados. Por padrão, os scripts são impedidos de ser executados, a menos que você modifique a política de execução. Para saber mais, confira [Sobre políticas de execução](/powershell/module/microsoft.powershell.core/about/about_execution_policies).
 5. No prompt de comando, insira o caminho completo do script e pressione **Enter**. O script cria um Certificado de Demonstração chamado TempOwner.pfx.
 
-Como alternativa, você pode criar seu próprio certificado autoassinado usando o PowerShell. Para obter mais informações, [consulte New-SelfSignedCertificate](/powershell/module/pkiclient/new-selfsignedcertificate).
+Como alternativa, você pode criar seu próprio certificado autoassinado usando o PowerShell. Para obter mais informações, [consulte New-SelfSignedCertificate](/powershell/module/pki/new-selfsignedcertificate?view=windowsserver2022-ps&preserve-view=true).
 
 >[!NOTE]
 >Para organizações que usam uma raiz offline em sua infraestrutura de PKI, o Microsoft Surface UEFI Configurator deve ser executado em um ambiente conectado à AC raiz para autenticar o certificado SEMM. Os pacotes gerados pelo Microsoft Surface UEFI Configurator podem ser transferidos como arquivos, para que possam ser transferidos para fora do ambiente de rede offline com armazenamento removível, como um pen drive.
